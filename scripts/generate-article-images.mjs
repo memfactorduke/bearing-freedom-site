@@ -8,13 +8,13 @@ if (!XAI_API_KEY) { console.error('Set XAI_API_KEY'); process.exit(1); }
 const articlesDir = join(process.cwd(), 'src', 'content', 'articles');
 const imagesDir = join(process.cwd(), 'public', 'images', 'articles');
 
-// Photography styles to rotate through for variety
+// Photography styles — emphasis on real stock photo look, not AI aesthetic
 const STYLES = [
-  'photojournalistic, natural light, editorial',
-  'dramatic cinematic lighting, shallow depth of field',
-  'moody atmospheric, golden hour, documentary style',
-  'clean sharp editorial, studio quality, high contrast',
-  'warm natural tones, reportage style, candid feel',
+  'shot on Canon 5D Mark IV, 50mm f/1.8, natural light, slight grain',
+  'shot on Nikon D850, 35mm lens, overcast daylight, muted tones',
+  'shot on Sony A7III, 85mm f/1.4, shallow depth of field, warm tones',
+  'shot on Fuji X-T4, 23mm, documentary style, natural color grading',
+  'shot on Canon R5, 70-200mm, editorial photography, available light',
 ];
 
 // Build a stock-photo-style prompt from article content
@@ -24,17 +24,17 @@ function buildImagePrompt(title, content, styleIndex) {
 
   // Extract the actual subject matter — what would a stock photo editor search for?
   if (lower.includes('machine gun') || lower.includes('fully automatic'))
-    subjects.push('military-grade automatic rifle on display');
+    subjects.push('close-up of a gun lock and chain on a wooden surface');
   else if (lower.includes('ar-15') || lower.includes('assault weapon') || lower.includes('rifle ban'))
-    subjects.push('modern sporting rifle on a wooden table');
+    subjects.push('rifle case on a workbench, shallow depth of field');
   else if (lower.includes('magazine ban') || lower.includes('magazine capacity'))
-    subjects.push('rifle magazines and ammunition on a workbench');
+    subjects.push('ammunition magazines on a dark surface, overhead shot');
   else if (lower.includes('pistol brace') || lower.includes('stabilizing brace'))
-    subjects.push('pistol with stabilizing brace, close-up detail');
+    subjects.push('close-up detail of gun parts on a clean surface');
   else if (lower.includes('concealed carry') || lower.includes('holster'))
-    subjects.push('concealed carry holster on belt, everyday carry');
+    subjects.push('leather holster on a wooden table, warm light');
   else if (lower.includes('stun gun') || lower.includes('non-lethal'))
-    subjects.push('self-defense tools and personal safety equipment');
+    subjects.push('personal safety equipment on a desk');
 
   if (lower.includes('supreme court') || lower.includes('scotus'))
     subjects.push('the United States Supreme Court building exterior');
@@ -84,7 +84,7 @@ function buildImagePrompt(title, content, styleIndex) {
   if (lower.includes('constitution'))
     subjects.push('the US Constitution on aged parchment, dramatic lighting');
   if (lower.includes('self-defense') || lower.includes('home defense'))
-    subjects.push('an American home at night with a porch light on');
+    subjects.push('a deadbolt lock on a front door, close-up, warm interior light');
   if (lower.includes('gun-free zone') || lower.includes('sensitive place'))
     subjects.push('a "gun free zone" sign at a public building entrance');
   if (lower.includes('3d print'))
@@ -98,7 +98,7 @@ function buildImagePrompt(title, content, styleIndex) {
 
   // Fallback — if nothing specific matched, derive from title
   if (subjects.length === 0) {
-    subjects.push('an American flag waving against a dramatic cloudy sky');
+    subjects.push('a worn copy of the US Constitution on a dark wooden desk');
   }
 
   // Pick the most specific subject (last matched tends to be most specific)
@@ -106,7 +106,7 @@ function buildImagePrompt(title, content, styleIndex) {
   const picked = subjects.slice(-2).join(', with ');
   const style = STYLES[styleIndex % STYLES.length];
 
-  return `A ${style} stock photograph of ${picked}. High resolution, professional editorial quality. NO text, words, watermarks, or letters anywhere in the image.`;
+  return `${style}. Editorial stock photograph of ${picked}. Imperfect real-world lighting, no people's faces visible, simple composition with negative space. Looks like a Getty Images or Shutterstock editorial photo. Absolutely NO text, words, watermarks, logos, or letters anywhere in the image. NOT an illustration or digital art.`;
 }
 
 const files = (await readdir(articlesDir)).filter(f => f.endsWith('.md'));

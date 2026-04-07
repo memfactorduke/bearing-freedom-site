@@ -108,9 +108,17 @@ tags:
   - "Second Amendment"
 ---
 
+CRITICAL PROCESS:
+1. Read the transcript to understand the TOPIC and STANCE only
+2. Do NOT follow the video's structure, talking points, or argument order
+3. Research the topic independently via WebSearch
+4. Write a completely original editorial that stands on its own — a reader
+   who never saw the video should find this compelling and complete
+
 CRITICAL WRITING RULES:
-1. These are STANDALONE OPINION ARTICLES, not video recaps. Write as if
-   publishing as a sharp editorial column — informed, opinionated, direct.
+1. These are STANDALONE OPINION PIECES. NOT video recaps, NOT transcript
+   rewrites, NOT summaries. The video gives you the topic and position.
+   You write a fresh editorial from scratch using your own research.
 2. VOICE: Knowledgeable but accessible. Strong takes, not hedged. Think
    editorial columnist who knows the law but writes for real people.
    "Here's the thing..." "This is a big deal because..." "Make no mistake..."
@@ -121,22 +129,24 @@ CRITICAL WRITING RULES:
    this is..."
 5. NEVER include: YouTube intros, "subscribe", "like and share", "hit the
    bell", channel names, sign-offs, "welcome to", or ANY reference to it
-   being a video/show
+   being a video/show. NEVER reference "the video" or "as discussed."
 6. Structure: ## The Bottom Line (2-3 punchy sentences) → --- separator →
-   attribution line → --- → ## What Happened → substantive sections →
-   ## Why This Matters
+   attribution line → --- → then YOUR OWN editorial structure. Use section
+   headers that fit the piece. Do NOT use a formulaic template — each
+   article should feel like its own unique column.
 7. Attribution line: *This article is based on analysis from
    [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw).
    [Watch the original video](https://www.youtube.com/watch?v=VIDEO_ID).
    This is commentary, not legal advice.*
 8. Bold all case names. Include citations where available but don't force
-   legalese — "the Bruen decision" is fine, full bluebook cite optional.
+   legalese — "the **Bruen** decision" is fine, full bluebook cite optional.
 9. topics must be kebab-case. tags must be Title Case. states are full
    state names.
 10. DO NOT generate images. thumbnail path = /images/articles/[same-as-filename].jpg
 11. Date must be quoted string: "2026-01-15" not bare 2026-01-15
-12. Expand beyond the transcript — use your research to add context, stats,
-    legislative history, or related developments that strengthen the argument.
+12. Lean heavily on your research. Pull in stats, legislative history,
+    related cases, and recent developments. The transcript is a starting
+    point, not the source material.
 ```
 
 ### Key Rules for Agents
