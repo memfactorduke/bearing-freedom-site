@@ -23,6 +23,7 @@ tags:
   - "HB626"
   - "Gun Control"
   - "Virginia Tech"
+image_prompt: "an empty university lecture hall at night seen through a glass door, emergency exit sign glowing red, one backpack left on a seat, cold institutional lighting"
 ---
 
 ## The Bottom Line
