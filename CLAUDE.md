@@ -37,6 +37,24 @@ Fields: title, date, youtube_url, youtube_id, thumbnail, duration, author, topic
 - Fonts: Playfair Display (headings), Newsreader (body), DM Sans (UI)
 - All content is markdown with Zod-validated frontmatter
 
+## Article Generation Pipeline
+Full docs: `docs/article-pipeline.md`
+1. Get video IDs from YouTube channel (UCmuwdcAbeBR16b8q6CBUsTw) via yt-dlp
+2. Download transcripts, clean VTT artifacts
+3. Generate articles via parallel sonnet agents — agents use video as topic/stance source ONLY, research independently, write original editorials
+4. **ALWAYS humanize** every article with `/humanizer` skill before committing — strips AI writing patterns
+5. Validate with `npm run build`
+6. Generate stock images via xAI (XAI_API_KEY in .env) — prompts must be short, positive-only, no negative prompting
+7. Rebuild vector search index (VOYAGE_API_KEY)
+
+## Article Writing Voice
+- Standalone opinion pieces, NOT video recaps or transcript rewrites
+- Pro-2A, opinionated, direct, knowledgeable but accessible
+- First person ("I think", "in my view")
+- No both-sides hedging
+- No YouTube references (subscribe, like, channel names)
+- Sentence-case headings, no em dashes, no rule-of-three, no signposting phrases
+
 ## Rules
 - Use plan mode for any task with 3+ steps
 - Use subagents liberally to preserve context
@@ -45,3 +63,4 @@ Fields: title, date, youtube_url, youtube_id, thumbnail, duration, author, topic
 - Run `npm run build` to verify before claiming build works
 - Keep components small and focused — one file per component
 - Follow existing naming patterns (PascalCase components, kebab-case content files)
+- Increment version on every update (current: v0.0.4)
