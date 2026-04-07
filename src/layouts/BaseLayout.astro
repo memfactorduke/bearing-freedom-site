@@ -1,6 +1,5 @@
 ---
 import '../styles/global.css';
-import ChatBot from '../components/ChatBot.astro';
 
 interface Props {
   title: string;
@@ -75,18 +74,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
             <a href="/" class="px-3 py-1.5 rounded text-sm text-white/75 hover:text-white hover:bg-white/8 transition-all">Home</a>
             <a href="/videos" class="px-3 py-1.5 rounded text-sm text-white/75 hover:text-white hover:bg-white/8 transition-all">Videos</a>
             <a href="/topics" class="px-3 py-1.5 rounded text-sm text-white/75 hover:text-white hover:bg-white/8 transition-all">Topics</a>
-            <a href="/books" class="px-3 py-1.5 rounded text-sm text-white/75 hover:text-white hover:bg-white/8 transition-all">Books</a>
             <a href="/search" class="px-3 py-1.5 rounded text-sm text-white/75 hover:text-white hover:bg-white/8 transition-all flex items-center gap-1.5">
               <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
               Search
             </a>
+            <a href="/contact" class="px-3 py-1.5 rounded text-sm text-white/75 hover:text-white hover:bg-white/8 transition-all">Contact</a>
             <div class="w-px h-5 bg-white/15 mx-2"></div>
-            <button id="header-chat-btn"
-              class="flex items-center gap-1.5 bg-gradient-to-r from-gold-dark to-gold text-navy px-3.5 py-1.5 rounded text-sm font-semibold hover:shadow-lg hover:shadow-gold/20 transition-all hover:scale-[1.02] active:scale-[0.98]">
-              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z"/></svg>
-              Ask BF Assistant
-              <span class="text-[8px] bg-navy/20 px-1 py-0.5 rounded uppercase font-bold">Beta</span>
-            </button>
             <a href="https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw" target="_blank" rel="noopener"
               class="flex items-center gap-1.5 border border-white/20 text-white/80 px-3 py-1.5 rounded text-sm hover:text-white hover:border-white/30 transition-all">
               <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.19a3.02 3.02 0 00-2.12-2.14C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.38.55A3.02 3.02 0 00.5 6.19 31.97 31.97 0 000 12a31.97 31.97 0 00.5 5.81 3.02 3.02 0 002.12 2.14c1.88.55 9.38.55 9.38.55s7.5 0 9.38-.55a3.02 3.02 0 002.12-2.14A31.97 31.97 0 0024 12a31.97 31.97 0 00-.5-5.81zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/></svg>
@@ -109,15 +102,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
           <a href="/" class="block px-3 py-2 rounded text-sm text-white/80 hover:text-white hover:bg-white/8">Home</a>
           <a href="/videos" class="block px-3 py-2 rounded text-sm text-white/80 hover:text-white hover:bg-white/8">Videos</a>
           <a href="/topics" class="block px-3 py-2 rounded text-sm text-white/80 hover:text-white hover:bg-white/8">Topics</a>
-          <a href="/books" class="block px-3 py-2 rounded text-sm text-white/80 hover:text-white hover:bg-white/8">Books</a>
           <a href="/search" class="block px-3 py-2 rounded text-sm text-white/80 hover:text-white hover:bg-white/8">Search</a>
+          <a href="/contact" class="block px-3 py-2 rounded text-sm text-white/80 hover:text-white hover:bg-white/8">Contact</a>
           <div class="pt-2 space-y-2">
-            <button id="header-chat-btn-mobile"
-              class="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-gold-dark to-gold text-navy px-4 py-2.5 rounded text-sm font-semibold">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z"/></svg>
-              Ask BF Assistant
-              <span class="text-[8px] bg-navy/20 px-1 py-0.5 rounded uppercase font-bold">Beta</span>
-            </button>
             <a href="https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw" target="_blank" rel="noopener"
               class="block text-center border border-white/20 text-white/80 px-4 py-2 rounded text-sm">
               YouTube Channel
@@ -205,7 +192,5 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       });
     </script>
 
-    <!-- BF Assistant Chatbot -->
-    <ChatBot />
   </body>
 </html>
