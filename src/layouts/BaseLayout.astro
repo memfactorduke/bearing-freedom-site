@@ -25,7 +25,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
     <title>{title} | Bearing Freedom</title>
     <meta name="description" content={description} />
@@ -43,70 +43,54 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta name="twitter:description" content={description} />
     {image && <meta name="twitter:image" content={image} />}
 
-    <!-- Analytics (GoatCounter) — disabled for Bearing Freedom -->
-    <!-- <script is:inline data-goatcounter="https://memfactor.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script> -->
-
     <!-- Pagefind -->
     <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
     <script is:inline src="/pagefind/pagefind-ui.js"></script>
   </head>
   <body class="min-h-screen flex flex-col">
-    <!-- Top accent bar -->
-    <div class="h-1 bg-gradient-to-r from-gold-dark via-gold to-gold-dark"></div>
 
     <!-- Navigation -->
-    <nav class="bg-navy text-white/90 sticky top-0 z-50 backdrop-blur-md bg-navy/95">
+    <nav class="sticky top-0 z-50 backdrop-blur-xl bg-void/90 border-b border-border-subtle">
       <div class="max-w-7xl mx-auto px-5 lg:px-8">
-        <div class="flex items-center justify-between h-16">
+        <div class="flex items-center justify-between h-14">
           <a href="/" class="flex items-center gap-3 group">
-            <!-- Logo mark -->
-            <div class="w-9 h-9 rounded bg-gradient-to-br from-gold to-gold-dark flex items-center justify-center shrink-0 group-hover:shadow-lg group-hover:shadow-gold/20 transition-shadow">
-              <span class="text-navy font-bold text-sm font-[Playfair_Display] leading-none">BF</span>
-            </div>
-            <div class="hidden sm:block">
-              <div class="text-[15px] font-semibold tracking-tight text-white">Bearing Freedom</div>
-              <div class="text-[10px] text-gold tracking-[0.2em] uppercase font-medium -mt-0.5">2A Commentary</div>
-            </div>
-            <span class="text-[9px] text-white/20 font-mono ml-1 self-end mb-0.5">v0.0.1</span>
+            <span class="text-accent font-[Syne] font-extrabold text-xl tracking-tight group-hover:opacity-80 transition-opacity">BF</span>
+            <span class="hidden sm:block text-[13px] font-[Syne] font-medium tracking-wide text-text-secondary uppercase">Bearing Freedom</span>
           </a>
 
-          <div class="hidden md:flex items-center gap-1">
-            <a href="/" class="px-3 py-1.5 rounded text-sm text-white/75 hover:text-white hover:bg-white/8 transition-all">Home</a>
-            <a href="/videos" class="px-3 py-1.5 rounded text-sm text-white/75 hover:text-white hover:bg-white/8 transition-all">Videos</a>
-            <a href="/topics" class="px-3 py-1.5 rounded text-sm text-white/75 hover:text-white hover:bg-white/8 transition-all">Topics</a>
-            <a href="/search" class="px-3 py-1.5 rounded text-sm text-white/75 hover:text-white hover:bg-white/8 transition-all flex items-center gap-1.5">
-              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-              Search
-            </a>
-            <a href="/contact" class="px-3 py-1.5 rounded text-sm text-white/75 hover:text-white hover:bg-white/8 transition-all">Contact</a>
-            <div class="w-px h-5 bg-white/15 mx-2"></div>
+          <div class="hidden md:flex items-center gap-6">
+            <a href="/" class="text-[13px] font-[Syne] font-medium text-text-secondary hover:text-text uppercase tracking-wide transition-colors">Articles</a>
+            <a href="/videos" class="text-[13px] font-[Syne] font-medium text-text-secondary hover:text-text uppercase tracking-wide transition-colors">Videos</a>
+            <a href="/topics" class="text-[13px] font-[Syne] font-medium text-text-secondary hover:text-text uppercase tracking-wide transition-colors">Topics</a>
+            <a href="/search" class="text-[13px] font-[Syne] font-medium text-text-secondary hover:text-text uppercase tracking-wide transition-colors">Search</a>
+            <a href="/contact" class="text-[13px] font-[Syne] font-medium text-text-secondary hover:text-text uppercase tracking-wide transition-colors">Contact</a>
             <a href="https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw" target="_blank" rel="noopener"
-              class="flex items-center gap-1.5 border border-white/20 text-white/80 px-3 py-1.5 rounded text-sm hover:text-white hover:border-white/30 transition-all">
+              class="text-[13px] font-[Syne] font-medium text-accent hover:text-accent-hover uppercase tracking-wide transition-colors flex items-center gap-1.5">
               <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.19a3.02 3.02 0 00-2.12-2.14C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.38.55A3.02 3.02 0 00.5 6.19 31.97 31.97 0 000 12a31.97 31.97 0 00.5 5.81 3.02 3.02 0 002.12 2.14c1.88.55 9.38.55 9.38.55s7.5 0 9.38-.55a3.02 3.02 0 002.12-2.14A31.97 31.97 0 0024 12a31.97 31.97 0 00-.5-5.81zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/></svg>
-              YouTube
+              YT
             </a>
           </div>
 
           <!-- Mobile menu button -->
-          <button id="mobile-menu-btn" class="md:hidden text-white/80 hover:text-white p-1" aria-label="Toggle menu">
+          <button id="mobile-menu-btn" class="md:hidden text-text-secondary hover:text-text p-1" aria-label="Toggle menu">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path id="menu-icon-open" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
         </div>
       </div>
 
       <!-- Mobile menu -->
-      <div id="mobile-menu" class="hidden md:hidden border-t border-white/10">
-        <div class="px-5 py-4 space-y-1">
-          <a href="/" class="block px-3 py-2 rounded text-sm text-white/80 hover:text-white hover:bg-white/8">Home</a>
-          <a href="/videos" class="block px-3 py-2 rounded text-sm text-white/80 hover:text-white hover:bg-white/8">Videos</a>
-          <a href="/topics" class="block px-3 py-2 rounded text-sm text-white/80 hover:text-white hover:bg-white/8">Topics</a>
-          <a href="/search" class="block px-3 py-2 rounded text-sm text-white/80 hover:text-white hover:bg-white/8">Search</a>
-          <a href="/contact" class="block px-3 py-2 rounded text-sm text-white/80 hover:text-white hover:bg-white/8">Contact</a>
-          <div class="pt-2 space-y-2">
+      <div id="mobile-menu" class="hidden md:hidden border-t border-border-subtle">
+        <div class="px-5 py-4 space-y-1 bg-void/95 backdrop-blur-xl">
+          <a href="/" class="block py-2.5 text-[13px] font-[Syne] font-medium text-text-secondary hover:text-accent uppercase tracking-wide">Articles</a>
+          <a href="/videos" class="block py-2.5 text-[13px] font-[Syne] font-medium text-text-secondary hover:text-accent uppercase tracking-wide">Videos</a>
+          <a href="/topics" class="block py-2.5 text-[13px] font-[Syne] font-medium text-text-secondary hover:text-accent uppercase tracking-wide">Topics</a>
+          <a href="/search" class="block py-2.5 text-[13px] font-[Syne] font-medium text-text-secondary hover:text-accent uppercase tracking-wide">Search</a>
+          <a href="/contact" class="block py-2.5 text-[13px] font-[Syne] font-medium text-text-secondary hover:text-accent uppercase tracking-wide">Contact</a>
+          <div class="pt-3 border-t border-border-subtle">
             <a href="https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw" target="_blank" rel="noopener"
-              class="block text-center border border-white/20 text-white/80 px-4 py-2 rounded text-sm">
+              class="block py-2.5 text-[13px] font-[Syne] font-medium text-accent uppercase tracking-wide">
               YouTube Channel
             </a>
           </div>
@@ -120,55 +104,40 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     </main>
 
     <!-- Footer -->
-    <footer class="bg-navy-dark text-white/50 relative overflow-hidden">
-      <!-- Decorative top border -->
-      <div class="h-px bg-gradient-to-r from-transparent via-gold/40 to-transparent"></div>
-
-      <div class="max-w-7xl mx-auto px-5 lg:px-8 py-14 relative">
-        <div class="grid md:grid-cols-4 gap-10 mb-12">
-          <div class="md:col-span-2">
-            <div class="flex items-center gap-3 mb-4">
-              <div class="w-8 h-8 rounded bg-gradient-to-br from-gold to-gold-dark flex items-center justify-center">
-                <span class="text-navy font-bold text-xs font-[Playfair_Display]">BF</span>
-              </div>
-              <div>
-                <div class="text-white font-semibold text-sm">Bearing Freedom</div>
-                <div class="text-[10px] text-gold tracking-[0.15em] uppercase">2A Commentary</div>
-              </div>
-            </div>
-            <p class="text-sm leading-relaxed max-w-md text-white/40">
-              Second Amendment commentary and opinion. Fresh perspectives on your right to keep and bear arms.
+    <footer class="border-t border-border-subtle">
+      <div class="max-w-7xl mx-auto px-5 lg:px-8 py-16">
+        <div class="grid md:grid-cols-3 gap-12 mb-12">
+          <div>
+            <span class="text-accent font-[Syne] font-extrabold text-2xl tracking-tight">BF</span>
+            <p class="mt-4 text-sm leading-relaxed text-text-muted font-[Crimson_Pro] text-lg">
+              Second Amendment commentary. No hedging, no apologies.
             </p>
           </div>
 
           <div>
-            <h3 class="text-white/80 text-xs font-semibold uppercase tracking-wider mb-4">Browse</h3>
-            <ul class="space-y-2.5 text-sm">
-              <li><a href="/" class="hover:text-gold transition-colors">Latest Articles</a></li>
-              <li><a href="/videos" class="hover:text-gold transition-colors">Video Library</a></li>
-              <li><a href="/search" class="hover:text-gold transition-colors">Search</a></li>
-              <li><a href="/rss.xml" class="hover:text-gold transition-colors inline-flex items-center gap-1.5">RSS Feed <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><path d="M6.18 15.64a2.18 2.18 0 010 4.36 2.18 2.18 0 010-4.36zM4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44zm0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/></svg></a></li>
+            <h3 class="text-[11px] font-[Syne] font-bold text-text-muted uppercase tracking-[0.2em] mb-5">Navigate</h3>
+            <ul class="space-y-3">
+              <li><a href="/" class="text-sm text-text-secondary hover:text-accent transition-colors">Latest articles</a></li>
+              <li><a href="/videos" class="text-sm text-text-secondary hover:text-accent transition-colors">Video library</a></li>
+              <li><a href="/topics" class="text-sm text-text-secondary hover:text-accent transition-colors">Topics</a></li>
+              <li><a href="/contact" class="text-sm text-text-secondary hover:text-accent transition-colors">Contact</a></li>
+              <li><a href="/rss.xml" class="text-sm text-text-secondary hover:text-accent transition-colors inline-flex items-center gap-1.5">RSS <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><path d="M6.18 15.64a2.18 2.18 0 010 4.36 2.18 2.18 0 010-4.36zM4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44zm0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/></svg></a></li>
             </ul>
           </div>
 
           <div>
-            <h3 class="text-white/80 text-xs font-semibold uppercase tracking-wider mb-4">Connect</h3>
-            <ul class="space-y-2.5 text-sm">
-              <li><a href="https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw" target="_blank" rel="noopener" class="hover:text-gold transition-colors">YouTube Channel</a></li>
+            <h3 class="text-[11px] font-[Syne] font-bold text-text-muted uppercase tracking-[0.2em] mb-5">Connect</h3>
+            <ul class="space-y-3">
+              <li><a href="https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw" target="_blank" rel="noopener" class="text-sm text-text-secondary hover:text-accent transition-colors">YouTube</a></li>
             </ul>
           </div>
         </div>
 
-        <div class="h-px bg-white/10 mb-6"></div>
-
-        <div class="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white/30">
-          <p>Content represents opinions and commentary. Does not constitute legal advice.</p>
-          <p>&copy; {new Date().getFullYear()} Bearing Freedom</p>
+        <div class="border-t border-border-subtle pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p class="text-xs text-text-muted">Commentary and opinion. Not legal advice.</p>
+          <p class="text-xs text-text-muted">&copy; {new Date().getFullYear()} Bearing Freedom</p>
         </div>
       </div>
-
-      <!-- Background glow -->
-      <div class="absolute -bottom-32 left-1/2 -translate-x-1/2 w-96 h-96 bg-gold/3 rounded-full blur-3xl pointer-events-none"></div>
     </footer>
 
     <script is:inline>
@@ -176,7 +145,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
         document.getElementById('mobile-menu')?.classList.toggle('hidden');
       });
 
-      // Intersection observer for scroll animations
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {

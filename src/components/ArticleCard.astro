@@ -18,54 +18,46 @@ const formattedDate = new Date(date + 'T00:00:00').toLocaleDateString('en-US', {
 });
 
 function formatTopic(topic: string): string {
-  return topic.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  return topic.replace(/-/g, ' ');
 }
 ---
 
-<article class="card-lift group rounded-xl overflow-hidden bg-white border border-gray-100/80 hover:border-gold/25">
+<article class="group card-lift">
   <a href={`/articles/${slug}`} class="block">
-    <div class="relative overflow-hidden">
+    <div class="relative overflow-hidden rounded-sm">
       <img
         src={thumbnail}
         alt={title}
-        class="w-full aspect-video object-cover transition-transform duration-500 group-hover:scale-105"
+        class="w-full aspect-video object-cover transition-transform duration-700 group-hover:scale-105 brightness-90 group-hover:brightness-100"
         loading="lazy"
       />
-      <!-- Gradient overlay -->
-      <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-60"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-void/80 via-void/20 to-transparent"></div>
 
-      <span class="absolute bottom-2.5 right-2.5 bg-black/60 text-white/90 text-[11px] px-2 py-0.5 rounded backdrop-blur-sm font-medium tabular-nums">
+      <span class="absolute bottom-2.5 right-2.5 bg-void/80 text-text-secondary text-[10px] px-2 py-0.5 font-[JetBrains_Mono] tracking-wide backdrop-blur-sm">
         {duration}
       </span>
       {content_type[0] && (
-        <span class="absolute top-2.5 left-2.5 bg-gold/90 text-navy text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wide backdrop-blur-sm">
+        <span class="absolute top-2.5 left-2.5 tag-chip backdrop-blur-sm bg-void/60">
           {formatTopic(content_type[0])}
         </span>
       )}
     </div>
-    <div class="p-5">
-      <div class="flex items-center gap-2 mb-2.5">
-        <time class="text-[11px] text-gray-warm font-medium tracking-wide">{formattedDate}</time>
+    <div class="pt-4 pb-2">
+      <div class="flex items-center gap-3 mb-2.5">
+        <time class="text-[11px] font-[JetBrains_Mono] text-text-muted tracking-wide">{formattedDate}</time>
       </div>
-      <h2 class="font-[Playfair_Display] text-[17px] font-bold text-navy leading-snug group-hover:text-gold-dark transition-colors line-clamp-3">
+      <h2 class="font-[Syne] text-[15px] font-bold text-text leading-snug group-hover:text-accent transition-colors line-clamp-3">
         {title}
       </h2>
-      <div class="flex flex-wrap gap-1.5 mt-3.5 pt-3.5 border-t border-gray-100">
-        {topics.slice(0, 3).map(topic => (
-          <span class="text-[10px] bg-cream text-gray-warm px-2 py-0.5 rounded font-medium uppercase tracking-wide">
-            {formatTopic(topic)}
-          </span>
-        ))}
-      </div>
+      {topics.length > 0 && (
+        <div class="flex flex-wrap gap-2 mt-3">
+          {topics.slice(0, 2).map(topic => (
+            <span class="text-[10px] font-[JetBrains_Mono] text-text-muted uppercase tracking-wide">
+              {formatTopic(topic)}
+            </span>
+          ))}
+        </div>
+      )}
     </div>
   </a>
 </article>
-
-<style>
-  .line-clamp-3 {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-</style>
