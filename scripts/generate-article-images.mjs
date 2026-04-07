@@ -2,11 +2,34 @@ import { writeFile, readFile, readdir } from 'fs/promises';
 import { join } from 'path';
 import { existsSync } from 'fs';
 
-const XAI_API_KEY = process.env.XAI_API_KEY;
-if (!XAI_API_KEY) { console.error('Set XAI_API_KEY'); process.exit(1); }
+const FAL_KEY = process.env.FAL_KEY;
+if (!FAL_KEY) { console.error('Set FAL_KEY'); process.exit(1); }
 
 const articlesDir = join(process.cwd(), 'src', 'content', 'articles');
 const imagesDir = join(process.cwd(), 'public', 'images', 'articles');
+
+async function generateImage(prompt) {
+  const resp = await fetch('https://fal.run/fal-ai/flux-pro', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Key ${FAL_KEY}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      prompt,
+      image_size: { width: 1024, height: 576 }, // 16:9, under 1MP = $0.03
+      num_images: 1,
+      safety_tolerance: 6,
+    }),
+  });
+
+  if (!resp.ok) {
+    const err = await resp.text();
+    throw new Error(`${resp.status}: ${err}`);
+  }
+
+  return await resp.json();
+}
 
 const files = (await readdir(articlesDir)).filter(f => f.endsWith('.md'));
 const missing = [];
@@ -28,35 +51,26 @@ for (const f of files) {
   }
 }
 
-console.log(`${missing.length} images to generate`);
+console.log(`${missing.length} images to generate (~$${(missing.length * 0.03).toFixed(2)})`);
 
 for (let i = 0; i < missing.length; i++) {
   const item = missing[i];
 
-  // Use the article's custom prompt, or fall back to title-based
   let prompt;
   if (item.prompt) {
     prompt = `Editorial photograph. ${item.prompt}. 35mm film, photojournalism.`;
   } else {
-    prompt = `Editorial photograph for a news article titled "${item.title}". Photojournalistic, 35mm film, real-world scene that an editor would pick to make someone click on this story. Specific, dramatic, visually interesting.`;
+    prompt = `Editorial photograph for a news article titled "${item.title}". Photojournalistic, 35mm film, real-world scene that an editor would pick to make someone click on this story.`;
   }
 
-  console.log(`Generating: ${item.image}`);
-  console.log(`  Prompt: ${prompt.slice(0, 150)}...`);
+  console.log(`[${i + 1}/${missing.length}] ${item.image}`);
+  console.log(`  Prompt: ${prompt.slice(0, 120)}...`);
   try {
-    const resp = await fetch('https://api.x.ai/v1/images/generations', {
-      method: 'POST',
-      headers: { 'Authorization': `Bearer ${XAI_API_KEY}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        model: 'grok-imagine-image',
-        prompt,
-        n: 1,
-        response_format: 'url',
-      }),
-    });
-    if (!resp.ok) { console.error(`  Error: ${resp.status}`); continue; }
-    const data = await resp.json();
-    const imgResp = await fetch(data.data[0].url);
+    const result = await generateImage(prompt);
+    const imageUrl = result.images?.[0]?.url;
+    if (!imageUrl) { console.error('  No image URL'); continue; }
+
+    const imgResp = await fetch(imageUrl);
     const buffer = Buffer.from(await imgResp.arrayBuffer());
     await writeFile(join(imagesDir, item.image), buffer);
     console.log(`  Saved (${(buffer.length / 1024).toFixed(0)} KB)`);
