@@ -24,7 +24,7 @@ tags:
 
 ## The Bottom Line
 
-Maryland is about to ban the most popular handgun in America — not because of what it does, but because of what a criminal *could theoretically* do to it with a screwdriver. If SB 334 becomes law, millions of stock, unmodified pistols become illegal overnight.
+Maryland is about to ban the most popular handgun in America. Not because of what it does, but because of what a criminal *could theoretically* do to it with a screwdriver. If SB 334 becomes law, millions of stock, unmodified pistols become illegal overnight.
 
 ---
 
@@ -32,54 +32,40 @@ Maryland is about to ban the most popular handgun in America — not because of 
 
 ---
 
-## They're Calling It a "Machine Gun Ban"
+## The "machine gun ban" that isn't
 
-Let's start with the lie, because that's what it is.
+Maryland Senate Bill 334 is titled as a ban on "machine gun convertible pistols." It sounds like legislators are keeping battlefield weapons off the streets. That is not what this bill does.
 
-Maryland Senate Bill 334 is titled as a ban on "machine gun convertible pistols." Sounds scary. Sounds like legislators are bravely keeping battlefield weapons off the streets. Except that's not what this bill does — not even close.
+SB 334 targets any semi-automatic pistol with a cruciform trigger bar that "can be readily converted using common household tools." That describes the internal design of basically every modern striker-fired handgun you can buy. Your Glock 19. Your Glock 17. The handgun platform that more Americans own than any other, used by cops, military, and civilians who have never committed a crime.
 
-What SB 334 actually targets is any semi-automatic pistol with a cruciform trigger bar that "can be readily converted using common household tools." In plain English, that's the internal design of virtually every modern striker-fired handgun on the market. Your Glock 19. Your Glock 17. The single most popular handgun platform in the United States, carried by law enforcement agencies, military personnel, and millions of responsible civilians.
+The bill [passed the Maryland Senate](https://www.nraila.org/articles/20260406/maryland-semi-auto-ban-eligible-for-house-floor-vote) and cleared the House Judiciary Committee with favorable amendments. The 2026 session is winding down and it's eligible for a floor vote. This is happening.
 
-The bill [passed the Maryland Senate](https://www.nraila.org/articles/20260406/maryland-semi-auto-ban-eligible-for-house-floor-vote) and has cleared the House Judiciary Committee with favorable amendments. With the 2026 legislative session winding down, it's now eligible for a floor vote. This isn't hypothetical anymore.
+## The word "convertible" is doing a lot of work
 
-## The "Convertible" Scam
+A Glock switch, the actual illegal device that converts a semi-auto pistol to fully automatic fire, is already a federal felony to possess. Just to possess. The ATF classifies it as a machine gun under the National Firearms Act. [Up to 10 years in federal prison and a $250,000 fine](https://www.nyccriminalattorneys.com/federal-machine-gun-charges-automatic-weapons/). You can have one sitting in a drawer, never attached to anything, and you've committed the same crime as owning an unregistered Thompson.
 
-Here's where I need you to really pay attention, because the word "convertible" is doing a lot of heavy lifting in this bill.
+Twenty-eight states plus D.C. have their own bans on top of that. People are being prosecuted right now. A guy trafficking 3D-printed Glock switches got [over seven years federal time](https://www.justice.gov/usao-sdin/pr/trafficker-3d-printed-glock-switches-and-auto-sears-sentenced-over-seven-years-federal) recently.
 
-A Glock switch — the actual illegal device that converts a semi-auto pistol to fully automatic fire — is already a federal felony to possess. Not to use. Not to install. To *possess*. The ATF classifies it as a machine gun under the National Firearms Act, carrying [up to 10 years in federal prison and a $250,000 fine](https://www.nyccriminalattorneys.com/federal-machine-gun-charges-automatic-weapons/). You can have one sitting in a drawer, never attached to anything, and you've committed the same crime as owning an unregistered Thompson submachine gun.
+So the device that actually converts the gun is already super illegal. SB 334 goes after the *unmodified gun itself*, because its design could theoretically accept such a device. That's banning cars because someone could remove the speed limiter.
 
-Twenty-eight states plus D.C. have their own additional bans on top of the federal prohibition. People are actively being prosecuted — a trafficker of 3D-printed Glock switches was recently [sentenced to over seven years in federal prison](https://www.justice.gov/usao-sdin/pr/trafficker-3d-printed-glock-switches-and-auto-sears-sentenced-over-seven-years-federal).
+## Penalties and the expanding list
 
-So the *device* that actually converts the gun? Already super illegal. Already being prosecuted.
+Starting January 1, 2027, if this passes, you can't manufacture, sell, buy, or transfer any pistol Maryland classifies as machine gun convertible. A general violation is a misdemeanor with up to 3 years in prison and a $5,000 fine. Use one during a felony and you're looking at a mandatory sentence up to 10 years. Second offense, up to 20.
 
-SB 334 doesn't go after the device. It goes after the *unmodified gun* — because the gun's design could *theoretically accept* such a device. That's like banning cars because someone could theoretically remove the speed limiter.
+The part that should concern you more than the penalties: the Maryland State Police get authority to maintain and grow the list of prohibited pistols through regulation. No legislation needed. No vote. A bureaucratic agency decides which guns you're allowed to own and can add to the list whenever they want.
 
-## What This Actually Means If You Live in Maryland
+Glocks today. Smith & Wesson M&Ps tomorrow. Sig Sauers after that. Any striker-fired pistol with similar internals is fair game.
 
-Starting January 1, 2027, if this passes, you cannot manufacture, sell, purchase, receive, or transfer any pistol Maryland classifies as machine gun convertible. The penalties:
+## Why they picked Glock
 
-- **General violation**: Misdemeanor, up to 3 years in prison, $5,000 fine
-- **During a felony**: Mandatory sentence up to 10 years
-- **Second offense**: Up to 20 years
+Glock is the [bestselling handgun manufacturer in America](https://en.wikipedia.org/wiki/Glock). That isn't a coincidence, it's the reason they're being targeted. When [Everytown celebrated SB 334](https://www.everytown.org/press/maryland-senate-passes-sb-334-to-stop-the-spread-of-diy-machine-guns-gun-safety-advocates-applaud-bold-step-toward-industry-accountability/), they called it "industry accountability." The manufacturer made a legal product, sold it legally, and now the state wants to ban it because criminals misuse an aftermarket device that is already a federal felony. That logic would let you sue Ford over drunk drivers.
 
-And here's the kicker that should terrify every gun owner in the state: the Maryland State Police get authority to maintain and *expand* the list of prohibited pistols through regulation. No new legislation required. No vote. No debate. A bureaucratic agency gets to decide which constitutionally protected firearms you're allowed to own, and they can add to the list at any time.
+I think too many people in the gun community still give anti-gun legislators the benefit of the doubt. They take a term that sounds scary, define it so broadly it captures common firearms, attach penalties harsh enough to scare normal people, and build in a mechanism so the ban grows on its own. We saw it with "assault weapons," we saw it with "ghost guns," and now it's happening with the most common handgun in the country.
 
-Today it's Glocks. Tomorrow it could be Smith & Wesson M&Ps, Sig Sauers, Springfield Armory XDs — any striker-fired pistol with similar internals.
+## This isn't just a Maryland problem
 
-## The Real Target
+What passes in deep blue state legislatures gets shopped around everywhere else. SB 334 is a template. If it works in Maryland, expect to see the same bill in New Jersey, Connecticut, Illinois, and anywhere else gun control advocates hold a majority.
 
-I want to be direct about what's happening here because I think too many people in the gun community still give anti-gun legislators the benefit of the doubt. They don't deserve it.
+There's also the **Bruen** question. The Supreme Court's 2022 ruling in **New York State Rifle & Pistol Association v. Bruen** said firearms regulations need to be consistent with America's historical tradition of firearm regulation. I would genuinely like to hear Maryland explain the historical tradition of banning the most common handgun in the country because someone might modify it with a screwdriver and parts that are already federally prohibited.
 
-Glock is the [bestselling handgun manufacturer in America](https://en.wikipedia.org/wiki/Glock). That's not a coincidence — it's the *reason* they're being targeted. When [Everytown celebrated SB 334's passage](https://www.everytown.org/press/maryland-senate-passes-sb-334-to-stop-the-spread-of-diy-machine-guns-gun-safety-advocates-applaud-bold-step-toward-industry-accountability/) through the Senate, they framed it as "industry accountability." Think about that framing. The manufacturer made a legal product, sold it legally, and now the state wants to ban it because criminals misuse an aftermarket device that's already a federal felony. That's like suing Ford because drunk drivers exist.
-
-The pattern is always the same. Take something that sounds scary — "machine gun convertible pistol" — define it broadly enough to capture common firearms, slap harsh enough penalties on it to make ordinary people afraid, and then build in a mechanism for the ban to grow without further legislation. We've seen it with "assault weapons." We've seen it with "high-capacity" magazines. We've seen it with "ghost guns." Now we're seeing it with the most mainstream handgun in the country.
-
-## The Bigger Picture
-
-Even if you don't live in Maryland, this matters.
-
-What passes in deep-blue state legislatures doesn't stay there. It becomes the model bill that gets shopped around to every anti-gun legislature in the country. Maryland's SB 334 is a template. If it works here, you'll see identical bills in New Jersey, Connecticut, Illinois, and every other state where gun control advocates have a legislative majority.
-
-And then there's the **Bruen** problem — for Maryland, not for gun owners. The Supreme Court's 2022 decision in **New York State Rifle & Pistol Association v. Bruen** established that firearms regulations must be consistent with the nation's historical tradition of firearm regulation. I'd love to see Maryland explain the historical tradition of banning the most common handgun in the country based on what someone *might hypothetically* do with a screwdriver and parts that are already federally prohibited.
-
-This bill isn't serious policy. It's political theater dressed up as public safety, and it will make criminals out of the most law-abiding people in the state.
+This bill won't make anyone safer. It will make felons out of people who did nothing wrong.

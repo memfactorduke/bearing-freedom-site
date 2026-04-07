@@ -156,6 +156,14 @@ CRITICAL WRITING RULES:
 - Provide the video ID, URL, date, and duration in the prompt — agents can't look these up
 - Use `run_in_background: true` so they run in parallel
 
+## Step 4b: Humanize Articles
+
+After agents generate articles, run the humanizer skill on each one to strip AI writing patterns. Use `/humanizer` or invoke it directly on each article file.
+
+The humanizer catches: em dash overuse, significance inflation, rule-of-three lists, signposting phrases, negative parallelisms, synonym cycling, bold+colon lists, persuasive authority tropes, and generic dramatic closers.
+
+This step is not optional. AI-generated opinion writing is especially prone to these patterns.
+
 ## Step 5: Validate Frontmatter
 
 After all agents complete:
