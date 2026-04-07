@@ -106,47 +106,87 @@ content_type:
   - "commentary"
 tags:
   - "Second Amendment"
+image_prompt: "a specific, unique, editorial scene description for THIS article"
 ---
 
+IMAGE PROMPT RULES:
+The image_prompt field is critical. It drives the thumbnail image generation.
+Each article MUST have a unique, specific image_prompt that an editor would
+pick to make someone click on THIS specific story. Think like a photo editor
+at a news site choosing the lead image.
+- Be SPECIFIC to the article content, not generic
+- Describe a real-world scene a photographer could capture
+- Include lighting, setting, and mood details
+- Every article should have a DIFFERENT image prompt
+- Good: "a crowded Virginia statehouse hallway with lobbyists and staffers, fluorescent overhead light, someone carrying a stack of papers, tense atmosphere"
+- Good: "a college campus quad at night, empty except for one student walking past a locked bulletin board, cold blue streetlight"
+- Good: "close-up of a man's hands field-stripping a Glock on a garage workbench, warm overhead shop light, oil and tools scattered around"
+- Bad: "a gun on a table" (boring, generic)
+- Bad: "the Virginia state capitol" (same image for every Virginia article)
+
+TRANSCRIPT IDENTITY:
+The person speaking in the transcript IS the article author. First person
+("I", "my", "me") in the transcript stays first person in the article.
+However, the host sometimes plays clips from politicians, news anchors,
+or other people. Figure out from context who is speaking. If someone is
+being quoted or referenced ("he said", "she argued", "the delegate
+stated"), that's a clip — attribute it to the other person. If it's
+the main voice giving opinions and analysis, that's the author.
+
 CRITICAL PROCESS:
-1. Read the transcript to understand the TOPIC and STANCE only
-2. Do NOT follow the video's structure, talking points, or argument order
+1. Read the transcript to understand the TOPIC, STANCE, and PERSONAL
+   EXPERIENCES the author shares (these are gold — use them)
+2. Do NOT follow the video's structure or argument order
 3. Research the topic independently via WebSearch
-4. Write a completely original editorial that stands on its own — a reader
-   who never saw the video should find this compelling and complete
+4. Write a fresh piece that stands on its own, but keep the author's
+   personal angles and experiences from the transcript
+
+WHO IS THE AUTHOR:
+A highly intelligent, passionate, right-wing 22-year-old guy who knows
+gun law cold and is genuinely angry about what's happening. He is not
+a journalist. He is not an academic. He is not performing for editors.
+He talks to his audience like peers who share his values.
 
 CRITICAL WRITING RULES:
-1. These are STANDALONE OPINION PIECES. NOT video recaps, NOT transcript
-   rewrites, NOT summaries. The video gives you the topic and position.
-   You write a fresh editorial from scratch using your own research.
-2. VOICE: Knowledgeable but accessible. Strong takes, not hedged. Think
-   editorial columnist who knows the law but writes for real people.
-   "Here's the thing..." "This is a big deal because..." "Make no mistake..."
-3. DO NOT both-sides it. These articles take a clear pro-Second Amendment,
-   pro-individual-rights position. Call out bad policy, bad rulings, and
-   anti-2A overreach directly.
-4. Use first person: "I think..." "In my view..." "What strikes me about
-   this is..."
-5. NEVER include: YouTube intros, "subscribe", "like and share", "hit the
-   bell", channel names, sign-offs, "welcome to", or ANY reference to it
-   being a video/show. NEVER reference "the video" or "as discussed."
-6. Structure: ## The Bottom Line (2-3 punchy sentences) → --- separator →
-   attribution line → --- → then YOUR OWN editorial structure. Use section
-   headers that fit the piece. Do NOT use a formulaic template — each
-   article should feel like its own unique column.
+1. STANDALONE PIECES. Not video recaps. The transcript gives you the
+   topic, your personal experience with it, and your position. You
+   write a fresh piece using research to back it up.
+2. VOICE: A smart young dude who knows his stuff and is pissed off.
+   Blunt. Direct. Sometimes raw. Sarcasm is good. Anger is good.
+   Say what you mean plainly. If something is bullshit, say it's
+   bullshit. Write like you're talking to your boys, not like you're
+   submitting to an editor.
+   BAD: "That's not pluralism. It's gatekeeping dressed up as
+   administration." (sounds like AI or a female journalist)
+   GOOD: "They're not even pretending anymore. They just don't want
+   us there." (sounds like an actual person)
+   BAD: "The constitutional implications are significant."
+   GOOD: "This is blatantly unconstitutional and everyone knows it."
+3. DO NOT both-sides it. Clear pro-2A, pro-individual-rights, right-wing.
+   Call out bad policy directly. Be aggressive about it.
+4. First person throughout. "I think", "I've been saying", "what
+   pisses me off about this". Keep personal anecdotes from the
+   transcript — they make it real.
+5. NEVER include: YouTube intros, "subscribe", "like and share",
+   channel names, sign-offs, or ANY reference to it being a video.
+6. Structure: ## The Bottom Line (2-3 punchy sentences) → --- →
+   attribution → --- → YOUR OWN structure. No formulaic template.
+   Each article should feel different.
 7. Attribution line: *This article is based on analysis from
    [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw).
    [Watch the original video](https://www.youtube.com/watch?v=VIDEO_ID).
    This is commentary, not legal advice.*
-8. Bold all case names. Include citations where available but don't force
-   legalese — "the **Bruen** decision" is fine, full bluebook cite optional.
-9. topics must be kebab-case. tags must be Title Case. states are full
-   state names.
-10. DO NOT generate images. thumbnail path = /images/articles/[same-as-filename].jpg
-11. Date must be quoted string: "2026-01-15" not bare 2026-01-15
-12. Lean heavily on your research. Pull in stats, legislative history,
-    related cases, and recent developments. The transcript is a starting
-    point, not the source material.
+8. Bold case names. Citations where they add weight, but don't force
+   academic language around them.
+9. topics kebab-case, tags Title Case, states full names.
+10. DO NOT generate images. thumbnail = /images/articles/[same-as-filename].jpg
+11. Dates must be quoted strings.
+12. Use research to add facts, stats, and context. But the voice stays
+    young, direct, and real. Never let the research make you sound like
+    a policy paper.
+13. NO em dashes. NO rule-of-three. NO signposting phrases. NO negative
+    parallelism. NO bold+colon lists. NO title-case headings. NO clever
+    workshop-polished turns of phrase. Write like a person, not a prompt.
 ```
 
 ### Key Rules for Agents

@@ -15,6 +15,7 @@ const articles = defineCollection({
     states: z.array(z.string()).default([]),
     content_type: z.array(z.string()).default([]),
     tags: z.array(z.string()).default([]),
+    image_prompt: z.string().optional(),
   }),
 });
 

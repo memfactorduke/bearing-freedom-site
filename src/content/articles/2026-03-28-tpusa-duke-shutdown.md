@@ -1,5 +1,5 @@
 ---
-title: "Duke Denied Turning Point a Club. The Criteria Say Otherwise."
+title: "Duke shut us out. Their own rubric says we passed."
 date: "2026-03-28"
 youtube_url: "https://www.youtube.com/watch?v=hVx3nVCURXg"
 youtube_id: "hVx3nVCURXg"
@@ -9,24 +9,24 @@ author: "Bearing Freedom"
 topics:
   - "free-speech"
   - "campus-politics"
-  - "first-amendment"
   - "conservative-activism"
+  - "viewpoint-discrimination"
 states:
   - "North Carolina"
 content_type:
   - "commentary"
 tags:
   - "Free Speech"
-  - "First Amendment"
   - "Turning Point USA"
   - "Duke University"
   - "Campus Speech"
   - "Viewpoint Discrimination"
+  - "Student Government"
 ---
 
-## The Bottom Line
+## The bottom line
 
-Duke University's student organization office gave Turning Point USA scores that defy any honest reading of the application. The group met the criteria. Duke decided the answer was no anyway. That is viewpoint discrimination, and it has a long and well-documented pattern at universities across the country.
+I'm the president of Turning Point USA at Duke. We filed for RSO status, met every objective criterion they set, and Duke denied us anyway. Twice. I'm in the final appeal stages now and I have basically no expectation it goes differently. So let me tell you exactly what happened.
 
 ---
 
@@ -34,48 +34,58 @@ Duke University's student organization office gave Turning Point USA scores that
 
 ---
 
-## The scoring system that produced a predetermined answer
+## How we got here
 
-Registered Student Organization status at Duke is awarded through a rubric with four categories: group mission and purpose, group uniqueness, potential to create community, and potential for longevity. Each category is scored zero to three. A total of eight points earns recognition. A score of zero in any single category is an automatic disqualification.
+Our chapter started about a year and a half ago when Charlie Kirk DM'd my freshman roommate and asked if we wanted to start one up. We said yes. We operated as Co-Presidents while both of us were playing football. When I finished playing, I took over as president and we filed for RSO status, which is what you need to actually function as a campus organization. Without it you can't table, you can't hold events, you can't host speakers, you can't be in the club fair. You're basically nothing.
 
-Turning Point USA at Duke received scores low enough to be disqualified across three of those four categories: mission and purpose, uniqueness, and longevity. The application itself tells a very different story.
+The RSO process at Duke is supposed to be objective. They grade your application on four categories: group mission and purpose, group uniqueness, potential to create community at Duke, and potential for longevity. Each category is worth up to three points. You need at least eight total to get approved. Zero in any single category is an automatic disqualification.
 
-On mission: the chapter described a clear nonpartisan mandate to educate students on fiscal responsibility, free markets, and constitutional rights. That is a coherent, specific mission. It maps directly onto the chapter's actual activities, which include tabling events, speaker series, and open forums. There is nothing vague or absent about it.
+I went through our application. I'm going to tell you what we wrote and what they scored us.
 
-On uniqueness: the chapter argued, accurately, that it occupies a different niche from both College Republicans, which focuses on electoral politics, and Young America's Foundation, which runs lecture-format seminars. TPUSA's model is peer-to-peer grassroots engagement. That distinction is real. You can disagree about whether it earns three points rather than two, but zero is not a defensible score.
+## What we actually submitted
 
-On longevity: the application laid out a structured recruitment pipeline including committee roles, officer training through TPUSA's national infrastructure, a digital outreach strategy, and freshmen already lined up to take leadership positions. That is more institutional planning than most student clubs produce. The rubric defines a zero as containing "no plan for cultivating membership, engaging members, or fostering participation." No honest reader of this application gives it a zero.
+On mission and purpose, we wrote exactly what we do: identify, educate, and empower students to articulate and defend fiscal responsibility, free markets, and constitutional rights. Foster intellectual diversity. Challenge the status quo through nonpartisan campus activism. We don't endorse candidates. We don't endorse parties. We endorse ideas. That is a real, coherent, specific mission. That's a three. I don't see how any honest person argues otherwise.
 
-## This is not an isolated incident
+On uniqueness, we explained how we're different from College Republicans, which is focused on electoral politics, and from YAF, which does lecture-style seminars. Our model is peer-to-peer grassroots engagement. Tabling. Open forums. Speaker events. That's a genuinely distinct approach and I think you'd have to be arguing in bad faith to say it isn't. We also noted something that I think is genuinely important: following Charlie Kirk's assassination last September, we're now the primary custodians of his legacy on campus. No other organization has that mandate. That alone is an unfulfilled need.
 
-The pattern here is consistent enough at this point to be past the stage of "maybe it was an oversight." FIRE, the Foundation for Individual Rights and Expression, [documented a nearly identical situation at the University of Chicago](https://www.thefire.org/news/always-room-improvement-fires-top-ranked-school-drops-ball-denying-tpusa-chapter-recognition), where TPUSA's RSO application was denied on the grounds that it wasn't sufficiently distinct from the College Republicans. FIRE argued the denial bore the earmarks of viewpoint discrimination, noting that the committee's interpretation of what made the group unique or unnecessary conveniently tracked the group's political identity rather than the actual application criteria.
+On longevity, we laid out a structured plan: tabling at the Bryan Center, Instagram and TikTok strategy, presence at freshman orientation, committee roles to give members ownership, officer training through TPUSA's national chapter leadership infrastructure. We literally have freshmen already lined up to take over when I graduate. That's not a vague plan. That's more institutional planning than most student clubs bother with.
 
-Loyola University's student government denied a TPUSA chapter twice, the second time after the school's own court of review ruled the first denial procedurally improper. The stated reasons included concerns about "campus climate" and "student safety," which are not criteria in any RSO recognition rubric I've seen. At Tulane, the university simply paused all new RSO applications while TPUSA's was pending, [specifically while reviewing chapters affiliated with national organizations](https://www.campusreform.org/article/tulane-university-delays-approval-tpusa-chapter-revival/28818).
+## What Duke scored us
 
-At Ashland University, the student senate voted no. The university president and board of trustees overruled the students and granted recognition, citing the institution's "commitment to the freedom of association and expression." That outcome is the exception. Most schools let the denial stand.
+They gave us scores low enough to disqualify us in three of the four categories: mission and purpose, uniqueness, and longevity. The rubric defines a zero in longevity as containing "no plan for cultivating membership, engaging members, or fostering participation." We submitted a multi-page breakdown of our recruitment pipeline. They gave us effectively nothing.
 
-## What the law actually requires
+I genuinely don't know how you read our application and come away with those scores unless you went in with the answer already decided.
 
-The Supreme Court addressed this directly in **Rosenberger v. Rector and Visitors of the University of Virginia** (1995). The Court held 5-4 that a public university cannot deny a student group access to generally available resources based on the viewpoint of that group's expression. Duke is a private university, which means the First Amendment doesn't apply to it in the same direct way it applies to state institutions. Duke is not legally required to follow the same rules as UVA or UNC.
+## This is not a Duke-specific problem
 
-But Duke markets itself on its commitment to free inquiry and viewpoint diversity. Its [Trustee Statement on Freedom of Expression](https://trustees.duke.edu/governing-documents/statements-and-policies/statement-on-freedom-of-expression-and-diversity-of-thought) describes the university as a place where all viewpoints can be expressed and heard. That is a voluntary commitment, and it creates an accountability problem when the application process for student organizations produces outcomes that can only be explained by the political content of the group applying.
+What's happening to us is the same thing that's been happening to TPUSA chapters everywhere. After Charlie was killed, applications to start new chapters surged across the country and a lot of them ran straight into the same wall. Seton Hall's student government denied TPUSA while approving the Democrats Club with a 14-2 vote. Point Loma denied a chapter three separate times. Loyola denied theirs twice. Fort Lewis College's student government voted no and the crowd actually cheered.
 
-I think this is worth emphasizing. Duke doesn't have a legal obligation to recognize TPUSA. It has a credibility obligation. A university that claims to value viewpoint diversity and then prevents a political organization from forming a recognized club on the basis of criteria it demonstrably satisfied has a problem that can't be explained by accident.
+In every one of these cases, the stated reason involves some rubric or some criteria the group supposedly didn't meet. And in every case, when you look at the actual application and the actual criteria, you find a political organization that clearly met the standard and got rejected anyway. The rubric isn't the problem. The people scoring the rubric are the problem.
 
-## The mid-level administrator problem
+Campus Reform put together a list of five times conservative clubs were discriminated against in 2025 alone. The pattern is not subtle at this point.
 
-One thing the president of Duke's TPUSA chapter was careful to note is that he believes Duke's senior leadership, including President Price, genuinely supports having the chapter on campus. I think that's an important distinction to make, and it reflects something true about how these situations typically work.
+## The people actually making these decisions
 
-Senior university administrators are generally constrained by reputational and legal exposure from engaging in blatant viewpoint discrimination. The filtering happens lower in the org chart, in student government bodies and departmental staff who process RSO applications, host speaker approval requests, and allocate room reservations. These are the people whose ideological commitments shape what actually happens on the ground, largely insulated from accountability because the formal processes are procedurally opaque.
+I want to be clear about something: I don't think President Price is the issue here. I think Duke's senior leadership genuinely wants the chapter on campus. I think Price actually cares about maintaining neutral ground on speech. This is not me being naive. This is my actual read of the situation based on what I've seen.
 
-Student government in particular has become, at many schools, the primary mechanism through which conservative and libertarian organizations are blocked from campus participation. The votes are cast by students who face no professional consequences for how they vote, and the decisions are framed as peer governance rather than administrative action, making them harder to challenge.
+The problem is the people lower in the structure. The staff who process RSO applications. The student government members who sit on these review committees. Those are the people who are not neutral. One person involved in this process chose to forgo birthday gifts and asked people to donate to Planned Parenthood instead. That's her right. I'm not going to put her name out there and I'm not drawing a straight line between that and how she scored our application. But I think it tells you something about who you're dealing with and what their priors are going into this.
 
-## What the next step looks like
+Student government has become the main mechanism by which conservative organizations get quietly filtered off campus. The votes are cast by students who face zero professional consequences. The decisions look like peer governance on paper. They're very hard to challenge.
 
-The Duke TPUSA chapter is in the final appeal stages. Given the two prior denials, approval through the formal process seems unlikely. The options from here are legal pressure, public pressure, or both.
+## Duke is a private university, but that's not the end of the story
 
-FIRE has demonstrated it can move institutions that depend on public perception. When it [spotlighted the UChicago TPUSA denial](https://www.thefire.org/news/always-room-improvement-fires-top-ranked-school-drops-ball-denying-tpusa-chapter-recognition) as viewpoint discriminatory, the university faced scrutiny that was uncomfortable given its reputation as a free speech leader in higher education. Duke has a similar reputation problem. It does not want to be the school that shut down a conservative club for political reasons.
+Duke doesn't have to follow the First Amendment the way a public university does. I know that. It's a private institution and if they decide they don't want us there, that's legally their call.
 
-In my view, the right outcome here is not complicated. TPUSA at Duke filed a thorough application. They met the criteria. The denial is not defensible on the merits. Duke should either fix its process or its senior leadership should step in the way Ashland's did and override a decision that clearly failed the institution's own stated values.
+But Duke markets itself on viewpoint diversity. It literally has a trustee statement about freedom of expression and diversity of thought. There's a whole alumni group, Friends for Duke, that was formed specifically because students felt they couldn't share conservative views on campus without social consequences. The 2025 FIRE college free speech rankings put Duke at 27 overall. The university puts a lot of stock in that reputation.
 
-Until that happens, or until legal action compels a different result, one more conservative organization is locked out of the resources and visibility that every other student group takes for granted. That's not pluralism. It's gatekeeping dressed up as administration.
+When your RSO review committee scores an application that clearly meets your own criteria and scores it into the ground, that reputation takes a hit. You don't get to claim you're a free speech campus while your mid-level administrators are blocking conservative clubs from forming.
+
+## Where this goes from here
+
+I'm going to keep fighting this. We're at the final appeal stage. I'm not optimistic about the formal process because the same people who denied us twice are still running it.
+
+If the appeal fails, the options are public pressure and legal pressure. FIRE has already gotten involved in situations like this at other schools and it has moved institutions that care about their reputation. Duke cares about its reputation. That's something.
+
+In the meantime, I can't table. I can't host speakers. I can't be in the club fair. I can't recruit at freshman orientation. Every other club on campus gets to do all of that. We don't. Because the people scoring our application didn't like what we stand for and found a way to make the numbers say no.
+
+That's where we are.

@@ -28,7 +28,7 @@ netlify/functions/ # Serverless functions (chatbot)
 scripts/           # Build-time scripts (search index)
 
 ## Content Schema (articles)
-Fields: title, date, youtube_url, youtube_id, thumbnail, duration, author, topics[], states[], content_type[], tags[]
+Fields: title, date, youtube_url, youtube_id, thumbnail, duration, author, topics[], states[], content_type[], tags[], image_prompt (optional, drives thumbnail generation)
 
 ## Conventions
 - Components are .astro files (no React/Vue)
