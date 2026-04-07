@@ -6,14 +6,14 @@
   --color-surface-raised: #1a1a1a;
   --color-border: #252525;
   --color-border-subtle: #1e1e1e;
-  --color-accent: #ff4d00;
-  --color-accent-hover: #ff6a2a;
-  --color-accent-muted: #ff4d0020;
-  --color-text: #e8e4df;
+  --color-accent: #dc2626;
+  --color-accent-hover: #ef4444;
+  --color-accent-muted: #dc262620;
+  --color-text: #ffffff;
   --color-text-secondary: #858585;
   --color-text-muted: #555555;
 
-  --font-display: 'Syne', system-ui, sans-serif;
+  --font-display: 'Archivo Black', system-ui, sans-serif;
   --font-body: 'Crimson Pro', Georgia, serif;
   --font-ui: 'Syne', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
