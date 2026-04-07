@@ -27,6 +27,7 @@ tags:
   - "Administrative State"
   - "Gun Control Act"
 image_prompt: "Wide-angle photojournalistic shot of the United States Supreme Court building in Washington DC on an overcast autumn day, stone facade sharp in detail, flags at half mast, empty plaza in foreground"
+sort_index: 92
 ---
 
 ## The bottom line

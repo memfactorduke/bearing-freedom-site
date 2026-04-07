@@ -25,6 +25,7 @@ tags:
   - "Ghost Guns"
   - "Legislative Session"
 image_prompt: "The Virginia State Capitol building exterior on a bright sunny day with the dome and neoclassical columns clearly visible, green lawn in foreground, photojournalistic style"
+sort_index: 17
 ---
 
 ## The bottom line

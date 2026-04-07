@@ -29,6 +29,7 @@ tags:
   - "NRA"
   - "CRPA"
 image_prompt: "Federal courthouse in Pasadena California on a clear morning, a group of Second Amendment advocates in casual clothes holding printed legal briefs on the front steps, sunlight casting long shadows on the stone facade, photojournalistic documentary style"
+sort_index: 68
 ---
 
 ## The bottom line

@@ -28,6 +28,7 @@ tags:
   - "Civil Rights Division"
   - "Gun Control"
 image_prompt: "Federal courthouse exterior in Boston on a bright clear day, wide stone steps, American flag flying, pigeons on the pavement, photojournalistic, natural light from above"
+sort_index: 44
 ---
 
 ## The bottom line

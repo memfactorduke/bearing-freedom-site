@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-02-11-breaking-news-atf-issues-new-direct-atta
 duration: "6:20"
 author: "Bearing Freedom"
 image_prompt: "Close-up of an ATF Form 1 application paper on a wooden desk, bright natural window light, a red DENIED stamp visible across the document, shallow depth of field, photojournalistic style"
+sort_index: 32
 topics:
   - "nfa"
   - "suppressors"

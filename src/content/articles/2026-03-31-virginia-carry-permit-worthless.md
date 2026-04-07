@@ -24,6 +24,7 @@ tags:
   - "Gun-Free Zones"
   - "Polling Places"
 image_prompt: "A curbside ballot drop box on a sunny suburban sidewalk in front of a government office building, bright midday sunlight, green trees in background, wide shot showing surrounding buildings and street"
+sort_index: 7
 ---
 
 ## The bottom line

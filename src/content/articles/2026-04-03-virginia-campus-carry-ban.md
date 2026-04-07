@@ -24,6 +24,7 @@ tags:
   - "Gun Control"
   - "Virginia Tech"
 image_prompt: "A sunlit university campus quad in spring with students walking between brick buildings, a prominent 'Gun-Free Zone' sign posted on a glass entrance door catching bright afternoon sunlight, American flag visible in the background"
+sort_index: 4
 ---
 
 ## The bottom line

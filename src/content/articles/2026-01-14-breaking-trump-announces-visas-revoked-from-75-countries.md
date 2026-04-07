@@ -25,6 +25,7 @@ tags:
   - "Minnesota Fraud"
   - "Remittances"
 image_prompt: "Marco Rubio at a podium inside a bright State Department briefing room, American flags flanking him, overhead fluorescent lighting casting sharp shadows, photojournalistic wide shot, no filters, press photographers visible in foreground"
+sort_index: 63
 ---
 
 ## The bottom line

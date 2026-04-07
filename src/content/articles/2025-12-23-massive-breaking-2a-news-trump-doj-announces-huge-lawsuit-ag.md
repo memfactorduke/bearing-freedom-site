@@ -27,6 +27,7 @@ tags:
   - "Bruen"
   - "assault weapons ban"
 image_prompt: "Wide-angle photojournalistic shot of the exterior of the Metropolitan Police Department headquarters in Washington DC on a cold overcast December morning, American flag visible, a few pedestrians walking past, the building's facade clearly lit by pale winter light"
+sort_index: 73
 ---
 
 ## The bottom line

@@ -25,6 +25,7 @@ tags:
   - "West Virginia v BPJ"
   - "Clarence Thomas"
 image_prompt: "Wide-angle photojournalistic shot of the US Supreme Court chamber during oral arguments, attorneys at the podium facing the raised bench, wood paneling and red curtains visible, bright overhead lighting, press gallery visible in background, no faces identifiable"
+sort_index: 64
 ---
 
 ## The bottom line

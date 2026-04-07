@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-01-16-massive-2a-news-doj-refuses-to-enforce-u
 duration: "8:18"
 author: "Bearing Freedom"
 image_prompt: "Bright photojournalistic exterior shot of the U.S. Department of Justice building in Washington D.C. on a clear winter morning, low angle, American flag visible against a blue sky, sharp shadows on stone facade"
+sort_index: 61
 topics:
   - "second-amendment"
   - "doj"

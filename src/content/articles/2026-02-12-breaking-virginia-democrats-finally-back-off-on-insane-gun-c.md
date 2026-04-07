@@ -26,6 +26,7 @@ tags:
   - "Hearing Protection"
   - "Legislative Strategy"
 image_prompt: "Close-up of a firearm suppressor resting on a wooden workbench beside cleaning tools, warm workshop lighting, soft bokeh background of gun safe and shelving, photojournalistic style"
+sort_index: 30
 ---
 
 ## The bottom line

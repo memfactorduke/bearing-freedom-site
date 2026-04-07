@@ -32,6 +32,7 @@ tags:
   - "Second Amendment"
   - "Bruen"
 image_prompt: "Wide-angle photojournalistic shot of the Oregon State Capitol building in Salem on an overcast day, American and Oregon state flags visible, sharp architectural detail, somber documentary mood"
+sort_index: 99
 ---
 
 ## The bottom line

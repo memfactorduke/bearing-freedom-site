@@ -24,6 +24,7 @@ tags:
   - "Law Enforcement"
   - "Rochelle Bilal"
 image_prompt: "A Philadelphia row house block in afternoon sunlight, a 'Neighborhood Watch' sign on a telephone pole, a legally-owned firearm in a locked case visible through an open screen door in the background, photojournalistic documentary style, no people"
+sort_index: 69
 ---
 
 ## The bottom line

@@ -22,6 +22,7 @@ tags:
   - "Sam Seder"
   - "TikTok"
 image_prompt: "A well-lit university lecture hall with a young man in a plain t-shirt standing confidently at the front, arms crossed, facing an empty podium, fluorescent overhead lights, rows of empty seats behind him, bold and confrontational atmosphere, photojournalistic style"
+sort_index: 54
 ---
 
 ## The bottom line

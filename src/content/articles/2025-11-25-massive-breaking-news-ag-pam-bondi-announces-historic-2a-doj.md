@@ -29,6 +29,7 @@ tags:
   - "Private Property"
   - "Supreme Court"
 image_prompt: "Wide-angle photojournalistic shot of the US Department of Justice building in Washington DC at golden hour, American flag flying, sharp architectural detail, imposing stone facade, clear sky"
+sort_index: 86
 ---
 
 ## The bottom line

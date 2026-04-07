@@ -25,6 +25,7 @@ tags:
   - "Pam Bondi"
   - "Trump Administration"
 image_prompt: "A US military veteran in civilian clothes at an outdoor gun range, bright afternoon sunlight, holding a pistol at a shooting lane, American flag visible in background, wide photojournalistic shot"
+sort_index: 28
 ---
 
 ## The bottom line

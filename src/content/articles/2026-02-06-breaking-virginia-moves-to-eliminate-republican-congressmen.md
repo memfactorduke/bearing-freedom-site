@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-02-06-breaking-virginia-moves-to-eliminate-rep
 duration: "8:03"
 author: "Bearing Freedom"
 image_prompt: "Wide-angle daytime shot of the Virginia State Capitol building in Richmond, with a foreground of campaign yard signs and protest placards staked in a grassy lawn, sharp photojournalistic lighting, blue sky with high clouds"
+sort_index: 39
 topics:
   - "redistricting"
   - "gerrymandering"

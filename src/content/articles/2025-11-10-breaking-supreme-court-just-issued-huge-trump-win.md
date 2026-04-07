@@ -27,6 +27,7 @@ tags:
   - "Judicial Overreach"
   - "Second Amendment"
 image_prompt: "Wide-angle exterior shot of the United States Supreme Court building in Washington DC, dramatic overcast sky, marble columns in sharp focus, American flag visible, photojournalistic style"
+sort_index: 89
 ---
 
 ## The bottom line

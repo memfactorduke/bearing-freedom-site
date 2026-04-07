@@ -25,6 +25,7 @@ tags:
   - "Jus Soli"
   - "Wong Kim Ark"
 image_prompt: "Wide-angle photojournalistic shot of the exterior of the United States Supreme Court building in Washington DC on a clear winter morning, marble columns sharp in cold sunlight, American flag visible, a few people on the steps"
+sort_index: 80
 ---
 
 ## The bottom line

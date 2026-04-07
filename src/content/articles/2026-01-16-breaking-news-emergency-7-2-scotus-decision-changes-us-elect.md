@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-01-16-breaking-news-emergency-7-2-scotus-decis
 duration: "7:03"
 author: "Bearing Freedom"
 image_prompt: "A federal courthouse exterior on a crisp winter morning, stone columns lit by low sun, a single figure in a business suit standing on the broad front steps holding a legal brief, photojournalistic, sharp shadows, no crowd"
+sort_index: 59
 topics:
   - "election-integrity"
   - "supreme-court"

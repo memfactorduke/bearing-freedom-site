@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-02-27-nfa-danger-announcement.jpg"
 duration: "9:45"
 author: "Bearing Freedom"
 image_prompt: "A state capitol building exterior with an American flag waving in bright afternoon sun, wide-angle photojournalistic shot, clear blue sky, warm golden light on stone facade, no people"
+sort_index: 23
 topics:
   - "nfa"
   - "machine-guns"

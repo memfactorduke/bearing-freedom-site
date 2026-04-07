@@ -26,6 +26,7 @@ tags:
   - "Virgin Islands"
   - "Gun Permits"
 image_prompt: "Wide-angle photojournalistic shot of the exterior of the Robert F. Kennedy Department of Justice Building in Washington DC on a bright sunny day, sharp architectural detail, American flag flying overhead, clear blue sky"
+sort_index: 75
 ---
 
 ## The bottom line

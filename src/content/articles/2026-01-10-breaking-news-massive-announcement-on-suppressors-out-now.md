@@ -23,6 +23,7 @@ tags:
   - "ATF"
   - "Gun Rights"
 image_prompt: "A bright, busy gun store interior with a display case full of suppressor canisters under fluorescent lighting, a young customer examining a suppressor with a salesperson in a polo shirt, American flag on the wall, photojournalistic style"
+sort_index: 70
 ---
 
 ## The bottom line

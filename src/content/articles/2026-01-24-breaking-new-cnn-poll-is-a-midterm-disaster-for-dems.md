@@ -26,6 +26,7 @@ tags:
   - "Congress"
   - "Generic Ballot"
 image_prompt: "Wide-angle photojournalistic shot of a near-empty Senate chamber from the gallery, fluorescent lighting casting harsh shadows across vacant mahogany desks, a single aide carrying a stack of folders through the aisle, conveying institutional stagnation"
+sort_index: 55
 ---
 
 ## The bottom line

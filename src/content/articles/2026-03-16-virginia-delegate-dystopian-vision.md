@@ -25,6 +25,7 @@ tags:
   - "Self-Defense"
   - "Delegate Garrett McGuire"
 image_prompt: "A sunlit university lecture hall with rows of empty wooden desks, tall windows casting bright rectangles of morning light across the floor, an American flag visible near a chalkboard at the front of the room, photojournalistic, natural lighting"
+sort_index: 18
 ---
 
 ## The bottom line

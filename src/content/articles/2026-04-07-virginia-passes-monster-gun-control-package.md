@@ -36,6 +36,7 @@ tags:
   - "HB40"
   - "HB702"
 image_prompt: "Wide photojournalistic shot of the Virginia State Capitol building in Richmond at dusk, dramatic clouds overhead, warm lights inside the Capitol dome contrasting with a cool gray sky, a lone figure walking away on the brick plaza below, no signs or text visible"
+sort_index: 1
 ---
 
 ## The bottom line

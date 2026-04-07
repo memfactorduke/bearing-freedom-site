@@ -26,6 +26,7 @@ tags:
   - "One Big Beautiful Bill"
   - "ATF"
 image_prompt: "Photojournalistic ground-level shot looking up at the United States Capitol dome under a pale blue winter sky, bare trees flanking the wide marble steps, a lone suited figure descending the stairs carrying a leather briefcase"
+sort_index: 74
 ---
 
 ## The bottom line

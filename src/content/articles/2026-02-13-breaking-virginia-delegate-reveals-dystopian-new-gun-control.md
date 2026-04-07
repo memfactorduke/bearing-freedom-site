@@ -26,6 +26,7 @@ tags:
   - "CCW"
   - "Scott Surovell"
 image_prompt: "A highway welcome sign reading 'Welcome to Virginia' under overcast winter sky, bare trees lining the road, wide-angle photojournalistic shot from driver's perspective, no other vehicles, muted colors"
+sort_index: 29
 ---
 
 ## The bottom line

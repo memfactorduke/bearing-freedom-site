@@ -27,6 +27,7 @@ tags:
   - "assault weapons ban"
   - "magazine ban"
 image_prompt: "Photojournalistic wide shot of the United States Supreme Court building facade on a bright winter morning, shallow crowds of people on the steps, clean blue sky, harsh sunlight casting long shadows across the white marble columns"
+sort_index: 51
 ---
 
 ## The bottom line

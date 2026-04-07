@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-01-12-breaking-now-suppressors-hit-by-new-ille
 duration: "7:06"
 author: "Bearing Freedom"
 image_prompt: "A suppressor attached to a bolt-action rifle resting on a wooden shooting bench at an outdoor range, bright afternoon sunlight, green tree line in background, photojournalistic close-up, no people, sharp focus on the suppressor threads"
+sort_index: 66
 topics:
   - "suppressors"
   - "nfa"

@@ -25,6 +25,7 @@ tags:
   - "Shotguns"
   - "Features Test"
 image_prompt: "A row of semi-automatic pistols displayed on a glass gun store counter in bright overhead fluorescent and natural light, price tags visible, clear and detailed, photojournalistic style, no people"
+sort_index: 13
 ---
 
 ## The bottom line

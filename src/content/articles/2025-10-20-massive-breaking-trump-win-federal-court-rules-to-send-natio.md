@@ -26,6 +26,7 @@ tags:
   - "10 USC 12406"
   - "Federal Authority"
 image_prompt: "Wide-angle photojournalistic shot of National Guard soldiers in uniform standing in formation outside a federal building on an overcast day, American flag visible, urban setting, sharp documentary style"
+sort_index: 96
 ---
 
 ## The bottom line

@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-01-18-breaking-the-atf-says-this-potato-is-leg
 duration: "8:15"
 author: "Bearing Freedom"
 image_prompt: "Bright overhead shot on a clean white surface of an ordinary russet potato with a paper ATF approval form stamped APPROVED beside it, harsh direct sunlight casting a crisp shadow, photojournalistic product-style photo, no people, hyperrealistic"
+sort_index: 58
 topics:
   - "nfa"
   - "suppressors"

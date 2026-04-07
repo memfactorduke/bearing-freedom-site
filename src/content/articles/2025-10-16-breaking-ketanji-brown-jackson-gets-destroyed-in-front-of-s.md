@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2025-10-16-breaking-ketanji-brown-jackson-gets-dest
 duration: "12:07"
 author: "Bearing Freedom"
 image_prompt: "Wide-angle photojournalistic shot of a federal courtroom interior during proceedings, wooden bench elevated at front, attorneys standing at podium, American flag visible to side, formal overhead lighting, no faces identifiable"
+sort_index: 103
 topics:
   - "supreme-court"
   - "voting-rights"

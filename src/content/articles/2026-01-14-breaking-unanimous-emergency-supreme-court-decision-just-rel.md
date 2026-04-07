@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-01-14-breaking-unanimous-emergency-supreme-cou
 duration: "5:50"
 author: "Bearing Freedom"
 image_prompt: "Exterior of the United States Supreme Court building on a bright overcast winter day, stone steps and columns, an officer in uniform visible near the entrance, photojournalistic wide-angle shot from street level"
+sort_index: 62
 topics:
   - "second-amendment"
   - "fourth-amendment"

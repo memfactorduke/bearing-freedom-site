@@ -23,6 +23,7 @@ tags:
   - "Viewpoint Discrimination"
   - "Student Government"
 image_prompt: "Wide shot of Duke University's main quad in bright midday sunlight, students walking across stone pathways beneath gothic stone arches, one student in the foreground posting a flyer on a campus bulletin board, photojournalistic, natural daylight, no filters"
+sort_index: 10
 ---
 
 ## The bottom line

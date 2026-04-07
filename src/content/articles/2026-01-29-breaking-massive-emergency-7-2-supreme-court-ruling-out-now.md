@@ -24,6 +24,7 @@ tags:
   - "Gun Rights"
   - "Chief Justice Roberts"
 image_prompt: "The exterior of the United States Supreme Court building in bright winter morning sunlight, white marble steps and columns gleaming, a small group of attorneys in dark suits ascending the steps carrying leather briefcases, clear blue sky overhead, sharp photojournalistic perspective from street level"
+sort_index: 48
 ---
 
 ## The bottom line

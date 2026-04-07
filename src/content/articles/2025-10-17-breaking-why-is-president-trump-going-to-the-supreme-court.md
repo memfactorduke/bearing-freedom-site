@@ -26,6 +26,7 @@ tags:
   - "Second Amendment"
   - "Separation of Powers"
 image_prompt: "Wide-angle photojournalistic shot of the exterior of the United States Supreme Court building in Washington DC on a clear autumn day, marble columns and steps in sharp detail, American flag visible, no people"
+sort_index: 101
 ---
 
 ## The bottom line

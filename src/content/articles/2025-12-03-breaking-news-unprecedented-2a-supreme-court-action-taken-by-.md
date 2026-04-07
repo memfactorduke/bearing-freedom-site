@@ -30,6 +30,7 @@ tags:
   - "Private Property"
   - "Second Amendment Foundation"
 image_prompt: "Wide-angle photojournalistic shot of the exterior of the United States Supreme Court building in Washington DC on a clear winter morning, white marble steps and columns sharply lit, the American flag flying, a few figures visible near the entrance, documentary style"
+sort_index: 85
 ---
 
 ## The bottom line

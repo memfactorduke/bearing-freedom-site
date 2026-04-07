@@ -25,6 +25,7 @@ tags:
   - "Spanberger"
   - "Legislative Session"
 image_prompt: "A uniformed police officer at a well-lit community center table accepting a firearm from a civilian, bright indoor fluorescent lighting, informational posters on the wall, photojournalistic style"
+sort_index: 20
 ---
 
 ## The bottom line

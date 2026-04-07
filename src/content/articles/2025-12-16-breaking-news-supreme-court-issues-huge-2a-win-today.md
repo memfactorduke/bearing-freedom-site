@@ -25,6 +25,7 @@ tags:
   - "Gun Manufacturers"
   - "Cert Denied"
 image_prompt: "Wide-angle photojournalistic image of the United States Supreme Court building exterior on a bright clear day, sharp marble columns and steps in foreground, American flag flying above, natural sunlight, no people"
+sort_index: 76
 ---
 
 ## The bottom line

@@ -26,6 +26,7 @@ tags:
   - "Bruen"
   - "Gun Rights"
 image_prompt: "Wide-angle photojournalistic shot of the exterior of the Robert F. Kennedy Department of Justice Building in Washington DC on a clear winter morning, American flag flying, sharp architectural detail on the facade, pedestrians visible on the sidewalk below"
+sort_index: 81
 ---
 
 ## The bottom line

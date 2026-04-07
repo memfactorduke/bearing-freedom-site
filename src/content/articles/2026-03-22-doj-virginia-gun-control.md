@@ -26,6 +26,7 @@ tags:
   - "SB749"
   - "Constitutional Challenge"
 image_prompt: "Harmeet Dhillon speaking at a Department of Justice press podium in a well-lit federal briefing room, American flag visible in background, bright overhead lighting, sharp photojournalistic focus"
+sort_index: 14
 ---
 
 ## The bottom line

@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-02-10-breaking-anti-gun-police-department-caug
 duration: "7:08"
 author: "Bearing Freedom"
 image_prompt: "Bright daylight exterior of a San Diego County Sheriff's Department station building with American flag, a frustrated young man in casual clothes standing outside holding a printed California gun law document, photojournalistic style, clear blue sky"
+sort_index: 35
 topics:
   - "california"
   - "gun-storage"

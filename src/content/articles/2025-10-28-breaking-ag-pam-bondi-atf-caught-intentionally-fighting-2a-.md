@@ -30,6 +30,7 @@ tags:
   - "Mootness"
   - "Voluntary Cessation"
 image_prompt: "Photojournalistic wide shot of a gun store interior counter, blurred firearms display cases in background, shallow depth of field, neutral tones, natural light from store windows, no people"
+sort_index: 95
 ---
 
 ## The bottom line

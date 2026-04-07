@@ -15,7 +15,7 @@ export async function getStaticPaths() {
         stateName: state,
         articles: articles
           .filter(a => a.data.states.includes(state))
-          .sort((a, b) => b.data.date.localeCompare(a.data.date)),
+          .sort((a, b) => { const d = b.data.date.localeCompare(a.data.date); return d !== 0 ? d : (a.data.sort_index ?? 9999) - (b.data.sort_index ?? 9999); }),
       },
     };
   });

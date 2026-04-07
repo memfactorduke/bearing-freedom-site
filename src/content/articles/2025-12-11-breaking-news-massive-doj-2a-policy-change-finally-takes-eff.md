@@ -32,6 +32,7 @@ tags:
   - "Illinois"
   - "Gun Rights Restoration"
 image_prompt: "Photojournalistic close-up of an American flag flying against a deep blue sky outside a federal courthouse, sharp focus on the fabric mid-wave, stone columns visible in the lower corner, bright natural light"
+sort_index: 79
 ---
 
 ## The bottom line

@@ -27,6 +27,7 @@ tags:
   - "Second Amendment"
   - "partisan gerrymandering"
 image_prompt: "Wide-angle photojournalistic shot of the exterior of the United States Supreme Court building in Washington DC on a cold clear December morning, marble steps and columns sharply lit by low winter sun, American flag visible, no people"
+sort_index: 83
 ---
 
 ## The bottom line

@@ -27,6 +27,7 @@ tags:
   - "Second Amendment"
   - "Trump Administration"
 image_prompt: "Wide-angle photojournalistic shot of the ATF headquarters building in Washington DC on a bright morning, clean architectural lines, American flag visible, empty sidewalk, documentary photography style"
+sort_index: 93
 ---
 
 ## The bottom line

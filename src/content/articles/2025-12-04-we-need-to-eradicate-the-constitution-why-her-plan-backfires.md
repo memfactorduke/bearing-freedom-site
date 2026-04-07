@@ -27,6 +27,7 @@ tags:
   - "Criminals"
   - "Law-Abiding"
 image_prompt: "Wide photojournalistic shot of a college campus quad, students walking between buildings on a sunny afternoon, a small group gathered near a table with a banner, shallow depth of field, documentary style, no text visible"
+sort_index: 84
 ---
 
 ## The bottom line

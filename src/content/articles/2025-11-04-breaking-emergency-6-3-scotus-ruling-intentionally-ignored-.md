@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2025-11-04-breaking-emergency-6-3-scotus-ruling-int
 duration: "9:27"
 author: "Bearing Freedom"
 image_prompt: "Exterior of a federal appeals court building on an overcast day, stone facade, American flag on a pole, wide angle photojournalistic shot from street level, muted tones"
+sort_index: 91
 topics:
   - "second-amendment"
   - "machine-guns"

@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-02-11-breaking-virginia-delegate-exposes-new-d
 duration: "12:11"
 author: "Bearing Freedom"
 image_prompt: "A lone Republican state legislator at a wooden podium in a sunlit legislative chamber, facing rows of seated colleagues, American and Virginia state flags flanking the dais behind him, sharp documentary photography, warm natural light streaming through tall windows"
+sort_index: 33
 topics:
   - "gun-control"
   - "second-amendment"

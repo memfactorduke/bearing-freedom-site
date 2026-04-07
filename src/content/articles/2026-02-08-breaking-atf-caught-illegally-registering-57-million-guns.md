@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-02-08-breaking-atf-caught-illegally-registerin
 duration: "8:36"
 author: "Bearing Freedom"
 image_prompt: "Bright daytime exterior of the ATF federal building in Washington DC, a congressional aide carrying a stack of official letters walking toward the entrance, American flags in background, sharp photojournalistic composition, natural light"
+sort_index: 36
 topics:
   - "atf"
   - "gun-registry"

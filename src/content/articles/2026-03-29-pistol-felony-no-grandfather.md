@@ -23,6 +23,7 @@ tags:
   - "Gun Control"
   - "Felony"
 image_prompt: "Aluminum AR-15 lower receiver blank on a wooden workbench, sunlight coming through a garage window, machinist tools visible in background, detailed close-up shot, photojournalistic style, warm natural daylight"
+sort_index: 9
 ---
 
 ## The bottom line

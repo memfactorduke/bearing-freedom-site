@@ -24,6 +24,7 @@ tags:
   - "Carry Ban"
   - "Abigail Spanberger"
 image_prompt: "A Virginia gun owner in a well-lit parking lot outside a shooting range, unloading an AR-15 rifle from a pickup truck on a bright sunny day, American flag visible in the background"
+sort_index: 6
 ---
 
 ## The bottom line

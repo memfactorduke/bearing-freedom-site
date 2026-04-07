@@ -27,6 +27,7 @@ tags:
   - "SB 749"
   - "SB 727"
 image_prompt: "Virginia state capitol building in Richmond on a clear sunny day, wide angle shot showing the full neoclassical facade and surrounding lawn, bright natural daylight, photojournalistic composition"
+sort_index: 15
 ---
 
 ## The bottom line

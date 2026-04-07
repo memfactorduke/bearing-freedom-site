@@ -27,6 +27,7 @@ tags:
   - "Abigail Spanberger"
   - "Dan Helmer"
 image_prompt: "A small independent gun shop on a sunny Main Street, handwritten OPEN sign in the window, American flag on a pole outside, display cases with handguns visible through the glass door, warm afternoon sunlight on the brick storefront"
+sort_index: 3
 ---
 
 ## The bottom line

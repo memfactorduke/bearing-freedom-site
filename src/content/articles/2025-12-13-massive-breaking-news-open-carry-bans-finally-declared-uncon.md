@@ -26,6 +26,7 @@ tags:
   - "Constitutional Carry"
   - "Gun Culture"
 image_prompt: "Photojournalistic shot of a man in casual clothing with a holstered pistol on his hip standing on a sunny Florida street, natural light, slightly blurred background of palm trees and storefronts, confident posture, no aggressive posturing"
+sort_index: 77
 ---
 
 ## The bottom line

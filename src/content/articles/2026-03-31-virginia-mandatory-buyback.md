@@ -24,6 +24,7 @@ tags:
   - "Confiscation"
   - "Spanberger"
 image_prompt: "Virginia state capitol building in Richmond, bright morning sunlight on white neoclassical columns, American flag and Virginia state flag visible, wide angle shot from street level, photojournalistic style, no people"
+sort_index: 8
 ---
 
 ## The bottom line

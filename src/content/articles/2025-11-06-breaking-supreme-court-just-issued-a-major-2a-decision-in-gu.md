@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2025-11-06-breaking-supreme-court-just-issued-a-maj
 duration: "10:12"
 author: "Bearing Freedom"
 image_prompt: "Wide angle exterior shot of the United States Supreme Court building in Washington DC on a clear autumn day, stone steps, marble columns, American flag visible, photojournalistic style"
+sort_index: 90
 topics:
   - "second-amendment"
   - "supreme-court"

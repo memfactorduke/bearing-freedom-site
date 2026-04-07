@@ -24,6 +24,7 @@ tags:
   - "Gun Control"
   - "Carry Permit"
 image_prompt: "Bright afternoon sun on a Virginia state capitol building exterior, wide steps leading to columned entrance, American and Virginia state flags flying, a lone person walking up the steps carrying a folder of documents, photojournalistic, clear blue sky, natural light"
+sort_index: 11
 ---
 
 ## The bottom line

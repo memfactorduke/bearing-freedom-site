@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-02-12-breaking-news-virginia-senate-passes-bra
 duration: "6:56"
 author: "Bearing Freedom"
 image_prompt: "Bright midday exterior shot of the Virginia State Capitol in Richmond, a lone gun owner in civilian clothes standing on the front steps holding a printed copy of Senate Bill 115, sharp photojournalistic focus, clear sky"
+sort_index: 31
 topics:
   - "concealed-carry"
   - "reciprocity"

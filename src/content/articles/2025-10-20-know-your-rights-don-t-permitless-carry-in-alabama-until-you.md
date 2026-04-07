@@ -28,6 +28,7 @@ tags:
   - "HB272"
   - "Second Amendment"
 image_prompt: "Wide-angle photojournalistic shot of a rural Alabama highway stretching through pine trees under a clear blue sky, an American flag visible on a roadside flagpole, warm golden afternoon light, sharp documentary style"
+sort_index: 98
 ---
 
 ## The bottom line

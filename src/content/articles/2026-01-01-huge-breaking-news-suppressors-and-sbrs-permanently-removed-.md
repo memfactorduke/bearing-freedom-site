@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-01-01-huge-breaking-news-suppressors-and-sbrs-
 duration: "7:28"
 author: "Bearing Freedom"
 image_prompt: "Bright photojournalistic photo of a gun store counter in natural window light, a suppressor and a short-barreled rifle displayed side by side on a clean glass case, American flag reflected faintly in the glass, no people, crisp documentary style"
+sort_index: 72
 topics:
   - "nfa"
   - "second-amendment"

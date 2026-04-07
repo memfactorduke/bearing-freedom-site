@@ -25,6 +25,7 @@ tags:
   - "Congress"
   - "Bruen"
 image_prompt: "Wide photojournalistic shot of the White House South Lawn on a clear autumn day, American flag flying, warm golden light, no people visible, sharp architectural detail"
+sort_index: 100
 ---
 
 ## The bottom line

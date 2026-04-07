@@ -26,6 +26,7 @@ tags:
   - "Grandfather Clause"
   - "Class 1 Misdemeanor"
 image_prompt: "A gun store owner in a well-lit Virginia shop standing behind a glass display case full of handguns, staring at a stack of printed legislation, a hand-lettered sign on the counter reading 'Standard Capacity Magazines - IN STOCK', bright overhead fluorescent lighting"
+sort_index: 50
 ---
 
 ## The bottom line

@@ -27,6 +27,7 @@ tags:
   - "Second Amendment"
   - "Political Impact"
 image_prompt: "Photojournalistic wide shot of a formal diplomatic press conference room with American and Israeli flags side by side, podium in center, soft directional lighting, formal and presidential atmosphere"
+sort_index: 105
 ---
 
 ## The bottom line

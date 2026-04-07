@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-01-09-ban-all-guns-mamdani-announces-dystopian
 duration: "5:58"
 author: "Bearing Freedom"
 image_prompt: "Wide-angle photojournalistic shot of New York City Hall exterior on a gray winter morning, a lone figure in a winter coat standing on the plaza looking up at the building, American flag visible, stark natural light, no text or signage"
+sort_index: 71
 topics:
   - "gun-control"
   - "second-amendment"

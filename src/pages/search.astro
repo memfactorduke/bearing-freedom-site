@@ -3,7 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 const articles = (await getCollection('articles'))
-  .sort((a, b) => b.data.date.localeCompare(a.data.date));
+  .sort((a, b) => { const d = b.data.date.localeCompare(a.data.date); return d !== 0 ? d : (a.data.sort_index ?? 9999) - (b.data.sort_index ?? 9999); });
 
 const topTopics = [...new Map<string, number>()].length; // just for types
 const topicCounts = new Map<string, number>();

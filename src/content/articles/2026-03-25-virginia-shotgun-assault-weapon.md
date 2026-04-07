@@ -24,6 +24,7 @@ tags:
   - "Shotgun"
   - "Semi-Automatic"
 image_prompt: "A pump-action and semi-automatic shotgun side by side on a wooden gun rack inside a bright, sunlit sporting goods store, natural light streaming through large storefront windows, soft shadows, photojournalistic style"
+sort_index: 12
 ---
 
 ## The bottom line

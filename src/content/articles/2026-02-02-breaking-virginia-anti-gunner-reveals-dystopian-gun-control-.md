@@ -28,6 +28,7 @@ tags:
   - "Self-Defense"
   - "Virginia General Assembly"
 image_prompt: "Virginia state capitol building exterior bathed in morning sunlight, American flag flying, wide steps leading to the entrance, clear blue sky, photojournalistic style, no people"
+sort_index: 43
 ---
 
 ## The bottom line

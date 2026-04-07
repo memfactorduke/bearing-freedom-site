@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-02-10-breaking-leftist-begin-co-ordinated-atta
 duration: "7:14"
 author: "Bearing Freedom"
 image_prompt: "A desktop 3D printer in a clean workshop producing a small mechanical component, warm workshop lighting, tools and blueprints visible in the background, photojournalistic style, no firearms depicted"
+sort_index: 34
 topics:
   - "ghost-guns"
   - "3d-printed-firearms"

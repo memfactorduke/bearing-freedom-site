@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2025-10-16-ghost-guns-the-anti-gun-movement-s-worst
 duration: "7:31"
 author: "Bearing Freedom"
 image_prompt: "Close-up of a desktop FDM 3D printer mid-print producing a small mechanical part, fine plastic filament layers visible, soft workshop lighting, blueprint schematics blurred in background, no firearms visible, photojournalistic style"
+sort_index: 102
 topics:
   - "ghost-guns"
   - "3d-printed-firearms"

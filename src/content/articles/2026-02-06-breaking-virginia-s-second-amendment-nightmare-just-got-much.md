@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-02-06-breaking-virginia-s-second-amendment-nig
 duration: "8:09"
 author: "Bearing Freedom"
 image_prompt: "Close-up photojournalistic shot of a Virginia state legislature chamber, empty wooden desks under fluorescent lighting with an American flag in the background, a single AR-15 ammunition box placed on a desk with a paper tax document beside it, sharp focus, natural institutional lighting"
+sort_index: 40
 topics:
   - "gun-tax"
   - "second-amendment"

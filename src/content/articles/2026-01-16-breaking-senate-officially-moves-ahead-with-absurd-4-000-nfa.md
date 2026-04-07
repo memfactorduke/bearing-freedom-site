@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-01-16-breaking-senate-officially-moves-ahead-w
 duration: "6:06"
 author: "Bearing Freedom"
 image_prompt: "Wide shot of the US Senate chamber from the gallery, empty seats and ornate desks under bright overhead lighting, an American flag flanking the dais, sharp photojournalistic framing, no people"
+sort_index: 60
 topics:
   - "nfa"
   - "suppressors"

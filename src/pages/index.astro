@@ -4,7 +4,7 @@ import ArticleCard from '../components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
 
 const articles = (await getCollection('articles'))
-  .sort((a, b) => b.data.date.localeCompare(a.data.date));
+  .sort((a, b) => { const d = b.data.date.localeCompare(a.data.date); return d !== 0 ? d : (a.data.sort_index ?? 9999) - (b.data.sort_index ?? 9999); });
 
 const featuredArticle = articles[0];
 const remainingArticles = articles.slice(1);

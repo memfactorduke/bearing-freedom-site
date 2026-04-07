@@ -27,6 +27,7 @@ tags:
   - "Firearm Owners Protection Act"
   - "ATF records"
 image_prompt: "Close-up photojournalistic shot of a congressional hearing room in Washington DC, empty leather chairs at a curved dais, a small nameplate reading 'Minnesota' visible, harsh overhead lighting, tense formal atmosphere"
+sort_index: 82
 ---
 
 ## The bottom line

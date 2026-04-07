@@ -24,6 +24,7 @@ tags:
   - "DIY Firearms"
   - "Bruen"
 image_prompt: "A well-lit workshop table with partially assembled gun components, a 3D printer in the background, and sunlight streaming through a window onto legal documents marked 'HB40', photojournalistic style"
+sort_index: 21
 ---
 
 ## The bottom line

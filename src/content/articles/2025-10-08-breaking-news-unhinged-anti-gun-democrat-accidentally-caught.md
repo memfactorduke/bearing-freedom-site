@@ -28,6 +28,7 @@ tags:
   - "Second Amendment"
   - "Violence"
 image_prompt: "Gritty photojournalistic close-up of a Virginia state capitol building exterior at dusk, dramatic low light, American and Virginia state flags visible, ominous overcast sky, sharp architectural detail"
+sort_index: 106
 ---
 
 ## The bottom line

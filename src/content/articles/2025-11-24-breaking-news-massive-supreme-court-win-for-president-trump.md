@@ -28,6 +28,7 @@ tags:
   - "Alito"
   - "Voting Rights Act"
 image_prompt: "Wide-angle photojournalistic shot of the United States Supreme Court building in Washington DC, marble columns, blue sky, American flag, sharp architectural detail, daylight"
+sort_index: 87
 ---
 
 ## The bottom line

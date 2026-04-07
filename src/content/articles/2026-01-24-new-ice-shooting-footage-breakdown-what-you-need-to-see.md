@@ -23,6 +23,7 @@ tags:
   - "Second Amendment"
   - "Use of Force"
 image_prompt: "A photojournalist's eye-level shot of a Minneapolis street corner at dusk, yellow police tape stretching across the frame, a crowd of protesters standing silently beyond it in winter coats holding candles, city streetlights glowing orange above them, high contrast documentary photography style"
+sort_index: 53
 ---
 
 ## The bottom line

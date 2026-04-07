@@ -27,6 +27,7 @@ tags:
   - "Magazine Ban"
   - "Assault Weapons Ban"
 image_prompt: "A federal government official at a sunlit press briefing room podium, American flag in background, journalists with cameras in foreground, bright photojournalistic lighting, sharp focus, clear daylight atmosphere"
+sort_index: 46
 ---
 
 ## The bottom line

@@ -31,6 +31,7 @@ tags:
   - "Gun Owners of America"
   - "Red Flag Laws"
 image_prompt: "Wide-angle photojournalistic shot of the United States Department of Justice building in Washington DC, neoclassical stone facade and columns, American flag, overcast sky, no people, natural light"
+sort_index: 108
 ---
 
 ## The bottom line

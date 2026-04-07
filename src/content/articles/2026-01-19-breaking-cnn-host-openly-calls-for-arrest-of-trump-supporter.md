@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-01-19-breaking-cnn-host-openly-calls-for-arres
 duration: "7:16"
 author: "Bearing Freedom"
 image_prompt: "Bright photojournalistic wide shot of a packed Senate gallery chamber during debate, an American flag prominently displayed, harsh overhead lighting casting sharp shadows on empty mahogany desks, a single printed voter registration form visible in the foreground on a desk, no people, documentary style"
+sort_index: 57
 topics:
   - "media-bias"
   - "election-integrity"

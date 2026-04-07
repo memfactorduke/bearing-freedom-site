@@ -27,6 +27,7 @@ tags:
   - "Feeding Our Future"
   - "Trump Administration"
 image_prompt: "Scott Bessent in a suit standing at a podium outside the Minnesota State Capitol building on a cold overcast winter day, American flag behind him, reporters and cameras gathered in front, photojournalistic style with natural light"
+sort_index: 67
 ---
 
 ## The bottom line

@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-02-24-end-the-nfa.jpg"
 duration: "10:01"
 author: "Bearing Freedom"
 image_prompt: "West Virginia state capitol building exterior on a clear sunny day, a citizen in a t-shirt holding a printed copy of Senate Bill 1071 on the front steps, natural light, photojournalistic documentary style"
+sort_index: 26
 topics:
   - "nfa"
   - "second-amendment"

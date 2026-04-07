@@ -31,6 +31,7 @@ tags:
   - "CCW Permits"
   - "Assault Weapons"
 image_prompt: "Photojournalistic wide shot of the Robert F. Kennedy Department of Justice Building in Washington DC on a crisp winter morning, sunlight catching the stone facade, American flag at full mast, sharp shadows on the steps, a few suited figures entering the main doors"
+sort_index: 78
 ---
 
 ## The bottom line

@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-01-12-huge-somali-fraud-bust-federal-agents-fi
 duration: "12:00"
 author: "Bearing Freedom"
 image_prompt: "A TSA checkpoint at a major American airport, suitcases on a conveyor belt under bright fluorescent overhead lighting, a uniformed officer examining a bag, photojournalistic wide shot, no faces visible, sharp documentary style"
+sort_index: 65
 topics:
   - "welfare-fraud"
   - "government-spending"

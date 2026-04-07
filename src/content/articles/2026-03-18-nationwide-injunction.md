@@ -24,6 +24,7 @@ tags:
   - "Firearms Policy Coalition"
   - "Second Amendment Foundation"
 image_prompt: "A sunlit United States Post Office entrance with a wide glass door open to a bright suburban sidewalk, American flag flying in the background, clear blue sky, photojournalistic style"
+sort_index: 16
 ---
 
 ## The bottom line

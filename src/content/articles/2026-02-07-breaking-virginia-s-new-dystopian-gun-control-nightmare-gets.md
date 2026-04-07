@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-02-07-breaking-virginia-s-new-dystopian-gun-co
 duration: "11:55"
 author: "Bearing Freedom"
 image_prompt: "Close-up of an AR-15 rifle resting on an American flag in bright natural light, legal documents with red BANNED stamp visible in background, sharp photojournalistic composition"
+sort_index: 37
 topics:
   - "assault-weapons-ban"
   - "gun-control"

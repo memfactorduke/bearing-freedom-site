@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-02-26-virginia-senate-massive-gun-control.jpg"
 duration: "7:11"
 author: "Bearing Freedom"
 image_prompt: "Virginia state capitol building exterior in bright midday sunlight, American flag flying, protestors with hand-lettered Second Amendment signs gathered on the front steps, sharp documentary photography"
+sort_index: 24
 topics:
   - "assault-weapons-ban"
   - "gun-control"

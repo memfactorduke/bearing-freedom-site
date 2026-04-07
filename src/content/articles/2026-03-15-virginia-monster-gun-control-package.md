@@ -29,6 +29,7 @@ tags:
   - "Legislative Session"
   - "Spanberger"
 image_prompt: "The Virginia State Capitol building in Richmond on a bright sunny afternoon, columns and dome visible against a clear blue sky, American and Virginia state flags flying, wide-angle photojournalistic shot from street level"
+sort_index: 19
 ---
 
 ## The bottom line

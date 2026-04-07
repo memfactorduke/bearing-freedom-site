@@ -21,6 +21,7 @@ tags:
   - "SB 334"
   - "Maryland"
 image_prompt: "A brightly lit gun store counter with several Glock pistols laid out on a glass display case, a knowledgeable salesperson in a polo shirt behind the counter, fluorescent lighting, American flag visible in the background, suburban gun shop setting"
+sort_index: 2
 ---
 
 ## The bottom line

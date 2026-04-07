@@ -26,6 +26,7 @@ tags:
   - "Machine Gun"
   - "Garland v. Cargill"
 image_prompt: "Close-up of a federal courthouse entrance in Washington D.C. on a overcast morning, brass Department of Justice seal on the wall beside heavy wooden doors, a lone attorney in a dark suit carrying a thick legal brief walking up the stone steps"
+sort_index: 49
 ---
 
 ## The bottom line

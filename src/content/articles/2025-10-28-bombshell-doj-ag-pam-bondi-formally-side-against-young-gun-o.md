@@ -29,6 +29,7 @@ tags:
   - "Reese v. ATF"
   - "History and Tradition"
 image_prompt: "Wide photojournalistic shot of a young adult male in his late teens standing outside a federal courthouse, looking up at the building with a serious expression, overcast sky, American flag visible in background, sharp documentary-style lighting"
+sort_index: 94
 ---
 
 ## The bottom line

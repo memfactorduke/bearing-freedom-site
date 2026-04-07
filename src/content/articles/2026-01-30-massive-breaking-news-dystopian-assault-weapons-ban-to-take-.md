@@ -26,6 +26,7 @@ tags:
   - "Grandfather Clause"
   - "Electoral Negligence"
 image_prompt: "A Virginia state capitol building exterior in bright afternoon sunlight, American flag flying, a lone figure in the foreground holding a rolled-up legal document, photojournalistic style, sharp focus, no darkness"
+sort_index: 45
 ---
 
 ## The bottom line

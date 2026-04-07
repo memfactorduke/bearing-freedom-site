@@ -26,6 +26,7 @@ tags:
   - "Facial Challenge"
   - "As-Applied Challenge"
 image_prompt: "Bright exterior of the Richard H. Chambers United States Court of Appeals building in Pasadena California, sunlit neoclassical facade with wide stone steps and bronze doors, American flag flying overhead, photojournalistic style, no people"
+sort_index: 42
 ---
 
 ## The bottom line

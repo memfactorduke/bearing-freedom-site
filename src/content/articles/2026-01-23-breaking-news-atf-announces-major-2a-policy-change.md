@@ -27,6 +27,7 @@ tags:
   - "Federal Register"
   - "Gun Rights Restoration"
 image_prompt: "A sun-lit federal courthouse exterior in Washington DC, a young man in casual clothes holding a folded legal document on the front steps, pigeons scattered on the marble, photojournalistic natural light, wide angle"
+sort_index: 56
 ---
 
 ## The bottom line

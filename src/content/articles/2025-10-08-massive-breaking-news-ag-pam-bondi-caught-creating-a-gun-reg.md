@@ -30,6 +30,7 @@ tags:
   - "Fifth Circuit"
   - "Injunction"
 image_prompt: "Wide photojournalistic shot of the Bureau of Alcohol Tobacco Firearms and Explosives federal building exterior in Washington DC, overcast sky, sharp architectural detail, no people, dramatic lighting"
+sort_index: 107
 ---
 
 ## The bottom line

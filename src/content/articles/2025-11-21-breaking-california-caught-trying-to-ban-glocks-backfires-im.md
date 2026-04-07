@@ -29,6 +29,7 @@ tags:
   - "Second Amendment"
   - "Glock Series V"
 image_prompt: "Close-up photojournalistic shot of a Glock pistol on a California state flag background, dramatic lighting, sharp focus on the firearm, bold red and yellow California colors visible underneath"
+sort_index: 88
 ---
 
 ## The bottom line

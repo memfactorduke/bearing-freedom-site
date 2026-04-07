@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-03-05-virginia-senate-gun-control-law.jpg"
 duration: "6:37"
 author: "Bearing Freedom"
 image_prompt: "A wooden nightstand drawer slightly open revealing a holstered handgun inside, warm morning sunlight streaming through a bedroom window, photojournalistic style, bright and natural, shallow depth of field"
+sort_index: 22
 topics:
   - "gun-control"
   - "second-amendment"

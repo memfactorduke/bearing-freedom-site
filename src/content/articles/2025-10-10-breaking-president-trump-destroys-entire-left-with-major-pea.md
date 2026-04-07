@@ -27,6 +27,7 @@ tags:
   - "Obama"
   - "Democrats"
 image_prompt: "Wide-angle photojournalistic shot of the White House exterior at golden hour, American flag flying overhead, dignified and presidential, sharp architectural detail, warm light"
+sort_index: 104
 ---
 
 ## The bottom line

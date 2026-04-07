@@ -26,6 +26,7 @@ tags:
   - "Grandfathering"
   - "Confiscation"
 image_prompt: "Virginia House of Delegates chamber interior, ornate wood paneling and rows of delegate desks under bright overhead lighting, American and Virginia state flags flanking the speaker's podium, wide angle photojournalistic shot, no people visible"
+sort_index: 41
 ---
 
 ## The bottom line

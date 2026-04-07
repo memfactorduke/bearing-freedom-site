@@ -24,6 +24,7 @@ tags:
   - "Harmeet Dhillon"
   - "Lee Zeldin"
 image_prompt: "Todd Blanche in a dark suit standing on the crowded exhibition floor of SHOT Show 2026 in Las Vegas, surrounded by glass display cases of handguns and racks of rifles, speaking with firearm industry representatives under bright white convention hall lighting"
+sort_index: 5
 ---
 
 ## The bottom line

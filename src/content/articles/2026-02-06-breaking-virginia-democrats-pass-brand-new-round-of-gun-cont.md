@@ -39,6 +39,7 @@ tags:
   - "Spanberger"
   - "Flood the Zone"
 image_prompt: "Bright photojournalistic wide shot of the Virginia Capitol building at night, illuminated windows, long shadows, a silhouetted figure in the foreground holding a printed bill, sharp documentary style"
+sort_index: 38
 ---
 
 ## The bottom line

@@ -7,6 +7,7 @@ thumbnail: "/images/articles/2026-02-25-gun-control-bills-defeated.jpg"
 duration: "9:07"
 author: "Bearing Freedom"
 image_prompt: "Minnesota state capitol rotunda interior in natural window light, Republican legislators reviewing documents at committee hearing table, American flags visible in background, clean photojournalistic composition"
+sort_index: 25
 topics:
   - "gun-control"
   - "second-amendment"

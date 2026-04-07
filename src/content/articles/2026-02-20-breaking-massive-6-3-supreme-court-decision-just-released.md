@@ -24,6 +24,7 @@ tags:
   - "Separation of Powers"
   - "Constitutional Law"
 image_prompt: "Exterior of the US Supreme Court building in bright morning sunlight, wide photojournalistic shot showing the full marble facade and steps, American flag visible, clear blue sky, no crowds"
+sort_index: 27
 ---
 
 ## The bottom line

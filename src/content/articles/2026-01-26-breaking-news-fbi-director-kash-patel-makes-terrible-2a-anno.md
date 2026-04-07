@@ -27,6 +27,7 @@ tags:
   - "Trump Administration"
   - "carry rights"
 image_prompt: "Photojournalistic shot of a lone person in a winter jacket standing on a snow-dusted Minneapolis sidewalk holding a small hand-lettered sign, afternoon sunlight low and cold, brick buildings behind them, no police visible, quiet street"
+sort_index: 52
 ---
 
 ## The bottom line

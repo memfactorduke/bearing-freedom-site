@@ -24,6 +24,7 @@ tags:
   - "Minneapolis"
   - "Gun Rights"
 image_prompt: "A bright Minneapolis street corner on a cold January morning, yellow police tape cordoning off a section of a residential neighborhood, television news cameras and reporters gathered outside the perimeter, sunlight catching frost on the pavement, neutral documentary photojournalism style"
+sort_index: 47
 ---
 
 ## The bottom line
