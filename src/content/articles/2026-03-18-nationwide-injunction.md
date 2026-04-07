@@ -1,5 +1,5 @@
 ---
-title: "The post office carry win is bigger than it looks"
+title: "The post office ruling is a direct hit on the sensitive places strategy"
 date: "2026-03-18"
 youtube_url: "https://www.youtube.com/watch?v=BgfjpyEPfw4"
 youtube_id: "BgfjpyEPfw4"
@@ -23,54 +23,53 @@ tags:
   - "Bruen"
   - "Firearms Policy Coalition"
   - "Second Amendment Foundation"
+image_prompt: "A sunlit United States Post Office entrance with a wide glass door open to a bright suburban sidewalk, American flag flying in the background, clear blue sky, photojournalistic style"
 ---
 
-## The Bottom Line
+## The bottom line
 
-A federal judge in Texas just refused to let the Department of Justice gut a landmark ruling protecting the right to carry in post offices, and the injunction now covers all current and future members of the Firearms Policy Coalition and Second Amendment Foundation. That's potentially millions of Americans shielded from a ban that never had a constitutional leg to stand on.
-
----
-
-*This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=BgfjpyEPfw4). This is commentary, not legal advice.*
+On March 17, 2026, Chief U.S. District Judge Reed O'Connor rejected the Department of Justice's attempt to gut a Second Amendment victory in *FPC v. Bondi*, the federal case challenging the post office carry ban. The injunction now covers all current and future members of the Firearms Policy Coalition and the Second Amendment Foundation. That's potentially tens of millions of Americans protected from a federal restriction that had no constitutional basis from the start.
 
 ---
 
-## A win worth understanding
+*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=BgfjpyEPfw4). Commentary, not legal advice.*
 
-Good news in the Second Amendment space tends to get buried under the avalanche of bad news, so I want to make sure this one gets the attention it deserves. On March 17, 2026, U.S. District Chief Judge Reed O'Connor denied the Department of Justice's motion to gut the injunction in **FPC v. Bondi**, the case challenging the federal ban on carrying firearms in United States Post Offices. The court's September 2025 ruling had already declared the ban unconstitutional. This latest order is about scope — and the scope is broad.
+---
 
-The DOJ had argued that injunctive relief should be limited either to the named plaintiffs or to those who were members of the Firearms Policy Coalition and the Second Amendment Foundation at the time the complaint was filed in June 2024. Judge O'Connor rejected both arguments. The injunction, he held, applies to all present and future members of both organizations. His reasoning was straightforward: limiting relief to a static membership list would cause protections to erode through attrition and death, force the organizations to maintain burdensome membership tracking, or require perpetual re-litigation of the same issue. None of those outcomes serves the purposes of injunctive relief.
+## What just happened
 
-The practical result is that [joining FPC](https://www.firearmspolicy.org/fpcgarland) or SAF now extends this protection to you. That's not a permanent guarantee — the case remains on appeal at the Fifth Circuit — but it's meaningful relief for a very large number of people in the interim.
+This is genuinely good news, and I want to make sure it gets the attention it deserves because there has been a lot of bad news lately.
 
-## Why post offices were always an indefensible restriction
+The Firearms Policy Coalition and the Second Amendment Foundation brought *FPC v. Bondi* challenging 18 U.S.C. § 930(a) and 39 C.F.R. § 232.1(l), the two provisions that make it a federal crime to carry a firearm in a post office or on postal property. Judge O'Connor ruled those provisions unconstitutional in his September 2025 merits decision, applying the Bruen history-and-tradition test and finding zero historical analogues for a ban on carrying firearms at postal facilities. The government had no answer because the answer doesn't exist. Early American post offices were often taverns and private homes where mail was held for collection. There is no colonial-era tradition of treating them as disarmed zones.
 
-Federal law has banned firearms in "federal facilities" since 1988 under 18 U.S.C. § 930. Before that, there was no general federal prohibition on carrying in government buildings, let alone post offices. The ban is a product of late-20th-century politics, not historical tradition.
+The March 17 order is about scope. After losing on the merits, the Bondi DOJ argued that any injunction should be limited to the named plaintiffs or, at most, to people who were FPC or SAF members as of the date the complaint was filed in June 2024. Judge O'Connor rejected both arguments. He held that limiting protection to a static membership snapshot would cause the injunction to erode through ordinary membership turnover, would force the organizations to maintain burdensome administrative tracking, or would require them to file new lawsuits repeatedly to protect new members. None of those outcomes serves the purpose of injunctive relief. The injunction now covers all present and future members of both organizations.
 
-That matters enormously under the **New York State Rifle & Pistol Association v. Bruen** standard, which requires the government to demonstrate that any firearms regulation is consistent with the historical tradition of firearms regulation in America. At the time of the founding and ratification of the Second Amendment, the handful of recognized sensitive places where carry was restricted included legislative chambers during active sessions, courtrooms while court was in session, and polling places on election day. That's the list. Post offices were not on it. Post offices in colonial America were often just private homes or taverns where mail was held for collection, and there is no historical record of treating them as disarmed zones.
+The practical implication is straightforward: if you join FPC or SAF, you are protected from federal enforcement of the post office carry ban at ordinary USPS facilities. Post offices on military bases are excluded. Post offices physically attached to secure federal buildings are excluded. The Fifth Circuit appeal is still pending under case number 25-11328, so this isn't over. But the government's motion to stay the injunction pending appeal was denied at both the district court and the Fifth Circuit, meaning the protection is in force right now.
 
-The [Duke Center for Firearms Law summarized the original ruling](https://firearmslaw.duke.edu/2024/01/litigation-highlight-district-judge-invalidates-federal-ban-on-carrying-guns-in-post-offices) as holding that the government failed entirely to demonstrate the kind of historical tradition Bruen requires. That failure wasn't close. The government couldn't produce analogous historical laws because they didn't exist.
+## Why I'm more excited about the precedent than the ruling itself
 
-## The sensitive places problem is the real fight
+Look, I carry daily, and I run errands like everyone else. The post office has genuinely been a problem. If I'm out all day, running to the post office, then the grocery store, then picking someone up, then going to work, that one stop creates a gap in my day where I'm either violating federal law or I'm disarmed for no reason. That's infuriating. So yes, the practical relief matters.
 
-I want to be direct about why this ruling matters beyond post offices specifically. The "sensitive places" doctrine is, in my view, the most dangerous long-term weapon anti-gun advocates have, and they know it.
+But the reason this ruling is genuinely significant is what it says about the sensitive places doctrine, which is the actual long-term battleground for the Second Amendment.
 
-The assault weapons bans are high-profile, politically polarizing, and almost certain to be struck down at the Supreme Court level once the right case arrives. Courts applying Bruen have been throwing them out at a significant rate already. But sensitive places legislation is different. If the government can declare virtually any location a sensitive place, the Second Amendment becomes an empty right. You have the right to own a firearm, you just can't take it anywhere. You can keep it at home, but the moment you leave, you're in a sensitive zone. The right to bear arms — to carry, to have accessible for self-defense in the world you actually live in — disappears entirely.
+Here's what I mean. The frontal assaults on gun rights, assault weapons bans, magazine capacity limits, strict may-issue permitting, are high-profile and increasingly losing in federal court. Bruen destroyed may-issue permitting. Courts applying Bruen have been throwing out assault weapons bans at a meaningful rate, and the Supreme Court will eventually have to settle that question cleanly. Those fights are ugly, but we're winning them.
 
-Anti-gun states have pursued exactly this strategy after **Bruen** constrained their ability to impose broad permitting restrictions. New York's Concealed Carry Improvement Act designated an enormous list of sensitive locations including any "place of worship," any "gathering of individuals to collectively express their constitutional rights," any "public park," and essentially any business open to the public that hasn't posted a sign explicitly permitting firearms. The Second Circuit has wrestled with that law for years. Several of its provisions have been enjoined. Other states have tried similar expansions. The post office case creates useful precedent precisely because a federal government building with no security screening and no actual protective services provided to visitors is about the strongest possible case for a sensitive place designation — and it still fails the Bruen test.
+The sensitive places doctrine is a different kind of threat, and it's more dangerous because it's harder to see. The government doesn't need to ban you from owning a gun. It just needs to declare everywhere you go a sensitive place. Your gun stays home. The Second Amendment becomes a right you can exercise only inside your own house.
 
-If the government can't sustain a sensitive place designation for a federal building, it becomes substantially harder to argue that a private movie theater, a public park, or a shopping mall qualifies.
+This is not a hypothetical. New York's Concealed Carry Improvement Act, passed immediately after Bruen as a direct attempt to nullify the ruling, designated virtually every publicly accessible space in the state as a sensitive location: public parks, public transportation, Times Square by name, any place of worship, any business that hadn't posted a sign explicitly allowing firearms, and any "gathering of individuals to collectively express their constitutional rights," which is to say, a protest. The Second Circuit upheld most of those provisions in October 2024. The Supreme Court declined cert in Antonyuk v. James in April 2025, leaving that framework in place for now. The FPC has since filed a new challenge specifically targeting the Times Square designation in *Goldberger v. James*.
 
-## The administration's position is worth noting
+What the post office ruling does is establish that even a building the federal government owns and operates, where federal employees work every day, where the government has maximum legal authority, does not automatically qualify as a sensitive place under the Bruen framework unless there is actual historical tradition supporting the designation. If you can't sustain a sensitive place designation for a federal building, the argument for designating a public park, a movie theater, a shopping mall, or a street corner collapses.
 
-The Trump administration's DOJ chose to defend the post office carry ban and sought to limit the injunction's scope. Whatever one thinks of the administration's overall record on gun rights, this particular choice reflects how deeply the federal government's institutional interest in maintaining control of its spaces runs across administrations. The government did not argue the ban should be upheld on the merits — that argument was already lost. It argued for the narrowest possible injunction to preserve flexibility for future enforcement and future litigation. Judge O'Connor wasn't persuaded.
+## The Trump DOJ's position is worth naming directly
 
-The Fifth Circuit appeal is still pending. The government filed its notice of appeal in 2025, and a motion to stay the injunction pending the Supreme Court's resolution of related sensitive places cases was denied. That means the injunction remains in force while the appeal proceeds. The case is styled **FPC v. Bondi** and tracked at the [Firearms Policy Coalition's case page](https://www.firearmspolicy.org/fpcgarland) and the [Second Amendment Foundation's case page](https://saf.org/cases/fpc-v-garland/).
+I have been accused of being a Trump administration shill, and I want to be clear that's not what I am. I call it how I see it. The Trump DOJ chose to defend this post office carry ban. They didn't argue the ban was constitutional on the merits, because that fight was already over and they lost. But they fought hard to limit the injunction to the narrowest possible scope. That is the federal government, under an administration that ran on Second Amendment support, working to ensure that as few Americans as possible benefit from a ruling that the government's own ban was unconstitutional.
 
-## What membership actually means here
+That is worth noting. Institutional interests run deep across administrations. The government does not like losing control of federal property, regardless of which party is running it. I think gun owners should understand that the DOJ's institutional position is almost never truly on our side, regardless of who's in office. Organizations like FPC and SAF are the ones actually litigating these wins.
 
-I want to be precise about what this injunction does and doesn't do, because the practical implications matter. If you are a member of FPC or SAF, you are covered by the injunction as it currently stands. You are protected from federal enforcement of the post office carry ban, meaning you can lawfully carry in a standard U.S. Post Office. Post offices on military bases are excluded. Post offices physically attached to other secured federal facilities are excluded. And the injunction is subject to being reversed or narrowed on appeal.
+## What to do right now
 
-That said, this is a genuine legal protection, not a theoretical one. If you regularly carry, run errands, and have ever had to choose between stopping at the post office and being armed for the rest of your day, you understand exactly why this mattered. The restriction didn't make you safer. It just created a gap in your day where you were disarmed by federal mandate for no security benefit whatsoever.
+If you are not already a member of the Firearms Policy Coalition or the Second Amendment Foundation, there is a direct, concrete reason to join today. Membership in either organization is the mechanism by which this injunction protects you. This is not symbolic. It is the legal predicate for the protection itself. The FPC case page is at [firearmspolicy.org/fpcgarland](https://www.firearmspolicy.org/fpcgarland) and SAF maintains their case information at [saf.org/cases/fpc-v-garland](https://saf.org/cases/fpc-v-garland/).
 
-The Bruen framework has its critics, and the fight over its application will occupy the courts for years. But the post office ruling is a concrete demonstration of what happens when courts actually apply the historical tradition test seriously. The government had no answer because the history simply isn't there. In a constitutional framework that takes text and history seriously, that should be decisive. Judge O'Connor treated it as decisive. I think he was right.
+The Fifth Circuit still has to rule on the merits of the appeal. The government could win there, though I think that's unlikely given how clean the Bruen analysis is in this case. But in the meantime, the injunction holds. For the first time in years, ordinary Americans who are lawful gun owners can walk into a post office without having to either disarm first or technically violate federal law.
+
+That's a win. It's worth taking a moment to recognize it, especially because the fight over sensitive places is going to be long and brutal and the other side is extremely well funded. But this ruling is a clean shot at the doctrine itself, and it landed.

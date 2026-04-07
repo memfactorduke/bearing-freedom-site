@@ -1,11 +1,12 @@
 ---
-title: "Virginia's safe storage law makes self-defense a crime"
+title: "Virginia's safe storage law is designed to trap you, not protect children"
 date: "2026-03-05"
 youtube_url: "https://www.youtube.com/watch?v=EP3rYheEv8c"
 youtube_id: "EP3rYheEv8c"
 thumbnail: "/images/articles/2026-03-05-virginia-senate-gun-control-law.jpg"
 duration: "6:37"
 author: "Bearing Freedom"
+image_prompt: "A wooden nightstand drawer slightly open revealing a holstered handgun inside, warm morning sunlight streaming through a bedroom window, photojournalistic style, bright and natural, shallow depth of field"
 topics:
   - "gun-control"
   - "second-amendment"
@@ -25,58 +26,72 @@ tags:
   - "Heller"
 ---
 
-## The Bottom Line
+## The bottom line
 
-Virginia **HB871** does not make anyone safer. It makes it a crime to keep a loaded firearm in your nightstand, which means it makes lawful self-defense in your own home a legal minefield. A law that punishes you for being ready to defend your family is not a safety regulation. It is an obstacle to self-preservation dressed up as one.
-
----
-
-*This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=EP3rYheEv8c). This is commentary, not legal advice.*
+Virginia HB871 does not make children safer. It makes it a crime to keep a loaded firearm in your nightstand, which means it criminalizes the single most common and reasonable act of home self-defense in America. A law that punishes you for being ready to defend your family is not a safety regulation. It is an obstacle to self-preservation dressed up as one, and Governor Spanberger is about to sign it into law.
 
 ---
 
-## What the law requires
+*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=EP3rYheEv8c). Commentary, not legal advice.*
 
-**HB871** passed the Virginia House 60-34 in early March 2026, cleared the Senate with a substitute version, and is now awaiting Governor Spanberger's signature. The bill requires any person who possesses a firearm in a residence where a minor or a prohibited person is present to store that firearm in a locked container, compartment, or cabinet inaccessible to those individuals. Violation is a Class 4 misdemeanor on the first offense.
+---
 
-The bill carves out an exception for firearms being "carried on the person" or otherwise under immediate personal control. Everything outside that narrow exception must be locked up. An unloaded firearm requires a separate storage requirement unless it is secured in a biometric safe that allows for rapid access.
+## What the law actually says
 
-At first glance, this sounds reasonable. Almost nothing in gun control legislation is as it first appears.
+HB871 passed the Virginia House on February 5, 2026, cleared the Senate on March 2, and was enrolled on March 11. It now sits on Governor Abigail Spanberger's desk with a signing deadline of April 13. She will sign it. That is not speculation. She has telegraphed support for this entire package of legislation throughout the session, and this is part of the 25 gun control bills Virginia Democrats pushed through in one session, the most sweeping anti-gun legislative push the state has ever seen.
+
+The bill, sponsored by Delegate Downey and Senator Boysko, requires anyone who possesses a firearm in a residence where they know a minor or a prohibited person is present to store that firearm and its ammunition in a locked container, compartment, or cabinet inaccessible to those individuals. The penalty for violation is a Class 4 misdemeanor. There is one narrow exemption: if you are physically carrying the firearm on or about your person, you are not in violation.
+
+That's it. That is the entire exemption. On your person or locked up. There is no middle ground.
 
 ## The nightstand problem
 
-The core of what is wrong with HB871 is not philosophical. It is practical. Consider the most common home defense scenario: you are asleep. Someone is breaking into your house. You need a firearm immediately. You do not have time to find a combination, remember a PIN under acute stress, or wait for a biometric reader to recognize your fingerprint. You need to open a drawer and have a loaded firearm in your hand within seconds.
+Let me describe a scenario that should be obvious to any reasonable person. It's 2 a.m. Someone is breaking in through your back door. You wake up to the sound of glass. You have maybe thirty seconds before they're in your bedroom hallway.
 
-HB871, as written, makes that scenario a crime if a minor or prohibited person lives in or is present at your residence. The language the bill uses, that the firearm must be "about a person" or "carried," is not clearly defined. A gun in your nightstand while you sleep is not being carried. Whether it counts as "about your person" is a genuine legal ambiguity, and that ambiguity is not an accident.
+Under HB871, if your child is asleep down the hall, you are legally required to have that firearm locked in a container or on your body before you go to bed. If it's in your nightstand drawer, loaded, because that's where every responsible gun owner with a home defense setup keeps it, you are committing a misdemeanor. The law does not care that you woke up to an intruder. The law does not care that you needed that firearm in five seconds, not ninety. The law treats a loaded gun in your nightstand the same way it treats leaving a loaded AR-15 on a playground.
 
-The Supreme Court addressed this directly in **District of Columbia v. Heller** in 2008. The Court struck down Washington D.C.'s requirement that firearms in the home be kept unloaded and disassembled or secured with a trigger lock, finding that it violated the Second Amendment by making the firearm useless for the core purpose the Amendment protects: immediate self-defense in the home. The Court was explicit that a locked firearm available only after a delay is functionally unavailable for self-defense, and that the Second Amendment cannot coexist with a law that renders home defense weapons inoperable by default.
+This is not an extreme hypothetical. This is the most common home defense setup in the country. And Virginia just criminalized it.
 
-HB871 walks directly into that ruling and dares a court to enforce it.
+The language the bill uses, specifically the phrase "carried on or about his person," is not defined in the legislation. Whether a gun on your nightstand while you sleep counts as being "about your person" is a genuine legal question, and that ambiguity is not an accident. When you cannot determine with confidence whether your nightly routine puts you at risk of criminal prosecution, the ambiguity itself functions as gun control. You become afraid to own a firearm for its stated purpose.
 
-## Complexity as a weapon
+## Why *Heller* should kill this law
 
-There is a secondary function to laws like HB871 that does not get enough attention. These regulations are designed to be incomprehensible to ordinary gun owners.
+The Supreme Court addressed this directly in *District of Columbia v. Heller* in 2008. The Court struck down Washington D.C.'s requirement that firearms in the home be kept unloaded and disassembled or secured with a trigger lock. The reasoning was clear: a firearm that is locked up and therefore not immediately accessible is functionally unavailable for the core purpose the Second Amendment protects, which is self-defense in the home. The Court said explicitly that the right to keep and bear arms would be meaningless if the government could mandate that your defensive firearm be inoperable by default.
 
-A recent example from California illustrates the point well. The San Diego Sheriff's Department published an instructional video explaining how to legally transport a firearm in a vehicle, walking viewers through the steps with a live demonstration. The sheriff, following his own instructions on camera, was himself in technical violation of California law: the box he secured to the vehicle was lockable but was not locked during transport, which the relevant regulation requires as a separate step from securing the box itself. A law enforcement officer, explaining compliance with the law to the public, did not know he was demonstrating a violation.
+HB871 walks directly into that reasoning. During floor debate, House Minority Leader Terry Kilgore warned the bill would face legal challenges under *Heller* and the subsequent *Bruen* framework, which requires firearm regulations to be consistent with the historical tradition of gun regulation in America. He is right. There is no founding-era parallel for a law mandating that private citizens secure their household firearms in locked containers. Colonial households kept loaded muskets accessible by necessity. The idea of a magistrate prosecuting a farmer because his flintlock was on a shelf instead of in a locked box would have been absurd to the founders.
 
-That is not a failure of training. That is what overcomplicated regulations produce as a predictable outcome. When the law is so intricate that the people paid to enforce it cannot accurately describe compliant behavior, ordinary gun owners have no realistic chance of knowing whether their conduct is lawful. The result is a state of permanent legal uncertainty for people who are doing nothing wrong.
+HB871 will likely get overturned eventually. But eventually can mean three to five years of litigation. In the meantime, Virginia gun owners face real criminal exposure for doing something completely reasonable.
 
-This is not a bug. It is the mechanism. When you cannot know if keeping a firearm in your car's glove compartment is a crime, when you cannot know if a gun on your bedroom dresser rather than on your hip crosses the line, when the standard shifts depending on whether a minor visited your house that day, you become afraid to possess firearms at all. Fear of prosecution is a form of gun control that operates without a single enforcement action.
+## The complexity trap
 
-## The constitutional line
+There is a second problem with HB871 that does not get enough attention, and it is one I feel deeply because I have watched it happen with Virginia gun laws repeatedly over the past couple of years.
 
-Courts have taken different positions on safe storage laws since *Heller*. The Ninth Circuit upheld a San Francisco ordinance in 2014, finding it did not "substantially prevent" lawful self-defense because it only applied to times when the owner was not at home. Other courts have read *Heller* more broadly to protect the right to have a loaded, accessible firearm anywhere within the home at any time.
+These regulations are engineered to be incomprehensible.
 
-HB871 is more aggressive than the San Francisco ordinance the Ninth Circuit approved. It applies whether or not the owner is present, and its exceptions are narrower and less clearly defined. A serious constitutional challenge under *Heller*, and increasingly under the *Bruen* text-history-tradition framework, should succeed against this bill. There is no founding-era tradition of mandating that firearms in private homes be rendered inaccessible. Colonial-era households kept loaded muskets and powder charges immediately accessible by necessity.
+Consider what happened when the San Diego Sheriff's Department put out a public instructional video walking viewers through how to legally transport a firearm in a vehicle under California law. The sheriff, on camera, demonstrating compliance to the public, was himself in technical violation of the very regulation he was explaining. He secured the box to the vehicle but did not lock it during transport, which California law requires as a distinct step from securing the box. A law enforcement officer, paid to understand and enforce these rules, could not accurately describe what lawful behavior looks like.
 
-I do think this law gets overturned eventually. But "eventually" can mean three to five years of litigation. In the meantime, Virginia gun owners face real criminal exposure for conduct that is obviously reasonable: keeping a loaded firearm accessible in their own home for self-defense.
+That is not incompetence. That is what deliberately overcomplicated regulations produce as a reliable output. When the people enforcing the law cannot explain what the law requires, ordinary gun owners have essentially no chance of knowing with confidence whether their conduct is lawful.
 
-## The design of the regime
+Virginia's 2026 gun bills have the same quality. The magazine provisions differ from the firearm provisions in ways that are not intuitive. The grandfathering clause applies to certain assault-style firearms purchased before July 1, 2026, but emphatically does not apply to magazines, meaning current owners of standard-capacity magazines face dispossession or a Class 1 misdemeanor. Gun retailers across the state have described the combined effect of the legislation as creating massive confusion even for people actively trying to comply. One retailer told reporters the package was "creating millions of criminals overnight."
 
-Twenty-six states and the District of Columbia now have some form of safe storage requirement in effect. Virginia's version is among the more aggressive because it applies regardless of whether the owner is home, and because the exception for immediate personal control is vague enough that compliance requires either a lawyer or a willingness to gamble. California is implementing a similarly broad storage mandate in 2026. The model is spreading.
+That is a feature, not a flaw.
 
-What these laws share is a quality that distinguishes them from regulations that actually reduce harm: they target law-abiding gun owners exclusively. Someone intent on committing a crime with a firearm does not consult storage statutes. The person who reads HB871, genuinely tries to understand it, and attempts to comply is the hunter, the first-time homeowner, the single parent who bought a handgun for protection. That person now faces criminal liability for storing their firearm in a way that makes it useful.
+## What Virginia's 2026 session actually built
 
-In my view, that is the point. Virginia's 2026 legislative session passed more than twenty gun control bills simultaneously. The ghost gun ban removes untraceable firearms. The magazine limits reduce the capacity of the firearms that remain. The carry restrictions limit where you can take them. And HB871 governs how they must be stored in the one place the Supreme Court has most clearly said the Second Amendment operates: the home. Each law is a tile in the same mosaic.
+It would be a mistake to look at HB871 in isolation. Virginia's legislature passed 25 gun control measures in the 2026 session. Read them together and a picture emerges.
 
-A firearm you cannot carry, cannot manufacture yourself, cannot keep loaded in your bedroom, and can only legally possess in an ever-shrinking list of circumstances is not a right. It is a privilege, revocable on political terms, exercisable only on the government's schedule. That is what Virginia is building. And Spanberger, who has until April 13th to sign or veto, has given no indication she intends to stop it.
+HB/SB749 bans the sale of certain semi-automatic firearms classified as assault weapons and prohibits magazines that hold more than 15 rounds, effective July 1, 2026. The red flag law was expanded to allow doctors, family members, and school administrators to petition for firearm removal. Ghost gun restrictions tightened further. Carry restrictions were extended.
+
+And HB871 covers what remains: the home. The one place the Supreme Court has most forcefully said the Second Amendment applies.
+
+When you map these bills onto each other, what you get is a firearm you cannot buy new after July 1, cannot manufacture yourself, cannot carry in an expanding list of locations, cannot keep loaded in your own bedroom unless it is physically on your body, and cannot pass to anyone outside a narrow definition of family. A gun owner who buys a pistol today in Virginia and tries to operate within all these rules simultaneously is navigating a minefield designed without their interests in mind. The laws interact to make compliant gun ownership more burdensome with each addition to the stack.
+
+## The goal here is fear
+
+I'll say what I think clearly: these laws are not primarily safety measures. They are intimidation measures. The intended effect is that law-abiding gun owners, who actually read legislation and try to follow the rules, become afraid of their own firearms. Not because they have done anything wrong, but because the rules are so complex, so vaguely worded, and so aggressively expanding that the fear of prosecution is itself a deterrent to ownership.
+
+Criminal actors do not consult storage statutes. The person who gets trapped by HB871 is a single parent in a first-floor apartment who bought a handgun after a stalking incident and keeps it loaded in her nightstand because that is the only configuration in which it is useful for its intended purpose. That is who this law threatens.
+
+Del. Eric Zehr raised this exact concern during legislative debate, pointing out that the criminal penalties tied to HB871 would disproportionately affect lower-income households who cannot afford biometric safes. A fingerprint-reader gun safe runs $150 to $400. A Class 4 misdemeanor is a criminal record. The law effectively tells people without disposable income that their Second Amendment rights are contingent on their ability to buy state-approved equipment.
+
+Virginia's gun owners deserve to know what just passed their legislature. Spanberger's deadline is April 13. If you live in Virginia, call her office. And if she signs it anyway, which she will, understand that litigation is coming and it is worth funding.

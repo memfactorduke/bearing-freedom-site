@@ -1,5 +1,5 @@
 ---
-title: "Virginia's Assault Weapons Ban Is a Pistol Ban. Most People Don't Know That Yet."
+title: "Virginia's assault weapons ban is a pistol ban. Most people don't know that yet."
 date: "2026-03-23"
 youtube_url: "https://www.youtube.com/watch?v=Ymy9MI86_vQ"
 youtube_id: "Ymy9MI86_vQ"
@@ -24,64 +24,111 @@ tags:
   - "Pistols"
   - "Shotguns"
   - "Features Test"
+image_prompt: "A row of semi-automatic pistols displayed on a glass gun store counter in bright overhead fluorescent and natural light, price tags visible, clear and detailed, photojournalistic style, no people"
 ---
 
-## The Bottom Line
+## The bottom line
 
-Virginia's SB749 is not a narrowly targeted ban on one category of firearm. It reaches everyday pistols, common shotguns, and virtually every centerfire rifle on the market through a features-based test designed to catch as much as possible under a label most people think only means AR-15s. If you own guns in Virginia and haven't read this law, you are at legal risk right now.
-
----
-
-*This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Ymy9MI86_vQ). This is commentary, not legal advice.*
+Virginia's SB749 is not just an AR-15 ban. It reaches semi-automatic pistols through a features-based test, bans any semi-automatic shotgun with a detachable magazine under a one-feature standard, and imposes a 15-round magazine cap across all platforms. If you own firearms in Virginia and haven't read this law carefully, you are potentially at legal risk right now and don't know it. That's not a technicality. That's the design.
 
 ---
 
-## The branding is the strategy
+*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Ymy9MI86_vQ). Commentary, not legal advice.*
 
-Every few years the gun control movement tries a new version of the same basic move: attach a frightening label to a broad category of firearms, get the public comfortable with banning that label, and then write the actual legislation to capture as much as possible under it. Virginia's SB749, which passed the legislature in March 2026 and is awaiting Governor Spanberger's signature, is the current iteration of that strategy, and it's more aggressive than anything the state has passed before.
+---
 
-When most people hear "assault weapons ban," they picture one thing: the AR-15, or something that looks like it. Black rifle, military aesthetic, semi-automatic. The political branding around this category has been carefully cultivated over decades to make those guns seem uniquely dangerous and uniquely appropriate for restriction. And so when legislators propose banning them, a significant portion of the public nods along, because the image in their head is of something genuinely unusual.
+## The label is the weapon
 
-Virginia's law is built on that assumption, and then it goes much further. The bill bans not just semi-automatic centerfire rifles, but also semi-automatic centerfire pistols that meet a features test, semi-automatic shotguns that accept detachable magazines, any revolving cylinder shotgun, and any firearm with a fixed magazine capacity over 15 rounds regardless of platform. The word "assault" is doing enormous political work here. Your Ruger 22/45 doesn't look like an assault weapon to anyone. The law may reach it anyway.
+For weeks, gun owners around the country have been talking about what's happening in Virginia. The state passed an assault weapons ban. People are scared, they're angry, and they should be. But a lot of the conversation is happening around the wrong mental image.
 
-## How the features test actually works
+When most people hear "assault weapon," they picture one thing: a black semi-automatic rifle, probably an AR-15. That image has been cultivated deliberately over decades by the gun control movement because it's politically effective. Show the public something that looks vaguely military and tell them it's uniquely dangerous, and a lot of people who don't think much about guns will nod along. The image does the work.
 
-Virginia does not use a roster system where specific models are listed and prohibited. Instead, SB749 uses a features-based approach: firearms are evaluated against a list of characteristics, and if a gun possesses a certain combination, it becomes an illegal "assault firearm."
+Virginia's Senate Bill 749 is built on that assumption, and then it goes much further than anyone who doesn't read the actual text would expect. The bill was carried by Del. Dan Helmer (D-Fairfax) in the House and Sen. Saddam Azlan Salim (D-Fairfax) in the Senate. It passed the legislature strictly along party lines — 21-19 in the Senate, and the House enrolled it on March 13. It now sits on Governor Abigail Spanberger's desk. She has until April 13 to sign it or let it become law without her signature. The law takes effect July 1, 2026.
 
-For semi-automatic centerfire rifles, you need a detachable magazine and just one additional qualifying feature. The qualifying features are: a folding, telescoping, or collapsible stock; a pistol grip; a second handhold; a threaded barrel; or an attached magazine that loads from outside the pistol grip. Practically every AR-15, AK-pattern rifle, and similar firearm on the market checks those boxes. The threshold is designed to be easy to trigger. One feature is enough.
+What the law actually covers is not what most of the coverage suggests. Yes, it bans most AR-15 and AK-pattern rifles. But it also covers pistols. It also covers shotguns. It bans magazines over 15 rounds regardless of which platform they feed. It criminalizes retrofitting a firearm with covered features after the fact. The word "assault" is carrying a very heavy load here, and most people carrying that word in their heads have no idea what's underneath it.
 
-For semi-automatic centerfire pistols, the bar is slightly higher: a detachable magazine plus two qualifying features from a list that includes a second handhold, a magazine outside the pistol grip (think Uzi-style), a barrel shroud, a threaded barrel, a buffer tube or arm brace, or a catch-all "characteristic of like kind" provision. That catch-all alone is troubling. Legislatures write catch-alls when they want interpretive flexibility, and courts have not always been consistent in limiting how far those provisions reach.
+I made a website called virginiagunban.com to help people understand this law clearly, because I kept seeing coverage that stopped at "AR-15 ban" and left gun owners with no real understanding of their legal exposure. Let me walk through what this law actually does.
 
-For semi-automatic shotguns, the bar drops to one feature, and a detachable magazine alone is sufficient. Read that again: any semi-automatic shotgun that accepts a detachable magazine is banned under this law. Detachable magazines are a purely mechanical convenience. They have no bearing on the lethality of the firearm. Virginia has just made a very large category of home defense shotguns illegal to purchase or transfer.
+## Virginia uses a features test, not a roster
 
-## The penalty structure is meant to chill, not just punish
+Some states ban specific named firearms by model number. That's a roster system. Virginia doesn't do that. SB749 uses a features-based approach: a firearm becomes an illegal "assault firearm" based on its mechanical action and physical characteristics. If your gun checks the right combination of boxes, it's banned regardless of what it's called or who made it.
 
-A first offense under SB749 is a Class 1 misdemeanor, carrying up to 12 months in jail and a $2,500 fine per violation. If you have ten affected firearms and are found in violation, you are looking at $25,000 in fines. Beyond the financial penalty, a conviction strips your gun rights for three years.
+The bill defines six categories of regulated firearms. The thresholds differ by category, but the underlying concept is the same: combine a semi-automatic action with certain physical features and the gun is illegal to sell, purchase, manufacture, import, or transfer.
 
-In practice, I think the initial enforcement posture from prosecutors will involve fewer jail sentences and more fines combined with three-year prohibitions. That outcome is arguably worse from a civil rights standpoint. It turns a single compliance error into a multi-year period where a law-abiding person cannot legally protect themselves or their family. The chilling effect on ownership is the point. Most casual gun owners, confronted with a law this complex and this punishing, will simply stop buying. They will get rid of affected firearms. They will decide the whole thing is too complicated. That is what the law is designed to produce.
+Any firearm, regardless of category, with a fixed magazine over 15 rounds is automatically banned. That's the floor. Everything else is a layer on top of that.
 
-## Grandfathering that isn't really grandfathering
+## Semi-automatic centerfire rifles
 
-SB749 includes a grandfather provision: if you lawfully own a covered firearm before July 1, 2026, you can continue to possess and use it. You are not required to surrender it. That sounds like relief, but the limits matter. You cannot sell it to another Virginian. You cannot transfer it to anyone who is not an immediate family member within Virginia. You can transfer it to a buyer outside the state. You can pass it to a family member.
+For rifles, SB749 requires a detachable magazine plus any one of five listed features: a folding, telescoping, or collapsible stock; a pistol grip; a second handhold; a threaded barrel; or an attached magazine that loads from outside the pistol grip. That's a one-feature threshold, which is lower than the two-feature standard most people associate with assault weapon laws.
 
-What this creates is a slow attrition. The existing stock of these firearms is locked in place, aging, with no lawful civilian market to sustain it. When the current owner dies or moves, the firearm either leaves Virginia permanently or stays in the family without any new blood entering the pool. Over time, the practical ownership of these guns in Virginia collapses even without a confiscation order. This is not grandfathering as most people understand it. It is managed obsolescence.
+Almost every AR-15 and AK-pattern rifle in civilian hands has a detachable magazine and at least one of those features. The threshold is designed to be easy to meet. The M1 Garand is not covered because it uses an internal en bloc clip rather than a detachable box magazine — an exemption that has nothing to do with how dangerous the rifle is and everything to do with the political optics of banning the rifle Patton called "the greatest battle implement ever devised." Semi-automatic .22 caliber rifles with tubular magazines are also exempt. Everything else in this category is almost certainly covered.
 
-## The constitutional picture
+## Semi-automatic centerfire pistols
 
-Legal challenges are coming, and the constitutional landscape is genuinely unsettled. Under the **Bruen** framework, laws restricting Second Amendment rights must be consistent with the historical tradition of firearm regulation at the Founding. Several federal courts have found similar assault weapons bans unconstitutional under that standard. Others have not.
+Here's where things get less predictable, and where I think most coverage has completely dropped the ball.
 
-Critically, the Supreme Court declined last year to hear an appeal of a 4th Circuit decision upholding Maryland's assault weapons ban, with Justices Thomas, Alito, and Gorsuch dissenting from the denial. Virginia sits in the 4th Circuit. That is not a favorable jurisdictional posture for challengers in the near term. Gun rights organizations including the NRA and GOA have signaled they will file immediately upon Spanberger's signature, but extracting a favorable ruling from the 4th Circuit will be an uphill battle. The litigation will take years, and in the meantime the law will be enforced.
+For pistols, the threshold is higher: a detachable magazine plus two of six listed features. Given that most everyday carry pistols don't have any of the listed features in factory configuration — your Glock 19, SIG P320, S&W M&P, Springfield XD — the risk to mainstream carry guns is lower. But the features list includes things that aren't exotic modifications.
 
-## What the legislature didn't ban, and why it matters
+The six features that can qualify a semi-automatic centerfire pistol for the ban are: a second handhold designed to be held by the non-trigger hand; the ability to accept a magazine that attaches outside the pistol grip (think Uzi-style); a barrel shroud that allows holding the barrel area without burning the non-trigger hand; a threaded barrel capable of accepting a suppressor, flash suppressor, barrel extender, or forward handgrip; a buffer tube, arm brace, or other component that protrudes horizontally behind the pistol grip and is designed to facilitate shoulder-firing; or any "characteristic of like kind" to the enumerated features.
 
-SB749 specifically excludes bolt-action rifles, lever-action firearms, pump-action shotguns, revolvers, single-shot firearms, antique firearms, and deactivated or demilitarized firearms. The M1 Garand, arguably the most historically significant semi-automatic military rifle ever issued to American soldiers, is not covered because it uses an internal en bloc clip rather than a detachable box magazine. The exclusions are not based on any coherent theory of lethality. They are based on aesthetics and political palatability.
+That last catch-all provision gets its own paragraph because it's genuinely dangerous language. When legislators don't want to commit to a fixed list — when they want the law to grow by interpretation rather than by new legislation — they add catch-alls. Courts have not been consistent about limiting their reach. A barrel shroud alone might not get you to two features, but a barrel shroud plus a threaded barrel gets you there. A buffer tube or arm brace is on that list, which means a substantial number of AR-pistol configurations are covered. The "of like kind" language means prosecutors have room to argue that features not explicitly named still count.
 
-That incoherence matters legally under **Bruen** and **Heller**, which require restrictions to be consistent with a principled tradition, not with what happens to poll well. A law that bans a semi-automatic pistol with a barrel shroud while leaving a pump shotgun with a pistol grip perfectly legal is making aesthetic distinctions, not safety distinctions. I think that arbitrariness is a genuine vulnerability in litigation. Whether courts in this circuit will engage with it honestly is a different question.
+I want to be precise about what the two-feature rule does and doesn't do. A factory Glock 19 is not banned by SB749 in its standard configuration. That's true. But a pistol-caliber carbine configured as a pistol with an arm brace and a threaded barrel? That's two features. Many competition pistols with aftermarket grips and threaded barrels? Potentially two features depending on configuration. A semi-automatic pistol that accepts a magazine outside the grip and has a barrel shroud? Two features. The law reaches further than a lot of people assume, and because it reaches further than people assume, it creates exactly the kind of compliance uncertainty that chills ownership broadly.
 
-## Virginia as a template
+## Semi-automatic shotguns
 
-SB749 sponsor Sen. Saddam Azlan Salim has reportedly confirmed the bill was crafted in consultation with Governor Spanberger's policy staff, which tells you exactly how coordinated this push is. Virginia is not an outlier experimenting with novel policy. It is now the 11th state with a ban of this type, and the template is being refined with each iteration to capture more while surviving constitutional review longer.
+The shotgun section of SB749 is, in my opinion, the most extreme provision in the bill, and it's getting the least attention.
 
-The features-based approach is more durable than a named-firearms roster because legislators can update it without passing a new bill, and because it forces gun owners to evaluate their own firearms against an increasingly complex checklist. Most people will not do that correctly. Some will become criminals through ignorance rather than intent. In my view, that outcome is a feature of the law, not a bug.
+For semi-automatic shotguns, SB749 requires only one qualifying feature. And crucially, a detachable magazine alone is sufficient. Read that one more time: any semi-automatic shotgun that accepts a detachable magazine is banned under this law. No additional features required. Just the magazine.
 
-Pay attention to what Virginia does next.
+The other qualifying features are: a folding, telescoping, or collapsible stock; a thumbhole stock or pistol grip that protrudes conspicuously beneath the action; a fixed magazine exceeding seven rounds; or any characteristic of like kind. Any single one of those, by itself, is enough.
+
+This is genuinely unprecedented. I've looked at how California, Connecticut, Maryland, Massachusetts, New York, and New Jersey handle semi-automatic shotguns in their assault weapon laws. None of them apply a one-feature standard that treats a detachable magazine or a collapsible stock alone as sufficient grounds for prohibition. Virginia has written itself to the left of every restrictive state in the country on this specific point. No other state does this.
+
+Any revolving cylinder shotgun is also automatically illegal under SB749, full stop, no features test required.
+
+## The grandfather clause and what it actually means
+
+SB749 grandfathers firearms owned before July 1, 2026. You don't have to surrender what you currently own. But you can't sell it to another Virginia resident. You can't transfer it to anyone outside your immediate family within the state. You can transfer it to an out-of-state buyer or pass it to a family member when you die.
+
+What this creates is managed attrition. No confiscation order, no immediate confrontation, just a slow freezing of the existing stock. New firearms can't enter Virginia's civilian market. The ones that exist age with their current owners and eventually leave the state or disappear from circulation entirely. In 30 years, these guns effectively don't exist in Virginia. That's the intended outcome, and the grandfather clause is designed to get there without a political firestorm.
+
+The comparison people reach for is the Hughes Amendment, which closed the civilian machine gun registry in 1986 and made pre-1986 transferable machine guns a finite, depreciating asset over time. SB749's grandfather mechanism is similar in structure but different in one important way: you are the grandfathered party, not the firearm. You can keep the specific gun you own. But you can't sell it, which means the firearm has no market value within Virginia and your rights effectively end when you die or move.
+
+## The penalties
+
+A first violation of SB749 is a Class 1 misdemeanor: up to 12 months in jail and a $2,500 fine per violation. Fines stack. If you have 10 affected firearms, you're potentially looking at $25,000 in fines. A conviction also strips your gun rights for three years.
+
+That three-year prohibition is the part that I keep coming back to. If a Virginia gun owner makes a compliance error — buys a pistol-caliber carbine configured as a pistol without realizing it meets the features threshold, or picks up a shotgun with a folding stock after July 1 without understanding the law — they face losing the ability to own any firearm for three years. Not the specific illegal gun. Any gun. Their right to self-defense is suspended while they navigate the legal aftermath of a mistake that any reasonable person could make.
+
+The practical effect on ownership is chilling, and I mean that precisely. Most people who own guns casually — who keep one for home defense and don't spend their days reading firearms law — are not going to follow SB749 closely enough to know their legal exposure. They'll hear there's a complex new gun law in Virginia, decide it's too risky to navigate, and stop buying. Maybe they'll sell what they have. The law doesn't need to be enforced aggressively to reduce gun ownership. It just needs to exist and be complicated.
+
+## What happens to people who get it wrong
+
+My understanding of how this law is likely to be initially enforced is that prosecutors will lean toward fines and the three-year gun rights prohibition rather than maximizing jail time. That outcome is, from a practical standpoint, worse than a short jail sentence for most gun owners. Three years without the right to own a firearm means three years without the ability to defend your home or your family with the most effective tool available for that purpose. That's not a slap on the wrist. That's a serious deprivation of a constitutional right imposed on someone who violated a law specifically designed to be difficult to understand.
+
+## The constitutional landscape
+
+The legal challenges are already being prepared. The National Shooting Sports Foundation has said publicly it will file a lawsuit immediately upon Spanberger's signature. The NRA and GOA are engaged. The constitutional argument under New York State Rifle and Pistol Association v. Bruen, the 2022 Supreme Court decision, is that firearm restrictions must be grounded in the nation's historical tradition of regulation. There is no historical tradition of banning semi-automatic pistols with barrel shrouds. There is no founding-era analog for a features test that captures buffer tubes and arm braces.
+
+The jurisdictional problem is real. Virginia sits in the Fourth Circuit. The Supreme Court recently declined to review a Fourth Circuit decision upholding Maryland's assault weapons ban. Justices Thomas, Alito, and Gorsuch dissented from that denial. Thomas wrote directly that he couldn't see how Maryland's categorical prohibition on AR-15s survives Bruen. But that's a dissent from a certiorari denial, not a circuit court holding, and the Fourth Circuit has consistently upheld these laws. Getting to a favorable ruling from the Supreme Court, if it ever happens, will take years of expensive litigation.
+
+In the meantime, July 1 is coming.
+
+## Flooding the zone
+
+Virginia Democrats passed 25 gun-related measures in the 2026 session. Twenty-five bills in 60 days. The Trace, which is a gun control advocacy publication, celebrated this as historic. I look at that number and see a deliberate strategy.
+
+When a legislature passes 25 bills targeting a single constitutional right in a single session, no one has the bandwidth to respond to each bill with the scrutiny it deserves. SB749 alone requires multiple explanations across multiple categories of firearms. The magazine ban is a separate statute. The public carry restrictions under SB727 cover additional ground. The under-21 handgun purchasing prohibition is another bill. The hospital carry ban is another. The unserialized firearms bill is another. Each one of these has enough complexity to require its own sustained analysis.
+
+The effect is that gun owners in Virginia are trying to comply with an entirely new legal landscape that has been constructed in two months and that no ordinary person can fully understand without significant research. Most won't do that research. Most will default to the safer-feeling behavior, which is less ownership and fewer purchases. The laws don't need to be well-understood to be effective. They just need to exist and be punishing.
+
+SB749's pistol provisions are a particularly good example of this dynamic. The two-feature threshold creates a false sense of security — if you're not adding weird modifications to your factory pistol, you're probably fine. But "probably fine" is not the same as "clearly legal," and the catch-all provisions and configurations that genuinely do trigger the ban are not obvious. People will be wrong about their compliance status. Some of them will find out the hard way.
+
+This law is not about public safety. Virginia's violent crime is not driven by pistols with barrel shrouds or shotguns with collapsible stocks. Dan Helmer knows that. Abigail Spanberger knows that. The purpose of a law this complex, this punishing, and this deliberately difficult to understand is to make gun ownership feel legally hazardous — to turn a constitutional right into something that only specialists can safely exercise. For everyone else, it's easier to just not bother.
+
+That's the point. It's always been the point.
+
+---
+
+*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Ymy9MI86_vQ). Commentary, not legal advice.*

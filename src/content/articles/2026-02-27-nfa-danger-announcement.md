@@ -1,11 +1,12 @@
 ---
-title: "West Virginia and Kentucky Are Doing What Nobody Thought Possible on Machine Guns"
+title: "West Virginia and Kentucky just fired the first real shot at the Hughes Amendment"
 date: "2026-02-27"
 youtube_url: "https://www.youtube.com/watch?v=9gSGo7q14w0"
 youtube_id: "9gSGo7q14w0"
 thumbnail: "/images/articles/2026-02-27-nfa-danger-announcement.jpg"
 duration: "9:45"
 author: "Bearing Freedom"
+image_prompt: "A state capitol building exterior with an American flag waving in bright afternoon sun, wide-angle photojournalistic shot, clear blue sky, warm golden light on stone facade, no people"
 topics:
   - "nfa"
   - "machine-guns"
@@ -28,54 +29,74 @@ tags:
   - "State Legislation"
 ---
 
-## The Bottom Line
+## The bottom line
 
-West Virginia and Kentucky have introduced legislation that uses federal law's own language to route machine gun transfers through state authority, potentially bypassing the Hughes Amendment's 1986 civilian ban. This is the most credible opening on the machine gun issue since the ban was enacted, and it creates a legal fight that could force the Supreme Court to address whether the Hughes Amendment is constitutional at all.
-
----
-
-*This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=9gSGo7q14w0). This is commentary, not legal advice.*
+West Virginia and Kentucky have introduced legislation that reads the federal machine gun statute correctly, uses the government's own carve-out language against it, and creates the first genuine legal and cultural opening on the Hughes Amendment since the ban passed in 1986. Whether these bills survive politically, they have already started something that does not stop easily.
 
 ---
 
-## A shift nobody predicted
+*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=9gSGo7q14w0). Commentary, not legal advice.*
 
-I'll be honest: I did not think I would see serious movement on the NFA and the Hughes Amendment within the next decade. The machine gun ban has been treated as politically untouchable for forty years. Most gun owners don't spend much time thinking about it. The broader public considers it settled. The political will to touch it at the federal level simply hasn't existed, and I had no reason to believe that was about to change.
+---
 
-Then West Virginia introduced Senate Bill 1071, the Public Defense and Provisioning Act, which would establish an Office of Public Defense within the West Virginia State Police and task that office with selling modern machine guns directly to eligible citizens. Shortly after, Kentucky introduced House Bill 749, written by Rep. TJ Roberts using the West Virginia bill as a template, creating an identical Office of Public Defense within the Kentucky State Police.
+## I was wrong, and I'm glad about it
 
-Two states in the same week, both with bills written to exploit the same provision of federal law. This is not a coincidence. This is a coordinated strategy, and it deserves to be taken seriously.
+I have said for years, openly and repeatedly, that I did not expect to see meaningful movement on the NFA or the Hughes Amendment within the next decade. I based that on a genuine read of the political landscape: the machine gun issue has almost no public support at the moment, most gun owners do not prioritize it, and the federal appetite to revisit a 40-year-old ban simply has not been there. I thought we were stuck with it until the courts forced the issue, and I did not know when that would happen.
 
-## What the federal law actually says
+Then West Virginia introduced Senate Bill 1071, the Public Defense and Provisioning Act, on February 23, 2026. Written by Gun Owners of America and their allies in the West Virginia legislature, the bill creates an Office of Public Defense within the West Virginia State Police, tasks that office with acquiring modern machine guns, and authorizes it to transfer those firearms directly to qualified citizens who pass background checks. The administrative fee is $250. No Form 4. No months-long NFA wait. No registry freeze. Just buy a machine gun like you would buy anything else.
 
-The Hughes Amendment, passed as part of the Firearm Owners Protection Act of 1986, added 18 U.S.C. § 922(o) to the federal code, which made it unlawful for any person to transfer or possess a machine gun manufactured after May 19, 1986. The practical effect was to freeze the civilian registry permanently. Because no new machine guns can enter civilian ownership, the existing pre-1986 registered stock has become increasingly rare and expensive over the decades. A transferable M16 that cost a few hundred dollars in 1986 now sells for $15,000 to $35,000 or more.
+Two days later, Kentucky introduced House Bill 749. Rep. TJ Roberts of Burlington used the West Virginia bill as a template and introduced an identical framework through the Kentucky State Police. Two states, the same week, both bills built on the same provision of federal law.
 
-But the statute contains an explicit carve-out. The prohibition does not apply to a transfer to or by, or possession by or under the authority of, the United States or any department or agency thereof, or a state, or a department, agency, or political subdivision of a state. Read plainly, this means that states themselves are authorized to transfer machine guns to citizens acting under the authority of the state. West Virginia and Kentucky are both reading the statute this way and structuring their bills accordingly. The state becomes the intermediary. The citizen acquires a machine gun through a state-facilitated transaction that falls within the explicit federal exemption, paying a $250 administrative fee in the West Virginia model.
+This is not a coincidence. This is a coordinated strategy. And it deserves to be taken seriously.
 
-Gun Owners of America, which helped draft the West Virginia bill, has publicly backed this interpretation. It is a serious legal argument grounded directly in the statute's text, not a creative workaround or a longshot theory.
+## What the federal statute actually says
 
-## Why this matters even if it gets blocked
+The machine gun ban comes from the Hughes Amendment, attached to the Firearm Owners Protection Act of 1986 and codified at 18 U.S.C. § 922(o). The amendment made it unlawful for any person to transfer or possess a machine gun manufactured after May 19, 1986. The effect was to freeze the civilian registry permanently. The pre-1986 registered stock has been declining through attrition ever since, and the prices have become absurd. A transferable M16 that cost maybe $400 in 1986 now runs anywhere from $15,000 to over $35,000. Ownership has become financially impossible for most people who want it.
 
-The obvious concern is that the federal government or anti-gun organizations will sue to enjoin these state programs before a single transfer can occur. That is quite possibly what will happen. But here is why that outcome is still a win: litigation is exactly what the Second Amendment movement needs on this issue.
+But here is what the statute actually says, verbatim: the prohibition does not apply with respect to a transfer to or by, or possession by or under the authority of, the United States or any department or agency thereof, or a state, or a department, agency, or political subdivision of a state.
 
-Courts that have addressed § 922(o) directly have reached conflicting conclusions. The Fifth Circuit upheld the post-1986 machine gun ban in a January 2026 decision, but a federal district judge in United States v. Morgan ruled that the ban on civilian-owned machine guns may actually violate the Second Amendment under the **Bruen** historical-tradition framework. A Texas gun club filed a federal lawsuit in March 2026 specifically attacking the constitutionality of § 922(o). The legal landscape is contested in a way it has never been before.
+Read that again. States are explicitly carved out of the ban. A state, acting as the transferring authority, can legally transfer a machine gun to a citizen operating under that state's authority. West Virginia and Kentucky are both reading it this way. The citizen acquires the firearm through a state-facilitated transaction that falls within the explicit federal exemption. Gun Owners of America, which helped write the West Virginia bill, has publicly backed this interpretation. This is not a creative stretch or a desperate legal theory. The text says what it says.
 
-If opponents file to stop the West Virginia and Kentucky programs, they will have to litigate the question of whether § 922(o) applies to state-facilitated transfers at all. That question, once litigated up through the circuits, becomes a vehicle for Supreme Court review. And a Supreme Court that has already held in **Heller** that arms in common use for lawful purposes receive Second Amendment protection, and that has since strengthened that framework in **Bruen**, will have to grapple seriously with whether a machine gun ban passed through a procedurally questionable voice vote in 1986 can survive constitutional scrutiny.
+## What happened in West Virginia, and why it still matters
 
-The Hughes Amendment itself has a troubled origin. It was attached to FOPA at the last minute, passed by a voice vote that the presiding officer declared resolved in the affirmative despite what observers described as an audible majority voting against it. The constitutional courts have previously avoided reviewing the merits by invoking the enrolled bill rule, which bars courts from looking behind the official certified text of a law. But **Bruen** demands a different kind of analysis, one focused on historical tradition rather than procedural deference. That creates new openings that didn't exist before 2022.
+I want to be honest about where this stands in West Virginia right now: the bill cleared the Senate Judiciary Committee in early March, but Senate President Randy Smith killed it before it could receive a full floor vote, calling the legislation "poorly drafted." He said he believed it would face significant legal challenges upon passage and was unlikely to clear the House.
 
-## The constitutional carry parallel
+That is a setback. I'm not going to pretend it isn't.
 
-In my view, the most important thing about what West Virginia and Kentucky are doing is not the legal theory. It is the cultural momentum it could create. Constitutional carry was once a fringe position. Vermont had it for generations while the rest of the country dismissed it as a quirk. Then a few states adopted it, then more, and now roughly 30 states have permitless carry. The legal change followed the cultural normalization.
+But I also want to be clear about why it does not end the conversation. Smith's objection was not that the legal theory was wrong. His objection was that the bill as written had drafting problems that would invite litigation. That is a fixable problem. GOA has already signaled they intend to continue pushing the issue. The bill passed its committee. There were enough votes to move it. The Senate President used procedural control to block it, not a floor vote that rejected it on the merits.
 
-The machine gun issue suffers from a perception problem that has nothing to do with law or statistics. When most Americans hear "machine gun," they imagine indiscriminate violence, a weapon of war spraying death at random. That image is not accurate. Machine guns in civilian hands have an extraordinarily clean safety record. The number of crimes committed with legally registered pre-1986 machine guns is essentially zero. But perception drives policy, and the perception has been shaped by decades of terminology designed to make these firearms seem uniquely dangerous.
+Kentucky's HB749 was still alive and pending in the House Veterans, Military Affairs, and Public Protection Committee as of late February. The Kentucky bill was drafted with the West Virginia experience in mind and may avoid some of the technical objections that got SB1071 stalled.
 
-When Kentucky residents start lawfully owning modern machine guns, using them at ranges, discussing them with neighbors, passing them to family members, the cultural narrative around these firearms changes. They become normal. The fear dissipates. And when the fear dissipates, the political will to maintain the ban softens. That is how rights are restored over time, not just through courts but through culture.
+More importantly: once one of these bills passes anywhere, the legal fight begins in earnest, and that is where the real opportunity lies.
 
-## What this means for gun owners who don't care about machine guns
+## Why getting sued is actually the goal
 
-If you have no interest in ever owning a machine gun, you might be tempted to view this as irrelevant to you. That would be a mistake. The Hughes Amendment is part of the National Firearms Act regulatory structure, and the NFA covers suppressors, short-barreled rifles, short-barreled shotguns, and destructive devices in addition to machine guns. The NFA's requirement of a $200 tax, extensive paperwork, and months-long federal approval process for otherwise lawful items is a burden that falls on ordinary gun owners buying hearing protection and home defense rifles.
+If opponents go to court to block a state machine gun transfer program, they will have to litigate the specific question of whether § 922(o) applies to state-facilitated transfers under the explicit carve-out language. That question, argued through the federal courts, becomes a vehicle for appellate review and eventually Supreme Court consideration.
 
-More broadly, the machine gun ban represents the most complete civilian disarmament ever accomplished under federal law. Not a restriction, not a registration regime, but an outright ban on an entire class of arms that were previously available to law-abiding citizens. If the underlying rationale for that ban cannot survive **Bruen** scrutiny, the legal implications extend well beyond machine guns. A ruling that § 922(o) is unconstitutional would reshape how courts evaluate categorical arms bans generally.
+The legal landscape on machine guns has already shifted more than most people realize. A federal district judge in United States v. Morgan concluded that the post-1986 machine gun ban may not survive Second Amendment scrutiny under the *Bruen* historical-tradition framework. The Fifth Circuit upheld § 922(o) in a January 2026 decision, but the reasoning drew criticism from *Bruen* purists because it relied on the old means-ends balancing approach that *Bruen* was specifically designed to replace. A Texas gun club filed a direct constitutional challenge to § 922(o) in early 2026. The cases are percolating through the system.
 
-That is why the gun control movement will fight these bills harder than almost anything else. And it is why those of us who care about the Second Amendment should pay close attention to what happens in Charleston and Frankfort over the next few months. The downfall of the NFA as we know it may have started with two state legislatures in February 2026. I didn't think I'd ever be writing that sentence.
+The *Bruen* framework, decided in 2022, requires that firearm regulations be consistent with the nation's historical tradition of gun regulation. There is no founding-era analogue for a categorical ban on an entire class of arms previously available to law-abiding citizens. The NFA's original 1934 structure was upheld as a revenue measure. The 1986 Hughes Amendment addition is something different: a flat prohibition on possession, not a tax or registration requirement. If the Supreme Court applies *Bruen* to § 922(o) with any consistency, the ban has a serious problem.
+
+The Hughes Amendment also has a legitimacy problem that most people have forgotten. It was attached to FOPA at the last minute, passed by a voice vote that the presiding officer declared resolved in the affirmative despite multiple accounts describing an audible majority voting against it. Courts have historically avoided looking behind the enrolled text of a statute, but *Bruen*'s shift toward historical analysis creates different pressure points. The amendment's origins matter when you're arguing about whether it reflects any genuine American tradition of firearm regulation.
+
+## The constitutional carry parallel is exactly right
+
+I keep coming back to the constitutional carry comparison because I think it is the most honest framework for understanding what these bills could become.
+
+Permitless carry was a fringe position for decades. Vermont had it as a historical artifact. No one else did. The idea that most of America would adopt constitutional carry within a generation was not something serious people predicted with confidence. Then a few states moved, then more, and now 29 states have permitless carry. The legal landscape changed partly because the Supreme Court moved, but the cultural landscape changed because ordinary people in ordinary states started carrying without permits and the world did not end. The fear was revealed to be unfounded. And once the fear collapsed, the political cost of maintaining restrictive carry laws went up in state after state.
+
+The machine gun issue has a worse starting position than carry did. When most Americans hear the words "machine gun," they picture something from a war movie. That perception is completely detached from reality. The actual crime rate associated with legally registered pre-1986 machine guns in civilian hands is essentially zero. There is no documented epidemic of machine gun crime from lawful owners. But that does not matter if the cultural image is one of indiscriminate violence.
+
+When someone in Kentucky lawfully owns a modern machine gun, takes it to a range, talks about it with their neighbors, and passes it to their son ten years from now, that perception slowly changes. It becomes normal. Boring, even. And boring is how rights get restored at the cultural level.
+
+There was a clip playing around Second Amendment circles recently of a Virginia state legislator referring to a standard semi-automatic pistol as an "assault handgun" during floor debate, with a committee chairman correcting a colleague who had used the wrong preferred terminology. That is where we are culturally on the gun issue right now: the language has been so thoroughly poisoned that ordinary firearms get labeled with terms designed to evoke fear. The machine gun issue is worse than that. The normalization project has to happen somewhere, and these state bills are the mechanism.
+
+## Why this matters even if you never want to own one
+
+If you own suppressors, short-barreled rifles, or short-barreled shotguns, you live under the NFA already. The $200 tax and the months-long federal approval process that governs your hearing protection or your home defense SBR come from the same legal structure that produced the Hughes Amendment. A successful constitutional attack on § 922(o) does not automatically dissolve the rest of the NFA, but it establishes a judicial framework for examining whether categorical arms restrictions can survive *Bruen* scrutiny. That framework has implications that extend well beyond machine guns.
+
+More broadly, the Hughes Amendment represents something that has no other precedent in American gun law: a complete ban on an entire class of arms that law-abiding citizens previously possessed freely. Not a registration requirement, not a tax, not a carry restriction. A ban. If that ban cannot survive historical-tradition analysis, the legal theory used to strike it down becomes available in other fights.
+
+The gun control movement understands this. It is why they will fight these state bills harder than almost anything else. The stakes are not just machine guns. The stakes are whether categorical arms bans are constitutionally permissible at all.
+
+I did not think I would write this article in my lifetime. I am genuinely glad I was wrong. Whatever happens in Charleston and Frankfort over the next several months, something has shifted. The NFA has its first real crack since the day it was written.

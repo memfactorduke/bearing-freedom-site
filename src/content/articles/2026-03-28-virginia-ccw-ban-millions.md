@@ -1,5 +1,5 @@
 ---
-title: "Virginia's SB115 Will Turn Millions of Law-Abiding Carriers Into Criminals"
+title: "Virginia's SB115 will turn millions of law-abiding carriers into criminals"
 date: "2026-03-28"
 youtube_url: "https://www.youtube.com/watch?v=XmdGYnFUGRQ"
 youtube_id: "XmdGYnFUGRQ"
@@ -23,60 +23,93 @@ tags:
   - "Reciprocity"
   - "Gun Control"
   - "Carry Permit"
+image_prompt: "Bright afternoon sun on a Virginia state capitol building exterior, wide steps leading to columned entrance, American and Virginia state flags flying, a lone person walking up the steps carrying a folder of documents, photojournalistic, clear blue sky, natural light"
 ---
 
-## The Bottom Line
+## The bottom line
 
-Virginia's SB115 hands a single unelected official the unchecked authority to strip millions of permit holders of their right to carry in the state, based on a legal standard that nobody bothered to define. It criminalizes people who have done everything right, and it does so deliberately, with no safety rationale offered or even attempted.
-
----
-
-*This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=XmdGYnFUGRQ). This is commentary, not legal advice.*
+Virginia Senate Bill 115 hands a single unelected official the unchecked power to strip millions of permit holders of their right to carry in the state, based on a legal standard that is never defined anywhere in the bill. It will turn law-abiding people into criminals by December 2026, and not one crime committed by an out-of-state permit holder was cited to justify any of it.
 
 ---
 
-## The bill nobody is talking about
+*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=XmdGYnFUGRQ). Commentary, not legal advice.*
 
-Virginia's 2026 legislative session produced an avalanche of gun control. There are assault weapons bans, pistol bans, magazine restrictions, red flag expansions, and mandatory buyback provisions. Any one of those could anchor a news cycle. Senate Bill 115 is not competing for that attention, and that obscurity is precisely why it deserves scrutiny.
+---
 
-What SB115 does is quieter, more technical, and in some respects more destructive than the headline bills. It dismantles Virginia's out-of-state concealed carry permit recognition almost entirely, replacing a clear universal system with a vague bureaucratic review process controlled by a single state official. Millions of people who currently carry lawfully in Virginia, including Virginia residents, will be stripped of that ability with no notice and no recourse.
+## The bill nobody is actually talking about
 
-## How recognition worked and why it mattered
+Virginia's 2026 legislative session sent an assault on gun rights to Governor Abigail Spanberger's desk. I counted 58 different gun control measures introduced this session. There is a semi-automatic rifle and pistol ban, SB749/HB217, that would prohibit the sale, manufacture, and importation of centerfire semi-auto rifles and pistols that accept magazines over 15 rounds. There are expanded red flag provisions, magazine bans, storage mandates, and age restrictions. Any one of those deserves its own fight.
 
-Before 2016, Virginia honored every valid concealed carry permit issued by any other state, provided the holder was 21 or older with a valid photo ID. No bureaucratic review. No case-by-case analysis. You had a permit, Virginia recognized it. This was the sensible default for a nation where adults routinely cross state lines.
+But Senate Bill 115 is the one I want to talk about, because it is not getting the attention it deserves and the details are genuinely worse than people realize. This is not the blockbuster bill. The assault weapons ban will dominate the news cycle. SB115 is quieter, more technical, and in some ways more destructive, because it will reach people who never thought Virginia's politics had anything to do with them.
 
-That ended temporarily in December 2015, when then-Attorney General Mark Herring unilaterally revoked reciprocity with 25 states, citing the claim that those states had "lax" permitting standards compared to Virginia's. The backlash was immediate and severe. Six states withdrew their own reciprocity with Virginia in retaliation. The political fallout was significant enough that the arrangement was restored within roughly eight weeks. The experiment was a failure by any measure, and no crime committed by an out-of-state permit holder was cited to justify any part of it.
+I live in North Carolina. I drive up to Virginia all the time. Danville is right across the border. This bill affects me directly. It will affect millions of people who thought they were doing everything right.
 
-SB115 is that same experiment, this time encoded into statute so it cannot be reversed by a single phone call from the governor's office.
+## How Virginia's reciprocity used to work
 
-## What the bill actually does
+Before 2016, Virginia's policy was simple: if you had a valid concealed handgun permit from any other state and you were 21 or older with a valid photo ID, Virginia recognized it. No bureaucratic review. No case-by-case analysis. You had a permit, it was valid, Virginia honored it. That is how it should work.
 
-Under SB115, the Superintendent of State Police receives authority to determine whether any given state's permit system is "substantially similar" to Virginia's statutory requirements. States that fail the review lose recognition. The superintendent has until December 1, 2026, to complete that review and revoke any agreements that don't meet the threshold. The restrictions take formal effect July 1, 2027.
+In December 2015, then-Attorney General Mark Herring decided to unilaterally undo all of that. He reviewed reciprocity agreements and revoked recognition from 25 states, dropping Virginia from honoring 30 states down to just five: Michigan, Oklahoma, Texas, Utah, and West Virginia. His justification was that the revoked states had "lax" permitting standards compared to Virginia's. The backlash was immediate and severe. Six states pulled their own reciprocity with Virginia in retaliation. More than 13,000 people signed a petition to restore the agreements. The political fallout was bad enough that the policy was reversed within about eight weeks and Governor McAuliffe signed legislation in 2016 making Virginia a full recognition state and requiring the state police to enter formal reciprocity agreements with any state that required them.
 
-The central problem is that "substantially similar" is not defined anywhere in the bill. There is no enumerated checklist. There is no minimum training hour threshold. There is no clear answer about whether fingerprinting requirements make a state more or less similar, or whether a higher training bar than Virginia's disqualifies a state the same way a lower one might. The superintendent can apply the standard however he chooses, and there is no procedural mechanism for a state to challenge a negative determination.
+Not a single crime committed by an out-of-state permit holder was cited to justify the original revocation. Not one. That experiment failed in eight weeks. SB115 is that same experiment, this time encoded in statute so it cannot be undone with a single decision from the governor's office.
 
-In practice, the bill contains two near-automatic disqualifiers that will gut recognition on their own. First, states must maintain a 24-hour online permit verification system or they are out. Second, permitless carry states are effectively disqualified because their permitting systems, which are often optional rather than required, cannot plausibly meet a "substantially similar" bar. There are currently 29 states that allow some form of permitless carry. Most or all of them will lose Virginia recognition automatically.
+## What SB115 actually does
 
-## The resident trap
+Sponsored by Sen. Stella Pekarsky of Fairfax and backed by Senate Majority Leader Scott Surovell, SB115 passed both chambers along strict party lines, 21-18 in the Senate and 62-33 in the House. Every Democrat voted yes. Every Republican voted no. The bill does not take formal effect until July 1, 2027, but the machinery starts moving much sooner than that.
 
-The element of SB115 that has received the least attention is its treatment of Virginia residents holding out-of-state permits. If you moved to Virginia from Texas two years ago and have been carrying on your Texas license, that license becomes invalid for carry in Virginia once the review is complete, even if Texas's permit system survives the review. Even if Virginia maintains formal reciprocity with Texas for visiting Texans, a Virginia resident holding a Texas permit cannot legally carry under that permit in the state where they live.
+Under SB115, the Superintendent of State Police gets authority to determine whether any given state's permit system is "substantially similar" to Virginia's statutory requirements. States that fail the review lose recognition. The superintendent must complete that review and revoke any failing agreements by December 1, 2026. Any out-of-state permit that loses recognition is invalid for carry in Virginia from that date forward.
 
-This is not a hypothetical edge case. Virginia is bordered by North Carolina, West Virginia, Tennessee, Kentucky, Maryland, and Washington, D.C. People move across these borders constantly for work, for family, and for cost of living. Many of them have out-of-state permits they have been using without incident for years. Under SB115, those people become criminals on December 1, 2026, not because they did anything wrong but because a bureaucratic review decided their home state's permit standards were insufficiently similar to Virginia's.
+The word "substantially" is doing enormous work in this bill, and it is doing it without any definition attached to it. There is no enumerated checklist. There is no minimum training hour threshold. There is no clear rule about fingerprinting requirements or background check procedures. The superintendent applies the standard however he chooses, and there is no procedural mechanism for a state to appeal or challenge a negative determination. It is pure unilateral discretion.
 
-There is no grace period for residents to obtain a Virginia permit before the deadline. There is no recognition that a person who passed a background check, completed training, and has been carrying lawfully for years poses any greater risk than a Virginia permit holder who went through the same process.
+## Two near-automatic disqualifiers
 
-## The undefined standard creates unlimited discretion
+The bill contains two provisions that will gut reciprocity on their own before the superintendent even gets to the subjective "substantially similar" analysis.
 
-I think the vagueness of the "substantially similar" standard is not an oversight. Undefined standards in enforcement statutes are useful precisely because they allow selective application. The 2015 Herring revocation cut 25 states and retained only five, and the choices tracked political geography closely. The states that kept reciprocity were not uniformly the states with the most rigorous permitting requirements. They were the states the attorney general found politically convenient to retain.
+First, states must maintain a 24/7 online permit verification system or they are automatically out. Most states do not have real-time online verification infrastructure. This one provision alone will eliminate the majority of states from recognition without any further review.
 
-SB115 codifies that discretion permanently, vesting it in the superintendent rather than the attorney general but leaving the substance identical. The superintendent can cut every state that doesn't maintain a real-time online database, which would eliminate the majority of states on technical grounds alone. He can then use the remaining undefined "substantially similar" language to cut whichever others remain. The standard is whatever he decides it is on any given day.
+Second, permitless carry states are effectively disqualified. There are 29 states that currently allow some form of permitless carry. Their permitting systems, which are optional rather than required in those states, cannot plausibly be described as substantially similar to Virginia's mandatory system. Most or all of them will fail automatically.
 
-In 2015, not a single crime committed by an out-of-state permit holder was cited to justify the revocation. The advocates of SB115 have not cited one either. The bill's sponsor, Senate Majority Leader Scott Surovell, explained it by saying you shouldn't be able to "pay a couple bucks in Texas and then carry all around Virginia." That framing misrepresents how Texas's licensing process works, but more fundamentally, it treats the absence of expense as a safety defect. That is not a public safety argument. It is an argument for making carry permits harder to obtain as an end in itself.
+Then there is the fingerprinting question. Virginia does not require fingerprinting for its concealed handgun permit. California does. If a state requires fingerprinting and Virginia does not, does that make that state more similar or less similar to Virginia? The bill does not say "substantially similar or greater." It just says substantially similar. There is a real argument that a state with stricter requirements is not substantially similar to Virginia. The standard is genuinely that undefined.
 
-## A right reduced to the superintendent's preferences
+I am in North Carolina. North Carolina requires a minimum of eight hours of firearms safety training, including a written test on state laws pertaining to deadly force. Virginia does not specify a minimum training hour requirement. Under SB115, whether North Carolina is "substantially similar" to Virginia comes down entirely to what the superintendent decides one morning. That is not a legal standard. That is political discretion with a legal veneer over it.
 
-The broader principle here matters more than the mechanics. Concealed carry reciprocity is the practical expression of the idea that a constitutional right recognized in one state does not evaporate at a state line. The Supreme Court's ruling in **New York State Rifle & Pistol Association v. Bruen** confirmed that the right to carry extends beyond the home. The federal Concealed Carry Reciprocity Act has been introduced repeatedly in Congress on the grounds that a driver's license recognized in all 50 states should not be more portable than a carry permit.
+## The part that makes this so much worse
 
-Virginia is moving aggressively in the opposite direction, substituting an unaccountable bureaucratic gatekeeper for a clear legal right. The people most affected are not dangerous. They are permit holders who passed background checks, often completed more training than Virginia requires, and have been carrying without incident. SB115 treats their lawful conduct as a problem to be solved, not a right to be respected.
+There is an element of SB115 that has received almost no coverage and it is the most indefensible part of the bill.
 
-Governor Abigail Spanberger has until April 13 to veto the bill. The political calculus is real: cutting 25 or more states means angering the governors of those states, and the interstate fallout from 2015 was immediate. Whether that pressure is enough to produce a veto is uncertain. But the bill's legal and constitutional vulnerabilities are substantial, and the practical harm to millions of law-abiding carriers is not a prediction. It is a scheduled outcome.
+SB115 does not just affect people visiting Virginia from out of state. It also strips Virginia residents of their ability to carry on an out-of-state permit, even if that permit's home state maintains reciprocity with Virginia.
+
+Think about what that means. You moved from Texas to Virginia two years ago. You have been carrying on your Texas license the entire time, as you are legally entitled to do. You have done nothing wrong. Under SB115, once the superintendent's review is complete, your Texas license is invalid for carry in the state where you live, even if Texas passes the "substantially similar" review and Virginia formally maintains reciprocity with Texas for visiting Texans. Virginia residency strips you of that recognition regardless.
+
+The only exception is active-duty military members and their spouses.
+
+So if you are a Virginia resident who moved from West Virginia, or North Carolina, or Kentucky, or Tennessee, and you have been carrying on your home state's permit without incident, you become a criminal by December 2026. You did not commit a crime. You did not fail a background check. You passed whatever training your state required. You just live on the wrong side of a state line.
+
+The practical impact of this is not small. Virginia shares borders with North Carolina, West Virginia, Maryland, Tennessee, and Kentucky. People relocate across those borders constantly for work, family, and cost of living. Many of them have held out-of-state permits for years. SB115 creates a class of accidental criminals out of people who followed every rule they were given.
+
+## This is not even pretending to be about safety
+
+Senate Majority Leader Surovell explained this bill by saying you should not be able to "pay a couple bucks in Texas and then carry all around Virginia." That framing misrepresents how Texas's license to carry process actually works. Texas requires classroom and range training, a background check, and a fingerprint submission. It is a real process.
+
+But more importantly, the argument that a lower fee represents a safety defect is not a public safety argument. It is an argument for making carry permits expensive as a goal in itself, which is to say it is an argument for making the Second Amendment a right that only wealthier people can afford to exercise. That should bother everyone, not just gun owners.
+
+In 2015, when Herring revoked reciprocity with 25 states, not a single out-of-state permit holder crime was cited in justification. SB115's advocates have not cited one either. There is no data. There is no incident. There is no case study of an out-of-state permit holder committing violence in Virginia that this bill would have prevented. They are not even trying to provide one.
+
+At some point, if you are going to do something this sweeping, at least give me the courtesy of pretending there is a public safety rationale. They have not bothered.
+
+## The constitutional problem
+
+The Supreme Court confirmed in New York State Rifle & Pistol Association v. Bruen in 2022 that the right to carry extends outside the home. That is the law. What Virginia is doing with SB115 is constructing an administrative apparatus designed to make that right practically unenforceable for millions of people who cross its borders or move there. The right does not evaporate at a state line and a superintendent's discretionary review is not a constitutional substitute for actual reciprocity.
+
+H.R. 38, the Constitutional Concealed Carry Reciprocity Act of 2025, introduced by Rep. Richard Hudson of North Carolina, passed out of the House Judiciary Committee 18-9 in March 2025 and would establish a federal statutory floor for interstate carry recognition. Virginia's legislature is moving in precisely the opposite direction at precisely the moment Congress is trying to establish a national standard.
+
+## What happens April 13th
+
+Governor Spanberger has until April 13th to veto SB115. In Virginia, she does not need to sign it for it to become law. She just needs to not veto it. So the default outcome is that this bill passes.
+
+There is one real reason to think she might act on it. Cutting 25 or more states from recognition means angering 25 or more governors. The interstate fallout in 2015 was immediate. Six states pulled their reciprocity with Virginia within weeks. If that happens again, it becomes a multistate political problem for Spanberger at a moment when she presumably has larger ambitions than the Virginia governorship.
+
+Would I hold my breath on a veto? No. But it is the only bill out of this entire package where I can see the political calculus running that direction.
+
+Barring that, the legal challenges will come. Virginia's permit holders, out-of-state carriers, and gun rights organizations are not going to accept a law that creates millions of accidental criminals by December 2026 without a fight. The constitutional vulnerabilities in SB115 are real, the undefined standard creates due process problems, and the resident-permit provision is almost certainly going to be challenged on Second Amendment grounds.
+
+But those fights take time. In the meantime, if you have been carrying in Virginia on an out-of-state permit, you need to know about this bill right now, because the deadline is coming and the law as written will not warn you before it makes you a criminal.

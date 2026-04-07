@@ -1,5 +1,5 @@
 ---
-title: "Virginia's shotgun ban is stricter than any state in America, and that's the point"
+title: "Virginia's shotgun ban is stricter than every other state in America, and that's the point"
 date: "2026-03-25"
 youtube_url: "https://www.youtube.com/watch?v=zsAgZ9tXHMk"
 youtube_id: "zsAgZ9tXHMk"
@@ -23,66 +23,85 @@ tags:
   - "Assault Weapons Ban"
   - "Shotgun"
   - "Semi-Automatic"
+image_prompt: "A pump-action and semi-automatic shotgun side by side on a wooden gun rack inside a bright, sunlit sporting goods store, natural light streaming through large storefront windows, soft shadows, photojournalistic style"
 ---
 
-## The Bottom Line
+## The bottom line
 
-Virginia's SB749 applies a one-feature test to semi-automatic shotguns, meaning a collapsible stock or a detachable magazine is enough to make a common home defense firearm illegal to buy or sell. This goes further than California, further than Connecticut, further than any assault weapon law previously enacted in the United States, and the features it targets have no relationship to lethality.
-
----
-
-*This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=zsAgZ9tXHMk). This is commentary, not legal advice.*
+Virginia's SB749 applies a one-feature test to semi-automatic shotguns. One feature. A collapsible stock by itself. A detachable magazine by itself. That's enough to make a standard home defense shotgun illegal to buy, sell, or transfer in Virginia starting July 1, 2026. No other state in America goes this far. California doesn't. Connecticut doesn't. Maryland doesn't. Virginia just leapfrogged all of them, and most gun owners still don't fully understand what hit them.
 
 ---
 
-## What the law actually says about shotguns
+*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=zsAgZ9tXHMk). Commentary, not legal advice.*
 
-When people talk about Virginia's Senate Bill 749, the conversation usually centers on rifles, specifically the AR-15 and similar platforms that have been the primary target of assault weapon legislation elsewhere. That focus is understandable and the restrictions there are serious. But the shotgun provisions of SB749 deserve their own sustained attention, because they are in some respects more extreme, and they affect a category of firearm that most Americans instinctively associate with legitimate home defense rather than political controversy.
+---
 
-Under SB749, any semi-automatic shotgun that possesses even one of a short list of features is classified as an "assault firearm" and cannot be sold, purchased, manufactured, imported, or transferred in Virginia after July 1, 2026. Existing owners may keep what they have, but those firearms cannot be transferred to anyone outside of immediate family or inheritance. The practical effect is that every qualifying shotgun currently in Virginia slowly disappears from lawful circulation. No new ones can enter. No existing ones can be sold.
+## Why nobody's talking about the shotgun piece
 
-The one-feature test is the critical detail. For rifles under SB749, the same standard applies. One feature from the list is sufficient. This is more aggressive than most existing assault weapon laws, which typically use a two-feature test, requiring a combination of characteristics before a firearm is classified as restricted.
+Every conversation I see about SB749 centers on rifles. AR-15s. AK-pattern guns. Those concerns are legitimate and the rifle provisions are genuinely terrible, but they're dominating the discussion so completely that the shotgun section of this law is getting almost no attention. That's a serious problem, because the shotgun provisions may actually be the most extreme part of the entire bill.
 
-## The features list
+I built a website called virginiashotgunban.com to try to help people understand what this law actually says about shotguns, because I kept seeing coverage that either ignored it entirely or mentioned it in a single sentence before moving on. That's not good enough. This part of the law deserves a sustained, honest look.
 
-The features that trigger SB749's shotgun restrictions are: a folding, telescoping, or collapsible stock; a thumbhole stock or a pistol grip that protrudes conspicuously beneath the action; the ability to accept a detachable magazine; a fixed magazine with a capacity exceeding seven rounds; or any characteristic the statute deems "of like kind" to the enumerated features.
+SB749 was sponsored in the Senate by Sen. Saddam Azlan Salim (D-Fairfax) and pushed through the House by Del. Dan Helmer (D-Fairfax), who has been trying to pass an assault weapons ban in Virginia for years. Former Governor Glenn Youngkin vetoed it every time it landed on his desk. When Abigail Spanberger won the governorship, the only obstacle was gone. The bill passed the Senate 21-19 and the House with no Republican support, and it's been sitting on Spanberger's desk since mid-March. She has until April 13 to sign it, veto it, or let it become law without her signature. Nobody serious thinks she's vetoing it. The effective date is July 1, 2026. That's not a lot of runway.
 
-I want to be precise about what each of these means in practice, because the language sounds technical until you realize how many ordinary firearms it captures.
+## What the law actually says
 
-A collapsible stock is a standard ergonomic feature on many shotguns used for home defense, where a shorter length of pull may suit a smaller shooter or a confined space. Its presence has no effect on the rate of fire, the lethality of the ammunition, or the mechanical operation of the firearm. It adjusts fit.
+Under SB749, any semi-automatic shotgun becomes an illegal "assault firearm" if it has even one of the following features: a folding, telescoping, or collapsible stock; a thumbhole stock or pistol grip that protrudes conspicuously beneath the action; the ability to accept a detachable magazine; a fixed magazine capacity exceeding seven rounds; or any characteristic the statute considers "of like kind" to those features.
 
-A pistol grip is similarly common on tactical shotguns sold for home defense, the stated intended use of roughly 40 percent of shotgun purchases. Mossberg, Remington, and Benelli all sell semi-automatic models with pistol grips. None of these manufacturers include pistol grips because they make the firearm more dangerous. They include them because buyers find them comfortable and controllable.
+Read that list again slowly, because it's easy to skim past how radical it is.
 
-A detachable magazine is perhaps the most significant trigger on the list, because semi-automatic shotguns with detachable magazines are already a fairly specialized market segment, but they are not fringe products. The Saiga-12 and the UTAS UTS-15 are examples of legally sold, commercially mainstream firearms. A detachable magazine does not change what a shotgun is, any more than it changes what a handgun is, and Virginia does not apply this logic to semi-automatic handguns with detachable magazines because the implications would be obvious.
+A collapsible stock is a completely ordinary ergonomic feature. It adjusts the length of pull so the firearm fits different shooters. It doesn't change the rate of fire. It doesn't change the lethality of the ammunition. It doesn't do anything to make the shotgun more dangerous in any objective, measurable sense. Virginia has decided that a collapsible stock alone, with no other modification, makes a semi-automatic shotgun too dangerous for any civilian to buy.
 
-The catchall "of like kind" provision is the most dangerous language in the section. Legislatures have learned from prior constitutional challenges that fixed definitions can be litigated feature by feature. A vague "of like kind" clause gives enforcement authorities room to expand coverage by interpretation without returning to the legislature, and it gives prosecutors maximum discretion in charging decisions.
+A detachable magazine is arguably even more mundane. Shotguns with detachable box magazines have been commercially available for decades. The Saiga-12, various Kalashnikov USA models, the Fostech Origin-12 — these are mainstream products sold at legitimate retailers to entirely ordinary buyers. A detachable magazine makes reloading faster and more convenient. That's it. There is nothing in the function of a detachable magazine that makes a shotgun more dangerous than one with a fixed tube. Virginia has now decided otherwise.
 
-## The scale of the ban
+The catch-all "of like kind" provision at the end of the features list is where I get most concerned about long-term enforcement. Legislatures add vague catch-alls for a reason: they want flexibility to expand the law's reach by interpretation rather than by going back and passing new legislation. When a prosecutor can argue that some feature "is of like kind" to a listed feature, the practical boundary of the law becomes impossible to determine in advance. That's a problem for gun owners trying to comply in good faith and a gift to prosecutors looking for discretion.
 
-About one million shotguns are sold annually in the United States. Semi-automatic models make up a significant and growing share of that market, accounting for close to half of shotgun sales in recent years. The subset of semi-automatic shotguns that would qualify as "assault firearms" under SB749 is smaller, but not trivially so. By reasonable estimates, the bill captures somewhere between 8 and 15 percent of all shotgun sales, which translates to approximately 80,000 to 150,000 firearms per year nationally. In Virginia specifically, the ban represents the elimination of a meaningful segment of the self-defense firearms market.
+## The scale of what gets banned
 
-Pump-action shotguns are exempt, which advocates of the bill have used to frame it as a moderate restriction. In my view, that framing inverts the analysis. The fact that you can still buy a pump-action shotgun does not make the prohibition on semi-automatic models with common features any more constitutionally or morally justified. The existence of one lawful option does not license the elimination of another.
+About a million shotguns are sold annually in the United States. Semi-automatic models account for somewhere around a third to half of that market, and a meaningful share of semi-automatic shotguns have at least one of the listed features. Best estimates put the number of newly banned firearms in the 8 to 15 percent range of all shotgun sales nationally — roughly 80,000 to 150,000 guns per year that would be prohibited in Virginia alone if this framework spread nationally.
 
-## No comparable state goes this far
+Pump-action shotguns are exempt from SB749 entirely. That's been used by the law's supporters to argue that Virginia's gun owners retain access to perfectly adequate home defense firearms, so nobody should be alarmed. I find this argument insulting. The question is not whether there's a pump-action alternative available. The question is whether the state has the authority to ban semi-automatic shotguns with collapsible stocks and call the result a reasonable safety measure. It doesn't matter that alternatives exist. The rights being taken aren't replaceable with other rights.
 
-Virginia's approach to shotguns under SB749 is genuinely unprecedented among American assault weapon laws. California's assault weapon statute uses a version of the two-feature test for rifles and imposes different restrictions on shotguns, but does not apply a single-feature standard that captures collapsible stocks and pistol grips alone. Connecticut's 2013 law, passed in the aftermath of Sandy Hook, was among the most expansive assault weapon restrictions enacted to that point, and it does not reach semi-automatic shotguns in the same manner. Maryland, Massachusetts, New York, and New Jersey all have assault weapon restrictions, and none of them apply a one-feature shotgun test that treats a collapsible stock as sufficient grounds for prohibition.
+## Nobody else does this
 
-Virginia has now moved to the left of all of them. This is not a small distinction. It means the Virginia legislature has taken the position that shotguns with ergonomic features common to home defense models are too dangerous for civilian ownership, a position that has no precedent in the legislative history of any other state, including the states most aggressive on gun restrictions.
+I've spent time looking at how other restrictive states handle semi-automatic shotguns, and Virginia's one-feature test is genuinely unprecedented.
 
-## The flood zone strategy
+California's assault weapon law uses a features-based approach for rifles and imposes restrictions on certain shotguns, but California's shotgun provisions require a combination of features and don't treat a detachable magazine alone as sufficient grounds for prohibition. Connecticut passed one of the most aggressive assault weapon laws in the country in 2013 after Sandy Hook, expanding its prior statute significantly, and Connecticut does not apply a one-feature test to semi-automatic shotguns that captures collapsible stocks and detachable magazines independently. Maryland uses a named-weapon approach combined with "copycat" provisions and requires two features for rifles; Maryland's shotgun restrictions are considerably narrower than Virginia's proposed law. Massachusetts, New Jersey, and New York all restrict assault weapons but none of them apply Virginia's one-feature standard to shotguns.
 
-Virginia Democrats passed 25 gun control measures in the 2026 session. I think it is worth being direct about what that volume accomplishes, independent of any individual bill's merits or constitutional status. When a legislature passes 25 bills on a single topic in a single session, it ensures that no one, including gun owners, legislators, courts, and advocacy organizations, can evaluate each bill with the attention it deserves.
+Virginia has now written a law that is more aggressive on semi-automatic shotguns than any of the states that have built their political identities around restrictive gun policy. That's not a minor distinction. It's a meaningful break from the pattern, and it tells you something about the intent behind this bill.
 
-SB749's shotgun provisions are a case study in that strategy. The AR-15 ban captures the headlines. The pistol provisions are alarming enough to absorb the remaining attention. The shotgun language, which affects a product sold hundreds of thousands of times per year and criminalizes ordinary home defense equipment, receives a fraction of the coverage it would get if it stood alone. By the time most Virginia gun owners understand what SB749's one-feature test means for their specific shotgun, the law is in effect.
+## Grandfathering in name only
 
-The bill passed the Senate 21-19 and the House 59-35, strictly along party lines. The penalty for violation is a Class 1 misdemeanor: up to 12 months in jail and a $2,500 fine for the first offense. A law-abiding Virginian who buys a semi-automatic home defense shotgun with a collapsible stock after July 1, 2026 faces the same legal jeopardy as someone who commits assault. The features the law targets are not weapons attachments. They are ergonomic choices that make a firearm easier to handle for more people.
+SB749 includes a provision allowing current owners to keep existing firearms that would be banned after July 1. You won't be forced to surrender them. You can continue to use them. But you cannot sell them to another Virginian. You cannot transfer them to anyone who isn't an immediate family member. You can leave them to a family member upon your death or transfer them to a buyer out of state.
 
-## What "assault firearm" means in practice
+What this creates is slow attrition. The stock of these firearms in Virginia is frozen. No new ones can enter the state's civilian market. The ones that exist age alongside their current owners and eventually disappear — through estate transfers, out-of-state sales, or just the passage of time. There's no confiscation order, but the outcome is the same. In a generation, these guns effectively cease to exist in Virginia. That's the goal, and the grandfather clause is designed to make it happen quietly rather than through a confrontation that might galvanize opposition.
 
-The term "assault firearm" is a legislative classification, not a technical category. It does not describe how a firearm functions, how it is used, or what harm it poses. A Benelli M4 with a standard stock fires the same shell at the same velocity as the same firearm with a collapsed stock. The round leaves the barrel at the same speed regardless of whether the magazine is detachable or fixed. The feature list in SB749 has no relationship to the firearm's actual capability, which is why the statutory definition varies so dramatically from state to state and why it has been repeatedly challenged in federal courts.
+## The penalty for getting it wrong
 
-**Bruen** requires that firearm restrictions be grounded in historical tradition. The Supreme Court was explicit that the government bears the burden of demonstrating that a modern restriction is consistent with the nation's historical regulatory tradition. There is no tradition of banning semi-automatic shotguns with pistol grips. There is no historical analog for a one-feature test applied to the most common category of home defense firearm. Virginia's legislators know this, which is why the bill's advocates have largely argued from policy preference rather than constitutional text. Policy preference is not a standard **Bruen** accepts.
+Breaking SB749 is a Class 1 misdemeanor. First offense: up to 12 months in jail and a $2,500 fine. If you have multiple affected firearms, fines stack per violation. A conviction also strips your gun rights for three years.
 
-In my view, SB749's shotgun provisions are constitutionally indefensible under current Supreme Court doctrine. They may also be the most aggressive single-state restriction on shotguns in American history. Those two things are related. A law this far outside any recognized tradition exists precisely because its authors do not expect it to survive contact with the courts intact. The goal is not a law that stands. The goal is a law that inconveniences, chills, and gradually restricts, buying time while the litigation proceeds.
+Think about what that last part means. A Virginia resident who unknowingly buys a semi-automatic shotgun with a folding stock after July 1, 2026, thinking they're purchasing a perfectly legal home defense firearm, faces a potential sentence that includes being unable to own any firearm for three years. Not just that shotgun. Any firearm. The person becomes defenseless through a compliance error that any reasonable person could make, because the law is deliberately written to be difficult to navigate.
 
-That is a coherent political strategy. It is not governance in good faith.
+I genuinely believe that's not an accident. The complexity, the vague catch-alls, the severe penalties — they're designed to make ownership of any semi-automatic firearm feel like a legal risk not worth taking. Most casual gun owners won't track this closely. They'll hear there's some new complicated gun law in Virginia and decide it's easier to just not buy. That chilling effect is the mechanism through which the law actually reduces gun ownership, and it kicks in well before the first prosecution.
+
+## 25 bills in one session
+
+Virginia Democrats passed 25 gun-related measures in the 2026 legislative session. Twenty-five. In 60 days. The Trace called it a historic slate of gun reforms. I call it a flood-the-zone strategy designed to make comprehensive opposition impossible.
+
+When a legislature passes 25 bills targeting a single constitutional right in a single session, nobody can keep up. Rights advocates, gun owners, even legislators on the other side — nobody has the bandwidth to analyze, challenge, and communicate about each bill with the attention it deserves. SB749 alone has enough complexity to require multiple separate explanations. The magazine bill, the carry restrictions under SB727, the under-21 handgun prohibition, the "ghost gun" measures, the hospital carry ban — each of those has its own details that most Virginia gun owners will never fully understand. By the time they do, the laws are in effect and the burden shifts to challengers.
+
+The shotgun piece of SB749 is the perfect example. It's the provision most buried within the broader bill, the one least likely to get standalone coverage, and arguably the one that most aggressively restricts ordinary civilian firearms. It's not being talked about enough. I'm doing my part to change that.
+
+## What the courts can and can't do
+
+Legal challenges are coming. The National Shooting Sports Foundation has said it will file immediately upon Spanberger's signature. The NRA and GOA are both engaged. The constitutional argument under Bruen is straightforward: the Supreme Court in 2022 required that firearm restrictions be rooted in the nation's historical tradition of regulation. There is no historical tradition of banning semi-automatic shotguns with collapsible stocks. There is no founding-era analog for a one-feature test that treats a detachable magazine as sufficient grounds for prohibition.
+
+The problem is jurisdiction. Virginia sits in the Fourth Circuit, and the Supreme Court recently declined to review a Fourth Circuit decision upholding Maryland's assault weapon ban, with Justices Thomas, Alito, and Gorsuch dissenting. Thomas wrote that it was "difficult to see how Maryland's categorical prohibition on AR-15s passes muster" under Bruen. But dissenting from a certiorari denial isn't a circuit court decision, and the Fourth Circuit has shown a consistent willingness to uphold these restrictions. Getting a favorable ruling through that circuit is going to be an uphill fight, and litigation timelines are measured in years, not months.
+
+In the meantime, the law is in effect. In the meantime, gun owners in Virginia are navigating compliance with a statute that criminalizes common home defense equipment. The courts may eventually provide relief, but that relief won't arrive before July 1, and it won't arrive before the first prosecutions.
+
+This is what it looks like when a state government decides to use every available legislative and enforcement tool to eliminate a class of firearms from civilian ownership without technically calling it confiscation. Pay attention. This template is going to travel.
+
+---
+
+*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=zsAgZ9tXHMk). Commentary, not legal advice.*
