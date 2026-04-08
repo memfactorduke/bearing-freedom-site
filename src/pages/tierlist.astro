@@ -1,0 +1,1331 @@
+---
+// Standalone page — self-contained styles and scripts, no global.css
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Virginia Gun Law Tier List | Bearing Freedom</title>
+    <meta name="description" content="Rank Virginia's 2026 anti-gun laws from most to least dangerous. Interactive tier list by Bearing Freedom." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <meta property="og:title" content="Virginia Gun Law Tier List | Bearing Freedom" />
+    <meta property="og:description" content="Rank Spanberger's 2026 anti-gun package. Interactive tier list." />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <style is:global>
+      /* ═══════════════════════════════════════════════
+         DESIGN SYSTEM — High contrast, video-ready
+      ═══════════════════════════════════════════════ */
+      :root {
+        --bg: #f5f5f7;
+        --surface: #ffffff;
+        --card: #ffffff;
+        --border: #d4d4d8;
+        --border-bright: #a1a1aa;
+        --red: #dc2626;
+        --red-bright: #ef4444;
+        --red-glow: rgba(220, 38, 38, 0.1);
+        --amber: #d97706;
+        --text: #18181b;
+        --text-dim: #52525b;
+        --text-faint: #a1a1aa;
+
+        --ts: #dc2626;
+        --ta: #ea580c;
+        --tb: #d97706;
+        --tc: #16a34a;
+        --td: #0891b2;
+        --tf: #6366f1;
+      }
+
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: 'DM Sans', system-ui, sans-serif;
+        min-height: 100vh;
+        overflow-x: hidden;
+      }
+
+      /* ═══════════════════════════════════════════════
+         TOP BAR
+      ═══════════════════════════════════════════════ */
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: rgba(255,255,255,0.92);
+        backdrop-filter: blur(12px);
+        border-bottom: 1px solid var(--border);
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1.5rem;
+      }
+      .topbar-left {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+      .topbar-logo {
+        font-family: 'Teko', sans-serif;
+        font-weight: 700;
+        font-size: 1.4rem;
+        color: var(--red);
+        text-decoration: none;
+        letter-spacing: 0.02em;
+        line-height: 1;
+      }
+      .topbar-divider {
+        width: 1px;
+        height: 20px;
+        background: var(--border);
+      }
+      .topbar-title {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 10px;
+        font-weight: 500;
+        color: var(--text-dim);
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+      }
+      .topbar-right {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+      }
+      .topbar-btn {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 9px;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        padding: 5px 10px;
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        background: var(--surface);
+        color: var(--text-dim);
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+      .topbar-btn:hover {
+        border-color: var(--red);
+        color: var(--red);
+      }
+      .topbar-btn.active {
+        border-color: var(--red);
+        background: var(--red);
+        color: #fff;
+      }
+      .topbar-link {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 9px;
+        color: var(--text-faint);
+        text-decoration: none;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        transition: color 0.2s;
+      }
+      .topbar-link:hover { color: var(--red-bright); }
+
+      /* ═══════════════════════════════════════════════
+         LAYOUT
+      ═══════════════════════════════════════════════ */
+      .layout {
+        position: relative;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: 360px 1fr;
+        min-height: calc(100vh - 48px);
+      }
+      @media (max-width: 1100px) {
+        .layout { grid-template-columns: 1fr; }
+        .panel { display: none; }
+        .panel.mobile-open {
+          display: flex;
+          position: fixed;
+          inset: 0;
+          z-index: 200;
+          overflow-y: auto;
+          background: var(--bg);
+        }
+      }
+
+      /* ═══════════════════════════════════════════════
+         INFO PANEL (LEFT)
+      ═══════════════════════════════════════════════ */
+      .panel {
+        border-right: 1px solid var(--border);
+        background: var(--surface);
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        max-height: calc(100vh - 48px);
+        position: sticky;
+        top: 48px;
+        box-shadow: 2px 0 12px rgba(0,0,0,0.04);
+      }
+
+      .panel-header {
+        padding: 1.25rem 1.5rem;
+        border-bottom: 1px solid var(--border);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .panel-header-label {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 9px;
+        font-weight: 600;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--red);
+      }
+      .panel-header-count {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 9px;
+        color: var(--text-faint);
+        letter-spacing: 0.1em;
+      }
+      .panel-close {
+        display: none;
+        background: none;
+        border: 1px solid var(--border);
+        color: var(--text-dim);
+        width: 28px;
+        height: 28px;
+        font-size: 16px;
+        cursor: pointer;
+        line-height: 26px;
+        text-align: center;
+      }
+      @media (max-width: 1100px) {
+        .panel-close { display: block; }
+      }
+
+      .panel-body {
+        flex: 1;
+        padding: 1.5rem;
+      }
+
+      /* Empty state */
+      .panel-empty {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        min-height: 300px;
+        text-align: center;
+        gap: 1.25rem;
+      }
+      .panel-empty-icon {
+        width: 48px;
+        height: 48px;
+        border: 1px solid var(--border);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--text-faint);
+      }
+      .panel-empty p {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 10px;
+        color: var(--text-faint);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        line-height: 1.6;
+      }
+
+      /* Bill detail */
+      .detail { display: none; }
+      .detail.visible { display: block; }
+
+      .detail-badge {
+        display: inline-block;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 8px;
+        font-weight: 600;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        padding: 3px 8px;
+        border: 1px solid;
+        margin-bottom: 1rem;
+      }
+      .detail-badge[data-cat="ban"]       { color: var(--red-bright); border-color: var(--red); }
+      .detail-badge[data-cat="carry"]     { color: #ff7043; border-color: #bf360c; }
+      .detail-badge[data-cat="licensing"] { color: var(--amber); border-color: #e65100; }
+      .detail-badge[data-cat="liability"] { color: #ce93d8; border-color: #6a1b9a; }
+      .detail-badge[data-cat="surrender"] { color: #4fc3f7; border-color: #0277bd; }
+      .detail-badge[data-cat="domestic"]  { color: #f48fb1; border-color: #880e4f; }
+      .detail-badge[data-cat="red-flag"]  { color: #ffab91; border-color: #d84315; }
+      .detail-badge[data-cat="storage"]   { color: #a5d6a7; border-color: #2e7d32; }
+      .detail-badge[data-cat="location"]  { color: #90caf9; border-color: #1565c0; }
+      .detail-badge[data-cat="admin"]     { color: #b0bec5; border-color: #455a64; }
+
+      .detail-number {
+        font-family: 'Teko', sans-serif;
+        font-weight: 700;
+        font-size: 2.25rem;
+        color: var(--text);
+        line-height: 1;
+        margin-bottom: 0.15rem;
+      }
+      .detail-companion {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 10px;
+        color: var(--text-faint);
+        letter-spacing: 0.05em;
+        margin-bottom: 0.5rem;
+      }
+      .detail-title {
+        font-family: 'Teko', sans-serif;
+        font-weight: 600;
+        font-size: 1.35rem;
+        color: var(--text);
+        line-height: 1.2;
+        margin-bottom: 1rem;
+      }
+
+      .detail-meta {
+        display: flex;
+        gap: 1.5rem;
+        padding: 0.75rem 0;
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+        margin-bottom: 1.25rem;
+      }
+      .detail-meta-item {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 9px;
+        letter-spacing: 0.05em;
+      }
+      .detail-meta-label {
+        color: var(--text-faint);
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        display: block;
+        margin-bottom: 2px;
+      }
+      .detail-meta-value { color: var(--text-dim); }
+
+      .detail-section { margin-bottom: 1.25rem; }
+      .detail-section-label {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 8px;
+        font-weight: 600;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--red);
+        margin-bottom: 0.6rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      .detail-section-label::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: var(--border);
+      }
+      .detail-section p {
+        font-size: 0.875rem;
+        line-height: 1.65;
+        color: var(--text-dim);
+      }
+      .detail-section ul {
+        list-style: none;
+        padding: 0;
+      }
+      .detail-section li {
+        font-size: 0.85rem;
+        line-height: 1.55;
+        color: var(--text-dim);
+        padding: 0.3rem 0;
+        padding-left: 1.1rem;
+        position: relative;
+      }
+      .detail-section li::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0.65rem;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: var(--red);
+      }
+
+      .detail-penalty {
+        background: #fef2f2;
+        border-left: 3px solid var(--red);
+        padding: 0.75rem 1rem;
+        font-size: 0.85rem;
+        color: #991b1b;
+        line-height: 1.55;
+        border-radius: 0 4px 4px 0;
+      }
+
+      .detail-sponsors {
+        font-size: 0.8rem;
+        color: var(--text-faint);
+        line-height: 1.5;
+      }
+
+      /* ═══════════════════════════════════════════════
+         TIER AREA (RIGHT)
+      ═══════════════════════════════════════════════ */
+      .tier-area {
+        position: relative;
+        z-index: 1;
+        padding: 1.25rem 1.5rem;
+        display: flex;
+        flex-direction: column;
+      }
+
+      /* ── POOL ── */
+      .pool { margin-bottom: 1.25rem; }
+      .pool-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0.6rem;
+      }
+      .pool-label {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 9px;
+        font-weight: 600;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--text-faint);
+      }
+      .pool-count {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 9px;
+        color: var(--text-faint);
+        letter-spacing: 0.05em;
+      }
+      .pool-zone {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        min-height: 90px;
+        padding: 14px;
+        background: var(--surface);
+        border: 2px dashed var(--border);
+        border-radius: 8px;
+        transition: border-color 0.2s, background 0.15s;
+        box-shadow: inset 0 2px 4px rgba(0,0,0,0.03);
+      }
+      .pool-zone.drag-over {
+        border-color: var(--red);
+        border-style: solid;
+        background: #fef2f2;
+      }
+
+      /* ── BILL TILE ── */
+      .tile {
+        width: 148px;
+        height: 78px;
+        cursor: grab;
+        user-select: none;
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.12s, box-shadow 0.12s, border-color 0.15s;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 12px;
+        border: 2px solid;
+        border-radius: 6px;
+      }
+
+      /* Category-specific tile colors — saturated with white text */
+      .tile[data-cat="ban"]       { background: #dc2626; border-color: #b91c1c; }
+      .tile[data-cat="carry"]     { background: #ea580c; border-color: #c2410c; }
+      .tile[data-cat="licensing"] { background: #d97706; border-color: #b45309; }
+      .tile[data-cat="liability"] { background: #7c3aed; border-color: #6d28d9; }
+      .tile[data-cat="surrender"] { background: #0284c7; border-color: #0369a1; }
+      .tile[data-cat="domestic"]  { background: #db2777; border-color: #be185d; }
+      .tile[data-cat="red-flag"]  { background: #e11d48; border-color: #be123c; }
+      .tile[data-cat="storage"]   { background: #059669; border-color: #047857; }
+      .tile[data-cat="location"]  { background: #2563eb; border-color: #1d4ed8; }
+      .tile[data-cat="admin"]     { background: #52525b; border-color: #3f3f46; }
+
+      .tile:hover {
+        transform: translateY(-3px) scale(1.03);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+        filter: brightness(1.1);
+      }
+      .tile:active { cursor: grabbing; }
+      .tile.selected {
+        box-shadow: 0 0 0 3px var(--text), 0 0 20px var(--red-glow);
+        filter: brightness(1.1);
+      }
+      .tile.dragging {
+        opacity: 0.35;
+        transform: scale(0.92);
+      }
+
+      .tile-number {
+        font-family: 'Teko', sans-serif;
+        font-weight: 700;
+        font-size: 1.35rem;
+        color: #fff;
+        line-height: 1;
+        letter-spacing: 0.03em;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+      }
+      .tile-nick {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 8.5px;
+        font-weight: 500;
+        color: rgba(255,255,255,0.9);
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        line-height: 1.35;
+        margin-top: 4px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-shadow: 0 1px 1px rgba(0,0,0,0.15);
+      }
+
+      /* ── TIER ROWS ── */
+      .tiers { display: flex; flex-direction: column; }
+
+      .tier-row {
+        display: flex;
+        min-height: 94px;
+        border: 1px solid var(--border);
+        margin-top: -1px;
+        background: var(--surface);
+      }
+
+      .tier-label {
+        width: 90px;
+        min-width: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        position: relative;
+        overflow: hidden;
+      }
+      .tier-letter {
+        font-family: 'Teko', sans-serif;
+        font-weight: 700;
+        font-size: 3.2rem;
+        line-height: 1;
+        color: #fff;
+        position: relative;
+        z-index: 1;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      }
+      .tier-desc {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 7.5px;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: rgba(255,255,255,0.7);
+        position: relative;
+        z-index: 1;
+      }
+
+      .tier-label[data-tier="S"] { background: linear-gradient(135deg, #dc2626, #991b1b); }
+      .tier-label[data-tier="A"] { background: linear-gradient(135deg, #ea580c, #c2410c); }
+      .tier-label[data-tier="B"] { background: linear-gradient(135deg, #d97706, #b45309); }
+      .tier-label[data-tier="C"] { background: linear-gradient(135deg, #65a30d, #4d7c0f); }
+      .tier-label[data-tier="D"] { background: linear-gradient(135deg, #0891b2, #0e7490); }
+      .tier-label[data-tier="F"] { background: linear-gradient(135deg, #6366f1, #4f46e5); }
+
+      .tier-drop {
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        gap: 8px;
+        padding: 8px 12px;
+        background: var(--surface);
+        transition: background 0.15s;
+        min-height: 94px;
+      }
+      .tier-drop.drag-over {
+        background: #fef2f2;
+      }
+
+      .tier-drop .tile { height: 72px; }
+
+      /* ═══════════════════════════════════════════════
+         CONTROLS
+      ═══════════════════════════════════════════════ */
+      .controls {
+        display: flex;
+        justify-content: flex-end;
+        gap: 0.5rem;
+        padding: 0.75rem 0 0;
+      }
+
+      /* ═══════════════════════════════════════════════
+         FOOTER
+      ═══════════════════════════════════════════════ */
+      .page-foot {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        padding: 1.5rem 1rem;
+        border-top: 1px solid var(--border);
+      }
+      .page-foot p {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 9px;
+        color: var(--text-faint);
+        letter-spacing: 0.05em;
+      }
+      .page-foot a { color: var(--red); text-decoration: none; }
+
+      /* ═══════════════════════════════════════════════
+         SCREENSHOT MODE
+      ═══════════════════════════════════════════════ */
+      body.ss-mode .topbar,
+      body.ss-mode .panel,
+      body.ss-mode .pool,
+      body.ss-mode .controls,
+      body.ss-mode .page-foot { display: none !important; }
+      body.ss-mode .layout {
+        grid-template-columns: 1fr;
+        min-height: auto;
+      }
+      body.ss-mode .tier-area { padding: 0.75rem; }
+
+      /* ═══════════════════════════════════════════════
+         ANIMATIONS
+      ═══════════════════════════════════════════════ */
+      @keyframes tile-in {
+        from { opacity: 0; transform: translateY(8px) scale(0.96); }
+        to { opacity: 1; transform: translateY(0) scale(1); }
+      }
+      .tile {
+        animation: tile-in 0.3s ease-out backwards;
+      }
+
+      /* Drag ghost */
+      .drag-ghost {
+        position: fixed;
+        pointer-events: none;
+        z-index: 1000;
+        opacity: 0.9;
+        transform: rotate(1.5deg) scale(1.05);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Top Bar -->
+    <nav class="topbar">
+      <div class="topbar-left">
+        <a href="/" class="topbar-logo">BEARING FREEDOM</a>
+        <div class="topbar-divider"></div>
+        <span class="topbar-title">VA Gun Law Tier List</span>
+      </div>
+      <div class="topbar-right">
+        <button class="topbar-btn" id="btn-reset">Reset</button>
+        <button class="topbar-btn" id="btn-ss">Clean View</button>
+        <a href="/" class="topbar-link">Back to site</a>
+      </div>
+    </nav>
+
+    <!-- Layout -->
+    <div class="layout">
+
+      <!-- Info Panel -->
+      <aside class="panel" id="panel">
+        <div class="panel-header">
+          <span class="panel-header-label">Bill Intel</span>
+          <span class="panel-header-count">17 bills on desk</span>
+          <button class="panel-close" id="panel-close">&times;</button>
+        </div>
+        <div class="panel-body">
+          <div class="panel-empty" id="panel-empty">
+            <div class="panel-empty-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5"/>
+              </svg>
+            </div>
+            <p>Select a bill to view<br/>full breakdown</p>
+          </div>
+          <div class="detail" id="detail"></div>
+        </div>
+      </aside>
+
+      <!-- Tier List -->
+      <div class="tier-area">
+
+        <!-- Pool -->
+        <div class="pool">
+          <div class="pool-header">
+            <span class="pool-label">Unranked</span>
+            <span class="pool-count" id="pool-count">17 bills</span>
+          </div>
+          <div class="pool-zone" id="pool" data-zone="pool"></div>
+        </div>
+
+        <!-- Tiers -->
+        <div class="tiers">
+          <div class="tier-row">
+            <div class="tier-label" data-tier="S">
+              <div class="tier-letter">S</div>
+              <div class="tier-desc">Tyrannical</div>
+            </div>
+            <div class="tier-drop" data-zone="S"></div>
+          </div>
+          <div class="tier-row">
+            <div class="tier-label" data-tier="A">
+              <div class="tier-letter">A</div>
+              <div class="tier-desc">Devastating</div>
+            </div>
+            <div class="tier-drop" data-zone="A"></div>
+          </div>
+          <div class="tier-row">
+            <div class="tier-label" data-tier="B">
+              <div class="tier-letter">B</div>
+              <div class="tier-desc">Dangerous</div>
+            </div>
+            <div class="tier-drop" data-zone="B"></div>
+          </div>
+          <div class="tier-row">
+            <div class="tier-label" data-tier="C">
+              <div class="tier-letter">C</div>
+              <div class="tier-desc">Bad</div>
+            </div>
+            <div class="tier-drop" data-zone="C"></div>
+          </div>
+          <div class="tier-row">
+            <div class="tier-label" data-tier="D">
+              <div class="tier-letter">D</div>
+              <div class="tier-desc">Irritating</div>
+            </div>
+            <div class="tier-drop" data-zone="D"></div>
+          </div>
+          <div class="tier-row">
+            <div class="tier-label" data-tier="F">
+              <div class="tier-letter">F</div>
+              <div class="tier-desc">Nuisance</div>
+            </div>
+            <div class="tier-drop" data-zone="F"></div>
+          </div>
+        </div>
+
+        <div class="controls">
+          <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--text-faint);letter-spacing:0.05em;margin-right:auto;">Deadline: April 13, 2026</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="page-foot">
+      <p>&copy; 2026 <a href="/">Bearing Freedom</a></p>
+    </div>
+
+    <script is:inline>
+    // ═══════════════════════════════════════════════
+    //  BILL DATA — All 17 bills on Spanberger's desk
+    // ═══════════════════════════════════════════════
+    const BILLS = [
+      {
+        id: 'hb217',
+        number: 'HB 217',
+        companion: 'SB 749',
+        nick: 'Assault Weapons Ban',
+        cat: 'ban',
+        catLabel: 'Firearm Ban',
+        effective: 'July 1, 2026',
+        sponsors: 'Del. Dan Helmer (D), Sen. Saddam Salim (D)',
+        status: 'Enrolled',
+        summary: 'Bans sale, transfer, manufacture, and importation of semi-automatic firearms classified as "assault firearms" using a features-based definition. Restricts magazines to 15-round capacity.',
+        provisions: [
+          'Six-category features test covering rifles, pistols, shotguns',
+          'One-feature test for rifles (pistol grip, threaded barrel, folding stock, etc.)',
+          'Two-feature test for pistols',
+          '15-round magazine capacity limit',
+          'Grandfather clause for existing owners — possession and range use only',
+          'Cannot sell grandfathered firearms within Virginia',
+          'Under-21 prohibition overrides grandfather clause entirely',
+        ],
+        penalty: 'Class 1 misdemeanor (12 months jail, $2,500 fine per violation). 3-year total firearm prohibition upon conviction.',
+      },
+      {
+        id: 'hb1524',
+        number: 'HB 1524',
+        companion: 'SB 727',
+        nick: 'Public Carry Ban',
+        cat: 'carry',
+        catLabel: 'Carry Restriction',
+        effective: 'July 1, 2026',
+        sponsors: 'Sen. Michael J. Jones (D)',
+        status: 'Enrolled',
+        summary: 'Blanket ban on carrying or transporting "assault firearms" on any public property without a CHP. Destroys Virginia\'s open carry tradition using a one-feature test even broader than HB 217.',
+        provisions: [
+          'Modified one-feature test (broader definition than the AWB)',
+          'Covers any public street, road, sidewalk, park, or place open to the public',
+          'No safe transport exception for locked, unloaded firearms in vehicles',
+          'CHP exemption status disputed after conference committee',
+          'Pistols: any 1 feature including fixed 10+ mag or threaded barrel',
+          'Shotguns: any 1 feature including 7+ round fixed mag',
+        ],
+        penalty: 'Class 1 misdemeanor. Permanent criminal record.',
+      },
+      {
+        id: 'hb1525',
+        number: 'HB 1525',
+        companion: 'SB 643',
+        nick: 'Permit to Purchase',
+        cat: 'licensing',
+        catLabel: 'Licensing',
+        effective: 'July 1, 2026',
+        sponsors: 'Del. Michelle Maldonado (D), Sen. Scott Surovell (D)',
+        status: 'Conference',
+        summary: 'Mandatory purchaser license for all firearm buyers (21+ only). Complete ban on all firearm purchases for anyone under 21. No military exemption.',
+        provisions: [
+          'In-person application to State Police or local law enforcement',
+          'Fingerprinting via FBI/CCRE database',
+          'DCJS-approved safety course with minimum 10 live rounds',
+          'Up to 45-day processing time',
+          '5-year validity, entered into VCIN database',
+          'Revocation triggers State Police firearm removal authority',
+          'Under-21: banned from purchasing any firearm from any source',
+          'No military exemption for active-duty service members',
+        ],
+        penalty: 'Class 1 misdemeanor. Class 6 felony for selling without verification. Class 4 felony straw purchase (mandatory 1-year minimum).',
+      },
+      {
+        id: 'hb21',
+        number: 'HB 21',
+        companion: 'SB 27',
+        nick: 'Lawsuit Machine',
+        cat: 'liability',
+        catLabel: 'Industry Liability',
+        effective: 'July 1, 2026',
+        sponsors: 'Del. Dan Helmer (D), Sen. Jennifer Carroll Foy (D)',
+        status: 'Enrolled',
+        summary: 'Creates a new civil liability framework targeting the entire firearms industry. Undefined "reasonable controls" standard designed to generate endless litigation and route around federal PLCAA protection.',
+        provisions: [
+          'Covers manufacturers, importers, distributors, dealers, sellers',
+          '"Firearm-related products" includes ammo, components, accessories',
+          'Undefined "reasonable controls" standard — determined after the fact',
+          'AG, any local prosecutor, and any private citizen can sue',
+          'Compensatory damages, punitive damages (no cap), attorney fees',
+          'No intent requirement for public nuisance liability',
+          'Creates state law to trigger PLCAA "predicate exception"',
+        ],
+        penalty: 'Unlimited civil liability. Punitive damages with no cap. Injunctions. Attorney fees. Court-supervised compliance.',
+      },
+      {
+        id: 'hb40',
+        number: 'HB 40',
+        companion: 'SB 323',
+        nick: 'Ghost Gun Ban',
+        cat: 'ban',
+        catLabel: 'Firearm Ban',
+        effective: 'Jan 1 / Jul 1, 2027',
+        sponsors: 'Del. Marcus Simon (D), Sen. Adam Ebbin (D)',
+        status: 'Enrolled',
+        summary: 'Bans 3D-printed and unserialized firearms. No grandfather clause — simply possessing an unserialized firearm after July 2027 is criminal.',
+        provisions: [
+          'Bans firearms with less than 3.7oz detectable metal (targets 3D printing)',
+          'Bans possession of any unserialized firearm after 7/1/2027',
+          'No grandfather clause for existing owners',
+          'Must serialize through FFL, surrender to LEO, or destroy before deadline',
+          'Covers 3D printing, CNC milling, and all other manufacturing processes',
+          'Staggered: sale/transfer bans 1/1/2027, possession ban 7/1/2027',
+        ],
+        penalty: '1st offense: Class 1 misdemeanor. 2nd+: Class 4 felony (2-10 years, $100K). Plastic firearms: Class 5 felony (1-10 years).',
+      },
+      {
+        id: 'hb19',
+        number: 'HB 19',
+        companion: 'SB 160',
+        nick: 'Dating Gun Ban',
+        cat: 'domestic',
+        catLabel: 'Domestic',
+        effective: 'July 1, 2026',
+        sponsors: 'Del. Cia Price (D), Sen. Danica Roem (D)',
+        status: 'Enrolled',
+        summary: 'Expands 3-year firearm ban from clear domestic categories to vaguely defined "intimate partner" and "cohabitant" using a subjective four-factor test with no bright lines.',
+        provisions: [
+          '"Intimate partner": romantic, dating, or sexual relationship within 12 months',
+          'Subjective four-factor test: length, nature, frequency, type of interaction',
+          '"Cohabitant" expanded: anyone who lived with person in past 12 months',
+          'Triggered by misdemeanor assault & battery conviction',
+          'Bans purchase, possession, and transport of all firearms for 3 years',
+        ],
+        penalty: 'Class 1 misdemeanor (12 months, $2,500). 3rd+ offense: Class 6 felony.',
+      },
+      {
+        id: 'hb93',
+        number: 'HB 93',
+        companion: 'SB 38',
+        nick: 'Gun Surrender',
+        cat: 'surrender',
+        catLabel: 'Confiscation',
+        effective: 'July 1, 2026',
+        sponsors: 'Del. Elizabeth Bennett-Parker (D), Sen. Barbara Favola (D)',
+        status: 'Enrolled',
+        summary: '24-hour firearm surrender deadline for protective orders. Creates government documentation of all private firearm transfers. Search warrant advisory.',
+        provisions: [
+          '24-hour surrender deadline after protective order',
+          'Private transfers restricted: recipient must be 21+, cannot live with you',
+          'All transfers documented on court form with name, address, signature',
+          '48-hour court certification requirement',
+          'Search warrant advisory from the court',
+          'Creates government record of private firearm transfers',
+        ],
+        penalty: 'Class 1 misdemeanor for non-compliance.',
+      },
+      {
+        id: 'hb110',
+        number: 'HB 110',
+        companion: 'SB 496',
+        nick: 'Vehicle Gun Ban',
+        cat: 'carry',
+        catLabel: 'Carry Restriction',
+        effective: 'July 1, 2026',
+        sponsors: 'Sponsor TBD',
+        status: 'Enrolled',
+        summary: 'Restricts keeping firearms in vehicles for self-defense. A visible handgun left in an unattended vehicle triggers fines and vehicle impoundment.',
+        provisions: [
+          'Restricts firearms in unattended vehicles',
+          '$500 civil penalty for visible handgun in unattended vehicle',
+          'Vehicle subject to impoundment',
+          'Targets lawful gun owners who keep firearms in their cars',
+        ],
+        penalty: '$500 civil penalty. Vehicle impoundment.',
+      },
+      {
+        id: 'sb115',
+        number: 'SB 115',
+        companion: '',
+        nick: 'CHP Reciprocity Kill',
+        cat: 'licensing',
+        catLabel: 'Licensing',
+        effective: 'July 1, 2026',
+        sponsors: 'Sponsor TBD',
+        status: 'Enrolled',
+        summary: 'Jeopardizes concealed carry permit reciprocity agreements with other states. Virginia CHP holders traveling out of state and visitors from other states both affected.',
+        provisions: [
+          'Undermines existing reciprocity agreements',
+          'Affects Virginia CHP holders traveling to other states',
+          'Affects out-of-state permit holders visiting Virginia',
+          'Could leave Virginia CHP holders unrecognized in dozens of states',
+        ],
+        penalty: 'N/A — affects permit recognition, not a criminal statute.',
+      },
+      {
+        id: 'hb626',
+        number: 'HB 626',
+        companion: 'SB 272',
+        nick: 'Campus Carry Ban',
+        cat: 'location',
+        catLabel: 'Location Ban',
+        effective: 'July 1, 2026',
+        sponsors: 'Sponsor TBD',
+        status: 'Enrolled',
+        summary: 'Limits who can carry firearms at public colleges and universities. Bans firearms in all buildings owned or leased by the Commonwealth including universities and Capitol Square.',
+        provisions: [
+          'Bans firearms on public higher education property',
+          'Covers all Commonwealth-owned or leased buildings',
+          'Includes Capitol Square and surrounding government property',
+          'Eliminates existing exceptions for CHP holders on campus',
+        ],
+        penalty: 'Class 1 misdemeanor.',
+      },
+      {
+        id: 'hb229',
+        number: 'HB 229',
+        companion: 'SB 173',
+        nick: 'Hospital Gun Ban',
+        cat: 'location',
+        catLabel: 'Location Ban',
+        effective: 'July 1, 2026',
+        sponsors: 'Sponsor TBD',
+        status: 'Enrolled',
+        summary: 'Prohibits weapons in hospitals that provide mental health or developmental services. Mandates firearm forfeiture upon violation.',
+        provisions: [
+          'Bans all weapons in qualifying hospitals',
+          'Covers any hospital providing mental health services',
+          'Covers any hospital providing developmental services',
+          'Mandatory forfeiture of firearm upon violation',
+        ],
+        penalty: 'Class 1 misdemeanor. Mandatory firearm forfeiture.',
+      },
+      {
+        id: 'hb916',
+        number: 'HB 916',
+        companion: '',
+        nick: 'CHP Class Overhaul',
+        cat: 'admin',
+        catLabel: 'Administrative',
+        effective: 'July 1, 2026',
+        sponsors: 'Sponsor TBD',
+        status: 'Enrolled',
+        summary: 'Expands concealed carry permit class requirements and removes NRA and USCCA courses from approved training guidelines.',
+        provisions: [
+          'Expanded curriculum requirements for CHP classes',
+          'NRA courses removed from approved guidelines',
+          'USCCA courses removed from approved guidelines',
+          'Forces applicants into state-approved training programs only',
+        ],
+        penalty: 'N/A — administrative change to CHP process.',
+      },
+      {
+        id: 'hb901',
+        number: 'HB 901',
+        companion: '',
+        nick: 'Red Flag Expansion',
+        cat: 'red-flag',
+        catLabel: 'Red Flag',
+        effective: 'July 1, 2026',
+        sponsors: 'Sponsor TBD',
+        status: 'Enrolled',
+        summary: 'Massively expands who can file Emergency Risk Protective Orders to strip gun rights. Adds family members, intimate partners, school admins, and medical professionals as petitioners.',
+        provisions: [
+          'Family members can petition to strip firearm rights',
+          'Intimate partners can petition',
+          'School administrators can petition',
+          'Medical professionals can petition',
+          'Substance abuse evidence can trigger orders',
+          'Emergency orders suspend 2A rights before any hearing',
+        ],
+        penalty: 'Loss of firearm rights via court order. Criminal charges for non-compliance.',
+      },
+      {
+        id: 'hb702',
+        number: 'HB 702',
+        companion: '',
+        nick: 'Mandatory Buybacks',
+        cat: 'admin',
+        catLabel: 'Administrative',
+        effective: 'January 1, 2028',
+        sponsors: 'Sponsor TBD',
+        status: 'Enrolled',
+        summary: 'Mandates every county and city law enforcement agency implement a firearm give-back or buy-back program by January 2028.',
+        provisions: [
+          'Every county/city LEO must implement a buyback program',
+          'Deadline: January 1, 2028',
+          'Funded by taxpayer money',
+          'Creates infrastructure for future mandatory buyback programs',
+        ],
+        penalty: 'N/A — mandate on law enforcement agencies.',
+      },
+      {
+        id: 'hb909',
+        number: 'HB 909',
+        companion: '',
+        nick: 'Polling Place Ban',
+        cat: 'location',
+        catLabel: 'Location Ban',
+        effective: 'July 1, 2026',
+        sponsors: 'Sponsor TBD',
+        status: 'Enrolled',
+        summary: 'Bans carrying firearms within 100 feet of polling places, election offices, recount locations, and absentee voting locations during election activities.',
+        provisions: [
+          '100-foot buffer zone around all polling places',
+          'Covers election result certification buildings',
+          'Covers recount locations',
+          'Covers absentee voting locations',
+          'Active during all election-related activities',
+        ],
+        penalty: 'Class 1 misdemeanor.',
+      },
+      {
+        id: 'hb871',
+        number: 'HB 871',
+        companion: 'SB 348',
+        nick: 'Secure Storage',
+        cat: 'storage',
+        catLabel: 'Storage',
+        effective: 'July 1, 2026',
+        sponsors: 'Sponsor TBD',
+        status: 'Enrolled',
+        summary: 'Mandates gun owners store firearms in combination, coded, or biometric locks in any home where minors or prohibited persons are present.',
+        provisions: [
+          'Firearms must be stored with combination, coded, or biometric locks',
+          'Applies to homes with minors present',
+          'Applies to homes with prohibited persons present',
+          'Government dictates how you store firearms in your own home',
+        ],
+        penalty: 'Class 1 misdemeanor.',
+      },
+      {
+        id: 'hb969',
+        number: 'HB 969',
+        companion: 'SB 364',
+        nick: 'Gun Control Center',
+        cat: 'admin',
+        catLabel: 'Administrative',
+        effective: 'July 1, 2026',
+        sponsors: 'Sponsor TBD',
+        status: 'Enrolled',
+        summary: 'Establishes the Virginia Gun Violence Prevention Center as a permanent state-funded gun control coordinating body.',
+        provisions: [
+          'Creates permanent state agency for "gun violence prevention"',
+          'Statewide coordinator role for firearm policy',
+          'Taxpayer-funded anti-gun research and advocacy',
+          'Institutionalizes gun control into Virginia state government',
+        ],
+        penalty: 'N/A — creates a government agency.',
+      },
+    ];
+
+    // ═══════════════════════════════════════════════
+    //  STATE
+    // ═══════════════════════════════════════════════
+    let selectedId = null;
+    let dragEl = null;
+
+    // ═══════════════════════════════════════════════
+    //  CREATE TILE
+    // ═══════════════════════════════════════════════
+    function createTile(bill, delay) {
+      const el = document.createElement('div');
+      el.className = 'tile';
+      el.dataset.id = bill.id;
+      el.dataset.cat = bill.cat;
+      el.draggable = true;
+      el.style.animationDelay = delay + 'ms';
+      el.innerHTML = `<div class="tile-number">${bill.number}</div><div class="tile-nick">${bill.nick}</div>`;
+
+      el.addEventListener('click', (e) => {
+        e.stopPropagation();
+        selectBill(bill.id);
+      });
+      el.addEventListener('dragstart', onDragStart);
+      el.addEventListener('dragend', onDragEnd);
+      el.addEventListener('touchstart', onTouchStart, { passive: false });
+      return el;
+    }
+
+    // ═══════════════════════════════════════════════
+    //  INFO PANEL
+    // ═══════════════════════════════════════════════
+    function selectBill(id) {
+      const bill = BILLS.find(b => b.id === id);
+      if (!bill) return;
+      selectedId = id;
+
+      document.querySelectorAll('.tile').forEach(t => t.classList.remove('selected'));
+      document.querySelectorAll(`.tile[data-id="${id}"]`).forEach(t => t.classList.add('selected'));
+
+      document.getElementById('panel-empty').style.display = 'none';
+      const d = document.getElementById('detail');
+      d.className = 'detail visible';
+
+      d.innerHTML = `
+        <div class="detail-badge" data-cat="${bill.cat}">${bill.catLabel}</div>
+        <div class="detail-number">${bill.number}</div>
+        ${bill.companion ? `<div class="detail-companion">Companion: ${bill.companion}</div>` : ''}
+        <div class="detail-title">${bill.nick}</div>
+
+        <div class="detail-meta">
+          <div class="detail-meta-item">
+            <span class="detail-meta-label">Effective</span>
+            <span class="detail-meta-value">${bill.effective}</span>
+          </div>
+          <div class="detail-meta-item">
+            <span class="detail-meta-label">Status</span>
+            <span class="detail-meta-value">${bill.status}</span>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <div class="detail-section-label">Summary</div>
+          <p>${bill.summary}</p>
+        </div>
+
+        <div class="detail-section">
+          <div class="detail-section-label">Key Provisions</div>
+          <ul>${bill.provisions.map(p => `<li>${p}</li>`).join('')}</ul>
+        </div>
+
+        <div class="detail-section">
+          <div class="detail-section-label">Penalty</div>
+          <div class="detail-penalty">${bill.penalty}</div>
+        </div>
+
+        <div class="detail-section">
+          <div class="detail-section-label">Sponsors</div>
+          <div class="detail-sponsors">${bill.sponsors}</div>
+        </div>
+      `;
+
+      // Mobile
+      if (window.innerWidth <= 1100) {
+        document.getElementById('panel').classList.add('mobile-open');
+      }
+    }
+
+    document.getElementById('panel-close')?.addEventListener('click', () => {
+      document.getElementById('panel').classList.remove('mobile-open');
+    });
+
+    // Deselect
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.tile') && !e.target.closest('.panel')) {
+        selectedId = null;
+        document.querySelectorAll('.tile').forEach(t => t.classList.remove('selected'));
+        document.getElementById('panel-empty').style.display = 'flex';
+        document.getElementById('detail').className = 'detail';
+      }
+    });
+
+    // ═══════════════════════════════════════════════
+    //  POOL COUNT
+    // ═══════════════════════════════════════════════
+    function updatePoolCount() {
+      const n = document.getElementById('pool').children.length;
+      document.getElementById('pool-count').textContent = n + ' bill' + (n !== 1 ? 's' : '');
+    }
+
+    // ═══════════════════════════════════════════════
+    //  DRAG & DROP
+    // ═══════════════════════════════════════════════
+    function onDragStart(e) {
+      dragEl = e.target.closest('.tile');
+      dragEl.classList.add('dragging');
+      e.dataTransfer.effectAllowed = 'move';
+      e.dataTransfer.setData('text/plain', dragEl.dataset.id);
+    }
+
+    function onDragEnd() {
+      if (dragEl) dragEl.classList.remove('dragging');
+      dragEl = null;
+      document.querySelectorAll('.drag-over').forEach(z => z.classList.remove('drag-over'));
+      updatePoolCount();
+    }
+
+    function setupDropZones() {
+      document.querySelectorAll('[data-zone]').forEach(zone => {
+        zone.addEventListener('dragover', (e) => {
+          e.preventDefault();
+          e.dataTransfer.dropEffect = 'move';
+          zone.classList.add('drag-over');
+        });
+        zone.addEventListener('dragleave', (e) => {
+          if (!zone.contains(e.relatedTarget)) zone.classList.remove('drag-over');
+        });
+        zone.addEventListener('drop', (e) => {
+          e.preventDefault();
+          zone.classList.remove('drag-over');
+          const id = e.dataTransfer.getData('text/plain');
+          const tile = document.querySelector(`.tile[data-id="${id}"]`);
+          if (tile && zone !== tile.parentElement) zone.appendChild(tile);
+          updatePoolCount();
+        });
+      });
+    }
+
+    // ═══════════════════════════════════════════════
+    //  TOUCH DRAG
+    // ═══════════════════════════════════════════════
+    let touchEl = null, touchGhost = null, tox = 0, toy = 0;
+
+    function onTouchStart(e) {
+      const tile = e.target.closest('.tile');
+      if (!tile) return;
+      const t = e.touches[0], r = tile.getBoundingClientRect();
+      tox = t.clientX - r.left;
+      toy = t.clientY - r.top;
+
+      tile._tt = setTimeout(() => {
+        e.preventDefault();
+        touchEl = tile;
+        tile.classList.add('dragging');
+        touchGhost = tile.cloneNode(true);
+        touchGhost.className = 'tile drag-ghost';
+        touchGhost.dataset.cat = tile.dataset.cat;
+        touchGhost.style.width = r.width + 'px';
+        touchGhost.style.height = r.height + 'px';
+        touchGhost.style.left = (t.clientX - tox) + 'px';
+        touchGhost.style.top = (t.clientY - toy) + 'px';
+        document.body.appendChild(touchGhost);
+        document.addEventListener('touchmove', onTouchMove, { passive: false });
+        document.addEventListener('touchend', onTouchEnd);
+      }, 200);
+    }
+
+    function onTouchMove(e) {
+      if (!touchEl) return;
+      e.preventDefault();
+      const t = e.touches[0];
+      if (touchGhost) {
+        touchGhost.style.left = (t.clientX - tox) + 'px';
+        touchGhost.style.top = (t.clientY - toy) + 'px';
+      }
+      document.querySelectorAll('.drag-over').forEach(z => z.classList.remove('drag-over'));
+      const el = document.elementFromPoint(t.clientX, t.clientY);
+      const zone = el?.closest('[data-zone]');
+      if (zone) zone.classList.add('drag-over');
+    }
+
+    function onTouchEnd(e) {
+      if (touchEl?._tt) clearTimeout(touchEl._tt);
+      if (!touchEl) return;
+      const t = e.changedTouches[0];
+      const el = document.elementFromPoint(t.clientX, t.clientY);
+      const zone = el?.closest('[data-zone]');
+      if (zone && zone !== touchEl.parentElement) zone.appendChild(touchEl);
+      touchEl.classList.remove('dragging');
+      if (touchGhost) touchGhost.remove();
+      document.querySelectorAll('.drag-over').forEach(z => z.classList.remove('drag-over'));
+      touchEl = null; touchGhost = null;
+      document.removeEventListener('touchmove', onTouchMove);
+      document.removeEventListener('touchend', onTouchEnd);
+      updatePoolCount();
+    }
+
+    document.addEventListener('touchmove', (e) => {
+      const tile = e.target.closest('.tile');
+      if (tile?._tt && !touchEl) clearTimeout(tile._tt);
+    }, { passive: true });
+
+    // ═══════════════════════════════════════════════
+    //  CONTROLS
+    // ═══════════════════════════════════════════════
+    document.getElementById('btn-reset')?.addEventListener('click', () => {
+      const pool = document.getElementById('pool');
+      document.querySelectorAll('.tile').forEach(t => pool.appendChild(t));
+      updatePoolCount();
+    });
+
+    document.getElementById('btn-ss')?.addEventListener('click', () => {
+      document.body.classList.toggle('ss-mode');
+      const btn = document.getElementById('btn-ss');
+      btn.textContent = document.body.classList.contains('ss-mode') ? 'Exit Clean View' : 'Clean View';
+      btn.classList.toggle('active');
+    });
+
+    // ═══════════════════════════════════════════════
+    //  INIT
+    // ═══════════════════════════════════════════════
+    const pool = document.getElementById('pool');
+    BILLS.forEach((bill, i) => {
+      pool.appendChild(createTile(bill, i * 40));
+    });
+    setupDropZones();
+    updatePoolCount();
+    </script>
+  </body>
+</html>
