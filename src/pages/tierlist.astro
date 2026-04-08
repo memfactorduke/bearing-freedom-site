@@ -440,7 +440,7 @@
         user-select: none;
         position: relative;
         overflow: hidden;
-        transition: transform 0.12s, box-shadow 0.12s, border-color 0.15s;
+        transition: transform 0.08s, box-shadow 0.08s, border-color 0.08s;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -472,8 +472,7 @@
         filter: brightness(1.1);
       }
       .tile.dragging {
-        opacity: 0.35;
-        transform: scale(0.92);
+        opacity: 0.3;
       }
 
       .tile-number {
@@ -535,11 +534,11 @@
       }
       .tier-desc {
         font-family: 'JetBrains Mono', monospace;
-        font-size: 7.5px;
+        font-size: 9px;
         font-weight: 600;
-        letter-spacing: 0.12em;
+        letter-spacing: 0.1em;
         text-transform: uppercase;
-        color: rgba(255,255,255,0.7);
+        color: rgba(255,255,255,0.75);
         position: relative;
         z-index: 1;
       }
@@ -611,15 +610,39 @@
       }
       body.ss-mode .tier-area { padding: 0.75rem; }
 
+      /* Exit button stays visible in clean view */
+      .exit-ss {
+        display: none;
+        position: fixed;
+        top: 12px;
+        right: 12px;
+        z-index: 999;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 9px;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        padding: 6px 12px;
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        background: var(--surface);
+        color: var(--text-dim);
+        cursor: pointer;
+        opacity: 0.5;
+        transition: opacity 0.2s;
+      }
+      .exit-ss:hover { opacity: 1; }
+      body.ss-mode .exit-ss { display: block; }
+
       /* ═══════════════════════════════════════════════
          ANIMATIONS
       ═══════════════════════════════════════════════ */
       @keyframes tile-in {
-        from { opacity: 0; transform: translateY(8px) scale(0.96); }
+        from { opacity: 0; transform: translateY(6px) scale(0.97); }
         to { opacity: 1; transform: translateY(0) scale(1); }
       }
       .tile {
-        animation: tile-in 0.3s ease-out backwards;
+        animation: tile-in 0.1s ease-out;
       }
 
       /* Drag ghost */
@@ -735,6 +758,9 @@
       </div>
     </div>
 
+    <!-- Exit clean view button (only visible in ss-mode) -->
+    <button class="exit-ss" id="btn-exit-ss">Exit Clean View</button>
+
     <!-- Footer -->
     <div class="page-foot">
       <p>&copy; 2026 <a href="/">Bearing Freedom</a></p>
@@ -777,12 +803,13 @@
         effective: 'July 1, 2026',
         sponsors: 'Sen. Michael J. Jones (D)',
         status: 'Enrolled',
-        summary: 'Blanket ban on carrying or transporting "assault firearms" on any public property without a CHP. Destroys Virginia\'s open carry tradition using a one-feature test even broader than HB 217.',
+        summary: 'Statewide ban on carrying or transporting "assault firearms" on any public property. No CHP exemption. Destroys Virginia\'s open carry tradition using a one-feature test even broader than HB 217.',
         provisions: [
           'Modified one-feature test (broader definition than the AWB)',
           'Covers any public street, road, sidewalk, park, or place open to the public',
+          'No exemption for concealed handgun permit holders',
           'No safe transport exception for locked, unloaded firearms in vehicles',
-          'CHP exemption status disputed after conference committee',
+          'Expands statewide — previously limited to a handful of cities/counties',
           'Pistols: any 1 feature including fixed 10+ mag or threaded barrel',
           'Shotguns: any 1 feature including 7+ round fixed mag',
         ],
@@ -1105,7 +1132,7 @@
       el.dataset.id = bill.id;
       el.dataset.cat = bill.cat;
       el.draggable = true;
-      el.style.animationDelay = delay + 'ms';
+      // No stagger — all tiles appear instantly
       el.innerHTML = `<div class="tile-number">${bill.number}</div><div class="tile-nick">${bill.nick}</div>`;
 
       el.addEventListener('click', (e) => {
@@ -1200,41 +1227,138 @@
     }
 
     // ═══════════════════════════════════════════════
-    //  DRAG & DROP
+    //  DRAG & DROP — indicator-based, no DOM shift
     // ═══════════════════════════════════════════════
+
+    // Insertion indicator line
+    const indicator = document.createElement('div');
+    indicator.style.cssText = 'width:3px;height:70px;background:var(--red);border-radius:2px;flex-shrink:0;pointer-events:none;display:none;margin:0 -2px;';
+
+    let dragOriginParent = null;
+    let dragOriginNext = null;
+
     function onDragStart(e) {
       dragEl = e.target.closest('.tile');
-      dragEl.classList.add('dragging');
       e.dataTransfer.effectAllowed = 'move';
       e.dataTransfer.setData('text/plain', dragEl.dataset.id);
+
+      // Remember original position in case drag is cancelled
+      dragOriginParent = dragEl.parentElement;
+      dragOriginNext = dragEl.nextElementSibling;
+
+      // Hide the tile after browser captures drag image
+      requestAnimationFrame(() => {
+        dragEl.style.display = 'none';
+      });
     }
 
     function onDragEnd() {
-      if (dragEl) dragEl.classList.remove('dragging');
+      // Remove indicator
+      indicator.style.display = 'none';
+      if (indicator.parentElement) indicator.remove();
+
+      if (dragEl) {
+        // If tile was never dropped (drag cancelled), restore it
+        if (dragEl.style.display === 'none') {
+          dragEl.style.display = '';
+          if (!dragEl.parentElement) {
+            if (dragOriginNext) {
+              dragOriginParent.insertBefore(dragEl, dragOriginNext);
+            } else {
+              dragOriginParent.appendChild(dragEl);
+            }
+          }
+        }
+        dragEl.style.display = '';
+      }
       dragEl = null;
+      dragOriginParent = null;
+      dragOriginNext = null;
       document.querySelectorAll('.drag-over').forEach(z => z.classList.remove('drag-over'));
       updatePoolCount();
     }
 
-    function setupDropZones() {
-      document.querySelectorAll('[data-zone]').forEach(zone => {
-        zone.addEventListener('dragover', (e) => {
-          e.preventDefault();
-          e.dataTransfer.dropEffect = 'move';
-          zone.classList.add('drag-over');
-        });
-        zone.addEventListener('dragleave', (e) => {
-          if (!zone.contains(e.relatedTarget)) zone.classList.remove('drag-over');
-        });
-        zone.addEventListener('drop', (e) => {
-          e.preventDefault();
-          zone.classList.remove('drag-over');
-          const id = e.dataTransfer.getData('text/plain');
-          const tile = document.querySelector(`.tile[data-id="${id}"]`);
-          if (tile && zone !== tile.parentElement) zone.appendChild(tile);
-          updatePoolCount();
-        });
+    function getInsertTarget(zone, x) {
+      const tiles = [...zone.querySelectorAll('.tile')];
+      if (!tiles.length) return null;
+      for (const tile of tiles) {
+        const r = tile.getBoundingClientRect();
+        if (x < r.left + r.width / 2) return tile;
+      }
+      return null;
+    }
+
+    // Resolve the actual drop zone from any element (handles clicking
+    // on tier-row, tier-label, or the drop zone itself)
+    function resolveZone(el) {
+      if (!el) return null;
+      const zone = el.closest('[data-zone]');
+      if (zone) return zone;
+      // If we hit a tier-row but not the drop zone, use its drop zone
+      const row = el.closest('.tier-row');
+      if (row) return row.querySelector('[data-zone]');
+      return null;
+    }
+
+    function handleDragOver(e) {
+      e.preventDefault();
+      e.dataTransfer.dropEffect = 'move';
+      const zone = resolveZone(e.target);
+      if (!zone) return;
+
+      // Clear old highlights
+      document.querySelectorAll('.drag-over').forEach(z => {
+        if (z !== zone) z.classList.remove('drag-over');
       });
+      zone.classList.add('drag-over');
+
+      // Show indicator at insertion point
+      const target = getInsertTarget(zone, e.clientX);
+      indicator.style.display = '';
+      if (target) {
+        zone.insertBefore(indicator, target);
+      } else {
+        zone.appendChild(indicator);
+      }
+    }
+
+    function handleDrop(e) {
+      e.preventDefault();
+      const zone = resolveZone(e.target);
+      document.querySelectorAll('.drag-over').forEach(z => z.classList.remove('drag-over'));
+      if (!dragEl) return;
+
+      dragEl.style.display = '';
+      if (indicator.parentElement) {
+        indicator.parentElement.insertBefore(dragEl, indicator);
+      } else if (zone) {
+        zone.appendChild(dragEl);
+      }
+      indicator.style.display = 'none';
+      if (indicator.parentElement) indicator.remove();
+      updatePoolCount();
+    }
+
+    function handleDragLeave(e) {
+      const zone = resolveZone(e.target);
+      if (!zone) return;
+      // Only remove highlight if we truly left the zone
+      const related = resolveZone(e.relatedTarget);
+      if (related !== zone) {
+        zone.classList.remove('drag-over');
+        if (indicator.parentElement === zone) {
+          indicator.style.display = 'none';
+          indicator.remove();
+        }
+      }
+    }
+
+    function setupDropZones() {
+      // Listen on the entire tier area + pool so events never get missed
+      const tierArea = document.querySelector('.tier-area');
+      tierArea.addEventListener('dragover', handleDragOver);
+      tierArea.addEventListener('drop', handleDrop);
+      tierArea.addEventListener('dragleave', handleDragLeave);
     }
 
     // ═══════════════════════════════════════════════
@@ -1275,18 +1399,34 @@
         touchGhost.style.top = (t.clientY - toy) + 'px';
       }
       document.querySelectorAll('.drag-over').forEach(z => z.classList.remove('drag-over'));
+      if (touchGhost) touchGhost.style.display = 'none';
       const el = document.elementFromPoint(t.clientX, t.clientY);
-      const zone = el?.closest('[data-zone]');
-      if (zone) zone.classList.add('drag-over');
+      if (touchGhost) touchGhost.style.display = '';
+      const zone = resolveZone(el);
+      if (zone) {
+        document.querySelectorAll('.drag-over').forEach(z => { if (z !== zone) z.classList.remove('drag-over'); });
+        zone.classList.add('drag-over');
+        const target = getInsertTarget(zone, t.clientX);
+        indicator.style.display = '';
+        if (target) {
+          zone.insertBefore(indicator, target);
+        } else {
+          zone.appendChild(indicator);
+        }
+      }
     }
 
     function onTouchEnd(e) {
       if (touchEl?._tt) clearTimeout(touchEl._tt);
       if (!touchEl) return;
-      const t = e.changedTouches[0];
-      const el = document.elementFromPoint(t.clientX, t.clientY);
-      const zone = el?.closest('[data-zone]');
-      if (zone && zone !== touchEl.parentElement) zone.appendChild(touchEl);
+
+      // Insert at indicator position
+      if (indicator.parentElement) {
+        indicator.parentElement.insertBefore(touchEl, indicator);
+      }
+      indicator.style.display = 'none';
+      if (indicator.parentElement) indicator.remove();
+
       touchEl.classList.remove('dragging');
       if (touchGhost) touchGhost.remove();
       document.querySelectorAll('.drag-over').forEach(z => z.classList.remove('drag-over'));
@@ -1310,19 +1450,44 @@
       updatePoolCount();
     });
 
-    document.getElementById('btn-ss')?.addEventListener('click', () => {
+    function toggleCleanView() {
       document.body.classList.toggle('ss-mode');
       const btn = document.getElementById('btn-ss');
       btn.textContent = document.body.classList.contains('ss-mode') ? 'Exit Clean View' : 'Clean View';
       btn.classList.toggle('active');
-    });
+    }
+
+    document.getElementById('btn-ss')?.addEventListener('click', toggleCleanView);
+    document.getElementById('btn-exit-ss')?.addEventListener('click', toggleCleanView);
 
     // ═══════════════════════════════════════════════
     //  INIT
     // ═══════════════════════════════════════════════
+    // Default display order
+    const BILL_ORDER = [
+      'hb217',   // Assault Weapons Ban
+      'hb916',   // CHP Class Overhaul
+      'hb40',    // Ghost Gun Ban
+      'hb1525',  // Permit to Purchase
+      'hb1524',  // Public Carry Ban
+      'hb21',    // Lawsuit Machine
+      'hb19',    // Dating Gun Ban
+      'sb115',   // CHP Reciprocity Kill
+      'hb702',   // Mandatory Buybacks
+      'hb901',   // Red Flag Expansion
+      'hb93',    // Gun Surrender
+      'hb626',   // Campus Carry Ban
+      'hb969',   // Gun Control Center
+      'hb871',   // Secure Storage
+      'hb110',   // Vehicle Gun Ban
+      'hb229',   // Hospital Gun Ban
+      'hb909',   // Polling Place Ban
+    ];
+
+    const orderedBills = BILL_ORDER.map(id => BILLS.find(b => b.id === id)).filter(Boolean);
     const pool = document.getElementById('pool');
-    BILLS.forEach((bill, i) => {
-      pool.appendChild(createTile(bill, i * 40));
+    orderedBills.forEach(bill => {
+      pool.appendChild(createTile(bill, 0));
     });
     setupDropZones();
     updatePoolCount();
