@@ -184,12 +184,8 @@ const allTopics = [...new Set(articles.flatMap(a => a.data.topics))];
 
         <form
           id="email-form"
-          name="newsletter"
-          method="POST"
-          data-netlify="true"
           class="flex flex-col sm:flex-row gap-3"
         >
-          <input type="hidden" name="form-name" value="newsletter" />
           <input
             type="email"
             name="email"
@@ -262,18 +258,25 @@ const allTopics = [...new Set(articles.flatMap(a => a.data.topics))];
       e.preventDefault();
       const btn = document.getElementById('email-submit');
       const success = document.getElementById('email-success');
+      const email = document.getElementById('email-input')?.value;
 
       btn.textContent = 'Subscribing...';
       btn.disabled = true;
 
       try {
-        await fetch('/', {
+        const resp = await fetch('/api/subscribe', {
           method: 'POST',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-          body: new URLSearchParams(new FormData(this)).toString(),
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email }),
         });
-        this.style.display = 'none';
-        success.classList.remove('hidden');
+        const data = await resp.json();
+        if (resp.ok) {
+          this.style.display = 'none';
+          success.classList.remove('hidden');
+        } else {
+          btn.textContent = data.error || 'Try Again';
+          btn.disabled = false;
+        }
       } catch {
         btn.textContent = 'Try Again';
         btn.disabled = false;
