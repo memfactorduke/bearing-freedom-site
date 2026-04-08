@@ -6,8 +6,8 @@ import { getCollection } from 'astro:content';
 const articles = (await getCollection('articles'))
   .sort((a, b) => { const d = b.data.date.localeCompare(a.data.date); return d !== 0 ? d : (a.data.sort_index ?? 9999) - (b.data.sort_index ?? 9999); });
 
-const featuredArticle = articles[0];
-const remainingArticles = articles.slice(1);
+const featuredArticle = articles.find(a => a.data.youtube_id === 'QlhdoNOAvO0') || articles[0];
+const remainingArticles = articles.filter(a => a !== featuredArticle);
 const allTopics = [...new Set(articles.flatMap(a => a.data.topics))];
 ---
 
@@ -55,7 +55,7 @@ const allTopics = [...new Set(articles.flatMap(a => a.data.topics))];
               <div class="flex items-center gap-3 mb-6">
                 <div class="w-6 h-px bg-accent"></div>
                 <span class="font-[JetBrains_Mono] text-[10px] tracking-[0.25em] uppercase text-accent">
-                  Latest Article
+                  Featured
                 </span>
               </div>
 
