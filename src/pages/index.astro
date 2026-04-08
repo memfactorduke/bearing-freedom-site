@@ -115,6 +115,41 @@ const allTopics = [...new Set(articles.flatMap(a => a.data.topics))];
 
 
   <!-- ═══════════════════════════════════════════════
+       INLINE EMAIL BAR — High-visibility, above the fold
+  ═══════════════════════════════════════════════ -->
+  <section class="bg-accent">
+    <div class="max-w-7xl mx-auto px-5 lg:px-8 py-5">
+      <form
+        id="inline-email-form"
+        class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4"
+      >
+        <span class="font-[Archivo_Black] text-sm sm:text-base font-bold text-void tracking-tight whitespace-nowrap">
+          Get the Weekly 2A Briefing
+        </span>
+        <input
+          type="email"
+          name="email"
+          id="inline-email-input"
+          placeholder="your@email.com"
+          required
+          class="w-full sm:w-72 bg-void/20 border border-void/30 px-4 py-2.5 font-[Crimson_Pro] text-void placeholder:text-void/50 focus:outline-none focus:border-void/60 focus:bg-void/30 transition-colors text-sm"
+        />
+        <button
+          type="submit"
+          id="inline-email-submit"
+          class="font-[Archivo_Black] text-xs font-bold tracking-wider uppercase bg-void text-accent px-6 py-2.5 hover:bg-void/90 transition-colors whitespace-nowrap"
+        >
+          Subscribe
+        </button>
+      </form>
+      <div id="inline-email-success" class="hidden text-center">
+        <span class="font-[JetBrains_Mono] text-xs font-bold text-void tracking-wider">You're on the list.</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════
        ARTICLES GRID — Latest content
   ═══════════════════════════════════════════════ -->
   <section class="max-w-7xl mx-auto px-5 lg:px-8 py-16 lg:py-20">
@@ -160,31 +195,31 @@ const allTopics = [...new Set(articles.flatMap(a => a.data.topics))];
 
 
   <!-- ═══════════════════════════════════════════════
-       EMAIL CAPTURE — Dark surface, minimal
+       EMAIL CAPTURE — Full-width accent band
   ═══════════════════════════════════════════════ -->
-  <section class="max-w-7xl mx-auto px-5 lg:px-8 pb-16">
-    <div class="bg-surface border border-border p-10 sm:p-14 lg:p-16">
-      <div class="max-w-xl mx-auto text-center">
+  <section class="bg-accent">
+    <div class="max-w-4xl mx-auto px-5 lg:px-8 py-16 sm:py-20">
+      <div class="text-center">
 
         <!-- Label -->
         <div class="flex items-center justify-center gap-3 mb-6">
-          <div class="w-6 h-px bg-accent"></div>
-          <span class="font-[JetBrains_Mono] text-[10px] tracking-[0.25em] uppercase text-accent">
-            Stay Informed
+          <div class="w-8 h-px bg-void/30"></div>
+          <span class="font-[JetBrains_Mono] text-[10px] tracking-[0.25em] uppercase text-void/70">
+            Free Newsletter
           </span>
-          <div class="w-6 h-px bg-accent"></div>
+          <div class="w-8 h-px bg-void/30"></div>
         </div>
 
-        <h2 class="font-[Archivo_Black] text-3xl sm:text-4xl font-bold text-text mb-4 tracking-tight">
+        <h2 class="font-[Archivo_Black] text-4xl sm:text-5xl font-bold text-void mb-5 tracking-tight">
           Weekly 2A Briefing
         </h2>
-        <p class="font-[Crimson_Pro] text-text-secondary text-lg leading-relaxed mb-10">
-          A curated digest of Second Amendment commentary, court rulings, and analysis — delivered to your inbox every week.
+        <p class="font-[Crimson_Pro] text-void/80 text-xl leading-relaxed mb-10 max-w-lg mx-auto">
+          Court rulings, legislative updates, and Second Amendment analysis — delivered free every week.
         </p>
 
         <form
           id="email-form"
-          class="flex flex-col sm:flex-row gap-3"
+          class="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto"
         >
           <input
             type="email"
@@ -192,24 +227,24 @@ const allTopics = [...new Set(articles.flatMap(a => a.data.topics))];
             id="email-input"
             placeholder="your@email.com"
             required
-            class="flex-1 bg-void border border-border px-4 py-3 font-[Crimson_Pro] text-text placeholder:text-text-muted focus:outline-none focus:border-accent transition-colors"
+            class="flex-1 bg-void/20 border border-void/30 px-5 py-3.5 font-[Crimson_Pro] text-void placeholder:text-void/50 focus:outline-none focus:border-void/60 focus:bg-void/30 transition-colors text-lg"
           />
           <button
             type="submit"
             id="email-submit"
-            class="font-[Archivo_Black] text-sm font-bold tracking-wider uppercase bg-accent text-void px-7 py-3 hover:bg-accent/90 transition-colors whitespace-nowrap"
+            class="font-[Archivo_Black] text-sm font-bold tracking-wider uppercase bg-void text-accent px-8 py-3.5 hover:bg-void/90 transition-colors whitespace-nowrap"
           >
             Subscribe
           </button>
         </form>
 
-        <p class="font-[JetBrains_Mono] text-[11px] text-text-muted mt-5 tracking-wide">
+        <p class="font-[JetBrains_Mono] text-[11px] text-void/50 mt-5 tracking-wide">
           No spam. Unsubscribe anytime.
         </p>
 
         <!-- Success state -->
         <div id="email-success" class="hidden mt-6">
-          <div class="inline-flex items-center gap-2 border border-accent/30 text-accent px-5 py-3 font-[JetBrains_Mono] text-xs tracking-wider">
+          <div class="inline-flex items-center gap-2 bg-void/20 text-void px-5 py-3 font-[JetBrains_Mono] text-sm font-bold tracking-wider">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path d="M5 13l4 4L19 7"/>
             </svg>
@@ -252,13 +287,12 @@ const allTopics = [...new Set(articles.flatMap(a => a.data.topics))];
   )}
 
 
-  <!-- Email form script with Netlify integration -->
+  <!-- Email form scripts -->
   <script is:inline>
-    document.getElementById('email-form')?.addEventListener('submit', async function(e) {
-      e.preventDefault();
-      const btn = document.getElementById('email-submit');
-      const success = document.getElementById('email-success');
-      const email = document.getElementById('email-input')?.value;
+    async function handleSubscribe(form, btnId, successId, inputId) {
+      const btn = document.getElementById(btnId);
+      const success = document.getElementById(successId);
+      const email = document.getElementById(inputId)?.value;
 
       btn.textContent = 'Subscribing...';
       btn.disabled = true;
@@ -271,8 +305,13 @@ const allTopics = [...new Set(articles.flatMap(a => a.data.topics))];
         });
         const data = await resp.json();
         if (resp.ok) {
-          this.style.display = 'none';
+          form.style.display = 'none';
           success.classList.remove('hidden');
+          // If subscribed via inline bar, also hide the main form
+          document.querySelectorAll('[data-subscribe-form]').forEach(f => {
+            f.style.display = 'none';
+            f.closest('section')?.querySelector('[data-subscribe-success]')?.classList.remove('hidden');
+          });
         } else {
           btn.textContent = data.error || 'Try Again';
           btn.disabled = false;
@@ -281,6 +320,18 @@ const allTopics = [...new Set(articles.flatMap(a => a.data.topics))];
         btn.textContent = 'Try Again';
         btn.disabled = false;
       }
+    }
+
+    // Main email form
+    document.getElementById('email-form')?.addEventListener('submit', function(e) {
+      e.preventDefault();
+      handleSubscribe(this, 'email-submit', 'email-success', 'email-input');
+    });
+
+    // Inline email bar
+    document.getElementById('inline-email-form')?.addEventListener('submit', function(e) {
+      e.preventDefault();
+      handleSubscribe(this, 'inline-email-submit', 'inline-email-success', 'inline-email-input');
     });
   </script>
 
