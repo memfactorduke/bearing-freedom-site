@@ -1,29 +1,29 @@
 ---
-title: "The Pretti footage from January 13 does not change the case"
-date: "2026-01-29"
-youtube_url: "https://www.youtube.com/watch?v=PSd9FEP03N0"
-youtube_id: "PSd9FEP03N0"
-thumbnail: "/images/articles/2026-01-29-breaking-new-footage-shows-alex-pretti-fighting-with-ice-wee.jpg"
-duration: "6:53"
-author: "Bearing Freedom"
+title: 'The Pretti footage from January 13 does not change the case'
+date: '2026-01-29'
+youtube_url: 'https://www.youtube.com/watch?v=PSd9FEP03N0'
+youtube_id: 'PSd9FEP03N0'
+thumbnail: '/images/articles/2026-01-29-breaking-new-footage-shows-alex-pretti-fighting-with-ice-wee.jpg'
+duration: '6:53'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "use-of-force"
-  - "law-enforcement"
-  - "ice-enforcement"
+  - 'second-amendment'
+  - 'use-of-force'
+  - 'law-enforcement'
+  - 'ice-enforcement'
 content_type:
-  - "commentary"
+  - 'commentary'
 states:
-  - "Minnesota"
+  - 'Minnesota'
 tags:
-  - "Second Amendment"
-  - "Alex Pretti"
-  - "ICE"
-  - "Border Patrol"
-  - "Use of Force"
-  - "Minneapolis"
-  - "Gun Rights"
-image_prompt: "A bright Minneapolis street corner on a cold January morning, yellow police tape cordoning off a section of a residential neighborhood, television news cameras and reporters gathered outside the perimeter, sunlight catching frost on the pavement, neutral documentary photojournalism style"
+  - 'Second Amendment'
+  - 'Alex Pretti'
+  - 'ICE'
+  - 'Border Patrol'
+  - 'Use of Force'
+  - 'Minneapolis'
+  - 'Gun Rights'
+image_prompt: 'A bright Minneapolis street corner on a cold January morning, yellow police tape cordoning off a section of a residential neighborhood, television news cameras and reporters gathered outside the perimeter, sunlight catching frost on the pavement, neutral documentary photojournalism style'
 sort_index: 47
 ---
 
@@ -33,7 +33,7 @@ New footage of Alex Pretti's January 13 confrontation with federal immigration a
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=PSd9FEP03N0). This is commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=PSd9FEP03N0). This is commentary, not legal advice._
 
 ---
 
@@ -47,7 +47,7 @@ But none of that is what we are discussing here. The conversation the country is
 
 ## What actually governs a use-of-force case
 
-The controlling Supreme Court case is *Graham v. Connor*, 490 U.S. 386 (1989). It established that all excessive-force claims against law enforcement are evaluated under the Fourth Amendment's objective reasonableness standard. The question is not whether officers made perfect decisions. It is whether a reasonable officer, with the same training, in the same circumstances, at the same moment, could have perceived an imminent threat justifying lethal force.
+The controlling Supreme Court case is _Graham v. Connor_, 490 U.S. 386 (1989). It established that all excessive-force claims against law enforcement are evaluated under the Fourth Amendment's objective reasonableness standard. The question is not whether officers made perfect decisions. It is whether a reasonable officer, with the same training, in the same circumstances, at the same moment, could have perceived an imminent threat justifying lethal force.
 
 The relevant time window is not January 13. It is the final seconds of the January 24 encounter. The DHS report confirmed that two federal agents fired their weapons at Pretti. The report states an officer shouted "He's got a gun!" multiple times, and approximately five seconds later, the first shot was fired.
 
@@ -59,7 +59,7 @@ The critical question is not whether Pretti had a gun. He did. The question is w
 
 The January 13 footage is being amplified by people who want to establish that Pretti was dangerous, anti-government, and prone to violence. The implication is meant to be absorbed by the audience without being stated directly: he had it coming. The legal framework does not accommodate that reasoning. It cannot. Once you allow an officer's knowledge of a person's prior behavior to retroactively justify a shooting that may not have been justified in the moment, you have dismantled the constitutional standard that protects every single one of us.
 
-I want to be honest about something, because I think the right wing is doing something here that it usually accuses the left of doing. We are being intellectually dishonest. The same movement that correctly argues that a defensive shooting is judged by the facts of the encounter and not by a perpetrator's prior record is now circulating footage of a prior encounter to influence how people feel about this shooting. Those two positions cannot both be true. Either the *Graham* standard applies, or it does not. I believe it applies. That means the January 13 footage is irrelevant.
+I want to be honest about something, because I think the right wing is doing something here that it usually accuses the left of doing. We are being intellectually dishonest. The same movement that correctly argues that a defensive shooting is judged by the facts of the encounter and not by a perpetrator's prior record is now circulating footage of a prior encounter to influence how people feel about this shooting. Those two positions cannot both be true. Either the _Graham_ standard applies, or it does not. I believe it applies. That means the January 13 footage is irrelevant.
 
 To be equally fair in the other direction: the fact that Pretti was an ICU nurse who helped veterans, which has been circulated heavily on the left, is also not legally relevant. His character and his community contributions do not determine whether the officers were justified. Nothing about who he was as a person determines whether the officers were justified. The standard is objective. That is its strength.
 
@@ -79,6 +79,6 @@ I have looked at the available video from January 24 carefully. The officer in t
 
 What I am not willing to do, and what I think our side should stop doing, is use footage of a prior encounter to substitute for that analysis. It is intellectually dishonest. It is the same move we criticize when the left does it. And it matters here in a way that goes beyond this particular case.
 
-The minute we accept that a prior altercation can retroactively justify a shooting, we have handed the government a tool it will use against people we actually agree with. The *Graham* standard is not some liberal invention. It is a protection rooted in the Fourth Amendment. It protects you. It protects every legal gun owner who carries at a rally, a protest, or anywhere else in public. Defending it consistently, even when it produces uncomfortable conclusions, is not weakness. It is principle.
+The minute we accept that a prior altercation can retroactively justify a shooting, we have handed the government a tool it will use against people we actually agree with. The _Graham_ standard is not some liberal invention. It is a protection rooted in the Fourth Amendment. It protects you. It protects every legal gun owner who carries at a rally, a protest, or anywhere else in public. Defending it consistently, even when it produces uncomfortable conclusions, is not weakness. It is principle.
 
 The January 13 footage tells us something about who Alex Pretti was. It tells us nothing about whether the shooting was justified. Those are different questions. We should stop pretending they are the same one.

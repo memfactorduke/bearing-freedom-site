@@ -1,33 +1,33 @@
 ---
 title: "Chris Murphy's $4,709 NFA tax is not a policy proposal, it's a message to gun owners"
-date: "2026-01-16"
-youtube_url: "https://www.youtube.com/watch?v=Py0dTirBGgQ"
-youtube_id: "Py0dTirBGgQ"
-thumbnail: "/images/articles/2026-01-16-breaking-senate-officially-moves-ahead-with-absurd-4-000-nfa.jpg"
-duration: "6:06"
-author: "Bearing Freedom"
-image_prompt: "Wide shot of the US Senate chamber from the gallery, empty seats and ornate desks under bright overhead lighting, an American flag flanking the dais, sharp photojournalistic framing, no people"
+date: '2026-01-16'
+youtube_url: 'https://www.youtube.com/watch?v=Py0dTirBGgQ'
+youtube_id: 'Py0dTirBGgQ'
+thumbnail: '/images/articles/2026-01-16-breaking-senate-officially-moves-ahead-with-absurd-4-000-nfa.jpg'
+duration: '6:06'
+author: 'Bearing Freedom'
+image_prompt: 'Wide shot of the US Senate chamber from the gallery, empty seats and ornate desks under bright overhead lighting, an American flag flanking the dais, sharp photojournalistic framing, no people'
 sort_index: 60
 topics:
-  - "nfa"
-  - "suppressors"
-  - "sbr"
-  - "gun-control"
-  - "second-amendment"
-  - "senate"
+  - 'nfa'
+  - 'suppressors'
+  - 'sbr'
+  - 'gun-control'
+  - 'second-amendment'
+  - 'senate'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "NFA"
-  - "Suppressors"
-  - "SBR"
-  - "Chris Murphy"
-  - "Senate"
-  - "Gun Control"
-  - "One Big Beautiful Bill"
-  - "Second Amendment"
-  - "Tax"
+  - 'NFA'
+  - 'Suppressors'
+  - 'SBR'
+  - 'Chris Murphy'
+  - 'Senate'
+  - 'Gun Control'
+  - 'One Big Beautiful Bill'
+  - 'Second Amendment'
+  - 'Tax'
 ---
 
 ## The bottom line
@@ -36,7 +36,7 @@ Senator Chris Murphy introduced Senate Amendment 2973 to H.R. 3944, proposing to
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Py0dTirBGgQ). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Py0dTirBGgQ). Commentary, not legal advice._
 
 ---
 

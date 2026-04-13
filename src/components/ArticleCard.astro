@@ -9,7 +9,8 @@ interface Props {
   content_type: string[];
 }
 
-const { title, date, slug, thumbnail, duration, topics, content_type } = Astro.props;
+const { title, date, slug, thumbnail, duration, topics, content_type } =
+  Astro.props;
 
 const formattedDate = new Date(date + 'T00:00:00').toLocaleDateString('en-US', {
   year: 'numeric',
@@ -31,33 +32,47 @@ function formatTopic(topic: string): string {
         class="w-full aspect-video object-cover transition-transform duration-700 group-hover:scale-105 brightness-90 group-hover:brightness-100"
         loading="lazy"
       />
-      <div class="absolute inset-0 bg-gradient-to-t from-void/80 via-void/20 to-transparent"></div>
+      <div
+        class="absolute inset-0 bg-gradient-to-t from-void/80 via-void/20 to-transparent"
+      >
+      </div>
 
-      <span class="absolute bottom-2.5 right-2.5 bg-void/80 text-text-secondary text-[10px] px-2 py-0.5 font-[JetBrains_Mono] tracking-wide backdrop-blur-sm">
+      <span
+        class="absolute bottom-2.5 right-2.5 bg-void/80 text-text-secondary text-[10px] px-2 py-0.5 font-[JetBrains_Mono] tracking-wide backdrop-blur-sm"
+      >
         {duration}
       </span>
-      {content_type[0] && (
-        <span class="absolute top-2.5 left-2.5 tag-chip backdrop-blur-sm bg-void/60">
-          {formatTopic(content_type[0])}
-        </span>
-      )}
+      {
+        content_type[0] && (
+          <span class="absolute top-2.5 left-2.5 tag-chip backdrop-blur-sm bg-void/60">
+            {formatTopic(content_type[0])}
+          </span>
+        )
+      }
     </div>
     <div class="pt-4 pb-2">
       <div class="flex items-center gap-3 mb-2.5">
-        <time class="text-[11px] font-[JetBrains_Mono] text-text-muted tracking-wide">{formattedDate}</time>
+        <time
+          class="text-[11px] font-[JetBrains_Mono] text-text-muted tracking-wide"
+          >{formattedDate}</time
+        >
       </div>
-      <h2 class="font-[Archivo_Black] text-[15px] font-bold text-text leading-snug group-hover:text-accent transition-colors line-clamp-3">
+      <h2
+        class="font-[Archivo_Black] text-[15px] font-bold text-text leading-snug group-hover:text-accent transition-colors line-clamp-3"
+      >
         {title}
       </h2>
-      {topics.length > 0 && (
-        <div class="flex flex-wrap gap-2 mt-3">
-          {topics.slice(0, 2).map(topic => (
-            <span class="text-[10px] font-[JetBrains_Mono] text-text-muted uppercase tracking-wide">
-              {formatTopic(topic)}
-            </span>
-          ))}
-        </div>
-      )}
+      {
+        topics.length > 0 && (
+          <div class="flex flex-wrap gap-2 mt-3">
+            {topics.slice(0, 2).map((topic) => (
+              <span class="text-[10px] font-[JetBrains_Mono] text-text-muted uppercase tracking-wide">
+                {formatTopic(topic)}
+              </span>
+            ))}
+          </div>
+        )
+      }
     </div>
   </a>
 </article>

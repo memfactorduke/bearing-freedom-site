@@ -1,30 +1,30 @@
 ---
 title: "Virginia SB115 doesn't tighten carry standards. It hands the state a monopoly on who gets to carry at all."
-date: "2026-02-13"
-youtube_url: "https://www.youtube.com/watch?v=9eoj-oSuegk"
-youtube_id: "9eoj-oSuegk"
-thumbnail: "/images/articles/2026-02-13-breaking-virginia-delegate-reveals-dystopian-new-gun-control.jpg"
-duration: "9:05"
-author: "Bearing Freedom"
+date: '2026-02-13'
+youtube_url: 'https://www.youtube.com/watch?v=9eoj-oSuegk'
+youtube_id: '9eoj-oSuegk'
+thumbnail: '/images/articles/2026-02-13-breaking-virginia-delegate-reveals-dystopian-new-gun-control.jpg'
+duration: '9:05'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "carry-rights"
-  - "virginia-legislation"
-  - "legislative-analysis"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'carry-rights'
+  - 'virginia-legislation'
+  - 'legislative-analysis'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "SB115"
-  - "Concealed Carry"
-  - "Reciprocity"
-  - "CCW"
-  - "Scott Surovell"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'SB115'
+  - 'Concealed Carry'
+  - 'Reciprocity'
+  - 'CCW'
+  - 'Scott Surovell'
 image_prompt: "A highway welcome sign reading 'Welcome to Virginia' under overcast winter sky, bare trees lining the road, wide-angle photojournalistic shot from driver's perspective, no other vehicles, muted colors"
 sort_index: 29
 ---
@@ -35,7 +35,7 @@ Virginia Senate Bill 115 passed the Senate and is heading to the House. What it 
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=9eoj-oSuegk). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=9eoj-oSuegk). Commentary, not legal advice._
 
 ---
 

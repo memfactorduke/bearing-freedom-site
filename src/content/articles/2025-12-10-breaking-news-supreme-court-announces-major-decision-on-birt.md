@@ -1,30 +1,30 @@
 ---
 title: "The Supreme Court's birthright citizenship case matters for the Second Amendment more than you know"
-date: "2025-12-10"
-youtube_url: "https://www.youtube.com/watch?v=R3ed4YLqiQE"
-youtube_id: "R3ed4YLqiQE"
-thumbnail: "/images/articles/2025-12-10-breaking-news-supreme-court-announces-major-decision-on-birt.jpg"
-duration: "6:18"
-author: "Bearing Freedom"
+date: '2025-12-10'
+youtube_url: 'https://www.youtube.com/watch?v=R3ed4YLqiQE'
+youtube_id: 'R3ed4YLqiQE'
+thumbnail: '/images/articles/2025-12-10-breaking-news-supreme-court-announces-major-decision-on-birt.jpg'
+duration: '6:18'
+author: 'Bearing Freedom'
 topics:
-  - "birthright-citizenship"
-  - "supreme-court"
-  - "14th-amendment"
-  - "second-amendment"
-  - "immigration"
+  - 'birthright-citizenship'
+  - 'supreme-court'
+  - '14th-amendment'
+  - 'second-amendment'
+  - 'immigration'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Supreme Court"
-  - "Birthright Citizenship"
-  - "14th Amendment"
-  - "Immigration"
-  - "Second Amendment"
-  - "Originalism"
-  - "Jus Soli"
-  - "Wong Kim Ark"
-image_prompt: "Wide-angle photojournalistic shot of the exterior of the United States Supreme Court building in Washington DC on a clear winter morning, marble columns sharp in cold sunlight, American flag visible, a few people on the steps"
+  - 'Supreme Court'
+  - 'Birthright Citizenship'
+  - '14th Amendment'
+  - 'Immigration'
+  - 'Second Amendment'
+  - 'Originalism'
+  - 'Jus Soli'
+  - 'Wong Kim Ark'
+image_prompt: 'Wide-angle photojournalistic shot of the exterior of the United States Supreme Court building in Washington DC on a clear winter morning, marble columns sharp in cold sunlight, American flag visible, a few people on the steps'
 sort_index: 80
 ---
 
@@ -34,7 +34,7 @@ The Supreme Court has accepted a case to reconsider the foundational interpretat
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=R3ed4YLqiQE). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=R3ed4YLqiQE). Commentary, not legal advice._
 
 ---
 
@@ -44,7 +44,7 @@ Let me start with the text, because this whole debate lives or dies on three wor
 
 The citizenship clause of the 14th Amendment reads: "All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the state wherein they reside."
 
-The popular interpretation, and the one that has held for well over a century, is simple: if you are born on US soil, you are an American citizen. Full stop. With one narrow exception for children of foreign diplomats, that is how courts and immigration officials have applied this language since *United States v. Wong Kim Ark* in 1898. In that case, the Supreme Court ruled 6-2 that a man born in San Francisco to Chinese parents who were legal residents had automatic citizenship at birth. The Court grounded its ruling in both the text of the amendment and common law principles dating back to English subjectship doctrine.
+The popular interpretation, and the one that has held for well over a century, is simple: if you are born on US soil, you are an American citizen. Full stop. With one narrow exception for children of foreign diplomats, that is how courts and immigration officials have applied this language since _United States v. Wong Kim Ark_ in 1898. In that case, the Supreme Court ruled 6-2 that a man born in San Francisco to Chinese parents who were legal residents had automatic citizenship at birth. The Court grounded its ruling in both the text of the amendment and common law principles dating back to English subjectship doctrine.
 
 That is the precedent. It is old and it is settled, at least for now.
 
@@ -56,9 +56,9 @@ I want to be straight with you about where I stand on the legal question, becaus
 
 The historical record is genuinely contested. Senator Jacob Howard of Michigan, who was the Senate floor manager for the 14th Amendment, said explicitly during the 1866 debates that the citizenship clause would "not, of course, include persons born in the United States who are foreigners, aliens, who belong to the families of ambassadors or foreign ministers." He described the excluded class as people who do not owe allegiance to the United States. Senator Lyman Trumbull, who co-authored the Civil Rights Act of 1866 that the 14th Amendment was designed to constitutionalize, described "subject to the jurisdiction" as meaning "not owing allegiance to anybody else."
 
-That language matters. The men who wrote this clause were thinking specifically about the former slave population, who had been denied citizenship by *Dred Scott* and needed a constitutional guarantee that could not be undone by ordinary legislation. That was the problem they were solving. They were not writing a rule for a world where millions of people crossed a border illegally and gave birth specifically to obtain immigration benefits for themselves and their children. That world did not exist in 1868. The concept of illegal immigration barely existed as a legal category until the late 19th century, and mass illegal immigration as we know it today was not a concern that any of the drafters could have anticipated.
+That language matters. The men who wrote this clause were thinking specifically about the former slave population, who had been denied citizenship by _Dred Scott_ and needed a constitutional guarantee that could not be undone by ordinary legislation. That was the problem they were solving. They were not writing a rule for a world where millions of people crossed a border illegally and gave birth specifically to obtain immigration benefits for themselves and their children. That world did not exist in 1868. The concept of illegal immigration barely existed as a legal category until the late 19th century, and mass illegal immigration as we know it today was not a concern that any of the drafters could have anticipated.
 
-Does that mean the clause cannot apply to children of undocumented immigrants? Not necessarily. The *Wong Kim Ark* decision extended the clause to children of lawful permanent residents, which was a reasonable reading of allegiance-based citizenship. But the Court in that case was not asked to resolve the question of children born to people who were here unlawfully, because that was not a significant category in 1898 either.
+Does that mean the clause cannot apply to children of undocumented immigrants? Not necessarily. The _Wong Kim Ark_ decision extended the clause to children of lawful permanent residents, which was a reasonable reading of allegiance-based citizenship. But the Court in that case was not asked to resolve the question of children born to people who were here unlawfully, because that was not a significant category in 1898 either.
 
 The originalist justices on the current Court will have to grapple with the fact that the historical record is not as clean as either side claims. What I believe, and what I think serious constitutional scholars on the right also believe, is that the original public meaning of "subject to the jurisdiction" likely excluded more than diplomats. It likely reflected a concept of allegiance that a person sneaking across a border and evading law enforcement cannot plausibly claim.
 
@@ -66,7 +66,7 @@ The originalist justices on the current Court will have to grapple with the fact
 
 Here is where people who focus purely on the legal technicalities miss the bigger picture.
 
-Elections are what determine who controls the courts, who controls Congress, and who controls the White House. All of those things determine the fate of the Second Amendment. Every major 2A victory in recent memory, *Heller*, *McDonald*, *Bruen*, required specific justices with specific views to be on the Court in specific numbers. We nearly lost *Bruen* as a 5-4 decision. The composition of that Court matters more than almost anything else in gun rights politics.
+Elections are what determine who controls the courts, who controls Congress, and who controls the White House. All of those things determine the fate of the Second Amendment. Every major 2A victory in recent memory, _Heller_, _McDonald_, _Bruen_, required specific justices with specific views to be on the Court in specific numbers. We nearly lost _Bruen_ as a 5-4 decision. The composition of that Court matters more than almost anything else in gun rights politics.
 
 Birthright citizenship has real downstream electoral consequences. The second-generation immigrant population, which correlates closely with the population that benefited from birthright citizenship policies, votes overwhelmingly Democratic. That is not a stereotype or an assumption. The data on second-generation immigrant political participation consistently shows very high rates of Democratic affiliation. That bloc has influenced state-level elections by margins that matter enormously for gun rights.
 
@@ -96,4 +96,4 @@ The Court is going to answer a question the founders never anticipated having to
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=R3ed4YLqiQE). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=R3ed4YLqiQE). Commentary, not legal advice._

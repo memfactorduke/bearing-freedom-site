@@ -1,34 +1,34 @@
 ---
 title: "Virginia's gun tax isn't about revenue. It's a money laundering operation for the anti-gun lobby."
-date: "2026-02-06"
-youtube_url: "https://www.youtube.com/watch?v=p2A0_4kLZyI"
-youtube_id: "p2A0_4kLZyI"
-thumbnail: "/images/articles/2026-02-06-breaking-virginia-s-second-amendment-nightmare-just-got-much.jpg"
-duration: "8:09"
-author: "Bearing Freedom"
-image_prompt: "Close-up photojournalistic shot of a Virginia state legislature chamber, empty wooden desks under fluorescent lighting with an American flag in the background, a single AR-15 ammunition box placed on a desk with a paper tax document beside it, sharp focus, natural institutional lighting"
+date: '2026-02-06'
+youtube_url: 'https://www.youtube.com/watch?v=p2A0_4kLZyI'
+youtube_id: 'p2A0_4kLZyI'
+thumbnail: '/images/articles/2026-02-06-breaking-virginia-s-second-amendment-nightmare-just-got-much.jpg'
+duration: '8:09'
+author: 'Bearing Freedom'
+image_prompt: 'Close-up photojournalistic shot of a Virginia state legislature chamber, empty wooden desks under fluorescent lighting with an American flag in the background, a single AR-15 ammunition box placed on a desk with a paper tax document beside it, sharp focus, natural institutional lighting'
 sort_index: 40
 topics:
-  - "gun-tax"
-  - "second-amendment"
-  - "virginia"
-  - "gun-control"
-  - "constitutional-law"
+  - 'gun-tax'
+  - 'second-amendment'
+  - 'virginia'
+  - 'gun-control'
+  - 'constitutional-law'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Virginia"
-  - "Gun Tax"
-  - "HB1094"
-  - "Second Amendment"
-  - "Excise Tax"
-  - "Firearms"
-  - "Ammunition"
-  - "Gun Violence Prevention Fund"
-  - "Unconstitutional"
-  - "Bruen"
+  - 'Virginia'
+  - 'Gun Tax'
+  - 'HB1094'
+  - 'Second Amendment'
+  - 'Excise Tax'
+  - 'Firearms'
+  - 'Ammunition'
+  - 'Gun Violence Prevention Fund'
+  - 'Unconstitutional'
+  - 'Bruen'
 ---
 
 ## The bottom line
@@ -37,7 +37,7 @@ Virginia's Senate passed an 11 percent excise tax on firearms and ammunition, wi
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=p2A0_4kLZyI). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=p2A0_4kLZyI). Commentary, not legal advice._
 
 ---
 
@@ -51,11 +51,11 @@ On its face, it looks like a modest public health measure. Eleven percent on a $
 
 ## The constitutional problem the sponsors are hoping you ignore
 
-There is a 1983 Supreme Court case called *Minneapolis Star & Tribune Co. v. Minnesota Commissioner of Revenue*, 460 U.S. 575. Minnesota imposed a use tax on the ink and paper consumed by publications beyond $100,000 per year. The tax hit a small number of large newspapers disproportionately. Justice O'Connor, writing for the majority, struck it down on First Amendment grounds. The core holding was that when a state singles out a constitutionally protected activity for targeted taxation, it raises serious concerns that the tax is designed to burden the exercise of that right, not to raise general revenue. The government cannot use the tax power to selectively penalize constitutionally protected conduct.
+There is a 1983 Supreme Court case called _Minneapolis Star & Tribune Co. v. Minnesota Commissioner of Revenue_, 460 U.S. 575. Minnesota imposed a use tax on the ink and paper consumed by publications beyond $100,000 per year. The tax hit a small number of large newspapers disproportionately. Justice O'Connor, writing for the majority, struck it down on First Amendment grounds. The core holding was that when a state singles out a constitutionally protected activity for targeted taxation, it raises serious concerns that the tax is designed to burden the exercise of that right, not to raise general revenue. The government cannot use the tax power to selectively penalize constitutionally protected conduct.
 
-Now apply that reasoning to a targeted excise tax on firearms and ammunition. The Second Amendment is a constitutional right. *District of Columbia v. Heller* (2008) established that the individual right to keep and bear arms is fundamental. If you cannot selectively tax the press for being the press, the constitutional logic runs directly toward the conclusion that you cannot selectively tax gun purchases for being gun purchases. The *Minneapolis Star* case involved a one-step tax on the inputs to press activity. Virginia's tax is even more direct: it taxes the protected activity itself, not just the raw materials.
+Now apply that reasoning to a targeted excise tax on firearms and ammunition. The Second Amendment is a constitutional right. _District of Columbia v. Heller_ (2008) established that the individual right to keep and bear arms is fundamental. If you cannot selectively tax the press for being the press, the constitutional logic runs directly toward the conclusion that you cannot selectively tax gun purchases for being gun purchases. The _Minneapolis Star_ case involved a one-step tax on the inputs to press activity. Virginia's tax is even more direct: it taxes the protected activity itself, not just the raw materials.
 
-The *Bruen* framework (2022) strengthens this position. Under *Bruen*, any regulation burdening Second Amendment rights must be rooted in the historical tradition of firearm regulation at the time of the founding. No analogous excise tax on firearms from the founding era has been identified. The Second Amendment Foundation is already litigating this exact issue in California, where Governor Newsom signed an identical 11 percent excise tax on firearms in 2023 in *Jaymes v. Maduros*. SAF's position is straightforward: a tax on constitutionally protected conduct with no founding-era analog violates the Second Amendment under *Bruen*. That litigation is moving through the California courts right now, and Virginia's bill is modeled on the same structure.
+The _Bruen_ framework (2022) strengthens this position. Under _Bruen_, any regulation burdening Second Amendment rights must be rooted in the historical tradition of firearm regulation at the time of the founding. No analogous excise tax on firearms from the founding era has been identified. The Second Amendment Foundation is already litigating this exact issue in California, where Governor Newsom signed an identical 11 percent excise tax on firearms in 2023 in _Jaymes v. Maduros_. SAF's position is straightforward: a tax on constitutionally protected conduct with no founding-era analog violates the Second Amendment under _Bruen_. That litigation is moving through the California courts right now, and Virginia's bill is modeled on the same structure.
 
 The bill's sponsors know this. They passed it anyway. I'll get to why in a moment.
 
@@ -91,9 +91,9 @@ Part of that is because we actually believe in constitutional law. We believe in
 
 ## Where this goes from here
 
-The excise tax will be challenged. The Second Amendment Foundation is already litigating the identical California tax. Virginia gun rights organizations will file in federal court. The Fourth Circuit is not a friendly venue, as anyone following the *Bianchi v. Brown* Maryland assault weapons ban case already knows. That court upheld Maryland's ban in 2024. A challenge to Virginia's gun tax would land in the same circuit with the same judges.
+The excise tax will be challenged. The Second Amendment Foundation is already litigating the identical California tax. Virginia gun rights organizations will file in federal court. The Fourth Circuit is not a friendly venue, as anyone following the _Bianchi v. Brown_ Maryland assault weapons ban case already knows. That court upheld Maryland's ban in 2024. A challenge to Virginia's gun tax would land in the same circuit with the same judges.
 
-The Supreme Court declined to hear the *Bianchi* appeal. Three justices, Thomas, Alito, and Gorsuch, dissented from that cert denial, which signals genuine interest in taking up a Second Amendment case. But "genuine interest" is not a grant of certiorari, and a cert denial in one case does not stop lower courts from ruling in other cases.
+The Supreme Court declined to hear the _Bianchi_ appeal. Three justices, Thomas, Alito, and Gorsuch, dissented from that cert denial, which signals genuine interest in taking up a Second Amendment case. But "genuine interest" is not a grant of certiorari, and a cert denial in one case does not stop lower courts from ruling in other cases.
 
 The realistic timeline for a definitive ruling on targeted firearms taxes is several years out. In the meantime, July 1, 2026 arrives, the tax takes effect, and the money starts flowing into the Gun Violence Intervention and Prevention Fund. Every month the tax is in effect is a month that fund is receiving revenue and distributing it.
 

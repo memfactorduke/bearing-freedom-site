@@ -15,10 +15,13 @@ export default async (req) => {
   const pubId = process.env.BEEHIIV_PUB_ID;
 
   if (!apiKey || !pubId) {
-    return new Response(JSON.stringify({ error: 'Newsletter not configured' }), {
-      status: 500,
-      headers: { 'Content-Type': 'application/json' },
-    });
+    return new Response(
+      JSON.stringify({ error: 'Newsletter not configured' }),
+      {
+        status: 500,
+        headers: { 'Content-Type': 'application/json' },
+      },
+    );
   }
 
   try {
@@ -37,7 +40,7 @@ export default async (req) => {
       {
         method: 'POST',
         headers: {
-          'Authorization': `Bearer ${apiKey}`,
+          Authorization: `Bearer ${apiKey}`,
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
@@ -47,7 +50,7 @@ export default async (req) => {
           utm_source: 'bearingfreedom.com',
           utm_medium: 'website',
         }),
-      }
+      },
     );
 
     if (resp.ok || resp.status === 201) {

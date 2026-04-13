@@ -11,32 +11,38 @@ const books = [
   {
     slug: 'disarmed',
     coverUrl: 'https://m.media-amazon.com/images/I/71fWsXd0URL._SL1500_.jpg',
-    prompt: 'Take this book and place it lying flat on a polished dark walnut desk. Behind it, show a slightly blurred background with a map of Eastern Europe and warm moody lighting. Professional editorial book photography, dramatic side lighting, shallow depth of field. Landscape 16:9 composition.',
+    prompt:
+      'Take this book and place it lying flat on a polished dark walnut desk. Behind it, show a slightly blurred background with a map of Eastern Europe and warm moody lighting. Professional editorial book photography, dramatic side lighting, shallow depth of field. Landscape 16:9 composition.',
   },
   {
     slug: 'israel-disarmed',
     coverUrl: 'https://m.media-amazon.com/images/I/71KqGz7CURL._SL1500_.jpg',
-    prompt: 'Take this book and place it lying at an angle on a dark leather desk surface. Behind it, show a softly blurred Israeli flag and memorial candles. Professional editorial book photography, warm dramatic lighting from the left, shallow depth of field. Landscape 16:9 composition.',
+    prompt:
+      'Take this book and place it lying at an angle on a dark leather desk surface. Behind it, show a softly blurred Israeli flag and memorial candles. Professional editorial book photography, warm dramatic lighting from the left, shallow depth of field. Landscape 16:9 composition.',
   },
   {
     slug: 'first-they-came-for-the-gun-owners',
     coverUrl: 'https://m.media-amazon.com/images/I/71Yr3fZkURL._SL1500_.jpg',
-    prompt: 'Take this book and place it on a dark mahogany desk with an American flag draped nearby. Professional editorial book photography, dramatic warm side lighting, shallow depth of field. Landscape 16:9 composition.',
+    prompt:
+      'Take this book and place it on a dark mahogany desk with an American flag draped nearby. Professional editorial book photography, dramatic warm side lighting, shallow depth of field. Landscape 16:9 composition.',
   },
   {
     slug: 'duped',
     coverUrl: 'https://m.media-amazon.com/images/I/51jjxnVuURL._SL1500_.jpg',
-    prompt: 'Take this book and place it on a dark wood desk with a folded newspaper and reading glasses nearby. Moody dramatic lighting, professional editorial book photography, shallow depth of field. Landscape 16:9 composition.',
+    prompt:
+      'Take this book and place it on a dark wood desk with a folded newspaper and reading glasses nearby. Moody dramatic lighting, professional editorial book photography, shallow depth of field. Landscape 16:9 composition.',
   },
   {
     slug: 'disrobed',
     coverUrl: 'https://m.media-amazon.com/images/I/51TIxXNkDqL._SL1500_.jpg',
-    prompt: 'Take this book and place it standing upright on a dark wood desk with leather-bound law books blurred in the background and a judges gavel nearby. Professional editorial legal book photography, warm dramatic lighting, shallow depth of field. Landscape 16:9 composition.',
+    prompt:
+      'Take this book and place it standing upright on a dark wood desk with leather-bound law books blurred in the background and a judges gavel nearby. Professional editorial legal book photography, warm dramatic lighting, shallow depth of field. Landscape 16:9 composition.',
   },
   {
     slug: 'official-handbook',
     coverUrl: 'https://m.media-amazon.com/images/I/51bpjr8gasL._SL1500_.jpg',
-    prompt: 'Take this book and place it on a polished desk with a coffee cup and American flag pin nearby. Golden hour lighting from a window, professional editorial book photography, shallow depth of field. Landscape 16:9 composition.',
+    prompt:
+      'Take this book and place it on a polished desk with a coffee cup and American flag pin nearby. Golden hour lighting from a window, professional editorial book photography, shallow depth of field. Landscape 16:9 composition.',
   },
 ];
 
@@ -48,7 +54,7 @@ async function generateImage(book) {
     const resp = await fetch('https://api.x.ai/v1/images/generations', {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer ${XAI_API_KEY}`,
+        Authorization: `Bearer ${XAI_API_KEY}`,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({

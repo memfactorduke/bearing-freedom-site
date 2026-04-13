@@ -1,31 +1,31 @@
 ---
-title: "When a CNN host fantasizes about arresting your political opponents, the mask is off"
-date: "2026-01-19"
-youtube_url: "https://www.youtube.com/watch?v=CmgP44ifOr8"
-youtube_id: "CmgP44ifOr8"
-thumbnail: "/images/articles/2026-01-19-breaking-cnn-host-openly-calls-for-arrest-of-trump-supporter.jpg"
-duration: "7:16"
-author: "Bearing Freedom"
-image_prompt: "Bright photojournalistic wide shot of a packed Senate gallery chamber during debate, an American flag prominently displayed, harsh overhead lighting casting sharp shadows on empty mahogany desks, a single printed voter registration form visible in the foreground on a desk, no people, documentary style"
+title: 'When a CNN host fantasizes about arresting your political opponents, the mask is off'
+date: '2026-01-19'
+youtube_url: 'https://www.youtube.com/watch?v=CmgP44ifOr8'
+youtube_id: 'CmgP44ifOr8'
+thumbnail: '/images/articles/2026-01-19-breaking-cnn-host-openly-calls-for-arrest-of-trump-supporter.jpg'
+duration: '7:16'
+author: 'Bearing Freedom'
+image_prompt: 'Bright photojournalistic wide shot of a packed Senate gallery chamber during debate, an American flag prominently displayed, harsh overhead lighting casting sharp shadows on empty mahogany desks, a single printed voter registration form visible in the foreground on a desk, no people, documentary style'
 sort_index: 57
 topics:
-  - "media-bias"
-  - "election-integrity"
-  - "free-speech"
-  - "voter-id"
-  - "political-persecution"
+  - 'media-bias'
+  - 'election-integrity'
+  - 'free-speech'
+  - 'voter-id'
+  - 'political-persecution'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Jim Acosta"
-  - "CNN"
-  - "SAVE Act"
-  - "Voter ID"
-  - "Election Integrity"
-  - "First Amendment"
-  - "DOGE"
-  - "Political Accountability"
+  - 'Jim Acosta'
+  - 'CNN'
+  - 'SAVE Act'
+  - 'Voter ID'
+  - 'Election Integrity'
+  - 'First Amendment'
+  - 'DOGE'
+  - 'Political Accountability'
 ---
 
 ## The bottom line
@@ -34,7 +34,7 @@ Jim Acosta just left CNN and immediately sat down with a podcast host to map out
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=CmgP44ifOr8). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=CmgP44ifOr8). Commentary, not legal advice._
 
 ---
 
@@ -44,13 +44,13 @@ Jim Acosta made his final CNN broadcast on January 28, 2025, rejecting a demotio
 
 The clip that circulated widely shows Acosta and Welch describing in detail what Democrats need to do after a hypothetical "blue tsunami" in the 2026 midterms. Acosta said that Congress would haul Elon Musk and figures connected to DOGE — including someone referred to by his online handle — in front of committees and demand to know what crimes they committed. He said, in his own words, that he believes Trump and "all of the bottom feeding morons surrounding him" commit crimes every day. He called for Democrats to be "relentless" and to "uncover every document, every phone call, everything."
 
-Then he moved to the Supreme Court. He argued that the presidential immunity decision from *Trump v. United States* — the July 2024 ruling written by Chief Justice Roberts — gave Trump a "blank check" and needs to be overturned. His proposed mechanism for doing that: add seats to the Supreme Court so the current majority can be ousted and the immunity ruling reversed.
+Then he moved to the Supreme Court. He argued that the presidential immunity decision from _Trump v. United States_ — the July 2024 ruling written by Chief Justice Roberts — gave Trump a "blank check" and needs to be overturned. His proposed mechanism for doing that: add seats to the Supreme Court so the current majority can be ousted and the immunity ruling reversed.
 
 This is not a fringe position. Acosta is one of the most recognizable faces in American political media. He was the White House correspondent who made his own confrontations with press secretaries into a personal brand. When he says Democrats should prosecute their political opponents, pack the Supreme Court, and go after people who work in the executive branch, he is describing what a significant part of the left-wing media establishment actually wants.
 
 ## The immunity ruling they want to overturn
 
-It is worth being precise about what *Trump v. United States* actually held, because the people calling it a "blank check" are either misreading it or lying about what it says.
+It is worth being precise about what _Trump v. United States_ actually held, because the people calling it a "blank check" are either misreading it or lying about what it says.
 
 The Supreme Court's July 2024 decision held that a former president has absolute immunity from criminal prosecution for actions taken within his exclusive constitutional authority — issuing pardons, exercising the veto, commanding the military, making appointments. For all other official acts, there is presumptive immunity that can be rebutted. For unofficial acts, there is no immunity.
 
@@ -76,7 +76,7 @@ The Supreme Court packing argument is where the mask comes entirely off.
 
 Court packing — adding justices to the Supreme Court specifically to change its ideological composition — was considered so transparently anti-democratic that Franklin Roosevelt's own party refused to go along with it in 1937. The proposal died in the Senate despite FDR's overwhelming popularity and congressional majorities because senators understood that a court whose size changes every time a new party takes power is not a court at all. It is a legislative rubber stamp in robes.
 
-Acosta's proposal is to add enough seats to the Supreme Court specifically so that *Trump v. United States* can be reversed — not because the decision was legally wrong, but because it protects a political opponent from prosecution. That is nakedly partisan. It is a description of using judicial expansion as a tool of political warfare.
+Acosta's proposal is to add enough seats to the Supreme Court specifically so that _Trump v. United States_ can be reversed — not because the decision was legally wrong, but because it protects a political opponent from prosecution. That is nakedly partisan. It is a description of using judicial expansion as a tool of political warfare.
 
 The Founders understood this dynamic. The independence of the judiciary from political pressure is not an accident of constitutional design. It is the explicit intent of Article III. Judges with lifetime tenure who cannot have their salaries reduced exist because the alternative is a legal system that bends to whoever currently holds power. When Acosta advocates for packing the court to facilitate prosecuting political opponents, he is describing the dismantling of that entire structure.
 

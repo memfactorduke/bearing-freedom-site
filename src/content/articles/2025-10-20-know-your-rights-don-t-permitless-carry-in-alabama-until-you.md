@@ -1,33 +1,33 @@
 ---
 title: "Know your rights: what Alabama's permitless carry actually means — and what it doesn't"
-date: "2025-10-20"
-youtube_url: "https://www.youtube.com/watch?v=QXkNgWwAmPk"
-youtube_id: "QXkNgWwAmPk"
-thumbnail: "/images/articles/2025-10-20-know-your-rights-don-t-permitless-carry-in-alabama-until-you.jpg"
-duration: "4:58"
-author: "Bearing Freedom"
+date: '2025-10-20'
+youtube_url: 'https://www.youtube.com/watch?v=QXkNgWwAmPk'
+youtube_id: 'QXkNgWwAmPk'
+thumbnail: '/images/articles/2025-10-20-know-your-rights-don-t-permitless-carry-in-alabama-until-you.jpg'
+duration: '4:58'
+author: 'Bearing Freedom'
 topics:
-  - "permitless-carry"
-  - "concealed-carry"
-  - "alabama"
-  - "second-amendment"
-  - "reciprocity"
-  - "stand-your-ground"
+  - 'permitless-carry'
+  - 'concealed-carry'
+  - 'alabama'
+  - 'second-amendment'
+  - 'reciprocity'
+  - 'stand-your-ground'
 states:
-  - "Alabama"
+  - 'Alabama'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Alabama"
-  - "Permitless Carry"
-  - "Constitutional Carry"
-  - "CCW"
-  - "Reciprocity"
-  - "Stand Your Ground"
-  - "Castle Doctrine"
-  - "HB272"
-  - "Second Amendment"
-image_prompt: "Wide-angle photojournalistic shot of a rural Alabama highway stretching through pine trees under a clear blue sky, an American flag visible on a roadside flagpole, warm golden afternoon light, sharp documentary style"
+  - 'Alabama'
+  - 'Permitless Carry'
+  - 'Constitutional Carry'
+  - 'CCW'
+  - 'Reciprocity'
+  - 'Stand Your Ground'
+  - 'Castle Doctrine'
+  - 'HB272'
+  - 'Second Amendment'
+image_prompt: 'Wide-angle photojournalistic shot of a rural Alabama highway stretching through pine trees under a clear blue sky, an American flag visible on a roadside flagpole, warm golden afternoon light, sharp documentary style'
 sort_index: 98
 ---
 
@@ -37,7 +37,7 @@ Alabama is one of the most gun-friendly states in the country, and its 2023 perm
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=QXkNgWwAmPk). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=QXkNgWwAmPk). Commentary, not legal advice._
 
 ---
 
@@ -95,4 +95,4 @@ The permit is still worth getting if you travel. The holster requirement is real
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=QXkNgWwAmPk). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=QXkNgWwAmPk). Commentary, not legal advice._

@@ -1,30 +1,30 @@
 ---
 title: "Virginia's safe storage law is designed to trap you, not protect children"
-date: "2026-03-05"
-youtube_url: "https://www.youtube.com/watch?v=EP3rYheEv8c"
-youtube_id: "EP3rYheEv8c"
-thumbnail: "/images/articles/2026-03-05-virginia-senate-gun-control-law.jpg"
-duration: "6:37"
-author: "Bearing Freedom"
-image_prompt: "A wooden nightstand drawer slightly open revealing a holstered handgun inside, warm morning sunlight streaming through a bedroom window, photojournalistic style, bright and natural, shallow depth of field"
+date: '2026-03-05'
+youtube_url: 'https://www.youtube.com/watch?v=EP3rYheEv8c'
+youtube_id: 'EP3rYheEv8c'
+thumbnail: '/images/articles/2026-03-05-virginia-senate-gun-control-law.jpg'
+duration: '6:37'
+author: 'Bearing Freedom'
+image_prompt: 'A wooden nightstand drawer slightly open revealing a holstered handgun inside, warm morning sunlight streaming through a bedroom window, photojournalistic style, bright and natural, shallow depth of field'
 sort_index: 22
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "safe-storage"
-  - "self-defense"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'safe-storage'
+  - 'self-defense'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "HB871"
-  - "Safe Storage"
-  - "Self-Defense"
-  - "Heller"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'HB871'
+  - 'Safe Storage'
+  - 'Self-Defense'
+  - 'Heller'
 ---
 
 ## The bottom line
@@ -33,7 +33,7 @@ Virginia HB871 does not make children safer. It makes it a crime to keep a loade
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=EP3rYheEv8c). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=EP3rYheEv8c). Commentary, not legal advice._
 
 ---
 
@@ -55,11 +55,11 @@ This is not an extreme hypothetical. This is the most common home defense setup 
 
 The language the bill uses, specifically the phrase "carried on or about his person," is not defined in the legislation. Whether a gun on your nightstand while you sleep counts as being "about your person" is a genuine legal question, and that ambiguity is not an accident. When you cannot determine with confidence whether your nightly routine puts you at risk of criminal prosecution, the ambiguity itself functions as gun control. You become afraid to own a firearm for its stated purpose.
 
-## Why *Heller* should kill this law
+## Why _Heller_ should kill this law
 
-The Supreme Court addressed this directly in *District of Columbia v. Heller* in 2008. The Court struck down Washington D.C.'s requirement that firearms in the home be kept unloaded and disassembled or secured with a trigger lock. The reasoning was clear: a firearm that is locked up and therefore not immediately accessible is functionally unavailable for the core purpose the Second Amendment protects, which is self-defense in the home. The Court said explicitly that the right to keep and bear arms would be meaningless if the government could mandate that your defensive firearm be inoperable by default.
+The Supreme Court addressed this directly in _District of Columbia v. Heller_ in 2008. The Court struck down Washington D.C.'s requirement that firearms in the home be kept unloaded and disassembled or secured with a trigger lock. The reasoning was clear: a firearm that is locked up and therefore not immediately accessible is functionally unavailable for the core purpose the Second Amendment protects, which is self-defense in the home. The Court said explicitly that the right to keep and bear arms would be meaningless if the government could mandate that your defensive firearm be inoperable by default.
 
-HB871 walks directly into that reasoning. During floor debate, House Minority Leader Terry Kilgore warned the bill would face legal challenges under *Heller* and the subsequent *Bruen* framework, which requires firearm regulations to be consistent with the historical tradition of gun regulation in America. He is right. There is no founding-era parallel for a law mandating that private citizens secure their household firearms in locked containers. Colonial households kept loaded muskets accessible by necessity. The idea of a magistrate prosecuting a farmer because his flintlock was on a shelf instead of in a locked box would have been absurd to the founders.
+HB871 walks directly into that reasoning. During floor debate, House Minority Leader Terry Kilgore warned the bill would face legal challenges under _Heller_ and the subsequent _Bruen_ framework, which requires firearm regulations to be consistent with the historical tradition of gun regulation in America. He is right. There is no founding-era parallel for a law mandating that private citizens secure their household firearms in locked containers. Colonial households kept loaded muskets accessible by necessity. The idea of a magistrate prosecuting a farmer because his flintlock was on a shelf instead of in a locked box would have been absurd to the founders.
 
 HB871 will likely get overturned eventually. But eventually can mean three to five years of litigation. In the meantime, Virginia gun owners face real criminal exposure for doing something completely reasonable.
 

@@ -1,31 +1,31 @@
 ---
-title: "Virginia dropped the suppressor tax, and that should scare you more than if they had kept it"
-date: "2026-02-12"
-youtube_url: "https://www.youtube.com/watch?v=GywZFHTa_Fc"
-youtube_id: "GywZFHTa_Fc"
-thumbnail: "/images/articles/2026-02-12-breaking-virginia-democrats-finally-back-off-on-insane-gun-c.jpg"
-duration: "8:09"
-author: "Bearing Freedom"
+title: 'Virginia dropped the suppressor tax, and that should scare you more than if they had kept it'
+date: '2026-02-12'
+youtube_url: 'https://www.youtube.com/watch?v=GywZFHTa_Fc'
+youtube_id: 'GywZFHTa_Fc'
+thumbnail: '/images/articles/2026-02-12-breaking-virginia-democrats-finally-back-off-on-insane-gun-c.jpg'
+duration: '8:09'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "suppressors"
-  - "virginia-legislation"
-  - "legislative-analysis"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'suppressors'
+  - 'virginia-legislation'
+  - 'legislative-analysis'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "HB207"
-  - "Suppressors"
-  - "NFA"
-  - "Hearing Protection"
-  - "Legislative Strategy"
-image_prompt: "Close-up of a firearm suppressor resting on a wooden workbench beside cleaning tools, warm workshop lighting, soft bokeh background of gun safe and shelving, photojournalistic style"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'HB207'
+  - 'Suppressors'
+  - 'NFA'
+  - 'Hearing Protection'
+  - 'Legislative Strategy'
+image_prompt: 'Close-up of a firearm suppressor resting on a wooden workbench beside cleaning tools, warm workshop lighting, soft bokeh background of gun safe and shelving, photojournalistic style'
 sort_index: 30
 ---
 
@@ -35,7 +35,7 @@ Virginia House Bill 207, the $500 suppressor tax, was tabled unanimously 10-0 in
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=GywZFHTa_Fc). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=GywZFHTa_Fc). Commentary, not legal advice._
 
 ---
 

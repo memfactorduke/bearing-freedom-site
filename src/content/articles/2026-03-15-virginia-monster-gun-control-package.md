@@ -1,34 +1,34 @@
 ---
 title: "31 gun bills in one week: Virginia's legislature just ran the most cynical play in Second Amendment history"
-date: "2026-03-15"
-youtube_url: "https://www.youtube.com/watch?v=C41u2DTMvGI"
-youtube_id: "C41u2DTMvGI"
-thumbnail: "/images/articles/2026-03-15-virginia-monster-gun-control-package.jpg"
-duration: "27:25"
-author: "Bearing Freedom"
+date: '2026-03-15'
+youtube_url: 'https://www.youtube.com/watch?v=C41u2DTMvGI'
+youtube_id: 'C41u2DTMvGI'
+thumbnail: '/images/articles/2026-03-15-virginia-monster-gun-control-package.jpg'
+duration: '27:25'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "state-legislation"
-  - "assault-weapons-ban"
-  - "red-flag-laws"
-  - "safe-storage"
-  - "ghost-guns"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'state-legislation'
+  - 'assault-weapons-ban'
+  - 'red-flag-laws'
+  - 'safe-storage'
+  - 'ghost-guns'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "Assault Weapons Ban"
-  - "Ghost Guns"
-  - "Red Flag Laws"
-  - "Safe Storage"
-  - "Legislative Session"
-  - "Spanberger"
-image_prompt: "The Virginia State Capitol building in Richmond on a bright sunny afternoon, columns and dome visible against a clear blue sky, American and Virginia state flags flying, wide-angle photojournalistic shot from street level"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'Assault Weapons Ban'
+  - 'Ghost Guns'
+  - 'Red Flag Laws'
+  - 'Safe Storage'
+  - 'Legislative Session'
+  - 'Spanberger'
+image_prompt: 'The Virginia State Capitol building in Richmond on a bright sunny afternoon, columns and dome visible against a clear blue sky, American and Virginia state flags flying, wide-angle photojournalistic shot from street level'
 sort_index: 19
 ---
 
@@ -38,7 +38,7 @@ In a single week of the 2026 Virginia legislative session, 31 gun bills had majo
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=C41u2DTMvGI). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=C41u2DTMvGI). Commentary, not legal advice._
 
 ---
 
@@ -96,6 +96,6 @@ Read all 31 bills. Tell people about all 31 bills. The whole point of running 31
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=C41u2DTMvGI). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=C41u2DTMvGI). Commentary, not legal advice._
 
 ---

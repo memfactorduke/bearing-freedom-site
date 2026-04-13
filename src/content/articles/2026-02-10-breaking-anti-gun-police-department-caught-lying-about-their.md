@@ -1,32 +1,32 @@
 ---
 title: "The San Diego Sheriff's gun storage video is a crime, and that's the whole point"
-date: "2026-02-10"
-youtube_url: "https://www.youtube.com/watch?v=q4Drlf_WOJ8"
-youtube_id: "q4Drlf_WOJ8"
-thumbnail: "/images/articles/2026-02-10-breaking-anti-gun-police-department-caught-lying-about-their.jpg"
-duration: "7:08"
-author: "Bearing Freedom"
+date: '2026-02-10'
+youtube_url: 'https://www.youtube.com/watch?v=q4Drlf_WOJ8'
+youtube_id: 'q4Drlf_WOJ8'
+thumbnail: '/images/articles/2026-02-10-breaking-anti-gun-police-department-caught-lying-about-their.jpg'
+duration: '7:08'
+author: 'Bearing Freedom'
 image_prompt: "Bright daylight exterior of a San Diego County Sheriff's Department station building with American flag, a frustrated young man in casual clothes standing outside holding a printed California gun law document, photojournalistic style, clear blue sky"
 sort_index: 35
 topics:
-  - "california"
-  - "gun-storage"
-  - "second-amendment"
-  - "police"
-  - "compliance-trap"
+  - 'california'
+  - 'gun-storage'
+  - 'second-amendment'
+  - 'police'
+  - 'compliance-trap'
 states:
-  - "California"
+  - 'California'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "California"
-  - "San Diego"
-  - "Gun Storage"
-  - "California Penal Code"
-  - "Locked Container"
-  - "Compliance Trap"
-  - "Anti-Gun Strategy"
+  - 'Second Amendment'
+  - 'California'
+  - 'San Diego'
+  - 'Gun Storage'
+  - 'California Penal Code'
+  - 'Locked Container'
+  - 'Compliance Trap'
+  - 'Anti-Gun Strategy'
 ---
 
 ## The bottom line
@@ -35,7 +35,7 @@ The San Diego County Sheriff's Department posted a public instructional video sh
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=q4Drlf_WOJ8). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=q4Drlf_WOJ8). Commentary, not legal advice._
 
 ---
 

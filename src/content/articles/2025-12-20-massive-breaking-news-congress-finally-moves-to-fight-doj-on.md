@@ -1,31 +1,31 @@
 ---
-title: "Congress is pressing DOJ on the NFA, and John Cornyn signing on tells you everything"
-date: "2025-12-20"
-youtube_url: "https://www.youtube.com/watch?v=lgKZMLpwvLA"
-youtube_id: "lgKZMLpwvLA"
-thumbnail: "/images/articles/2025-12-20-massive-breaking-news-congress-finally-moves-to-fight-doj-on.jpg"
-duration: "8:12"
-author: "Bearing Freedom"
+title: 'Congress is pressing DOJ on the NFA, and John Cornyn signing on tells you everything'
+date: '2025-12-20'
+youtube_url: 'https://www.youtube.com/watch?v=lgKZMLpwvLA'
+youtube_id: 'lgKZMLpwvLA'
+thumbnail: '/images/articles/2025-12-20-massive-breaking-news-congress-finally-moves-to-fight-doj-on.jpg'
+duration: '8:12'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "nfa-reform"
-  - "federal-legislation"
-  - "doj-firearms-policy"
+  - 'second-amendment'
+  - 'nfa-reform'
+  - 'federal-legislation'
+  - 'doj-firearms-policy'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "NFA"
-  - "National Firearms Act"
-  - "suppressors"
-  - "short barrel rifles"
-  - "Andrew Clyde"
-  - "John Cornyn"
-  - "Pam Bondi"
-  - "One Big Beautiful Bill"
-  - "ATF"
-image_prompt: "Photojournalistic ground-level shot looking up at the United States Capitol dome under a pale blue winter sky, bare trees flanking the wide marble steps, a lone suited figure descending the stairs carrying a leather briefcase"
+  - 'Second Amendment'
+  - 'NFA'
+  - 'National Firearms Act'
+  - 'suppressors'
+  - 'short barrel rifles'
+  - 'Andrew Clyde'
+  - 'John Cornyn'
+  - 'Pam Bondi'
+  - 'One Big Beautiful Bill'
+  - 'ATF'
+image_prompt: 'Photojournalistic ground-level shot looking up at the United States Capitol dome under a pale blue winter sky, bare trees flanking the wide marble steps, a lone suited figure descending the stairs carrying a leather briefcase'
 sort_index: 74
 ---
 
@@ -35,13 +35,13 @@ The One Big Beautiful Bill zeroed out the NFA tax on suppressors, short-barreled
 
 ---
 
-*This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=lgKZMLpwvLA). This is commentary, not legal advice.*
+_This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=lgKZMLpwvLA). This is commentary, not legal advice._
 
 ---
 
 ## How the NFA has stayed alive for ninety years
 
-The National Firearms Act of 1934 has survived constitutional challenge for almost a century because of a single legal fiction: it is a tax law, not a gun ban. When the Supreme Court first addressed the NFA in *United States v. Miller*, 307 U.S. 174 (1939), and when subsequent courts upheld it, the justification rested on Congress's taxing power. You want a suppressor, you pay $200 and register it. The registration requirement was treated as an administrative feature of the tax, similar to vehicle registration being an administrative feature of vehicle taxes. It was a terrible argument that required ignoring the obvious Second Amendment problem staring everyone in the face, but the courts went along with it, and the NFA has been the law of the land ever since.
+The National Firearms Act of 1934 has survived constitutional challenge for almost a century because of a single legal fiction: it is a tax law, not a gun ban. When the Supreme Court first addressed the NFA in _United States v. Miller_, 307 U.S. 174 (1939), and when subsequent courts upheld it, the justification rested on Congress's taxing power. You want a suppressor, you pay $200 and register it. The registration requirement was treated as an administrative feature of the tax, similar to vehicle registration being an administrative feature of vehicle taxes. It was a terrible argument that required ignoring the obvious Second Amendment problem staring everyone in the face, but the courts went along with it, and the NFA has been the law of the land ever since.
 
 That legal foundation just had a major hole blown through it.
 
@@ -53,9 +53,9 @@ The registration process itself was left intact. You still fill out the ATF Form
 
 If the NFA's registration requirement is constitutional because it is incidental to a tax, what happens when the tax is zero? A $0 tax is not a tax. It is a registry. The two things are legally and constitutionally different in a way that matters enormously.
 
-Congress has broad power to tax. Congress does not have broad power to mandate that citizens register their constitutionally protected property with the federal government. The entire reason the NFA registration survived previous legal challenges was the presence of the $200 payment creating a colorable nexus to the taxing power. Remove the payment and you have nothing but a federal registry of gun owners, which has no constitutional foundation under *Bruen* and arguably none under *Heller* either.
+Congress has broad power to tax. Congress does not have broad power to mandate that citizens register their constitutionally protected property with the federal government. The entire reason the NFA registration survived previous legal challenges was the presence of the $200 payment creating a colorable nexus to the taxing power. Remove the payment and you have nothing but a federal registry of gun owners, which has no constitutional foundation under _Bruen_ and arguably none under _Heller_ either.
 
-The DOJ is aware of this. Litigation has already arrived. Three cases are now pending: *Silencer Shop Foundation v. ATF* in the Northern District of Texas, *Chris Brown v. ATF* in the Eastern District of Missouri, and *Jensen v. ATF*, also in the Northern District of Texas. Gun Owners of America filed a motion for summary judgment in one of these cases. The plaintiffs' argument is straightforward: Congress eliminated the taxes, the regulations that remained are no longer supported by any enumerated constitutional power, and they must fall.
+The DOJ is aware of this. Litigation has already arrived. Three cases are now pending: _Silencer Shop Foundation v. ATF_ in the Northern District of Texas, _Chris Brown v. ATF_ in the Eastern District of Missouri, and _Jensen v. ATF_, also in the Northern District of Texas. Gun Owners of America filed a motion for summary judgment in one of these cases. The plaintiffs' argument is straightforward: Congress eliminated the taxes, the regulations that remained are no longer supported by any enumerated constitutional power, and they must fall.
 
 The DOJ's response, filed in late November 2025, argued that the registration requirements survive because NFA-regulated businesses still pay a Special Occupational Tax on manufacturing and dealing. That is a stretch that strains credibility. The SOT paid by commercial dealers has nothing to do with the constitutional basis for requiring individual citizens to register their personal property. The DOJ knows this argument is weak. It is making it anyway.
 
@@ -69,7 +69,7 @@ The senate signatories are different. And one of them specifically changes every
 
 ## What Cornyn's signature actually means
 
-John Cornyn co-authored the Bipartisan Safer Communities Act in 2022, signed alongside Chris Murphy, Kyrsten Sinema, and Thom Tillis. That bill provided financial incentives for states to adopt red flag laws, expanded background check requirements, and tightened the definition of who qualifies as a federally licensed firearm dealer. Cornyn introduced it on the eve of the *Bruen* decision, when the Second Amendment movement was about to receive one of its greatest judicial victories in history. He has been booed at the Texas state Republican convention over it. His Democratic co-authorship of the bill has become a centerpiece of Ken Paxton's primary challenge against him.
+John Cornyn co-authored the Bipartisan Safer Communities Act in 2022, signed alongside Chris Murphy, Kyrsten Sinema, and Thom Tillis. That bill provided financial incentives for states to adopt red flag laws, expanded background check requirements, and tightened the definition of who qualifies as a federally licensed firearm dealer. Cornyn introduced it on the eve of the _Bruen_ decision, when the Second Amendment movement was about to receive one of its greatest judicial victories in history. He has been booed at the Texas state Republican convention over it. His Democratic co-authorship of the bill has become a centerpiece of Ken Paxton's primary challenge against him.
 
 Cornyn is currently in a runoff against Paxton for his Senate seat, with the election scheduled for May 26, 2026. He knows his record on gun rights is a liability. He knows the base he needs to turn out remembers what he did in 2022. He is not signing this letter because he suddenly discovered a principled commitment to Second Amendment jurisprudence. He is signing it because he has concluded that attaching his name to NFA reform is politically necessary for his survival.
 
@@ -79,7 +79,7 @@ That calculation tells you something important about the state of the Second Ame
 
 Consider the terrain of conservative issues over the last thirty years. Immigration has moved in both directions. Abortion went one direction for decades, then the other. Gay marriage moved in one direction and stopped. On nearly every major issue in the conservative coalition, there have been setbacks, retreats, compromises, and defeats alongside the wins.
 
-The Second Amendment has been different. From the mid-1990s to today, the movement has moved in essentially one direction. Concealed carry has gone from legal in a handful of states to the default in almost the entire country. The Supreme Court has delivered *Heller*, *McDonald v. City of Chicago*, and *Bruen*. Assault weapons bans that were considered mainstream gun policy in 1994 are now facing federal litigation from the Department of Justice. The NFA tax on suppressors just got zeroed out in a reconciliation bill.
+The Second Amendment has been different. From the mid-1990s to today, the movement has moved in essentially one direction. Concealed carry has gone from legal in a handful of states to the default in almost the entire country. The Supreme Court has delivered _Heller_, _McDonald v. City of Chicago_, and _Bruen_. Assault weapons bans that were considered mainstream gun policy in 1994 are now facing federal litigation from the Department of Justice. The NFA tax on suppressors just got zeroed out in a reconciliation bill.
 
 Cornyn knows this. He is not signing this letter to lead. He is signing it because the momentum of the movement has made not signing it a political liability that could cost him his seat to a candidate who has been explicit about being more aggressive on gun rights. That is what a one-way ratchet looks like in practice. It is not just winning in court. It is winning in the political calculation of people who are not true believers.
 

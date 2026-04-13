@@ -1,35 +1,35 @@
 ---
-title: "The ATF reversed its own anti-gun policy, then asked a court to bury the win so it could do it again later"
-date: "2025-10-28"
-youtube_url: "https://www.youtube.com/watch?v=Lf3eAU6QLEg"
-youtube_id: "Lf3eAU6QLEg"
-thumbnail: "/images/articles/2025-10-28-breaking-ag-pam-bondi-atf-caught-intentionally-fighting-2a-.jpg"
-duration: "8:05"
-author: "Bearing Freedom"
+title: 'The ATF reversed its own anti-gun policy, then asked a court to bury the win so it could do it again later'
+date: '2025-10-28'
+youtube_url: 'https://www.youtube.com/watch?v=Lf3eAU6QLEg'
+youtube_id: 'Lf3eAU6QLEg'
+thumbnail: '/images/articles/2025-10-28-breaking-ag-pam-bondi-atf-caught-intentionally-fighting-2a-.jpg'
+duration: '8:05'
+author: 'Bearing Freedom'
 topics:
-  - "doj"
-  - "atf"
-  - "second-amendment"
-  - "background-checks"
-  - "concealed-carry"
-  - "litigation"
+  - 'doj'
+  - 'atf'
+  - 'second-amendment'
+  - 'background-checks'
+  - 'concealed-carry'
+  - 'litigation'
 states:
-  - "Michigan"
+  - 'Michigan'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "ATF"
-  - "DOJ"
-  - "Pam Bondi"
-  - "Gun Owners of America"
-  - "Michigan"
-  - "NICS"
-  - "Brady Act"
-  - "Background Checks"
-  - "Mootness"
-  - "Voluntary Cessation"
-image_prompt: "Photojournalistic wide shot of a gun store interior counter, blurred firearms display cases in background, shallow depth of field, neutral tones, natural light from store windows, no people"
+  - 'Second Amendment'
+  - 'ATF'
+  - 'DOJ'
+  - 'Pam Bondi'
+  - 'Gun Owners of America'
+  - 'Michigan'
+  - 'NICS'
+  - 'Brady Act'
+  - 'Background Checks'
+  - 'Mootness'
+  - 'Voluntary Cessation'
+image_prompt: 'Photojournalistic wide shot of a gun store interior counter, blurred firearms display cases in background, shallow depth of field, neutral tones, natural light from store windows, no people'
 sort_index: 95
 ---
 
@@ -39,7 +39,7 @@ The ATF reversed a Biden-era policy that was forcing Michigan concealed carry pe
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Lf3eAU6QLEg). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Lf3eAU6QLEg). Commentary, not legal advice._
 
 ---
 
@@ -83,7 +83,7 @@ That is the outcome the DOJ was after. They did not want a judicial ruling that 
 
 I want to be fair to this administration's overall record. The DOJ created the Second Amendment Section in the Civil Rights Division. It sued the Virgin Islands over its unconstitutional carry permit system. It filed amicus briefs defending Second Amendment rights in major circuit court cases. There is real pro-2A action happening at the federal level right now.
 
-But this Michigan case is not an isolated incident. There is a pattern of the DOJ taking positions in litigation that prioritize administrative convenience or preserve federal authority over actually cementing constitutional protections for gun owners. In the *Succow* case in Connecticut, the DOJ filed a brief defending the constitutionality of the federal under-21 handgun purchase ban despite the Fifth Circuit having struck down that same law in January 2025. In the Michigan case, the DOJ used its own favorable policy reversal as a mechanism to kill litigation that would have produced binding court precedent.
+But this Michigan case is not an isolated incident. There is a pattern of the DOJ taking positions in litigation that prioritize administrative convenience or preserve federal authority over actually cementing constitutional protections for gun owners. In the _Succow_ case in Connecticut, the DOJ filed a brief defending the constitutionality of the federal under-21 handgun purchase ban despite the Fifth Circuit having struck down that same law in January 2025. In the Michigan case, the DOJ used its own favorable policy reversal as a mechanism to kill litigation that would have produced binding court precedent.
 
 These are not the moves of an administration that wants to build a durable legal wall around the Second Amendment. They are the moves of an administration that wants to score political wins on gun rights while preserving the executive branch's maximum flexibility to change course. Those two things can coexist for four years. They cannot both be true over the long run.
 
@@ -97,4 +97,4 @@ Gun Owners of America deserves real credit for pressing the argument in the Sixt
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Lf3eAU6QLEg). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Lf3eAU6QLEg). Commentary, not legal advice._

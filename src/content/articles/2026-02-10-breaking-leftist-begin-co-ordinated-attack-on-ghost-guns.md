@@ -1,40 +1,40 @@
 ---
 title: "The coordinated attack on ghost guns is not about crime — it's about control"
-date: "2026-02-10"
-youtube_url: "https://www.youtube.com/watch?v=Dp-uVGIJkzU"
-youtube_id: "Dp-uVGIJkzU"
-thumbnail: "/images/articles/2026-02-10-breaking-leftist-begin-co-ordinated-attack-on-ghost-guns.jpg"
-duration: "7:14"
-author: "Bearing Freedom"
-image_prompt: "A desktop 3D printer in a clean workshop producing a small mechanical component, warm workshop lighting, tools and blueprints visible in the background, photojournalistic style, no firearms depicted"
+date: '2026-02-10'
+youtube_url: 'https://www.youtube.com/watch?v=Dp-uVGIJkzU'
+youtube_id: 'Dp-uVGIJkzU'
+thumbnail: '/images/articles/2026-02-10-breaking-leftist-begin-co-ordinated-attack-on-ghost-guns.jpg'
+duration: '7:14'
+author: 'Bearing Freedom'
+image_prompt: 'A desktop 3D printer in a clean workshop producing a small mechanical component, warm workshop lighting, tools and blueprints visible in the background, photojournalistic style, no firearms depicted'
 sort_index: 34
 topics:
-  - "ghost-guns"
-  - "3d-printed-firearms"
-  - "gun-control"
-  - "second-amendment"
-  - "state-legislation"
-  - "surveillance"
+  - 'ghost-guns'
+  - '3d-printed-firearms'
+  - 'gun-control'
+  - 'second-amendment'
+  - 'state-legislation'
+  - 'surveillance'
 states:
-  - "Virginia"
-  - "New York"
-  - "Washington"
-  - "California"
+  - 'Virginia'
+  - 'New York'
+  - 'Washington'
+  - 'California'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Ghost Guns"
-  - "3D Printed Firearms"
-  - "Virginia"
-  - "New York"
-  - "Washington State"
-  - "California"
-  - "HB40"
-  - "HB2321"
-  - "ATF Registry"
-  - "Surveillance"
-  - "Home Manufacture"
+  - 'Second Amendment'
+  - 'Ghost Guns'
+  - '3D Printed Firearms'
+  - 'Virginia'
+  - 'New York'
+  - 'Washington State'
+  - 'California'
+  - 'HB40'
+  - 'HB2321'
+  - 'ATF Registry'
+  - 'Surveillance'
+  - 'Home Manufacture'
 ---
 
 ## The bottom line
@@ -43,7 +43,7 @@ Within a matter of weeks in early 2026, New York, Washington state, California, 
 
 ---
 
-*This article is based on commentary from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Dp-uVGIJkzU). Commentary, not legal advice.*
+_This article is based on commentary from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Dp-uVGIJkzU). Commentary, not legal advice._
 
 ---
 
@@ -81,7 +81,7 @@ Apply this to any other device and see how the argument lands. If a state requir
 
 I'll say this plainly: I do not own a 3D-printed firearm and probably never will. I trust a standard Glock that has been manufactured to tight tolerances and tested extensively over something I printed at home. That is my personal preference, and it is not the point.
 
-The point is that other people's choices about how they exercise their rights are not mine to make for them. The right to manufacture a firearm for personal use has existed in this country since before the country existed. At the founding, there were no licensed manufacturers in the modern sense. Every firearm in the early republic was made by a blacksmith or a specialized gunsmith — home manufacture and custom manufacture were the norm, not the exception. The *Bruen* framework, which requires modern firearms restrictions to be grounded in historical tradition, has to grapple with the fact that there is no founding-era analog for banning personal firearm manufacture. Americans built their own guns for as long as guns existed here.
+The point is that other people's choices about how they exercise their rights are not mine to make for them. The right to manufacture a firearm for personal use has existed in this country since before the country existed. At the founding, there were no licensed manufacturers in the modern sense. Every firearm in the early republic was made by a blacksmith or a specialized gunsmith — home manufacture and custom manufacture were the norm, not the exception. The _Bruen_ framework, which requires modern firearms restrictions to be grounded in historical tradition, has to grapple with the fact that there is no founding-era analog for banning personal firearm manufacture. Americans built their own guns for as long as guns existed here.
 
 A 2025 Stanford Law Review note on "Gunmaking at the Founding" documented this history precisely: at the founding there was no federal serial number requirement, no national licensing system for manufacturers, and no legal prohibition on building a firearm for personal use. The legal tradition runs directly against these bans, not for them.
 

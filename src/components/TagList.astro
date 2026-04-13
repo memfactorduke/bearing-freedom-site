@@ -8,7 +8,7 @@ interface Props {
 const { items, basePath, variant = 'default' } = Astro.props;
 
 function formatLabel(item: string): string {
-  return item.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  return item.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
 const variantClasses = {
@@ -19,12 +19,14 @@ const variantClasses = {
 ---
 
 <div class="flex flex-wrap gap-2">
-  {items.map(item => (
-    <a
-      href={`${basePath}/${item.toLowerCase().replace(/\s+/g, '-')}`}
-      class={`px-3 py-1 rounded text-sm transition-colors ${variantClasses[variant]}`}
-    >
-      {formatLabel(item)}
-    </a>
-  ))}
+  {
+    items.map((item) => (
+      <a
+        href={`${basePath}/${item.toLowerCase().replace(/\s+/g, '-')}`}
+        class={`px-3 py-1 rounded text-sm transition-colors ${variantClasses[variant]}`}
+      >
+        {formatLabel(item)}
+      </a>
+    ))
+  }
 </div>

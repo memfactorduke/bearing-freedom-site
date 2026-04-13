@@ -1,32 +1,32 @@
 ---
 title: "Virginia HB21 isn't gun control. It's a lawsuit machine designed to make gun stores disappear."
-date: "2026-04-04"
-youtube_url: "https://www.youtube.com/watch?v=9iplTmPesJU"
-youtube_id: "9iplTmPesJU"
-thumbnail: "/images/articles/2026-04-04-virginia-senate-dystopian-gun-control.jpg"
-duration: "12:06"
-author: "Bearing Freedom"
+date: '2026-04-04'
+youtube_url: 'https://www.youtube.com/watch?v=9iplTmPesJU'
+youtube_id: '9iplTmPesJU'
+thumbnail: '/images/articles/2026-04-04-virginia-senate-dystopian-gun-control.jpg'
+duration: '12:06'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "firearms-industry"
-  - "civil-liability"
-  - "legislative-analysis"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'firearms-industry'
+  - 'civil-liability'
+  - 'legislative-analysis'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "HB21"
-  - "PLCAA"
-  - "Firearms Industry"
-  - "Civil Liability"
-  - "Abigail Spanberger"
-  - "Dan Helmer"
-image_prompt: "A small independent gun shop on a sunny Main Street, handwritten OPEN sign in the window, American flag on a pole outside, display cases with handguns visible through the glass door, warm afternoon sunlight on the brick storefront"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'HB21'
+  - 'PLCAA'
+  - 'Firearms Industry'
+  - 'Civil Liability'
+  - 'Abigail Spanberger'
+  - 'Dan Helmer'
+image_prompt: 'A small independent gun shop on a sunny Main Street, handwritten OPEN sign in the window, American flag on a pole outside, display cases with handguns visible through the glass door, warm afternoon sunlight on the brick storefront'
 sort_index: 3
 ---
 
@@ -36,7 +36,7 @@ Virginia House Bill 21 does not ban a single firearm. It doesn't confiscate anyt
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=9iplTmPesJU). This is commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=9iplTmPesJU). This is commentary, not legal advice._
 
 ---
 

@@ -1,31 +1,31 @@
 ---
-title: "The NFA tax is gone. For the first time since 1934, the legal foundation for the registry has been pulled out."
-date: "2026-01-01"
-youtube_url: "https://www.youtube.com/watch?v=37NDv0HyX2U"
-youtube_id: "37NDv0HyX2U"
-thumbnail: "/images/articles/2026-01-01-huge-breaking-news-suppressors-and-sbrs-permanently-removed-.jpg"
-duration: "7:28"
-author: "Bearing Freedom"
-image_prompt: "Bright photojournalistic photo of a gun store counter in natural window light, a suppressor and a short-barreled rifle displayed side by side on a clean glass case, American flag reflected faintly in the glass, no people, crisp documentary style"
+title: 'The NFA tax is gone. For the first time since 1934, the legal foundation for the registry has been pulled out.'
+date: '2026-01-01'
+youtube_url: 'https://www.youtube.com/watch?v=37NDv0HyX2U'
+youtube_id: '37NDv0HyX2U'
+thumbnail: '/images/articles/2026-01-01-huge-breaking-news-suppressors-and-sbrs-permanently-removed-.jpg'
+duration: '7:28'
+author: 'Bearing Freedom'
+image_prompt: 'Bright photojournalistic photo of a gun store counter in natural window light, a suppressor and a short-barreled rifle displayed side by side on a clean glass case, American flag reflected faintly in the glass, no people, crisp documentary style'
 sort_index: 72
 topics:
-  - "nfa"
-  - "second-amendment"
-  - "suppressors"
-  - "sbr"
-  - "federal-legislation"
+  - 'nfa'
+  - 'second-amendment'
+  - 'suppressors'
+  - 'sbr'
+  - 'federal-legislation'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "NFA"
-  - "Suppressors"
-  - "SBR"
-  - "Big Beautiful Bill"
-  - "ATF"
-  - "Bruen"
-  - "Gun Rights"
-  - "Federal Law"
+  - 'Second Amendment'
+  - 'NFA'
+  - 'Suppressors'
+  - 'SBR'
+  - 'Big Beautiful Bill'
+  - 'ATF'
+  - 'Bruen'
+  - 'Gun Rights'
+  - 'Federal Law'
 states: []
 ---
 
@@ -35,7 +35,7 @@ The One Big Beautiful Bill, signed July 4, 2025, zeroed out the $200 NFA tax on 
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=37NDv0HyX2U). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=37NDv0HyX2U). Commentary, not legal advice._
 
 ---
 
@@ -67,23 +67,23 @@ Congress removed that anchor on July 4th. The tax is gone. The question now in f
 
 Multiple lawsuits were filed in anticipation of and immediately following the January 1st effective date, all making the same core argument: if the only constitutional justification for the NFA was Congress's taxing power, and the tax is now $0, then the remaining regulatory apparatus has no valid constitutional basis.
 
-*Roberts v. ATF*, filed February 26, 2026, in the Eastern District of Kentucky, brings together Buckeye Firearms Association, the American Suppressor Association Foundation, the Center for Human Liberty, Jews for the Preservation of Firearms Ownership, and several individual plaintiffs. The complaint argues that suppressors and SBRs are "bearable arms" protected by the plain text of the Second Amendment under the *Bruen* framework, that the registration requirements violate that protection, and that eliminating the tax removes the only power under Article I that ever justified the law.
+_Roberts v. ATF_, filed February 26, 2026, in the Eastern District of Kentucky, brings together Buckeye Firearms Association, the American Suppressor Association Foundation, the Center for Human Liberty, Jews for the Preservation of Firearms Ownership, and several individual plaintiffs. The complaint argues that suppressors and SBRs are "bearable arms" protected by the plain text of the Second Amendment under the _Bruen_ framework, that the registration requirements violate that protection, and that eliminating the tax removes the only power under Article I that ever justified the law.
 
-*Brown v. ATF*, filed in August 2025 in the Eastern District of Missouri, is further along in litigation. On March 24, 2026, Chief U.S. District Judge Stephen R. Clark ordered supplemental briefing on both threshold and constitutional questions, which signals that the court is taking the challenge seriously rather than dismissing it on procedural grounds.
+_Brown v. ATF_, filed in August 2025 in the Eastern District of Missouri, is further along in litigation. On March 24, 2026, Chief U.S. District Judge Stephen R. Clark ordered supplemental briefing on both threshold and constitutional questions, which signals that the court is taking the challenge seriously rather than dismissing it on procedural grounds.
 
-*Jensen v. ATF*, filed in October 2025 in the Northern District of Texas, presents similar arguments. The Northern District of Texas is where the Fifth Circuit's post-*Bruen* Second Amendment jurisprudence is most developed, which makes it a significant forum.
+_Jensen v. ATF_, filed in October 2025 in the Northern District of Texas, presents similar arguments. The Northern District of Texas is where the Fifth Circuit's post-_Bruen_ Second Amendment jurisprudence is most developed, which makes it a significant forum.
 
 The DOJ's response in these cases has been revealing. Rather than defending the NFA on taxing power grounds, Bondi's department has pivoted to arguing that the Commerce Clause and the Necessary and Proper Clause independently authorize the registration requirements even without a tax. Gun Owners of America called this the "ultimate betrayal" of the Second Amendment, and they are not wrong that it is a remarkable position for a Republican administration to take. The DOJ is essentially arguing that the government can maintain a federal registry of law-abiding gun owners as a regulation of interstate commerce, with or without any tax at all.
 
-That argument, if it succeeds in court, would mean the NFA survives the tax elimination entirely intact. I don't think it will succeed under *Bruen*, and here's why.
+That argument, if it succeeds in court, would mean the NFA survives the tax elimination entirely intact. I don't think it will succeed under _Bruen_, and here's why.
 
 ## The Bruen argument that the NFA cannot survive
 
-*New York State Rifle & Pistol Association v. Bruen*, decided in 2022, fundamentally changed the analytical framework for Second Amendment challenges. Under the old two-step means-ends balancing test, courts could weigh the government's interest in public safety against the burden on the right and find the regulation justified. Under *Bruen*, that is no longer the test. The government must now demonstrate that any regulation is consistent with the historical tradition of firearm regulation at the time of the founding.
+_New York State Rifle & Pistol Association v. Bruen_, decided in 2022, fundamentally changed the analytical framework for Second Amendment challenges. Under the old two-step means-ends balancing test, courts could weigh the government's interest in public safety against the burden on the right and find the regulation justified. Under _Bruen_, that is no longer the test. The government must now demonstrate that any regulation is consistent with the historical tradition of firearm regulation at the time of the founding.
 
-Suppressors were invented in 1909 by Hiram Percy Maxim. Short-barreled rifles and shotguns have existed throughout American firearms history. None of these items were regulated in any way by the federal government until the NFA in 1934. There is no founding-era tradition of federal registration requirements, transfer taxes, or wait times for these categories of firearms. The NFA simply did not exist at the founding, and there is no analogous historical regulation that would satisfy the *Bruen* test.
+Suppressors were invented in 1909 by Hiram Percy Maxim. Short-barreled rifles and shotguns have existed throughout American firearms history. None of these items were regulated in any way by the federal government until the NFA in 1934. There is no founding-era tradition of federal registration requirements, transfer taxes, or wait times for these categories of firearms. The NFA simply did not exist at the founding, and there is no analogous historical regulation that would satisfy the _Bruen_ test.
 
-The government's counterargument will be that suppressors and SBRs are "dangerous and unusual weapons" that fall outside Second Amendment protection under the *Heller* exception. That argument requires demonstrating that these items are not in common use for lawful purposes. There are currently over 1.1 million registered suppressors in the United States, and that number will grow substantially now that the $200 tax no longer acts as a deterrent. SBRs are similarly widespread. Items owned by millions of Americans for lawful purposes are, by any reasonable definition, in common use.
+The government's counterargument will be that suppressors and SBRs are "dangerous and unusual weapons" that fall outside Second Amendment protection under the _Heller_ exception. That argument requires demonstrating that these items are not in common use for lawful purposes. There are currently over 1.1 million registered suppressors in the United States, and that number will grow substantially now that the $200 tax no longer acts as a deterrent. SBRs are similarly widespread. Items owned by millions of Americans for lawful purposes are, by any reasonable definition, in common use.
 
 The doctrinal path to dismantling the NFA registration scheme is cleaner now than it has ever been. The tax elimination did not just save gun owners $200. It stripped out the constitutional foundation the government has relied on for ninety-one years.
 
@@ -107,6 +107,6 @@ The Bondi DOJ's decision to defend the registry under Commerce Clause grounds is
 
 Congress made its intent clear in November when thirty House members told Bondi in writing that the goal was full NFA repeal. The DOJ ignored that. The courts are where this goes next.
 
-The cases now in federal court have a real chance. The tax elimination has removed the only argument that kept this law constitutionally defensible under pre-*Bruen* doctrine, and *Bruen* itself sets a standard that the NFA's registration scheme cannot meet on the merits. We have knocked out the foundation. The question is how long it takes the structure above it to fall.
+The cases now in federal court have a real chance. The tax elimination has removed the only argument that kept this law constitutionally defensible under pre-_Bruen_ doctrine, and _Bruen_ itself sets a standard that the NFA's registration scheme cannot meet on the merits. We have knocked out the foundation. The question is how long it takes the structure above it to fall.
 
 Today is the first real forward movement on the NFA in my lifetime and in yours. Celebrate what it is. Keep fighting for what it isn't yet.

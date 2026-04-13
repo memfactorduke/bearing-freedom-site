@@ -1,28 +1,28 @@
 ---
 title: "Virginia's campus carry ban uses a Holocaust survivor's death to celebrate disarmament"
-date: "2026-04-03"
-youtube_url: "https://www.youtube.com/watch?v=kOQBdrs2C94"
-youtube_id: "kOQBdrs2C94"
-thumbnail: "/images/articles/2026-04-03-virginia-campus-carry-ban.jpg"
-duration: "7:08"
-author: "Bearing Freedom"
+date: '2026-04-03'
+youtube_url: 'https://www.youtube.com/watch?v=kOQBdrs2C94'
+youtube_id: 'kOQBdrs2C94'
+thumbnail: '/images/articles/2026-04-03-virginia-campus-carry-ban.jpg'
+duration: '7:08'
+author: 'Bearing Freedom'
 topics:
-  - "campus-carry"
-  - "gun-control"
-  - "second-amendment"
-  - "concealed-carry"
+  - 'campus-carry'
+  - 'gun-control'
+  - 'second-amendment'
+  - 'concealed-carry'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Campus Carry"
-  - "Concealed Carry"
-  - "Virginia"
-  - "HB626"
-  - "Gun Control"
-  - "Virginia Tech"
+  - 'Second Amendment'
+  - 'Campus Carry'
+  - 'Concealed Carry'
+  - 'Virginia'
+  - 'HB626'
+  - 'Gun Control'
+  - 'Virginia Tech'
 image_prompt: "A sunlit university campus quad in spring with students walking between brick buildings, a prominent 'Gun-Free Zone' sign posted on a glass entrance door catching bright afternoon sunlight, American flag visible in the background"
 sort_index: 4
 ---
@@ -33,7 +33,7 @@ Virginia HB626 strips concealed handgun permit holders of the right to carry in 
 
 ---
 
-*This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=kOQBdrs2C94). This is commentary, not legal advice.*
+_This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=kOQBdrs2C94). This is commentary, not legal advice._
 
 ---
 

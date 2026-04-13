@@ -1,32 +1,32 @@
 ---
-title: "Someone registered a potato as a suppressor and the ATF approved it. Read that sentence again."
-date: "2026-01-18"
-youtube_url: "https://www.youtube.com/watch?v=aRwqc6EyKf0"
-youtube_id: "aRwqc6EyKf0"
-thumbnail: "/images/articles/2026-01-18-breaking-the-atf-says-this-potato-is-legally-a-suppressor.jpg"
-duration: "8:15"
-author: "Bearing Freedom"
-image_prompt: "Bright overhead shot on a clean white surface of an ordinary russet potato with a paper ATF approval form stamped APPROVED beside it, harsh direct sunlight casting a crisp shadow, photojournalistic product-style photo, no people, hyperrealistic"
+title: 'Someone registered a potato as a suppressor and the ATF approved it. Read that sentence again.'
+date: '2026-01-18'
+youtube_url: 'https://www.youtube.com/watch?v=aRwqc6EyKf0'
+youtube_id: 'aRwqc6EyKf0'
+thumbnail: '/images/articles/2026-01-18-breaking-the-atf-says-this-potato-is-legally-a-suppressor.jpg'
+duration: '8:15'
+author: 'Bearing Freedom'
+image_prompt: 'Bright overhead shot on a clean white surface of an ordinary russet potato with a paper ATF approval form stamped APPROVED beside it, harsh direct sunlight casting a crisp shadow, photojournalistic product-style photo, no people, hyperrealistic'
 sort_index: 58
 topics:
-  - "nfa"
-  - "suppressors"
-  - "atf"
-  - "second-amendment"
-  - "gun-law"
+  - 'nfa'
+  - 'suppressors'
+  - 'atf'
+  - 'second-amendment'
+  - 'gun-law'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "NFA"
-  - "ATF"
-  - "Suppressors"
-  - "Second Amendment"
-  - "Gun Law"
-  - "Hearing Protection"
-  - "Virginia"
-  - "NFA Reform"
+  - 'NFA'
+  - 'ATF'
+  - 'Suppressors'
+  - 'Second Amendment'
+  - 'Gun Law'
+  - 'Hearing Protection'
+  - 'Virginia'
+  - 'NFA Reform'
 ---
 
 ## The bottom line
@@ -35,7 +35,7 @@ A man named Zack Clark submitted paperwork to the ATF to register a raw potato a
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=aRwqc6EyKf0). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=aRwqc6EyKf0). Commentary, not legal advice._
 
 ---
 
@@ -83,7 +83,7 @@ But anti-gun legislators who have never handled a firearm, whose entire frame of
 
 As of January 1, 2026, the federal NFA tax on suppressors is gone. The One Big Beautiful Bill that Trump signed into law in July 2025 eliminated the $200 tax stamp for suppressors, SBRs, SBSs, and AOWs. The registration requirement remains. The background check remains. The wait time remains. But the tax is zero, which is what allowed Clark to register his potato without paying a fee — the process that would have cost $200 just months earlier was free.
 
-This is genuinely good news. It is not the end of the NFA. The registration system is still constitutionally questionable under the post-*Bruen* analytical framework, and organizations including SilencerCo are already in federal court challenging whether the NFA registration requirement can stand without the tax that was historically its constitutional foundation. But eliminating the tax was a real, concrete step.
+This is genuinely good news. It is not the end of the NFA. The registration system is still constitutionally questionable under the post-_Bruen_ analytical framework, and organizations including SilencerCo are already in federal court challenging whether the NFA registration requirement can stand without the tax that was historically its constitutional foundation. But eliminating the tax was a real, concrete step.
 
 Then there is Virginia.
 

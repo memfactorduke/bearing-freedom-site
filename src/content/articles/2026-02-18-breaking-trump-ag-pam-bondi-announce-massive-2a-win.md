@@ -1,30 +1,30 @@
 ---
-title: "The VA just stopped punishing veterans for accepting financial help"
-date: "2026-02-18"
-youtube_url: "https://www.youtube.com/watch?v=m-y9GN9jR4A"
-youtube_id: "m-y9GN9jR4A"
-thumbnail: "/images/articles/2026-02-18-breaking-trump-ag-pam-bondi-announce-massive-2a-win.jpg"
-duration: "13:50"
-author: "Bearing Freedom"
+title: 'The VA just stopped punishing veterans for accepting financial help'
+date: '2026-02-18'
+youtube_url: 'https://www.youtube.com/watch?v=m-y9GN9jR4A'
+youtube_id: 'm-y9GN9jR4A'
+thumbnail: '/images/articles/2026-02-18-breaking-trump-ag-pam-bondi-announce-massive-2a-win.jpg'
+duration: '13:50'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "veterans"
-  - "nics"
-  - "due-process"
-  - "trump-administration"
+  - 'second-amendment'
+  - 'veterans'
+  - 'nics'
+  - 'due-process'
+  - 'trump-administration'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Veterans"
-  - "NICS"
-  - "Due Process"
-  - "Gun Rights"
-  - "VA Fiduciary Program"
-  - "Pam Bondi"
-  - "Trump Administration"
-image_prompt: "A US military veteran in civilian clothes at an outdoor gun range, bright afternoon sunlight, holding a pistol at a shooting lane, American flag visible in background, wide photojournalistic shot"
+  - 'Second Amendment'
+  - 'Veterans'
+  - 'NICS'
+  - 'Due Process'
+  - 'Gun Rights'
+  - 'VA Fiduciary Program'
+  - 'Pam Bondi'
+  - 'Trump Administration'
+image_prompt: 'A US military veteran in civilian clothes at an outdoor gun range, bright afternoon sunlight, holding a pistol at a shooting lane, American flag visible in background, wide photojournalistic shot'
 sort_index: 28
 ---
 
@@ -34,7 +34,7 @@ The Department of Veterans Affairs announced on February 17, 2026 that it is end
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=m-y9GN9jR4A). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=m-y9GN9jR4A). Commentary, not legal advice._
 
 ---
 
@@ -62,7 +62,7 @@ Nobody sat in a room and said "let's disarm veterans who accept financial help."
 
 If you have PTSD and you need someone to help you pay your electric bill on time because the administrative burden is too much right now, you are not a danger to anyone. But under this policy, you could not walk into a gun store and pass a background check. You fought for this country, came home with injuries that entitled you to VA benefits, accepted the help that was offered to you, and the federal government quietly treated you as someone who shouldn't be trusted with a firearm. No trial. No hearing. No right to face an accuser. Just a database entry.
 
-I did not serve. I am not going to pretend I have the standing to fully describe what that feels like. But I can tell you that as someone who studies constitutional law and cares deeply about the Second Amendment, this policy was a profound constitutional violation. The right to keep and bear arms, under *Bruen* and *Heller*, is an individual right of law-abiding citizens. Stripping that right without a judicial adjudication of dangerousness is not a reasonable regulatory measure. It is an administrative gun grab that happened to fall on some of the people in this country who most clearly earned that right.
+I did not serve. I am not going to pretend I have the standing to fully describe what that feels like. But I can tell you that as someone who studies constitutional law and cares deeply about the Second Amendment, this policy was a profound constitutional violation. The right to keep and bear arms, under _Bruen_ and _Heller_, is an individual right of law-abiding citizens. Stripping that right without a judicial adjudication of dangerousness is not a reasonable regulatory measure. It is an administrative gun grab that happened to fall on some of the people in this country who most clearly earned that right.
 
 ## What Secretary Collins and Bondi actually did
 

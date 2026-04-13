@@ -1,31 +1,31 @@
 ---
-title: "The Ninth Circuit just handed Trump a win on Portland — and the left has no one to blame but themselves"
-date: "2025-10-20"
-youtube_url: "https://www.youtube.com/watch?v=0f4aQLpaPIQ"
-youtube_id: "0f4aQLpaPIQ"
-thumbnail: "/images/articles/2025-10-20-massive-breaking-trump-win-federal-court-rules-to-send-natio.jpg"
-duration: "9:23"
-author: "Bearing Freedom"
+title: 'The Ninth Circuit just handed Trump a win on Portland — and the left has no one to blame but themselves'
+date: '2025-10-20'
+youtube_url: 'https://www.youtube.com/watch?v=0f4aQLpaPIQ'
+youtube_id: '0f4aQLpaPIQ'
+thumbnail: '/images/articles/2025-10-20-massive-breaking-trump-win-federal-court-rules-to-send-natio.jpg'
+duration: '9:23'
+author: 'Bearing Freedom'
 topics:
-  - "national-guard"
-  - "crime"
-  - "federal-authority"
-  - "portland"
-  - "trump"
+  - 'national-guard'
+  - 'crime'
+  - 'federal-authority'
+  - 'portland'
+  - 'trump'
 states:
-  - "Oregon"
+  - 'Oregon'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "National Guard"
-  - "Portland"
-  - "Trump"
-  - "Ninth Circuit"
-  - "Crime"
-  - "Law and Order"
-  - "10 USC 12406"
-  - "Federal Authority"
-image_prompt: "Wide-angle photojournalistic shot of National Guard soldiers in uniform standing in formation outside a federal building on an overcast day, American flag visible, urban setting, sharp documentary style"
+  - 'National Guard'
+  - 'Portland'
+  - 'Trump'
+  - 'Ninth Circuit'
+  - 'Crime'
+  - 'Law and Order'
+  - '10 USC 12406'
+  - 'Federal Authority'
+image_prompt: 'Wide-angle photojournalistic shot of National Guard soldiers in uniform standing in formation outside a federal building on an overcast day, American flag visible, urban setting, sharp documentary style'
 sort_index: 96
 ---
 
@@ -35,7 +35,7 @@ A Ninth Circuit panel just ruled 2-1 that President Trump can deploy the Oregon 
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=0f4aQLpaPIQ). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=0f4aQLpaPIQ). Commentary, not legal advice._
 
 ---
 
@@ -85,4 +85,4 @@ The Ninth Circuit gave Trump the green light, even if temporarily. The legal roa
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=0f4aQLpaPIQ). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=0f4aQLpaPIQ). Commentary, not legal advice._

@@ -1,33 +1,33 @@
 ---
-title: "Virginia delegate Tom Garrett Jr. told the truth on the floor and nobody could refute it"
-date: "2026-02-11"
-youtube_url: "https://www.youtube.com/watch?v=KVdA_nOINww"
-youtube_id: "KVdA_nOINww"
-thumbnail: "/images/articles/2026-02-11-breaking-virginia-delegate-exposes-new-dystopian-gun-control.jpg"
-duration: "12:11"
-author: "Bearing Freedom"
-image_prompt: "A lone Republican state legislator at a wooden podium in a sunlit legislative chamber, facing rows of seated colleagues, American and Virginia state flags flanking the dais behind him, sharp documentary photography, warm natural light streaming through tall windows"
+title: 'Virginia delegate Tom Garrett Jr. told the truth on the floor and nobody could refute it'
+date: '2026-02-11'
+youtube_url: 'https://www.youtube.com/watch?v=KVdA_nOINww'
+youtube_id: 'KVdA_nOINww'
+thumbnail: '/images/articles/2026-02-11-breaking-virginia-delegate-exposes-new-dystopian-gun-control.jpg'
+duration: '12:11'
+author: 'Bearing Freedom'
+image_prompt: 'A lone Republican state legislator at a wooden podium in a sunlit legislative chamber, facing rows of seated colleagues, American and Virginia state flags flanking the dais behind him, sharp documentary photography, warm natural light streaming through tall windows'
 sort_index: 33
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "virginia"
-  - "state-legislation"
-  - "magazine-ban"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'virginia'
+  - 'state-legislation'
+  - 'magazine-ban'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Virginia"
-  - "Tom Garrett Jr."
-  - "Magazine Ban"
-  - "Gun Control"
-  - "HB217"
-  - "Virginia House of Delegates"
-  - "Natural Rights"
-  - "History"
+  - 'Second Amendment'
+  - 'Virginia'
+  - 'Tom Garrett Jr.'
+  - 'Magazine Ban'
+  - 'Gun Control'
+  - 'HB217'
+  - 'Virginia House of Delegates'
+  - 'Natural Rights'
+  - 'History'
 ---
 
 ## The bottom line
@@ -36,7 +36,7 @@ Virginia House Democrats passed eight gun control bills in a single session in F
 
 ---
 
-*This article is based on commentary from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=KVdA_nOINww). Commentary, not legal advice.*
+_This article is based on commentary from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=KVdA_nOINww). Commentary, not legal advice._
 
 ---
 

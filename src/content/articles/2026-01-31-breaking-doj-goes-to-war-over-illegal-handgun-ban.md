@@ -1,43 +1,43 @@
 ---
 title: "The DOJ just stepped into the Massachusetts handgun roster fight, and it's a bigger deal than you think"
-date: "2026-01-31"
-youtube_url: "https://www.youtube.com/watch?v=8nGNEi-8XIs"
-youtube_id: "8nGNEi-8XIs"
-thumbnail: "/images/articles/2026-01-31-breaking-doj-goes-to-war-over-illegal-handgun-ban.jpg"
-duration: "6:30"
-author: "Bearing Freedom"
+date: '2026-01-31'
+youtube_url: 'https://www.youtube.com/watch?v=8nGNEi-8XIs'
+youtube_id: '8nGNEi-8XIs'
+thumbnail: '/images/articles/2026-01-31-breaking-doj-goes-to-war-over-illegal-handgun-ban.jpg'
+duration: '6:30'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "doj"
-  - "handgun-ban"
-  - "state-legislation"
-  - "litigation"
+  - 'second-amendment'
+  - 'doj'
+  - 'handgun-ban'
+  - 'state-legislation'
+  - 'litigation'
 states:
-  - "Massachusetts"
+  - 'Massachusetts'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Department of Justice"
-  - "Massachusetts"
-  - "Handgun Roster"
-  - "Harmeet Dhillon"
-  - "Granata v Healey"
-  - "FPC"
-  - "Bruen"
-  - "Civil Rights Division"
-  - "Gun Control"
-image_prompt: "Federal courthouse exterior in Boston on a bright clear day, wide stone steps, American flag flying, pigeons on the pavement, photojournalistic, natural light from above"
+  - 'Second Amendment'
+  - 'Department of Justice'
+  - 'Massachusetts'
+  - 'Handgun Roster'
+  - 'Harmeet Dhillon'
+  - 'Granata v Healey'
+  - 'FPC'
+  - 'Bruen'
+  - 'Civil Rights Division'
+  - 'Gun Control'
+image_prompt: 'Federal courthouse exterior in Boston on a bright clear day, wide stone steps, American flag flying, pigeons on the pavement, photojournalistic, natural light from above'
 sort_index: 44
 ---
 
 ## The bottom line
 
-The Department of Justice's Civil Rights Division filed an amicus brief on January 26, 2026 in the First Circuit Court of Appeals in *Granata v. Healey*, a lawsuit challenging Massachusetts' handgun roster as unconstitutional. The DOJ sided with the plaintiffs. This matters far beyond Massachusetts because of what it signals about how the federal government is now approaching state gun control laws, and because the Massachusetts roster is one of the most egregious examples of a state using bureaucratic process to ban firearms it is constitutionally prohibited from banning outright.
+The Department of Justice's Civil Rights Division filed an amicus brief on January 26, 2026 in the First Circuit Court of Appeals in _Granata v. Healey_, a lawsuit challenging Massachusetts' handgun roster as unconstitutional. The DOJ sided with the plaintiffs. This matters far beyond Massachusetts because of what it signals about how the federal government is now approaching state gun control laws, and because the Massachusetts roster is one of the most egregious examples of a state using bureaucratic process to ban firearms it is constitutionally prohibited from banning outright.
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=8nGNEi-8XIs). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=8nGNEi-8XIs). Commentary, not legal advice._
 
 ---
 
@@ -57,19 +57,19 @@ The roster currently contains roughly 1,100 to 1,300 entries, but the majority o
 
 The Constitution does not say the right to keep and bear arms shall not be infringed unless the state has developed a bureaucratic approval process. It says the right shall not be infringed. Full stop.
 
-In *District of Columbia v. Heller* (2008), the Supreme Court established that the Second Amendment protects commonly owned arms in common use for lawful purposes. Handguns, Heller said explicitly, are the quintessential self-defense weapon. They are in common use throughout the country. The Court held that Washington D.C.'s handgun ban was unconstitutional. In *New York State Rifle & Pistol Association v. Bruen* (2022), the Court reinforced this standard and added a history-and-tradition test: restrictions on firearms must be consistent with the historical tradition of firearm regulation in this country.
+In _District of Columbia v. Heller_ (2008), the Supreme Court established that the Second Amendment protects commonly owned arms in common use for lawful purposes. Handguns, Heller said explicitly, are the quintessential self-defense weapon. They are in common use throughout the country. The Court held that Washington D.C.'s handgun ban was unconstitutional. In _New York State Rifle & Pistol Association v. Bruen_ (2022), the Court reinforced this standard and added a history-and-tradition test: restrictions on firearms must be consistent with the historical tradition of firearm regulation in this country.
 
 No court has ever located a historical tradition of state governments maintaining approved lists of permitted handgun models. There is no 18th or 19th century analog to a government roster system that excludes specific models from retail sale based on trigger-pull weight. Massachusetts cannot point to Founding-era precedent because none exists.
 
-The DOJ's amicus brief makes exactly this argument. The filing states: "Although the Commonwealth characterizes its regime as a set of safety regulations, the effect of the law is to bar ordinary citizens from acquiring widely owned and commonly used arms." It then applies the *Bruen* framework directly: "A State may not accomplish indirectly what it is forbidden to do directly: prohibit arms that fall within the Second Amendment's core protection."
+The DOJ's amicus brief makes exactly this argument. The filing states: "Although the Commonwealth characterizes its regime as a set of safety regulations, the effect of the law is to bar ordinary citizens from acquiring widely owned and commonly used arms." It then applies the _Bruen_ framework directly: "A State may not accomplish indirectly what it is forbidden to do directly: prohibit arms that fall within the Second Amendment's core protection."
 
-That is a clean, accurate statement of the law. Massachusetts knows its roster is constitutionally indefensible under *Bruen*. The District Court ruled in favor of Massachusetts twice. The First Circuit is not historically sympathetic to Second Amendment claims. The state is banking on the appeals court upholding the restriction and forcing the issue to the Supreme Court, where the outcome is less certain under current composition than gun rights advocates would like.
+That is a clean, accurate statement of the law. Massachusetts knows its roster is constitutionally indefensible under _Bruen_. The District Court ruled in favor of Massachusetts twice. The First Circuit is not historically sympathetic to Second Amendment claims. The state is banking on the appeals court upholding the restriction and forcing the issue to the Supreme Court, where the outcome is less certain under current composition than gun rights advocates would like.
 
 ## Why the DOJ filing matters strategically
 
-The DOJ is not a party to *Granata v. Healey*. It filed as an amicus, which means it is lending the weight of the federal government's legal position to the plaintiffs without taking over the case. This is how the executive branch signals to federal courts where it believes the constitutional boundary sits.
+The DOJ is not a party to _Granata v. Healey_. It filed as an amicus, which means it is lending the weight of the federal government's legal position to the plaintiffs without taking over the case. This is how the executive branch signals to federal courts where it believes the constitutional boundary sits.
 
-Harmeet Dhillon, the Assistant Attorney General for the Civil Rights Division, has been explicit about her strategy. She wants every state regulation that is inconsistent with *Heller* and *Bruen* to be struck down, settled, or withdrawn before she leaves office. Her office created a new Second Amendment Rights Section within the Civil Rights Division, putting firearms rights enforcement on the same institutional footing as immigrant rights, disability rights, and educational opportunity. That is not a cosmetic change. That is a structural commitment of DOJ resources and legal personnel to fighting state gun laws.
+Harmeet Dhillon, the Assistant Attorney General for the Civil Rights Division, has been explicit about her strategy. She wants every state regulation that is inconsistent with _Heller_ and _Bruen_ to be struck down, settled, or withdrawn before she leaves office. Her office created a new Second Amendment Rights Section within the Civil Rights Division, putting firearms rights enforcement on the same institutional footing as immigrant rights, disability rights, and educational opportunity. That is not a cosmetic change. That is a structural commitment of DOJ resources and legal personnel to fighting state gun laws.
 
 The December 2025 lawsuit against the U.S. Virgin Islands over its gun-permitting process, the California case over Los Angeles County's years-long concealed carry permit delays, the Massachusetts amicus brief: these are pieces of a deliberate litigation strategy. Dhillon and her team are picking the clearest constitutional violations in the most restrictive jurisdictions, litigating them with the institutional weight of the Department of Justice behind them, and building a case record that the Supreme Court will eventually have to address directly.
 
@@ -77,7 +77,7 @@ This is how constitutional change actually happens. Individual plaintiffs and or
 
 ## The "process is the punishment" playbook
 
-I want to explain something that gun control advocates understand and most gun owners do not spend enough time thinking about. State-level gun restrictions since *Heller* have largely not been outright bans. They have been layers of bureaucratic process designed to make lawful gun ownership so complicated, expensive, and legally risky that a meaningful percentage of people opt out.
+I want to explain something that gun control advocates understand and most gun owners do not spend enough time thinking about. State-level gun restrictions since _Heller_ have largely not been outright bans. They have been layers of bureaucratic process designed to make lawful gun ownership so complicated, expensive, and legally risky that a meaningful percentage of people opt out.
 
 The Massachusetts roster is the clearest example. A buyer cannot walk into a gun store and buy the handgun they want. They can buy from an approved list that excludes most current production models. If they want a Gen 5 Glock, they must find one through private transfer channels or find a law enforcement officer who can access the LE-only market. They pay a premium for the inconvenience. The state does not need to ban the gun outright. It just makes acquiring it difficult enough that many people give up.
 
@@ -91,11 +91,11 @@ I am not going to pretend the current DOJ is a perfect defender of gun rights. I
 
 What I can tell you is that the DOJ's Civil Rights Division is doing more concrete, on-the-ground work to challenge state gun control laws than any DOJ in my lifetime. They are not just talking about the Second Amendment. They are filing briefs, opening cases, hiring attorneys, and building out institutional infrastructure to sustain this work past any single political appointment. That matters because the alternative, a DOJ that refuses to engage with state gun control violations, was the operating condition for the better part of the last two decades, and we got buried under layer after layer of restrictions that the federal government simply declined to contest.
 
-The Massachusetts handgun roster has existed since 2001. It has been challenged in court before, and courts have previously upheld it. It took *Bruen* to create the legal framework to attack it properly, and it took a DOJ willing to enter the fight to bring federal weight to bear on the First Circuit. Both of those things are true right now, simultaneously. That is genuinely rare.
+The Massachusetts handgun roster has existed since 2001. It has been challenged in court before, and courts have previously upheld it. It took _Bruen_ to create the legal framework to attack it properly, and it took a DOJ willing to enter the fight to bring federal weight to bear on the First Circuit. Both of those things are true right now, simultaneously. That is genuinely rare.
 
 ## What this means for gun owners beyond Massachusetts
 
-Most gun rights commentary focuses on the specific state at issue in any given case. Massachusetts is a small state. Not many of you reading this live there. But the precedent set in *Granata v. Healey* will apply across the First Circuit, which includes Massachusetts, Maine, New Hampshire, Rhode Island, and Puerto Rico. More importantly, whatever the First Circuit decides will eventually feed into the Supreme Court's developing Second Amendment jurisprudence.
+Most gun rights commentary focuses on the specific state at issue in any given case. Massachusetts is a small state. Not many of you reading this live there. But the precedent set in _Granata v. Healey_ will apply across the First Circuit, which includes Massachusetts, Maine, New Hampshire, Rhode Island, and Puerto Rico. More importantly, whatever the First Circuit decides will eventually feed into the Supreme Court's developing Second Amendment jurisprudence.
 
 California has a similar approved handgun roster, enforced with equal aggressiveness. New York, New Jersey, and Hawaii have their own equivalents. These laws all share the same constitutional defect: they use administrative preclearance to exclude commonly owned firearms from the civilian market in their states. If the First Circuit strikes down the Massachusetts roster, or if the DOJ's entry into the case eventually forces the issue to the Supreme Court, the precedent will not be limited to Massachusetts.
 
@@ -105,6 +105,6 @@ The Massachusetts fight is not just Massachusetts. Pay attention to it.
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=8nGNEi-8XIs). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=8nGNEi-8XIs). Commentary, not legal advice._
 
 ---

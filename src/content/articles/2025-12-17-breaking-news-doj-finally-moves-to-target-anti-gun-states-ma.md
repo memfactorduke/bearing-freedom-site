@@ -1,31 +1,31 @@
 ---
 title: "The DOJ's new Second Amendment section just filed its first lawsuit. And it picked a perfect target."
-date: "2025-12-17"
-youtube_url: "https://www.youtube.com/watch?v=lMqb6H7peqc"
-youtube_id: "lMqb6H7peqc"
-thumbnail: "/images/articles/2025-12-17-breaking-news-doj-finally-moves-to-target-anti-gun-states-ma.jpg"
-duration: "6:12"
-author: "Bearing Freedom"
+date: '2025-12-17'
+youtube_url: 'https://www.youtube.com/watch?v=lMqb6H7peqc'
+youtube_id: 'lMqb6H7peqc'
+thumbnail: '/images/articles/2025-12-17-breaking-news-doj-finally-moves-to-target-anti-gun-states-ma.jpg'
+duration: '6:12'
+author: 'Bearing Freedom'
 topics:
-  - "doj"
-  - "second-amendment"
-  - "concealed-carry"
-  - "virgin-islands"
-  - "litigation"
+  - 'doj'
+  - 'second-amendment'
+  - 'concealed-carry'
+  - 'virgin-islands'
+  - 'litigation'
 states:
-  - "US Virgin Islands"
+  - 'US Virgin Islands'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "DOJ"
-  - "Harmeet Dhillon"
-  - "Civil Rights Division"
-  - "Concealed Carry"
-  - "Bruen"
-  - "Virgin Islands"
-  - "Gun Permits"
-image_prompt: "Wide-angle photojournalistic shot of the exterior of the Robert F. Kennedy Department of Justice Building in Washington DC on a bright sunny day, sharp architectural detail, American flag flying overhead, clear blue sky"
+  - 'Second Amendment'
+  - 'DOJ'
+  - 'Harmeet Dhillon'
+  - 'Civil Rights Division'
+  - 'Concealed Carry'
+  - 'Bruen'
+  - 'Virgin Islands'
+  - 'Gun Permits'
+image_prompt: 'Wide-angle photojournalistic shot of the exterior of the Robert F. Kennedy Department of Justice Building in Washington DC on a bright sunny day, sharp architectural detail, American flag flying overhead, clear blue sky'
 sort_index: 75
 ---
 
@@ -35,7 +35,7 @@ The DOJ's brand-new Second Amendment Section just filed its first lawsuit agains
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=lMqb6H7peqc). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=lMqb6H7peqc). Commentary, not legal advice._
 
 ---
 
@@ -81,4 +81,4 @@ That is not nothing. That is a historic change, and it started with one very wel
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=lMqb6H7peqc). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=lMqb6H7peqc). Commentary, not legal advice._

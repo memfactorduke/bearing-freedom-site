@@ -1,42 +1,42 @@
 ---
 title: "The Supreme Court's welfare check ruling is more complicated than gun rights groups are telling you"
-date: "2026-01-14"
-youtube_url: "https://www.youtube.com/watch?v=7WmEW2h6E7Q"
-youtube_id: "7WmEW2h6E7Q"
-thumbnail: "/images/articles/2026-01-14-breaking-unanimous-emergency-supreme-court-decision-just-rel.jpg"
-duration: "5:50"
-author: "Bearing Freedom"
-image_prompt: "Exterior of the United States Supreme Court building on a bright overcast winter day, stone steps and columns, an officer in uniform visible near the entrance, photojournalistic wide-angle shot from street level"
+date: '2026-01-14'
+youtube_url: 'https://www.youtube.com/watch?v=7WmEW2h6E7Q'
+youtube_id: '7WmEW2h6E7Q'
+thumbnail: '/images/articles/2026-01-14-breaking-unanimous-emergency-supreme-court-decision-just-rel.jpg'
+duration: '5:50'
+author: 'Bearing Freedom'
+image_prompt: 'Exterior of the United States Supreme Court building on a bright overcast winter day, stone steps and columns, an officer in uniform visible near the entrance, photojournalistic wide-angle shot from street level'
 sort_index: 62
 topics:
-  - "second-amendment"
-  - "fourth-amendment"
-  - "supreme-court"
-  - "welfare-checks"
-  - "due-process"
+  - 'second-amendment'
+  - 'fourth-amendment'
+  - 'supreme-court'
+  - 'welfare-checks'
+  - 'due-process'
 states:
-  - "Montana"
+  - 'Montana'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Fourth Amendment"
-  - "Supreme Court"
-  - "Case v. Montana"
-  - "Welfare Check"
-  - "Warrantless Entry"
-  - "Due Process"
-  - "Red Flag Laws"
-  - "Emergency Aid Exception"
+  - 'Second Amendment'
+  - 'Fourth Amendment'
+  - 'Supreme Court'
+  - 'Case v. Montana'
+  - 'Welfare Check'
+  - 'Warrantless Entry'
+  - 'Due Process'
+  - 'Red Flag Laws'
+  - 'Emergency Aid Exception'
 ---
 
 ## The bottom line
 
-On January 14, 2026, the Supreme Court decided *Case v. Montana* 9-0, written by Justice Kagan. Police may enter a home without a warrant during a welfare check if they have an objectively reasonable basis for believing someone inside faces serious imminent harm. Probable cause is not required. Gun Owners of America called this a license to shoot gun owners in their homes. I don't think that's the right read, and I'm going to explain why, while being honest about the parts that genuinely concern me.
+On January 14, 2026, the Supreme Court decided _Case v. Montana_ 9-0, written by Justice Kagan. Police may enter a home without a warrant during a welfare check if they have an objectively reasonable basis for believing someone inside faces serious imminent harm. Probable cause is not required. Gun Owners of America called this a license to shoot gun owners in their homes. I don't think that's the right read, and I'm going to explain why, while being honest about the parts that genuinely concern me.
 
 ---
 
-*This article is based on commentary from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=7WmEW2h6E7Q). Commentary, not legal advice.*
+_This article is based on commentary from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=7WmEW2h6E7Q). Commentary, not legal advice._
 
 ---
 
@@ -74,25 +74,25 @@ The real critique of what happened to Trevor Case is not about the legal standar
 
 Here's where I'll be honest about my own discomfort with this decision, because I think I owe it to you to say it directly.
 
-The circumstances in *Case v. Montana* were actually quite strong. Suicide threat, credible witness, empty holster, apparent suicide note, documented history of prior incidents, forty minutes of no response to contact attempts. If there is a factual pattern that justifies an emergency aid entry without a warrant, this one is close to it.
+The circumstances in _Case v. Montana_ were actually quite strong. Suicide threat, credible witness, empty holster, apparent suicide note, documented history of prior incidents, forty minutes of no response to contact attempts. If there is a factual pattern that justifies an emergency aid entry without a warrant, this one is close to it.
 
 But legal standards, once established, get applied to situations much less compelling than the case that generated them. "Objectively reasonable basis for believing someone faces serious imminent harm" will be interpreted by individual officers and lower courts across millions of future situations, most of which will not look like this one. The concern isn't whether the standard is defensible in the abstract. The concern is what happens when a less conscientious department uses it as cover for entries that never should have happened.
 
-This intersects directly with red flag law enforcement in ways that should alarm anyone paying attention. Red flag orders are already issued without the subject present, on the basis of third-party statements, often without meaningful adversarial process before the initial seizure. The *Case v. Montana* standard establishes that a welfare check premised on a third-party report of potential self-harm can justify warrantless home entry if officers develop an objectively reasonable belief that someone inside is in imminent danger. Consider how easily the facts of a red flag situation can be massaged to meet that threshold, especially in jurisdictions hostile to gun ownership. You have a third-party report. Officers arrive. They don't get an immediate response. They see evidence of gun ownership, an empty holster on a visible shelf, a gun safe, a target shooting bag. They decide entry is warranted.
+This intersects directly with red flag law enforcement in ways that should alarm anyone paying attention. Red flag orders are already issued without the subject present, on the basis of third-party statements, often without meaningful adversarial process before the initial seizure. The _Case v. Montana_ standard establishes that a welfare check premised on a third-party report of potential self-harm can justify warrantless home entry if officers develop an objectively reasonable belief that someone inside is in imminent danger. Consider how easily the facts of a red flag situation can be massaged to meet that threshold, especially in jurisdictions hostile to gun ownership. You have a third-party report. Officers arrive. They don't get an immediate response. They see evidence of gun ownership, an empty holster on a visible shelf, a gun safe, a target shooting bag. They decide entry is warranted.
 
-I'm not saying that is what the Court authorized in *Case*. I'm saying that the gap between what the Court authorized and what an aggressive implementation of this standard could look like is narrower than I'd like.
+I'm not saying that is what the Court authorized in _Case_. I'm saying that the gap between what the Court authorized and what an aggressive implementation of this standard could look like is narrower than I'd like.
 
 ## Why I actually think this ruling was probably correct
 
 I know this is going to get me pushback and I'm fully prepared for that.
 
-The alternative the Montana Supreme Court used, the community caretaking doctrine, was correctly rejected by the U.S. Supreme Court in *Caniglia v. Strom* in 2021. You cannot justify a warrantless home entry simply because police have a general community caretaking role. The Court was right to shut that down. But that left a doctrinal gap: if probable cause is for criminal investigations and community caretaking is off limits for home entries, what standard actually governs an officer responding to a genuine life-threatening emergency?
+The alternative the Montana Supreme Court used, the community caretaking doctrine, was correctly rejected by the U.S. Supreme Court in _Caniglia v. Strom_ in 2021. You cannot justify a warrantless home entry simply because police have a general community caretaking role. The Court was right to shut that down. But that left a doctrinal gap: if probable cause is for criminal investigations and community caretaking is off limits for home entries, what standard actually governs an officer responding to a genuine life-threatening emergency?
 
 The emergency aid exception, properly articulated and bounded, fills that gap in a way that is actually coherent. The Court has now said: you need more than suspicion, you need an objectively reasonable belief of serious imminent harm, and even when you have it, your authority inside the home is limited to the scope of the emergency. That is a more defined and constrained standard than what was on the books in many jurisdictions before this decision.
 
 The practical reality is also relevant. There are situations where someone is actively in the process of dying inside a residence, where waiting for a warrant means waiting for a corpse. An absolute warrant requirement with no emergency exception would produce outcomes that most people, including most principled Second Amendment supporters, would not actually endorse on reflection.
 
-Where I come down is this: the standard articulated in *Case v. Montana* is probably the right standard in the abstract. What I want to see is rigorous enforcement of the scope limitation. Officers cannot use an emergency aid entry as a fishing expedition. The concurrence by Sotomayor identifying de-escalation as potentially the more reasonable path in some cases was correct and important. And the training problem that makes every welfare check a potential shooting situation is a serious independent problem that this ruling does nothing to solve.
+Where I come down is this: the standard articulated in _Case v. Montana_ is probably the right standard in the abstract. What I want to see is rigorous enforcement of the scope limitation. Officers cannot use an emergency aid entry as a fishing expedition. The concurrence by Sotomayor identifying de-escalation as potentially the more reasonable path in some cases was correct and important. And the training problem that makes every welfare check a potential shooting situation is a serious independent problem that this ruling does nothing to solve.
 
 ## What gun owners should actually do with this
 

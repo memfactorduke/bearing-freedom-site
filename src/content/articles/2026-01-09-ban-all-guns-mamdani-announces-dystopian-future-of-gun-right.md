@@ -1,32 +1,32 @@
 ---
-title: "Mamdani just told you exactly who he is, and New York gun owners should believe him"
-date: "2026-01-09"
-youtube_url: "https://www.youtube.com/watch?v=gFipdlttj3Q"
-youtube_id: "gFipdlttj3Q"
-thumbnail: "/images/articles/2026-01-09-ban-all-guns-mamdani-announces-dystopian-future-of-gun-right.jpg"
-duration: "5:58"
-author: "Bearing Freedom"
-image_prompt: "Wide-angle photojournalistic shot of New York City Hall exterior on a gray winter morning, a lone figure in a winter coat standing on the plaza looking up at the building, American flag visible, stark natural light, no text or signage"
+title: 'Mamdani just told you exactly who he is, and New York gun owners should believe him'
+date: '2026-01-09'
+youtube_url: 'https://www.youtube.com/watch?v=gFipdlttj3Q'
+youtube_id: 'gFipdlttj3Q'
+thumbnail: '/images/articles/2026-01-09-ban-all-guns-mamdani-announces-dystopian-future-of-gun-right.jpg'
+duration: '5:58'
+author: 'Bearing Freedom'
+image_prompt: 'Wide-angle photojournalistic shot of New York City Hall exterior on a gray winter morning, a lone figure in a winter coat standing on the plaza looking up at the building, American flag visible, stark natural light, no text or signage'
 sort_index: 71
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "politics"
-  - "sensitive-places"
-  - "collectivism"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'politics'
+  - 'sensitive-places'
+  - 'collectivism'
 states:
-  - "New York"
+  - 'New York'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Zohran Mamdani"
-  - "New York City"
-  - "Gun Control"
-  - "Collectivism"
-  - "Democratic Socialism"
-  - "Sensitive Places"
-  - "CCIA"
+  - 'Second Amendment'
+  - 'Zohran Mamdani'
+  - 'New York City'
+  - 'Gun Control'
+  - 'Collectivism'
+  - 'Democratic Socialism'
+  - 'Sensitive Places'
+  - 'CCIA'
 ---
 
 ## The bottom line
@@ -35,7 +35,7 @@ Zohran Mamdani is now the mayor of the largest city in America, he has called fo
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=gFipdlttj3Q). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=gFipdlttj3Q). Commentary, not legal advice._
 
 ---
 
@@ -65,9 +65,9 @@ He is not confused about the connection between his ideology and his gun control
 
 ## What he can actually do
 
-The question I keep getting is whether Mamdani can really do much given that the Second Amendment, *Bruen*, and federal law all constrain what a mayor can implement. My honest answer is: more than you want to admit.
+The question I keep getting is whether Mamdani can really do much given that the Second Amendment, _Bruen_, and federal law all constrain what a mayor can implement. My honest answer is: more than you want to admit.
 
-The most effective tool in his kit is the sensitive places framework that New York built in the immediate aftermath of *NYSRPA v. Bruen* in 2022. When the Supreme Court struck down New York's proper cause requirement for concealed carry permits, Albany responded within weeks by passing the Concealed Carry Improvement Act. The CCIA created an expansive sensitive places list covering government buildings, healthcare facilities, public transit, parks, playgrounds, libraries, and any location where alcohol is served. It also included a default-to-prohibited provision for private property, meaning carry was banned unless property owners posted explicit permission.
+The most effective tool in his kit is the sensitive places framework that New York built in the immediate aftermath of _NYSRPA v. Bruen_ in 2022. When the Supreme Court struck down New York's proper cause requirement for concealed carry permits, Albany responded within weeks by passing the Concealed Carry Improvement Act. The CCIA created an expansive sensitive places list covering government buildings, healthcare facilities, public transit, parks, playgrounds, libraries, and any location where alcohol is served. It also included a default-to-prohibited provision for private property, meaning carry was banned unless property owners posted explicit permission.
 
 The Second Circuit has knocked down some provisions. The social media screening requirement for permit applicants is enjoined. The ban on carrying in private property open to the public was also struck down. But much of the CCIA's sensitive places architecture remains in litigation or still partially in force, and the city of New York is so densely built that the overlap of remaining sensitive locations already makes lawful concealed carry practically impossible in large portions of the five boroughs.
 

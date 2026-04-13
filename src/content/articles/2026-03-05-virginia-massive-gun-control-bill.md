@@ -1,28 +1,28 @@
 ---
 title: "Virginia just made building your own gun a felony. They know exactly what they're doing."
-date: "2026-03-05"
-youtube_url: "https://www.youtube.com/watch?v=o4Vg9mZzxVY"
-youtube_id: "o4Vg9mZzxVY"
-thumbnail: "/images/articles/2026-03-05-virginia-massive-gun-control-bill.jpg"
-duration: "8:14"
-author: "Bearing Freedom"
+date: '2026-03-05'
+youtube_url: 'https://www.youtube.com/watch?v=o4Vg9mZzxVY'
+youtube_id: 'o4Vg9mZzxVY'
+thumbnail: '/images/articles/2026-03-05-virginia-massive-gun-control-bill.jpg'
+duration: '8:14'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "ghost-guns"
-  - "diy-firearms"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'ghost-guns'
+  - 'diy-firearms'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "HB40"
-  - "Ghost Guns"
-  - "DIY Firearms"
-  - "Bruen"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'HB40'
+  - 'Ghost Guns'
+  - 'DIY Firearms'
+  - 'Bruen'
 image_prompt: "A well-lit workshop table with partially assembled gun components, a 3D printer in the background, and sunlight streaming through a window onto legal documents marked 'HB40', photojournalistic style"
 sort_index: 21
 ---
@@ -33,7 +33,7 @@ Virginia HB40 criminalizes something Americans have done since before this count
 
 ---
 
-*This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=o4Vg9mZzxVY). This is commentary, not legal advice.*
+_This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=o4Vg9mZzxVY). This is commentary, not legal advice._
 
 ---
 

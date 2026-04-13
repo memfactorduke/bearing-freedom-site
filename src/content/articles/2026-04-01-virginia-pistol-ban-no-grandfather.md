@@ -1,29 +1,29 @@
 ---
 title: "Virginia's Carry Ban Has No Grandfather Clause. That's the Whole Point."
-date: "2026-04-01"
-youtube_url: "https://www.youtube.com/watch?v=SctwYdBup0Y"
-youtube_id: "SctwYdBup0Y"
-thumbnail: "/images/articles/2026-04-01-virginia-pistol-ban-no-grandfather.jpg"
-duration: "11:35"
-author: "Bearing Freedom"
+date: '2026-04-01'
+youtube_url: 'https://www.youtube.com/watch?v=SctwYdBup0Y'
+youtube_id: 'SctwYdBup0Y'
+thumbnail: '/images/articles/2026-04-01-virginia-pistol-ban-no-grandfather.jpg'
+duration: '11:35'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "state-legislation"
-  - "carry-rights"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'state-legislation'
+  - 'carry-rights'
 content_type:
-  - "commentary"
+  - 'commentary'
 states:
-  - "Virginia"
+  - 'Virginia'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "SB 727"
-  - "Assault Weapons"
-  - "Carry Ban"
-  - "Abigail Spanberger"
-image_prompt: "A Virginia gun owner in a well-lit parking lot outside a shooting range, unloading an AR-15 rifle from a pickup truck on a bright sunny day, American flag visible in the background"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'SB 727'
+  - 'Assault Weapons'
+  - 'Carry Ban'
+  - 'Abigail Spanberger'
+image_prompt: 'A Virginia gun owner in a well-lit parking lot outside a shooting range, unloading an AR-15 rifle from a pickup truck on a bright sunny day, American flag visible in the background'
 sort_index: 6
 ---
 
@@ -33,7 +33,7 @@ Virginia SB 727 is not the assault weapons bill everyone is watching. It bans ca
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=SctwYdBup0Y). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=SctwYdBup0Y). Commentary, not legal advice._
 
 ---
 

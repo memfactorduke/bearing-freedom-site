@@ -3,7 +3,10 @@ import { join } from 'path';
 import { existsSync } from 'fs';
 
 const FAL_KEY = process.env.FAL_KEY;
-if (!FAL_KEY) { console.error('Set FAL_KEY'); process.exit(1); }
+if (!FAL_KEY) {
+  console.error('Set FAL_KEY');
+  process.exit(1);
+}
 
 const articlesDir = join(process.cwd(), 'src', 'content', 'articles');
 const imagesDir = join(process.cwd(), 'public', 'images', 'articles');
@@ -12,7 +15,7 @@ async function generateImage(prompt) {
   const resp = await fetch('https://fal.run/fal-ai/flux-pro', {
     method: 'POST',
     headers: {
-      'Authorization': `Key ${FAL_KEY}`,
+      Authorization: `Key ${FAL_KEY}`,
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
@@ -31,7 +34,7 @@ async function generateImage(prompt) {
   return await resp.json();
 }
 
-const files = (await readdir(articlesDir)).filter(f => f.endsWith('.md'));
+const files = (await readdir(articlesDir)).filter((f) => f.endsWith('.md'));
 const missing = [];
 
 for (const f of files) {
@@ -51,7 +54,9 @@ for (const f of files) {
   }
 }
 
-console.log(`${missing.length} images to generate (~$${(missing.length * 0.03).toFixed(2)})`);
+console.log(
+  `${missing.length} images to generate (~$${(missing.length * 0.03).toFixed(2)})`,
+);
 
 for (let i = 0; i < missing.length; i++) {
   const item = missing[i];
@@ -68,7 +73,10 @@ for (let i = 0; i < missing.length; i++) {
   try {
     const result = await generateImage(prompt);
     const imageUrl = result.images?.[0]?.url;
-    if (!imageUrl) { console.error('  No image URL'); continue; }
+    if (!imageUrl) {
+      console.error('  No image URL');
+      continue;
+    }
 
     const imgResp = await fetch(imageUrl);
     const buffer = Buffer.from(await imgResp.arrayBuffer());

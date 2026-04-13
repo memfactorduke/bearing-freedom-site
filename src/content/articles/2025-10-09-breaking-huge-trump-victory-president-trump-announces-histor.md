@@ -1,32 +1,32 @@
 ---
-title: "This is the win they said Trump could never get, and it changes everything about his presidency"
-date: "2025-10-09"
-youtube_url: "https://www.youtube.com/watch?v=RE3krGWVm0Q"
-youtube_id: "RE3krGWVm0Q"
-thumbnail: "/images/articles/2025-10-09-breaking-huge-trump-victory-president-trump-announces-histor.jpg"
-duration: "5:34"
-author: "Bearing Freedom"
+title: 'This is the win they said Trump could never get, and it changes everything about his presidency'
+date: '2025-10-09'
+youtube_url: 'https://www.youtube.com/watch?v=RE3krGWVm0Q'
+youtube_id: 'RE3krGWVm0Q'
+thumbnail: '/images/articles/2025-10-09-breaking-huge-trump-victory-president-trump-announces-histor.jpg'
+duration: '5:34'
+author: 'Bearing Freedom'
 topics:
-  - "foreign-policy"
-  - "israel-hamas"
-  - "trump-presidency"
-  - "peace-deal"
-  - "media"
+  - 'foreign-policy'
+  - 'israel-hamas'
+  - 'trump-presidency'
+  - 'peace-deal'
+  - 'media'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Trump"
-  - "Gaza"
-  - "Israel"
-  - "Hamas"
-  - "Ceasefire"
-  - "Peace Deal"
-  - "NBC"
-  - "Netanyahu"
-  - "Second Amendment"
-  - "Political Impact"
-image_prompt: "Photojournalistic wide shot of a formal diplomatic press conference room with American and Israeli flags side by side, podium in center, soft directional lighting, formal and presidential atmosphere"
+  - 'Trump'
+  - 'Gaza'
+  - 'Israel'
+  - 'Hamas'
+  - 'Ceasefire'
+  - 'Peace Deal'
+  - 'NBC'
+  - 'Netanyahu'
+  - 'Second Amendment'
+  - 'Political Impact'
+image_prompt: 'Photojournalistic wide shot of a formal diplomatic press conference room with American and Israeli flags side by side, podium in center, soft directional lighting, formal and presidential atmosphere'
 sort_index: 105
 ---
 
@@ -36,7 +36,7 @@ Trump announced the Israel-Hamas ceasefire deal on October 9, 2025, and even NBC
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=RE3krGWVm0Q). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=RE3krGWVm0Q). Commentary, not legal advice._
 
 ---
 
@@ -104,4 +104,4 @@ He delivered it.
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=RE3krGWVm0Q). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=RE3krGWVm0Q). Commentary, not legal advice._

@@ -1,0 +1,137 @@
+[13:14:05] [hook] [START] oss-session-start
+[13:14:05] [hook] [COMPLETE] oss-session-start
+[13:14:08] [fresh_start] {"project": "Bearing Freedom Site"}
+[13:14:08] [session] [fresh_start] {"project": "Bearing Freedom Site"}
+[13:14:14] [hook] [START] oss-precommand
+[13:14:14] [hook] [START] oss-context-inject
+[13:14:14] [hook] [START] oss-iron-law-check
+[13:14:14] [hook] [COMPLETE] oss-precommand
+[13:14:14] [precheck] [IRON_LAW] FAILED violations=[4,6]
+[13:14:14] [hook] [COMPLETE] oss-iron-law-check
+[13:14:15] [hook] [COMPLETE] oss-context-inject
+[13:14:28] [hook] [START] oss-precommand
+[13:14:28] [hook] [START] oss-context-inject
+[13:14:28] [hook] [START] oss-iron-law-check
+[13:14:28] [hook] [COMPLETE] oss-precommand
+[13:14:28] [hook] [COMPLETE] oss-context-inject
+[13:14:28] [precheck] [IRON_LAW] FAILED violations=[4,6]
+[13:14:28] [hook] [COMPLETE] oss-iron-law-check
+[13:14:40] [hook] [START] oss-context-inject
+[13:14:40] [hook] [START] oss-precommand
+[13:14:40] [hook] [START] oss-iron-law-check
+[13:14:40] [hook] [COMPLETE] oss-precommand
+[13:14:40] [hook] [COMPLETE] oss-context-inject
+[13:14:40] [precheck] [IRON_LAW] FAILED violations=[4,6]
+[13:14:40] [hook] [COMPLETE] oss-iron-law-check
+[13:15:33] [hook] [START] oss-precommand
+[13:15:33] [hook] [START] oss-iron-law-check
+[13:15:33] [hook] [START] oss-context-inject
+[13:15:33] [hook] [COMPLETE] oss-precommand
+[13:15:33] [hook] [COMPLETE] oss-context-inject
+[13:15:33] [precheck] [IRON_LAW] FAILED violations=[4,6]
+[13:15:33] [hook] [COMPLETE] oss-iron-law-check
+[13:16:40] [hook] [START] oss-iron-law-check
+[13:16:40] [hook] [START] oss-context-inject
+[13:16:40] [hook] [START] oss-precommand
+[13:16:40] [hook] [COMPLETE] oss-precommand
+[13:16:40] [hook] [COMPLETE] oss-context-inject
+[13:16:40] [precheck] [IRON_LAW] FAILED violations=[4,6]
+[13:16:41] [hook] [COMPLETE] oss-iron-law-check
+[13:16:49] [hook] [START] oss-context-inject
+[13:16:49] [hook] [START] oss-iron-law-check
+[13:16:49] [hook] [START] oss-precommand
+[13:16:49] [hook] [COMPLETE] oss-precommand
+[13:16:49] [hook] [COMPLETE] oss-context-inject
+[13:16:49] [precheck] [IRON_LAW] FAILED violations=[4,6]
+[13:16:49] [hook] [COMPLETE] oss-iron-law-check
+[13:22:17] [hook] [START] oss-precommand
+[13:22:17] [hook] [START] oss-context-inject
+[13:22:17] [hook] [START] oss-iron-law-check
+[13:22:17] [hook] [COMPLETE] oss-precommand
+[13:22:17] [hook] [COMPLETE] oss-context-inject
+[13:22:18] [precheck] [IRON_LAW] FAILED violations=[6]
+[13:22:18] [hook] [COMPLETE] oss-iron-law-check
+[13:23:21] [hook] [START] oss-iron-law-check
+[13:23:21] [hook] [START] oss-precommand
+[13:23:21] [hook] [START] oss-context-inject
+[13:23:21] [hook] [COMPLETE] oss-precommand
+[13:23:21] [hook] [COMPLETE] oss-context-inject
+[13:23:21] [precheck] [IRON_LAW] FAILED violations=[6]
+[13:23:21] [hook] [COMPLETE] oss-iron-law-check
+[13:23:58] [hook] [START] oss-context-inject
+[13:23:58] [hook] [START] oss-iron-law-check
+[13:23:58] [hook] [START] oss-precommand
+[13:23:58] [hook] [COMPLETE] oss-precommand
+[13:23:58] [hook] [COMPLETE] oss-context-inject
+[13:23:58] [precheck] [IRON_LAW] FAILED violations=[6]
+[13:23:58] [hook] [COMPLETE] oss-iron-law-check
+[13:24:33] [hook] [START] oss-context-inject
+[13:24:33] [hook] [START] oss-precommand
+[13:24:33] [hook] [START] oss-iron-law-check
+[13:24:33] [hook] [COMPLETE] oss-precommand
+[13:24:33] [hook] [COMPLETE] oss-context-inject
+[13:24:33] [precheck] [IRON_LAW] FAILED violations=[6]
+[13:24:33] [hook] [COMPLETE] oss-iron-law-check
+[13:24:58] [hook] [START] oss-context-inject
+[13:24:58] [hook] [START] oss-precommand
+[13:24:58] [hook] [START] oss-iron-law-check
+[13:24:58] [hook] [COMPLETE] oss-precommand
+[13:24:58] [hook] [COMPLETE] oss-context-inject
+[13:24:58] [precheck] [IRON_LAW] FAILED violations=[6]
+[13:24:58] [hook] [COMPLETE] oss-iron-law-check
+[13:25:11] [hook] [START] oss-precommand
+[13:25:11] [hook] [START] oss-context-inject
+[13:25:11] [hook] [START] oss-iron-law-check
+[13:25:11] [hook] [COMPLETE] oss-precommand
+[13:25:11] [hook] [COMPLETE] oss-context-inject
+[13:25:11] [precheck] [IRON_LAW] FAILED violations=[6]
+[13:25:11] [hook] [COMPLETE] oss-iron-law-check
+[13:25:34] [hook] [START] oss-precommand
+[13:25:34] [hook] [START] oss-context-inject
+[13:25:34] [hook] [START] oss-iron-law-check
+[13:25:34] [hook] [COMPLETE] oss-precommand
+[13:25:34] [hook] [COMPLETE] oss-context-inject
+[13:25:34] [precheck] [IRON_LAW] FAILED violations=[6]
+[13:25:34] [hook] [COMPLETE] oss-iron-law-check
+[13:25:59] [hook] [START] oss-context-inject
+[13:25:59] [hook] [START] oss-precommand
+[13:25:59] [hook] [START] oss-iron-law-check
+[13:25:59] [hook] [COMPLETE] oss-precommand
+[13:25:59] [hook] [COMPLETE] oss-context-inject
+[13:25:59] [precheck] [IRON_LAW] FAILED violations=[6]
+[13:25:59] [hook] [COMPLETE] oss-iron-law-check
+[13:26:08] [hook] [START] oss-iron-law-check
+[13:26:08] [hook] [START] oss-context-inject
+[13:26:08] [hook] [START] oss-precommand
+[13:26:08] [hook] [COMPLETE] oss-precommand
+[13:26:08] [hook] [COMPLETE] oss-context-inject
+[13:26:08] [precheck] [IRON_LAW] FAILED violations=[6]
+[13:26:08] [hook] [COMPLETE] oss-iron-law-check
+[13:26:25] [hook] [START] oss-context-inject
+[13:26:25] [hook] [START] oss-iron-law-check
+[13:26:25] [hook] [START] oss-precommand
+[13:26:26] [hook] [COMPLETE] oss-precommand
+[13:26:26] [hook] [COMPLETE] oss-context-inject
+[13:26:26] [precheck] [IRON_LAW] FAILED violations=[6]
+[13:26:26] [hook] [COMPLETE] oss-iron-law-check
+[14:35:05] [hook] [START] oss-precommand
+[14:35:05] [hook] [START] oss-context-inject
+[14:35:05] [hook] [START] oss-iron-law-check
+[14:35:05] [hook] [COMPLETE] oss-precommand
+[14:35:05] [precheck] [IRON_LAW] FAILED violations=[6]
+[14:35:05] [hook] [COMPLETE] oss-context-inject
+[14:35:05] [hook] [COMPLETE] oss-iron-law-check
+[14:36:00] [hook] [START] oss-precommand
+[14:36:00] [hook] [START] oss-context-inject
+[14:36:00] [hook] [START] oss-iron-law-check
+[14:36:01] [hook] [COMPLETE] oss-precommand
+[14:36:01] [hook] [COMPLETE] oss-context-inject
+[14:36:01] [precheck] [IRON_LAW] FAILED violations=[6]
+[14:36:01] [hook] [COMPLETE] oss-iron-law-check
+[14:39:14] [hook] [START] oss-context-inject
+[14:39:14] [hook] [START] oss-iron-law-check
+[14:39:14] [hook] [START] oss-precommand
+[14:39:14] [hook] [COMPLETE] oss-precommand
+[14:39:14] [hook] [COMPLETE] oss-context-inject
+[14:39:14] [precheck] [IRON_LAW] FAILED violations=[6]
+[14:39:15] [hook] [COMPLETE] oss-iron-law-check

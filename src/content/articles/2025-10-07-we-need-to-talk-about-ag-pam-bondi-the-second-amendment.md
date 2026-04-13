@@ -1,36 +1,36 @@
 ---
-title: "We need to talk about AG Pam Bondi and the Second Amendment"
-date: "2025-10-07"
-youtube_url: "https://www.youtube.com/watch?v=ZlnSBq3KQDY"
-youtube_id: "ZlnSBq3KQDY"
-thumbnail: "/images/articles/2025-10-07-we-need-to-talk-about-ag-pam-bondi-the-second-amendment.jpg"
-duration: "12:07"
-author: "Bearing Freedom"
+title: 'We need to talk about AG Pam Bondi and the Second Amendment'
+date: '2025-10-07'
+youtube_url: 'https://www.youtube.com/watch?v=ZlnSBq3KQDY'
+youtube_id: 'ZlnSBq3KQDY'
+thumbnail: '/images/articles/2025-10-07-we-need-to-talk-about-ag-pam-bondi-the-second-amendment.jpg'
+duration: '12:07'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "attorney-general"
-  - "doj"
-  - "atf"
-  - "pam-bondi"
-  - "rights-restoration"
+  - 'second-amendment'
+  - 'attorney-general'
+  - 'doj'
+  - 'atf'
+  - 'pam-bondi'
+  - 'rights-restoration'
 states:
-  - "florida"
-  - "illinois"
+  - 'florida'
+  - 'illinois'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Pam Bondi"
-  - "DOJ"
-  - "ATF"
-  - "Second Amendment"
-  - "FFL"
-  - "Zero Tolerance Policy"
-  - "Rights Restoration"
-  - "Illinois"
-  - "Amicus Brief"
-  - "Gun Owners of America"
-  - "Red Flag Laws"
-image_prompt: "Wide-angle photojournalistic shot of the United States Department of Justice building in Washington DC, neoclassical stone facade and columns, American flag, overcast sky, no people, natural light"
+  - 'Pam Bondi'
+  - 'DOJ'
+  - 'ATF'
+  - 'Second Amendment'
+  - 'FFL'
+  - 'Zero Tolerance Policy'
+  - 'Rights Restoration'
+  - 'Illinois'
+  - 'Amicus Brief'
+  - 'Gun Owners of America'
+  - 'Red Flag Laws'
+image_prompt: 'Wide-angle photojournalistic shot of the United States Department of Justice building in Washington DC, neoclassical stone facade and columns, American flag, overcast sky, no people, natural light'
 sort_index: 108
 ---
 
@@ -40,7 +40,7 @@ Pam Bondi's past record on the Second Amendment is genuinely bad. That is not a 
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=ZlnSBq3KQDY). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=ZlnSBq3KQDY). Commentary, not legal advice._
 
 ---
 
@@ -96,4 +96,4 @@ Pam Bondi is not the Second Amendment champion I would design if I were starting
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=ZlnSBq3KQDY). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=ZlnSBq3KQDY). Commentary, not legal advice._

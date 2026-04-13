@@ -1,34 +1,34 @@
 ---
 title: "Virginia's $500 suppressor tax was always going to fail, and that failure matters more than the bill did"
-date: "2026-01-12"
-youtube_url: "https://www.youtube.com/watch?v=Wva0Hey9LpU"
-youtube_id: "Wva0Hey9LpU"
-thumbnail: "/images/articles/2026-01-12-breaking-now-suppressors-hit-by-new-illegal-500-tax-in-blue-.jpg"
-duration: "7:06"
-author: "Bearing Freedom"
-image_prompt: "A suppressor attached to a bolt-action rifle resting on a wooden shooting bench at an outdoor range, bright afternoon sunlight, green tree line in background, photojournalistic close-up, no people, sharp focus on the suppressor threads"
+date: '2026-01-12'
+youtube_url: 'https://www.youtube.com/watch?v=Wva0Hey9LpU'
+youtube_id: 'Wva0Hey9LpU'
+thumbnail: '/images/articles/2026-01-12-breaking-now-suppressors-hit-by-new-illegal-500-tax-in-blue-.jpg'
+duration: '7:06'
+author: 'Bearing Freedom'
+image_prompt: 'A suppressor attached to a bolt-action rifle resting on a wooden shooting bench at an outdoor range, bright afternoon sunlight, green tree line in background, photojournalistic close-up, no people, sharp focus on the suppressor threads'
 sort_index: 66
 topics:
-  - "suppressors"
-  - "nfa"
-  - "second-amendment"
-  - "state-legislation"
-  - "gun-control"
+  - 'suppressors'
+  - 'nfa'
+  - 'second-amendment'
+  - 'state-legislation'
+  - 'gun-control'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Suppressors"
-  - "Second Amendment"
-  - "Virginia"
-  - "NFA"
-  - "Gun Rights"
-  - "HB207"
-  - "Bruen"
-  - "Hearing Protection"
-  - "State Legislation"
-  - "Constitutional Law"
+  - 'Suppressors'
+  - 'Second Amendment'
+  - 'Virginia'
+  - 'NFA'
+  - 'Gun Rights'
+  - 'HB207'
+  - 'Bruen'
+  - 'Hearing Protection'
+  - 'State Legislation'
+  - 'Constitutional Law'
 ---
 
 ## The bottom line
@@ -37,7 +37,7 @@ Virginia House Bill 207, which would have imposed a $500 state excise tax on eve
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Wva0Hey9LpU). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Wva0Hey9LpU). Commentary, not legal advice._
 
 ---
 
@@ -63,17 +63,17 @@ Here is why that matters.
 
 There are approximately 4.86 million suppressors registered and lawfully owned in the United States as of mid-2024, according to ATF data. That number has nearly doubled in three years. Annual registrations have been running close to 1 million per year. Suppressors are overwhelmingly purchased by hunters and recreational shooters for hearing protection and noise management. The NSSF's suppressor owner survey found that 39 percent use theirs for sport shooting, 30 percent for hunting. The crime rate associated with lawfully registered suppressors is functionally zero.
 
-The *Caetano v. Massachusetts* framework, decided by the Supreme Court in 2016, confirmed that Second Amendment protection extends to arms in common use by law-abiding citizens for lawful purposes. The specific threshold the Court applied to stun guns was that they were possessed by 200,000 Americans. Suppressors are at roughly 24 times that number. The Second Amendment Foundation, the NRA, and the American Suppressor Association have filed an amicus brief in *Peterson v. United States*, currently petitioned to the Supreme Court's April 2026 conference, arguing that suppressors are plainly "arms" under the Second Amendment's text and that neither the historical tradition at the founding nor the *Bruen* analytical framework permits their registration and taxation.
+The _Caetano v. Massachusetts_ framework, decided by the Supreme Court in 2016, confirmed that Second Amendment protection extends to arms in common use by law-abiding citizens for lawful purposes. The specific threshold the Court applied to stun guns was that they were possessed by 200,000 Americans. Suppressors are at roughly 24 times that number. The Second Amendment Foundation, the NRA, and the American Suppressor Association have filed an amicus brief in _Peterson v. United States_, currently petitioned to the Supreme Court's April 2026 conference, arguing that suppressors are plainly "arms" under the Second Amendment's text and that neither the historical tradition at the founding nor the _Bruen_ analytical framework permits their registration and taxation.
 
-The *Bruen* decision, handed down in 2022, replaced the old means-ends balancing test for Second Amendment challenges with a historical-tradition test: a firearms regulation must be consistent with the historical tradition of gun regulation in the United States at the time of the founding to survive constitutional scrutiny. There is no founding-era tradition of registering or specially taxing a specific category of lawful arms. The NFA itself was upheld in 1934 as a revenue measure under Congress's taxing power, but that rationale has never been tested against the *Bruen* framework as applied to registration requirements. That test is coming, and *Peterson v. United States* may be the vehicle.
+The _Bruen_ decision, handed down in 2022, replaced the old means-ends balancing test for Second Amendment challenges with a historical-tradition test: a firearms regulation must be consistent with the historical tradition of gun regulation in the United States at the time of the founding to survive constitutional scrutiny. There is no founding-era tradition of registering or specially taxing a specific category of lawful arms. The NFA itself was upheld in 1934 as a revenue measure under Congress's taxing power, but that rationale has never been tested against the _Bruen_ framework as applied to registration requirements. That test is coming, and _Peterson v. United States_ may be the vehicle.
 
-What Virginia's HB207 would have done, had it passed, is create a fresh state-level test case with a brand-new tax introduced after the federal tax was eliminated. If the Supreme Court or a federal circuit court is working through the question of whether registering and taxing a specific class of arms is constitutionally permissible under *Bruen*, a newly enacted $500 state-level tax would be precisely the kind of naked, unjustifiable burden that a court applying *Bruen* honestly would have the hardest time upholding.
+What Virginia's HB207 would have done, had it passed, is create a fresh state-level test case with a brand-new tax introduced after the federal tax was eliminated. If the Supreme Court or a federal circuit court is working through the question of whether registering and taxing a specific class of arms is constitutionally permissible under _Bruen_, a newly enacted $500 state-level tax would be precisely the kind of naked, unjustifiable burden that a court applying _Bruen_ honestly would have the hardest time upholding.
 
 ## Where the anti-suppressor ideology actually comes from
 
 I spent some real time trying to understand why suppressor restrictions have become a priority for the anti-gun left in Virginia and nationally. The political energy behind the issue seems disproportionate to any conceivable public safety rationale.
 
-There are two answers that come up consistently. The first is the claim that suppressors make guns harder for law enforcement to respond to because shots become harder to detect. This is weak on the facts. Suppressors reduce a gunshot from roughly 160 decibels to roughly 130 to 140 decibels. That is still louder than a jackhammer at close range. It is not silent. The movie version of suppressor performance, where a pistol makes a quiet click and no one in the building notices, is not how the technology works. Beyond the factual problem, the legal argument does not hold up either: a moderate reduction in sound from a firearm that is already legal to own is not a constitutionally permissible basis for registration, taxation, or restriction under any serious reading of the post-*Bruen* landscape.
+There are two answers that come up consistently. The first is the claim that suppressors make guns harder for law enforcement to respond to because shots become harder to detect. This is weak on the facts. Suppressors reduce a gunshot from roughly 160 decibels to roughly 130 to 140 decibels. That is still louder than a jackhammer at close range. It is not silent. The movie version of suppressor performance, where a pistol makes a quiet click and no one in the building notices, is not how the technology works. Beyond the factual problem, the legal argument does not hold up either: a moderate reduction in sound from a firearm that is already legal to own is not a constitutionally permissible basis for registration, taxation, or restriction under any serious reading of the post-_Bruen_ landscape.
 
 The second answer is more telling and honestly a little alarming. A significant portion of anti-gun sentiment toward suppressors is built on pop culture mythology. When I talk to people about guns in person, the misunderstanding about semi-automatic operation comes up constantly. People genuinely believe that holding the trigger produces automatic fire. That same mythology extends to suppressors. The John Wick version of a suppressed handgun, making a quiet whisper while the shooter fires undetected in a crowded space, is what a lot of people actually picture. They are regulating a fictional weapon. That is not accidental. The anti-gun movement has deliberately cultivated a cultural image of firearms that maximizes fear and minimizes accuracy, and it has worked well enough that it shapes real policy.
 
@@ -91,7 +91,7 @@ It was tabled. That is the right outcome. But the attempt itself, and the 10 to 
 
 ## What comes next
 
-*Peterson v. United States* is at the Supreme Court's doorstep. The NFA constitutional challenges are multiplying in federal district courts. The political environment for suppressor ownership has shifted measurably since the federal tax elimination. None of this means the regulatory fight is won. Virginia's legislature still passed a wide package of gun control measures in the 2026 session, and the suppressor tax was a minor item in a broader assault on firearms rights in the state.
+_Peterson v. United States_ is at the Supreme Court's doorstep. The NFA constitutional challenges are multiplying in federal district courts. The political environment for suppressor ownership has shifted measurably since the federal tax elimination. None of this means the regulatory fight is won. Virginia's legislature still passed a wide package of gun control measures in the 2026 session, and the suppressor tax was a minor item in a broader assault on firearms rights in the state.
 
 But on suppressors specifically, the legal and cultural trend lines are moving in the right direction. Ownership is growing. The constitutional argument is getting sharper and better-supported. The mythology that has sustained suppressor restrictions is crumbling under contact with actual evidence in actual hearings. And the people trying to maintain those restrictions are reduced to introducing bills that get tabled 10 to 0.
 

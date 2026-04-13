@@ -1,30 +1,30 @@
 ---
 title: "Virginia's assault weapons bill is a trap, and a delegate just proved it on the floor"
-date: "2026-02-05"
-youtube_url: "https://www.youtube.com/watch?v=tLzAVzgZRIE"
-youtube_id: "tLzAVzgZRIE"
-thumbnail: "/images/articles/2026-02-05-breaking-virginia-delegate-reveals-hidden-gun-control-trap.jpg"
-duration: "8:30"
-author: "Bearing Freedom"
+date: '2026-02-05'
+youtube_url: 'https://www.youtube.com/watch?v=tLzAVzgZRIE'
+youtube_id: 'tLzAVzgZRIE'
+thumbnail: '/images/articles/2026-02-05-breaking-virginia-delegate-reveals-hidden-gun-control-trap.jpg'
+duration: '8:30'
+author: 'Bearing Freedom'
 topics:
-  - "assault-weapons-ban"
-  - "second-amendment"
-  - "virginia-legislation"
-  - "gun-confiscation"
+  - 'assault-weapons-ban'
+  - 'second-amendment'
+  - 'virginia-legislation'
+  - 'gun-confiscation'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "HB217"
-  - "Assault Weapons Ban"
-  - "Dan Helmer"
-  - "Wren Williams"
-  - "Grandfathering"
-  - "Confiscation"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'HB217'
+  - 'Assault Weapons Ban'
+  - 'Dan Helmer'
+  - 'Wren Williams'
+  - 'Grandfathering'
+  - 'Confiscation'
 image_prompt: "Virginia House of Delegates chamber interior, ornate wood paneling and rows of delegate desks under bright overhead lighting, American and Virginia state flags flanking the speaker's podium, wide angle photojournalistic shot, no people visible"
 sort_index: 41
 ---
@@ -35,7 +35,7 @@ Del. Dan Helmer's HB217 grandfathers your so-called assault firearms if you own 
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=tLzAVzgZRIE). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=tLzAVzgZRIE). Commentary, not legal advice._
 
 ---
 

@@ -1,39 +1,39 @@
 ---
-title: "The IEEPA ruling is actually a win for Trump, the court, and the country"
-date: "2026-02-20"
-youtube_url: "https://www.youtube.com/watch?v=AyiAU-aeUkU"
-youtube_id: "AyiAU-aeUkU"
-thumbnail: "/images/articles/2026-02-20-breaking-massive-6-3-supreme-court-decision-just-released.jpg"
-duration: "8:57"
-author: "Bearing Freedom"
+title: 'The IEEPA ruling is actually a win for Trump, the court, and the country'
+date: '2026-02-20'
+youtube_url: 'https://www.youtube.com/watch?v=AyiAU-aeUkU'
+youtube_id: 'AyiAU-aeUkU'
+thumbnail: '/images/articles/2026-02-20-breaking-massive-6-3-supreme-court-decision-just-released.jpg'
+duration: '8:57'
+author: 'Bearing Freedom'
 topics:
-  - "supreme-court"
-  - "tariffs"
-  - "ieepa"
-  - "trade-policy"
-  - "separation-of-powers"
+  - 'supreme-court'
+  - 'tariffs'
+  - 'ieepa'
+  - 'trade-policy'
+  - 'separation-of-powers'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Supreme Court"
-  - "Tariffs"
-  - "IEEPA"
-  - "Trade Policy"
-  - "Trump Administration"
-  - "Separation of Powers"
-  - "Constitutional Law"
-image_prompt: "Exterior of the US Supreme Court building in bright morning sunlight, wide photojournalistic shot showing the full marble facade and steps, American flag visible, clear blue sky, no crowds"
+  - 'Supreme Court'
+  - 'Tariffs'
+  - 'IEEPA'
+  - 'Trade Policy'
+  - 'Trump Administration'
+  - 'Separation of Powers'
+  - 'Constitutional Law'
+image_prompt: 'Exterior of the US Supreme Court building in bright morning sunlight, wide photojournalistic shot showing the full marble facade and steps, American flag visible, clear blue sky, no crowds'
 sort_index: 27
 ---
 
 ## The bottom line
 
-The Supreme Court's 6-3 decision in *Learning Resources, Inc. v. Trump* striking down the IEEPA tariffs is being treated by most people as a catastrophic loss for President Trump. They are wrong. This ruling is one of the better things to happen to Trump's presidency, to the credibility of the Supreme Court, and to the long-term project of keeping tariff policy grounded in workable law. I got home maybe thirty minutes after the decision posted and had to sit with it for a few minutes before I realized just how much better this outcome is than the alternative.
+The Supreme Court's 6-3 decision in _Learning Resources, Inc. v. Trump_ striking down the IEEPA tariffs is being treated by most people as a catastrophic loss for President Trump. They are wrong. This ruling is one of the better things to happen to Trump's presidency, to the credibility of the Supreme Court, and to the long-term project of keeping tariff policy grounded in workable law. I got home maybe thirty minutes after the decision posted and had to sit with it for a few minutes before I realized just how much better this outcome is than the alternative.
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=AyiAU-aeUkU). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=AyiAU-aeUkU). Commentary, not legal advice._
 
 ---
 
@@ -65,7 +65,7 @@ But that frustration does not make the underlying ruling wrong.
 
 Here is the part that I think matters most and that almost no one is discussing correctly.
 
-The Supreme Court's public standing has taken hits in recent years. The *Dobbs* decision was correct, Bruen was correct, the Department of State decision was correct, and *Nuroqua* was correct. But "correct" and "popular" are not the same thing. A large portion of the country has convinced itself that the conservative justices are simply rubber-stamping whatever the Republican party wants. The polling on Supreme Court approval reflects that perception, regardless of whether it reflects reality.
+The Supreme Court's public standing has taken hits in recent years. The _Dobbs_ decision was correct, Bruen was correct, the Department of State decision was correct, and _Nuroqua_ was correct. But "correct" and "popular" are not the same thing. A large portion of the country has convinced itself that the conservative justices are simply rubber-stamping whatever the Republican party wants. The polling on Supreme Court approval reflects that perception, regardless of whether it reflects reality.
 
 This ruling directly contradicts that narrative. Roberts, Gorsuch, and Barrett voted with the three liberal justices to strike down a major presidential initiative. The majority crosses ideological lines in a way that is genuinely difficult to explain through a partisan lens. Kavanaugh, Thomas, and Alito dissented not because they are pro-Trump but because they read the statute differently and believe the executive tariff power is broad. That is a real jurisprudential disagreement. The justices are doing what justices are supposed to do.
 

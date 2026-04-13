@@ -9,14 +9,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>Virginia Gun Law Tier List | Bearing Freedom</title>
-    <meta name="description" content="Rank Virginia's 2026 anti-gun laws from most to least dangerous. Interactive tier list by Bearing Freedom." />
+    <meta
+      name="description"
+      content="Rank Virginia's 2026 anti-gun laws from most to least dangerous. Interactive tier list by Bearing Freedom."
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <meta property="og:title" content="Virginia Gun Law Tier List | Bearing Freedom" />
-    <meta property="og:description" content="Rank Spanberger's 2026 anti-gun package. Interactive tier list." />
+    <meta
+      property="og:title"
+      content="Virginia Gun Law Tier List | Bearing Freedom"
+    />
+    <meta
+      property="og:description"
+      content="Rank Spanberger's 2026 anti-gun package. Interactive tier list."
+    />
     <meta name="twitter:card" content="summary_large_image" />
 
     <style is:global>
@@ -45,7 +57,11 @@
         --tf: #6366f1;
       }
 
-      * { margin: 0; padding: 0; box-sizing: border-box; }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
       body {
         background: var(--bg);
@@ -62,7 +78,7 @@
         position: sticky;
         top: 0;
         z-index: 100;
-        background: rgba(255,255,255,0.92);
+        background: rgba(255, 255, 255, 0.92);
         backdrop-filter: blur(12px);
         border-bottom: 1px solid var(--border);
         height: 48px;
@@ -135,7 +151,9 @@
         text-transform: uppercase;
         transition: color 0.2s;
       }
-      .topbar-link:hover { color: var(--red-bright); }
+      .topbar-link:hover {
+        color: var(--red-bright);
+      }
 
       /* ═══════════════════════════════════════════════
          LAYOUT
@@ -148,8 +166,12 @@
         min-height: calc(100vh - 48px);
       }
       @media (max-width: 1100px) {
-        .layout { grid-template-columns: 1fr; }
-        .panel { display: none; }
+        .layout {
+          grid-template-columns: 1fr;
+        }
+        .panel {
+          display: none;
+        }
         .panel.mobile-open {
           display: flex;
           position: fixed;
@@ -172,7 +194,7 @@
         max-height: calc(100vh - 48px);
         position: sticky;
         top: 48px;
-        box-shadow: 2px 0 12px rgba(0,0,0,0.04);
+        box-shadow: 2px 0 12px rgba(0, 0, 0, 0.04);
       }
 
       .panel-header {
@@ -209,7 +231,9 @@
         text-align: center;
       }
       @media (max-width: 1100px) {
-        .panel-close { display: block; }
+        .panel-close {
+          display: block;
+        }
       }
 
       .panel-body {
@@ -247,8 +271,12 @@
       }
 
       /* Bill detail */
-      .detail { display: none; }
-      .detail.visible { display: block; }
+      .detail {
+        display: none;
+      }
+      .detail.visible {
+        display: block;
+      }
 
       .detail-badge {
         display: inline-block;
@@ -261,16 +289,46 @@
         border: 1px solid;
         margin-bottom: 1rem;
       }
-      .detail-badge[data-cat="ban"]       { color: var(--red-bright); border-color: var(--red); }
-      .detail-badge[data-cat="carry"]     { color: #ff7043; border-color: #bf360c; }
-      .detail-badge[data-cat="licensing"] { color: var(--amber); border-color: #e65100; }
-      .detail-badge[data-cat="liability"] { color: #ce93d8; border-color: #6a1b9a; }
-      .detail-badge[data-cat="surrender"] { color: #4fc3f7; border-color: #0277bd; }
-      .detail-badge[data-cat="domestic"]  { color: #f48fb1; border-color: #880e4f; }
-      .detail-badge[data-cat="red-flag"]  { color: #ffab91; border-color: #d84315; }
-      .detail-badge[data-cat="storage"]   { color: #a5d6a7; border-color: #2e7d32; }
-      .detail-badge[data-cat="location"]  { color: #90caf9; border-color: #1565c0; }
-      .detail-badge[data-cat="admin"]     { color: #b0bec5; border-color: #455a64; }
+      .detail-badge[data-cat='ban'] {
+        color: var(--red-bright);
+        border-color: var(--red);
+      }
+      .detail-badge[data-cat='carry'] {
+        color: #ff7043;
+        border-color: #bf360c;
+      }
+      .detail-badge[data-cat='licensing'] {
+        color: var(--amber);
+        border-color: #e65100;
+      }
+      .detail-badge[data-cat='liability'] {
+        color: #ce93d8;
+        border-color: #6a1b9a;
+      }
+      .detail-badge[data-cat='surrender'] {
+        color: #4fc3f7;
+        border-color: #0277bd;
+      }
+      .detail-badge[data-cat='domestic'] {
+        color: #f48fb1;
+        border-color: #880e4f;
+      }
+      .detail-badge[data-cat='red-flag'] {
+        color: #ffab91;
+        border-color: #d84315;
+      }
+      .detail-badge[data-cat='storage'] {
+        color: #a5d6a7;
+        border-color: #2e7d32;
+      }
+      .detail-badge[data-cat='location'] {
+        color: #90caf9;
+        border-color: #1565c0;
+      }
+      .detail-badge[data-cat='admin'] {
+        color: #b0bec5;
+        border-color: #455a64;
+      }
 
       .detail-number {
         font-family: 'Teko', sans-serif;
@@ -316,9 +374,13 @@
         display: block;
         margin-bottom: 2px;
       }
-      .detail-meta-value { color: var(--text-dim); }
+      .detail-meta-value {
+        color: var(--text-dim);
+      }
 
-      .detail-section { margin-bottom: 1.25rem; }
+      .detail-section {
+        margin-bottom: 1.25rem;
+      }
       .detail-section-label {
         font-family: 'JetBrains Mono', monospace;
         font-size: 8px;
@@ -393,7 +455,9 @@
       }
 
       /* ── POOL ── */
-      .pool { margin-bottom: 1.25rem; }
+      .pool {
+        margin-bottom: 1.25rem;
+      }
       .pool-header {
         display: flex;
         align-items: center;
@@ -423,8 +487,10 @@
         background: var(--surface);
         border: 2px dashed var(--border);
         border-radius: 8px;
-        transition: border-color 0.2s, background 0.15s;
-        box-shadow: inset 0 2px 4px rgba(0,0,0,0.03);
+        transition:
+          border-color 0.2s,
+          background 0.15s;
+        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.03);
       }
       .pool-zone.drag-over {
         border-color: var(--red);
@@ -440,7 +506,10 @@
         user-select: none;
         position: relative;
         overflow: hidden;
-        transition: transform 0.08s, box-shadow 0.08s, border-color 0.08s;
+        transition:
+          transform 0.08s,
+          box-shadow 0.08s,
+          border-color 0.08s;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -450,25 +519,59 @@
       }
 
       /* Category-specific tile colors — saturated with white text */
-      .tile[data-cat="ban"]       { background: #dc2626; border-color: #b91c1c; }
-      .tile[data-cat="carry"]     { background: #ea580c; border-color: #c2410c; }
-      .tile[data-cat="licensing"] { background: #d97706; border-color: #b45309; }
-      .tile[data-cat="liability"] { background: #7c3aed; border-color: #6d28d9; }
-      .tile[data-cat="surrender"] { background: #0284c7; border-color: #0369a1; }
-      .tile[data-cat="domestic"]  { background: #db2777; border-color: #be185d; }
-      .tile[data-cat="red-flag"]  { background: #e11d48; border-color: #be123c; }
-      .tile[data-cat="storage"]   { background: #059669; border-color: #047857; }
-      .tile[data-cat="location"]  { background: #2563eb; border-color: #1d4ed8; }
-      .tile[data-cat="admin"]     { background: #52525b; border-color: #3f3f46; }
+      .tile[data-cat='ban'] {
+        background: #dc2626;
+        border-color: #b91c1c;
+      }
+      .tile[data-cat='carry'] {
+        background: #ea580c;
+        border-color: #c2410c;
+      }
+      .tile[data-cat='licensing'] {
+        background: #d97706;
+        border-color: #b45309;
+      }
+      .tile[data-cat='liability'] {
+        background: #7c3aed;
+        border-color: #6d28d9;
+      }
+      .tile[data-cat='surrender'] {
+        background: #0284c7;
+        border-color: #0369a1;
+      }
+      .tile[data-cat='domestic'] {
+        background: #db2777;
+        border-color: #be185d;
+      }
+      .tile[data-cat='red-flag'] {
+        background: #e11d48;
+        border-color: #be123c;
+      }
+      .tile[data-cat='storage'] {
+        background: #059669;
+        border-color: #047857;
+      }
+      .tile[data-cat='location'] {
+        background: #2563eb;
+        border-color: #1d4ed8;
+      }
+      .tile[data-cat='admin'] {
+        background: #52525b;
+        border-color: #3f3f46;
+      }
 
       .tile:hover {
         transform: translateY(-3px) scale(1.03);
-        box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
         filter: brightness(1.1);
       }
-      .tile:active { cursor: grabbing; }
+      .tile:active {
+        cursor: grabbing;
+      }
       .tile.selected {
-        box-shadow: 0 0 0 3px var(--text), 0 0 20px var(--red-glow);
+        box-shadow:
+          0 0 0 3px var(--text),
+          0 0 20px var(--red-glow);
         filter: brightness(1.1);
       }
       .tile.dragging {
@@ -482,13 +585,13 @@
         color: #fff;
         line-height: 1;
         letter-spacing: 0.03em;
-        text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
       }
       .tile-nick {
         font-family: 'JetBrains Mono', monospace;
         font-size: 8.5px;
         font-weight: 500;
-        color: rgba(255,255,255,0.9);
+        color: rgba(255, 255, 255, 0.9);
         letter-spacing: 0.04em;
         text-transform: uppercase;
         line-height: 1.35;
@@ -497,11 +600,14 @@
         display: -webkit-box;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
-        text-shadow: 0 1px 1px rgba(0,0,0,0.15);
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
       }
 
       /* ── TIER ROWS ── */
-      .tiers { display: flex; flex-direction: column; }
+      .tiers {
+        display: flex;
+        flex-direction: column;
+      }
 
       .tier-row {
         display: flex;
@@ -530,7 +636,7 @@
         color: #fff;
         position: relative;
         z-index: 1;
-        text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
       }
       .tier-desc {
         font-family: 'JetBrains Mono', monospace;
@@ -538,17 +644,29 @@
         font-weight: 600;
         letter-spacing: 0.1em;
         text-transform: uppercase;
-        color: rgba(255,255,255,0.75);
+        color: rgba(255, 255, 255, 0.75);
         position: relative;
         z-index: 1;
       }
 
-      .tier-label[data-tier="S"] { background: linear-gradient(135deg, #dc2626, #991b1b); }
-      .tier-label[data-tier="A"] { background: linear-gradient(135deg, #ea580c, #c2410c); }
-      .tier-label[data-tier="B"] { background: linear-gradient(135deg, #d97706, #b45309); }
-      .tier-label[data-tier="C"] { background: linear-gradient(135deg, #65a30d, #4d7c0f); }
-      .tier-label[data-tier="D"] { background: linear-gradient(135deg, #0891b2, #0e7490); }
-      .tier-label[data-tier="F"] { background: linear-gradient(135deg, #6366f1, #4f46e5); }
+      .tier-label[data-tier='S'] {
+        background: linear-gradient(135deg, #dc2626, #991b1b);
+      }
+      .tier-label[data-tier='A'] {
+        background: linear-gradient(135deg, #ea580c, #c2410c);
+      }
+      .tier-label[data-tier='B'] {
+        background: linear-gradient(135deg, #d97706, #b45309);
+      }
+      .tier-label[data-tier='C'] {
+        background: linear-gradient(135deg, #65a30d, #4d7c0f);
+      }
+      .tier-label[data-tier='D'] {
+        background: linear-gradient(135deg, #0891b2, #0e7490);
+      }
+      .tier-label[data-tier='F'] {
+        background: linear-gradient(135deg, #6366f1, #4f46e5);
+      }
 
       .tier-drop {
         flex: 1;
@@ -566,7 +684,9 @@
         background: #fef2f2;
       }
 
-      .tier-drop .tile { height: 72px; }
+      .tier-drop .tile {
+        height: 72px;
+      }
 
       /* ═══════════════════════════════════════════════
          CONTROLS
@@ -594,7 +714,10 @@
         color: var(--text-faint);
         letter-spacing: 0.05em;
       }
-      .page-foot a { color: var(--red); text-decoration: none; }
+      .page-foot a {
+        color: var(--red);
+        text-decoration: none;
+      }
 
       /* ═══════════════════════════════════════════════
          SCREENSHOT MODE
@@ -603,12 +726,16 @@
       body.ss-mode .panel,
       body.ss-mode .pool,
       body.ss-mode .controls,
-      body.ss-mode .page-foot { display: none !important; }
+      body.ss-mode .page-foot {
+        display: none !important;
+      }
       body.ss-mode .layout {
         grid-template-columns: 1fr;
         min-height: auto;
       }
-      body.ss-mode .tier-area { padding: 0.75rem; }
+      body.ss-mode .tier-area {
+        padding: 0.75rem;
+      }
 
       /* Exit button stays visible in clean view */
       .exit-ss {
@@ -631,15 +758,25 @@
         opacity: 0.5;
         transition: opacity 0.2s;
       }
-      .exit-ss:hover { opacity: 1; }
-      body.ss-mode .exit-ss { display: block; }
+      .exit-ss:hover {
+        opacity: 1;
+      }
+      body.ss-mode .exit-ss {
+        display: block;
+      }
 
       /* ═══════════════════════════════════════════════
          ANIMATIONS
       ═══════════════════════════════════════════════ */
       @keyframes tile-in {
-        from { opacity: 0; transform: translateY(6px) scale(0.97); }
-        to { opacity: 1; transform: translateY(0) scale(1); }
+        from {
+          opacity: 0;
+          transform: translateY(6px) scale(0.97);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0) scale(1);
+        }
       }
       .tile {
         animation: tile-in 0.1s ease-out;
@@ -673,7 +810,6 @@
 
     <!-- Layout -->
     <div class="layout">
-
       <!-- Info Panel -->
       <aside class="panel" id="panel">
         <div class="panel-header">
@@ -684,11 +820,18 @@
         <div class="panel-body">
           <div class="panel-empty" id="panel-empty">
             <div class="panel-empty-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                <path d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5"/>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5"></path>
               </svg>
             </div>
-            <p>Select a bill to view<br/>full breakdown</p>
+            <p>Select a bill to view<br />full breakdown</p>
           </div>
           <div class="detail" id="detail"></div>
         </div>
@@ -696,7 +839,6 @@
 
       <!-- Tier List -->
       <div class="tier-area">
-
         <!-- Pool -->
         <div class="pool">
           <div class="pool-header">
@@ -753,7 +895,10 @@
         </div>
 
         <div class="controls">
-          <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--text-faint);letter-spacing:0.05em;margin-right:auto;">Deadline: April 13, 2026</span>
+          <span
+            style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--text-faint);letter-spacing:0.05em;margin-right:auto;"
+            >Deadline: April 13, 2026</span
+          >
         </div>
       </div>
     </div>
@@ -767,400 +912,428 @@
     </div>
 
     <script is:inline>
-    // ═══════════════════════════════════════════════
-    //  BILL DATA — All 17 bills on Spanberger's desk
-    // ═══════════════════════════════════════════════
-    const BILLS = [
-      {
-        id: 'hb217',
-        number: 'HB 217',
-        companion: 'SB 749',
-        nick: 'Assault Weapons Ban',
-        cat: 'ban',
-        catLabel: 'Firearm Ban',
-        effective: 'July 1, 2026',
-        sponsors: 'Del. Dan Helmer (D), Sen. Saddam Salim (D)',
-        status: 'Enrolled',
-        summary: 'Bans sale, transfer, manufacture, and importation of semi-automatic firearms classified as "assault firearms" using a features-based definition. Restricts magazines to 15-round capacity.',
-        provisions: [
-          'Six-category features test covering rifles, pistols, shotguns',
-          'One-feature test for rifles (pistol grip, threaded barrel, folding stock, etc.)',
-          'Two-feature test for pistols',
-          '15-round magazine capacity limit',
-          'Grandfather clause for existing owners — possession and range use only',
-          'Cannot sell grandfathered firearms within Virginia',
-          'Under-21 prohibition overrides grandfather clause entirely',
-        ],
-        penalty: 'Class 1 misdemeanor (12 months jail, $2,500 fine per violation). 3-year total firearm prohibition upon conviction.',
-      },
-      {
-        id: 'hb1524',
-        number: 'HB 1524',
-        companion: 'SB 727',
-        nick: 'Public Carry Ban',
-        cat: 'carry',
-        catLabel: 'Carry Restriction',
-        effective: 'July 1, 2026',
-        sponsors: 'Sen. Michael J. Jones (D)',
-        status: 'Enrolled',
-        summary: 'Statewide ban on carrying or transporting "assault firearms" on any public property. No CHP exemption. Destroys Virginia\'s open carry tradition using a one-feature test even broader than HB 217.',
-        provisions: [
-          'Modified one-feature test (broader definition than the AWB)',
-          'Covers any public street, road, sidewalk, park, or place open to the public',
-          'No exemption for concealed handgun permit holders',
-          'No safe transport exception for locked, unloaded firearms in vehicles',
-          'Expands statewide — previously limited to a handful of cities/counties',
-          'Pistols: any 1 feature including fixed 10+ mag or threaded barrel',
-          'Shotguns: any 1 feature including 7+ round fixed mag',
-        ],
-        penalty: 'Class 1 misdemeanor. Permanent criminal record.',
-      },
-      {
-        id: 'hb1525',
-        number: 'HB 1525',
-        companion: 'SB 643',
-        nick: 'Permit to Purchase',
-        cat: 'licensing',
-        catLabel: 'Licensing',
-        effective: 'July 1, 2026',
-        sponsors: 'Del. Michelle Maldonado (D), Sen. Scott Surovell (D)',
-        status: 'Conference',
-        summary: 'Mandatory purchaser license for all firearm buyers (21+ only). Complete ban on all firearm purchases for anyone under 21. No military exemption.',
-        provisions: [
-          'In-person application to State Police or local law enforcement',
-          'Fingerprinting via FBI/CCRE database',
-          'DCJS-approved safety course with minimum 10 live rounds',
-          'Up to 45-day processing time',
-          '5-year validity, entered into VCIN database',
-          'Revocation triggers State Police firearm removal authority',
-          'Under-21: banned from purchasing any firearm from any source',
-          'No military exemption for active-duty service members',
-        ],
-        penalty: 'Class 1 misdemeanor. Class 6 felony for selling without verification. Class 4 felony straw purchase (mandatory 1-year minimum).',
-      },
-      {
-        id: 'hb21',
-        number: 'HB 21',
-        companion: 'SB 27',
-        nick: 'Lawsuit Machine',
-        cat: 'liability',
-        catLabel: 'Industry Liability',
-        effective: 'July 1, 2026',
-        sponsors: 'Del. Dan Helmer (D), Sen. Jennifer Carroll Foy (D)',
-        status: 'Enrolled',
-        summary: 'Creates a new civil liability framework targeting the entire firearms industry. Undefined "reasonable controls" standard designed to generate endless litigation and route around federal PLCAA protection.',
-        provisions: [
-          'Covers manufacturers, importers, distributors, dealers, sellers',
-          '"Firearm-related products" includes ammo, components, accessories',
-          'Undefined "reasonable controls" standard — determined after the fact',
-          'AG, any local prosecutor, and any private citizen can sue',
-          'Compensatory damages, punitive damages (no cap), attorney fees',
-          'No intent requirement for public nuisance liability',
-          'Creates state law to trigger PLCAA "predicate exception"',
-        ],
-        penalty: 'Unlimited civil liability. Punitive damages with no cap. Injunctions. Attorney fees. Court-supervised compliance.',
-      },
-      {
-        id: 'hb40',
-        number: 'HB 40',
-        companion: 'SB 323',
-        nick: 'Ghost Gun Ban',
-        cat: 'ban',
-        catLabel: 'Firearm Ban',
-        effective: 'Jan 1 / Jul 1, 2027',
-        sponsors: 'Del. Marcus Simon (D), Sen. Adam Ebbin (D)',
-        status: 'Enrolled',
-        summary: 'Bans 3D-printed and unserialized firearms. No grandfather clause — simply possessing an unserialized firearm after July 2027 is criminal.',
-        provisions: [
-          'Bans firearms with less than 3.7oz detectable metal (targets 3D printing)',
-          'Bans possession of any unserialized firearm after 7/1/2027',
-          'No grandfather clause for existing owners',
-          'Must serialize through FFL, surrender to LEO, or destroy before deadline',
-          'Covers 3D printing, CNC milling, and all other manufacturing processes',
-          'Staggered: sale/transfer bans 1/1/2027, possession ban 7/1/2027',
-        ],
-        penalty: '1st offense: Class 1 misdemeanor. 2nd+: Class 4 felony (2-10 years, $100K). Plastic firearms: Class 5 felony (1-10 years).',
-      },
-      {
-        id: 'hb19',
-        number: 'HB 19',
-        companion: 'SB 160',
-        nick: 'Dating Gun Ban',
-        cat: 'domestic',
-        catLabel: 'Domestic',
-        effective: 'July 1, 2026',
-        sponsors: 'Del. Cia Price (D), Sen. Danica Roem (D)',
-        status: 'Enrolled',
-        summary: 'Expands 3-year firearm ban from clear domestic categories to vaguely defined "intimate partner" and "cohabitant" using a subjective four-factor test with no bright lines.',
-        provisions: [
-          '"Intimate partner": romantic, dating, or sexual relationship within 12 months',
-          'Subjective four-factor test: length, nature, frequency, type of interaction',
-          '"Cohabitant" expanded: anyone who lived with person in past 12 months',
-          'Triggered by misdemeanor assault & battery conviction',
-          'Bans purchase, possession, and transport of all firearms for 3 years',
-        ],
-        penalty: 'Class 1 misdemeanor (12 months, $2,500). 3rd+ offense: Class 6 felony.',
-      },
-      {
-        id: 'hb93',
-        number: 'HB 93',
-        companion: 'SB 38',
-        nick: 'Gun Surrender',
-        cat: 'surrender',
-        catLabel: 'Confiscation',
-        effective: 'July 1, 2026',
-        sponsors: 'Del. Elizabeth Bennett-Parker (D), Sen. Barbara Favola (D)',
-        status: 'Enrolled',
-        summary: '24-hour firearm surrender deadline for protective orders. Creates government documentation of all private firearm transfers. Search warrant advisory.',
-        provisions: [
-          '24-hour surrender deadline after protective order',
-          'Private transfers restricted: recipient must be 21+, cannot live with you',
-          'All transfers documented on court form with name, address, signature',
-          '48-hour court certification requirement',
-          'Search warrant advisory from the court',
-          'Creates government record of private firearm transfers',
-        ],
-        penalty: 'Class 1 misdemeanor for non-compliance.',
-      },
-      {
-        id: 'hb110',
-        number: 'HB 110',
-        companion: 'SB 496',
-        nick: 'Vehicle Gun Ban',
-        cat: 'carry',
-        catLabel: 'Carry Restriction',
-        effective: 'July 1, 2026',
-        sponsors: 'Sponsor TBD',
-        status: 'Enrolled',
-        summary: 'Restricts keeping firearms in vehicles for self-defense. A visible handgun left in an unattended vehicle triggers fines and vehicle impoundment.',
-        provisions: [
-          'Restricts firearms in unattended vehicles',
-          '$500 civil penalty for visible handgun in unattended vehicle',
-          'Vehicle subject to impoundment',
-          'Targets lawful gun owners who keep firearms in their cars',
-        ],
-        penalty: '$500 civil penalty. Vehicle impoundment.',
-      },
-      {
-        id: 'sb115',
-        number: 'SB 115',
-        companion: '',
-        nick: 'CHP Reciprocity Kill',
-        cat: 'licensing',
-        catLabel: 'Licensing',
-        effective: 'July 1, 2026',
-        sponsors: 'Sponsor TBD',
-        status: 'Enrolled',
-        summary: 'Jeopardizes concealed carry permit reciprocity agreements with other states. Virginia CHP holders traveling out of state and visitors from other states both affected.',
-        provisions: [
-          'Undermines existing reciprocity agreements',
-          'Affects Virginia CHP holders traveling to other states',
-          'Affects out-of-state permit holders visiting Virginia',
-          'Could leave Virginia CHP holders unrecognized in dozens of states',
-        ],
-        penalty: 'N/A — affects permit recognition, not a criminal statute.',
-      },
-      {
-        id: 'hb626',
-        number: 'HB 626',
-        companion: 'SB 272',
-        nick: 'Campus Carry Ban',
-        cat: 'location',
-        catLabel: 'Location Ban',
-        effective: 'July 1, 2026',
-        sponsors: 'Sponsor TBD',
-        status: 'Enrolled',
-        summary: 'Limits who can carry firearms at public colleges and universities. Bans firearms in all buildings owned or leased by the Commonwealth including universities and Capitol Square.',
-        provisions: [
-          'Bans firearms on public higher education property',
-          'Covers all Commonwealth-owned or leased buildings',
-          'Includes Capitol Square and surrounding government property',
-          'Eliminates existing exceptions for CHP holders on campus',
-        ],
-        penalty: 'Class 1 misdemeanor.',
-      },
-      {
-        id: 'hb229',
-        number: 'HB 229',
-        companion: 'SB 173',
-        nick: 'Hospital Gun Ban',
-        cat: 'location',
-        catLabel: 'Location Ban',
-        effective: 'July 1, 2026',
-        sponsors: 'Sponsor TBD',
-        status: 'Enrolled',
-        summary: 'Prohibits weapons in hospitals that provide mental health or developmental services. Mandates firearm forfeiture upon violation.',
-        provisions: [
-          'Bans all weapons in qualifying hospitals',
-          'Covers any hospital providing mental health services',
-          'Covers any hospital providing developmental services',
-          'Mandatory forfeiture of firearm upon violation',
-        ],
-        penalty: 'Class 1 misdemeanor. Mandatory firearm forfeiture.',
-      },
-      {
-        id: 'hb916',
-        number: 'HB 916',
-        companion: '',
-        nick: 'CHP Class Overhaul',
-        cat: 'admin',
-        catLabel: 'Administrative',
-        effective: 'July 1, 2026',
-        sponsors: 'Sponsor TBD',
-        status: 'Enrolled',
-        summary: 'Expands concealed carry permit class requirements and removes NRA and USCCA courses from approved training guidelines.',
-        provisions: [
-          'Expanded curriculum requirements for CHP classes',
-          'NRA courses removed from approved guidelines',
-          'USCCA courses removed from approved guidelines',
-          'Forces applicants into state-approved training programs only',
-        ],
-        penalty: 'N/A — administrative change to CHP process.',
-      },
-      {
-        id: 'hb901',
-        number: 'HB 901',
-        companion: '',
-        nick: 'Red Flag Expansion',
-        cat: 'red-flag',
-        catLabel: 'Red Flag',
-        effective: 'July 1, 2026',
-        sponsors: 'Sponsor TBD',
-        status: 'Enrolled',
-        summary: 'Massively expands who can file Emergency Risk Protective Orders to strip gun rights. Adds family members, intimate partners, school admins, and medical professionals as petitioners.',
-        provisions: [
-          'Family members can petition to strip firearm rights',
-          'Intimate partners can petition',
-          'School administrators can petition',
-          'Medical professionals can petition',
-          'Substance abuse evidence can trigger orders',
-          'Emergency orders suspend 2A rights before any hearing',
-        ],
-        penalty: 'Loss of firearm rights via court order. Criminal charges for non-compliance.',
-      },
-      {
-        id: 'hb702',
-        number: 'HB 702',
-        companion: '',
-        nick: 'Mandatory Buybacks',
-        cat: 'admin',
-        catLabel: 'Administrative',
-        effective: 'January 1, 2028',
-        sponsors: 'Sponsor TBD',
-        status: 'Enrolled',
-        summary: 'Mandates every county and city law enforcement agency implement a firearm give-back or buy-back program by January 2028.',
-        provisions: [
-          'Every county/city LEO must implement a buyback program',
-          'Deadline: January 1, 2028',
-          'Funded by taxpayer money',
-          'Creates infrastructure for future mandatory buyback programs',
-        ],
-        penalty: 'N/A — mandate on law enforcement agencies.',
-      },
-      {
-        id: 'hb909',
-        number: 'HB 909',
-        companion: '',
-        nick: 'Polling Place Ban',
-        cat: 'location',
-        catLabel: 'Location Ban',
-        effective: 'July 1, 2026',
-        sponsors: 'Sponsor TBD',
-        status: 'Enrolled',
-        summary: 'Bans carrying firearms within 100 feet of polling places, election offices, recount locations, and absentee voting locations during election activities.',
-        provisions: [
-          '100-foot buffer zone around all polling places',
-          'Covers election result certification buildings',
-          'Covers recount locations',
-          'Covers absentee voting locations',
-          'Active during all election-related activities',
-        ],
-        penalty: 'Class 1 misdemeanor.',
-      },
-      {
-        id: 'hb871',
-        number: 'HB 871',
-        companion: 'SB 348',
-        nick: 'Secure Storage',
-        cat: 'storage',
-        catLabel: 'Storage',
-        effective: 'July 1, 2026',
-        sponsors: 'Sponsor TBD',
-        status: 'Enrolled',
-        summary: 'Mandates gun owners store firearms in combination, coded, or biometric locks in any home where minors or prohibited persons are present.',
-        provisions: [
-          'Firearms must be stored with combination, coded, or biometric locks',
-          'Applies to homes with minors present',
-          'Applies to homes with prohibited persons present',
-          'Government dictates how you store firearms in your own home',
-        ],
-        penalty: 'Class 1 misdemeanor.',
-      },
-      {
-        id: 'hb969',
-        number: 'HB 969',
-        companion: 'SB 364',
-        nick: 'Gun Control Center',
-        cat: 'admin',
-        catLabel: 'Administrative',
-        effective: 'July 1, 2026',
-        sponsors: 'Sponsor TBD',
-        status: 'Enrolled',
-        summary: 'Establishes the Virginia Gun Violence Prevention Center as a permanent state-funded gun control coordinating body.',
-        provisions: [
-          'Creates permanent state agency for "gun violence prevention"',
-          'Statewide coordinator role for firearm policy',
-          'Taxpayer-funded anti-gun research and advocacy',
-          'Institutionalizes gun control into Virginia state government',
-        ],
-        penalty: 'N/A — creates a government agency.',
-      },
-    ];
+      // ═══════════════════════════════════════════════
+      //  BILL DATA — All 17 bills on Spanberger's desk
+      // ═══════════════════════════════════════════════
+      const BILLS = [
+        {
+          id: 'hb217',
+          number: 'HB 217',
+          companion: 'SB 749',
+          nick: 'Assault Weapons Ban',
+          cat: 'ban',
+          catLabel: 'Firearm Ban',
+          effective: 'July 1, 2026',
+          sponsors: 'Del. Dan Helmer (D), Sen. Saddam Salim (D)',
+          status: 'Enrolled',
+          summary:
+            'Bans sale, transfer, manufacture, and importation of semi-automatic firearms classified as "assault firearms" using a features-based definition. Restricts magazines to 15-round capacity.',
+          provisions: [
+            'Six-category features test covering rifles, pistols, shotguns',
+            'One-feature test for rifles (pistol grip, threaded barrel, folding stock, etc.)',
+            'Two-feature test for pistols',
+            '15-round magazine capacity limit',
+            'Grandfather clause for existing owners — possession and range use only',
+            'Cannot sell grandfathered firearms within Virginia',
+            'Under-21 prohibition overrides grandfather clause entirely',
+          ],
+          penalty:
+            'Class 1 misdemeanor (12 months jail, $2,500 fine per violation). 3-year total firearm prohibition upon conviction.',
+        },
+        {
+          id: 'hb1524',
+          number: 'HB 1524',
+          companion: 'SB 727',
+          nick: 'Public Carry Ban',
+          cat: 'carry',
+          catLabel: 'Carry Restriction',
+          effective: 'July 1, 2026',
+          sponsors: 'Sen. Michael J. Jones (D)',
+          status: 'Enrolled',
+          summary:
+            'Statewide ban on carrying or transporting "assault firearms" on any public property. No CHP exemption. Destroys Virginia\'s open carry tradition using a one-feature test even broader than HB 217.',
+          provisions: [
+            'Modified one-feature test (broader definition than the AWB)',
+            'Covers any public street, road, sidewalk, park, or place open to the public',
+            'No exemption for concealed handgun permit holders',
+            'No safe transport exception for locked, unloaded firearms in vehicles',
+            'Expands statewide — previously limited to a handful of cities/counties',
+            'Pistols: any 1 feature including fixed 10+ mag or threaded barrel',
+            'Shotguns: any 1 feature including 7+ round fixed mag',
+          ],
+          penalty: 'Class 1 misdemeanor. Permanent criminal record.',
+        },
+        {
+          id: 'hb1525',
+          number: 'HB 1525',
+          companion: 'SB 643',
+          nick: 'Permit to Purchase',
+          cat: 'licensing',
+          catLabel: 'Licensing',
+          effective: 'July 1, 2026',
+          sponsors: 'Del. Michelle Maldonado (D), Sen. Scott Surovell (D)',
+          status: 'Conference',
+          summary:
+            'Mandatory purchaser license for all firearm buyers (21+ only). Complete ban on all firearm purchases for anyone under 21. No military exemption.',
+          provisions: [
+            'In-person application to State Police or local law enforcement',
+            'Fingerprinting via FBI/CCRE database',
+            'DCJS-approved safety course with minimum 10 live rounds',
+            'Up to 45-day processing time',
+            '5-year validity, entered into VCIN database',
+            'Revocation triggers State Police firearm removal authority',
+            'Under-21: banned from purchasing any firearm from any source',
+            'No military exemption for active-duty service members',
+          ],
+          penalty:
+            'Class 1 misdemeanor. Class 6 felony for selling without verification. Class 4 felony straw purchase (mandatory 1-year minimum).',
+        },
+        {
+          id: 'hb21',
+          number: 'HB 21',
+          companion: 'SB 27',
+          nick: 'Lawsuit Machine',
+          cat: 'liability',
+          catLabel: 'Industry Liability',
+          effective: 'July 1, 2026',
+          sponsors: 'Del. Dan Helmer (D), Sen. Jennifer Carroll Foy (D)',
+          status: 'Enrolled',
+          summary:
+            'Creates a new civil liability framework targeting the entire firearms industry. Undefined "reasonable controls" standard designed to generate endless litigation and route around federal PLCAA protection.',
+          provisions: [
+            'Covers manufacturers, importers, distributors, dealers, sellers',
+            '"Firearm-related products" includes ammo, components, accessories',
+            'Undefined "reasonable controls" standard — determined after the fact',
+            'AG, any local prosecutor, and any private citizen can sue',
+            'Compensatory damages, punitive damages (no cap), attorney fees',
+            'No intent requirement for public nuisance liability',
+            'Creates state law to trigger PLCAA "predicate exception"',
+          ],
+          penalty:
+            'Unlimited civil liability. Punitive damages with no cap. Injunctions. Attorney fees. Court-supervised compliance.',
+        },
+        {
+          id: 'hb40',
+          number: 'HB 40',
+          companion: 'SB 323',
+          nick: 'Ghost Gun Ban',
+          cat: 'ban',
+          catLabel: 'Firearm Ban',
+          effective: 'Jan 1 / Jul 1, 2027',
+          sponsors: 'Del. Marcus Simon (D), Sen. Adam Ebbin (D)',
+          status: 'Enrolled',
+          summary:
+            'Bans 3D-printed and unserialized firearms. No grandfather clause — simply possessing an unserialized firearm after July 2027 is criminal.',
+          provisions: [
+            'Bans firearms with less than 3.7oz detectable metal (targets 3D printing)',
+            'Bans possession of any unserialized firearm after 7/1/2027',
+            'No grandfather clause for existing owners',
+            'Must serialize through FFL, surrender to LEO, or destroy before deadline',
+            'Covers 3D printing, CNC milling, and all other manufacturing processes',
+            'Staggered: sale/transfer bans 1/1/2027, possession ban 7/1/2027',
+          ],
+          penalty:
+            '1st offense: Class 1 misdemeanor. 2nd+: Class 4 felony (2-10 years, $100K). Plastic firearms: Class 5 felony (1-10 years).',
+        },
+        {
+          id: 'hb19',
+          number: 'HB 19',
+          companion: 'SB 160',
+          nick: 'Dating Gun Ban',
+          cat: 'domestic',
+          catLabel: 'Domestic',
+          effective: 'July 1, 2026',
+          sponsors: 'Del. Cia Price (D), Sen. Danica Roem (D)',
+          status: 'Enrolled',
+          summary:
+            'Expands 3-year firearm ban from clear domestic categories to vaguely defined "intimate partner" and "cohabitant" using a subjective four-factor test with no bright lines.',
+          provisions: [
+            '"Intimate partner": romantic, dating, or sexual relationship within 12 months',
+            'Subjective four-factor test: length, nature, frequency, type of interaction',
+            '"Cohabitant" expanded: anyone who lived with person in past 12 months',
+            'Triggered by misdemeanor assault & battery conviction',
+            'Bans purchase, possession, and transport of all firearms for 3 years',
+          ],
+          penalty:
+            'Class 1 misdemeanor (12 months, $2,500). 3rd+ offense: Class 6 felony.',
+        },
+        {
+          id: 'hb93',
+          number: 'HB 93',
+          companion: 'SB 38',
+          nick: 'Gun Surrender',
+          cat: 'surrender',
+          catLabel: 'Confiscation',
+          effective: 'July 1, 2026',
+          sponsors:
+            'Del. Elizabeth Bennett-Parker (D), Sen. Barbara Favola (D)',
+          status: 'Enrolled',
+          summary:
+            '24-hour firearm surrender deadline for protective orders. Creates government documentation of all private firearm transfers. Search warrant advisory.',
+          provisions: [
+            '24-hour surrender deadline after protective order',
+            'Private transfers restricted: recipient must be 21+, cannot live with you',
+            'All transfers documented on court form with name, address, signature',
+            '48-hour court certification requirement',
+            'Search warrant advisory from the court',
+            'Creates government record of private firearm transfers',
+          ],
+          penalty: 'Class 1 misdemeanor for non-compliance.',
+        },
+        {
+          id: 'hb110',
+          number: 'HB 110',
+          companion: 'SB 496',
+          nick: 'Vehicle Gun Ban',
+          cat: 'carry',
+          catLabel: 'Carry Restriction',
+          effective: 'July 1, 2026',
+          sponsors: 'Sponsor TBD',
+          status: 'Enrolled',
+          summary:
+            'Restricts keeping firearms in vehicles for self-defense. A visible handgun left in an unattended vehicle triggers fines and vehicle impoundment.',
+          provisions: [
+            'Restricts firearms in unattended vehicles',
+            '$500 civil penalty for visible handgun in unattended vehicle',
+            'Vehicle subject to impoundment',
+            'Targets lawful gun owners who keep firearms in their cars',
+          ],
+          penalty: '$500 civil penalty. Vehicle impoundment.',
+        },
+        {
+          id: 'sb115',
+          number: 'SB 115',
+          companion: '',
+          nick: 'CHP Reciprocity Kill',
+          cat: 'licensing',
+          catLabel: 'Licensing',
+          effective: 'July 1, 2026',
+          sponsors: 'Sponsor TBD',
+          status: 'Enrolled',
+          summary:
+            'Jeopardizes concealed carry permit reciprocity agreements with other states. Virginia CHP holders traveling out of state and visitors from other states both affected.',
+          provisions: [
+            'Undermines existing reciprocity agreements',
+            'Affects Virginia CHP holders traveling to other states',
+            'Affects out-of-state permit holders visiting Virginia',
+            'Could leave Virginia CHP holders unrecognized in dozens of states',
+          ],
+          penalty: 'N/A — affects permit recognition, not a criminal statute.',
+        },
+        {
+          id: 'hb626',
+          number: 'HB 626',
+          companion: 'SB 272',
+          nick: 'Campus Carry Ban',
+          cat: 'location',
+          catLabel: 'Location Ban',
+          effective: 'July 1, 2026',
+          sponsors: 'Sponsor TBD',
+          status: 'Enrolled',
+          summary:
+            'Limits who can carry firearms at public colleges and universities. Bans firearms in all buildings owned or leased by the Commonwealth including universities and Capitol Square.',
+          provisions: [
+            'Bans firearms on public higher education property',
+            'Covers all Commonwealth-owned or leased buildings',
+            'Includes Capitol Square and surrounding government property',
+            'Eliminates existing exceptions for CHP holders on campus',
+          ],
+          penalty: 'Class 1 misdemeanor.',
+        },
+        {
+          id: 'hb229',
+          number: 'HB 229',
+          companion: 'SB 173',
+          nick: 'Hospital Gun Ban',
+          cat: 'location',
+          catLabel: 'Location Ban',
+          effective: 'July 1, 2026',
+          sponsors: 'Sponsor TBD',
+          status: 'Enrolled',
+          summary:
+            'Prohibits weapons in hospitals that provide mental health or developmental services. Mandates firearm forfeiture upon violation.',
+          provisions: [
+            'Bans all weapons in qualifying hospitals',
+            'Covers any hospital providing mental health services',
+            'Covers any hospital providing developmental services',
+            'Mandatory forfeiture of firearm upon violation',
+          ],
+          penalty: 'Class 1 misdemeanor. Mandatory firearm forfeiture.',
+        },
+        {
+          id: 'hb916',
+          number: 'HB 916',
+          companion: '',
+          nick: 'CHP Class Overhaul',
+          cat: 'admin',
+          catLabel: 'Administrative',
+          effective: 'July 1, 2026',
+          sponsors: 'Sponsor TBD',
+          status: 'Enrolled',
+          summary:
+            'Expands concealed carry permit class requirements and removes NRA and USCCA courses from approved training guidelines.',
+          provisions: [
+            'Expanded curriculum requirements for CHP classes',
+            'NRA courses removed from approved guidelines',
+            'USCCA courses removed from approved guidelines',
+            'Forces applicants into state-approved training programs only',
+          ],
+          penalty: 'N/A — administrative change to CHP process.',
+        },
+        {
+          id: 'hb901',
+          number: 'HB 901',
+          companion: '',
+          nick: 'Red Flag Expansion',
+          cat: 'red-flag',
+          catLabel: 'Red Flag',
+          effective: 'July 1, 2026',
+          sponsors: 'Sponsor TBD',
+          status: 'Enrolled',
+          summary:
+            'Massively expands who can file Emergency Risk Protective Orders to strip gun rights. Adds family members, intimate partners, school admins, and medical professionals as petitioners.',
+          provisions: [
+            'Family members can petition to strip firearm rights',
+            'Intimate partners can petition',
+            'School administrators can petition',
+            'Medical professionals can petition',
+            'Substance abuse evidence can trigger orders',
+            'Emergency orders suspend 2A rights before any hearing',
+          ],
+          penalty:
+            'Loss of firearm rights via court order. Criminal charges for non-compliance.',
+        },
+        {
+          id: 'hb702',
+          number: 'HB 702',
+          companion: '',
+          nick: 'Mandatory Buybacks',
+          cat: 'admin',
+          catLabel: 'Administrative',
+          effective: 'January 1, 2028',
+          sponsors: 'Sponsor TBD',
+          status: 'Enrolled',
+          summary:
+            'Mandates every county and city law enforcement agency implement a firearm give-back or buy-back program by January 2028.',
+          provisions: [
+            'Every county/city LEO must implement a buyback program',
+            'Deadline: January 1, 2028',
+            'Funded by taxpayer money',
+            'Creates infrastructure for future mandatory buyback programs',
+          ],
+          penalty: 'N/A — mandate on law enforcement agencies.',
+        },
+        {
+          id: 'hb909',
+          number: 'HB 909',
+          companion: '',
+          nick: 'Polling Place Ban',
+          cat: 'location',
+          catLabel: 'Location Ban',
+          effective: 'July 1, 2026',
+          sponsors: 'Sponsor TBD',
+          status: 'Enrolled',
+          summary:
+            'Bans carrying firearms within 100 feet of polling places, election offices, recount locations, and absentee voting locations during election activities.',
+          provisions: [
+            '100-foot buffer zone around all polling places',
+            'Covers election result certification buildings',
+            'Covers recount locations',
+            'Covers absentee voting locations',
+            'Active during all election-related activities',
+          ],
+          penalty: 'Class 1 misdemeanor.',
+        },
+        {
+          id: 'hb871',
+          number: 'HB 871',
+          companion: 'SB 348',
+          nick: 'Secure Storage',
+          cat: 'storage',
+          catLabel: 'Storage',
+          effective: 'July 1, 2026',
+          sponsors: 'Sponsor TBD',
+          status: 'Enrolled',
+          summary:
+            'Mandates gun owners store firearms in combination, coded, or biometric locks in any home where minors or prohibited persons are present.',
+          provisions: [
+            'Firearms must be stored with combination, coded, or biometric locks',
+            'Applies to homes with minors present',
+            'Applies to homes with prohibited persons present',
+            'Government dictates how you store firearms in your own home',
+          ],
+          penalty: 'Class 1 misdemeanor.',
+        },
+        {
+          id: 'hb969',
+          number: 'HB 969',
+          companion: 'SB 364',
+          nick: 'Gun Control Center',
+          cat: 'admin',
+          catLabel: 'Administrative',
+          effective: 'July 1, 2026',
+          sponsors: 'Sponsor TBD',
+          status: 'Enrolled',
+          summary:
+            'Establishes the Virginia Gun Violence Prevention Center as a permanent state-funded gun control coordinating body.',
+          provisions: [
+            'Creates permanent state agency for "gun violence prevention"',
+            'Statewide coordinator role for firearm policy',
+            'Taxpayer-funded anti-gun research and advocacy',
+            'Institutionalizes gun control into Virginia state government',
+          ],
+          penalty: 'N/A — creates a government agency.',
+        },
+      ];
 
-    // ═══════════════════════════════════════════════
-    //  STATE
-    // ═══════════════════════════════════════════════
-    let selectedId = null;
-    let dragEl = null;
+      // ═══════════════════════════════════════════════
+      //  STATE
+      // ═══════════════════════════════════════════════
+      let selectedId = null;
+      let dragEl = null;
 
-    // ═══════════════════════════════════════════════
-    //  CREATE TILE
-    // ═══════════════════════════════════════════════
-    function createTile(bill, delay) {
-      const el = document.createElement('div');
-      el.className = 'tile';
-      el.dataset.id = bill.id;
-      el.dataset.cat = bill.cat;
-      el.draggable = true;
-      // No stagger — all tiles appear instantly
-      el.innerHTML = `<div class="tile-number">${bill.number}</div><div class="tile-nick">${bill.nick}</div>`;
+      // ═══════════════════════════════════════════════
+      //  CREATE TILE
+      // ═══════════════════════════════════════════════
+      function createTile(bill, delay) {
+        const el = document.createElement('div');
+        el.className = 'tile';
+        el.dataset.id = bill.id;
+        el.dataset.cat = bill.cat;
+        el.draggable = true;
+        // No stagger — all tiles appear instantly
+        el.innerHTML = `<div class="tile-number">${bill.number}</div><div class="tile-nick">${bill.nick}</div>`;
 
-      el.addEventListener('click', (e) => {
-        e.stopPropagation();
-        selectBill(bill.id);
-      });
-      el.addEventListener('dragstart', onDragStart);
-      el.addEventListener('dragend', onDragEnd);
-      el.addEventListener('touchstart', onTouchStart, { passive: false });
-      return el;
-    }
+        el.addEventListener('click', (e) => {
+          e.stopPropagation();
+          selectBill(bill.id);
+        });
+        el.addEventListener('dragstart', onDragStart);
+        el.addEventListener('dragend', onDragEnd);
+        el.addEventListener('touchstart', onTouchStart, { passive: false });
+        return el;
+      }
 
-    // ═══════════════════════════════════════════════
-    //  INFO PANEL
-    // ═══════════════════════════════════════════════
-    function selectBill(id) {
-      const bill = BILLS.find(b => b.id === id);
-      if (!bill) return;
-      selectedId = id;
+      // ═══════════════════════════════════════════════
+      //  INFO PANEL
+      // ═══════════════════════════════════════════════
+      function selectBill(id) {
+        const bill = BILLS.find((b) => b.id === id);
+        if (!bill) return;
+        selectedId = id;
 
-      document.querySelectorAll('.tile').forEach(t => t.classList.remove('selected'));
-      document.querySelectorAll(`.tile[data-id="${id}"]`).forEach(t => t.classList.add('selected'));
+        document
+          .querySelectorAll('.tile')
+          .forEach((t) => t.classList.remove('selected'));
+        document
+          .querySelectorAll(`.tile[data-id="${id}"]`)
+          .forEach((t) => t.classList.add('selected'));
 
-      document.getElementById('panel-empty').style.display = 'none';
-      const d = document.getElementById('detail');
-      d.className = 'detail visible';
+        document.getElementById('panel-empty').style.display = 'none';
+        const d = document.getElementById('detail');
+        d.className = 'detail visible';
 
-      d.innerHTML = `
+        d.innerHTML = `
         <div class="detail-badge" data-cat="${bill.cat}">${bill.catLabel}</div>
         <div class="detail-number">${bill.number}</div>
         ${bill.companion ? `<div class="detail-companion">Companion: ${bill.companion}</div>` : ''}
@@ -1184,7 +1357,7 @@
 
         <div class="detail-section">
           <div class="detail-section-label">Key Provisions</div>
-          <ul>${bill.provisions.map(p => `<li>${p}</li>`).join('')}</ul>
+          <ul>${bill.provisions.map((p) => `<li>${p}</li>`).join('')}</ul>
         </div>
 
         <div class="detail-section">
@@ -1198,215 +1371,128 @@
         </div>
       `;
 
-      // Mobile
-      if (window.innerWidth <= 1100) {
-        document.getElementById('panel').classList.add('mobile-open');
+        // Mobile
+        if (window.innerWidth <= 1100) {
+          document.getElementById('panel').classList.add('mobile-open');
+        }
       }
-    }
 
-    document.getElementById('panel-close')?.addEventListener('click', () => {
-      document.getElementById('panel').classList.remove('mobile-open');
-    });
-
-    // Deselect
-    document.addEventListener('click', (e) => {
-      if (!e.target.closest('.tile') && !e.target.closest('.panel')) {
-        selectedId = null;
-        document.querySelectorAll('.tile').forEach(t => t.classList.remove('selected'));
-        document.getElementById('panel-empty').style.display = 'flex';
-        document.getElementById('detail').className = 'detail';
-      }
-    });
-
-    // ═══════════════════════════════════════════════
-    //  POOL COUNT
-    // ═══════════════════════════════════════════════
-    function updatePoolCount() {
-      const n = document.getElementById('pool').children.length;
-      document.getElementById('pool-count').textContent = n + ' bill' + (n !== 1 ? 's' : '');
-    }
-
-    // ═══════════════════════════════════════════════
-    //  DRAG & DROP — indicator-based, no DOM shift
-    // ═══════════════════════════════════════════════
-
-    // Insertion indicator line
-    const indicator = document.createElement('div');
-    indicator.style.cssText = 'width:3px;height:70px;background:var(--red);border-radius:2px;flex-shrink:0;pointer-events:none;display:none;margin:0 -2px;';
-
-    let dragOriginParent = null;
-    let dragOriginNext = null;
-
-    function onDragStart(e) {
-      dragEl = e.target.closest('.tile');
-      e.dataTransfer.effectAllowed = 'move';
-      e.dataTransfer.setData('text/plain', dragEl.dataset.id);
-
-      // Remember original position in case drag is cancelled
-      dragOriginParent = dragEl.parentElement;
-      dragOriginNext = dragEl.nextElementSibling;
-
-      // Hide the tile after browser captures drag image
-      requestAnimationFrame(() => {
-        dragEl.style.display = 'none';
+      document.getElementById('panel-close')?.addEventListener('click', () => {
+        document.getElementById('panel').classList.remove('mobile-open');
       });
-    }
 
-    function onDragEnd() {
-      // Remove indicator
-      indicator.style.display = 'none';
-      if (indicator.parentElement) indicator.remove();
+      // Deselect
+      document.addEventListener('click', (e) => {
+        if (!e.target.closest('.tile') && !e.target.closest('.panel')) {
+          selectedId = null;
+          document
+            .querySelectorAll('.tile')
+            .forEach((t) => t.classList.remove('selected'));
+          document.getElementById('panel-empty').style.display = 'flex';
+          document.getElementById('detail').className = 'detail';
+        }
+      });
 
-      if (dragEl) {
-        // If tile was never dropped (drag cancelled), restore it
-        if (dragEl.style.display === 'none') {
-          dragEl.style.display = '';
-          if (!dragEl.parentElement) {
-            if (dragOriginNext) {
-              dragOriginParent.insertBefore(dragEl, dragOriginNext);
-            } else {
-              dragOriginParent.appendChild(dragEl);
+      // ═══════════════════════════════════════════════
+      //  POOL COUNT
+      // ═══════════════════════════════════════════════
+      function updatePoolCount() {
+        const n = document.getElementById('pool').children.length;
+        document.getElementById('pool-count').textContent =
+          n + ' bill' + (n !== 1 ? 's' : '');
+      }
+
+      // ═══════════════════════════════════════════════
+      //  DRAG & DROP — indicator-based, no DOM shift
+      // ═══════════════════════════════════════════════
+
+      // Insertion indicator line
+      const indicator = document.createElement('div');
+      indicator.style.cssText =
+        'width:3px;height:70px;background:var(--red);border-radius:2px;flex-shrink:0;pointer-events:none;display:none;margin:0 -2px;';
+
+      let dragOriginParent = null;
+      let dragOriginNext = null;
+
+      function onDragStart(e) {
+        dragEl = e.target.closest('.tile');
+        e.dataTransfer.effectAllowed = 'move';
+        e.dataTransfer.setData('text/plain', dragEl.dataset.id);
+
+        // Remember original position in case drag is cancelled
+        dragOriginParent = dragEl.parentElement;
+        dragOriginNext = dragEl.nextElementSibling;
+
+        // Hide the tile after browser captures drag image
+        requestAnimationFrame(() => {
+          dragEl.style.display = 'none';
+        });
+      }
+
+      function onDragEnd() {
+        // Remove indicator
+        indicator.style.display = 'none';
+        if (indicator.parentElement) indicator.remove();
+
+        if (dragEl) {
+          // If tile was never dropped (drag cancelled), restore it
+          if (dragEl.style.display === 'none') {
+            dragEl.style.display = '';
+            if (!dragEl.parentElement) {
+              if (dragOriginNext) {
+                dragOriginParent.insertBefore(dragEl, dragOriginNext);
+              } else {
+                dragOriginParent.appendChild(dragEl);
+              }
             }
           }
+          dragEl.style.display = '';
         }
-        dragEl.style.display = '';
+        dragEl = null;
+        dragOriginParent = null;
+        dragOriginNext = null;
+        document
+          .querySelectorAll('.drag-over')
+          .forEach((z) => z.classList.remove('drag-over'));
+        updatePoolCount();
       }
-      dragEl = null;
-      dragOriginParent = null;
-      dragOriginNext = null;
-      document.querySelectorAll('.drag-over').forEach(z => z.classList.remove('drag-over'));
-      updatePoolCount();
-    }
 
-    function getInsertTarget(zone, x) {
-      const tiles = [...zone.querySelectorAll('.tile')];
-      if (!tiles.length) return null;
-      for (const tile of tiles) {
-        const r = tile.getBoundingClientRect();
-        if (x < r.left + r.width / 2) return tile;
-      }
-      return null;
-    }
-
-    // Resolve the actual drop zone from any element (handles clicking
-    // on tier-row, tier-label, or the drop zone itself)
-    function resolveZone(el) {
-      if (!el) return null;
-      const zone = el.closest('[data-zone]');
-      if (zone) return zone;
-      // If we hit a tier-row but not the drop zone, use its drop zone
-      const row = el.closest('.tier-row');
-      if (row) return row.querySelector('[data-zone]');
-      return null;
-    }
-
-    function handleDragOver(e) {
-      e.preventDefault();
-      e.dataTransfer.dropEffect = 'move';
-      const zone = resolveZone(e.target);
-      if (!zone) return;
-
-      // Clear old highlights
-      document.querySelectorAll('.drag-over').forEach(z => {
-        if (z !== zone) z.classList.remove('drag-over');
-      });
-      zone.classList.add('drag-over');
-
-      // Show indicator at insertion point
-      const target = getInsertTarget(zone, e.clientX);
-      indicator.style.display = '';
-      if (target) {
-        zone.insertBefore(indicator, target);
-      } else {
-        zone.appendChild(indicator);
-      }
-    }
-
-    function handleDrop(e) {
-      e.preventDefault();
-      const zone = resolveZone(e.target);
-      document.querySelectorAll('.drag-over').forEach(z => z.classList.remove('drag-over'));
-      if (!dragEl) return;
-
-      dragEl.style.display = '';
-      if (indicator.parentElement) {
-        indicator.parentElement.insertBefore(dragEl, indicator);
-      } else if (zone) {
-        zone.appendChild(dragEl);
-      }
-      indicator.style.display = 'none';
-      if (indicator.parentElement) indicator.remove();
-      updatePoolCount();
-    }
-
-    function handleDragLeave(e) {
-      const zone = resolveZone(e.target);
-      if (!zone) return;
-      // Only remove highlight if we truly left the zone
-      const related = resolveZone(e.relatedTarget);
-      if (related !== zone) {
-        zone.classList.remove('drag-over');
-        if (indicator.parentElement === zone) {
-          indicator.style.display = 'none';
-          indicator.remove();
+      function getInsertTarget(zone, x) {
+        const tiles = [...zone.querySelectorAll('.tile')];
+        if (!tiles.length) return null;
+        for (const tile of tiles) {
+          const r = tile.getBoundingClientRect();
+          if (x < r.left + r.width / 2) return tile;
         }
+        return null;
       }
-    }
 
-    function setupDropZones() {
-      // Listen on the entire tier area + pool so events never get missed
-      const tierArea = document.querySelector('.tier-area');
-      tierArea.addEventListener('dragover', handleDragOver);
-      tierArea.addEventListener('drop', handleDrop);
-      tierArea.addEventListener('dragleave', handleDragLeave);
-    }
+      // Resolve the actual drop zone from any element (handles clicking
+      // on tier-row, tier-label, or the drop zone itself)
+      function resolveZone(el) {
+        if (!el) return null;
+        const zone = el.closest('[data-zone]');
+        if (zone) return zone;
+        // If we hit a tier-row but not the drop zone, use its drop zone
+        const row = el.closest('.tier-row');
+        if (row) return row.querySelector('[data-zone]');
+        return null;
+      }
 
-    // ═══════════════════════════════════════════════
-    //  TOUCH DRAG
-    // ═══════════════════════════════════════════════
-    let touchEl = null, touchGhost = null, tox = 0, toy = 0;
-
-    function onTouchStart(e) {
-      const tile = e.target.closest('.tile');
-      if (!tile) return;
-      const t = e.touches[0], r = tile.getBoundingClientRect();
-      tox = t.clientX - r.left;
-      toy = t.clientY - r.top;
-
-      tile._tt = setTimeout(() => {
+      function handleDragOver(e) {
         e.preventDefault();
-        touchEl = tile;
-        tile.classList.add('dragging');
-        touchGhost = tile.cloneNode(true);
-        touchGhost.className = 'tile drag-ghost';
-        touchGhost.dataset.cat = tile.dataset.cat;
-        touchGhost.style.width = r.width + 'px';
-        touchGhost.style.height = r.height + 'px';
-        touchGhost.style.left = (t.clientX - tox) + 'px';
-        touchGhost.style.top = (t.clientY - toy) + 'px';
-        document.body.appendChild(touchGhost);
-        document.addEventListener('touchmove', onTouchMove, { passive: false });
-        document.addEventListener('touchend', onTouchEnd);
-      }, 200);
-    }
+        e.dataTransfer.dropEffect = 'move';
+        const zone = resolveZone(e.target);
+        if (!zone) return;
 
-    function onTouchMove(e) {
-      if (!touchEl) return;
-      e.preventDefault();
-      const t = e.touches[0];
-      if (touchGhost) {
-        touchGhost.style.left = (t.clientX - tox) + 'px';
-        touchGhost.style.top = (t.clientY - toy) + 'px';
-      }
-      document.querySelectorAll('.drag-over').forEach(z => z.classList.remove('drag-over'));
-      if (touchGhost) touchGhost.style.display = 'none';
-      const el = document.elementFromPoint(t.clientX, t.clientY);
-      if (touchGhost) touchGhost.style.display = '';
-      const zone = resolveZone(el);
-      if (zone) {
-        document.querySelectorAll('.drag-over').forEach(z => { if (z !== zone) z.classList.remove('drag-over'); });
+        // Clear old highlights
+        document.querySelectorAll('.drag-over').forEach((z) => {
+          if (z !== zone) z.classList.remove('drag-over');
+        });
         zone.classList.add('drag-over');
-        const target = getInsertTarget(zone, t.clientX);
+
+        // Show indicator at insertion point
+        const target = getInsertTarget(zone, e.clientX);
         indicator.style.display = '';
         if (target) {
           zone.insertBefore(indicator, target);
@@ -1414,83 +1500,203 @@
           zone.appendChild(indicator);
         }
       }
-    }
 
-    function onTouchEnd(e) {
-      if (touchEl?._tt) clearTimeout(touchEl._tt);
-      if (!touchEl) return;
+      function handleDrop(e) {
+        e.preventDefault();
+        const zone = resolveZone(e.target);
+        document
+          .querySelectorAll('.drag-over')
+          .forEach((z) => z.classList.remove('drag-over'));
+        if (!dragEl) return;
 
-      // Insert at indicator position
-      if (indicator.parentElement) {
-        indicator.parentElement.insertBefore(touchEl, indicator);
+        dragEl.style.display = '';
+        if (indicator.parentElement) {
+          indicator.parentElement.insertBefore(dragEl, indicator);
+        } else if (zone) {
+          zone.appendChild(dragEl);
+        }
+        indicator.style.display = 'none';
+        if (indicator.parentElement) indicator.remove();
+        updatePoolCount();
       }
-      indicator.style.display = 'none';
-      if (indicator.parentElement) indicator.remove();
 
-      touchEl.classList.remove('dragging');
-      if (touchGhost) touchGhost.remove();
-      document.querySelectorAll('.drag-over').forEach(z => z.classList.remove('drag-over'));
-      touchEl = null; touchGhost = null;
-      document.removeEventListener('touchmove', onTouchMove);
-      document.removeEventListener('touchend', onTouchEnd);
-      updatePoolCount();
-    }
+      function handleDragLeave(e) {
+        const zone = resolveZone(e.target);
+        if (!zone) return;
+        // Only remove highlight if we truly left the zone
+        const related = resolveZone(e.relatedTarget);
+        if (related !== zone) {
+          zone.classList.remove('drag-over');
+          if (indicator.parentElement === zone) {
+            indicator.style.display = 'none';
+            indicator.remove();
+          }
+        }
+      }
 
-    document.addEventListener('touchmove', (e) => {
-      const tile = e.target.closest('.tile');
-      if (tile?._tt && !touchEl) clearTimeout(tile._tt);
-    }, { passive: true });
+      function setupDropZones() {
+        // Listen on the entire tier area + pool so events never get missed
+        const tierArea = document.querySelector('.tier-area');
+        tierArea.addEventListener('dragover', handleDragOver);
+        tierArea.addEventListener('drop', handleDrop);
+        tierArea.addEventListener('dragleave', handleDragLeave);
+      }
 
-    // ═══════════════════════════════════════════════
-    //  CONTROLS
-    // ═══════════════════════════════════════════════
-    document.getElementById('btn-reset')?.addEventListener('click', () => {
+      // ═══════════════════════════════════════════════
+      //  TOUCH DRAG
+      // ═══════════════════════════════════════════════
+      let touchEl = null,
+        touchGhost = null,
+        tox = 0,
+        toy = 0;
+
+      function onTouchStart(e) {
+        const tile = e.target.closest('.tile');
+        if (!tile) return;
+        const t = e.touches[0],
+          r = tile.getBoundingClientRect();
+        tox = t.clientX - r.left;
+        toy = t.clientY - r.top;
+
+        tile._tt = setTimeout(() => {
+          e.preventDefault();
+          touchEl = tile;
+          tile.classList.add('dragging');
+          touchGhost = tile.cloneNode(true);
+          touchGhost.className = 'tile drag-ghost';
+          touchGhost.dataset.cat = tile.dataset.cat;
+          touchGhost.style.width = r.width + 'px';
+          touchGhost.style.height = r.height + 'px';
+          touchGhost.style.left = t.clientX - tox + 'px';
+          touchGhost.style.top = t.clientY - toy + 'px';
+          document.body.appendChild(touchGhost);
+          document.addEventListener('touchmove', onTouchMove, {
+            passive: false,
+          });
+          document.addEventListener('touchend', onTouchEnd);
+        }, 200);
+      }
+
+      function onTouchMove(e) {
+        if (!touchEl) return;
+        e.preventDefault();
+        const t = e.touches[0];
+        if (touchGhost) {
+          touchGhost.style.left = t.clientX - tox + 'px';
+          touchGhost.style.top = t.clientY - toy + 'px';
+        }
+        document
+          .querySelectorAll('.drag-over')
+          .forEach((z) => z.classList.remove('drag-over'));
+        if (touchGhost) touchGhost.style.display = 'none';
+        const el = document.elementFromPoint(t.clientX, t.clientY);
+        if (touchGhost) touchGhost.style.display = '';
+        const zone = resolveZone(el);
+        if (zone) {
+          document.querySelectorAll('.drag-over').forEach((z) => {
+            if (z !== zone) z.classList.remove('drag-over');
+          });
+          zone.classList.add('drag-over');
+          const target = getInsertTarget(zone, t.clientX);
+          indicator.style.display = '';
+          if (target) {
+            zone.insertBefore(indicator, target);
+          } else {
+            zone.appendChild(indicator);
+          }
+        }
+      }
+
+      function onTouchEnd(e) {
+        if (touchEl?._tt) clearTimeout(touchEl._tt);
+        if (!touchEl) return;
+
+        // Insert at indicator position
+        if (indicator.parentElement) {
+          indicator.parentElement.insertBefore(touchEl, indicator);
+        }
+        indicator.style.display = 'none';
+        if (indicator.parentElement) indicator.remove();
+
+        touchEl.classList.remove('dragging');
+        if (touchGhost) touchGhost.remove();
+        document
+          .querySelectorAll('.drag-over')
+          .forEach((z) => z.classList.remove('drag-over'));
+        touchEl = null;
+        touchGhost = null;
+        document.removeEventListener('touchmove', onTouchMove);
+        document.removeEventListener('touchend', onTouchEnd);
+        updatePoolCount();
+      }
+
+      document.addEventListener(
+        'touchmove',
+        (e) => {
+          const tile = e.target.closest('.tile');
+          if (tile?._tt && !touchEl) clearTimeout(tile._tt);
+        },
+        { passive: true },
+      );
+
+      // ═══════════════════════════════════════════════
+      //  CONTROLS
+      // ═══════════════════════════════════════════════
+      document.getElementById('btn-reset')?.addEventListener('click', () => {
+        const pool = document.getElementById('pool');
+        document.querySelectorAll('.tile').forEach((t) => pool.appendChild(t));
+        updatePoolCount();
+      });
+
+      function toggleCleanView() {
+        document.body.classList.toggle('ss-mode');
+        const btn = document.getElementById('btn-ss');
+        btn.textContent = document.body.classList.contains('ss-mode')
+          ? 'Exit Clean View'
+          : 'Clean View';
+        btn.classList.toggle('active');
+      }
+
+      document
+        .getElementById('btn-ss')
+        ?.addEventListener('click', toggleCleanView);
+      document
+        .getElementById('btn-exit-ss')
+        ?.addEventListener('click', toggleCleanView);
+
+      // ═══════════════════════════════════════════════
+      //  INIT
+      // ═══════════════════════════════════════════════
+      // Default display order
+      const BILL_ORDER = [
+        'hb217', // Assault Weapons Ban
+        'hb916', // CHP Class Overhaul
+        'hb40', // Ghost Gun Ban
+        'hb1525', // Permit to Purchase
+        'hb1524', // Public Carry Ban
+        'hb21', // Lawsuit Machine
+        'hb19', // Dating Gun Ban
+        'sb115', // CHP Reciprocity Kill
+        'hb702', // Mandatory Buybacks
+        'hb901', // Red Flag Expansion
+        'hb93', // Gun Surrender
+        'hb626', // Campus Carry Ban
+        'hb969', // Gun Control Center
+        'hb871', // Secure Storage
+        'hb110', // Vehicle Gun Ban
+        'hb229', // Hospital Gun Ban
+        'hb909', // Polling Place Ban
+      ];
+
+      const orderedBills = BILL_ORDER.map((id) =>
+        BILLS.find((b) => b.id === id),
+      ).filter(Boolean);
       const pool = document.getElementById('pool');
-      document.querySelectorAll('.tile').forEach(t => pool.appendChild(t));
+      orderedBills.forEach((bill) => {
+        pool.appendChild(createTile(bill, 0));
+      });
+      setupDropZones();
       updatePoolCount();
-    });
-
-    function toggleCleanView() {
-      document.body.classList.toggle('ss-mode');
-      const btn = document.getElementById('btn-ss');
-      btn.textContent = document.body.classList.contains('ss-mode') ? 'Exit Clean View' : 'Clean View';
-      btn.classList.toggle('active');
-    }
-
-    document.getElementById('btn-ss')?.addEventListener('click', toggleCleanView);
-    document.getElementById('btn-exit-ss')?.addEventListener('click', toggleCleanView);
-
-    // ═══════════════════════════════════════════════
-    //  INIT
-    // ═══════════════════════════════════════════════
-    // Default display order
-    const BILL_ORDER = [
-      'hb217',   // Assault Weapons Ban
-      'hb916',   // CHP Class Overhaul
-      'hb40',    // Ghost Gun Ban
-      'hb1525',  // Permit to Purchase
-      'hb1524',  // Public Carry Ban
-      'hb21',    // Lawsuit Machine
-      'hb19',    // Dating Gun Ban
-      'sb115',   // CHP Reciprocity Kill
-      'hb702',   // Mandatory Buybacks
-      'hb901',   // Red Flag Expansion
-      'hb93',    // Gun Surrender
-      'hb626',   // Campus Carry Ban
-      'hb969',   // Gun Control Center
-      'hb871',   // Secure Storage
-      'hb110',   // Vehicle Gun Ban
-      'hb229',   // Hospital Gun Ban
-      'hb909',   // Polling Place Ban
-    ];
-
-    const orderedBills = BILL_ORDER.map(id => BILLS.find(b => b.id === id)).filter(Boolean);
-    const pool = document.getElementById('pool');
-    orderedBills.forEach(bill => {
-      pool.appendChild(createTile(bill, 0));
-    });
-    setupDropZones();
-    updatePoolCount();
     </script>
   </body>
 </html>

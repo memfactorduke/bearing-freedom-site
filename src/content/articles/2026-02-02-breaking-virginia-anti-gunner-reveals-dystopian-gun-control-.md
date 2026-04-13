@@ -1,33 +1,33 @@
 ---
-title: "A Virginia delegate just told you why he wants to disarm you, and he used his own military service to do it"
-date: "2026-02-02"
-youtube_url: "https://www.youtube.com/watch?v=kVCalBrxxl4"
-youtube_id: "kVCalBrxxl4"
-thumbnail: "/images/articles/2026-02-02-breaking-virginia-anti-gunner-reveals-dystopian-gun-control-.jpg"
-duration: "10:58"
-author: "Bearing Freedom"
+title: 'A Virginia delegate just told you why he wants to disarm you, and he used his own military service to do it'
+date: '2026-02-02'
+youtube_url: 'https://www.youtube.com/watch?v=kVCalBrxxl4'
+youtube_id: 'kVCalBrxxl4'
+thumbnail: '/images/articles/2026-02-02-breaking-virginia-anti-gunner-reveals-dystopian-gun-control-.jpg'
+duration: '10:58'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "assault-weapons-ban"
-  - "magazine-ban"
-  - "state-legislation"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'assault-weapons-ban'
+  - 'magazine-ban'
+  - 'state-legislation'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "Dan Helmer"
-  - "Assault Weapons Ban"
-  - "Magazine Ban"
-  - "HB 217"
-  - "No Grandfather Clause"
-  - "Self-Defense"
-  - "Virginia General Assembly"
-image_prompt: "Virginia state capitol building exterior bathed in morning sunlight, American flag flying, wide steps leading to the entrance, clear blue sky, photojournalistic style, no people"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'Dan Helmer'
+  - 'Assault Weapons Ban'
+  - 'Magazine Ban'
+  - 'HB 217'
+  - 'No Grandfather Clause'
+  - 'Self-Defense'
+  - 'Virginia General Assembly'
+image_prompt: 'Virginia state capitol building exterior bathed in morning sunlight, American flag flying, wide steps leading to the entrance, clear blue sky, photojournalistic style, no people'
 sort_index: 43
 ---
 
@@ -37,7 +37,7 @@ Virginia Delegate Dan Helmer, an Army veteran who served in Iraq and Afghanistan
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=kVCalBrxxl4). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=kVCalBrxxl4). Commentary, not legal advice._
 
 ---
 
@@ -85,9 +85,9 @@ The same pattern has played out in state after state. People leave high-tax, hea
 
 ## What comes next for Virginia
 
-Gun Owners of America has announced it will challenge the assault weapons ban in court after Spanberger signs it. The legal basis is solid. In *New York State Rifle & Pistol Association v. Bruen* (2022), the Supreme Court established that the Second Amendment protects arms in common use for lawful purposes, and that restrictions must be consistent with the historical tradition of firearm regulation. The AR-15 is the most popular rifle in America, with tens of millions in civilian circulation. It is in common use. It is used every day for home defense, sport shooting, and hunting. Under *Heller* and *Bruen*, that is supposed to end the analysis.
+Gun Owners of America has announced it will challenge the assault weapons ban in court after Spanberger signs it. The legal basis is solid. In _New York State Rifle & Pistol Association v. Bruen_ (2022), the Supreme Court established that the Second Amendment protects arms in common use for lawful purposes, and that restrictions must be consistent with the historical tradition of firearm regulation. The AR-15 is the most popular rifle in America, with tens of millions in civilian circulation. It is in common use. It is used every day for home defense, sport shooting, and hunting. Under _Heller_ and _Bruen_, that is supposed to end the analysis.
 
-The Supreme Court will likely have to address this directly. Lower courts have been inconsistent in their application of the *Bruen* test, some finding ways to uphold restrictions that appear facially inconsistent with the standard. The question is not whether the legal argument exists to strike these bills down. It clearly does. The question is how long it takes and how much damage is done to Virginia's gun culture in the interim.
+The Supreme Court will likely have to address this directly. Lower courts have been inconsistent in their application of the _Bruen_ test, some finding ways to uphold restrictions that appear facially inconsistent with the standard. The question is not whether the legal argument exists to strike these bills down. It clearly does. The question is how long it takes and how much damage is done to Virginia's gun culture in the interim.
 
 Right now, HB 217 is working its way to Spanberger's desk. She will sign it. The damage that does to Virginia gun owners, in terms of criminal liability, property rights, and the chilling effect on lawful ownership, will not be undone the moment a court eventually strikes it down. The people who went to jail for possessing a magazine they bought legally will not get those convictions erased automatically. The gun stores that close because the business model becomes unworkable will not reopen. The manufacturers who stop shipping to Virginia will not immediately reverse course.
 
@@ -95,6 +95,6 @@ Virginia is a cautionary example. It is the Democratic legislative playbook exec
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=kVCalBrxxl4). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=kVCalBrxxl4). Commentary, not legal advice._
 
 ---

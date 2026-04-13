@@ -1,29 +1,29 @@
 ---
 title: "Virginia's mandatory buyback law isn't about guns. It's about infrastructure."
-date: "2026-03-31"
-youtube_url: "https://www.youtube.com/watch?v=4D7hvDgimHo"
-youtube_id: "4D7hvDgimHo"
-thumbnail: "/images/articles/2026-03-31-virginia-mandatory-buyback.jpg"
-duration: "8:15"
-author: "Bearing Freedom"
+date: '2026-03-31'
+youtube_url: 'https://www.youtube.com/watch?v=4D7hvDgimHo'
+youtube_id: '4D7hvDgimHo'
+thumbnail: '/images/articles/2026-03-31-virginia-mandatory-buyback.jpg'
+duration: '8:15'
+author: 'Bearing Freedom'
 topics:
-  - "gun-buyback"
-  - "second-amendment"
-  - "virginia-legislation"
-  - "gun-confiscation"
+  - 'gun-buyback'
+  - 'second-amendment'
+  - 'virginia-legislation'
+  - 'gun-confiscation'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "HB702"
-  - "Gun Buyback"
-  - "Confiscation"
-  - "Spanberger"
-image_prompt: "Virginia state capitol building in Richmond, bright morning sunlight on white neoclassical columns, American flag and Virginia state flag visible, wide angle shot from street level, photojournalistic style, no people"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'HB702'
+  - 'Gun Buyback'
+  - 'Confiscation'
+  - 'Spanberger'
+image_prompt: 'Virginia state capitol building in Richmond, bright morning sunlight on white neoclassical columns, American flag and Virginia state flag visible, wide angle shot from street level, photojournalistic style, no people'
 sort_index: 8
 ---
 
@@ -33,7 +33,7 @@ Virginia's HB702 doesn't confiscate a single gun today. That's the whole point. 
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=4D7hvDgimHo). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=4D7hvDgimHo). Commentary, not legal advice._
 
 ---
 

@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
   --color-void: #0a0a0a;
@@ -42,23 +42,43 @@ body::before {
 
 /* ---- Animations ---- */
 @keyframes fadeUp {
-  from { opacity: 0; transform: translateY(24px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes slideIn {
-  from { opacity: 0; transform: translateX(30px); }
-  to   { opacity: 1; transform: translateX(0); }
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @keyframes revealLine {
-  from { width: 0; }
-  to   { width: 100%; }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 .animate-fade-up {
@@ -73,12 +93,24 @@ body::before {
   animation: slideIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
-.stagger-1 { animation-delay: 0.06s; }
-.stagger-2 { animation-delay: 0.12s; }
-.stagger-3 { animation-delay: 0.18s; }
-.stagger-4 { animation-delay: 0.24s; }
-.stagger-5 { animation-delay: 0.30s; }
-.stagger-6 { animation-delay: 0.36s; }
+.stagger-1 {
+  animation-delay: 0.06s;
+}
+.stagger-2 {
+  animation-delay: 0.12s;
+}
+.stagger-3 {
+  animation-delay: 0.18s;
+}
+.stagger-4 {
+  animation-delay: 0.24s;
+}
+.stagger-5 {
+  animation-delay: 0.3s;
+}
+.stagger-6 {
+  animation-delay: 0.36s;
+}
 
 /* ---- Article prose ---- */
 .prose h2 {
@@ -108,14 +140,17 @@ body::before {
   color: #b8b4af;
 }
 
-.prose em { font-style: italic; }
+.prose em {
+  font-style: italic;
+}
 
 .prose strong {
   font-weight: 700;
   color: var(--color-text);
 }
 
-.prose ul, .prose ol {
+.prose ul,
+.prose ol {
   font-family: var(--font-body);
   font-size: 1.125rem;
   line-height: 1.85;
@@ -123,7 +158,9 @@ body::before {
   padding-left: 1.5rem;
 }
 
-.prose li { margin-bottom: 0.6rem; }
+.prose li {
+  margin-bottom: 0.6rem;
+}
 
 .prose li::marker {
   color: var(--color-accent);
@@ -138,7 +175,9 @@ body::before {
   transition: opacity 0.2s;
 }
 
-.prose a:hover { opacity: 0.75; }
+.prose a:hover {
+  opacity: 0.75;
+}
 
 .prose hr {
   border: none;
@@ -158,10 +197,19 @@ body::before {
 }
 
 /* ---- Scrollbar ---- */
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: var(--color-void); }
-::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: var(--color-accent); }
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-void);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent);
+}
 
 /* ---- Selection ---- */
 ::selection {
@@ -170,17 +218,22 @@ body::before {
 }
 
 /* ---- Transitions ---- */
-a, button {
+a,
+button {
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* ---- Card hover ---- */
 .card-lift {
-  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease;
+  transition:
+    transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.35s ease;
 }
 .card-lift:hover {
   transform: translateY(-6px);
-  box-shadow: 0 20px 40px -12px rgba(255, 77, 0, 0.08), 0 8px 20px -8px rgba(0, 0, 0, 0.4);
+  box-shadow:
+    0 20px 40px -12px rgba(255, 77, 0, 0.08),
+    0 8px 20px -8px rgba(0, 0, 0, 0.4);
 }
 
 /* ---- Accent line ---- */

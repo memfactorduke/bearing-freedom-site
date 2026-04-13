@@ -1,32 +1,32 @@
 ---
 title: "Virginia passed 25 gun control bills in 60 days. Here's every one of them."
-date: "2026-03-20"
-youtube_url: "https://www.youtube.com/watch?v=JDTDtHXjZXw"
-youtube_id: "JDTDtHXjZXw"
-thumbnail: "/images/articles/2026-03-20-virginia-50-gun-control-bills.jpg"
-duration: "23:31"
-author: "Bearing Freedom"
+date: '2026-03-20'
+youtube_url: 'https://www.youtube.com/watch?v=JDTDtHXjZXw'
+youtube_id: 'JDTDtHXjZXw'
+thumbnail: '/images/articles/2026-03-20-virginia-50-gun-control-bills.jpg'
+duration: '23:31'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "virginia-legislation"
-  - "assault-weapons-ban"
-  - "red-flag-laws"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'virginia-legislation'
+  - 'assault-weapons-ban'
+  - 'red-flag-laws'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "Assault Weapons Ban"
-  - "Red Flag Laws"
-  - "Ghost Guns"
-  - "Concealed Carry"
-  - "SB 749"
-  - "SB 727"
-image_prompt: "Virginia state capitol building in Richmond on a clear sunny day, wide angle shot showing the full neoclassical facade and surrounding lawn, bright natural daylight, photojournalistic composition"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'Assault Weapons Ban'
+  - 'Red Flag Laws'
+  - 'Ghost Guns'
+  - 'Concealed Carry'
+  - 'SB 749'
+  - 'SB 727'
+image_prompt: 'Virginia state capitol building in Richmond on a clear sunny day, wide angle shot showing the full neoclassical facade and surrounding lawn, bright natural daylight, photojournalistic composition'
 sort_index: 15
 ---
 
@@ -36,7 +36,7 @@ Virginia Democrats advanced more than 50 gun control bills in the 2026 legislati
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=JDTDtHXjZXw). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=JDTDtHXjZXw). Commentary, not legal advice._
 
 ---
 
@@ -102,4 +102,4 @@ If you live in Virginia, find out which of your firearms and magazines are affec
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=JDTDtHXjZXw). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=JDTDtHXjZXw). Commentary, not legal advice._

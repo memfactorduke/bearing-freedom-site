@@ -1,29 +1,29 @@
 ---
 title: "Virginia's shotgun ban is stricter than every other state in America, and that's the point"
-date: "2026-03-25"
-youtube_url: "https://www.youtube.com/watch?v=zsAgZ9tXHMk"
-youtube_id: "zsAgZ9tXHMk"
-thumbnail: "/images/articles/2026-03-25-virginia-shotgun-assault-weapon.jpg"
-duration: "9:39"
-author: "Bearing Freedom"
+date: '2026-03-25'
+youtube_url: 'https://www.youtube.com/watch?v=zsAgZ9tXHMk'
+youtube_id: 'zsAgZ9tXHMk'
+thumbnail: '/images/articles/2026-03-25-virginia-shotgun-assault-weapon.jpg'
+duration: '9:39'
+author: 'Bearing Freedom'
 topics:
-  - "assault-weapons-ban"
-  - "shotgun-ban"
-  - "second-amendment"
-  - "virginia-legislation"
+  - 'assault-weapons-ban'
+  - 'shotgun-ban'
+  - 'second-amendment'
+  - 'virginia-legislation'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "SB749"
-  - "Assault Weapons Ban"
-  - "Shotgun"
-  - "Semi-Automatic"
-image_prompt: "A pump-action and semi-automatic shotgun side by side on a wooden gun rack inside a bright, sunlit sporting goods store, natural light streaming through large storefront windows, soft shadows, photojournalistic style"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'SB749'
+  - 'Assault Weapons Ban'
+  - 'Shotgun'
+  - 'Semi-Automatic'
+image_prompt: 'A pump-action and semi-automatic shotgun side by side on a wooden gun rack inside a bright, sunlit sporting goods store, natural light streaming through large storefront windows, soft shadows, photojournalistic style'
 sort_index: 12
 ---
 
@@ -33,7 +33,7 @@ Virginia's SB749 applies a one-feature test to semi-automatic shotguns. One feat
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=zsAgZ9tXHMk). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=zsAgZ9tXHMk). Commentary, not legal advice._
 
 ---
 
@@ -105,4 +105,4 @@ This is what it looks like when a state government decides to use every availabl
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=zsAgZ9tXHMk). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=zsAgZ9tXHMk). Commentary, not legal advice._

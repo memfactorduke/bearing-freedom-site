@@ -10,8 +10,13 @@ export async function GET(context: APIContext) {
     description: 'Second Amendment commentary and analysis',
     site: context.site!,
     items: articles
-      .sort((a, b) => { const d = b.data.date.localeCompare(a.data.date); return d !== 0 ? d : (a.data.sort_index ?? 9999) - (b.data.sort_index ?? 9999); })
-      .map(article => ({
+      .sort((a, b) => {
+        const d = b.data.date.localeCompare(a.data.date);
+        return d !== 0
+          ? d
+          : (a.data.sort_index ?? 9999) - (b.data.sort_index ?? 9999);
+      })
+      .map((article) => ({
         title: article.data.title,
         pubDate: new Date(article.data.date),
         link: `/articles/${article.id}`,

@@ -1,31 +1,31 @@
 ---
 title: "The DOJ just created a dedicated Second Amendment unit. Here's why that matters more than Pam Bondi's record."
-date: "2025-12-09"
-youtube_url: "https://www.youtube.com/watch?v=iW4hd5Gr9QY"
-youtube_id: "iW4hd5Gr9QY"
-thumbnail: "/images/articles/2025-12-09-breaking-doj-just-issued-massive-2a-policy-change.jpg"
-duration: "6:47"
-author: "Bearing Freedom"
+date: '2025-12-09'
+youtube_url: 'https://www.youtube.com/watch?v=iW4hd5Gr9QY'
+youtube_id: 'iW4hd5Gr9QY'
+thumbnail: '/images/articles/2025-12-09-breaking-doj-just-issued-massive-2a-policy-change.jpg'
+duration: '6:47'
+author: 'Bearing Freedom'
 topics:
-  - "doj"
-  - "second-amendment"
-  - "civil-rights-division"
-  - "federal-enforcement"
-  - "concealed-carry"
+  - 'doj'
+  - 'second-amendment'
+  - 'civil-rights-division'
+  - 'federal-enforcement'
+  - 'concealed-carry'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "DOJ"
-  - "Harmeet Dhillon"
-  - "Pam Bondi"
-  - "Civil Rights Division"
-  - "Second Amendment Section"
-  - "Concealed Carry"
-  - "Bruen"
-  - "Gun Rights"
-image_prompt: "Wide-angle photojournalistic shot of the exterior of the Robert F. Kennedy Department of Justice Building in Washington DC on a clear winter morning, American flag flying, sharp architectural detail on the facade, pedestrians visible on the sidewalk below"
+  - 'Second Amendment'
+  - 'DOJ'
+  - 'Harmeet Dhillon'
+  - 'Pam Bondi'
+  - 'Civil Rights Division'
+  - 'Second Amendment Section'
+  - 'Concealed Carry'
+  - 'Bruen'
+  - 'Gun Rights'
+image_prompt: 'Wide-angle photojournalistic shot of the exterior of the Robert F. Kennedy Department of Justice Building in Washington DC on a clear winter morning, American flag flying, sharp architectural detail on the facade, pedestrians visible on the sidewalk below'
 sort_index: 81
 ---
 
@@ -35,7 +35,7 @@ The Department of Justice just did something that has never happened in American
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=iW4hd5Gr9QY). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=iW4hd5Gr9QY). Commentary, not legal advice._
 
 ---
 
@@ -45,9 +45,9 @@ On December 8, 2025, Harmeet Dhillon, the Assistant Attorney General heading the
 
 Dhillon framed it plainly: for the first time, the Civil Rights Division would be treating the right to bear arms as a civil right deserving the same enforcement attention as voting rights, employment discrimination, and police misconduct. She said the Second Amendment is "not a second-class right." She is correct, and the fact that it took until 2025 for the federal government to formally treat it that way says a lot about how this right has been handled for decades.
 
-The section's stated priorities are real and specific. Dhillon identified multi-thousand-dollar permit costs, unreasonably long permitting delays, and jurisdictions that are flatly banning firearms that should be protected under post-*Bruen* standards. Those are not vague policy positions. Those are enforcement categories that translate directly into lawsuits.
+The section's stated priorities are real and specific. Dhillon identified multi-thousand-dollar permit costs, unreasonably long permitting delays, and jurisdictions that are flatly banning firearms that should be protected under post-_Bruen_ standards. Those are not vague policy positions. Those are enforcement categories that translate directly into lawsuits.
 
-The section had already been acting before the formal announcement. In September 2025, the Civil Rights Division sued the Los Angeles County Sheriff's Department over its concealed carry permit process. The investigation began in March 2025 after the division received numerous complaints about unreasonable delays. When they analyzed the data, what they found was staggering: out of over 8,000 CCW permit applications, the Sheriff's Department had approved exactly two. Two. And the department was scheduling interviews two full years after receiving completed applications. Under *New York State Rifle & Pistol Association v. Bruen*, that is unconstitutional. The Supreme Court made clear in 2022 that states cannot use administrative obstruction as a backdoor gun ban, and that is exactly what LA was doing. The DOJ showed up and filed suit.
+The section had already been acting before the formal announcement. In September 2025, the Civil Rights Division sued the Los Angeles County Sheriff's Department over its concealed carry permit process. The investigation began in March 2025 after the division received numerous complaints about unreasonable delays. When they analyzed the data, what they found was staggering: out of over 8,000 CCW permit applications, the Sheriff's Department had approved exactly two. Two. And the department was scheduling interviews two full years after receiving completed applications. Under _New York State Rifle & Pistol Association v. Bruen_, that is unconstitutional. The Supreme Court made clear in 2022 that states cannot use administrative obstruction as a backdoor gun ban, and that is exactly what LA was doing. The DOJ showed up and filed suit.
 
 ## The Bondi problem, honestly
 
@@ -65,9 +65,9 @@ What the Second Amendment Section does is take the 2A portfolio and put it in th
 
 ## Why Harmeet Dhillon is the one to watch
 
-I have read a significant portion of the filings that have come out of Dhillon's division since she was confirmed, and my honest read is that she is a genuine Second Amendment supporter in a way that Bondi is not. Dhillon personally argued before the Seventh Circuit in *Barnett v. Raoul*, the challenge to Illinois' assault weapons ban. She did not send a staff attorney. She showed up in court herself. That is a statement of personal investment that carries weight.
+I have read a significant portion of the filings that have come out of Dhillon's division since she was confirmed, and my honest read is that she is a genuine Second Amendment supporter in a way that Bondi is not. Dhillon personally argued before the Seventh Circuit in _Barnett v. Raoul_, the challenge to Illinois' assault weapons ban. She did not send a staff attorney. She showed up in court herself. That is a statement of personal investment that carries weight.
 
-Dhillon has said publicly that the section will pursue cases involving AR-15 bans, arguing that semi-automatic rifles in common use are presumptively protected under *Bruen*. She has said she expects a lot of activity from the section and described the goal as eliminating unnecessary state laws that interfere with the fundamental right of law-abiding citizens to carry, bear, and use arms. She is also on record defending the Second Amendment as part of the same civil rights framework that covers other constitutional rights, which is exactly the correct framing and one that has been absent from DOJ for the entire modern era of gun control litigation.
+Dhillon has said publicly that the section will pursue cases involving AR-15 bans, arguing that semi-automatic rifles in common use are presumptively protected under _Bruen_. She has said she expects a lot of activity from the section and described the goal as eliminating unnecessary state laws that interfere with the fundamental right of law-abiding citizens to carry, bear, and use arms. She is also on record defending the Second Amendment as part of the same civil rights framework that covers other constitutional rights, which is exactly the correct framing and one that has been absent from DOJ for the entire modern era of gun control litigation.
 
 The section has also filed amicus briefs in the Ninth Circuit targeting California's ammunition background check system and has been monitoring cases in Colorado, New Jersey, and New York. It is actively surveilling the landscape.
 
@@ -87,7 +87,7 @@ I want to be clear about what this is and is not.
 
 This is a real structural win. The announcement of the section, the LA lawsuit, the Illinois amicus, the Virginia intervention, the Hawaii case, these are real actions by a real federal unit using the full authority of the United States government. That is not nothing. For decades, gun owners fought state and local governments with private litigation and their own resources while the DOJ either stood on the sidelines or actively worked against them. That has changed.
 
-What this is not is the end of the fight or a guarantee of outcomes. State legislatures are still passing gun control laws at a pace that exceeds what any single federal section can litigate. Illinois still has its assault weapons ban in active litigation. California still has magazine restrictions, waiting periods, handgun rosters, and dozens of other restrictions that post-*Bruen* standards should render indefensible. Those fights are going to take years and will require wins at both the district and circuit court levels before the Supreme Court will have clean vehicles to resolve them.
+What this is not is the end of the fight or a guarantee of outcomes. State legislatures are still passing gun control laws at a pace that exceeds what any single federal section can litigate. Illinois still has its assault weapons ban in active litigation. California still has magazine restrictions, waiting periods, handgun rosters, and dozens of other restrictions that post-_Bruen_ standards should render indefensible. Those fights are going to take years and will require wins at both the district and circuit court levels before the Supreme Court will have clean vehicles to resolve them.
 
 The section is one piece of a much larger effort. Gun rights organizations, state-level litigation, and legislative action all remain necessary. But the piece that was missing, a federal enforcement authority treating the Second Amendment as a genuine civil right worth protecting, is now present for the first time.
 
@@ -97,4 +97,4 @@ That is a good thing. It can coexist with demanding more.
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=iW4hd5Gr9QY). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=iW4hd5Gr9QY). Commentary, not legal advice._

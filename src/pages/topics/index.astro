@@ -16,38 +16,55 @@ for (const article of articles) {
 const sortedTopics = [...topicCounts.entries()].sort((a, b) => b[1] - a[1]);
 
 function formatTopic(topic: string): string {
-  return topic.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  return topic.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 }
 ---
 
-<BaseLayout title="Topics" description="Browse Bearing Freedom articles by topic">
+<BaseLayout
+  title="Topics"
+  description="Browse Bearing Freedom articles by topic"
+>
   <div class="bg-surface border-b border-border">
     <div class="max-w-7xl mx-auto px-5 lg:px-8 py-12">
-      <div class="text-xs text-accent font-[JetBrains_Mono] tracking-[0.2em] uppercase mb-2 animate-fade-up">Explore</div>
-      <h1 class="font-[Archivo_Black] text-3xl font-bold text-text tracking-tight animate-fade-up stagger-1">All Topics</h1>
-      <p class="text-text-secondary mt-2 text-sm font-[Crimson_Pro] animate-fade-up stagger-2">{sortedTopics.length} topics across {articles.length} articles</p>
+      <div
+        class="text-xs text-accent font-[JetBrains_Mono] tracking-[0.2em] uppercase mb-2 animate-fade-up"
+      >
+        Explore
+      </div>
+      <h1
+        class="font-[Archivo_Black] text-3xl font-bold text-text tracking-tight animate-fade-up stagger-1"
+      >
+        All Topics
+      </h1>
+      <p
+        class="text-text-secondary mt-2 text-sm font-[Crimson_Pro] animate-fade-up stagger-2"
+      >
+        {sortedTopics.length} topics across {articles.length} articles
+      </p>
     </div>
   </div>
 
   <div class="max-w-7xl mx-auto px-5 lg:px-8 py-12">
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-      {sortedTopics.map(([topic, count], i) => (
-        <a
-          href={`/topics/${topic}`}
-          class="group flex items-center justify-between bg-surface border border-border rounded-xl px-5 py-4 hover:border-accent/40 hover:bg-surface-raised transition-all"
-          data-animate
-        >
-          <div class="flex items-center gap-3 min-w-0">
-            <div class="w-2 h-2 rounded-full bg-accent shrink-0"></div>
-            <span class="text-sm font-[Archivo_Black] font-medium text-text-secondary group-hover:text-accent transition-colors truncate capitalize">
-              {formatTopic(topic)}
+      {
+        sortedTopics.map(([topic, count], i) => (
+          <a
+            href={`/topics/${topic}`}
+            class="group flex items-center justify-between bg-surface border border-border rounded-xl px-5 py-4 hover:border-accent/40 hover:bg-surface-raised transition-all"
+            data-animate
+          >
+            <div class="flex items-center gap-3 min-w-0">
+              <div class="w-2 h-2 rounded-full bg-accent shrink-0" />
+              <span class="text-sm font-[Archivo_Black] font-medium text-text-secondary group-hover:text-accent transition-colors truncate capitalize">
+                {formatTopic(topic)}
+              </span>
+            </div>
+            <span class="text-[11px] text-text-muted bg-void px-2.5 py-1 rounded-full font-[JetBrains_Mono] font-medium shrink-0 ml-3">
+              {count}
             </span>
-          </div>
-          <span class="text-[11px] text-text-muted bg-void px-2.5 py-1 rounded-full font-[JetBrains_Mono] font-medium shrink-0 ml-3">
-            {count}
-          </span>
-        </a>
-      ))}
+          </a>
+        ))
+      }
     </div>
   </div>
 </BaseLayout>

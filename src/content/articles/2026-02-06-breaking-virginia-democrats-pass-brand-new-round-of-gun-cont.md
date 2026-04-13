@@ -1,44 +1,44 @@
 ---
 title: "Eight bills in one night: Virginia's gun control blitz is designed to be impossible to stop"
-date: "2026-02-06"
-youtube_url: "https://www.youtube.com/watch?v=1t5ohRxIBjA"
-youtube_id: "1t5ohRxIBjA"
-thumbnail: "/images/articles/2026-02-06-breaking-virginia-democrats-pass-brand-new-round-of-gun-cont.jpg"
-duration: "11:00"
-author: "Bearing Freedom"
+date: '2026-02-06'
+youtube_url: 'https://www.youtube.com/watch?v=1t5ohRxIBjA'
+youtube_id: '1t5ohRxIBjA'
+thumbnail: '/images/articles/2026-02-06-breaking-virginia-democrats-pass-brand-new-round-of-gun-cont.jpg'
+duration: '11:00'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "virginia"
-  - "assault-weapons-ban"
-  - "magazine-ban"
-  - "ghost-guns"
-  - "safe-storage"
-  - "firearm-industry-liability"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'virginia'
+  - 'assault-weapons-ban'
+  - 'magazine-ban'
+  - 'ghost-guns'
+  - 'safe-storage'
+  - 'firearm-industry-liability'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "HB27"
-  - "HB40"
-  - "HB93"
-  - "HB110"
-  - "HB229"
-  - "HB626"
-  - "HB871"
-  - "HB21"
-  - "Assault Weapons Ban"
-  - "Magazine Ban"
-  - "Ghost Guns"
-  - "Safe Storage"
-  - "PLCAA"
-  - "Spanberger"
-  - "Flood the Zone"
-image_prompt: "Bright photojournalistic wide shot of the Virginia Capitol building at night, illuminated windows, long shadows, a silhouetted figure in the foreground holding a printed bill, sharp documentary style"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'HB27'
+  - 'HB40'
+  - 'HB93'
+  - 'HB110'
+  - 'HB229'
+  - 'HB626'
+  - 'HB871'
+  - 'HB21'
+  - 'Assault Weapons Ban'
+  - 'Magazine Ban'
+  - 'Ghost Guns'
+  - 'Safe Storage'
+  - 'PLCAA'
+  - 'Spanberger'
+  - 'Flood the Zone'
+image_prompt: 'Bright photojournalistic wide shot of the Virginia Capitol building at night, illuminated windows, long shadows, a silhouetted figure in the foreground holding a printed bill, sharp documentary style'
 sort_index: 38
 ---
 
@@ -48,7 +48,7 @@ Virginia Democrats passed eight gun control bills in a single session on Februar
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=1t5ohRxIBjA). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=1t5ohRxIBjA). Commentary, not legal advice._
 
 ---
 

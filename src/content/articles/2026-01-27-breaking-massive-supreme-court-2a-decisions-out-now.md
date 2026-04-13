@@ -1,32 +1,32 @@
 ---
 title: "The Supreme Court keeps relisting the AR-15 ban case. Here's what that actually means."
-date: "2026-01-27"
-youtube_url: "https://www.youtube.com/watch?v=hZyDa_ilO0Q"
-youtube_id: "hZyDa_ilO0Q"
-thumbnail: "/images/articles/2026-01-27-breaking-massive-supreme-court-2a-decisions-out-now.jpg"
-duration: "5:36"
-author: "Bearing Freedom"
+date: '2026-01-27'
+youtube_url: 'https://www.youtube.com/watch?v=hZyDa_ilO0Q'
+youtube_id: 'hZyDa_ilO0Q'
+thumbnail: '/images/articles/2026-01-27-breaking-massive-supreme-court-2a-decisions-out-now.jpg'
+duration: '5:36'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "supreme-court"
-  - "ar-15-ban"
-  - "magazine-ban"
+  - 'second-amendment'
+  - 'supreme-court'
+  - 'ar-15-ban'
+  - 'magazine-ban'
 states:
-  - "IL"
-  - "CA"
+  - 'IL'
+  - 'CA'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Supreme Court"
-  - "AR-15"
-  - "Viramontes v. Cook County"
-  - "Duncan v. Bonta"
-  - "Wolford v. Lopez"
-  - "certiorari"
-  - "assault weapons ban"
-  - "magazine ban"
-image_prompt: "Photojournalistic wide shot of the United States Supreme Court building facade on a bright winter morning, shallow crowds of people on the steps, clean blue sky, harsh sunlight casting long shadows across the white marble columns"
+  - 'Second Amendment'
+  - 'Supreme Court'
+  - 'AR-15'
+  - 'Viramontes v. Cook County'
+  - 'Duncan v. Bonta'
+  - 'Wolford v. Lopez'
+  - 'certiorari'
+  - 'assault weapons ban'
+  - 'magazine ban'
+image_prompt: 'Photojournalistic wide shot of the United States Supreme Court building facade on a bright winter morning, shallow crowds of people on the steps, clean blue sky, harsh sunlight casting long shadows across the white marble columns'
 sort_index: 51
 ---
 
@@ -36,7 +36,7 @@ Two of the most important Second Amendment cases in years, Viramontes v. Cook Co
 
 ---
 
-*This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=hZyDa_ilO0Q). This is commentary, not legal advice.*
+_This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=hZyDa_ilO0Q). This is commentary, not legal advice._
 
 ---
 

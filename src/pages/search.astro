@@ -2,8 +2,12 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
-const articles = (await getCollection('articles'))
-  .sort((a, b) => { const d = b.data.date.localeCompare(a.data.date); return d !== 0 ? d : (a.data.sort_index ?? 9999) - (b.data.sort_index ?? 9999); });
+const articles = (await getCollection('articles')).sort((a, b) => {
+  const d = b.data.date.localeCompare(a.data.date);
+  return d !== 0
+    ? d
+    : (a.data.sort_index ?? 9999) - (b.data.sort_index ?? 9999);
+});
 
 const topTopics = [...new Map<string, number>()].length; // just for types
 const topicCounts = new Map<string, number>();
@@ -12,11 +16,13 @@ for (const a of articles) {
     topicCounts.set(t, (topicCounts.get(t) || 0) + 1);
   }
 }
-const popularTopics = [...topicCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12);
+const popularTopics = [...topicCounts.entries()]
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 12);
 const recentArticles = articles.slice(0, 6);
 
 function formatTopic(t: string) {
-  return t.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  return t.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 }
 ---
 
@@ -24,9 +30,21 @@ function formatTopic(t: string) {
   <!-- Hero with integrated search -->
   <div class="bg-surface border-b border-border">
     <div class="max-w-4xl mx-auto px-5 lg:px-8 pt-12 pb-16">
-      <div class="text-xs text-accent font-[JetBrains_Mono] tracking-[0.2em] uppercase mb-2 animate-fade-up">Find</div>
-      <h1 class="font-[Archivo_Black] text-3xl font-bold text-text tracking-tight mb-3 animate-fade-up stagger-1">Search Articles</h1>
-      <p class="text-text-secondary text-sm font-[Crimson_Pro] mb-8 animate-fade-up stagger-2">Search across {articles.length} articles and topics.</p>
+      <div
+        class="text-xs text-accent font-[JetBrains_Mono] tracking-[0.2em] uppercase mb-2 animate-fade-up"
+      >
+        Find
+      </div>
+      <h1
+        class="font-[Archivo_Black] text-3xl font-bold text-text tracking-tight mb-3 animate-fade-up stagger-1"
+      >
+        Search Articles
+      </h1>
+      <p
+        class="text-text-secondary text-sm font-[Crimson_Pro] mb-8 animate-fade-up stagger-2"
+      >
+        Search across {articles.length} articles and topics.
+      </p>
 
       <!-- Search box in the hero -->
       <div class="animate-fade-up stagger-3">
@@ -43,50 +61,86 @@ function formatTopic(t: string) {
     <div id="browse-section">
       <!-- Popular topics -->
       <div class="mb-10">
-        <h2 class="text-xs font-[JetBrains_Mono] font-bold text-text-muted uppercase tracking-[0.15em] mb-4 flex items-center gap-2">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M9.568 3H5.25A2.25 2.25 0 0 0 3 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 0 0 5.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 0 0 9.568 3Z"/><path d="M6 6h.008v.008H6V6Z"/></svg>
+        <h2
+          class="text-xs font-[JetBrains_Mono] font-bold text-text-muted uppercase tracking-[0.15em] mb-4 flex items-center gap-2"
+        >
+          <svg
+            class="w-4 h-4"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+            ><path
+              d="M9.568 3H5.25A2.25 2.25 0 0 0 3 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 0 0 5.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 0 0 9.568 3Z"
+            ></path><path d="M6 6h.008v.008H6V6Z"></path></svg
+          >
           Popular Topics
         </h2>
         <div class="flex flex-wrap gap-2">
-          {popularTopics.map(([topic, count]) => (
-            <a
-              href={`/topics/${topic}`}
-              class="group flex items-center gap-2 bg-surface border border-border rounded-lg px-4 py-2.5 hover:border-accent/50 hover:bg-surface-raised transition-all"
-            >
-              <span class="text-sm font-[Archivo_Black] font-medium text-text-secondary group-hover:text-accent transition-colors capitalize">
-                {formatTopic(topic)}
-              </span>
-              <span class="text-[10px] text-text-muted bg-void px-1.5 py-0.5 rounded-full font-[JetBrains_Mono]">{count}</span>
-            </a>
-          ))}
+          {
+            popularTopics.map(([topic, count]) => (
+              <a
+                href={`/topics/${topic}`}
+                class="group flex items-center gap-2 bg-surface border border-border rounded-lg px-4 py-2.5 hover:border-accent/50 hover:bg-surface-raised transition-all"
+              >
+                <span class="text-sm font-[Archivo_Black] font-medium text-text-secondary group-hover:text-accent transition-colors capitalize">
+                  {formatTopic(topic)}
+                </span>
+                <span class="text-[10px] text-text-muted bg-void px-1.5 py-0.5 rounded-full font-[JetBrains_Mono]">
+                  {count}
+                </span>
+              </a>
+            ))
+          }
         </div>
       </div>
 
       <!-- Recent articles -->
       <div>
-        <h2 class="text-xs font-[JetBrains_Mono] font-bold text-text-muted uppercase tracking-[0.15em] mb-4 flex items-center gap-2">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+        <h2
+          class="text-xs font-[JetBrains_Mono] font-bold text-text-muted uppercase tracking-[0.15em] mb-4 flex items-center gap-2"
+        >
+          <svg
+            class="w-4 h-4"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+            ><path d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+            ></path></svg
+          >
           Recent Articles
         </h2>
         <div class="space-y-2">
-          {recentArticles.map(article => (
-            <a href={`/articles/${article.id}`} class="group flex items-center gap-4 bg-surface border border-border rounded-xl p-3 hover:border-border-subtle hover:bg-surface-raised transition-all">
-              <img
-                src={article.data.thumbnail}
-                alt=""
-                class="w-20 h-14 object-cover rounded-lg shrink-0"
-                loading="lazy"
-              />
-              <div class="min-w-0 flex-1">
-                <h3 class="text-sm font-[Archivo_Black] font-semibold text-text group-hover:text-accent transition-colors leading-snug line-clamp-2">
-                  {article.data.title}
-                </h3>
-                <time class="text-[11px] text-text-muted mt-0.5 block font-[JetBrains_Mono]">
-                  {new Date(article.data.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
-                </time>
-              </div>
-            </a>
-          ))}
+          {
+            recentArticles.map((article) => (
+              <a
+                href={`/articles/${article.id}`}
+                class="group flex items-center gap-4 bg-surface border border-border rounded-xl p-3 hover:border-border-subtle hover:bg-surface-raised transition-all"
+              >
+                <img
+                  src={article.data.thumbnail}
+                  alt=""
+                  class="w-20 h-14 object-cover rounded-lg shrink-0"
+                  loading="lazy"
+                />
+                <div class="min-w-0 flex-1">
+                  <h3 class="text-sm font-[Archivo_Black] font-semibold text-text group-hover:text-accent transition-colors leading-snug line-clamp-2">
+                    {article.data.title}
+                  </h3>
+                  <time class="text-[11px] text-text-muted mt-0.5 block font-[JetBrains_Mono]">
+                    {new Date(
+                      article.data.date + 'T00:00:00',
+                    ).toLocaleDateString('en-US', {
+                      month: 'short',
+                      day: 'numeric',
+                      year: 'numeric',
+                    })}
+                  </time>
+                </div>
+              </a>
+            ))
+          }
         </div>
       </div>
     </div>
@@ -109,18 +163,18 @@ function formatTopic(t: string) {
     --pagefind-ui-primary: #ff4d00;
     --pagefind-ui-text: #e8e4df;
     --pagefind-ui-background: transparent;
-    --pagefind-ui-border: rgba(255,255,255,0.1);
+    --pagefind-ui-border: rgba(255, 255, 255, 0.1);
     --pagefind-ui-border-width: 1.5px;
     --pagefind-ui-border-radius: 10px;
     --pagefind-ui-font: 'Syne', system-ui, sans-serif;
   }
   .search-in-hero .pagefind-ui__search-input {
-    background: rgba(255,255,255,0.05) !important;
+    background: rgba(255, 255, 255, 0.05) !important;
     color: #e8e4df !important;
     font-weight: 400 !important;
     padding: 1rem 1.25rem 1rem 3rem !important;
     font-size: 1rem !important;
-    border: 1.5px solid rgba(255,255,255,0.1) !important;
+    border: 1.5px solid rgba(255, 255, 255, 0.1) !important;
     border-radius: 10px !important;
     font-family: 'JetBrains Mono', monospace !important;
   }
@@ -136,7 +190,7 @@ function formatTopic(t: string) {
     border-color: #ff4d00 !important;
     outline: none !important;
     box-shadow: 0 0 0 3px rgba(255, 77, 0, 0.15) !important;
-    background: rgba(255,255,255,0.07) !important;
+    background: rgba(255, 255, 255, 0.07) !important;
   }
   .search-in-hero .pagefind-ui__search-clear {
     color: #555555 !important;
@@ -224,12 +278,16 @@ function formatTopic(t: string) {
     });
 
     // Sync hero input to results
-    const heroInput = document.querySelector('#search-hero .pagefind-ui__search-input');
+    const heroInput = document.querySelector(
+      '#search-hero .pagefind-ui__search-input',
+    );
     if (heroInput) {
       heroInput.addEventListener('input', (e) => {
         const query = e.target.value;
         // Trigger search in results area
-        const resultsInput = document.querySelector('#search-results .pagefind-ui__search-input');
+        const resultsInput = document.querySelector(
+          '#search-results .pagefind-ui__search-input',
+        );
         if (resultsInput) {
           resultsInput.value = query;
           resultsInput.dispatchEvent(new Event('input', { bubbles: true }));

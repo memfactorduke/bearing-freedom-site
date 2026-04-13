@@ -1,41 +1,41 @@
 ---
-title: "Virginia just became the most dangerous state in America for law-abiding gun owners"
-date: "2026-04-07"
-youtube_url: "https://www.youtube.com/watch?v=QlhdoNOAvO0"
-youtube_id: "QlhdoNOAvO0"
-thumbnail: "/images/articles/2026-04-07-virginia-passes-monster-gun-control-package.jpg"
-duration: "56:28"
-author: "Bearing Freedom"
+title: 'Virginia just became the most dangerous state in America for law-abiding gun owners'
+date: '2026-04-07'
+youtube_url: 'https://www.youtube.com/watch?v=QlhdoNOAvO0'
+youtube_id: 'QlhdoNOAvO0'
+thumbnail: '/images/articles/2026-04-07-virginia-passes-monster-gun-control-package.jpg'
+duration: '56:28'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "politics"
-  - "assault-weapons-ban"
-  - "constitutional-carry"
-  - "red-flag-laws"
-  - "ghost-guns"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'politics'
+  - 'assault-weapons-ban'
+  - 'constitutional-carry'
+  - 'red-flag-laws'
+  - 'ghost-guns'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Abigail Spanberger"
-  - "Virginia"
-  - "Assault Weapons Ban"
-  - "Gun Control"
-  - "Ghost Guns"
-  - "Red Flag Laws"
-  - "Mandatory Buyback"
-  - "Concealed Carry"
-  - "PLCAA"
-  - "Bruen"
-  - "SB749"
-  - "HB217"
-  - "SB727"
-  - "HB40"
-  - "HB702"
-image_prompt: "Wide photojournalistic shot of the Virginia State Capitol building in Richmond at dusk, dramatic clouds overhead, warm lights inside the Capitol dome contrasting with a cool gray sky, a lone figure walking away on the brick plaza below, no signs or text visible"
+  - 'Second Amendment'
+  - 'Abigail Spanberger'
+  - 'Virginia'
+  - 'Assault Weapons Ban'
+  - 'Gun Control'
+  - 'Ghost Guns'
+  - 'Red Flag Laws'
+  - 'Mandatory Buyback'
+  - 'Concealed Carry'
+  - 'PLCAA'
+  - 'Bruen'
+  - 'SB749'
+  - 'HB217'
+  - 'SB727'
+  - 'HB40'
+  - 'HB702'
+image_prompt: 'Wide photojournalistic shot of the Virginia State Capitol building in Richmond at dusk, dramatic clouds overhead, warm lights inside the Capitol dome contrasting with a cool gray sky, a lone figure walking away on the brick plaza below, no signs or text visible'
 sort_index: 1
 ---
 
@@ -45,7 +45,7 @@ Virginia's General Assembly has passed 18 gun control bills in a single session,
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=QlhdoNOAvO0). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=QlhdoNOAvO0). Commentary, not legal advice._
 
 ---
 

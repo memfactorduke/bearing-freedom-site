@@ -1,39 +1,39 @@
 ---
-title: "The post office ruling is a direct hit on the sensitive places strategy"
-date: "2026-03-18"
-youtube_url: "https://www.youtube.com/watch?v=BgfjpyEPfw4"
-youtube_id: "BgfjpyEPfw4"
-thumbnail: "/images/articles/2026-03-18-nationwide-injunction.jpg"
-duration: "8:15"
-author: "Bearing Freedom"
+title: 'The post office ruling is a direct hit on the sensitive places strategy'
+date: '2026-03-18'
+youtube_url: 'https://www.youtube.com/watch?v=BgfjpyEPfw4'
+youtube_id: 'BgfjpyEPfw4'
+thumbnail: '/images/articles/2026-03-18-nationwide-injunction.jpg'
+duration: '8:15'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "sensitive-places"
-  - "federal-courts"
-  - "concealed-carry"
+  - 'second-amendment'
+  - 'sensitive-places'
+  - 'federal-courts'
+  - 'concealed-carry'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Sensitive Places"
-  - "Post Office"
-  - "FPC v. Bondi"
-  - "Nationwide Injunction"
-  - "Bruen"
-  - "Firearms Policy Coalition"
-  - "Second Amendment Foundation"
-image_prompt: "A sunlit United States Post Office entrance with a wide glass door open to a bright suburban sidewalk, American flag flying in the background, clear blue sky, photojournalistic style"
+  - 'Second Amendment'
+  - 'Sensitive Places'
+  - 'Post Office'
+  - 'FPC v. Bondi'
+  - 'Nationwide Injunction'
+  - 'Bruen'
+  - 'Firearms Policy Coalition'
+  - 'Second Amendment Foundation'
+image_prompt: 'A sunlit United States Post Office entrance with a wide glass door open to a bright suburban sidewalk, American flag flying in the background, clear blue sky, photojournalistic style'
 sort_index: 16
 ---
 
 ## The bottom line
 
-On March 17, 2026, Chief U.S. District Judge Reed O'Connor rejected the Department of Justice's attempt to gut a Second Amendment victory in *FPC v. Bondi*, the federal case challenging the post office carry ban. The injunction now covers all current and future members of the Firearms Policy Coalition and the Second Amendment Foundation. That's potentially tens of millions of Americans protected from a federal restriction that had no constitutional basis from the start.
+On March 17, 2026, Chief U.S. District Judge Reed O'Connor rejected the Department of Justice's attempt to gut a Second Amendment victory in _FPC v. Bondi_, the federal case challenging the post office carry ban. The injunction now covers all current and future members of the Firearms Policy Coalition and the Second Amendment Foundation. That's potentially tens of millions of Americans protected from a federal restriction that had no constitutional basis from the start.
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=BgfjpyEPfw4). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=BgfjpyEPfw4). Commentary, not legal advice._
 
 ---
 
@@ -41,7 +41,7 @@ On March 17, 2026, Chief U.S. District Judge Reed O'Connor rejected the Departme
 
 This is genuinely good news, and I want to make sure it gets the attention it deserves because there has been a lot of bad news lately.
 
-The Firearms Policy Coalition and the Second Amendment Foundation brought *FPC v. Bondi* challenging 18 U.S.C. § 930(a) and 39 C.F.R. § 232.1(l), the two provisions that make it a federal crime to carry a firearm in a post office or on postal property. Judge O'Connor ruled those provisions unconstitutional in his September 2025 merits decision, applying the Bruen history-and-tradition test and finding zero historical analogues for a ban on carrying firearms at postal facilities. The government had no answer because the answer doesn't exist. Early American post offices were often taverns and private homes where mail was held for collection. There is no colonial-era tradition of treating them as disarmed zones.
+The Firearms Policy Coalition and the Second Amendment Foundation brought _FPC v. Bondi_ challenging 18 U.S.C. § 930(a) and 39 C.F.R. § 232.1(l), the two provisions that make it a federal crime to carry a firearm in a post office or on postal property. Judge O'Connor ruled those provisions unconstitutional in his September 2025 merits decision, applying the Bruen history-and-tradition test and finding zero historical analogues for a ban on carrying firearms at postal facilities. The government had no answer because the answer doesn't exist. Early American post offices were often taverns and private homes where mail was held for collection. There is no colonial-era tradition of treating them as disarmed zones.
 
 The March 17 order is about scope. After losing on the merits, the Bondi DOJ argued that any injunction should be limited to the named plaintiffs or, at most, to people who were FPC or SAF members as of the date the complaint was filed in June 2024. Judge O'Connor rejected both arguments. He held that limiting protection to a static membership snapshot would cause the injunction to erode through ordinary membership turnover, would force the organizations to maintain burdensome administrative tracking, or would require them to file new lawsuits repeatedly to protect new members. None of those outcomes serves the purpose of injunctive relief. The injunction now covers all present and future members of both organizations.
 
@@ -57,7 +57,7 @@ Here's what I mean. The frontal assaults on gun rights, assault weapons bans, ma
 
 The sensitive places doctrine is a different kind of threat, and it's more dangerous because it's harder to see. The government doesn't need to ban you from owning a gun. It just needs to declare everywhere you go a sensitive place. Your gun stays home. The Second Amendment becomes a right you can exercise only inside your own house.
 
-This is not a hypothetical. New York's Concealed Carry Improvement Act, passed immediately after Bruen as a direct attempt to nullify the ruling, designated virtually every publicly accessible space in the state as a sensitive location: public parks, public transportation, Times Square by name, any place of worship, any business that hadn't posted a sign explicitly allowing firearms, and any "gathering of individuals to collectively express their constitutional rights," which is to say, a protest. The Second Circuit upheld most of those provisions in October 2024. The Supreme Court declined cert in Antonyuk v. James in April 2025, leaving that framework in place for now. The FPC has since filed a new challenge specifically targeting the Times Square designation in *Goldberger v. James*.
+This is not a hypothetical. New York's Concealed Carry Improvement Act, passed immediately after Bruen as a direct attempt to nullify the ruling, designated virtually every publicly accessible space in the state as a sensitive location: public parks, public transportation, Times Square by name, any place of worship, any business that hadn't posted a sign explicitly allowing firearms, and any "gathering of individuals to collectively express their constitutional rights," which is to say, a protest. The Second Circuit upheld most of those provisions in October 2024. The Supreme Court declined cert in Antonyuk v. James in April 2025, leaving that framework in place for now. The FPC has since filed a new challenge specifically targeting the Times Square designation in _Goldberger v. James_.
 
 What the post office ruling does is establish that even a building the federal government owns and operates, where federal employees work every day, where the government has maximum legal authority, does not automatically qualify as a sensitive place under the Bruen framework unless there is actual historical tradition supporting the designation. If you can't sustain a sensitive place designation for a federal building, the argument for designating a public park, a movie theater, a shopping mall, or a street corner collapses.
 

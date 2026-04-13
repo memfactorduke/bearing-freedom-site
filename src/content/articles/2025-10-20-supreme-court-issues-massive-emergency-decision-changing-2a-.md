@@ -1,31 +1,31 @@
 ---
-title: "The Supreme Court just took up the gun ban for drug users — and it could reshape the Second Amendment"
-date: "2025-10-20"
-youtube_url: "https://www.youtube.com/watch?v=xbsMTpUoNzo"
-youtube_id: "xbsMTpUoNzo"
-thumbnail: "/images/articles/2025-10-20-supreme-court-issues-massive-emergency-decision-changing-2a-.jpg"
-duration: "10:26"
-author: "Bearing Freedom"
+title: 'The Supreme Court just took up the gun ban for drug users — and it could reshape the Second Amendment'
+date: '2025-10-20'
+youtube_url: 'https://www.youtube.com/watch?v=xbsMTpUoNzo'
+youtube_id: 'xbsMTpUoNzo'
+thumbnail: '/images/articles/2025-10-20-supreme-court-issues-massive-emergency-decision-changing-2a-.jpg'
+duration: '10:26'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "supreme-court"
-  - "922g3"
-  - "drug-users"
-  - "bruen"
+  - 'second-amendment'
+  - 'supreme-court'
+  - '922g3'
+  - 'drug-users'
+  - 'bruen'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Supreme Court"
-  - "18 USC 922g3"
-  - "Hemani"
-  - "Marijuana"
-  - "Bruen"
-  - "Gun Control Act"
-  - "Fifth Circuit"
-  - "Drug Users"
-image_prompt: "Wide-angle photojournalistic shot of the exterior of the United States Supreme Court building in Washington DC on a clear day, marble columns in sharp focus, American flag flying, people on the plaza steps, dramatic low-angle perspective"
+  - 'Second Amendment'
+  - 'Supreme Court'
+  - '18 USC 922g3'
+  - 'Hemani'
+  - 'Marijuana'
+  - 'Bruen'
+  - 'Gun Control Act'
+  - 'Fifth Circuit'
+  - 'Drug Users'
+image_prompt: 'Wide-angle photojournalistic shot of the exterior of the United States Supreme Court building in Washington DC on a clear day, marble columns in sharp focus, American flag flying, people on the plaza steps, dramatic low-angle perspective'
 sort_index: 97
 ---
 
@@ -35,7 +35,7 @@ The Supreme Court has agreed to hear United States v. Hemani, a direct challenge
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=xbsMTpUoNzo). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=xbsMTpUoNzo). Commentary, not legal advice._
 
 ---
 
@@ -89,4 +89,4 @@ The Second Amendment movement builds brick by brick. Heller established individu
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=xbsMTpUoNzo). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=xbsMTpUoNzo). Commentary, not legal advice._

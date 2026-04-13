@@ -1,33 +1,33 @@
 ---
 title: "The man who wanted to shoot a Republican is now Virginia's attorney general"
-date: "2025-10-08"
-youtube_url: "https://www.youtube.com/watch?v=9w28mHCUA-U"
-youtube_id: "9w28mHCUA-U"
-thumbnail: "/images/articles/2025-10-08-breaking-news-unhinged-anti-gun-democrat-accidentally-caught.jpg"
-duration: "10:09"
-author: "Bearing Freedom"
+date: '2025-10-08'
+youtube_url: 'https://www.youtube.com/watch?v=9w28mHCUA-U'
+youtube_id: '9w28mHCUA-U'
+thumbnail: '/images/articles/2025-10-08-breaking-news-unhinged-anti-gun-democrat-accidentally-caught.jpg'
+duration: '10:09'
+author: 'Bearing Freedom'
 topics:
-  - "politics"
-  - "second-amendment"
-  - "virginia"
-  - "attorney-general"
-  - "gun-control"
+  - 'politics'
+  - 'second-amendment'
+  - 'virginia'
+  - 'attorney-general'
+  - 'gun-control'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Jay Jones"
-  - "Virginia"
-  - "Attorney General"
-  - "Giffords"
-  - "Brady"
-  - "Everytown"
-  - "Todd Gilbert"
-  - "Gun Control"
-  - "Second Amendment"
-  - "Violence"
-image_prompt: "Gritty photojournalistic close-up of a Virginia state capitol building exterior at dusk, dramatic low light, American and Virginia state flags visible, ominous overcast sky, sharp architectural detail"
+  - 'Jay Jones'
+  - 'Virginia'
+  - 'Attorney General'
+  - 'Giffords'
+  - 'Brady'
+  - 'Everytown'
+  - 'Todd Gilbert'
+  - 'Gun Control'
+  - 'Second Amendment'
+  - 'Violence'
+image_prompt: 'Gritty photojournalistic close-up of a Virginia state capitol building exterior at dusk, dramatic low light, American and Virginia state flags visible, ominous overcast sky, sharp architectural detail'
 sort_index: 106
 ---
 
@@ -37,7 +37,7 @@ Jay Jones, a man who fantasized in writing about shooting a Republican lawmaker 
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=9w28mHCUA-U). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=9w28mHCUA-U). Commentary, not legal advice._
 
 ---
 
@@ -93,4 +93,4 @@ Own a gun in Virginia. Carry if you're legally able to. Pay attention to what Jo
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=9w28mHCUA-U). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=9w28mHCUA-U). Commentary, not legal advice._

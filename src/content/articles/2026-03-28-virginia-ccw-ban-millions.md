@@ -1,29 +1,29 @@
 ---
 title: "Virginia's SB115 will turn millions of law-abiding carriers into criminals"
-date: "2026-03-28"
-youtube_url: "https://www.youtube.com/watch?v=XmdGYnFUGRQ"
-youtube_id: "XmdGYnFUGRQ"
-thumbnail: "/images/articles/2026-03-28-virginia-ccw-ban-millions.jpg"
-duration: "10:04"
-author: "Bearing Freedom"
+date: '2026-03-28'
+youtube_url: 'https://www.youtube.com/watch?v=XmdGYnFUGRQ'
+youtube_id: 'XmdGYnFUGRQ'
+thumbnail: '/images/articles/2026-03-28-virginia-ccw-ban-millions.jpg'
+duration: '10:04'
+author: 'Bearing Freedom'
 topics:
-  - "concealed-carry"
-  - "reciprocity"
-  - "second-amendment"
-  - "virginia-legislation"
+  - 'concealed-carry'
+  - 'reciprocity'
+  - 'second-amendment'
+  - 'virginia-legislation'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Concealed Carry"
-  - "Virginia"
-  - "SB115"
-  - "Reciprocity"
-  - "Gun Control"
-  - "Carry Permit"
-image_prompt: "Bright afternoon sun on a Virginia state capitol building exterior, wide steps leading to columned entrance, American and Virginia state flags flying, a lone person walking up the steps carrying a folder of documents, photojournalistic, clear blue sky, natural light"
+  - 'Second Amendment'
+  - 'Concealed Carry'
+  - 'Virginia'
+  - 'SB115'
+  - 'Reciprocity'
+  - 'Gun Control'
+  - 'Carry Permit'
+image_prompt: 'Bright afternoon sun on a Virginia state capitol building exterior, wide steps leading to columned entrance, American and Virginia state flags flying, a lone person walking up the steps carrying a folder of documents, photojournalistic, clear blue sky, natural light'
 sort_index: 11
 ---
 
@@ -33,7 +33,7 @@ Virginia Senate Bill 115 hands a single unelected official the unchecked power t
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=XmdGYnFUGRQ). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=XmdGYnFUGRQ). Commentary, not legal advice._
 
 ---
 

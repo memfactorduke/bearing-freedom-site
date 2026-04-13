@@ -1,30 +1,30 @@
 ---
 title: "The Supreme Court just shut down one of the anti-gun movement's favorite weapons"
-date: "2025-12-16"
-youtube_url: "https://www.youtube.com/watch?v=lMgIe5_a13U"
-youtube_id: "lMgIe5_a13U"
-thumbnail: "/images/articles/2025-12-16-breaking-news-supreme-court-issues-huge-2a-win-today.jpg"
-duration: "5:41"
-author: "Bearing Freedom"
+date: '2025-12-16'
+youtube_url: 'https://www.youtube.com/watch?v=lMgIe5_a13U'
+youtube_id: 'lMgIe5_a13U'
+thumbnail: '/images/articles/2025-12-16-breaking-news-supreme-court-issues-huge-2a-win-today.jpg'
+duration: '5:41'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "supreme-court"
-  - "litigation"
-  - "gun-manufacturers"
-  - "plcaa"
+  - 'second-amendment'
+  - 'supreme-court'
+  - 'litigation'
+  - 'gun-manufacturers'
+  - 'plcaa'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Supreme Court"
-  - "PLCAA"
-  - "Springfield Armory"
-  - "Gustafson"
-  - "Lawfare"
-  - "Gun Manufacturers"
-  - "Cert Denied"
-image_prompt: "Wide-angle photojournalistic image of the United States Supreme Court building exterior on a bright clear day, sharp marble columns and steps in foreground, American flag flying above, natural sunlight, no people"
+  - 'Second Amendment'
+  - 'Supreme Court'
+  - 'PLCAA'
+  - 'Springfield Armory'
+  - 'Gustafson'
+  - 'Lawfare'
+  - 'Gun Manufacturers'
+  - 'Cert Denied'
+image_prompt: 'Wide-angle photojournalistic image of the United States Supreme Court building exterior on a bright clear day, sharp marble columns and steps in foreground, American flag flying above, natural sunlight, no people'
 sort_index: 76
 ---
 
@@ -34,7 +34,7 @@ On December 15, 2025, the Supreme Court denied cert in Gustafson v. Springfield,
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=lMgIe5_a13U). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=lMgIe5_a13U). Commentary, not legal advice._
 
 ---
 
@@ -82,4 +82,4 @@ I bring this up not because it is directly connected to the Gustafson case, but 
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=lMgIe5_a13U). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=lMgIe5_a13U). Commentary, not legal advice._

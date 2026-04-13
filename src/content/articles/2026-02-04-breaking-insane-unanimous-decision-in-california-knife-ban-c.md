@@ -1,41 +1,41 @@
 ---
 title: "The Ninth Circuit just upheld California's switchblade ban and accidentally exposed everything wrong with how courts read Bruen"
-date: "2026-02-04"
-youtube_url: "https://www.youtube.com/watch?v=Dr0zjicP1xA"
-youtube_id: "Dr0zjicP1xA"
-thumbnail: "/images/articles/2026-02-04-breaking-insane-unanimous-decision-in-california-knife-ban-c.jpg"
-duration: "8:06"
-author: "Bearing Freedom"
+date: '2026-02-04'
+youtube_url: 'https://www.youtube.com/watch?v=Dr0zjicP1xA'
+youtube_id: 'Dr0zjicP1xA'
+thumbnail: '/images/articles/2026-02-04-breaking-insane-unanimous-decision-in-california-knife-ban-c.jpg'
+duration: '8:06'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "knife-rights"
-  - "california-legislation"
-  - "ninth-circuit"
+  - 'second-amendment'
+  - 'knife-rights'
+  - 'california-legislation'
+  - 'ninth-circuit'
 states:
-  - "California"
+  - 'California'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Knife Rights"
-  - "California"
-  - "Switchblade"
-  - "Ninth Circuit"
-  - "Bruen"
-  - "Knife Rights v Bonta"
-  - "Facial Challenge"
-  - "As-Applied Challenge"
-image_prompt: "Bright exterior of the Richard H. Chambers United States Court of Appeals building in Pasadena California, sunlit neoclassical facade with wide stone steps and bronze doors, American flag flying overhead, photojournalistic style, no people"
+  - 'Second Amendment'
+  - 'Knife Rights'
+  - 'California'
+  - 'Switchblade'
+  - 'Ninth Circuit'
+  - 'Bruen'
+  - 'Knife Rights v Bonta'
+  - 'Facial Challenge'
+  - 'As-Applied Challenge'
+image_prompt: 'Bright exterior of the Richard H. Chambers United States Court of Appeals building in Pasadena California, sunlit neoclassical facade with wide stone steps and bronze doors, American flag flying overhead, photojournalistic style, no people'
 sort_index: 42
 ---
 
 ## The bottom line
 
-A unanimous Ninth Circuit panel upheld California's concealed carry ban on switchblades in *Knife Rights, Inc. v. Bonta*, decided January 30, 2026. The ruling is technically narrow, but it is built on a legal fiction: the panel treated a law that bans all possession, sale, purchase, and transfer of switchblades as if it were only a concealed carry regulation, then found historical support for the invented narrower version. The case was brought as a facial challenge when an as-applied challenge almost certainly would have succeeded, and now California's switchblade ban has a Ninth Circuit precedent behind it.
+A unanimous Ninth Circuit panel upheld California's concealed carry ban on switchblades in _Knife Rights, Inc. v. Bonta_, decided January 30, 2026. The ruling is technically narrow, but it is built on a legal fiction: the panel treated a law that bans all possession, sale, purchase, and transfer of switchblades as if it were only a concealed carry regulation, then found historical support for the invented narrower version. The case was brought as a facial challenge when an as-applied challenge almost certainly would have succeeded, and now California's switchblade ban has a Ninth Circuit precedent behind it.
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Dr0zjicP1xA). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Dr0zjicP1xA). Commentary, not legal advice._
 
 ---
 
@@ -61,7 +61,7 @@ In other words, the court is telling us directly that an as-applied challenge wo
 
 ## How the Ninth Circuit misread Bruen here
 
-The Supreme Court's 2022 decision in *New York State Rifle & Pistol Association v. Bruen* established that firearms regulations must be consistent with the historical tradition of firearm regulation in the United States. The Court held that the government bears the burden of identifying a historical analog, and that analog must be relevantly similar to the modern regulation, not just superficially related.
+The Supreme Court's 2022 decision in _New York State Rifle & Pistol Association v. Bruen_ established that firearms regulations must be consistent with the historical tradition of firearm regulation in the United States. The Court held that the government bears the burden of identifying a historical analog, and that analog must be relevantly similar to the modern regulation, not just superficially related.
 
 The Ninth Circuit found historical support for the switchblade concealed carry ban in 19th-century laws restricting the concealed carry of Bowie knives, dirks, daggers, and similar bladed weapons. The panel concluded that switchblades are relevantly similar to those weapons because both are bladed instruments that legislatures have historically treated as dangerous.
 
@@ -89,7 +89,7 @@ The only honest explanation for why California banned switchblades specifically 
 
 ## What the en banc petition means
 
-On March 18, 2026, Knife Rights filed for rehearing en banc, asking the full Ninth Circuit to take up the case. The petition argues the panel violated binding Supreme Court and Ninth Circuit precedent by treating a total ban as if it were a carry regulation, and by failing to properly apply *Heller* and *Bruen*. It also argues that the opinion creates a conflict with how other circuits have analyzed Second Amendment challenges to weapon prohibitions.
+On March 18, 2026, Knife Rights filed for rehearing en banc, asking the full Ninth Circuit to take up the case. The petition argues the panel violated binding Supreme Court and Ninth Circuit precedent by treating a total ban as if it were a carry regulation, and by failing to properly apply _Heller_ and _Bruen_. It also argues that the opinion creates a conflict with how other circuits have analyzed Second Amendment challenges to weapon prohibitions.
 
 En banc grants are rare. The Ninth Circuit takes a small fraction of en banc petitions, and recent Second Amendment cases have not produced a consistently favorable track record at the full court level. This is the Ninth Circuit. Their baseline instinct is to find ways to sustain California's regulations, and the facial challenge framing gave them an unusually clean escape route.
 
@@ -97,12 +97,12 @@ The better long-term path is a new case structured as an as-applied challenge, t
 
 ## Why this matters beyond switchblades
 
-The *Knife Rights v. Bonta* decision is not about switchblades in isolation. It is a demonstration of how courts can use the facial/as-applied distinction and careful selection of historical analogs to uphold any weapon prohibition they want to sustain, regardless of what *Bruen* actually requires.
+The _Knife Rights v. Bonta_ decision is not about switchblades in isolation. It is a demonstration of how courts can use the facial/as-applied distinction and careful selection of historical analogs to uphold any weapon prohibition they want to sustain, regardless of what _Bruen_ actually requires.
 
 The logic works like this: when confronted with a broad ban, narrow your analysis to its most defensible provision, find some 19th-century law that restricted something vaguely similar in some way, declare that tradition sufficient, and then dismiss the challenge because the plaintiffs could not prove the law is unconstitutional in every conceivable application. The weapon being regulated does not matter much. The same intellectual moves could be applied to any bladed weapon, any particular firearm type, any accessory that lawmakers find politically convenient to target.
 
-That is not what *Bruen* was supposed to produce. Justice Thomas's majority opinion in *Bruen* was explicit that courts could not simply hypothesize a historical regulation that might exist. The government had to produce actual historical evidence of a relevantly similar restriction, and the burden was on the government, not the plaintiff. What the Ninth Circuit did in *Knife Rights* was identify historical concealed carry restrictions on large fighting knives, declare a two-inch spring-assisted pocketknife relevantly similar, and call that sufficient.
+That is not what _Bruen_ was supposed to produce. Justice Thomas's majority opinion in _Bruen_ was explicit that courts could not simply hypothesize a historical regulation that might exist. The government had to produce actual historical evidence of a relevantly similar restriction, and the burden was on the government, not the plaintiff. What the Ninth Circuit did in _Knife Rights_ was identify historical concealed carry restrictions on large fighting knives, declare a two-inch spring-assisted pocketknife relevantly similar, and call that sufficient.
 
-The Supreme Court is going to have to address this methodology eventually. Whether they do so through *Knife Rights* specifically or through one of the assault weapons ban cases working their way through the courts is an open question. But the underlying problem is real: lower courts are using Bruen's historical methodology as a tool for sustaining the regulations they were already inclined to sustain, rather than as a genuine constraint on legislative power over arms.
+The Supreme Court is going to have to address this methodology eventually. Whether they do so through _Knife Rights_ specifically or through one of the assault weapons ban cases working their way through the courts is an open question. But the underlying problem is real: lower courts are using Bruen's historical methodology as a tool for sustaining the regulations they were already inclined to sustain, rather than as a genuine constraint on legislative power over arms.
 
-*Knife Rights v. Bonta* is a small case about a not-particularly-dangerous knife. It is also a preview of every other Second Amendment fight coming in courts below the Supreme Court level, and the preview is not encouraging.
+_Knife Rights v. Bonta_ is a small case about a not-particularly-dangerous knife. It is also a preview of every other Second Amendment fight coming in courts below the Supreme Court level, and the preview is not encouraging.

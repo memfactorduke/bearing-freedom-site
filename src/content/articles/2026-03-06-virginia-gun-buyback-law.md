@@ -1,30 +1,30 @@
 ---
 title: "Virginia's mandatory buyback law isn't a safety program. It's a collection infrastructure."
-date: "2026-03-06"
-youtube_url: "https://www.youtube.com/watch?v=4KJQNk9y05w"
-youtube_id: "4KJQNk9y05w"
-thumbnail: "/images/articles/2026-03-06-virginia-gun-buyback-law.jpg"
-duration: "8:29"
-author: "Bearing Freedom"
+date: '2026-03-06'
+youtube_url: 'https://www.youtube.com/watch?v=4KJQNk9y05w'
+youtube_id: '4KJQNk9y05w'
+thumbnail: '/images/articles/2026-03-06-virginia-gun-buyback-law.jpg'
+duration: '8:29'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "state-legislation"
-  - "gun-buyback"
-  - "confiscation"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'state-legislation'
+  - 'gun-buyback'
+  - 'confiscation'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "Gun Buyback"
-  - "Confiscation"
-  - "Spanberger"
-  - "Legislative Session"
-image_prompt: "A uniformed police officer at a well-lit community center table accepting a firearm from a civilian, bright indoor fluorescent lighting, informational posters on the wall, photojournalistic style"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'Gun Buyback'
+  - 'Confiscation'
+  - 'Spanberger'
+  - 'Legislative Session'
+image_prompt: 'A uniformed police officer at a well-lit community center table accepting a firearm from a civilian, bright indoor fluorescent lighting, informational posters on the wall, photojournalistic style'
 sort_index: 20
 ---
 
@@ -34,7 +34,7 @@ Virginia HB702 requires every law enforcement agency in the state to build and o
 
 ---
 
-*This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=4KJQNk9y05w). This is commentary, not legal advice.*
+_This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=4KJQNk9y05w). This is commentary, not legal advice._
 
 ---
 

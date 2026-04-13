@@ -1,30 +1,30 @@
 ---
 title: "Virginia's magazine ban has no grandfather clause, and that tells you everything"
-date: "2026-01-27"
-youtube_url: "https://www.youtube.com/watch?v=pSEaIIv39sg"
-youtube_id: "pSEaIIv39sg"
-thumbnail: "/images/articles/2026-01-27-breaking-news-virginia-announces-dystopian-2a-crackdown.jpg"
-duration: "7:01"
-author: "Bearing Freedom"
+date: '2026-01-27'
+youtube_url: 'https://www.youtube.com/watch?v=pSEaIIv39sg'
+youtube_id: 'pSEaIIv39sg'
+thumbnail: '/images/articles/2026-01-27-breaking-news-virginia-announces-dystopian-2a-crackdown.jpg'
+duration: '7:01'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "state-legislation"
-  - "magazine-ban"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'state-legislation'
+  - 'magazine-ban'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "SB749"
-  - "Magazine Ban"
-  - "Abigail Spanberger"
-  - "Standard Capacity"
-  - "Grandfather Clause"
-  - "Class 1 Misdemeanor"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'SB749'
+  - 'Magazine Ban'
+  - 'Abigail Spanberger'
+  - 'Standard Capacity'
+  - 'Grandfather Clause'
+  - 'Class 1 Misdemeanor'
 image_prompt: "A gun store owner in a well-lit Virginia shop standing behind a glass display case full of handguns, staring at a stack of printed legislation, a hand-lettered sign on the counter reading 'Standard Capacity Magazines - IN STOCK', bright overhead fluorescent lighting"
 sort_index: 50
 ---
@@ -35,7 +35,7 @@ Virginia's Senate Courts of Justice Committee just advanced a substitute version
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=pSEaIIv39sg). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=pSEaIIv39sg). Commentary, not legal advice._
 
 ---
 
@@ -73,11 +73,11 @@ The only explanation that actually fits is the one I am reluctant to say but can
 
 ## This is a Second Amendment violation on its face
 
-Virginia Democrats are going to argue in court that this is a reasonable public safety regulation. They will lose. The Supreme Court's decision in *New York State Rifle and Pistol Association v. Bruen*, 597 U.S. 1 (2022), established that courts must evaluate firearms regulations against the historical tradition of analogous laws at the founding. The government bears the burden of showing that a regulation is consistent with that tradition.
+Virginia Democrats are going to argue in court that this is a reasonable public safety regulation. They will lose. The Supreme Court's decision in _New York State Rifle and Pistol Association v. Bruen_, 597 U.S. 1 (2022), established that courts must evaluate firearms regulations against the historical tradition of analogous laws at the founding. The government bears the burden of showing that a regulation is consistent with that tradition.
 
 There is no founding-era analog for restricting magazine capacity, because detachable box magazines did not exist at the founding. But the more important point is one that gun rights scholars have been making consistently: at the time of the founding, repeating firearms with more than ten rounds were known and in circulation. The Girandoni air rifle, carried by Lewis and Clark, held 22 rounds in a tubular magazine. The Belton flintlock, demonstrated to the Continental Congress, could fire multiple rounds rapidly. The founders knew multi-shot firearms existed. They chose not to restrict them. That historical record does not support a modern ban on standard-capacity magazines.
 
-Beyond the historical analysis, banning possession of a magazine capable of holding more than ten rounds functionally restricts ownership of the most common handguns in America. The *District of Columbia v. Heller*, 554 U.S. 570 (2008) decision established that the Second Amendment protects arms in common use for lawful purposes. Magazines holding more than ten rounds are not unusual. They are the standard configuration of the most commonly owned defensive firearms in the country. A ban on them is a ban on a core component of arms protected by the Constitution.
+Beyond the historical analysis, banning possession of a magazine capable of holding more than ten rounds functionally restricts ownership of the most common handguns in America. The _District of Columbia v. Heller_, 554 U.S. 570 (2008) decision established that the Second Amendment protects arms in common use for lawful purposes. Magazines holding more than ten rounds are not unusual. They are the standard configuration of the most commonly owned defensive firearms in the country. A ban on them is a ban on a core component of arms protected by the Constitution.
 
 Virginia's own former attorney general, Jason Miyares, raised constitutional concerns about this legislation publicly. This is not a close legal question.
 

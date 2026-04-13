@@ -1,32 +1,32 @@
 ---
 title: "Virginia SB 115 doesn't just restrict reciprocity — it's a blueprint for eliminating concealed carry entirely"
-date: "2026-02-12"
-youtube_url: "https://www.youtube.com/watch?v=TFuPOSV4loM"
-youtube_id: "TFuPOSV4loM"
-thumbnail: "/images/articles/2026-02-12-breaking-news-virginia-senate-passes-brand-new-massive-gun-c.jpg"
-duration: "6:56"
-author: "Bearing Freedom"
-image_prompt: "Bright midday exterior shot of the Virginia State Capitol in Richmond, a lone gun owner in civilian clothes standing on the front steps holding a printed copy of Senate Bill 115, sharp photojournalistic focus, clear sky"
+date: '2026-02-12'
+youtube_url: 'https://www.youtube.com/watch?v=TFuPOSV4loM'
+youtube_id: 'TFuPOSV4loM'
+thumbnail: '/images/articles/2026-02-12-breaking-news-virginia-senate-passes-brand-new-massive-gun-c.jpg'
+duration: '6:56'
+author: 'Bearing Freedom'
+image_prompt: 'Bright midday exterior shot of the Virginia State Capitol in Richmond, a lone gun owner in civilian clothes standing on the front steps holding a printed copy of Senate Bill 115, sharp photojournalistic focus, clear sky'
 sort_index: 31
 topics:
-  - "concealed-carry"
-  - "reciprocity"
-  - "gun-control"
-  - "second-amendment"
-  - "virginia"
+  - 'concealed-carry'
+  - 'reciprocity'
+  - 'gun-control'
+  - 'second-amendment'
+  - 'virginia'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Concealed Carry"
-  - "Reciprocity"
-  - "Virginia"
-  - "SB115"
-  - "Spanberger"
-  - "CCW"
-  - "Gun Control"
+  - 'Second Amendment'
+  - 'Concealed Carry'
+  - 'Reciprocity'
+  - 'Virginia'
+  - 'SB115'
+  - 'Spanberger'
+  - 'CCW'
+  - 'Gun Control'
 ---
 
 ## The bottom line
@@ -35,7 +35,7 @@ Virginia Senate Bill 115 passed the Senate on February 9, 2026, and cleared the 
 
 ---
 
-*This article is based on commentary from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=TFuPOSV4loM). Commentary, not legal advice.*
+_This article is based on commentary from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=TFuPOSV4loM). Commentary, not legal advice._
 
 ---
 
@@ -55,7 +55,7 @@ Sponsored by Sen. Stella Pekarsky of Fairfax, the bill was justified by Senate M
 
 The "substantially similar" standard sounds neutral. In practice, it is a gate that can be raised or lowered entirely at bureaucratic discretion. The Superintendent of State Police is a political appointee. That appointee will review permit regimes under an administration that has made no secret of its intent to minimize civilian carry in Virginia. The idea that Texas, Wyoming, or any state with a permissive carry regime is going to be found "substantially similar" to Virginia's requirements under a Spanberger appointee is not a realistic expectation.
 
-I've been watching this play out in other states long enough to recognize the pattern. Hawaii essentially stopped issuing carry permits for decades before the Supreme Court's 2022 decision in *New York State Rifle & Pistol Association v. Bruen* forced shall-issue into the constitutional mainstream. The Los Angeles County Sheriff's Department used processing delays and discretionary "good cause" requirements to approve virtually nothing for years, with applicants waiting three-plus years and then abandoning their applications. The game isn't to formally ban carry. The game is to make the process so slow, so uncertain, and so arbitrary that people stop trying.
+I've been watching this play out in other states long enough to recognize the pattern. Hawaii essentially stopped issuing carry permits for decades before the Supreme Court's 2022 decision in _New York State Rifle & Pistol Association v. Bruen_ forced shall-issue into the constitutional mainstream. The Los Angeles County Sheriff's Department used processing delays and discretionary "good cause" requirements to approve virtually nothing for years, with applicants waiting three-plus years and then abandoning their applications. The game isn't to formally ban carry. The game is to make the process so slow, so uncertain, and so arbitrary that people stop trying.
 
 That is the game being set up in Virginia right now. The reciprocity list will be short. The Virginia permitting process, which is already not trivial, will see its waiting lists grow under the surge of residents who previously relied on out-of-state permits. And because the standard is "substantially similar" with no definition of what that actually means, the Superintendent has essentially unlimited discretion to find reasons to reject states without ever being held accountable for a specific standard.
 
@@ -85,7 +85,7 @@ This is not hypothetical. In 2017, when North Carolina tightened some carry rest
 
 ## What the courts can and can't do here
 
-The *Bruen* framework requires that gun regulations be grounded in the historical tradition of firearms regulation at the time of the founding. There is no founding-era analog for state-controlled reciprocity review — partly because interstate travel as we know it didn't exist, and partly because carry permits as a regulatory concept didn't exist either. The Second Amendment's text protects the right to keep and bear arms. Whether SB 115 infringes that right in a way that is clearly litigable is genuinely complicated.
+The _Bruen_ framework requires that gun regulations be grounded in the historical tradition of firearms regulation at the time of the founding. There is no founding-era analog for state-controlled reciprocity review — partly because interstate travel as we know it didn't exist, and partly because carry permits as a regulatory concept didn't exist either. The Second Amendment's text protects the right to keep and bear arms. Whether SB 115 infringes that right in a way that is clearly litigable is genuinely complicated.
 
 The more promising angle is the burden on Virginia residents holding valid out-of-state permits. Stripping someone of a carry right they lawfully obtained, with no process for appeal and no clear standard for what "substantially similar" means, raises real due process questions on top of the Second Amendment ones. Gun Owners of America and the Virginia Citizens Defense League will not sit on this. But litigation takes time, the effective date is July 2027, and in the meantime the administrative machinery will be building exactly the kind of structural barriers that take years to dismantle even after a court rules against them.
 

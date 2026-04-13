@@ -1,31 +1,31 @@
 ---
-title: "The ATF has nearly a billion gun records, Congress asked about it a year ago, and still got no answer"
-date: "2026-02-08"
-youtube_url: "https://www.youtube.com/watch?v=H53n4Uumigc"
-youtube_id: "H53n4Uumigc"
-thumbnail: "/images/articles/2026-02-08-breaking-atf-caught-illegally-registering-57-million-guns.jpg"
-duration: "8:36"
-author: "Bearing Freedom"
-image_prompt: "Bright daytime exterior of the ATF federal building in Washington DC, a congressional aide carrying a stack of official letters walking toward the entrance, American flags in background, sharp photojournalistic composition, natural light"
+title: 'The ATF has nearly a billion gun records, Congress asked about it a year ago, and still got no answer'
+date: '2026-02-08'
+youtube_url: 'https://www.youtube.com/watch?v=H53n4Uumigc'
+youtube_id: 'H53n4Uumigc'
+thumbnail: '/images/articles/2026-02-08-breaking-atf-caught-illegally-registering-57-million-guns.jpg'
+duration: '8:36'
+author: 'Bearing Freedom'
+image_prompt: 'Bright daytime exterior of the ATF federal building in Washington DC, a congressional aide carrying a stack of official letters walking toward the entrance, American flags in background, sharp photojournalistic composition, natural light'
 sort_index: 36
 topics:
-  - "atf"
-  - "gun-registry"
-  - "second-amendment"
-  - "congress"
-  - "federal-law"
+  - 'atf'
+  - 'gun-registry'
+  - 'second-amendment'
+  - 'congress'
+  - 'federal-law'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "ATF"
-  - "Gun Registry"
-  - "OBRIS"
-  - "Congress"
-  - "Firearms Owners Protection Act"
-  - "Federal Law"
-  - "Robert Cekada"
+  - 'Second Amendment'
+  - 'ATF'
+  - 'Gun Registry'
+  - 'OBRIS'
+  - 'Congress'
+  - 'Firearms Owners Protection Act'
+  - 'Federal Law'
+  - 'Robert Cekada'
 ---
 
 ## The bottom line
@@ -34,7 +34,7 @@ The ATF has quietly built a searchable database containing nearly a billion reco
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=H53n4Uumigc). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=H53n4Uumigc). Commentary, not legal advice._
 
 ---
 

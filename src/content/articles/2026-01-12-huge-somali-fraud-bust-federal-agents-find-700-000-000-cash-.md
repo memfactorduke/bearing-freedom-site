@@ -1,33 +1,33 @@
 ---
-title: "The $700 million walking out of Minneapolis in suitcases is the most infuriating story in America right now"
-date: "2026-01-12"
-youtube_url: "https://www.youtube.com/watch?v=qQpyQVrJNhU"
-youtube_id: "qQpyQVrJNhU"
-thumbnail: "/images/articles/2026-01-12-huge-somali-fraud-bust-federal-agents-find-700-000-000-cash-.jpg"
-duration: "12:00"
-author: "Bearing Freedom"
-image_prompt: "A TSA checkpoint at a major American airport, suitcases on a conveyor belt under bright fluorescent overhead lighting, a uniformed officer examining a bag, photojournalistic wide shot, no faces visible, sharp documentary style"
+title: 'The $700 million walking out of Minneapolis in suitcases is the most infuriating story in America right now'
+date: '2026-01-12'
+youtube_url: 'https://www.youtube.com/watch?v=qQpyQVrJNhU'
+youtube_id: 'qQpyQVrJNhU'
+thumbnail: '/images/articles/2026-01-12-huge-somali-fraud-bust-federal-agents-find-700-000-000-cash-.jpg'
+duration: '12:00'
+author: 'Bearing Freedom'
+image_prompt: 'A TSA checkpoint at a major American airport, suitcases on a conveyor belt under bright fluorescent overhead lighting, a uniformed officer examining a bag, photojournalistic wide shot, no faces visible, sharp documentary style'
 sort_index: 65
 topics:
-  - "welfare-fraud"
-  - "government-spending"
-  - "immigration"
-  - "federal-enforcement"
+  - 'welfare-fraud'
+  - 'government-spending'
+  - 'immigration'
+  - 'federal-enforcement'
 states:
-  - "Minnesota"
+  - 'Minnesota'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Minnesota Fraud"
-  - "Welfare Fraud"
-  - "Somali Community"
-  - "Minneapolis Airport"
-  - "TSA"
-  - "Homeland Security"
-  - "Remittances"
-  - "Scott Bessent"
-  - "Tim Walz"
-  - "Government Accountability"
+  - 'Minnesota Fraud'
+  - 'Welfare Fraud'
+  - 'Somali Community'
+  - 'Minneapolis Airport'
+  - 'TSA'
+  - 'Homeland Security'
+  - 'Remittances'
+  - 'Scott Bessent'
+  - 'Tim Walz'
+  - 'Government Accountability'
 ---
 
 ## The bottom line
@@ -36,7 +36,7 @@ The TSA flagged nearly $700 million in cash leaving Minneapolis-St. Paul Interna
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=qQpyQVrJNhU). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=qQpyQVrJNhU). Commentary, not legal advice._
 
 ---
 

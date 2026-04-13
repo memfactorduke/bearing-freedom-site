@@ -1,32 +1,32 @@
 ---
 title: "Kash Patel told America you can't carry a gun to a protest. He was wrong, and he knows it."
-date: "2026-01-26"
-youtube_url: "https://www.youtube.com/watch?v=9U0cfo3cD0A"
-youtube_id: "9U0cfo3cD0A"
-thumbnail: "/images/articles/2026-01-26-breaking-news-fbi-director-kash-patel-makes-terrible-2a-anno.jpg"
-duration: "7:42"
-author: "Bearing Freedom"
+date: '2026-01-26'
+youtube_url: 'https://www.youtube.com/watch?v=9U0cfo3cD0A'
+youtube_id: '9U0cfo3cD0A'
+thumbnail: '/images/articles/2026-01-26-breaking-news-fbi-director-kash-patel-makes-terrible-2a-anno.jpg'
+duration: '7:42'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "federal-enforcement"
-  - "carry-rights"
-  - "trump-administration"
+  - 'second-amendment'
+  - 'federal-enforcement'
+  - 'carry-rights'
+  - 'trump-administration'
 states:
-  - "MN"
+  - 'MN'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Kash Patel"
-  - "FBI"
-  - "Kristi Noem"
-  - "DHS"
-  - "Alex Pretti"
-  - "Minnesota"
-  - "concealed carry"
-  - "Trump Administration"
-  - "carry rights"
-image_prompt: "Photojournalistic shot of a lone person in a winter jacket standing on a snow-dusted Minneapolis sidewalk holding a small hand-lettered sign, afternoon sunlight low and cold, brick buildings behind them, no police visible, quiet street"
+  - 'Second Amendment'
+  - 'Kash Patel'
+  - 'FBI'
+  - 'Kristi Noem'
+  - 'DHS'
+  - 'Alex Pretti'
+  - 'Minnesota'
+  - 'concealed carry'
+  - 'Trump Administration'
+  - 'carry rights'
+image_prompt: 'Photojournalistic shot of a lone person in a winter jacket standing on a snow-dusted Minneapolis sidewalk holding a small hand-lettered sign, afternoon sunlight low and cold, brick buildings behind them, no police visible, quiet street'
 sort_index: 52
 ---
 
@@ -36,7 +36,7 @@ FBI Director Kash Patel went on national television and said that showing up to 
 
 ---
 
-*This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=9U0cfo3cD0A). This is commentary, not legal advice.*
+_This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=9U0cfo3cD0A). This is commentary, not legal advice._
 
 ---
 

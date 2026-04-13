@@ -1,31 +1,31 @@
 ---
-title: "West Virginia found the crack in the Hughes Amendment and the Senate president killed it anyway"
-date: "2026-02-24"
-youtube_url: "https://www.youtube.com/watch?v=gG35U9SKsQM"
-youtube_id: "gG35U9SKsQM"
-thumbnail: "/images/articles/2026-02-24-end-the-nfa.jpg"
-duration: "10:01"
-author: "Bearing Freedom"
-image_prompt: "West Virginia state capitol building exterior on a clear sunny day, a citizen in a t-shirt holding a printed copy of Senate Bill 1071 on the front steps, natural light, photojournalistic documentary style"
+title: 'West Virginia found the crack in the Hughes Amendment and the Senate president killed it anyway'
+date: '2026-02-24'
+youtube_url: 'https://www.youtube.com/watch?v=gG35U9SKsQM'
+youtube_id: 'gG35U9SKsQM'
+thumbnail: '/images/articles/2026-02-24-end-the-nfa.jpg'
+duration: '10:01'
+author: 'Bearing Freedom'
+image_prompt: 'West Virginia state capitol building exterior on a clear sunny day, a citizen in a t-shirt holding a printed copy of Senate Bill 1071 on the front steps, natural light, photojournalistic documentary style'
 sort_index: 26
 topics:
-  - "nfa"
-  - "second-amendment"
-  - "machine-guns"
-  - "state-legislation"
-  - "hughes-amendment"
+  - 'nfa'
+  - 'second-amendment'
+  - 'machine-guns'
+  - 'state-legislation'
+  - 'hughes-amendment'
 states:
-  - "West Virginia"
+  - 'West Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "NFA"
-  - "Hughes Amendment"
-  - "Machine Guns"
-  - "West Virginia"
-  - "Federal Law"
-  - "Legislative Strategy"
+  - 'Second Amendment'
+  - 'NFA'
+  - 'Hughes Amendment'
+  - 'Machine Guns'
+  - 'West Virginia'
+  - 'Federal Law'
+  - 'Legislative Strategy'
 ---
 
 ## The bottom line
@@ -34,7 +34,7 @@ West Virginia Senate Bill 1071 used language written into the Hughes Amendment i
 
 ---
 
-*This article is based on commentary from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=gG35U9SKsQM). Commentary, not legal advice.*
+_This article is based on commentary from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=gG35U9SKsQM). Commentary, not legal advice._
 
 ---
 
@@ -56,7 +56,7 @@ I'll be honest about something. This exemption has been sitting in plain text in
 
 The major gun rights groups have put enormous resources into carry rights, assault weapons bans, handgun rosters, red flag law challenges, and age-based purchase restrictions. All of those fights matter. But while that was happening, the NFA and the Hughes Amendment sat largely untouched in the courts and in state legislatures. The machine gun ban became accepted background reality. The registry is closed. Pre-86 transferables are collector items. That's just how it is.
 
-That fatalism has real consequences. The legal architecture challenging the Hughes Amendment has been thin compared to other areas. The Fifth Circuit upheld § 922(o) in January 2026 in *United States v. Jamaion Wilson*, but district-level courts have broken the other direction. There's a circuit split forming, and what has been missing is consistent legislative pressure from states that would force federal courts to engage seriously with the question. West Virginia's bill was designed to generate exactly that pressure.
+That fatalism has real consequences. The legal architecture challenging the Hughes Amendment has been thin compared to other areas. The Fifth Circuit upheld § 922(o) in January 2026 in _United States v. Jamaion Wilson_, but district-level courts have broken the other direction. There's a circuit split forming, and what has been missing is consistent legislative pressure from states that would force federal courts to engage seriously with the question. West Virginia's bill was designed to generate exactly that pressure.
 
 Gun Owners of America supported SB 1071 actively and aggressively, citing national firearms law scholars who had examined the state-exemption theory and found it credible. That institutional backing matters because it signals that this isn't fringe thinking. It's a serious legal argument that deserves a serious test case.
 
@@ -68,7 +68,7 @@ A pistol is legal. Attach a piece of plastic to the grip and a barrel two inches
 
 Suppressors are particularly absurd. Most of Europe either requires or strongly encourages their use to protect shooter and bystander hearing. They are sold over the counter in many countries without any special regulation. In the United States, they're Class III NFA items requiring a $200 tax stamp, a months-long wait, and federal registration because legislators in 1934 worried that police wouldn't be able to hear shots if suppressors became common. That was a genuine stated rationale in 1934 and it has survived into 2026 entirely intact.
 
-Machine guns were legal for civilian ownership from before the founding of the republic until 1986. Then Congress quietly amended FOPA on a voice vote to freeze the registry. Under the *Bruen* framework, which requires gun regulations to be grounded in the historical tradition at the time of the founding, there is a serious argument that a categorical ban on a class of firearms that was entirely legal for the first two centuries of American history cannot survive constitutional scrutiny. That argument has not been fully tested at the appellate level because no one has built the right test case.
+Machine guns were legal for civilian ownership from before the founding of the republic until 1986. Then Congress quietly amended FOPA on a voice vote to freeze the registry. Under the _Bruen_ framework, which requires gun regulations to be grounded in the historical tradition at the time of the founding, there is a serious argument that a categorical ban on a class of firearms that was entirely legal for the first two centuries of American history cannot survive constitutional scrutiny. That argument has not been fully tested at the appellate level because no one has built the right test case.
 
 ## What Smith actually did and why it matters
 
@@ -88,7 +88,7 @@ The broader significance of SB 1071 isn't really about machine guns in West Virg
 
 The Hughes Amendment state exemption is one example. The concealed carry reciprocity question has similar potential: a state that structures a program authorizing residents to serve in an official community defense capacity could potentially give those residents carry rights that follow them across state lines under federal statutes governing law enforcement. That's not a trick. That's using statutory language as written to recover rights that have been incrementally stripped away through hostile regulation and a complacent litigation environment.
 
-The gun control movement has spent decades finding creative legislative strategies to regulate firearms at the margins of what the Constitution permits. Liability insurance mandates, storage requirements, features-based definitions designed to capture as much as possible, sensitive places designations that make lawful carry practically impossible in densely populated areas. All of that is creative statutory work at the edges of constitutional limits. There is no reason the pro-rights side can't do the same thing in the other direction, and several reasons to think it would be more effective now than at any point in the last thirty years given the post-*Bruen* analytical framework courts are required to apply.
+The gun control movement has spent decades finding creative legislative strategies to regulate firearms at the margins of what the Constitution permits. Liability insurance mandates, storage requirements, features-based definitions designed to capture as much as possible, sensitive places designations that make lawful carry practically impossible in densely populated areas. All of that is creative statutory work at the edges of constitutional limits. There is no reason the pro-rights side can't do the same thing in the other direction, and several reasons to think it would be more effective now than at any point in the last thirty years given the post-_Bruen_ analytical framework courts are required to apply.
 
 West Virginia didn't get this over the finish line in the 2026 session. The idea is now in circulation. Other states are watching. GOA has already signaled this isn't over. The next version will be drafted more carefully, and at some point one of these bills is going to pass and force a federal court to actually answer the question that has been sitting unanswered in the text of 18 U.S.C. § 922(o) since 1986.
 

@@ -1,28 +1,28 @@
 ---
 title: "Philadelphia's sheriff just threatened to arrest federal agents — and it tells you everything about who runs your city"
-date: "2026-01-10"
-youtube_url: "https://www.youtube.com/watch?v=czhn7LeZTfk"
-youtube_id: "czhn7LeZTfk"
-thumbnail: "/images/articles/2026-01-10-you-don-t-want-this-smoke-philly-sheriff-threatens-to-arrest.jpg"
-duration: "7:27"
-author: "Bearing Freedom"
+date: '2026-01-10'
+youtube_url: 'https://www.youtube.com/watch?v=czhn7LeZTfk'
+youtube_id: 'czhn7LeZTfk'
+thumbnail: '/images/articles/2026-01-10-you-don-t-want-this-smoke-philly-sheriff-threatens-to-arrest.jpg'
+duration: '7:27'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "self-defense"
-  - "law-enforcement"
-  - "immigration-enforcement"
+  - 'second-amendment'
+  - 'self-defense'
+  - 'law-enforcement'
+  - 'immigration-enforcement'
 content_type:
-  - "commentary"
+  - 'commentary'
 states:
-  - "Pennsylvania"
+  - 'Pennsylvania'
 tags:
-  - "Second Amendment"
-  - "Philadelphia"
-  - "ICE"
-  - "Self-Defense"
-  - "Sanctuary City"
-  - "Law Enforcement"
-  - "Rochelle Bilal"
+  - 'Second Amendment'
+  - 'Philadelphia'
+  - 'ICE'
+  - 'Self-Defense'
+  - 'Sanctuary City'
+  - 'Law Enforcement'
+  - 'Rochelle Bilal'
 image_prompt: "A Philadelphia row house block in afternoon sunlight, a 'Neighborhood Watch' sign on a telephone pole, a legally-owned firearm in a locked case visible through an open screen door in the background, photojournalistic documentary style, no people"
 sort_index: 69
 ---
@@ -35,7 +35,7 @@ Every Second Amendment argument I make ultimately comes back to one fundamental 
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=czhn7LeZTfk). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=czhn7LeZTfk). Commentary, not legal advice._
 
 ---
 
@@ -51,7 +51,7 @@ Oregon State Senate Majority Leader Kayse Jama made similar remarks from Portlan
 
 Let me be direct about the legal reality, because this matters: Rochelle Bilal cannot arrest federal ICE agents for performing lawful immigration enforcement operations, and any attempt to prosecute them would almost certainly fail before it started.
 
-The doctrine of Supremacy Clause immunity has roots going back to the Supreme Court's 1890 decision in *In re Neagle*, where the Court held that California could not prosecute a deputy U.S. marshal who killed an assailant while protecting a Supreme Court Justice. The principle established there is that federal officers acting within the scope of their lawful duties, and acting reasonably within those duties, are shielded from state criminal prosecution.
+The doctrine of Supremacy Clause immunity has roots going back to the Supreme Court's 1890 decision in _In re Neagle_, where the Court held that California could not prosecute a deputy U.S. marshal who killed an assailant while protecting a Supreme Court Justice. The principle established there is that federal officers acting within the scope of their lawful duties, and acting reasonably within those duties, are shielded from state criminal prosecution.
 
 Modern courts apply a two-part test: was the action authorized by federal law, and was it necessary and proper to the officer's federal responsibilities? If yes on both counts, the state prosecution does not proceed. If a state does bring charges anyway, the federal officer can remove the case to federal court, where it will be decided by a federal judge rather than a local prosecutor with an agenda.
 

@@ -1,31 +1,31 @@
 ---
-title: "Trump going to the Supreme Court is about more than tariffs"
-date: "2025-10-17"
-youtube_url: "https://www.youtube.com/watch?v=SN9G0ctCjBE"
-youtube_id: "SN9G0ctCjBE"
-thumbnail: "/images/articles/2025-10-17-breaking-why-is-president-trump-going-to-the-supreme-court.jpg"
-duration: "6:56"
-author: "Bearing Freedom"
+title: 'Trump going to the Supreme Court is about more than tariffs'
+date: '2025-10-17'
+youtube_url: 'https://www.youtube.com/watch?v=SN9G0ctCjBE'
+youtube_id: 'SN9G0ctCjBE'
+thumbnail: '/images/articles/2025-10-17-breaking-why-is-president-trump-going-to-the-supreme-court.jpg'
+duration: '6:56'
+author: 'Bearing Freedom'
 topics:
-  - "supreme-court"
-  - "trump"
-  - "tariffs"
-  - "ieepa"
-  - "administrative-state"
-  - "second-amendment"
+  - 'supreme-court'
+  - 'trump'
+  - 'tariffs'
+  - 'ieepa'
+  - 'administrative-state'
+  - 'second-amendment'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Supreme Court"
-  - "Trump"
-  - "IEEPA"
-  - "Tariffs"
-  - "Chevron"
-  - "Administrative State"
-  - "Second Amendment"
-  - "Separation of Powers"
-image_prompt: "Wide-angle photojournalistic shot of the exterior of the United States Supreme Court building in Washington DC on a clear autumn day, marble columns and steps in sharp detail, American flag visible, no people"
+  - 'Supreme Court'
+  - 'Trump'
+  - 'IEEPA'
+  - 'Tariffs'
+  - 'Chevron'
+  - 'Administrative State'
+  - 'Second Amendment'
+  - 'Separation of Powers'
+image_prompt: 'Wide-angle photojournalistic shot of the exterior of the United States Supreme Court building in Washington DC on a clear autumn day, marble columns and steps in sharp detail, American flag visible, no people'
 sort_index: 101
 ---
 
@@ -35,7 +35,7 @@ Trump announcing he planned to attend oral arguments in the IEEPA tariff case wa
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=SN9G0ctCjBE). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=SN9G0ctCjBE). Commentary, not legal advice._
 
 ---
 
@@ -85,4 +85,4 @@ A president who pays attention to that dynamic is an asset. A president who anno
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=SN9G0ctCjBE). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=SN9G0ctCjBE). Commentary, not legal advice._

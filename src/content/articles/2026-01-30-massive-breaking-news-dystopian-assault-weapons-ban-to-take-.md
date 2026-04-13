@@ -1,31 +1,31 @@
 ---
 title: "Virginia's magazine ban is not about safety. It's about making you a criminal."
-date: "2026-01-30"
-youtube_url: "https://www.youtube.com/watch?v=a4no74Vk3zc"
-youtube_id: "a4no74Vk3zc"
-thumbnail: "/images/articles/2026-01-30-massive-breaking-news-dystopian-assault-weapons-ban-to-take-.jpg"
-duration: "8:43"
-author: "Bearing Freedom"
+date: '2026-01-30'
+youtube_url: 'https://www.youtube.com/watch?v=a4no74Vk3zc'
+youtube_id: 'a4no74Vk3zc'
+thumbnail: '/images/articles/2026-01-30-massive-breaking-news-dystopian-assault-weapons-ban-to-take-.jpg'
+duration: '8:43'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "virginia"
-  - "magazine-ban"
-  - "assault-weapons-ban"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'virginia'
+  - 'magazine-ban'
+  - 'assault-weapons-ban'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "HB217"
-  - "Magazine Ban"
-  - "Assault Weapons Ban"
-  - "Grandfather Clause"
-  - "Electoral Negligence"
-image_prompt: "A Virginia state capitol building exterior in bright afternoon sunlight, American flag flying, a lone figure in the foreground holding a rolled-up legal document, photojournalistic style, sharp focus, no darkness"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'HB217'
+  - 'Magazine Ban'
+  - 'Assault Weapons Ban'
+  - 'Grandfather Clause'
+  - 'Electoral Negligence'
+image_prompt: 'A Virginia state capitol building exterior in bright afternoon sunlight, American flag flying, a lone figure in the foreground holding a rolled-up legal document, photojournalistic style, sharp focus, no darkness'
 sort_index: 45
 ---
 
@@ -35,7 +35,7 @@ Virginia HB217 combines an assault weapons ban with a magazine capacity restrict
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=a4no74Vk3zc). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=a4no74Vk3zc). Commentary, not legal advice._
 
 ---
 
@@ -91,4 +91,4 @@ This is not about hating any particular candidate. I have my own frustrations wi
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=a4no74Vk3zc). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=a4no74Vk3zc). Commentary, not legal advice._

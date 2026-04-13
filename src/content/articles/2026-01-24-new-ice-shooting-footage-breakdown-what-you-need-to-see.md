@@ -1,27 +1,27 @@
 ---
-title: "New ICE shooting footage breakdown: what you need to see"
-date: "2026-01-24"
-youtube_url: "https://www.youtube.com/watch?v=aL2qOlcFGeY"
-youtube_id: "aL2qOlcFGeY"
-thumbnail: "/images/articles/2026-01-24-new-ice-shooting-footage-breakdown-what-you-need-to-see.jpg"
-duration: "8:10"
-author: "Bearing Freedom"
+title: 'New ICE shooting footage breakdown: what you need to see'
+date: '2026-01-24'
+youtube_url: 'https://www.youtube.com/watch?v=aL2qOlcFGeY'
+youtube_id: 'aL2qOlcFGeY'
+thumbnail: '/images/articles/2026-01-24-new-ice-shooting-footage-breakdown-what-you-need-to-see.jpg'
+duration: '8:10'
+author: 'Bearing Freedom'
 topics:
-  - "law-enforcement"
-  - "second-amendment"
-  - "civil-liberties"
+  - 'law-enforcement'
+  - 'second-amendment'
+  - 'civil-liberties'
 content_type:
-  - "commentary"
+  - 'commentary'
 states:
-  - "Minnesota"
+  - 'Minnesota'
 tags:
-  - "ICE"
-  - "Minneapolis"
-  - "Officer Involved Shooting"
-  - "Alex Pretti"
-  - "Law Enforcement Accountability"
-  - "Second Amendment"
-  - "Use of Force"
+  - 'ICE'
+  - 'Minneapolis'
+  - 'Officer Involved Shooting'
+  - 'Alex Pretti'
+  - 'Law Enforcement Accountability'
+  - 'Second Amendment'
+  - 'Use of Force'
 image_prompt: "A photojournalist's eye-level shot of a Minneapolis street corner at dusk, yellow police tape stretching across the frame, a crowd of protesters standing silently beyond it in winter coats holding candles, city streetlights glowing orange above them, high contrast documentary photography style"
 sort_index: 53
 ---
@@ -32,7 +32,7 @@ January 24, 2026. Alex Pretti, a 37-year-old VA nurse in Minneapolis, was shot a
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=aL2qOlcFGeY). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=aL2qOlcFGeY). Commentary, not legal advice._
 
 ---
 

@@ -1,30 +1,30 @@
 ---
 title: "A Virginia delegate just used a Holocaust survivor's death to argue you don't need a gun"
-date: "2026-03-16"
-youtube_url: "https://www.youtube.com/watch?v=DJ1QAwgrcO8"
-youtube_id: "DJ1QAwgrcO8"
-thumbnail: "/images/articles/2026-03-16-virginia-delegate-dystopian-vision.jpg"
-duration: "7:59"
-author: "Bearing Freedom"
+date: '2026-03-16'
+youtube_url: 'https://www.youtube.com/watch?v=DJ1QAwgrcO8'
+youtube_id: 'DJ1QAwgrcO8'
+thumbnail: '/images/articles/2026-03-16-virginia-delegate-dystopian-vision.jpg'
+duration: '7:59'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "self-defense"
-  - "history"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'self-defense'
+  - 'history'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "Liviu Librescu"
-  - "Virginia Tech"
-  - "Holocaust"
-  - "Self-Defense"
-  - "Delegate Garrett McGuire"
-image_prompt: "A sunlit university lecture hall with rows of empty wooden desks, tall windows casting bright rectangles of morning light across the floor, an American flag visible near a chalkboard at the front of the room, photojournalistic, natural lighting"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'Liviu Librescu'
+  - 'Virginia Tech'
+  - 'Holocaust'
+  - 'Self-Defense'
+  - 'Delegate Garrett McGuire'
+image_prompt: 'A sunlit university lecture hall with rows of empty wooden desks, tall windows casting bright rectangles of morning light across the floor, an American flag visible near a chalkboard at the front of the room, photojournalistic, natural lighting'
 sort_index: 18
 ---
 
@@ -34,7 +34,7 @@ Virginia Delegate Garrett McGuire stood on the floor of the House of Delegates a
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=DJ1QAwgrcO8). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=DJ1QAwgrcO8). Commentary, not legal advice._
 
 ---
 
@@ -92,6 +92,6 @@ Virginia gun owners keep electing legislators who believe Liviu Librescu's story
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=DJ1QAwgrcO8). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=DJ1QAwgrcO8). Commentary, not legal advice._
 
 ---

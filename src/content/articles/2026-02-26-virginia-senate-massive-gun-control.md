@@ -1,32 +1,32 @@
 ---
 title: "Virginia's HB 217 cleared the Senate committee and they know exactly what they're doing"
-date: "2026-02-26"
-youtube_url: "https://www.youtube.com/watch?v=ezekRd7jPFA"
-youtube_id: "ezekRd7jPFA"
-thumbnail: "/images/articles/2026-02-26-virginia-senate-massive-gun-control.jpg"
-duration: "7:11"
-author: "Bearing Freedom"
-image_prompt: "Virginia state capitol building exterior in bright midday sunlight, American flag flying, protestors with hand-lettered Second Amendment signs gathered on the front steps, sharp documentary photography"
+date: '2026-02-26'
+youtube_url: 'https://www.youtube.com/watch?v=ezekRd7jPFA'
+youtube_id: 'ezekRd7jPFA'
+thumbnail: '/images/articles/2026-02-26-virginia-senate-massive-gun-control.jpg'
+duration: '7:11'
+author: 'Bearing Freedom'
+image_prompt: 'Virginia state capitol building exterior in bright midday sunlight, American flag flying, protestors with hand-lettered Second Amendment signs gathered on the front steps, sharp documentary photography'
 sort_index: 24
 topics:
-  - "assault-weapons-ban"
-  - "gun-control"
-  - "second-amendment"
-  - "virginia"
-  - "magazine-ban"
+  - 'assault-weapons-ban'
+  - 'gun-control'
+  - 'second-amendment'
+  - 'virginia'
+  - 'magazine-ban'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "HB217"
-  - "Assault Weapons Ban"
-  - "Magazine Ban"
-  - "Spanberger"
-  - "Dan Helmer"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'HB217'
+  - 'Assault Weapons Ban'
+  - 'Magazine Ban'
+  - 'Spanberger'
+  - 'Dan Helmer'
 ---
 
 ## The bottom line
@@ -35,7 +35,7 @@ Virginia HB 217 has cleared the Senate committee stage. It already passed the Ho
 
 ---
 
-*This article is based on commentary from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=ezekRd7jPFA). Commentary, not legal advice.*
+_This article is based on commentary from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=ezekRd7jPFA). Commentary, not legal advice._
 
 ---
 
@@ -83,9 +83,9 @@ This is the design. Outright confiscation in 2026 would face immediate mass resi
 
 Gun Owners of America and the Virginia Citizens Defense League have made clear they will challenge HB 217 in court the moment Spanberger signs it. The National Shooting Sports Foundation has said its lawyers will be on the courthouse steps. These organizations have the resources and the standing to mount a serious challenge.
 
-The constitutional landscape is genuinely complicated. Under the *Bruen* framework, restrictions on Second Amendment rights must be grounded in the historical tradition of firearm regulation at the founding. No founding-era analog for a features-based semi-automatic ban exists, because semi-automatic firearms didn't exist then and because no historical tradition of banning commonly owned civilian weapons along these lines has been identified. The *Heller* "common use" standard cuts the same direction: AR-platform rifles and similar semi-automatics are possessed by tens of millions of Americans for lawful purposes.
+The constitutional landscape is genuinely complicated. Under the _Bruen_ framework, restrictions on Second Amendment rights must be grounded in the historical tradition of firearm regulation at the founding. No founding-era analog for a features-based semi-automatic ban exists, because semi-automatic firearms didn't exist then and because no historical tradition of banning commonly owned civilian weapons along these lines has been identified. The _Heller_ "common use" standard cuts the same direction: AR-platform rifles and similar semi-automatics are possessed by tens of millions of Americans for lawful purposes.
 
-But Virginia sits in the Fourth Circuit. In August 2024, the en banc Fourth Circuit upheld Maryland's assault weapons ban 10-5 in *Bianchi v. Brown*, ruling that military-style weapons fall outside Second Amendment protection. The Supreme Court declined to hear that appeal in June 2025. Justices Thomas, Alito, and Gorsuch dissented from the cert denial, a signal that at least three justices believe the issue warrants review, but cert denial is not a ruling on the merits and the Fourth Circuit precedent remains in place.
+But Virginia sits in the Fourth Circuit. In August 2024, the en banc Fourth Circuit upheld Maryland's assault weapons ban 10-5 in _Bianchi v. Brown_, ruling that military-style weapons fall outside Second Amendment protection. The Supreme Court declined to hear that appeal in June 2025. Justices Thomas, Alito, and Gorsuch dissented from the cert denial, a signal that at least three justices believe the issue warrants review, but cert denial is not a ruling on the merits and the Fourth Circuit precedent remains in place.
 
 Any challenge to HB 217 through the Fourth Circuit will need to either distinguish the Virginia law meaningfully from the Maryland law the court already upheld, or wait for the Supreme Court to take up a clean circuit split on the question. That could take years. In the meantime, July 1, 2026 arrives, the law takes effect, and the transfer restrictions begin running the clock on the grandfathered firearms. Even a successful legal challenge five years from now does not restore the civilian market that will have dried up in the interim.
 

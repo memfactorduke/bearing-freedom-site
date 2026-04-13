@@ -1,37 +1,37 @@
 ---
 title: "Oregon's new gun laws are a blueprint for what they want to do to all of us"
-date: "2025-10-19"
-youtube_url: "https://www.youtube.com/watch?v=lGGIctf0Yts"
-youtube_id: "lGGIctf0Yts"
-thumbnail: "/images/articles/2025-10-19-breaking-oregon-s-new-gun-laws-are-crazy.jpg"
-duration: "8:35"
-author: "Bearing Freedom"
+date: '2025-10-19'
+youtube_url: 'https://www.youtube.com/watch?v=lGGIctf0Yts'
+youtube_id: 'lGGIctf0Yts'
+thumbnail: '/images/articles/2025-10-19-breaking-oregon-s-new-gun-laws-are-crazy.jpg'
+duration: '8:35'
+author: 'Bearing Freedom'
 topics:
-  - "oregon"
-  - "gun-control"
-  - "second-amendment"
-  - "rapid-fire-activators"
-  - "concealed-carry"
-  - "permit-to-purchase"
-  - "magazine-ban"
+  - 'oregon'
+  - 'gun-control'
+  - 'second-amendment'
+  - 'rapid-fire-activators'
+  - 'concealed-carry'
+  - 'permit-to-purchase'
+  - 'magazine-ban'
 states:
-  - "Oregon"
+  - 'Oregon'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Oregon"
-  - "SB 243"
-  - "Community Safety Firearms Act"
-  - "Measure 114"
-  - "Rapid Fire Activators"
-  - "Binary Trigger"
-  - "Bump Stock"
-  - "Forced Reset Trigger"
-  - "Concealed Carry"
-  - "Magazine Ban"
-  - "Second Amendment"
-  - "Bruen"
-image_prompt: "Wide-angle photojournalistic shot of the Oregon State Capitol building in Salem on an overcast day, American and Oregon state flags visible, sharp architectural detail, somber documentary mood"
+  - 'Oregon'
+  - 'SB 243'
+  - 'Community Safety Firearms Act'
+  - 'Measure 114'
+  - 'Rapid Fire Activators'
+  - 'Binary Trigger'
+  - 'Bump Stock'
+  - 'Forced Reset Trigger'
+  - 'Concealed Carry'
+  - 'Magazine Ban'
+  - 'Second Amendment'
+  - 'Bruen'
+image_prompt: 'Wide-angle photojournalistic shot of the Oregon State Capitol building in Salem on an overcast day, American and Oregon state flags visible, sharp architectural detail, somber documentary mood'
 sort_index: 99
 ---
 
@@ -41,7 +41,7 @@ Oregon's Senate Bill 243, the so-called Community Safety Firearms Act, is one of
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=lGGIctf0Yts). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=lGGIctf0Yts). Commentary, not legal advice._
 
 ---
 
@@ -109,4 +109,4 @@ For now, Oregon gun owners are living under law that makes their normal trigger 
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=lGGIctf0Yts). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=lGGIctf0Yts). Commentary, not legal advice._

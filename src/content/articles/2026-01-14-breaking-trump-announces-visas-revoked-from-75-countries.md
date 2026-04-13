@@ -1,30 +1,30 @@
 ---
 title: "The visa pull from 75 countries is common sense, and it's long overdue"
-date: "2026-01-14"
-youtube_url: "https://www.youtube.com/watch?v=t75v9cmPDoo"
-youtube_id: "t75v9cmPDoo"
-thumbnail: "/images/articles/2026-01-14-breaking-trump-announces-visas-revoked-from-75-countries.jpg"
-duration: "6:06"
-author: "Bearing Freedom"
+date: '2026-01-14'
+youtube_url: 'https://www.youtube.com/watch?v=t75v9cmPDoo'
+youtube_id: 't75v9cmPDoo'
+thumbnail: '/images/articles/2026-01-14-breaking-trump-announces-visas-revoked-from-75-countries.jpg'
+duration: '6:06'
+author: 'Bearing Freedom'
 topics:
-  - "immigration-policy"
-  - "national-security"
-  - "public-benefits"
-  - "fiscal-policy"
+  - 'immigration-policy'
+  - 'national-security'
+  - 'public-benefits'
+  - 'fiscal-policy'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Immigration"
-  - "Visa Policy"
-  - "Marco Rubio"
-  - "Scott Bessent"
-  - "Public Charge"
-  - "Trump Administration"
-  - "Somalia"
-  - "Minnesota Fraud"
-  - "Remittances"
-image_prompt: "Marco Rubio at a podium inside a bright State Department briefing room, American flags flanking him, overhead fluorescent lighting casting sharp shadows, photojournalistic wide shot, no filters, press photographers visible in foreground"
+  - 'Immigration'
+  - 'Visa Policy'
+  - 'Marco Rubio'
+  - 'Scott Bessent'
+  - 'Public Charge'
+  - 'Trump Administration'
+  - 'Somalia'
+  - 'Minnesota Fraud'
+  - 'Remittances'
+image_prompt: 'Marco Rubio at a podium inside a bright State Department briefing room, American flags flanking him, overhead fluorescent lighting casting sharp shadows, photojournalistic wide shot, no filters, press photographers visible in foreground'
 sort_index: 63
 ---
 
@@ -34,7 +34,7 @@ The Trump administration announced on January 14, 2026, that immigrant visa proc
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=t75v9cmPDoo). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=t75v9cmPDoo). Commentary, not legal advice._
 
 ---
 

@@ -1,31 +1,31 @@
 ---
 title: "The DOJ is watching Virginia. That doesn't mean gun owners are safe yet."
-date: "2026-03-22"
-youtube_url: "https://www.youtube.com/watch?v=-vnYCGEPrdQ"
-youtube_id: "-vnYCGEPrdQ"
-thumbnail: "/images/articles/2026-03-22-doj-virginia-gun-control.jpg"
-duration: "7:50"
-author: "Bearing Freedom"
+date: '2026-03-22'
+youtube_url: 'https://www.youtube.com/watch?v=-vnYCGEPrdQ'
+youtube_id: '-vnYCGEPrdQ'
+thumbnail: '/images/articles/2026-03-22-doj-virginia-gun-control.jpg'
+duration: '7:50'
+author: 'Bearing Freedom'
 topics:
-  - "doj"
-  - "second-amendment"
-  - "gun-control"
-  - "virginia"
-  - "litigation"
+  - 'doj'
+  - 'second-amendment'
+  - 'gun-control'
+  - 'virginia'
+  - 'litigation'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "DOJ"
-  - "Harmeet Dhillon"
-  - "Civil Rights Division"
-  - "SB749"
-  - "Constitutional Challenge"
-image_prompt: "Harmeet Dhillon speaking at a Department of Justice press podium in a well-lit federal briefing room, American flag visible in background, bright overhead lighting, sharp photojournalistic focus"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'DOJ'
+  - 'Harmeet Dhillon'
+  - 'Civil Rights Division'
+  - 'SB749'
+  - 'Constitutional Challenge'
+image_prompt: 'Harmeet Dhillon speaking at a Department of Justice press podium in a well-lit federal briefing room, American flag visible in background, bright overhead lighting, sharp photojournalistic focus'
 sort_index: 14
 ---
 
@@ -35,7 +35,7 @@ Harmeet Dhillon has put Virginia's gun laws directly in the DOJ's crosshairs, an
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=-vnYCGEPrdQ). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=-vnYCGEPrdQ). Commentary, not legal advice._
 
 ---
 
@@ -89,4 +89,4 @@ For now, if you live in Virginia, contact an attorney familiar with Virginia fir
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=-vnYCGEPrdQ). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=-vnYCGEPrdQ). Commentary, not legal advice._

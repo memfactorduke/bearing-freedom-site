@@ -1,30 +1,30 @@
 ---
 title: "Virginia's 58-bill gun control blitz is a strategy, not a debate"
-date: "2026-03-18"
-youtube_url: "https://www.youtube.com/watch?v=QIp69bGfQ9w"
-youtube_id: "QIp69bGfQ9w"
-thumbnail: "/images/articles/2026-03-18-virginia-31-gun-control-bills.jpg"
-duration: "12:18"
-author: "Bearing Freedom"
+date: '2026-03-18'
+youtube_url: 'https://www.youtube.com/watch?v=QIp69bGfQ9w'
+youtube_id: 'QIp69bGfQ9w'
+thumbnail: '/images/articles/2026-03-18-virginia-31-gun-control-bills.jpg'
+duration: '12:18'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "state-legislation"
-  - "concealed-carry"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'state-legislation'
+  - 'concealed-carry'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "Concealed Carry"
-  - "Reciprocity"
-  - "Safe Storage"
-  - "Ghost Guns"
-  - "Legislative Session"
-image_prompt: "The Virginia State Capitol building exterior on a bright sunny day with the dome and neoclassical columns clearly visible, green lawn in foreground, photojournalistic style"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'Concealed Carry'
+  - 'Reciprocity'
+  - 'Safe Storage'
+  - 'Ghost Guns'
+  - 'Legislative Session'
+image_prompt: 'The Virginia State Capitol building exterior on a bright sunny day with the dome and neoclassical columns clearly visible, green lawn in foreground, photojournalistic style'
 sort_index: 17
 ---
 
@@ -34,7 +34,7 @@ Virginia Democrats ran 58 gun control bills through a single legislative session
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=QIp69bGfQ9w). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=QIp69bGfQ9w). Commentary, not legal advice._
 
 ---
 

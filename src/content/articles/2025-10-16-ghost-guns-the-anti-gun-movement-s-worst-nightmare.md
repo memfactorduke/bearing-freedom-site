@@ -1,33 +1,33 @@
 ---
 title: "Ghost guns are the anti-gun movement's worst nightmare"
-date: "2025-10-16"
-youtube_url: "https://www.youtube.com/watch?v=RX7o0q0UtvE"
-youtube_id: "RX7o0q0UtvE"
-thumbnail: "/images/articles/2025-10-16-ghost-guns-the-anti-gun-movement-s-worst-nightmare.jpg"
-duration: "7:31"
-author: "Bearing Freedom"
-image_prompt: "Close-up of a desktop FDM 3D printer mid-print producing a small mechanical part, fine plastic filament layers visible, soft workshop lighting, blueprint schematics blurred in background, no firearms visible, photojournalistic style"
+date: '2025-10-16'
+youtube_url: 'https://www.youtube.com/watch?v=RX7o0q0UtvE'
+youtube_id: 'RX7o0q0UtvE'
+thumbnail: '/images/articles/2025-10-16-ghost-guns-the-anti-gun-movement-s-worst-nightmare.jpg'
+duration: '7:31'
+author: 'Bearing Freedom'
+image_prompt: 'Close-up of a desktop FDM 3D printer mid-print producing a small mechanical part, fine plastic filament layers visible, soft workshop lighting, blueprint schematics blurred in background, no firearms visible, photojournalistic style'
 sort_index: 102
 topics:
-  - "ghost-guns"
-  - "3d-printed-firearms"
-  - "gun-control"
-  - "second-amendment"
-  - "atf"
+  - 'ghost-guns'
+  - '3d-printed-firearms'
+  - 'gun-control'
+  - 'second-amendment'
+  - 'atf'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Ghost Guns"
-  - "3D Printed Firearms"
-  - "ATF"
-  - "Everytown"
-  - "Gun Control"
-  - "Bondi v VanDerStok"
-  - "Home Manufacture"
-  - "Polymer80"
-  - "Bruen"
+  - 'Second Amendment'
+  - 'Ghost Guns'
+  - '3D Printed Firearms'
+  - 'ATF'
+  - 'Everytown'
+  - 'Gun Control'
+  - 'Bondi v VanDerStok'
+  - 'Home Manufacture'
+  - 'Polymer80'
+  - 'Bruen'
 ---
 
 ## The bottom line
@@ -36,7 +36,7 @@ The Associated Press ran a story on October 16, 2025 under the headline "Gun saf
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=RX7o0q0UtvE). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=RX7o0q0UtvE). Commentary, not legal advice._
 
 ---
 
@@ -54,7 +54,7 @@ Voluntary action and new legislation. That is the entirety of their answer. That
 
 The word that keeps coming up in gun control debates, if you listen carefully, is not "safety." It is "traceability." Every major federal gun regulation passed in the last sixty years has, at its core, been about knowing what guns exist and connecting them to specific people.
 
-The National Firearms Act of 1934 created a registry for machine guns, suppressors, and short-barreled rifles. The Gun Control Act of 1968 created the federal licensing system for dealers and the requirement that commercial firearms carry serial numbers. The Brady Act of 1993 created the background check system tied to that same commercial distribution network. Biden's 2022 ATF frame and receiver rule, which the Supreme Court ultimately upheld 7-2 in *Bondi v. VanDerStok* in March 2025, extended those serial number and background check requirements to ghost gun kits that could be readily converted into functional firearms.
+The National Firearms Act of 1934 created a registry for machine guns, suppressors, and short-barreled rifles. The Gun Control Act of 1968 created the federal licensing system for dealers and the requirement that commercial firearms carry serial numbers. The Brady Act of 1993 created the background check system tied to that same commercial distribution network. Biden's 2022 ATF frame and receiver rule, which the Supreme Court ultimately upheld 7-2 in _Bondi v. VanDerStok_ in March 2025, extended those serial number and background check requirements to ghost gun kits that could be readily converted into functional firearms.
 
 Every single one of these laws assumes that guns come from somewhere — a manufacturer, an importer, a licensed dealer — and that the government can insert itself into that chain. A 3D-printed firearm built at home from a file downloaded off the internet does not come from that chain. It has no point of commercial sale to regulate. There is no FFL to run a background check. There is no transaction record at the National Tracing Center. As the ATF itself has acknowledged, 99 percent of ghost guns recovered at crime scenes cannot be traced.
 
@@ -66,7 +66,7 @@ I know the argument that gets made here. Ghost guns turn up at crime scenes. Peo
 
 Yes, it matters. But the numbers tell a very different story than the rhetoric. In 2023, US authorities recovered more than 10,000 privately manufactured firearms domestically. That sounds significant until you remember that there are an estimated 400 million firearms already in circulation in the United States, and the FBI reports that rifles of all kinds — including so-called assault weapons — are used in a small fraction of gun homicides annually. The idea that 3D-printed firearms represent an escalating crime crisis, rather than an escalating control crisis for regulators, requires some very selective math.
 
-The deeper issue is this: the right to manufacture a firearm for personal use has existed in America since before America existed. Under federal law, it has almost without exception been legal for a private individual to build a firearm for personal, non-commercial use. This is not a loophole. It is the baseline. Gunsmiths built firearms for individual customers. Colonists cast their own musket balls and assembled their own flintlocks. The idea that a person cannot build a tool for self-defense without going through a licensed intermediary is a 20th century regulatory innovation, not a constitutional tradition. Under the *Bruen* framework the Supreme Court established in 2022, laws that lack a historical analog in the nation's founding tradition face serious constitutional scrutiny. A blanket prohibition on personal firearm manufacture has no such analog.
+The deeper issue is this: the right to manufacture a firearm for personal use has existed in America since before America existed. Under federal law, it has almost without exception been legal for a private individual to build a firearm for personal, non-commercial use. This is not a loophole. It is the baseline. Gunsmiths built firearms for individual customers. Colonists cast their own musket balls and assembled their own flintlocks. The idea that a person cannot build a tool for self-defense without going through a licensed intermediary is a 20th century regulatory innovation, not a constitutional tradition. Under the _Bruen_ framework the Supreme Court established in 2022, laws that lack a historical analog in the nation's founding tradition face serious constitutional scrutiny. A blanket prohibition on personal firearm manufacture has no such analog.
 
 ## The technology has already won
 
@@ -82,7 +82,7 @@ The AP article is right that this presents a "thornier problem" than commercial 
 
 ## Where the Second Amendment movement actually stands
 
-Since *District of Columbia v. Heller* in 2008 established that the Second Amendment protects an individual right to keep and bear arms for self-defense, the arc of gun rights in this country has bent in one direction. *McDonald v. City of Chicago* in 2010 incorporated that right against the states. *Bruen* in 2022 threw out the interest-balancing test that lower courts had used to sustain gun regulations, replacing it with a historical tradition requirement that most modern gun laws cannot survive. The bump stock ban got struck down in *Garland v. Cargill* in 2024. Courts continue working through challenges to pistol brace regulations, suppressor restrictions, and magazine capacity limits.
+Since _District of Columbia v. Heller_ in 2008 established that the Second Amendment protects an individual right to keep and bear arms for self-defense, the arc of gun rights in this country has bent in one direction. _McDonald v. City of Chicago_ in 2010 incorporated that right against the states. _Bruen_ in 2022 threw out the interest-balancing test that lower courts had used to sustain gun regulations, replacing it with a historical tradition requirement that most modern gun laws cannot survive. The bump stock ban got struck down in _Garland v. Cargill_ in 2024. Courts continue working through challenges to pistol brace regulations, suppressor restrictions, and magazine capacity limits.
 
 Every year that the 3D printing ecosystem develops, more Americans have practical access to firearms manufacturing regardless of what any legislature decides. The regulatory window for the gun control movement is closing, and they know it. The Everytown summit was not a confident gathering of people who believe they are winning. It was a gathering of people who can see the numbers and are trying to figure out if there is anything left to do.
 

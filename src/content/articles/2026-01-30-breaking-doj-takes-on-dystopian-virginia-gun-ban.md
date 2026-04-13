@@ -1,32 +1,32 @@
 ---
 title: "The DOJ just told Virginia its gun ban won't stand. Here's why that actually matters."
-date: "2026-01-30"
-youtube_url: "https://www.youtube.com/watch?v=eTz77QJ1VaA"
-youtube_id: "eTz77QJ1VaA"
-thumbnail: "/images/articles/2026-01-30-breaking-doj-takes-on-dystopian-virginia-gun-ban.jpg"
-duration: "9:11"
-author: "Bearing Freedom"
+date: '2026-01-30'
+youtube_url: 'https://www.youtube.com/watch?v=eTz77QJ1VaA'
+youtube_id: 'eTz77QJ1VaA'
+thumbnail: '/images/articles/2026-01-30-breaking-doj-takes-on-dystopian-virginia-gun-ban.jpg'
+duration: '9:11'
+author: 'Bearing Freedom'
 topics:
-  - "doj"
-  - "second-amendment"
-  - "virginia"
-  - "gun-control"
-  - "litigation"
+  - 'doj'
+  - 'second-amendment'
+  - 'virginia'
+  - 'gun-control'
+  - 'litigation'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "DOJ"
-  - "Harmeet Dhillon"
-  - "Civil Rights Division"
-  - "HB217"
-  - "Magazine Ban"
-  - "Assault Weapons Ban"
-image_prompt: "A federal government official at a sunlit press briefing room podium, American flag in background, journalists with cameras in foreground, bright photojournalistic lighting, sharp focus, clear daylight atmosphere"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'DOJ'
+  - 'Harmeet Dhillon'
+  - 'Civil Rights Division'
+  - 'HB217'
+  - 'Magazine Ban'
+  - 'Assault Weapons Ban'
+image_prompt: 'A federal government official at a sunlit press briefing room podium, American flag in background, journalists with cameras in foreground, bright photojournalistic lighting, sharp focus, clear daylight atmosphere'
 sort_index: 46
 ---
 
@@ -36,7 +36,7 @@ Harmeet Dhillon called Virginia's magazine restriction a blatant violation of Su
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=eTz77QJ1VaA). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=eTz77QJ1VaA). Commentary, not legal advice._
 
 ---
 
@@ -88,4 +88,4 @@ Giving credit where it is due is not the same as endorsing everything an adminis
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=eTz77QJ1VaA). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=eTz77QJ1VaA). Commentary, not legal advice._

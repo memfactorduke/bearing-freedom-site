@@ -1,32 +1,32 @@
 ---
-title: "Ketanji Brown Jackson just handed Trump a win on judicial overreach. Yes, really."
-date: "2025-11-10"
-youtube_url: "https://www.youtube.com/watch?v=WuPcyoNJNXY"
-youtube_id: "WuPcyoNJNXY"
-thumbnail: "/images/articles/2025-11-10-breaking-supreme-court-just-issued-huge-trump-win.jpg"
-duration: "10:23"
-author: "Bearing Freedom"
+title: 'Ketanji Brown Jackson just handed Trump a win on judicial overreach. Yes, really.'
+date: '2025-11-10'
+youtube_url: 'https://www.youtube.com/watch?v=WuPcyoNJNXY'
+youtube_id: 'WuPcyoNJNXY'
+thumbnail: '/images/articles/2025-11-10-breaking-supreme-court-just-issued-huge-trump-win.jpg'
+duration: '10:23'
+author: 'Bearing Freedom'
 topics:
-  - "supreme-court"
-  - "separation-of-powers"
-  - "snap"
-  - "judicial-overreach"
-  - "trump"
+  - 'supreme-court'
+  - 'separation-of-powers'
+  - 'snap'
+  - 'judicial-overreach'
+  - 'trump'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Supreme Court"
-  - "Ketanji Brown Jackson"
-  - "SNAP"
-  - "Separation of Powers"
-  - "Trump"
-  - "Government Shutdown"
-  - "First Circuit"
-  - "Judge McConnell"
-  - "Judicial Overreach"
-  - "Second Amendment"
-image_prompt: "Wide-angle exterior shot of the United States Supreme Court building in Washington DC, dramatic overcast sky, marble columns in sharp focus, American flag visible, photojournalistic style"
+  - 'Supreme Court'
+  - 'Ketanji Brown Jackson'
+  - 'SNAP'
+  - 'Separation of Powers'
+  - 'Trump'
+  - 'Government Shutdown'
+  - 'First Circuit'
+  - 'Judge McConnell'
+  - 'Judicial Overreach'
+  - 'Second Amendment'
+image_prompt: 'Wide-angle exterior shot of the United States Supreme Court building in Washington DC, dramatic overcast sky, marble columns in sharp focus, American flag visible, photojournalistic style'
 sort_index: 89
 ---
 
@@ -36,7 +36,7 @@ Justice Ketanji Brown Jackson, the Supreme Court's most reliably progressive mem
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=WuPcyoNJNXY). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=WuPcyoNJNXY). Commentary, not legal advice._
 
 ---
 
@@ -88,4 +88,4 @@ The broken clock gets this one right.
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=WuPcyoNJNXY). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=WuPcyoNJNXY). Commentary, not legal advice._

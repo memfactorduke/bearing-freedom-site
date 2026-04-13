@@ -1,32 +1,32 @@
 ---
-title: "\"We need to eradicate the constitution\" — why her plan backfires on everyone, including her"
-date: "2025-12-04"
-youtube_url: "https://www.youtube.com/watch?v=z9610KB5hP8"
-youtube_id: "z9610KB5hP8"
-thumbnail: "/images/articles/2025-12-04-we-need-to-eradicate-the-constitution-why-her-plan-backfires.jpg"
-duration: "9:38"
-author: "Bearing Freedom"
+title: '"We need to eradicate the constitution" — why her plan backfires on everyone, including her'
+date: '2025-12-04'
+youtube_url: 'https://www.youtube.com/watch?v=z9610KB5hP8'
+youtube_id: 'z9610KB5hP8'
+thumbnail: '/images/articles/2025-12-04-we-need-to-eradicate-the-constitution-why-her-plan-backfires.jpg'
+duration: '9:38'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "gun-confiscation"
-  - "anti-gun-arguments"
-  - "campus-activism"
-  - "self-defense"
+  - 'second-amendment'
+  - 'gun-confiscation'
+  - 'anti-gun-arguments'
+  - 'campus-activism'
+  - 'self-defense'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Confiscation"
-  - "Anti-Gun"
-  - "Self-Defense"
-  - "TPUSA"
-  - "Turning Point USA"
-  - "Constitutional Amendment"
-  - "Gun Control"
-  - "Criminals"
-  - "Law-Abiding"
-image_prompt: "Wide photojournalistic shot of a college campus quad, students walking between buildings on a sunny afternoon, a small group gathered near a table with a banner, shallow depth of field, documentary style, no text visible"
+  - 'Second Amendment'
+  - 'Gun Confiscation'
+  - 'Anti-Gun'
+  - 'Self-Defense'
+  - 'TPUSA'
+  - 'Turning Point USA'
+  - 'Constitutional Amendment'
+  - 'Gun Control'
+  - 'Criminals'
+  - 'Law-Abiding'
+image_prompt: 'Wide photojournalistic shot of a college campus quad, students walking between buildings on a sunny afternoon, a small group gathered near a table with a banner, shallow depth of field, documentary style, no text visible'
 sort_index: 84
 ---
 
@@ -36,7 +36,7 @@ The argument for a total civilian gun ban is not a close call or a matter of com
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=z9610KB5hP8). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=z9610KB5hP8). Commentary, not legal advice._
 
 ---
 
@@ -88,4 +88,4 @@ This is a position that is wrong practically, wrong constitutionally, and wrong 
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=z9610KB5hP8). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=z9610KB5hP8). Commentary, not legal advice._

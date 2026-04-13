@@ -1,32 +1,32 @@
 ---
 title: "Trump just handed the left a deal they spent two years begging for, and they can't even say his name"
-date: "2025-10-10"
-youtube_url: "https://www.youtube.com/watch?v=clv0fMQuyRI"
-youtube_id: "clv0fMQuyRI"
-thumbnail: "/images/articles/2025-10-10-breaking-president-trump-destroys-entire-left-with-major-pea.jpg"
-duration: "7:28"
-author: "Bearing Freedom"
+date: '2025-10-10'
+youtube_url: 'https://www.youtube.com/watch?v=clv0fMQuyRI'
+youtube_id: 'clv0fMQuyRI'
+thumbnail: '/images/articles/2025-10-10-breaking-president-trump-destroys-entire-left-with-major-pea.jpg'
+duration: '7:28'
+author: 'Bearing Freedom'
 topics:
-  - "foreign-policy"
-  - "israel-hamas"
-  - "trump-presidency"
-  - "peace-deal"
-  - "democrats"
+  - 'foreign-policy'
+  - 'israel-hamas'
+  - 'trump-presidency'
+  - 'peace-deal'
+  - 'democrats'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Trump"
-  - "Gaza"
-  - "Israel"
-  - "Hamas"
-  - "Ceasefire"
-  - "Peace Deal"
-  - "Nobel Peace Prize"
-  - "Fetterman"
-  - "Obama"
-  - "Democrats"
-image_prompt: "Wide-angle photojournalistic shot of the White House exterior at golden hour, American flag flying overhead, dignified and presidential, sharp architectural detail, warm light"
+  - 'Trump'
+  - 'Gaza'
+  - 'Israel'
+  - 'Hamas'
+  - 'Ceasefire'
+  - 'Peace Deal'
+  - 'Nobel Peace Prize'
+  - 'Fetterman'
+  - 'Obama'
+  - 'Democrats'
+image_prompt: 'Wide-angle photojournalistic shot of the White House exterior at golden hour, American flag flying overhead, dignified and presidential, sharp architectural detail, warm light'
 sort_index: 104
 ---
 
@@ -36,7 +36,7 @@ Trump brokered a ceasefire deal in Gaza that every leftist in America demanded, 
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=clv0fMQuyRI). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=clv0fMQuyRI). Commentary, not legal advice._
 
 ---
 
@@ -90,4 +90,4 @@ The left will tell you it was inevitable. They'll say Trump just walked into the
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=clv0fMQuyRI). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=clv0fMQuyRI). Commentary, not legal advice._

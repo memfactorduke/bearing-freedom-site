@@ -33,15 +33,18 @@ Fork the `memfactorduke/four-boxes-blog` Astro site and adapt it as the foundati
 ### Articles — `content.config.ts`
 
 **Keep:**
+
 - `title`, `date`, `youtube_url`, `youtube_id`, `thumbnail`, `duration`
 - `author` (default: "Bearing Freedom")
 - `tags[]`, `content_type[]`
 
 **Replace legal fields with:**
+
 - `topics[]` — free-form strings (e.g., "concealed carry", "red flag laws", "self defense", "constitutional carry")
 - `states[]` — keep as-is, useful for state-level 2A coverage
 
 **Drop:**
+
 - `cases_discussed[]` (name, citation, court objects)
 - `court_level[]`, `circuits[]`, `case_status[]`, `federal`
 
@@ -51,17 +54,17 @@ Already generic (title, author, cover, amazon_url, summary, etc.)
 
 ## 3. Page & Routing Updates
 
-| Original Route | New Route | Notes |
-|---|---|---|
-| `/circuits/[circuit]` | Remove | Not needed |
-| `/cases/[case]` | Remove | Not needed |
-| `/topics/[topic]` | Keep | Primary filter |
-| `/articles/[...slug]` | Keep | Core content |
-| `/books/[...slug]` | Keep | Unchanged |
-| `/videos` | Keep | Unchanged |
-| `/search` | Keep | Unchanged |
-| `/rss.xml` | Keep | Unchanged |
-| `/states/[state]` | Add | State-level filtering |
+| Original Route        | New Route | Notes                 |
+| --------------------- | --------- | --------------------- |
+| `/circuits/[circuit]` | Remove    | Not needed            |
+| `/cases/[case]`       | Remove    | Not needed            |
+| `/topics/[topic]`     | Keep      | Primary filter        |
+| `/articles/[...slug]` | Keep      | Core content          |
+| `/books/[...slug]`    | Keep      | Unchanged             |
+| `/videos`             | Keep      | Unchanged             |
+| `/search`             | Keep      | Unchanged             |
+| `/rss.xml`            | Keep      | Unchanged             |
+| `/states/[state]`     | Add       | State-level filtering |
 
 ### Component Updates
 
@@ -74,6 +77,7 @@ Already generic (title, author, cover, amazon_url, summary, etc.)
 ## 4. Branding Placeholders
 
 All branding is placeholder — design/colors/fonts will be customized later:
+
 - Site title: "Bearing Freedom"
 - Author default: "Bearing Freedom"
 - Chatbot name: "BF Assistant"
@@ -84,22 +88,26 @@ All branding is placeholder — design/colors/fonts will be customized later:
 ## 5. Claude Code Best Practices
 
 ### CLAUDE.md (~100 lines)
+
 - Build/test/lint commands
 - Architecture overview (Astro pages → content collections → components)
 - Code conventions (TypeScript strict, Astro components, Tailwind utility classes)
 - Behavioral rules ("use plan mode for 3+ step tasks", "verify before marking complete")
 
 ### Hooks (`.claude/settings.json`)
+
 - **PostToolUse auto-format**: Run Prettier after file edits
 - **PreToolUse file protection**: Block edits to `.env`, `package-lock.json`, `.git/`
 - **Notification**: Alert when Claude needs input
 
 ### Slash Commands (`.claude/commands/`)
+
 - `/dev` — Start dev server
 - `/build` — Build and verify
 - `/new-article` — Scaffold article with frontmatter template
 
 ### Git Setup
+
 - Fresh `.gitignore` (node_modules, dist, .env, .netlify)
 - Initial commit with clean fork
 

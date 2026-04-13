@@ -1,32 +1,32 @@
 ---
 title: "The Supreme Court just handed gun owners a win they didn't see coming"
-date: "2025-12-04"
-youtube_url: "https://www.youtube.com/watch?v=yvsGXHLLglc"
-youtube_id: "yvsGXHLLglc"
-thumbnail: "/images/articles/2025-12-04-breaking-supreme-court-issues-massive-trump-victory-that-wil.jpg"
-duration: "7:26"
-author: "Bearing Freedom"
+date: '2025-12-04'
+youtube_url: 'https://www.youtube.com/watch?v=yvsGXHLLglc'
+youtube_id: 'yvsGXHLLglc'
+thumbnail: '/images/articles/2025-12-04-breaking-supreme-court-issues-massive-trump-victory-that-wil.jpg'
+duration: '7:26'
+author: 'Bearing Freedom'
 topics:
-  - "supreme-court"
-  - "redistricting"
-  - "second-amendment"
-  - "federal-elections"
-  - "house-majority"
+  - 'supreme-court'
+  - 'redistricting'
+  - 'second-amendment'
+  - 'federal-elections'
+  - 'house-majority'
 states:
-  - "Texas"
+  - 'Texas'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Supreme Court"
-  - "Texas redistricting"
-  - "gerrymandering"
-  - "2026 midterms"
-  - "House majority"
-  - "Samuel Alito"
-  - "Elena Kagan"
-  - "Second Amendment"
-  - "partisan gerrymandering"
-image_prompt: "Wide-angle photojournalistic shot of the exterior of the United States Supreme Court building in Washington DC on a cold clear December morning, marble steps and columns sharply lit by low winter sun, American flag visible, no people"
+  - 'Supreme Court'
+  - 'Texas redistricting'
+  - 'gerrymandering'
+  - '2026 midterms'
+  - 'House majority'
+  - 'Samuel Alito'
+  - 'Elena Kagan'
+  - 'Second Amendment'
+  - 'partisan gerrymandering'
+image_prompt: 'Wide-angle photojournalistic shot of the exterior of the United States Supreme Court building in Washington DC on a cold clear December morning, marble steps and columns sharply lit by low winter sun, American flag visible, no people'
 sort_index: 83
 ---
 
@@ -36,7 +36,7 @@ The Supreme Court issued a 6-3 decision on December 4, 2025, clearing Texas to u
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=yvsGXHLLglc). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=yvsGXHLLglc). Commentary, not legal advice._
 
 ---
 
@@ -102,4 +102,4 @@ That is the win here. It is not about Texas specifically. It is about the arithm
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=yvsGXHLLglc). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=yvsGXHLLglc). Commentary, not legal advice._

@@ -1,30 +1,30 @@
 ---
 title: "Virginia's assault weapons ban is a pistol ban. Most people don't know that yet."
-date: "2026-03-23"
-youtube_url: "https://www.youtube.com/watch?v=Ymy9MI86_vQ"
-youtube_id: "Ymy9MI86_vQ"
-thumbnail: "/images/articles/2026-03-23-virginia-pistol-assault-weapon.jpg"
-duration: "13:49"
-author: "Bearing Freedom"
+date: '2026-03-23'
+youtube_url: 'https://www.youtube.com/watch?v=Ymy9MI86_vQ'
+youtube_id: 'Ymy9MI86_vQ'
+thumbnail: '/images/articles/2026-03-23-virginia-pistol-assault-weapon.jpg'
+duration: '13:49'
+author: 'Bearing Freedom'
 topics:
-  - "assault-weapons-ban"
-  - "gun-control"
-  - "second-amendment"
-  - "virginia"
+  - 'assault-weapons-ban'
+  - 'gun-control'
+  - 'second-amendment'
+  - 'virginia'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "SB749"
-  - "Assault Weapons Ban"
-  - "Pistols"
-  - "Shotguns"
-  - "Features Test"
-image_prompt: "A row of semi-automatic pistols displayed on a glass gun store counter in bright overhead fluorescent and natural light, price tags visible, clear and detailed, photojournalistic style, no people"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'SB749'
+  - 'Assault Weapons Ban'
+  - 'Pistols'
+  - 'Shotguns'
+  - 'Features Test'
+image_prompt: 'A row of semi-automatic pistols displayed on a glass gun store counter in bright overhead fluorescent and natural light, price tags visible, clear and detailed, photojournalistic style, no people'
 sort_index: 13
 ---
 
@@ -34,7 +34,7 @@ Virginia's SB749 is not just an AR-15 ban. It reaches semi-automatic pistols thr
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Ymy9MI86_vQ). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Ymy9MI86_vQ). Commentary, not legal advice._
 
 ---
 
@@ -132,4 +132,4 @@ That's the point. It's always been the point.
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Ymy9MI86_vQ). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Ymy9MI86_vQ). Commentary, not legal advice._

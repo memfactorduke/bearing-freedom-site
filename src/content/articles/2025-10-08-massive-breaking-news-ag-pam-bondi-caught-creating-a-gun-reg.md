@@ -1,35 +1,35 @@
 ---
-title: "Reese v. ATF: a member list order, a fast reversal, and what it tells us about Pam Bondi"
-date: "2025-10-08"
-youtube_url: "https://www.youtube.com/watch?v=iZIyqMEyCLo"
-youtube_id: "iZIyqMEyCLo"
-thumbnail: "/images/articles/2025-10-08-massive-breaking-news-ag-pam-bondi-caught-creating-a-gun-reg.md.jpg"
-duration: "8:37"
-author: "Bearing Freedom"
+title: 'Reese v. ATF: a member list order, a fast reversal, and what it tells us about Pam Bondi'
+date: '2025-10-08'
+youtube_url: 'https://www.youtube.com/watch?v=iZIyqMEyCLo'
+youtube_id: 'iZIyqMEyCLo'
+thumbnail: '/images/articles/2025-10-08-massive-breaking-news-ag-pam-bondi-caught-creating-a-gun-reg.md.jpg'
+duration: '8:37'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "litigation"
-  - "atf"
-  - "doj"
-  - "handgun-ban"
+  - 'second-amendment'
+  - 'litigation'
+  - 'atf'
+  - 'doj'
+  - 'handgun-ban'
 states:
-  - "Louisiana"
-  - "Texas"
-  - "Mississippi"
+  - 'Louisiana'
+  - 'Texas'
+  - 'Mississippi'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Reese v ATF"
-  - "Second Amendment Foundation"
-  - "Firearms Policy Coalition"
-  - "Pam Bondi"
-  - "ATF"
-  - "DOJ"
-  - "18-20 Handgun Ban"
-  - "Gun Registry"
-  - "Fifth Circuit"
-  - "Injunction"
-image_prompt: "Wide photojournalistic shot of the Bureau of Alcohol Tobacco Firearms and Explosives federal building exterior in Washington DC, overcast sky, sharp architectural detail, no people, dramatic lighting"
+  - 'Reese v ATF'
+  - 'Second Amendment Foundation'
+  - 'Firearms Policy Coalition'
+  - 'Pam Bondi'
+  - 'ATF'
+  - 'DOJ'
+  - '18-20 Handgun Ban'
+  - 'Gun Registry'
+  - 'Fifth Circuit'
+  - 'Injunction'
+image_prompt: 'Wide photojournalistic shot of the Bureau of Alcohol Tobacco Firearms and Explosives federal building exterior in Washington DC, overcast sky, sharp architectural detail, no people, dramatic lighting'
 sort_index: 107
 ---
 
@@ -39,7 +39,7 @@ The district court order in Reese v. ATF directing the Second Amendment Foundati
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=iZIyqMEyCLo). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=iZIyqMEyCLo). Commentary, not legal advice._
 
 ---
 
@@ -105,4 +105,4 @@ The right is yours. Protecting it is an ongoing project.
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=iZIyqMEyCLo). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=iZIyqMEyCLo). Commentary, not legal advice._

@@ -1,32 +1,32 @@
 ---
-title: "The ATF just killed a de facto gun registry that nobody was talking about"
-date: "2025-10-29"
-youtube_url: "https://www.youtube.com/watch?v=RSexVf-28KE"
-youtube_id: "RSexVf-28KE"
-thumbnail: "/images/articles/2025-10-29-massive-news-the-atf-finally-surrenders-on-key-nfa-requirem.jpg"
-duration: "7:41"
-author: "Bearing Freedom"
+title: 'The ATF just killed a de facto gun registry that nobody was talking about'
+date: '2025-10-29'
+youtube_url: 'https://www.youtube.com/watch?v=RSexVf-28KE'
+youtube_id: 'RSexVf-28KE'
+thumbnail: '/images/articles/2025-10-29-massive-news-the-atf-finally-surrenders-on-key-nfa-requirem.jpg'
+duration: '7:41'
+author: 'Bearing Freedom'
 topics:
-  - "atf"
-  - "nfa"
-  - "second-amendment"
-  - "gun-registry"
-  - "trump-administration"
+  - 'atf'
+  - 'nfa'
+  - 'second-amendment'
+  - 'gun-registry'
+  - 'trump-administration'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "ATF"
-  - "NFA"
-  - "CLEO"
-  - "Gun Registry"
-  - "Suppressors"
-  - "SBR"
-  - "Form 1"
-  - "Pam Bondi"
-  - "Second Amendment"
-  - "Trump Administration"
-image_prompt: "Wide-angle photojournalistic shot of the ATF headquarters building in Washington DC on a bright morning, clean architectural lines, American flag visible, empty sidewalk, documentary photography style"
+  - 'ATF'
+  - 'NFA'
+  - 'CLEO'
+  - 'Gun Registry'
+  - 'Suppressors'
+  - 'SBR'
+  - 'Form 1'
+  - 'Pam Bondi'
+  - 'Second Amendment'
+  - 'Trump Administration'
+image_prompt: 'Wide-angle photojournalistic shot of the ATF headquarters building in Washington DC on a bright morning, clean architectural lines, American flag visible, empty sidewalk, documentary photography style'
 sort_index: 93
 ---
 
@@ -36,7 +36,7 @@ On October 30, 2025, the ATF announced it is removing the CLEO notification requ
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=RSexVf-28KE). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=RSexVf-28KE). Commentary, not legal advice._
 
 ---
 
@@ -62,7 +62,7 @@ But the significance of this announcement is not primarily about Form 1. It is a
 
 There was not a sustained public pressure campaign on the CLEO notification requirement before this announcement. There was no massive lawsuit working its way through the courts that was about to force the ATF's hand on this specific issue. The agency went looking for places it could make improvements and it found this one. That is different from every recent interaction gun owners have had with the ATF, which for years operated as if its mandate was to find creative new ways to expand the definition of what it could regulate and restrict.
 
-The ATF under the previous administration gave us the pistol brace rule, which attempted to reclassify millions of legally owned pistols as short-barreled rifles subject to NFA registration. It gave us the frame or receiver rule that the Supreme Court addressed in *Bondi v. VanDerStok*. It gave us a bump stock rule that the Supreme Court ultimately struck down in *Garland v. Cargill*. The posture of the agency was consistently expansive. Its default assumption was that the space between the Second Amendment's text and its enforcement was a gap to be filled with regulation.
+The ATF under the previous administration gave us the pistol brace rule, which attempted to reclassify millions of legally owned pistols as short-barreled rifles subject to NFA registration. It gave us the frame or receiver rule that the Supreme Court addressed in _Bondi v. VanDerStok_. It gave us a bump stock rule that the Supreme Court ultimately struck down in _Garland v. Cargill_. The posture of the agency was consistently expansive. Its default assumption was that the space between the Second Amendment's text and its enforcement was a gap to be filled with regulation.
 
 This announcement reads differently. It reads like an agency that was told to look at what it was doing and find places where it was creating friction without legal justification.
 
@@ -88,11 +88,11 @@ Short-barreled rifles and shotguns are regulated because their barrels fall belo
 
 Congress did eliminate the $200 NFA tax stamp for suppressors, SBRs, short-barreled shotguns, and any other weapons as part of the One Big Beautiful Bill, signed into law July 4, 2025, effective January 1, 2026. That is a genuine and significant win. But the registration requirement remains. The wait times remain. The fundamental framework under which law-abiding citizens must ask government permission, wait months for an answer, and maintain a registration record for items that are constitutionally protected — that framework remains entirely intact.
 
-The constitutional basis for the NFA has always been shaky. When Congress originally passed it, the justification was the taxing power. The Supreme Court in *Haynes v. United States* (1968) actually found that requiring unregistered firearm possessors to register their guns violated the Fifth Amendment's self-incrimination clause, and Congress had to amend the statute to fix the problem. The 2022 *Bruen* decision, by establishing a text-history-tradition standard for Second Amendment challenges, has opened a new line of attack. Multiple lawsuits are now arguing that with the elimination of the tax, the NFA's remaining provisions — particularly as applied to items like suppressors and SBRs — cannot survive constitutional scrutiny under *Bruen*'s framework. Those cases are worth watching.
+The constitutional basis for the NFA has always been shaky. When Congress originally passed it, the justification was the taxing power. The Supreme Court in _Haynes v. United States_ (1968) actually found that requiring unregistered firearm possessors to register their guns violated the Fifth Amendment's self-incrimination clause, and Congress had to amend the statute to fix the problem. The 2022 _Bruen_ decision, by establishing a text-history-tradition standard for Second Amendment challenges, has opened a new line of attack. Multiple lawsuits are now arguing that with the elimination of the tax, the NFA's remaining provisions — particularly as applied to items like suppressors and SBRs — cannot survive constitutional scrutiny under _Bruen_'s framework. Those cases are worth watching.
 
 ## What the right response is
 
-I am not going to tell you this CLEO notification change is a reason to be complacent. The NFA still exists. The ATF still has enormous discretionary authority over firearms regulations. The frame or receiver rule upheld in *VanDerStok* is still in effect. There is a long list of things that need to change before anyone who takes the Second Amendment seriously should be satisfied.
+I am not going to tell you this CLEO notification change is a reason to be complacent. The NFA still exists. The ATF still has enormous discretionary authority over firearms regulations. The frame or receiver rule upheld in _VanDerStok_ is still in effect. There is a long list of things that need to change before anyone who takes the Second Amendment seriously should be satisfied.
 
 But I am also not going to tell you this is meaningless. One more de facto registry mechanism has been eliminated. One more piece of the infrastructure that made it easy for local law enforcement to quietly build lists of gun owners has been removed. One more regulation that existed without legal purpose has been acknowledged as such and discarded.
 
@@ -102,4 +102,4 @@ The goal is full repeal of the NFA, deregulation of suppressors and SBRs, and tr
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=RSexVf-28KE). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=RSexVf-28KE). Commentary, not legal advice._

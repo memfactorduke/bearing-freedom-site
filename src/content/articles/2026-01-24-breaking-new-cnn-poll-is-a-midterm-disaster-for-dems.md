@@ -1,31 +1,31 @@
 ---
-title: "A CNN poll just showed how badly Democrats are failing their own base"
-date: "2026-01-24"
-youtube_url: "https://www.youtube.com/watch?v=TuTm4jf-9QQ"
-youtube_id: "TuTm4jf-9QQ"
-thumbnail: "/images/articles/2026-01-24-breaking-new-cnn-poll-is-a-midterm-disaster-for-dems.jpg"
-duration: "5:54"
-author: "Bearing Freedom"
+title: 'A CNN poll just showed how badly Democrats are failing their own base'
+date: '2026-01-24'
+youtube_url: 'https://www.youtube.com/watch?v=TuTm4jf-9QQ'
+youtube_id: 'TuTm4jf-9QQ'
+thumbnail: '/images/articles/2026-01-24-breaking-new-cnn-poll-is-a-midterm-disaster-for-dems.jpg'
+duration: '5:54'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "elections"
-  - "midterms"
-  - "democratic-party"
-  - "gun-legislation"
+  - 'second-amendment'
+  - 'elections'
+  - 'midterms'
+  - 'democratic-party'
+  - 'gun-legislation'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "2026 Midterms"
-  - "Democratic Party"
-  - "Chuck Schumer"
-  - "Hakeem Jeffries"
-  - "NFA"
-  - "Gun Rights"
-  - "Congress"
-  - "Generic Ballot"
-image_prompt: "Wide-angle photojournalistic shot of a near-empty Senate chamber from the gallery, fluorescent lighting casting harsh shadows across vacant mahogany desks, a single aide carrying a stack of folders through the aisle, conveying institutional stagnation"
+  - 'Second Amendment'
+  - '2026 Midterms'
+  - 'Democratic Party'
+  - 'Chuck Schumer'
+  - 'Hakeem Jeffries'
+  - 'NFA'
+  - 'Gun Rights'
+  - 'Congress'
+  - 'Generic Ballot'
+image_prompt: 'Wide-angle photojournalistic shot of a near-empty Senate chamber from the gallery, fluorescent lighting casting harsh shadows across vacant mahogany desks, a single aide carrying a stack of folders through the aisle, conveying institutional stagnation'
 sort_index: 55
 ---
 
@@ -35,7 +35,7 @@ A new CNN poll published in January 2026 shows that only 57% of registered Democ
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=TuTm4jf-9QQ). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=TuTm4jf-9QQ). Commentary, not legal advice._
 
 ---
 

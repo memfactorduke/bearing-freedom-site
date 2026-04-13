@@ -1,32 +1,32 @@
 ---
-title: "Trump just pulled Iran back from the brink, and it matters more than you think"
-date: "2026-04-07"
-youtube_url: "https://www.youtube.com/watch?v=Q11q2Jnpg24"
-youtube_id: "Q11q2Jnpg24"
-thumbnail: "/images/articles/2026-04-07-trump-announces-historic-ceasefire-iran.jpg"
-duration: "4:34"
-author: "Bearing Freedom"
+title: 'Trump just pulled Iran back from the brink, and it matters more than you think'
+date: '2026-04-07'
+youtube_url: 'https://www.youtube.com/watch?v=Q11q2Jnpg24'
+youtube_id: 'Q11q2Jnpg24'
+thumbnail: '/images/articles/2026-04-07-trump-announces-historic-ceasefire-iran.jpg'
+duration: '4:34'
+author: 'Bearing Freedom'
 topics:
-  - "foreign-policy"
-  - "iran-war"
-  - "trump-presidency"
-  - "ceasefire"
-  - "second-amendment"
-  - "midterms"
+  - 'foreign-policy'
+  - 'iran-war'
+  - 'trump-presidency'
+  - 'ceasefire'
+  - 'second-amendment'
+  - 'midterms'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Trump"
-  - "Iran"
-  - "Ceasefire"
-  - "Strait of Hormuz"
-  - "Pakistan"
-  - "Second Amendment"
-  - "Midterms"
-  - "Political Impact"
-  - "National Security"
-image_prompt: "Photojournalistic wide-angle shot of the Strait of Hormuz from above at dawn, cargo tankers moving through still blue water, golden light breaking over the Persian Gulf horizon, peaceful and geopolitically charged atmosphere"
+  - 'Trump'
+  - 'Iran'
+  - 'Ceasefire'
+  - 'Strait of Hormuz'
+  - 'Pakistan'
+  - 'Second Amendment'
+  - 'Midterms'
+  - 'Political Impact'
+  - 'National Security'
+image_prompt: 'Photojournalistic wide-angle shot of the Strait of Hormuz from above at dawn, cargo tankers moving through still blue water, golden light breaking over the Persian Gulf horizon, peaceful and geopolitically charged atmosphere'
 sort_index: 0
 ---
 
@@ -36,7 +36,7 @@ Tonight, Trump announced a two-week ceasefire with Iran, contingent on the immed
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Q11q2Jnpg24). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Q11q2Jnpg24). Commentary, not legal advice._
 
 ---
 
@@ -100,4 +100,4 @@ Tonight, Trump just made that a little more likely.
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Q11q2Jnpg24). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=Q11q2Jnpg24). Commentary, not legal advice._

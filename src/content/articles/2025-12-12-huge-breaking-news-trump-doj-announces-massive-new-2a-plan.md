@@ -1,36 +1,36 @@
 ---
 title: "The DOJ's new Second Amendment section explained by the woman running it"
-date: "2025-12-12"
-youtube_url: "https://www.youtube.com/watch?v=G5X9zEAv3sk"
-youtube_id: "G5X9zEAv3sk"
-thumbnail: "/images/articles/2025-12-12-huge-breaking-news-trump-doj-announces-massive-new-2a-plan.jpg"
-duration: "8:26"
-author: "Bearing Freedom"
+date: '2025-12-12'
+youtube_url: 'https://www.youtube.com/watch?v=G5X9zEAv3sk'
+youtube_id: 'G5X9zEAv3sk'
+thumbnail: '/images/articles/2025-12-12-huge-breaking-news-trump-doj-announces-massive-new-2a-plan.jpg'
+duration: '8:26'
+author: 'Bearing Freedom'
 topics:
-  - "doj"
-  - "second-amendment"
-  - "concealed-carry"
-  - "civil-rights-division"
-  - "federal-enforcement"
+  - 'doj'
+  - 'second-amendment'
+  - 'concealed-carry'
+  - 'civil-rights-division'
+  - 'federal-enforcement'
 states:
-  - "California"
-  - "Illinois"
-  - "Hawaii"
-  - "DC"
+  - 'California'
+  - 'Illinois'
+  - 'Hawaii'
+  - 'DC'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "DOJ"
-  - "Harmeet Dhillon"
-  - "Civil Rights Division"
-  - "Concealed Carry"
-  - "Bruen"
-  - "Los Angeles"
-  - "San Francisco"
-  - "CCW Permits"
-  - "Assault Weapons"
-image_prompt: "Photojournalistic wide shot of the Robert F. Kennedy Department of Justice Building in Washington DC on a crisp winter morning, sunlight catching the stone facade, American flag at full mast, sharp shadows on the steps, a few suited figures entering the main doors"
+  - 'Second Amendment'
+  - 'DOJ'
+  - 'Harmeet Dhillon'
+  - 'Civil Rights Division'
+  - 'Concealed Carry'
+  - 'Bruen'
+  - 'Los Angeles'
+  - 'San Francisco'
+  - 'CCW Permits'
+  - 'Assault Weapons'
+image_prompt: 'Photojournalistic wide shot of the Robert F. Kennedy Department of Justice Building in Washington DC on a crisp winter morning, sunlight catching the stone facade, American flag at full mast, sharp shadows on the steps, a few suited figures entering the main doors'
 sort_index: 78
 ---
 
@@ -40,7 +40,7 @@ Harmeet Dhillon gave a detailed public interview explaining exactly what the DOJ
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=G5X9zEAv3sk). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=G5X9zEAv3sk). Commentary, not legal advice._
 
 ---
 
@@ -56,7 +56,7 @@ But Dhillon is not Bondi. The Second Amendment Section reports to Dhillon direct
 
 Dhillon was explicit in her interview: the number one enforcement priority is delays in the CCW permitting process. This is exactly right, and here is why.
 
-In June 2022, the Supreme Court decided *New York State Rifle & Pistol Association v. Bruen*, 597 U.S. 1. The ruling was 6-3. It held that New York's "proper cause" requirement for concealed carry permits violated the Second and Fourteenth Amendments. It established a shall-issue framework nationwide: if you are a law-abiding citizen applying for a carry permit and you meet the objective criteria, the government must issue it. They do not get to decide whether you have a good enough reason. Self-defense is the reason. The Supreme Court said so.
+In June 2022, the Supreme Court decided _New York State Rifle & Pistol Association v. Bruen_, 597 U.S. 1. The ruling was 6-3. It held that New York's "proper cause" requirement for concealed carry permits violated the Second and Fourteenth Amendments. It established a shall-issue framework nationwide: if you are a law-abiding citizen applying for a carry permit and you meet the objective criteria, the government must issue it. They do not get to decide whether you have a good enough reason. Self-defense is the reason. The Supreme Court said so.
 
 That was three years ago. And what have California, Hawaii, and other blue jurisdictions done about it? They replaced their may-issue denial schemes with delay schemes. Los Angeles County is the case everyone knows about. Between January 2024 and March 2025, LASD received 3,982 new CCW applications. It approved two of them. Two. The median processing time before a file even moved to the next step was 372 days. Some applicants were projected to wait 1,030 days. The DOJ filed suit against the LA County Sheriff's Department in September 2025 in the first-ever affirmative DOJ lawsuit in support of gun owners. That case is moving.
 
@@ -68,11 +68,11 @@ Dhillon framed the point as well as anyone could: imagine a city that took three
 
 Beyond the CCW delays, Dhillon outlined what else is coming. State laws banning semi-automatic rifles are on the target list. She said directly that AR-15s are presumptively constitutional under the Supreme Court's framework and that states banning them are wrong.
 
-This is not a novel position. It is grounded in the Heller-Bruen common-use doctrine. *District of Columbia v. Heller*, 554 U.S. 570 (2008), established that the Second Amendment protects arms in common use by law-abiding citizens for lawful purposes. The AR-15 is the most popular rifle in the United States. There are over 20 million of them in civilian hands. Under any honest application of the Heller test, a blanket prohibition on that firearm fails.
+This is not a novel position. It is grounded in the Heller-Bruen common-use doctrine. _District of Columbia v. Heller_, 554 U.S. 570 (2008), established that the Second Amendment protects arms in common use by law-abiding citizens for lawful purposes. The AR-15 is the most popular rifle in the United States. There are over 20 million of them in civilian hands. Under any honest application of the Heller test, a blanket prohibition on that firearm fails.
 
-The DOJ has been backing that position in federal courts. In June 2025, the Civil Rights Division filed an amicus brief in *Barnett v. Raoul* before the Seventh Circuit, challenging Illinois's assault weapons ban. Dhillon personally appeared in Chicago to argue the case on September 22, 2025. The DOJ's position is that the banned rifles meet the Heller-Bruen common-use test and that Illinois's law cannot survive the text-and-history analysis that *Bruen* requires courts to apply.
+The DOJ has been backing that position in federal courts. In June 2025, the Civil Rights Division filed an amicus brief in _Barnett v. Raoul_ before the Seventh Circuit, challenging Illinois's assault weapons ban. Dhillon personally appeared in Chicago to argue the case on September 22, 2025. The DOJ's position is that the banned rifles meet the Heller-Bruen common-use test and that Illinois's law cannot survive the text-and-history analysis that _Bruen_ requires courts to apply.
 
-Hawaii's carry restrictions are also in the crosshairs. The state enacted so-called "sensitive places" laws after Bruen that effectively flipped the default: instead of requiring a reason to deny carry, Hawaii required gun owners to obtain affirmative permission from private property owners before carrying onto their property. The Supreme Court took up *Wolford v. Lopez* in October 2025, after the DOJ filed an amicus brief supporting the cert petition. The government's brief called the law a "severe burden" on Second Amendment rights and noted that Hawaii's rule had no roots in American historical tradition. The Supreme Court's willingness to take the case signals the Justices are not done enforcing Bruen's requirements on resistant jurisdictions.
+Hawaii's carry restrictions are also in the crosshairs. The state enacted so-called "sensitive places" laws after Bruen that effectively flipped the default: instead of requiring a reason to deny carry, Hawaii required gun owners to obtain affirmative permission from private property owners before carrying onto their property. The Supreme Court took up _Wolford v. Lopez_ in October 2025, after the DOJ filed an amicus brief supporting the cert petition. The government's brief called the law a "severe burden" on Second Amendment rights and noted that Hawaii's rule had no roots in American historical tradition. The Supreme Court's willingness to take the case signals the Justices are not done enforcing Bruen's requirements on resistant jurisdictions.
 
 ## The complaint about pace
 
@@ -96,4 +96,4 @@ That is worth taking seriously.
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=G5X9zEAv3sk). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=G5X9zEAv3sk). Commentary, not legal advice._

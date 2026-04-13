@@ -1,35 +1,35 @@
 ---
-title: "The post office gun ban is unconstitutional, and a federal judge just said so"
-date: "2025-10-01"
-youtube_url: "https://www.youtube.com/watch?v=2MSEoghE3Rg"
-youtube_id: "2MSEoghE3Rg"
-thumbnail: "/images/articles/2025-10-01-breaking-post-office-gun-ban-finally-declared-unconstitutio.jpg"
-duration: "6:31"
-author: "Bearing Freedom"
+title: 'The post office gun ban is unconstitutional, and a federal judge just said so'
+date: '2025-10-01'
+youtube_url: 'https://www.youtube.com/watch?v=2MSEoghE3Rg'
+youtube_id: '2MSEoghE3Rg'
+thumbnail: '/images/articles/2025-10-01-breaking-post-office-gun-ban-finally-declared-unconstitutio.jpg'
+duration: '6:31'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "litigation"
-  - "sensitive-places"
-  - "bruen"
-  - "fpc"
-  - "saf"
+  - 'second-amendment'
+  - 'litigation'
+  - 'sensitive-places'
+  - 'bruen'
+  - 'fpc'
+  - 'saf'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Post Office"
-  - "USPS"
-  - "Bruen"
-  - "FPC"
-  - "SAF"
-  - "Firearms Policy Coalition"
-  - "Second Amendment Foundation"
-  - "Sensitive Places"
-  - "18 USC 930"
-  - "Permanent Injunction"
+  - 'Second Amendment'
+  - 'Post Office'
+  - 'USPS'
+  - 'Bruen'
+  - 'FPC'
+  - 'SAF'
+  - 'Firearms Policy Coalition'
+  - 'Second Amendment Foundation'
+  - 'Sensitive Places'
+  - '18 USC 930'
+  - 'Permanent Injunction'
   - "Reed O'Connor"
-image_prompt: "Wide-angle photojournalistic photo of a small standalone United States Post Office building on a quiet street, American flag outside, natural daylight, no people, slightly overcast sky"
+image_prompt: 'Wide-angle photojournalistic photo of a small standalone United States Post Office building on a quiet street, American flag outside, natural daylight, no people, slightly overcast sky'
 sort_index: 109
 ---
 
@@ -39,7 +39,7 @@ On September 30, 2025, Chief U.S. District Judge Reed O'Connor of the Northern D
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=2MSEoghE3Rg). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=2MSEoghE3Rg). Commentary, not legal advice._
 
 ---
 
@@ -99,4 +99,4 @@ Post offices were the easy case. Courts are going to keep being asked to draw th
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=2MSEoghE3Rg). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=2MSEoghE3Rg). Commentary, not legal advice._

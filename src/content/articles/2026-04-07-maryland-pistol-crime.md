@@ -1,26 +1,26 @@
 ---
 title: "Maryland's SB 334 would turn your Glock into a felony"
-date: "2026-04-07"
-youtube_url: "https://www.youtube.com/watch?v=1sEZiDaUys0"
-youtube_id: "1sEZiDaUys0"
-thumbnail: "/images/articles/2026-04-07-maryland-pistol-crime.jpg"
-duration: "6:51"
-author: "Bearing Freedom"
+date: '2026-04-07'
+youtube_url: 'https://www.youtube.com/watch?v=1sEZiDaUys0'
+youtube_id: '1sEZiDaUys0'
+thumbnail: '/images/articles/2026-04-07-maryland-pistol-crime.jpg'
+duration: '6:51'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
-  - "firearms-regulation"
-  - "second-amendment"
+  - 'gun-control'
+  - 'firearms-regulation'
+  - 'second-amendment'
 content_type:
-  - "commentary"
+  - 'commentary'
 states:
-  - "Maryland"
+  - 'Maryland'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Glock"
-  - "SB 334"
-  - "Maryland"
-image_prompt: "A brightly lit gun store counter with several Glock pistols laid out on a glass display case, a knowledgeable salesperson in a polo shirt behind the counter, fluorescent lighting, American flag visible in the background, suburban gun shop setting"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Glock'
+  - 'SB 334'
+  - 'Maryland'
+image_prompt: 'A brightly lit gun store counter with several Glock pistols laid out on a glass display case, a knowledgeable salesperson in a polo shirt behind the counter, fluorescent lighting, American flag visible in the background, suburban gun shop setting'
 sort_index: 2
 ---
 
@@ -30,7 +30,7 @@ Maryland is on the verge of banning the most popular handgun in America. Not bec
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=1sEZiDaUys0). This is commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=1sEZiDaUys0). This is commentary, not legal advice._
 
 ---
 

@@ -1,33 +1,33 @@
 ---
-title: "West Virginia and Kentucky just fired the first real shot at the Hughes Amendment"
-date: "2026-02-27"
-youtube_url: "https://www.youtube.com/watch?v=9gSGo7q14w0"
-youtube_id: "9gSGo7q14w0"
-thumbnail: "/images/articles/2026-02-27-nfa-danger-announcement.jpg"
-duration: "9:45"
-author: "Bearing Freedom"
-image_prompt: "A state capitol building exterior with an American flag waving in bright afternoon sun, wide-angle photojournalistic shot, clear blue sky, warm golden light on stone facade, no people"
+title: 'West Virginia and Kentucky just fired the first real shot at the Hughes Amendment'
+date: '2026-02-27'
+youtube_url: 'https://www.youtube.com/watch?v=9gSGo7q14w0'
+youtube_id: '9gSGo7q14w0'
+thumbnail: '/images/articles/2026-02-27-nfa-danger-announcement.jpg'
+duration: '9:45'
+author: 'Bearing Freedom'
+image_prompt: 'A state capitol building exterior with an American flag waving in bright afternoon sun, wide-angle photojournalistic shot, clear blue sky, warm golden light on stone facade, no people'
 sort_index: 23
 topics:
-  - "nfa"
-  - "machine-guns"
-  - "hughes-amendment"
-  - "second-amendment"
-  - "state-legislation"
+  - 'nfa'
+  - 'machine-guns'
+  - 'hughes-amendment'
+  - 'second-amendment'
+  - 'state-legislation'
 states:
-  - "West Virginia"
-  - "Kentucky"
+  - 'West Virginia'
+  - 'Kentucky'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "NFA"
-  - "Machine Guns"
-  - "Hughes Amendment"
-  - "West Virginia"
-  - "Kentucky"
-  - "Gun Rights"
-  - "State Legislation"
+  - 'Second Amendment'
+  - 'NFA'
+  - 'Machine Guns'
+  - 'Hughes Amendment'
+  - 'West Virginia'
+  - 'Kentucky'
+  - 'Gun Rights'
+  - 'State Legislation'
 ---
 
 ## The bottom line
@@ -36,7 +36,7 @@ West Virginia and Kentucky have introduced legislation that reads the federal ma
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=9gSGo7q14w0). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=9gSGo7q14w0). Commentary, not legal advice._
 
 ---
 
@@ -74,11 +74,11 @@ More importantly: once one of these bills passes anywhere, the legal fight begin
 
 If opponents go to court to block a state machine gun transfer program, they will have to litigate the specific question of whether § 922(o) applies to state-facilitated transfers under the explicit carve-out language. That question, argued through the federal courts, becomes a vehicle for appellate review and eventually Supreme Court consideration.
 
-The legal landscape on machine guns has already shifted more than most people realize. A federal district judge in United States v. Morgan concluded that the post-1986 machine gun ban may not survive Second Amendment scrutiny under the *Bruen* historical-tradition framework. The Fifth Circuit upheld § 922(o) in a January 2026 decision, but the reasoning drew criticism from *Bruen* purists because it relied on the old means-ends balancing approach that *Bruen* was specifically designed to replace. A Texas gun club filed a direct constitutional challenge to § 922(o) in early 2026. The cases are percolating through the system.
+The legal landscape on machine guns has already shifted more than most people realize. A federal district judge in United States v. Morgan concluded that the post-1986 machine gun ban may not survive Second Amendment scrutiny under the _Bruen_ historical-tradition framework. The Fifth Circuit upheld § 922(o) in a January 2026 decision, but the reasoning drew criticism from _Bruen_ purists because it relied on the old means-ends balancing approach that _Bruen_ was specifically designed to replace. A Texas gun club filed a direct constitutional challenge to § 922(o) in early 2026. The cases are percolating through the system.
 
-The *Bruen* framework, decided in 2022, requires that firearm regulations be consistent with the nation's historical tradition of gun regulation. There is no founding-era analogue for a categorical ban on an entire class of arms previously available to law-abiding citizens. The NFA's original 1934 structure was upheld as a revenue measure. The 1986 Hughes Amendment addition is something different: a flat prohibition on possession, not a tax or registration requirement. If the Supreme Court applies *Bruen* to § 922(o) with any consistency, the ban has a serious problem.
+The _Bruen_ framework, decided in 2022, requires that firearm regulations be consistent with the nation's historical tradition of gun regulation. There is no founding-era analogue for a categorical ban on an entire class of arms previously available to law-abiding citizens. The NFA's original 1934 structure was upheld as a revenue measure. The 1986 Hughes Amendment addition is something different: a flat prohibition on possession, not a tax or registration requirement. If the Supreme Court applies _Bruen_ to § 922(o) with any consistency, the ban has a serious problem.
 
-The Hughes Amendment also has a legitimacy problem that most people have forgotten. It was attached to FOPA at the last minute, passed by a voice vote that the presiding officer declared resolved in the affirmative despite multiple accounts describing an audible majority voting against it. Courts have historically avoided looking behind the enrolled text of a statute, but *Bruen*'s shift toward historical analysis creates different pressure points. The amendment's origins matter when you're arguing about whether it reflects any genuine American tradition of firearm regulation.
+The Hughes Amendment also has a legitimacy problem that most people have forgotten. It was attached to FOPA at the last minute, passed by a voice vote that the presiding officer declared resolved in the affirmative despite multiple accounts describing an audible majority voting against it. Courts have historically avoided looking behind the enrolled text of a statute, but _Bruen_'s shift toward historical analysis creates different pressure points. The amendment's origins matter when you're arguing about whether it reflects any genuine American tradition of firearm regulation.
 
 ## The constitutional carry parallel is exactly right
 
@@ -94,7 +94,7 @@ There was a clip playing around Second Amendment circles recently of a Virginia 
 
 ## Why this matters even if you never want to own one
 
-If you own suppressors, short-barreled rifles, or short-barreled shotguns, you live under the NFA already. The $200 tax and the months-long federal approval process that governs your hearing protection or your home defense SBR come from the same legal structure that produced the Hughes Amendment. A successful constitutional attack on § 922(o) does not automatically dissolve the rest of the NFA, but it establishes a judicial framework for examining whether categorical arms restrictions can survive *Bruen* scrutiny. That framework has implications that extend well beyond machine guns.
+If you own suppressors, short-barreled rifles, or short-barreled shotguns, you live under the NFA already. The $200 tax and the months-long federal approval process that governs your hearing protection or your home defense SBR come from the same legal structure that produced the Hughes Amendment. A successful constitutional attack on § 922(o) does not automatically dissolve the rest of the NFA, but it establishes a judicial framework for examining whether categorical arms restrictions can survive _Bruen_ scrutiny. That framework has implications that extend well beyond machine guns.
 
 More broadly, the Hughes Amendment represents something that has no other precedent in American gun law: a complete ban on an entire class of arms that law-abiding citizens previously possessed freely. Not a registration requirement, not a tax, not a carry restriction. A ban. If that ban cannot survive historical-tradition analysis, the legal theory used to strike it down becomes available in other fights.
 

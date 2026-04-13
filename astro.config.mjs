@@ -8,6 +8,6 @@ export default defineConfig({
   site: 'https://bearingfreedom.com',
   integrations: [sitemap()],
   vite: {
-    plugins: [tailwindcss()]
-  }
+    plugins: [tailwindcss()],
+  },
 });

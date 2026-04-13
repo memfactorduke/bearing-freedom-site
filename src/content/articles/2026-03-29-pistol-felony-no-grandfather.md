@@ -1,28 +1,28 @@
 ---
 title: "Virginia's ghost gun law has no grandfather clause. That's not an oversight."
-date: "2026-03-29"
-youtube_url: "https://www.youtube.com/watch?v=dRAAn4Av-8A"
-youtube_id: "dRAAn4Av-8A"
-thumbnail: "/images/articles/2026-03-29-pistol-felony-no-grandfather.jpg"
-duration: "8:30"
-author: "Bearing Freedom"
+date: '2026-03-29'
+youtube_url: 'https://www.youtube.com/watch?v=dRAAn4Av-8A'
+youtube_id: 'dRAAn4Av-8A'
+thumbnail: '/images/articles/2026-03-29-pistol-felony-no-grandfather.jpg'
+duration: '8:30'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "ghost-guns"
-  - "firearms-regulation"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'ghost-guns'
+  - 'firearms-regulation'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Ghost Guns"
-  - "Virginia"
-  - "HB40"
-  - "Gun Control"
-  - "Felony"
-image_prompt: "Aluminum AR-15 lower receiver blank on a wooden workbench, sunlight coming through a garage window, machinist tools visible in background, detailed close-up shot, photojournalistic style, warm natural daylight"
+  - 'Second Amendment'
+  - 'Ghost Guns'
+  - 'Virginia'
+  - 'HB40'
+  - 'Gun Control'
+  - 'Felony'
+image_prompt: 'Aluminum AR-15 lower receiver blank on a wooden workbench, sunlight coming through a garage window, machinist tools visible in background, detailed close-up shot, photojournalistic style, warm natural daylight'
 sort_index: 9
 ---
 
@@ -32,7 +32,7 @@ Virginia's HB40 has no grandfather clause. Someone who legally built a firearm a
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=dRAAn4Av-8A). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=dRAAn4Av-8A). Commentary, not legal advice._
 
 ---
 

@@ -232,6 +232,7 @@ npm run build 2>&1 | grep -i "error\|invalid\|does not match"
 ```
 
 Common agent mistakes to check for:
+
 - `pubDate`, `publishDate` instead of `date`
 - `videoId`, `video_id` instead of `youtube_id`
 - Extra fields: `description`, `excerpt`, `slug`, `category`, `draft`, `featured`, `subtitle`
@@ -252,6 +253,7 @@ XAI_API_KEY="your-key" node scripts/generate-article-images.mjs
 ```
 
 The script:
+
 - Scans all articles for missing thumbnail images
 - Reads article content to determine subject matter
 - Generates content-aware stock photos via xAI grok-imagine-image
@@ -281,19 +283,19 @@ The Netlify build also needs `VOYAGE_API_KEY` set so it rebuilds the index on de
 
 ## Content Schema Reference
 
-| Field | Type | Required | Notes |
-|-------|------|----------|-------|
-| title | string | yes | Strong editorial title, NOT YouTube clickbait |
-| date | string | yes | "YYYY-MM-DD" quoted |
-| youtube_url | string | yes | Full YouTube URL |
-| youtube_id | string | yes | Just the video ID |
-| thumbnail | string | yes | /images/articles/FILENAME.jpg |
-| duration | string | yes | "MM:SS" |
-| author | string | no | Default: "Bearing Freedom" |
-| topics | string[] | no | kebab-case |
-| states | string[] | no | Full state names |
-| content_type | string[] | no | e.g. "commentary", "news-analysis", "deep-dive" |
-| tags | string[] | no | Title Case |
+| Field        | Type     | Required | Notes                                           |
+| ------------ | -------- | -------- | ----------------------------------------------- |
+| title        | string   | yes      | Strong editorial title, NOT YouTube clickbait   |
+| date         | string   | yes      | "YYYY-MM-DD" quoted                             |
+| youtube_url  | string   | yes      | Full YouTube URL                                |
+| youtube_id   | string   | yes      | Just the video ID                               |
+| thumbnail    | string   | yes      | /images/articles/FILENAME.jpg                   |
+| duration     | string   | yes      | "MM:SS"                                         |
+| author       | string   | no       | Default: "Bearing Freedom"                      |
+| topics       | string[] | no       | kebab-case                                      |
+| states       | string[] | no       | Full state names                                |
+| content_type | string[] | no       | e.g. "commentary", "news-analysis", "deep-dive" |
+| tags         | string[] | no       | Title Case                                      |
 
 ## Topic Conventions
 

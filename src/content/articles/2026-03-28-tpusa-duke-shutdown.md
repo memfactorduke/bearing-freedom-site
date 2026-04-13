@@ -1,27 +1,27 @@
 ---
-title: "Duke shut us out. Their own rubric says we passed."
-date: "2026-03-28"
-youtube_url: "https://www.youtube.com/watch?v=hVx3nVCURXg"
-youtube_id: "hVx3nVCURXg"
-thumbnail: "/images/articles/2026-03-28-tpusa-duke-shutdown.jpg"
-duration: "12:05"
-author: "Bearing Freedom"
+title: 'Duke shut us out. Their own rubric says we passed.'
+date: '2026-03-28'
+youtube_url: 'https://www.youtube.com/watch?v=hVx3nVCURXg'
+youtube_id: 'hVx3nVCURXg'
+thumbnail: '/images/articles/2026-03-28-tpusa-duke-shutdown.jpg'
+duration: '12:05'
+author: 'Bearing Freedom'
 topics:
-  - "free-speech"
-  - "campus-politics"
-  - "conservative-activism"
-  - "viewpoint-discrimination"
+  - 'free-speech'
+  - 'campus-politics'
+  - 'conservative-activism'
+  - 'viewpoint-discrimination'
 states:
-  - "North Carolina"
+  - 'North Carolina'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Free Speech"
-  - "Turning Point USA"
-  - "Duke University"
-  - "Campus Speech"
-  - "Viewpoint Discrimination"
-  - "Student Government"
+  - 'Free Speech'
+  - 'Turning Point USA'
+  - 'Duke University'
+  - 'Campus Speech'
+  - 'Viewpoint Discrimination'
+  - 'Student Government'
 image_prompt: "Wide shot of Duke University's main quad in bright midday sunlight, students walking across stone pathways beneath gothic stone arches, one student in the foreground posting a flyer on a campus bulletin board, photojournalistic, natural daylight, no filters"
 sort_index: 10
 ---
@@ -32,7 +32,7 @@ I am the president of Turning Point USA at Duke University. We applied for RSO s
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=hVx3nVCURXg). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=hVx3nVCURXg). Commentary, not legal advice._
 
 ---
 

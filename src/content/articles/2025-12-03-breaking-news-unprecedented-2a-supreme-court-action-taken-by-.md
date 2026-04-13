@@ -1,35 +1,35 @@
 ---
-title: "The DOJ just did something no attorney general has ever done for the Second Amendment at the Supreme Court"
-date: "2025-12-03"
-youtube_url: "https://www.youtube.com/watch?v=hYn51zVFDA8"
-youtube_id: "hYn51zVFDA8"
-thumbnail: "/images/articles/2025-12-03-breaking-news-unprecedented-2a-supreme-court-action-taken-by-.md.jpg"
-duration: "6:22"
-author: "Bearing Freedom"
+title: 'The DOJ just did something no attorney general has ever done for the Second Amendment at the Supreme Court'
+date: '2025-12-03'
+youtube_url: 'https://www.youtube.com/watch?v=hYn51zVFDA8'
+youtube_id: 'hYn51zVFDA8'
+thumbnail: '/images/articles/2025-12-03-breaking-news-unprecedented-2a-supreme-court-action-taken-by-.md.jpg'
+duration: '6:22'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "supreme-court"
-  - "doj"
-  - "hawaii"
-  - "concealed-carry"
-  - "litigation"
+  - 'second-amendment'
+  - 'supreme-court'
+  - 'doj'
+  - 'hawaii'
+  - 'concealed-carry'
+  - 'litigation'
 states:
-  - "Hawaii"
+  - 'Hawaii'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "DOJ"
-  - "Pam Bondi"
-  - "Supreme Court"
-  - "Hawaii"
-  - "Wolford v Lopez"
-  - "Vampire Rule"
-  - "Bruen"
-  - "Concealed Carry"
-  - "Private Property"
-  - "Second Amendment Foundation"
-image_prompt: "Wide-angle photojournalistic shot of the exterior of the United States Supreme Court building in Washington DC on a clear winter morning, white marble steps and columns sharply lit, the American flag flying, a few figures visible near the entrance, documentary style"
+  - 'Second Amendment'
+  - 'DOJ'
+  - 'Pam Bondi'
+  - 'Supreme Court'
+  - 'Hawaii'
+  - 'Wolford v Lopez'
+  - 'Vampire Rule'
+  - 'Bruen'
+  - 'Concealed Carry'
+  - 'Private Property'
+  - 'Second Amendment Foundation'
+image_prompt: 'Wide-angle photojournalistic shot of the exterior of the United States Supreme Court building in Washington DC on a clear winter morning, white marble steps and columns sharply lit, the American flag flying, a few figures visible near the entrance, documentary style'
 sort_index: 85
 ---
 
@@ -39,7 +39,7 @@ For the first time in American history, the sitting attorney general and the Dep
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=hYn51zVFDA8). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=hYn51zVFDA8). Commentary, not legal advice._
 
 ---
 
@@ -95,4 +95,4 @@ Applaud the brief. Hold Bondi accountable for the rest of her record. And pay at
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=hYn51zVFDA8). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=hYn51zVFDA8). Commentary, not legal advice._

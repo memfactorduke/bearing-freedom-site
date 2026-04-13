@@ -1,33 +1,33 @@
 ---
 title: "The Supreme Court just let Texas use its new congressional map. Here's what that actually means for your rights."
-date: "2025-11-24"
-youtube_url: "https://www.youtube.com/watch?v=mLR6yS92Gbs"
-youtube_id: "mLR6yS92Gbs"
-thumbnail: "/images/articles/2025-11-24-breaking-news-massive-supreme-court-win-for-president-trump.jpg"
-duration: "6:06"
-author: "Bearing Freedom"
+date: '2025-11-24'
+youtube_url: 'https://www.youtube.com/watch?v=mLR6yS92Gbs'
+youtube_id: 'mLR6yS92Gbs'
+thumbnail: '/images/articles/2025-11-24-breaking-news-massive-supreme-court-win-for-president-trump.jpg'
+duration: '6:06'
+author: 'Bearing Freedom'
 topics:
-  - "supreme-court"
-  - "redistricting"
-  - "second-amendment"
-  - "congress"
-  - "voting-rights"
+  - 'supreme-court'
+  - 'redistricting'
+  - 'second-amendment'
+  - 'congress'
+  - 'voting-rights'
 states:
-  - "Texas"
+  - 'Texas'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Supreme Court"
-  - "Texas"
-  - "Redistricting"
-  - "Gerrymandering"
-  - "Second Amendment"
-  - "LULAC"
-  - "Abbott"
-  - "House of Representatives"
-  - "Alito"
-  - "Voting Rights Act"
-image_prompt: "Wide-angle photojournalistic shot of the United States Supreme Court building in Washington DC, marble columns, blue sky, American flag, sharp architectural detail, daylight"
+  - 'Supreme Court'
+  - 'Texas'
+  - 'Redistricting'
+  - 'Gerrymandering'
+  - 'Second Amendment'
+  - 'LULAC'
+  - 'Abbott'
+  - 'House of Representatives'
+  - 'Alito'
+  - 'Voting Rights Act'
+image_prompt: 'Wide-angle photojournalistic shot of the United States Supreme Court building in Washington DC, marble columns, blue sky, American flag, sharp architectural detail, daylight'
 sort_index: 87
 ---
 
@@ -37,7 +37,7 @@ The Supreme Court stayed a lower court's order blocking Texas's new congressiona
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=mLR6yS92Gbs). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=mLR6yS92Gbs). Commentary, not legal advice._
 
 ---
 
@@ -45,7 +45,7 @@ The Supreme Court stayed a lower court's order blocking Texas's new congressiona
 
 Texas passed House Bill 4 in August 2025. Governor Greg Abbott signed it on August 29. The map was designed to maximize Republican representation in Congress, and if it works as intended, it could shift Texas from a 25-13 Republican advantage under the 2021 map to something closer to 30 Republican seats, a net gain of up to five.
 
-The left immediately filed lawsuits. The case is formally known as *League of United Latin American Citizens v. Abbott*, though it is commonly referenced as LULAC v. Abbott. On November 18, 2025, a three-judge federal panel in El Paso issued a preliminary injunction blocking the new map on the grounds that the legislature had engaged in racial gerrymandering, specifically that race was the predominant factor in how several districts were drawn. The dissenting judge on that panel was Jerry Smith, who torched the majority opinion as badly reasoned. Judge Smith was right.
+The left immediately filed lawsuits. The case is formally known as _League of United Latin American Citizens v. Abbott_, though it is commonly referenced as LULAC v. Abbott. On November 18, 2025, a three-judge federal panel in El Paso issued a preliminary injunction blocking the new map on the grounds that the legislature had engaged in racial gerrymandering, specifically that race was the predominant factor in how several districts were drawn. The dissenting judge on that panel was Jerry Smith, who torched the majority opinion as badly reasoned. Judge Smith was right.
 
 Texas went to the Supreme Court seeking an emergency stay of the injunction. Justice Samuel Alito received the application and referred it to the full Court. The Court granted the stay, allowing Texas to proceed with the new map pending appeal. The final vote was 6-3, with the conservative majority in favor of the stay and Justices Kagan, Sotomayor, and Jackson dissenting. Alito wrote a concurring opinion joined by Justices Thomas and Gorsuch.
 
@@ -57,11 +57,11 @@ The central legal question in this case turns on a distinction the Supreme Court
 
 Racial gerrymandering, drawing district lines where race is the predominant factor, violates the Fourteenth and Fifteenth Amendments. Courts can hear these claims and strike down maps that cross that line. That is established law.
 
-Partisan gerrymandering, drawing district lines to benefit one political party, is a completely different matter. In *Rucho v. Common Cause* in 2019, the Supreme Court held 5-4 that partisan gerrymandering claims present political questions beyond the reach of federal courts. States can draw maps to benefit their party. That is legal. Full stop. Voters have remedies through elections, not federal litigation.
+Partisan gerrymandering, drawing district lines to benefit one political party, is a completely different matter. In _Rucho v. Common Cause_ in 2019, the Supreme Court held 5-4 that partisan gerrymandering claims present political questions beyond the reach of federal courts. States can draw maps to benefit their party. That is legal. Full stop. Voters have remedies through elections, not federal litigation.
 
 The problem is that race and partisan affiliation are correlated. Black voters in Texas vote Democrat at high rates. Latino voters in Texas vote Democrat at high rates. When Republicans draw districts to minimize Democratic representation, some of those districts will have demographic effects along racial lines, not because race drove the decision but because party and race overlap in the data. The lower court in this case looked at that overlap and concluded race must have been the predominant factor.
 
-That analysis gets it backwards. The question is not whether the map has racial effects. The question is whether race or party was the actual motivation. Texas's legislature drew the map to pick up Republican seats, which is unambiguously legal under *Rucho*. The fact that doing so affected districts with large minority populations does not transform a legal partisan decision into an illegal racial one. The Supreme Court's stay suggests the majority agrees.
+That analysis gets it backwards. The question is not whether the map has racial effects. The question is whether race or party was the actual motivation. Texas's legislature drew the map to pick up Republican seats, which is unambiguously legal under _Rucho_. The fact that doing so affected districts with large minority populations does not transform a legal partisan decision into an illegal racial one. The Supreme Court's stay suggests the majority agrees.
 
 The three-judge panel's ruling had a real weakness that the dissent identified: the majority relied on racial effects and statistical correlations to infer racial motivation without adequately crediting the legislative record showing this was partisan strategy, not racial targeting. Partisan gerrymandering that has racial effects is still partisan gerrymandering. It does not become a Voting Rights Act violation just because the plaintiffs can show demographic outcomes.
 
@@ -69,7 +69,7 @@ The three-judge panel's ruling had a real weakness that the dissent identified: 
 
 People sometimes separate Second Amendment issues from "political" issues as if they exist in different categories. They do not. The most important gun rights advances of the last five years happened because of a specific alignment of judicial appointments, legislative votes, and administrative decisions. Any one of those pillars being knocked out changes everything.
 
-Think about how your rights actually get protected or eroded. The Supreme Court's *Bruen* decision in 2022 recognized the right to carry outside the home. That only happened because President Trump appointed three justices who understood the text and history of the Second Amendment. Those appointments only happened because Republicans held the Senate. Senate control depends on House control for fundraising, momentum, and strategic coordination. The entire system is connected.
+Think about how your rights actually get protected or eroded. The Supreme Court's _Bruen_ decision in 2022 recognized the right to carry outside the home. That only happened because President Trump appointed three justices who understood the text and history of the Second Amendment. Those appointments only happened because Republicans held the Senate. Senate control depends on House control for fundraising, momentum, and strategic coordination. The entire system is connected.
 
 Now look at where the House has been since 2023. Republicans have had a slim majority. In the 119th Congress, that margin is thin enough that a handful of defections or lost seats can tip the balance on any vote. There are bills in Congress right now that would suppress the Second Amendment. There are others that would expand it, like legislation to remove suppressors and short-barreled rifles from NFA regulation. Which bills advance and which die in committee depends almost entirely on who controls the chamber and by how much.
 
@@ -95,4 +95,4 @@ Texas fought for its map and the Supreme Court backed them up. That is a win tha
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=mLR6yS92Gbs). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=mLR6yS92Gbs). Commentary, not legal advice._

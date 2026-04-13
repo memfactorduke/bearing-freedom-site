@@ -1,31 +1,31 @@
 ---
 title: "Florida just admitted open carry bans are unconstitutional. Here's why that matters more than you think."
-date: "2025-12-13"
-youtube_url: "https://www.youtube.com/watch?v=KE1OiwyxdNo"
-youtube_id: "KE1OiwyxdNo"
-thumbnail: "/images/articles/2025-12-13-massive-breaking-news-open-carry-bans-finally-declared-uncon.jpg"
-duration: "7:00"
-author: "Bearing Freedom"
+date: '2025-12-13'
+youtube_url: 'https://www.youtube.com/watch?v=KE1OiwyxdNo'
+youtube_id: 'KE1OiwyxdNo'
+thumbnail: '/images/articles/2025-12-13-massive-breaking-news-open-carry-bans-finally-declared-uncon.jpg'
+duration: '7:00'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "open-carry"
-  - "litigation"
-  - "bruen"
-  - "florida"
+  - 'second-amendment'
+  - 'open-carry'
+  - 'litigation'
+  - 'bruen'
+  - 'florida'
 states:
-  - "Florida"
+  - 'Florida'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Open Carry"
-  - "Florida"
-  - "Gun Owners of America"
-  - "Bruen"
-  - "GOA"
-  - "Constitutional Carry"
-  - "Gun Culture"
-image_prompt: "Photojournalistic shot of a man in casual clothing with a holstered pistol on his hip standing on a sunny Florida street, natural light, slightly blurred background of palm trees and storefronts, confident posture, no aggressive posturing"
+  - 'Second Amendment'
+  - 'Open Carry'
+  - 'Florida'
+  - 'Gun Owners of America'
+  - 'Bruen'
+  - 'GOA'
+  - 'Constitutional Carry'
+  - 'Gun Culture'
+image_prompt: 'Photojournalistic shot of a man in casual clothing with a holstered pistol on his hip standing on a sunny Florida street, natural light, slightly blurred background of palm trees and storefronts, confident posture, no aggressive posturing'
 sort_index: 77
 ---
 
@@ -35,7 +35,7 @@ On December 11, 2025, Florida formally agreed in federal court that open carry b
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=KE1OiwyxdNo). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=KE1OiwyxdNo). Commentary, not legal advice._
 
 ---
 
@@ -91,4 +91,4 @@ Florida just gave us one of those wins. And the fact that some gun owners think 
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=KE1OiwyxdNo). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=KE1OiwyxdNo). Commentary, not legal advice._

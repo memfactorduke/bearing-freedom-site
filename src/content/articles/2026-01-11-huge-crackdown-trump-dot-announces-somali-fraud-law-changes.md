@@ -1,32 +1,32 @@
 ---
 title: "Treasury's remittance crackdown is obvious, overdue, and exactly right"
-date: "2026-01-11"
-youtube_url: "https://www.youtube.com/watch?v=RM5pUoqrWNg"
-youtube_id: "RM5pUoqrWNg"
-thumbnail: "/images/articles/2026-01-11-huge-crackdown-trump-dot-announces-somali-fraud-law-changes.jpg"
-duration: "6:03"
-author: "Bearing Freedom"
+date: '2026-01-11'
+youtube_url: 'https://www.youtube.com/watch?v=RM5pUoqrWNg'
+youtube_id: 'RM5pUoqrWNg'
+thumbnail: '/images/articles/2026-01-11-huge-crackdown-trump-dot-announces-somali-fraud-law-changes.jpg'
+duration: '6:03'
+author: 'Bearing Freedom'
 topics:
-  - "government-fraud"
-  - "welfare-reform"
-  - "federal-enforcement"
-  - "immigration"
+  - 'government-fraud'
+  - 'welfare-reform'
+  - 'federal-enforcement'
+  - 'immigration'
 states:
-  - "Minnesota"
+  - 'Minnesota'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Scott Bessent"
-  - "Treasury Department"
-  - "FinCEN"
-  - "Minnesota Fraud"
-  - "Somali Fraud"
-  - "Remittances"
-  - "Public Assistance"
-  - "al-Shabaab"
-  - "Feeding Our Future"
-  - "Trump Administration"
-image_prompt: "Scott Bessent in a suit standing at a podium outside the Minnesota State Capitol building on a cold overcast winter day, American flag behind him, reporters and cameras gathered in front, photojournalistic style with natural light"
+  - 'Scott Bessent'
+  - 'Treasury Department'
+  - 'FinCEN'
+  - 'Minnesota Fraud'
+  - 'Somali Fraud'
+  - 'Remittances'
+  - 'Public Assistance'
+  - 'al-Shabaab'
+  - 'Feeding Our Future'
+  - 'Trump Administration'
+image_prompt: 'Scott Bessent in a suit standing at a podium outside the Minnesota State Capitol building on a cold overcast winter day, American flag behind him, reporters and cameras gathered in front, photojournalistic style with natural light'
 sort_index: 67
 ---
 
@@ -36,7 +36,7 @@ Scott Bessent and the Treasury Department announced a real enforcement package a
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=RM5pUoqrWNg). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=RM5pUoqrWNg). Commentary, not legal advice._
 
 ---
 

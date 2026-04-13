@@ -1,42 +1,42 @@
 ---
-title: "The Supreme Court just gave candidates the standing to fight back on election law"
-date: "2026-01-16"
-youtube_url: "https://www.youtube.com/watch?v=CDOoJ7flyFw"
-youtube_id: "CDOoJ7flyFw"
-thumbnail: "/images/articles/2026-01-16-breaking-news-emergency-7-2-scotus-decision-changes-us-elect.jpg"
-duration: "7:03"
-author: "Bearing Freedom"
-image_prompt: "A federal courthouse exterior on a crisp winter morning, stone columns lit by low sun, a single figure in a business suit standing on the broad front steps holding a legal brief, photojournalistic, sharp shadows, no crowd"
+title: 'The Supreme Court just gave candidates the standing to fight back on election law'
+date: '2026-01-16'
+youtube_url: 'https://www.youtube.com/watch?v=CDOoJ7flyFw'
+youtube_id: 'CDOoJ7flyFw'
+thumbnail: '/images/articles/2026-01-16-breaking-news-emergency-7-2-scotus-decision-changes-us-elect.jpg'
+duration: '7:03'
+author: 'Bearing Freedom'
+image_prompt: 'A federal courthouse exterior on a crisp winter morning, stone columns lit by low sun, a single figure in a business suit standing on the broad front steps holding a legal brief, photojournalistic, sharp shadows, no crowd'
 sort_index: 59
 topics:
-  - "election-integrity"
-  - "supreme-court"
-  - "standing"
-  - "election-law"
-  - "mail-in-ballots"
+  - 'election-integrity'
+  - 'supreme-court'
+  - 'standing'
+  - 'election-law'
+  - 'mail-in-ballots'
 states:
-  - "Illinois"
-  - "North Carolina"
+  - 'Illinois'
+  - 'North Carolina'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Supreme Court"
-  - "Election Integrity"
-  - "Standing"
-  - "Bost v. Illinois"
-  - "Mail-In Ballots"
-  - "Chief Justice Roberts"
-  - "Voter ID"
-  - "Election Law"
+  - 'Supreme Court'
+  - 'Election Integrity'
+  - 'Standing'
+  - 'Bost v. Illinois'
+  - 'Mail-In Ballots'
+  - 'Chief Justice Roberts'
+  - 'Voter ID'
+  - 'Election Law'
 ---
 
 ## The bottom line
 
-On January 14, 2026, the Supreme Court handed down *Bost v. Illinois State Board of Elections* in a 7-2 decision, holding that a federal congressional candidate has standing to challenge the rules governing how votes in his election are counted. Chief Justice Roberts wrote broadly, not narrowly. Every candidate in a federal race can now sue over election laws they believe are illegal. That is not a minor procedural tweak. That is the first structural crack in the wall of standing dismissals that has buried election integrity litigation for years.
+On January 14, 2026, the Supreme Court handed down _Bost v. Illinois State Board of Elections_ in a 7-2 decision, holding that a federal congressional candidate has standing to challenge the rules governing how votes in his election are counted. Chief Justice Roberts wrote broadly, not narrowly. Every candidate in a federal race can now sue over election laws they believe are illegal. That is not a minor procedural tweak. That is the first structural crack in the wall of standing dismissals that has buried election integrity litigation for years.
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=CDOoJ7flyFw). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=CDOoJ7flyFw). Commentary, not legal advice._
 
 ---
 
@@ -46,7 +46,7 @@ If you followed any of the 2020 post-election litigation, you heard the phrase "
 
 Standing doctrine under Article III of the Constitution requires that a plaintiff show a concrete, particularized injury that is fairly traceable to the challenged conduct and redressable by a court ruling. In election cases, courts have repeatedly ruled that candidates and voters have only a generalized interest in election integrity, the kind of diffuse interest that does not clear the constitutional threshold. Texas v. Pennsylvania, the most high-profile 2020 case, was rejected by the Supreme Court without a word on the merits because Texas was found to lack standing to challenge how a different state ran its elections. Cases in Michigan, Georgia, and Arizona were similarly disposed of on jurisdictional and standing grounds before courts were required to examine any underlying facts.
 
-The practical result has been a system where election laws of genuinely questionable legality survive not because courts vindicate them but because courts refuse to look at them. That is a problem regardless of your political affiliation, and it is the problem that *Bost* directly addresses.
+The practical result has been a system where election laws of genuinely questionable legality survive not because courts vindicate them but because courts refuse to look at them. That is a problem regardless of your political affiliation, and it is the problem that _Bost_ directly addresses.
 
 ## What the case was actually about
 
@@ -70,7 +70,7 @@ The Democracy Docket, which represents left-leaning election litigation groups, 
 
 There is a long list of state election practices that conservatives and election integrity advocates have spent years trying to challenge and failing because of standing barriers. Late ballot receipt deadlines like Illinois's 14-day window are one category. Certain states allow ballots with missing or mismatched signatures to be "cured" by voters after Election Day, a practice that raises questions about equal treatment of voters and chain of custody. Ballot harvesting laws in several states allow third parties to collect and submit large numbers of absentee ballots, creating obvious opportunities for fraud or coercion that are genuinely difficult to detect after the fact.
 
-Voter ID is a separate category that *Bost* does not directly address but where the new standing framework could matter at the margins. The argument for voter ID is so obvious that I genuinely struggle to construct the opposing case in good faith. You need ID to open a bank account, to drive, to drink, to rent an apartment. In the UK, Prime Minister Boris Johnson was turned away from a polling station because he did not have his voter ID. The UK. The country that gave us the common law tradition that underpins American constitutional thought. They require it. We do not. The reason we do not is not that ID requirements are burdensome in any practical sense, since free IDs are available in every state, but that one party has calculated that looser verification benefits their candidates. *Bost* does not hand election integrity advocates a direct vehicle to litigate voter ID, but a candidate in a state without voter ID requirements can now at least try to challenge the practice if there is a federal statutory hook.
+Voter ID is a separate category that _Bost_ does not directly address but where the new standing framework could matter at the margins. The argument for voter ID is so obvious that I genuinely struggle to construct the opposing case in good faith. You need ID to open a bank account, to drive, to drink, to rent an apartment. In the UK, Prime Minister Boris Johnson was turned away from a polling station because he did not have his voter ID. The UK. The country that gave us the common law tradition that underpins American constitutional thought. They require it. We do not. The reason we do not is not that ID requirements are burdensome in any practical sense, since free IDs are available in every state, but that one party has calculated that looser verification benefits their candidates. _Bost_ does not hand election integrity advocates a direct vehicle to litigate voter ID, but a candidate in a state without voter ID requirements can now at least try to challenge the practice if there is a federal statutory hook.
 
 ## The North Carolina Supreme Court race is the concrete example of what's at stake
 
@@ -82,9 +82,9 @@ The House of Representatives is regularly decided by margins in the single-digit
 
 ## What courts will do next
 
-The immediate effect of *Bost* is that Bost's case against Illinois is remanded to proceed on the merits. The actual question of whether Illinois's 14-day post-Election Day ballot receipt window violates federal election law will now be briefed and decided. That is a merits question the Supreme Court did not touch, and it could go either way.
+The immediate effect of _Bost_ is that Bost's case against Illinois is remanded to proceed on the merits. The actual question of whether Illinois's 14-day post-Election Day ballot receipt window violates federal election law will now be briefed and decided. That is a merits question the Supreme Court did not touch, and it could go either way.
 
-The broader effect is that other candidates in similar situations can now bring similar challenges in federal court and expect to be heard. Courts will still apply the usual rules on preliminary injunctions, timing, and remedies, and election cases have their own doctrines around timing that make relief difficult to obtain between a filing and an election. None of that is resolved by *Bost*. But the structural barrier that terminated most election integrity cases before they reached substantive review has been significantly lowered.
+The broader effect is that other candidates in similar situations can now bring similar challenges in federal court and expect to be heard. Courts will still apply the usual rules on preliminary injunctions, timing, and remedies, and election cases have their own doctrines around timing that make relief difficult to obtain between a filing and an election. None of that is resolved by _Bost_. But the structural barrier that terminated most election integrity cases before they reached substantive review has been significantly lowered.
 
 That is meaningful. Not because it guarantees any particular outcome on any particular state law, but because accountability requires the ability to litigate. We have spent years in a system where state election administrators could implement practices of arguable federal legality with near-certainty that no candidate could force a federal court to evaluate them. That era ended on January 14, 2026.
 

@@ -5,6 +5,7 @@ Follow the Article Generation Pipeline documented in `docs/article-pipeline.md`.
 If $ARGUMENTS contains a number, process that many new videos. Otherwise default to 10.
 
 Steps:
+
 1. Get unprocessed video IDs from the channel
 2. Fetch video metadata (dates, titles, durations)
 3. Download and clean transcripts

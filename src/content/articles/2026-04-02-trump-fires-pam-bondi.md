@@ -1,29 +1,29 @@
 ---
 title: "Bondi is out. Blanche is in. Here's what it actually means for gun owners."
-date: "2026-04-02"
-youtube_url: "https://www.youtube.com/watch?v=6Xzioi8tYf8"
-youtube_id: "6Xzioi8tYf8"
-thumbnail: "/images/articles/2026-04-02-trump-fires-pam-bondi.jpg"
-duration: "6:01"
-author: "Bearing Freedom"
+date: '2026-04-02'
+youtube_url: 'https://www.youtube.com/watch?v=6Xzioi8tYf8'
+youtube_id: '6Xzioi8tYf8'
+thumbnail: '/images/articles/2026-04-02-trump-fires-pam-bondi.jpg'
+duration: '6:01'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "doj-firearms-policy"
-  - "federal-enforcement"
-  - "attorney-general"
+  - 'second-amendment'
+  - 'doj-firearms-policy'
+  - 'federal-enforcement'
+  - 'attorney-general'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Department of Justice"
-  - "Todd Blanche"
-  - "Pam Bondi"
-  - "ATF"
-  - "Trump Administration"
-  - "Harmeet Dhillon"
-  - "Lee Zeldin"
-image_prompt: "Todd Blanche in a dark suit standing on the crowded exhibition floor of SHOT Show 2026 in Las Vegas, surrounded by glass display cases of handguns and racks of rifles, speaking with firearm industry representatives under bright white convention hall lighting"
+  - 'Second Amendment'
+  - 'Department of Justice'
+  - 'Todd Blanche'
+  - 'Pam Bondi'
+  - 'ATF'
+  - 'Trump Administration'
+  - 'Harmeet Dhillon'
+  - 'Lee Zeldin'
+image_prompt: 'Todd Blanche in a dark suit standing on the crowded exhibition floor of SHOT Show 2026 in Las Vegas, surrounded by glass display cases of handguns and racks of rifles, speaking with firearm industry representatives under bright white convention hall lighting'
 sort_index: 5
 ---
 
@@ -33,7 +33,7 @@ Trump fired Pam Bondi on April 2, 2026, and named Deputy Attorney General Todd B
 
 ---
 
-*This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=6Xzioi8tYf8). This is commentary, not legal advice.*
+_This article is based on analysis from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=6Xzioi8tYf8). This is commentary, not legal advice._
 
 ---
 
@@ -63,7 +63,7 @@ Todd Blanche is not a mystery. He has had months as Deputy AG to establish a pub
 
 He attended [SHOT Show 2026 in Las Vegas](https://www.breitbart.com/2nd-amendment/2026/01/22/exclusive-deputy-attorney-general-todd-blanche-describes-fight-protect-second-amendment-rights/) and spent serious time on the floor with firearm industry members. He sat in on the ATF town hall. He told Breitbart directly that anti-gun advocates are "crafty" and "creative" in their ongoing violations of the Second Amendment. That is the language of someone who has been paying attention for a while, not someone reading from a prepared statement. He stated publicly that "this administration and Department of Justice will fiercely protect Second Amendment rights." Now he is the one running DOJ.
 
-At the SHOT Show ATF session, Blanche signaled movement on the federal firearms rights restoration program, which processes applications from people whose rights were stripped under federal law and want them restored. That program was effectively frozen under Biden. [NRA-ILA's SHOT Show takeaways](https://www.nraila.org/articles/20260126/second-amendment-momentum-quick-takeaways-from-shot-show) confirmed Blanche was also signaling additional legal pressure on states that continue to defy *New York State Rifle & Pistol Association v. Bruen*, 597 U.S. 1 (2022).
+At the SHOT Show ATF session, Blanche signaled movement on the federal firearms rights restoration program, which processes applications from people whose rights were stripped under federal law and want them restored. That program was effectively frozen under Biden. [NRA-ILA's SHOT Show takeaways](https://www.nraila.org/articles/20260126/second-amendment-momentum-quick-takeaways-from-shot-show) confirmed Blanche was also signaling additional legal pressure on states that continue to defy _New York State Rifle & Pistol Association v. Bruen_, 597 U.S. 1 (2022).
 
 At [CPAC in March 2026](https://redstate.com/jenniferoo/2026/03/26/cpac-the-justice-league-restoring-the-constitution-with-deputy-attorney-general-todd-blanche-n2200654/), Blanche was specific about what DOJ had done and where it was going: restoring gun rights to people who should never have had them taken away, withdrawing from lawsuits DOJ had no business being in, and rolling back ATF regulatory overreach. He was at venues where showing up was optional. He showed up.
 
@@ -71,11 +71,11 @@ At [CPAC in March 2026](https://redstate.com/jenniferoo/2026/03/26/cpac-the-just
 
 One of the most important developments at DOJ over the past year has been what Harmeet Dhillon built inside the Civil Rights Division, and it is worth understanding because it does not depend on who the AG is.
 
-Dhillon created a dedicated Second Amendment Section at the Civil Rights Division, the first of its kind in American history. She has been explicit about the goal: identify every state regulation that is inconsistent with *Heller* and *Bruen*, and get it struck down, settled, or withdrawn. [Just The News covered the announcement](https://justthenews.com/government/federal-agencies/harmeet-dhillon-announces-new-second-amendment-section-doj-civil-rights), and [America's 1st Freedom reported](https://www.americas1stfreedom.org/content/doj-civil-rights-division-s-new-second-amendment-section-hits-the-ground-running/) that the section was staffing up aggressively.
+Dhillon created a dedicated Second Amendment Section at the Civil Rights Division, the first of its kind in American history. She has been explicit about the goal: identify every state regulation that is inconsistent with _Heller_ and _Bruen_, and get it struck down, settled, or withdrawn. [Just The News covered the announcement](https://justthenews.com/government/federal-agencies/harmeet-dhillon-announces-new-second-amendment-section-doj-civil-rights), and [America's 1st Freedom reported](https://www.americas1stfreedom.org/content/doj-civil-rights-division-s-new-second-amendment-section-hits-the-ground-running/) that the section was staffing up aggressively.
 
-The cases already filed are not symbolic. DOJ went to the 7th Circuit against Illinois' assault weapons ban. It filed an amicus brief in *Wolford v. Lopez* at the Supreme Court targeting Hawaii's carry restrictions. It sued the Los Angeles County Sheriff's Department in federal court for refusing to comply with *Bruen* on carry permit processing. It filed in *Rhode v. Bonta* at the Ninth Circuit challenging California's ammunition background check system. The [Washington Times reported in late March](https://www.washingtontimes.com/news/2026/mar/31/doj-arming-second-amendment-lawyers-take-tranche-state-gun-control/) that DOJ was staffing up to take on another wave of state gun control laws.
+The cases already filed are not symbolic. DOJ went to the 7th Circuit against Illinois' assault weapons ban. It filed an amicus brief in _Wolford v. Lopez_ at the Supreme Court targeting Hawaii's carry restrictions. It sued the Los Angeles County Sheriff's Department in federal court for refusing to comply with _Bruen_ on carry permit processing. It filed in _Rhode v. Bonta_ at the Ninth Circuit challenging California's ammunition background check system. The [Washington Times reported in late March](https://www.washingtontimes.com/news/2026/mar/31/doj-arming-second-amendment-lawyers-take-tranche-state-gun-control/) that DOJ was staffing up to take on another wave of state gun control laws.
 
-On January 15, 2026, the Office of Legal Counsel issued an opinion declaring 18 U.S.C. § 1715, the nearly century-old federal ban on mailing concealable firearms, unconstitutional under *Bruen*. USPS initiated a comment period on April 2nd to begin revising its postal regulations accordingly. That is a structural change that outlasts any cabinet shuffle.
+On January 15, 2026, the Office of Legal Counsel issued an opinion declaring 18 U.S.C. § 1715, the nearly century-old federal ban on mailing concealable firearms, unconstitutional under _Bruen_. USPS initiated a comment period on April 2nd to begin revising its postal regulations accordingly. That is a structural change that outlasts any cabinet shuffle.
 
 Now, as of early April, Dhillon is reportedly being elevated to Associate Attorney General, the number three position at DOJ, overseeing the Civil Rights Division along with Antitrust, Civil, and Environment and Natural Resources. That is a promotion that puts more power behind the same mission she has been running.
 
@@ -83,7 +83,7 @@ None of this collapses because Bondi is gone. The cases are filed. The section e
 
 ## The Zeldin question
 
-Lee Zeldin is reportedly Trump's leading choice for the permanent Senate-confirmed role. His congressional record is genuinely good. He earned an A rating from the NRA during his time in the House, co-sponsored national concealed carry reciprocity legislation, and during his 2022 New York gubernatorial campaign called for repealing the SAFE Act and celebrated *Bruen* the day it came down. [Bearing Arms noted](https://bearingarms.com/camedwards/2026/04/02/bondi-out-doj-civil-rights-division-2a-focus-n1232093/) that Zeldin could be an even more aggressive advocate for using DOJ against state gun control laws than Bondi was.
+Lee Zeldin is reportedly Trump's leading choice for the permanent Senate-confirmed role. His congressional record is genuinely good. He earned an A rating from the NRA during his time in the House, co-sponsored national concealed carry reciprocity legislation, and during his 2022 New York gubernatorial campaign called for repealing the SAFE Act and celebrated _Bruen_ the day it came down. [Bearing Arms noted](https://bearingarms.com/camedwards/2026/04/02/bondi-out-doj-civil-rights-division-2a-focus-n1232093/) that Zeldin could be an even more aggressive advocate for using DOJ against state gun control laws than Bondi was.
 
 My honest read: Zeldin's record is better than Bondi's was. But a congressman's voting history does not automatically translate into enforcement posture at the cabinet level. The confirmation hearing will tell us a lot. This town has a long history of politicians who talked a strong game on guns right up until they had real power and real pressure on them.
 

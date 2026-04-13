@@ -1,32 +1,32 @@
 ---
 title: "Minnesota killed all 15 gun control bills, but the math won't hold forever"
-date: "2026-02-25"
-youtube_url: "https://www.youtube.com/watch?v=uNDkCLgk1pQ"
-youtube_id: "uNDkCLgk1pQ"
-thumbnail: "/images/articles/2026-02-25-gun-control-bills-defeated.jpg"
-duration: "9:07"
-author: "Bearing Freedom"
-image_prompt: "Minnesota state capitol rotunda interior in natural window light, Republican legislators reviewing documents at committee hearing table, American flags visible in background, clean photojournalistic composition"
+date: '2026-02-25'
+youtube_url: 'https://www.youtube.com/watch?v=uNDkCLgk1pQ'
+youtube_id: 'uNDkCLgk1pQ'
+thumbnail: '/images/articles/2026-02-25-gun-control-bills-defeated.jpg'
+duration: '9:07'
+author: 'Bearing Freedom'
+image_prompt: 'Minnesota state capitol rotunda interior in natural window light, Republican legislators reviewing documents at committee hearing table, American flags visible in background, clean photojournalistic composition'
 sort_index: 25
 topics:
-  - "gun-control"
-  - "second-amendment"
-  - "state-legislation"
-  - "minnesota"
+  - 'gun-control'
+  - 'second-amendment'
+  - 'state-legislation'
+  - 'minnesota'
 states:
-  - "Minnesota"
-  - "Virginia"
+  - 'Minnesota'
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Minnesota"
-  - "Virginia"
-  - "Legislative Session"
-  - "Safe Storage"
-  - "Magazine Ban"
-  - "Assault Weapon Ban"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Minnesota'
+  - 'Virginia'
+  - 'Legislative Session'
+  - 'Safe Storage'
+  - 'Magazine Ban'
+  - 'Assault Weapon Ban'
 ---
 
 ## The bottom line
@@ -35,7 +35,7 @@ Minnesota Democrats introduced 15 gun control bills in the 2026 session backed b
 
 ---
 
-*This article is based on commentary from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=uNDkCLgk1pQ). Commentary, not legal advice.*
+_This article is based on commentary from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=uNDkCLgk1pQ). Commentary, not legal advice._
 
 ---
 

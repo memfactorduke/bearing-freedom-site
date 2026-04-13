@@ -1,31 +1,31 @@
 ---
-title: "Ilhan Omar just told you exactly what the anti-gun movement wants. Will you listen?"
-date: "2025-12-05"
-youtube_url: "https://www.youtube.com/watch?v=vcANqbv7G5w"
-youtube_id: "vcANqbv7G5w"
-thumbnail: "/images/articles/2025-12-05-breaking-anti-gun-congresswoman-ilhan-omar-caught-pushing-fo.jpg"
-duration: "8:37"
-author: "Bearing Freedom"
+title: 'Ilhan Omar just told you exactly what the anti-gun movement wants. Will you listen?'
+date: '2025-12-05'
+youtube_url: 'https://www.youtube.com/watch?v=vcANqbv7G5w'
+youtube_id: 'vcANqbv7G5w'
+thumbnail: '/images/articles/2025-12-05-breaking-anti-gun-congresswoman-ilhan-omar-caught-pushing-fo.jpg'
+duration: '8:37'
+author: 'Bearing Freedom'
 topics:
-  - "gun-registry"
-  - "gun-confiscation"
-  - "second-amendment"
-  - "federal-legislation"
-  - "anti-gun-movement"
+  - 'gun-registry'
+  - 'gun-confiscation'
+  - 'second-amendment'
+  - 'federal-legislation'
+  - 'anti-gun-movement'
 states:
-  - "Minnesota"
+  - 'Minnesota'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Ilhan Omar"
-  - "gun registry"
-  - "mandatory buyback"
-  - "gun confiscation"
-  - "Second Amendment"
-  - "Kamala Harris"
-  - "FOPA"
-  - "Firearm Owners Protection Act"
-  - "ATF records"
+  - 'Ilhan Omar'
+  - 'gun registry'
+  - 'mandatory buyback'
+  - 'gun confiscation'
+  - 'Second Amendment'
+  - 'Kamala Harris'
+  - 'FOPA'
+  - 'Firearm Owners Protection Act'
+  - 'ATF records'
 image_prompt: "Close-up photojournalistic shot of a congressional hearing room in Washington DC, empty leather chairs at a curved dais, a small nameplate reading 'Minnesota' visible, harsh overhead lighting, tense formal atmosphere"
 sort_index: 82
 ---
@@ -36,7 +36,7 @@ Rep. Ilhan Omar went on camera and said what every Second Amendment supporter ha
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=vcANqbv7G5w). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=vcANqbv7G5w). Commentary, not legal advice._
 
 ---
 
@@ -108,4 +108,4 @@ She said it plainly. The only question is whether you heard her.
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=vcANqbv7G5w). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=vcANqbv7G5w). Commentary, not legal advice._

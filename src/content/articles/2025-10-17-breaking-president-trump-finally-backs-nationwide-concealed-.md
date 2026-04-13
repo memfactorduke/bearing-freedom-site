@@ -1,30 +1,30 @@
 ---
-title: "Trump backs national concealed carry reciprocity. Now Congress needs to do its job."
-date: "2025-10-17"
-youtube_url: "https://www.youtube.com/watch?v=HoHvEkZahjc"
-youtube_id: "HoHvEkZahjc"
-thumbnail: "/images/articles/2025-10-17-breaking-president-trump-finally-backs-nationwide-concealed-.jpg"
-duration: "5:57"
-author: "Bearing Freedom"
+title: 'Trump backs national concealed carry reciprocity. Now Congress needs to do its job.'
+date: '2025-10-17'
+youtube_url: 'https://www.youtube.com/watch?v=HoHvEkZahjc'
+youtube_id: 'HoHvEkZahjc'
+thumbnail: '/images/articles/2025-10-17-breaking-president-trump-finally-backs-nationwide-concealed-.jpg'
+duration: '5:57'
+author: 'Bearing Freedom'
 topics:
-  - "concealed-carry"
-  - "reciprocity"
-  - "second-amendment"
-  - "trump"
-  - "legislation"
+  - 'concealed-carry'
+  - 'reciprocity'
+  - 'second-amendment'
+  - 'trump'
+  - 'legislation'
 states: []
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Concealed Carry"
-  - "Reciprocity"
-  - "Trump"
-  - "H.R. 38"
-  - "Constitutional Carry"
-  - "Second Amendment"
-  - "Congress"
-  - "Bruen"
-image_prompt: "Wide photojournalistic shot of the White House South Lawn on a clear autumn day, American flag flying, warm golden light, no people visible, sharp architectural detail"
+  - 'Concealed Carry'
+  - 'Reciprocity'
+  - 'Trump'
+  - 'H.R. 38'
+  - 'Constitutional Carry'
+  - 'Second Amendment'
+  - 'Congress'
+  - 'Bruen'
+image_prompt: 'Wide photojournalistic shot of the White House South Lawn on a clear autumn day, American flag flying, warm golden light, no people visible, sharp architectural detail'
 sort_index: 100
 ---
 
@@ -34,7 +34,7 @@ President Trump has said publicly and unambiguously that he supports national co
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=HoHvEkZahjc). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=HoHvEkZahjc). Commentary, not legal advice._
 
 ---
 
@@ -82,4 +82,4 @@ If you would not require someone to get a new permit to exercise their First Ame
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=HoHvEkZahjc). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=HoHvEkZahjc). Commentary, not legal advice._

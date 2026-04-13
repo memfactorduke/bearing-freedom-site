@@ -1,29 +1,29 @@
 ---
 title: "Virginia's HB909 Turns Your Carry Permit Into a Trap"
-date: "2026-03-31"
-youtube_url: "https://www.youtube.com/watch?v=yKv4kLZrEmg"
-youtube_id: "yKv4kLZrEmg"
-thumbnail: "/images/articles/2026-03-31-virginia-carry-permit-worthless.jpg"
-duration: "10:31"
-author: "Bearing Freedom"
+date: '2026-03-31'
+youtube_url: 'https://www.youtube.com/watch?v=yKv4kLZrEmg'
+youtube_id: 'yKv4kLZrEmg'
+thumbnail: '/images/articles/2026-03-31-virginia-carry-permit-worthless.jpg'
+duration: '10:31'
+author: 'Bearing Freedom'
 topics:
-  - "gun-free-zones"
-  - "carry-rights"
-  - "second-amendment"
-  - "virginia-legislation"
+  - 'gun-free-zones'
+  - 'carry-rights'
+  - 'second-amendment'
+  - 'virginia-legislation'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Virginia"
-  - "HB909"
-  - "Carry Permit"
-  - "Gun-Free Zones"
-  - "Polling Places"
-image_prompt: "A curbside ballot drop box on a sunny suburban sidewalk in front of a government office building, bright midday sunlight, green trees in background, wide shot showing surrounding buildings and street"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Virginia'
+  - 'HB909'
+  - 'Carry Permit'
+  - 'Gun-Free Zones'
+  - 'Polling Places'
+image_prompt: 'A curbside ballot drop box on a sunny suburban sidewalk in front of a government office building, bright midday sunlight, green trees in background, wide shot showing surrounding buildings and street'
 sort_index: 7
 ---
 
@@ -33,7 +33,7 @@ Virginia's HB909 is not a polling place bill. It is a year-round, unmarked, city
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=yKv4kLZrEmg). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=yKv4kLZrEmg). Commentary, not legal advice._
 
 ---
 

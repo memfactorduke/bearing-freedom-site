@@ -1,33 +1,33 @@
 ---
 title: "Virginia's 10-1 congressional map is the most brazen gerrymander in the country"
-date: "2026-02-06"
-youtube_url: "https://www.youtube.com/watch?v=NkzPqaGI3sA"
-youtube_id: "NkzPqaGI3sA"
-thumbnail: "/images/articles/2026-02-06-breaking-virginia-moves-to-eliminate-republican-congressmen.jpg"
-duration: "8:03"
-author: "Bearing Freedom"
-image_prompt: "Wide-angle daytime shot of the Virginia State Capitol building in Richmond, with a foreground of campaign yard signs and protest placards staked in a grassy lawn, sharp photojournalistic lighting, blue sky with high clouds"
+date: '2026-02-06'
+youtube_url: 'https://www.youtube.com/watch?v=NkzPqaGI3sA'
+youtube_id: 'NkzPqaGI3sA'
+thumbnail: '/images/articles/2026-02-06-breaking-virginia-moves-to-eliminate-republican-congressmen.jpg'
+duration: '8:03'
+author: 'Bearing Freedom'
+image_prompt: 'Wide-angle daytime shot of the Virginia State Capitol building in Richmond, with a foreground of campaign yard signs and protest placards staked in a grassy lawn, sharp photojournalistic lighting, blue sky with high clouds'
 sort_index: 39
 topics:
-  - "redistricting"
-  - "gerrymandering"
-  - "virginia-politics"
-  - "congressional-elections"
-  - "second-amendment"
+  - 'redistricting'
+  - 'gerrymandering'
+  - 'virginia-politics'
+  - 'congressional-elections'
+  - 'second-amendment'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Virginia"
-  - "Redistricting"
-  - "Gerrymandering"
-  - "Louise Lucas"
-  - "Don Scott"
-  - "Spanberger"
-  - "2026 Midterms"
-  - "Congressional Map"
-  - "Republican Seats"
+  - 'Virginia'
+  - 'Redistricting'
+  - 'Gerrymandering'
+  - 'Louise Lucas'
+  - 'Don Scott'
+  - 'Spanberger'
+  - '2026 Midterms'
+  - 'Congressional Map'
+  - 'Republican Seats'
 ---
 
 ## The bottom line
@@ -36,7 +36,7 @@ Virginia Democrats have released a 10-1 congressional map that would reduce Repu
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=NkzPqaGI3sA). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=NkzPqaGI3sA). Commentary, not legal advice._
 
 ---
 
@@ -84,7 +84,7 @@ I want to be honest about something that a lot of people on my side are uncomfor
 
 When you pick up a tool to win a political fight, you have to know that your opponent will pick up the same tool and swing it harder. That is not a hypothetical. That is what is happening in Virginia right now.
 
-The problem is that political gerrymandering has been held constitutional by the Supreme Court since *Rucho v. Common Cause* in 2019, where the Court held that federal courts cannot police partisan gerrymandering claims. States can do this. It is legal. And as long as it is legal, the side with fewer constraints on using it will use it more aggressively. Virginia Democrats have no constitutional scruples holding them back, and they have proved it.
+The problem is that political gerrymandering has been held constitutional by the Supreme Court since _Rucho v. Common Cause_ in 2019, where the Court held that federal courts cannot police partisan gerrymandering claims. States can do this. It is legal. And as long as it is legal, the side with fewer constraints on using it will use it more aggressively. Virginia Democrats have no constitutional scruples holding them back, and they have proved it.
 
 Independent redistricting commissions were supposed to be the answer. Virginia created one after 2020. The problem is that commissions draw districts too, and who appoints commission members determines what maps come out. Virginia Democrats are currently trying to bypass their commission entirely because they think they can get a better result through direct legislative control. The commission solution only works if both parties respect the commission's authority, and clearly that is not guaranteed.
 

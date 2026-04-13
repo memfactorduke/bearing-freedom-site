@@ -1,27 +1,27 @@
 ---
 title: "Outlaw all guns: the anti-gun activist's logic doesn't survive contact with reality"
-date: "2026-01-24"
-youtube_url: "https://www.youtube.com/watch?v=4P-NlFxEroA"
-youtube_id: "4P-NlFxEroA"
-thumbnail: "/images/articles/2026-01-24-outlaw-all-guns-insane-anti-gun-activist-s-logic-immediately.jpg"
-duration: "10:02"
-author: "Bearing Freedom"
+date: '2026-01-24'
+youtube_url: 'https://www.youtube.com/watch?v=4P-NlFxEroA'
+youtube_id: '4P-NlFxEroA'
+thumbnail: '/images/articles/2026-01-24-outlaw-all-guns-insane-anti-gun-activist-s-logic-immediately.jpg'
+duration: '10:02'
+author: 'Bearing Freedom'
 topics:
-  - "second-amendment"
-  - "gun-control"
-  - "firearms-regulation"
+  - 'second-amendment'
+  - 'gun-control'
+  - 'firearms-regulation'
 content_type:
-  - "commentary"
+  - 'commentary'
 states: []
 tags:
-  - "Second Amendment"
-  - "Gun Control"
-  - "Gun Ban"
-  - "Defensive Gun Use"
-  - "Anti-Gun"
-  - "Sam Seder"
-  - "TikTok"
-image_prompt: "A well-lit university lecture hall with a young man in a plain t-shirt standing confidently at the front, arms crossed, facing an empty podium, fluorescent overhead lights, rows of empty seats behind him, bold and confrontational atmosphere, photojournalistic style"
+  - 'Second Amendment'
+  - 'Gun Control'
+  - 'Gun Ban'
+  - 'Defensive Gun Use'
+  - 'Anti-Gun'
+  - 'Sam Seder'
+  - 'TikTok'
+image_prompt: 'A well-lit university lecture hall with a young man in a plain t-shirt standing confidently at the front, arms crossed, facing an empty podium, fluorescent overhead lights, rows of empty seats behind him, bold and confrontational atmosphere, photojournalistic style'
 sort_index: 54
 ---
 
@@ -31,7 +31,7 @@ I deal with anti-gun arguments constantly. As a Turning Point chapter president,
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=4P-NlFxEroA). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=4P-NlFxEroA). Commentary, not legal advice._
 
 ---
 
@@ -59,7 +59,7 @@ I hear the "ban all guns" argument and I want the person saying it to walk me th
 
 You need Congress to pass it. That is not happening. The Senate has not come close to passing even modest gun restrictions in years, and a wholesale ban would require overcoming the filibuster with 60 votes. You need the president to sign it. That is not happening now and the political environment makes it difficult to imagine in the near term. You need the Supreme Court to uphold it. That is definitively not happening.
 
-The Court in *District of Columbia v. Heller* (2008) held that the Second Amendment protects an individual right to keep and bear arms for traditionally lawful purposes, including self-defense. *McDonald v. City of Chicago* (2010) incorporated that right against state governments through the Fourteenth Amendment. *New York State Rifle and Pistol Association v. Bruen* (2022) raised the bar further, requiring that any firearms regulation be consistent with America's historical tradition of regulation at the time of the founding. A total gun ban fails that test categorically. There is no founding-era tradition of banning firearms.
+The Court in _District of Columbia v. Heller_ (2008) held that the Second Amendment protects an individual right to keep and bear arms for traditionally lawful purposes, including self-defense. _McDonald v. City of Chicago_ (2010) incorporated that right against state governments through the Fourteenth Amendment. _New York State Rifle and Pistol Association v. Bruen_ (2022) raised the bar further, requiring that any firearms regulation be consistent with America's historical tradition of regulation at the time of the founding. A total gun ban fails that test categorically. There is no founding-era tradition of banning firearms.
 
 But let's say the impossible happens and a ban clears all those hurdles. You then need law enforcement to carry it out. [Heritage Foundation research](https://www.heritage.org/gun-rights/commentary/dont-count-american-compliance-gun-confiscation) and data from Australia's 1996 confiscation program, which was far less ambitious than a full US ban, show that compliance with confiscation orders routinely falls below 30%. In Australia, estimated to be one of the most compliant populations in the world for this purpose, an estimated 260,000 "illegal" firearms were still in civilian hands years after the buyback. There are approximately 400 million privately owned firearms in the United States. The idea that you are going to successfully confiscate them is not a policy proposal. It is a fantasy.
 

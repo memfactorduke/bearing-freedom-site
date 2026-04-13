@@ -1,34 +1,34 @@
 ---
-title: "California banned Glocks to stop auto switches. Someone built a new switch in 48 hours."
-date: "2025-11-21"
-youtube_url: "https://www.youtube.com/watch?v=8nRDzVxxdvc"
-youtube_id: "8nRDzVxxdvc"
-thumbnail: "/images/articles/2025-11-21-breaking-california-caught-trying-to-ban-glocks-backfires-im.jpg"
-duration: "6:39"
-author: "Bearing Freedom"
+title: 'California banned Glocks to stop auto switches. Someone built a new switch in 48 hours.'
+date: '2025-11-21'
+youtube_url: 'https://www.youtube.com/watch?v=8nRDzVxxdvc'
+youtube_id: '8nRDzVxxdvc'
+thumbnail: '/images/articles/2025-11-21-breaking-california-caught-trying-to-ban-glocks-backfires-im.jpg'
+duration: '6:39'
+author: 'Bearing Freedom'
 topics:
-  - "california"
-  - "gun-control"
-  - "glock"
-  - "nfa"
-  - "machine-guns"
-  - "second-amendment"
+  - 'california'
+  - 'gun-control'
+  - 'glock'
+  - 'nfa'
+  - 'machine-guns'
+  - 'second-amendment'
 states:
-  - "California"
+  - 'California'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "California"
-  - "AB 1127"
-  - "Glock"
-  - "Glock Switch"
-  - "Gavin Newsom"
-  - "NFA"
-  - "Machine Gun"
-  - "Gun Control"
-  - "Second Amendment"
-  - "Glock Series V"
-image_prompt: "Close-up photojournalistic shot of a Glock pistol on a California state flag background, dramatic lighting, sharp focus on the firearm, bold red and yellow California colors visible underneath"
+  - 'California'
+  - 'AB 1127'
+  - 'Glock'
+  - 'Glock Switch'
+  - 'Gavin Newsom'
+  - 'NFA'
+  - 'Machine Gun'
+  - 'Gun Control'
+  - 'Second Amendment'
+  - 'Glock Series V'
+image_prompt: 'Close-up photojournalistic shot of a Glock pistol on a California state flag background, dramatic lighting, sharp focus on the firearm, bold red and yellow California colors visible underneath'
 sort_index: 88
 ---
 
@@ -38,7 +38,7 @@ California's AB 1127 was sold as a law to stop illegal machine gun conversions. 
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=8nRDzVxxdvc). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=8nRDzVxxdvc). Commentary, not legal advice._
 
 ---
 
@@ -86,4 +86,4 @@ The irony of this entire episode is worth sitting with. California passed a law,
 
 ---
 
-*Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=8nRDzVxxdvc). Commentary, not legal advice.*
+_Attribution from [Bearing Freedom](https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw). [Watch the original video](https://www.youtube.com/watch?v=8nRDzVxxdvc). Commentary, not legal advice._
