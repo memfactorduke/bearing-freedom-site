@@ -1,21 +1,21 @@
 ---
-title: "The DOJ just put Virginia on notice"
-date: "2026-04-11"
-youtube_url: "https://www.youtube.com/watch?v=PwmmO9A2Q58"
-youtube_id: "PwmmO9A2Q58"
-thumbnail: "/images/articles/2026-04-11-doj-announcement-virginia-gun-control.jpg"
-duration: "6:29"
-author: "Bearing Freedom"
+title: 'The DOJ just put Virginia on notice'
+date: '2026-04-11'
+youtube_url: 'https://www.youtube.com/watch?v=PwmmO9A2Q58'
+youtube_id: 'PwmmO9A2Q58'
+thumbnail: '/images/articles/2026-04-11-doj-announcement-virginia-gun-control.jpg'
+duration: '6:29'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
+  - 'gun-control'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "news-analysis"
+  - 'news-analysis'
 tags:
-  - "Gun Control"
-  - "DOJ"
-image_prompt: "a formal letter on Department of Justice letterhead resting on a mahogany desk, pen lying next to it, Washington DC office window behind showing overcast sky, shallow depth of field, muted colors"
+  - 'Gun Control'
+  - 'DOJ'
+image_prompt: 'a formal letter on Department of Justice letterhead resting on a mahogany desk, pen lying next to it, Washington DC office window behind showing overcast sky, shallow depth of field, muted colors'
 ---
 
 ## The bottom line
@@ -34,7 +34,7 @@ Spanberger signed HB40, the ghost gun ban, along with three other bills from a b
 
 What separates this from prior attempts is there's no grandfather clause. Previous versions would have drawn a line at a manufacture date and left older guns alone. This one doesn't. If you built a perfectly legal 80% lower five years ago, you have to comply with whatever serialization system Virginia eventually creates, or you're a felon. No carve-out for property you owned before the law existed. Think about that.
 
-The bigger bill, the one DOJ specifically flagged, is SB749. It passed the Senate 21-19 on February 9 and cleared the House 59-35 on March 4. Spanberger hadn't signed it yet as of April 11, but the DOJ wasn't waiting around. SB749 bans the purchase, sale, and transfer of "assault firearms," which under Virginia's definition pulls in AR-15s, a broad range of semiautomatic pistols, and any shotgun with a detachable magazine. Magazines over 15 rounds are separately banned. Violations are Class 1 misdemeanors. There is a grandfather clause for guns owned before July 1, 2026, but the sale and transfer ban means your protected property is essentially frozen. You can't sell it. You can't give it to your kids.
+The bigger bill, the one DOJ specifically flagged, is SB749. It passed the Senate 21-19 on February 9 and cleared the House 59-35 on March 4. Spanberger hadn't signed it yet as of April 11, but the DOJ wasn't waiting around. SB749 bans the purchase, sale, and transfer of "assault firearms," which under Virginia's definition pulls in AR-15s, a broad range of semiautomatic pistols, and any shotgun with a detachable magazine. Magazines over 15 rounds are separately banned. Violations are Class 1 misdemeanors. There is a grandfather clause for guns owned before July 1, 2026, but the sale and transfer ban heavily restricts what you can do with your property. You can sell it to an FFL or to someone out of state. The governor's substitute added a family transfer exemption letting you gift it to an immediate family member (spouse, children, parents, grandparents, siblings), but only if you owned it before the cutoff and the recipient isn't prohibited. That's better than nothing, but it's still a government permission slip for giving your own property to your own kid.
 
 Harmeet Dhillon, the Assistant Attorney General for Civil Rights, sent a formal letter to Jay Jones on April 10. The Civil Rights Division will commence litigation if SB749 and related bills take effect. The letter specifically calls out SB749 for "unconstitutionally restricting the making, buying, and selling of AR-15s and many other semi-automatic firearms in common use." It cited _DC v. Heller_ and _NYSRPA v. Bruen_. DOJ's Second Amendment Section is standing by.
 

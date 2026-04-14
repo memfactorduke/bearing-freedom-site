@@ -1,24 +1,24 @@
 ---
-title: "Spanberger just turned thousands of Virginia gun owners into felons overnight"
-date: "2026-04-10"
-youtube_url: "https://www.youtube.com/watch?v=MYR8suKymDo"
-youtube_id: "MYR8suKymDo"
-thumbnail: "/images/articles/2026-04-10-virginia-gun-bills-signed-into-law.jpg"
-duration: "17:13"
-author: "Bearing Freedom"
+title: 'Spanberger just turned thousands of Virginia gun owners into felons overnight'
+date: '2026-04-10'
+youtube_url: 'https://www.youtube.com/watch?v=MYR8suKymDo'
+youtube_id: 'MYR8suKymDo'
+thumbnail: '/images/articles/2026-04-10-virginia-gun-bills-signed-into-law.jpg'
+duration: '17:13'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
+  - 'gun-control'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Gun Control"
-  - "Virginia"
-  - "Ghost Guns"
-  - "Second Amendment"
-  - "Legislation"
-image_prompt: "weathered American flag hanging in a gun shop window, empty wooden display cases visible inside, closed sign on the door, overcast afternoon light on a small-town Virginia main street"
+  - 'Gun Control'
+  - 'Virginia'
+  - 'Ghost Guns'
+  - 'Second Amendment'
+  - 'Legislation'
+image_prompt: 'weathered American flag hanging in a gun shop window, empty wooden display cases visible inside, closed sign on the door, overcast afternoon light on a small-town Virginia main street'
 ---
 
 ## The bottom line
@@ -73,7 +73,7 @@ That's the trap. The ghost gun ban creates a compliance requirement that depends
 
 Spanberger also signed legislation expanding Virginia's red flag process to broaden how guns can be removed from people served with protective orders. No conviction, no jury, no finding of dangerousness. A civil protective order strips your Second Amendment rights. This will affect fewer people than HB40, but it's constitutionally rotten in a different way. The Supreme Court addressed gun confiscation without adjudication in **United States v. Rahimi** last year, and while that decision upheld the federal domestic violence disarmament law in a narrow context, it tied the ruling to situations where someone had been found dangerous. Virginia's expanded mechanism pushes past that boundary.
 
-The fourth bill closes what they call the "boyfriend loophole," carried by Delegate Adele McClure as HB19 and Senator Russet Perry as SB160. It expands the domestic violence firearms prohibition to include anyone in a romantic relationship, without requiring marriage or cohabitation. Get into a physical altercation with your roommate and your guns are gone for life. The definition of covered relationships is broad enough that almost any ex-partner allegation can trigger lifetime disarmament.
+The fourth bill closes what they call the "boyfriend loophole," carried by Delegate Adele McClure as HB19 and Senator Russet Perry as SB160. It expands the domestic violence firearms prohibition to include anyone in a romantic relationship, without requiring marriage or cohabitation. Get into a physical altercation with someone you've dated and your guns are gone for three years under a mandatory prohibition. The definition of "intimate partner" covers anyone in a "romantic, dating, or sexual relationship" within the previous 12 months, broad enough that almost any ex-partner allegation can trigger disarmament.
 
 ## What this is actually about
 

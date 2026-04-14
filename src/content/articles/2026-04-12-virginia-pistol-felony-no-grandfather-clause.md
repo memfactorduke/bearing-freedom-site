@@ -1,19 +1,19 @@
 ---
-title: "Virginia just made felons out of gun owners who did nothing wrong"
-date: "2026-04-12"
-youtube_url: "https://www.youtube.com/watch?v=x0G30ylc8d8"
-youtube_id: "x0G30ylc8d8"
-thumbnail: "/images/articles/2026-04-12-virginia-pistol-felony-no-grandfather-clause.jpg"
-duration: "13:56"
-author: "Bearing Freedom"
+title: 'Virginia just made felons out of gun owners who did nothing wrong'
+date: '2026-04-12'
+youtube_url: 'https://www.youtube.com/watch?v=x0G30ylc8d8'
+youtube_id: 'x0G30ylc8d8'
+thumbnail: '/images/articles/2026-04-12-virginia-pistol-felony-no-grandfather-clause.jpg'
+duration: '13:56'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
+  - 'gun-control'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Gun Control"
+  - 'Gun Control'
 image_prompt: "close-up of a man's hands holding an unfinished pistol frame on a garage workbench, serialization engraving tools and oil rags nearby, harsh fluorescent shop light casting hard shadows, out-of-focus calendar on the wall showing a deadline date"
 ---
 
@@ -31,7 +31,7 @@ _This article is based on analysis from [Bearing Freedom](https://www.youtube.co
 
 I want to be specific here, because the way this law is being covered in mainstream media doesn't capture how bad it really is.
 
-HB40, introduced by Delegate Marcus Simon, bans the manufacture, transfer, sale, and eventually the possession of unserialized firearms and unfinished frames or receivers. Most of the law takes effect January 1, 2027. The possession ban hits July 1, 2027. First offense is a misdemeanor (12 months in jail). Second offense is a Class 6 felony. That's the same felony class as involuntary manslaughter. You will never legally own a firearm again.
+HB40, introduced by Delegate Marcus Simon, bans the manufacture, transfer, sale, and eventually the possession of unserialized firearms and unfinished frames or receivers. Most of the law takes effect January 1, 2027. The possession ban hits July 1, 2027. First offense is a misdemeanor (12 months in jail). Second offense is a Class 4 felony. That's two to ten years in prison and up to a $100,000 fine. You will never legally own a firearm again.
 
 And there is no grandfather clause. Zero. If you legally purchased an 80% lower before this bill passed, you have until July 1, 2027 to get it serialized through an FFL or become a felon. The state's answer: go serialize it. The problem is that most FFLs have never done this before. Many don't own engraving equipment. The "compliance path" Virginia is offering is largely fictional, and the people who wrote this bill know that.
 

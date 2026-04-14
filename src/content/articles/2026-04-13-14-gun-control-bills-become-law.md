@@ -1,23 +1,23 @@
 ---
-title: "Virginia just became a test case for everything wrong with modern gun control"
-date: "2026-04-13"
-youtube_url: "https://www.youtube.com/watch?v=sc5q6N2L-vo"
-youtube_id: "sc5q6N2L-vo"
-thumbnail: "/images/articles/2026-04-13-14-gun-control-bills-become-law.jpg"
-duration: "15:27"
-author: "Bearing Freedom"
+title: 'Virginia just became a test case for everything wrong with modern gun control'
+date: '2026-04-13'
+youtube_url: 'https://www.youtube.com/watch?v=sc5q6N2L-vo'
+youtube_id: 'sc5q6N2L-vo'
+thumbnail: '/images/articles/2026-04-13-14-gun-control-bills-become-law.jpg'
+duration: '15:27'
+author: 'Bearing Freedom'
 topics:
-  - "gun-control"
+  - 'gun-control'
 states:
-  - "Virginia"
+  - 'Virginia'
 content_type:
-  - "commentary"
+  - 'commentary'
 tags:
-  - "Gun Control"
-  - "Virginia"
-  - "Assault Weapons Ban"
-  - "Second Amendment"
-image_prompt: "Virginia state capitol building in Richmond at dusk, warm amber light on stone columns, a lone figure on the steps holding papers, long shadows across the marble steps, tense atmosphere"
+  - 'Gun Control'
+  - 'Virginia'
+  - 'Assault Weapons Ban'
+  - 'Second Amendment'
+image_prompt: 'Virginia state capitol building in Richmond at dusk, warm amber light on stone columns, a lone figure on the steps holding papers, long shadows across the marble steps, tense atmosphere'
 ---
 
 ## The bottom line
@@ -40,9 +40,9 @@ Fourteen bills moving at once isn't a coincidence. When you drop that many chang
 
 ## SB749 and the carry ban
 
-SB749, carried by Del. Dan Helmer (D-Fairfax) and Sen. Saddam Azlan Salim (D-Fairfax), is the one everyone's heard of. It's the assault weapons and magazine ban, prohibiting the sale, transfer, manufacture, and importation of semiautomatic centerfire rifles and pistols that can accept more than 15 rounds after July 1, 2026. Current owners are grandfathered in, which is why I've been saying this one, while terrible, isn't the most dangerous bill in the package. You can keep your AR-15. You just can't buy another one.
+SB749/HB217, carried by Del. Dan Helmer (D-Fairfax), is the one everyone's heard of. It's the assault weapons and magazine ban, prohibiting the sale, transfer, manufacture, and importation of semiautomatic centerfire rifles and pistols that can accept more than 15 rounds after July 1, 2026. Current owners are grandfathered in, which is why I've been saying this one, while terrible, isn't the most dangerous bill in the package. You can keep your AR-15. You just can't buy another one.
 
-The carry ban is the one that's going to catch people off guard. It takes the existing "assault firearm" carry restrictions, which previously applied only to a handful of localities, and makes them statewide. Under this law, if your rifle has a single banned cosmetic feature, you cannot transport it in public. Unloaded. In a case. On a public road. Class one misdemeanor, 12 months jail time, $25,000 fine. The definition used in the carry ban is actually broader than the definition in SB749. Under the purchase ban, your pistol needs two banned features to qualify. Under the carry ban, one feature is enough. So you might be able to legally own and purchase a pistol, but still be prohibited from transporting it to the range.
+The carry ban is the one that's going to catch people off guard. It takes the existing "assault firearm" carry restrictions, which previously applied only to 13 localities in Northern Virginia, Hampton Roads, and Richmond, and makes them statewide. Under this law, if your rifle has a single banned cosmetic feature and a detachable magazine, you cannot carry it loaded in public. Class one misdemeanor, 12 months jail time, $2,500 fine. The carry ban uses the same seven-category definition as SB749/HB217: one feature for rifles with detachable magazines, two features for pistols. A semi-auto rifle with a folding stock and a detachable magazine qualifies. A pistol needs two features from a separate list. Either way, if your gun fits the definition, carrying it loaded anywhere in Virginia is a crime.
 
 CHP holders aren't exempt from this either. You passed the test, paid the fee, waited the weeks, and received your permit. Virginia says that doesn't matter if your gun has a threaded barrel, a second grip, or a collapsible stock. You cannot carry it legally under this new framework.
 
@@ -54,11 +54,11 @@ Virginia, like federal law, has historically prohibited a formal gun registry. T
 
 ## The red flag expansion
 
-Virginia already had a red flag law. Previously, only a prosecutor or a law enforcement officer could petition for an emergency protective order removing someone's firearms. That's now been blown open. The expansion allows intimate partners, immediate family members, household members, and cohabitants to file a petition. "Intimate partner" isn't clearly defined in the legislation. "Cohabitant" is vague enough to mean a roommate. The wider petitioner eligibility dramatically increases the abuse potential of a tool that already lacks adequate due process protections. You lose your guns before you've been convicted of anything, sometimes before you even know the petition was filed, and then you have to fight your way back to reclaim them.
+Virginia already had a red flag law. Previously, only a prosecutor or a law enforcement officer could petition for an emergency protective order removing someone's firearms. That's now been blown open. The expansion allows intimate partners, immediate family members, household members, school administrators, and a long list of mental health professionals to file a petition. "Intimate partner" is defined as anyone in a "romantic, dating, or sexual relationship" within the previous 12 months. "Household member" is broad enough to include a roommate. The wider petitioner eligibility dramatically increases the abuse potential of a tool that already lacks adequate due process protections. You lose your guns before you've been convicted of anything, sometimes before you even know the petition was filed, and then you have to fight your way back to reclaim them.
 
 ## Mandatory storage and the Glock in your nightstand
 
-The mandatory firearm storage law is getting almost no coverage, which is exactly what I'd expect. If you have a minor or a prohibited person in your home, your firearm and ammunition must be stored in a locked container, compartment, or cabinet inaccessible to them. The only exception is if the gun is on your person. That means the Glock you've kept in your nightstand for ten years is now illegal to store that way if you have a child in the house.
+The mandatory firearm storage law is getting almost no coverage, which is exactly what I'd expect. If you have a minor or a prohibited person in your home, your firearm and ammunition must be stored in a locked container, compartment, or cabinet inaccessible to them, or rendered inoperable with a gun locking device like a trigger lock or cable lock. The only exception is if the gun is on your person. That means the Glock you've kept in your nightstand for ten years is now illegal to store that way if you have a child in the house.
 
 I get what they're trying to prevent. I don't want unsecured guns around kids either. The problem is the law doesn't make any accommodation for the defensive reality of firearm ownership. A biometric safe gets you there in a few seconds, which works in some situations. A key safe takes longer. If you wake up at 3am to someone kicking in your front door, those extra seconds aren't available. The mandatory storage law makes your home less safe by adding friction at the exact moment you can't afford it.
 
@@ -84,7 +84,7 @@ The Fourth Circuit currently has contrary precedent in _Bianchi v. Brown_, which
 
 ## The infrastructure for confiscation
 
-Bill fourteen is what I keep coming back to. It mandates that every law enforcement agency in the state, from county police departments to town forces to sheriff's offices, build and operate a permanent firearm surrender pipeline by January 1, 2028. They have to build it. Staff it. Make it a permanent operational fixture.
+Bill fourteen is what I keep coming back to. It mandates that every county and city law enforcement agency in the state build and operate a permanent firearm surrender pipeline by January 1, 2028. Town agencies may participate but aren't required to. The county and city agencies have no choice. They have to build it. Staff it. Make it a permanent operational fixture.
 
 Nobody is getting their guns confiscated under this bill right now. What it does is build the receiving infrastructure so that when a future administration wants to order mass surrender of the newly banned "assault firearms," that system already exists everywhere in the state. Right now there's no grandfathering clause problem because there's no confiscation order. The moment a future governor decides the grandfathering exemption in SB749 was a political concession they no longer want to honor, the system is already in place and operational.
 
