@@ -305,35 +305,52 @@
         }
       }
       .changes-section {
-        margin: 20px 0;
-        padding: 16px;
-        background: rgba(168, 85, 247, 0.06);
-        border: 1px solid rgba(168, 85, 247, 0.25);
+        margin: 0 0 32px 0;
+        padding: 24px;
+        background: linear-gradient(
+          135deg,
+          rgba(168, 85, 247, 0.12),
+          rgba(168, 85, 247, 0.04)
+        );
+        border: 2px solid rgba(168, 85, 247, 0.4);
         border-radius: var(--radius);
+        position: relative;
+      }
+      .changes-section::before {
+        content: '📝 WHAT THE GOVERNOR CHANGED';
+        display: block;
+        font-family: var(--head);
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        color: #a855f7;
+        margin-bottom: 8px;
       }
       .changes-section h3 {
         font-family: var(--head);
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 700;
         letter-spacing: 2px;
         text-transform: uppercase;
-        color: #a855f7;
-        margin-bottom: 12px;
+        color: #c084fc;
+        margin-bottom: 16px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid rgba(168, 85, 247, 0.2);
       }
       .changes-section .change-item {
-        margin-bottom: 14px;
-        padding: 10px 12px;
-        background: rgba(0, 0, 0, 0.25);
-        border-radius: 6px;
-        border-left: 3px solid #a855f7;
+        margin-bottom: 16px;
+        padding: 14px 16px;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 8px;
+        border-left: 4px solid #a855f7;
       }
       .changes-section .change-label {
         font-family: var(--mono);
-        font-size: 9px;
+        font-size: 10px;
         font-weight: 700;
         letter-spacing: 1.5px;
         text-transform: uppercase;
-        margin-bottom: 6px;
+        margin-bottom: 8px;
       }
       .changes-section .change-label.removed {
         color: #ef4444;
@@ -349,19 +366,24 @@
       }
       .changes-section .change-old {
         color: var(--dim);
-        font-size: 12px;
+        font-size: 12.5px;
         text-decoration: line-through;
-        margin-bottom: 4px;
+        margin-bottom: 6px;
+        line-height: 1.5;
       }
       .changes-section .change-new {
         color: var(--white);
-        font-size: 12px;
+        font-size: 12.5px;
+        line-height: 1.5;
       }
       .changes-section .change-note {
         color: var(--dim);
         font-size: 11px;
         font-style: italic;
-        margin-top: 4px;
+        margin-top: 6px;
+      }
+      .changes-section .co {
+        margin-top: 16px;
       }
       .signed-badge {
         position: absolute;
@@ -3662,9 +3684,7 @@
             ? `<div class="detail-govrec">📝 GOVERNOR'S RECOMMENDATION</div>`
             : `<div class="detail-live"><span class="blink"></span>ON GOVERNOR'S DESK</div>`;
 
-        const changesHtml = b.changes
-          ? `<div class="divider" data-label="Governor's Changes"></div>${b.changes}`
-          : '';
+        const changesHtml = b.changes ? `${b.changes}` : '';
 
         mp.innerHTML = `
     <div class="detail-header">
@@ -3673,9 +3693,9 @@
       <h1 class="detail-title">${b.title}</h1>
       <div class="detail-meta">${chips.join('')}</div>
     </div>
-    <div class="divider" data-label="Full Breakdown"></div>
+    ${changesHtml ? changesHtml : ''}
+    <div class="divider" data-label="${b.changes ? 'Enrolled Bill Details' : 'Full Breakdown'}"></div>
     <div class="bill-body">${b.body}</div>
-    ${changesHtml}
     <div class="tl-h">Legislative Timeline</div>
     <div class="tl">${b.tl
       .map(
