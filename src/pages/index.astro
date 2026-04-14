@@ -13,6 +13,31 @@ const allTopics = [...new Set(articles.flatMap(a => a.data.topics))];
 
 <BaseLayout title="Home" description="Second Amendment commentary and opinion — by Bearing Freedom.">
 
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Bearing Freedom",
+      "url": "https://bearingfreedom.com",
+      "logo": "https://bearingfreedom.com/favicon.svg",
+      "sameAs": [
+        "https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw"
+      ],
+      "description": "Second Amendment commentary and analysis"
+    })} />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Bearing Freedom",
+      "url": "https://bearingfreedom.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://bearingfreedom.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    })} />
+  </Fragment>
+
   <!-- ═══════════════════════════════════════════════
        HERO — Featured article, full-width, cinematic
   ═══════════════════════════════════════════════ -->

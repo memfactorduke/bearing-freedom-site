@@ -26,7 +26,81 @@ const formattedDate = new Date(data.date + 'T00:00:00').toLocaleDateString(
 );
 ---
 
-<BaseLayout title={data.title} description={data.title} image={data.thumbnail}>
+<BaseLayout
+  title={data.title}
+  description={data.title}
+  image={data.thumbnail}
+  ogType="article"
+  publishedDate={data.date}
+>
+  <!-- JSON-LD Structured Data -->
+  <Fragment slot="head">
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: data.title,
+        datePublished: `${data.date}T00:00:00Z`,
+        author: {
+          '@type': 'Person',
+          name: data.author,
+          url: 'https://bearingfreedom.com/about',
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: 'Bearing Freedom',
+          url: 'https://bearingfreedom.com',
+          logo: {
+            '@type': 'ImageObject',
+            url: 'https://bearingfreedom.com/favicon.svg',
+          },
+        },
+        image: `https://bearingfreedom.com${data.thumbnail}`,
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          '@id': `https://bearingfreedom.com/articles/${article.id}`,
+        },
+      })}
+    />
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Home',
+            item: 'https://bearingfreedom.com',
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: 'Articles',
+            item: 'https://bearingfreedom.com/',
+          },
+          { '@type': 'ListItem', position: 3, name: data.title },
+        ],
+      })}
+    />
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'VideoObject',
+        name: data.title,
+        description: data.title,
+        thumbnailUrl: `https://img.youtube.com/vi/${data.youtube_id}/maxresdefault.jpg`,
+        uploadDate: `${data.date}T00:00:00Z`,
+        contentUrl: `https://www.youtube.com/watch?v=${data.youtube_id}`,
+        embedUrl: `https://www.youtube-nocookie.com/embed/${data.youtube_id}`,
+        duration: `PT${data.duration.replace(':', 'M')}S`,
+      })}
+    />
+  </Fragment>
+
   <!-- Article header band -->
   <div class="bg-surface border-b border-border">
     <div class="max-w-7xl mx-auto px-5 lg:px-8 py-10 md:py-14">
