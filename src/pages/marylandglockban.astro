@@ -1,0 +1,1011 @@
+---
+// Standalone page — self-contained styles and scripts, no global.css
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maryland Glock Ban (SB 334) | Bearing Freedom</title>
+    <meta
+      name="description"
+      content="Maryland SB 334 bans Glocks and cruciform trigger bar pistols. Full breakdown of what's banned, who's affected, penalties, and legal challenges."
+    />
+    <meta
+      property="og:title"
+      content="Maryland Glock Ban (SB 334) | Bearing Freedom"
+    />
+    <meta
+      property="og:description"
+      content="Maryland bans Glocks by targeting the cruciform trigger bar. Full breakdown of SB 334 — what's banned, timeline, penalties, and the Bruen problem."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://bearingfreedom.com/marylandglockban"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YJWJPMSXN4"
+    ></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-YJWJPMSXN4');
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700;800&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style is:global>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      :root {
+        --bg: #08090c;
+        --surface: #10121a;
+        --card: #161a24;
+        --card-hover: #1c2030;
+        --accent: #4a7cff;
+        --accent-bright: #6b9aff;
+        --accent-dim: rgba(74, 124, 255, 0.1);
+        --red: #dc2626;
+        --red-dim: rgba(220, 38, 38, 0.08);
+        --green: #22c55e;
+        --green-dim: rgba(34, 197, 94, 0.08);
+        --yellow: #eab308;
+        --yellow-dim: rgba(234, 179, 8, 0.08);
+        --white: #e8eaf0;
+        --light: #c4c8d4;
+        --dim: #8890a4;
+        --muted: #5a6278;
+        --faint: #2e3448;
+        --border: #232838;
+        --font: 'Source Serif 4', Georgia, serif;
+        --head: 'Oswald', sans-serif;
+        --mono: 'JetBrains Mono', monospace;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background: var(--bg);
+        color: var(--white);
+        font-family: var(--font);
+        -webkit-font-smoothing: antialiased;
+        line-height: 1.7;
+      }
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      a:hover {
+        color: var(--accent-bright);
+      }
+
+      /* Nav */
+      .nav {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background: rgba(8, 9, 12, 0.92);
+        backdrop-filter: blur(12px);
+        border-bottom: 1px solid var(--border);
+        padding: 0 20px;
+      }
+      .nav-inner {
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 52px;
+      }
+      .nav-brand {
+        font-family: var(--head);
+        font-weight: 800;
+        font-size: 18px;
+        color: var(--accent);
+        text-decoration: none;
+      }
+      .nav-links {
+        display: flex;
+        gap: 18px;
+        align-items: center;
+      }
+      .nav-links a {
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--dim);
+      }
+      .nav-links a:hover {
+        color: var(--white);
+      }
+
+      /* Ticker */
+      .ticker-bar {
+        background: var(--red);
+        overflow: hidden;
+        white-space: nowrap;
+        padding: 6px 0;
+      }
+      .ticker-label {
+        display: inline-block;
+        font-family: var(--head);
+        font-weight: 700;
+        font-size: 11px;
+        background: #000;
+        color: #fff;
+        padding: 2px 10px;
+        margin-right: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+      }
+      .ticker-text {
+        display: inline-block;
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 600;
+        color: #fff;
+        letter-spacing: 0.03em;
+        animation: tickerScroll 40s linear infinite;
+      }
+      @keyframes tickerScroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+
+      /* Hero */
+      .hero {
+        padding: 64px 20px 48px;
+        border-bottom: 1px solid var(--border);
+      }
+      .hero-inner {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+      .hero-state {
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 600;
+        color: var(--accent);
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        margin-bottom: 12px;
+      }
+      .hero h1 {
+        font-family: var(--head);
+        font-size: clamp(32px, 6vw, 56px);
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: -0.02em;
+        line-height: 1.05;
+        margin-bottom: 20px;
+      }
+      .hero-sub {
+        font-size: 18px;
+        color: var(--light);
+        max-width: 640px;
+        line-height: 1.65;
+      }
+      .hero-meta {
+        margin-top: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .meta-chip {
+        font-family: var(--mono);
+        font-size: 10px;
+        font-weight: 600;
+        padding: 5px 12px;
+        border-radius: 4px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        border: 1px solid var(--border);
+        color: var(--dim);
+      }
+      .meta-chip.pending {
+        border-color: var(--yellow);
+        color: var(--yellow);
+      }
+      .meta-chip.passed {
+        border-color: var(--red);
+        color: var(--red);
+      }
+
+      /* Stats */
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 1px;
+        background: var(--border);
+        border: 1px solid var(--border);
+        margin: 32px auto;
+        max-width: 900px;
+      }
+      .stat {
+        background: var(--surface);
+        padding: 20px;
+        text-align: center;
+      }
+      .stat-val {
+        font-family: var(--head);
+        font-size: 28px;
+        font-weight: 700;
+        color: var(--white);
+      }
+      .stat-val.red {
+        color: var(--red);
+      }
+      .stat-val.yellow {
+        color: var(--yellow);
+      }
+      .stat-label {
+        font-family: var(--mono);
+        font-size: 9px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--muted);
+        margin-top: 6px;
+      }
+
+      /* Content sections */
+      .content {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      .section {
+        padding: 48px 0;
+        border-bottom: 1px solid var(--border);
+      }
+      .sh {
+        font-family: var(--head);
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+        margin-bottom: 20px;
+        color: var(--white);
+      }
+      .sh::before {
+        content: '';
+        display: inline-block;
+        width: 4px;
+        height: 20px;
+        background: var(--accent);
+        margin-right: 12px;
+        vertical-align: middle;
+      }
+      p {
+        margin-bottom: 16px;
+        color: var(--light);
+        font-size: 16px;
+      }
+
+      /* Callout */
+      .co {
+        border-left: 3px solid var(--accent);
+        background: var(--accent-dim);
+        padding: 16px 20px;
+        margin: 20px 0;
+        border-radius: 0 6px 6px 0;
+      }
+      .co-red {
+        border-color: var(--red);
+        background: var(--red-dim);
+      }
+      .co-yellow {
+        border-color: var(--yellow);
+        background: var(--yellow-dim);
+      }
+      .co-green {
+        border-color: var(--green);
+        background: var(--green-dim);
+      }
+      .co-t {
+        font-family: var(--head);
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        margin-bottom: 8px;
+        color: var(--white);
+      }
+      .co p,
+      .co span {
+        font-size: 14px;
+        margin-bottom: 0;
+      }
+
+      /* Table */
+      .tb {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 14px;
+      }
+      .tb th {
+        font-family: var(--mono);
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        text-align: left;
+        padding: 10px 14px;
+        background: var(--surface);
+        border-bottom: 2px solid var(--border);
+        color: var(--dim);
+      }
+      .tb td {
+        padding: 10px 14px;
+        border-bottom: 1px solid var(--border);
+        color: var(--light);
+        vertical-align: top;
+      }
+      .b-ban {
+        color: var(--red);
+        font-weight: 600;
+      }
+      .b-ok {
+        color: var(--green);
+        font-weight: 600;
+      }
+      .b-warn {
+        color: var(--yellow);
+        font-weight: 600;
+      }
+
+      /* Feature list */
+      .fl {
+        margin: 16px 0;
+      }
+      .fl-i {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 8px 0;
+        font-size: 14px;
+        color: var(--light);
+        border-bottom: 1px solid var(--border);
+      }
+      .fl-b {
+        flex-shrink: 0;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--red);
+        margin-top: 7px;
+      }
+
+      /* Timeline */
+      .tl {
+        margin: 20px 0;
+      }
+      .tl-item {
+        display: flex;
+        gap: 16px;
+        padding: 12px 0;
+        border-bottom: 1px solid var(--border);
+        font-size: 14px;
+      }
+      .tl-date {
+        font-family: var(--mono);
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--dim);
+        min-width: 100px;
+        flex-shrink: 0;
+      }
+      .tl-text {
+        color: var(--light);
+      }
+      .tl-text.major {
+        color: var(--white);
+        font-weight: 600;
+      }
+
+      /* CTA */
+      .cta {
+        text-align: center;
+        padding: 48px 20px;
+      }
+      .cta-t {
+        font-family: var(--head);
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--dim);
+        margin-bottom: 16px;
+      }
+      .sub-btn {
+        display: inline-block;
+        font-family: var(--mono);
+        font-size: 13px;
+        font-weight: 700;
+        padding: 12px 28px;
+        background: var(--accent);
+        color: #fff;
+        border-radius: 4px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+      }
+      .sub-btn:hover {
+        background: var(--accent-bright);
+        color: #fff;
+      }
+
+      /* Footer */
+      .foot {
+        border-top: 1px solid var(--border);
+        padding: 24px 20px;
+        text-align: center;
+      }
+      .foot p {
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--muted);
+        margin: 0;
+      }
+
+      /* Video */
+      .video-embed {
+        position: relative;
+        padding-bottom: 56.25%;
+        margin: 24px 0;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        overflow: hidden;
+      }
+      .video-embed iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+
+      @media (max-width: 600px) {
+        .hero {
+          padding: 40px 16px 32px;
+        }
+        .stats {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .nav-links {
+          display: none;
+        }
+        .section {
+          padding: 32px 0;
+        }
+        .tl-item {
+          flex-direction: column;
+          gap: 4px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Nav -->
+    <nav class="nav">
+      <div class="nav-inner">
+        <a href="/" class="nav-brand">BF</a>
+        <div class="nav-links">
+          <a href="/">Articles</a>
+          <a href="/extras">Extras</a>
+          <a href="/legislation">VA Tracker</a>
+          <a
+            href="https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw"
+            target="_blank"
+            rel="noopener">YouTube</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Ticker -->
+    <div class="ticker-bar">
+      <span class="ticker-label">Breaking</span>
+      <span class="ticker-text">
+        SB 334 PASSES MARYLAND LEGISLATURE 92-39 &mdash; BANS SALE OF GLOCKS AND
+        ALL CRUCIFORM TRIGGER BAR PISTOLS &mdash; ON GOVERNOR MOORE'S DESK
+        &mdash; MARYLAND SHALL ISSUE PLEDGES LAWSUIT &mdash; EXISTING OWNERS MAY
+        KEEP FIREARMS &mdash; SALES BAN BEGINS JAN 1, 2027 &mdash; CALIFORNIA'S
+        IDENTICAL LAW (AB 1127) ALREADY BEING CHALLENGED IN JAYMES V. BONTA
+        &mdash; SUBSCRIBE TO BEARING FREEDOM FOR FULL COVERAGE &mdash; SB 334
+        PASSES MARYLAND LEGISLATURE 92-39 &mdash; BANS SALE OF GLOCKS AND ALL
+        CRUCIFORM TRIGGER BAR PISTOLS &mdash; ON GOVERNOR MOORE'S DESK &mdash;
+        MARYLAND SHALL ISSUE PLEDGES LAWSUIT &mdash; EXISTING OWNERS MAY KEEP
+        FIREARMS &mdash; SALES BAN BEGINS JAN 1, 2027
+      </span>
+    </div>
+
+    <!-- Hero -->
+    <div class="hero">
+      <div class="hero-inner">
+        <div class="hero-state">Maryland &mdash; SB 334</div>
+        <h1>Maryland Glock Ban</h1>
+        <p class="hero-sub">
+          Maryland's legislature passed SB 334, banning the sale of Glocks and
+          all pistols with cruciform trigger bars. The bill targets the internal
+          mechanism that enables illegal auto-sear "switch" conversion &mdash;
+          and bans the most popular handgun in America in the process.
+        </p>
+        <div class="hero-meta">
+          <span class="meta-chip passed">Passed Legislature</span>
+          <span class="meta-chip pending">Awaiting Governor</span>
+          <span class="meta-chip">Senate 28-16</span>
+          <span class="meta-chip">House 92-39</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats" style="margin-left:20px;margin-right:20px;">
+      <div class="stat">
+        <div class="stat-val red">SB 334</div>
+        <div class="stat-label">Bill Number</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val">92-39</div>
+        <div class="stat-label">House Vote</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val">28-16</div>
+        <div class="stat-label">Senate Vote</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val red">3 yrs</div>
+        <div class="stat-label">Max Prison</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val red">$5,000</div>
+        <div class="stat-label">Max Fine</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val yellow">Jan 2027</div>
+        <div class="stat-label">Sales Ban Date</div>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <!-- What the bill does -->
+      <div class="section">
+        <div class="sh">What the bill does</div>
+        <p>
+          SB 334 creates a new category of prohibited firearm: the <strong
+            >"machine gun convertible pistol."</strong
+          > It bans the manufacture, sale, purchase, receipt, and transfer of any
+          semiautomatic pistol with a <strong>cruciform trigger bar</strong> that
+          can be converted to fully automatic fire by installing an illegal auto-sear
+          device (commonly called a "Glock switch") to the rear of the slide.
+        </p>
+        <p>
+          This is <strong>not</strong> the Maryland Handgun Roster. SB 334 creates
+          an entirely new criminal prohibition in the Criminal Law Article (sections
+          4-301, 4-302, 4-305.2, and 4-306). Even guns already approved on the roster
+          become illegal to sell if they meet the new definition.
+        </p>
+
+        <div class="co co-red">
+          <div class="co-t">The cruciform trigger bar is the target</div>
+          <p>
+            The bill defines a <strong>"cruciform trigger bar"</strong> as a component
+            that serves as a link between the trigger and the firing pin, with its
+            sear incorporated into a cross-shaped surface. This is the design feature
+            that makes "Glock switch" installation possible. Every Glock ever made
+            uses this mechanism.
+          </p>
+        </div>
+
+        <div class="co co-yellow">
+          <div class="co-t">The V Series blocking tab doesn't save you</div>
+          <p>
+            Glock redesigned its pistols (the "V Series") to resist switch
+            installation by adding a blocking tab. SB 334 specifically
+            anticipated this: the bill states a gun is still prohibited even if
+            it has a "piece of material" designed to block switch attachment, <strong
+              >as long as that material can be removed with a common household
+              tool</strong
+            >. The V Series is banned.
+          </p>
+        </div>
+      </div>
+
+      <!-- Which guns -->
+      <div class="section">
+        <div class="sh">Which guns are affected</div>
+
+        <table class="tb">
+          <tr><th>Manufacturer</th><th>Models</th><th>Status</th></tr>
+          <tr
+            ><td><strong>Glock (Gen 1-5)</strong></td><td
+              >All models (G17, G19, G26, G43, G45, etc.)</td
+            ><td class="b-ban">BANNED</td></tr
+          >
+          <tr
+            ><td><strong>Glock V Series</strong></td><td
+              >All V Series models (still uses cruciform trigger bar)</td
+            ><td class="b-ban">BANNED</td></tr
+          >
+          <tr
+            ><td><strong>PSA Dagger</strong></td><td
+              >Glock-pattern clone with compatible trigger bar</td
+            ><td class="b-ban">BANNED</td></tr
+          >
+          <tr
+            ><td><strong>Shadow Systems</strong></td><td
+              >MR920, DR920, CR920, XR920 (Glock-pattern trigger)</td
+            ><td class="b-ban">BANNED</td></tr
+          >
+          <tr
+            ><td><strong>Polymer80</strong></td><td>Glock-pattern builds</td><td
+              class="b-ban">BANNED</td
+            ></tr
+          >
+          <tr
+            ><td><strong>Hammer-fired pistols</strong></td><td
+              >Beretta 92, CZ 75, Sig P226, 1911-pattern</td
+            ><td class="b-ok">NOT AFFECTED</td></tr
+          >
+          <tr
+            ><td><strong>S&W M&P, SIG P320, Springfield XD</strong></td><td
+              >Striker-fired but may not use cruciform trigger bar</td
+            ><td class="b-warn">TBD &mdash; MSP list pending</td></tr
+          >
+        </table>
+
+        <div class="co">
+          <div class="co-t">Maryland State Police publishes the final list</div>
+          <p>
+            SB 334 requires the Maryland Department of State Police to adopt
+            regulations and <strong
+              >publish a list of specifically prohibited pistol models</strong
+            > before the sales ban takes effect January 1, 2027. The exact scope beyond
+            Glock-pattern guns will be determined administratively &mdash; no further
+            legislation required.
+          </p>
+        </div>
+
+        <div class="co co-red">
+          <div class="co-t">The most popular handgun in America</div>
+          <p>
+            Glock holds approximately 65% of the U.S. law enforcement market and
+            roughly 35% of the civilian handgun market. Over 20 million Glock
+            pistols have been sold worldwide. Under <em>Heller</em> (2008), arms "in
+            common use for lawful purposes" are constitutionally protected.
+          </p>
+        </div>
+      </div>
+
+      <!-- What bill explicitly excludes -->
+      <div class="section">
+        <div class="sh">What the bill explicitly excludes</div>
+        <div class="fl">
+          <div class="fl-i">
+            <span class="fl-b" style="background:var(--green)"></span><strong
+              >Hammer-fired semiautomatic pistols</strong
+            > &mdash; explicitly excluded by the definition
+          </div>
+          <div class="fl-i">
+            <span class="fl-b" style="background:var(--green)"></span><strong
+              >Striker-fired pistols without a cruciform trigger bar</strong
+            > that have a trigger bar shielded from interference by a pistol converter
+          </div>
+          <div class="fl-i">
+            <span class="fl-b" style="background:var(--green)"></span><strong
+              >Revolvers</strong
+            > &mdash; not semiautomatic, not covered
+          </div>
+        </div>
+      </div>
+
+      <!-- Impact on buyers -->
+      <div class="section">
+        <div class="sh">Impact on gun owners &amp; buyers</div>
+
+        <table class="tb">
+          <tr><th>Action</th><th>After Jan 1, 2027</th></tr>
+          <tr
+            ><td>Keep your existing Glock</td><td class="b-ok"
+              >Legal &mdash; no confiscation</td
+            ></tr
+          >
+          <tr
+            ><td>Buy a new Glock from a dealer</td><td class="b-ban"
+              >Prohibited</td
+            ></tr
+          >
+          <tr
+            ><td>Buy a used Glock via private sale</td><td class="b-ban"
+              >Prohibited</td
+            ></tr
+          >
+          <tr
+            ><td>Transfer to immediate family member</td><td class="b-ok"
+              >Legal</td
+            ></tr
+          >
+          <tr><td>Inherit a Glock</td><td class="b-ok">Legal</td></tr>
+          <tr
+            ><td>Buy out of state and bring back to MD</td><td class="b-ban"
+              >Prohibited (covers "receiving")</td
+            ></tr
+          >
+          <tr
+            ><td>Have a dealer repair/service your Glock</td><td class="b-ok"
+              >Legal</td
+            ></tr
+          >
+          <tr
+            ><td>Sell your Glock to a non-family MD resident</td><td
+              class="b-ban">Prohibited</td
+            ></tr
+          >
+          <tr
+            ><td>Sell your Glock to an out-of-state buyer via FFL</td><td
+              class="b-ok">Legal</td
+            ></tr
+          >
+        </table>
+
+        <div class="co co-red">
+          <div class="co-t">Used market effectively killed</div>
+          <p>
+            With no legal transfer mechanism outside of family and inheritance,
+            the used Glock market in Maryland is eliminated. Ownership is
+            grandfathered but transferability is not.
+          </p>
+        </div>
+      </div>
+
+      <!-- Exemptions -->
+      <div class="section">
+        <div class="sh">Exemptions</div>
+        <div class="fl">
+          <div class="fl-i">
+            <span class="fl-b" style="background:var(--green)"></span><strong
+              >Active law enforcement officers</strong
+            >
+          </div>
+          <div class="fl-i">
+            <span class="fl-b" style="background:var(--green)"></span><strong
+              >Retired law enforcement officers</strong
+            >
+          </div>
+          <div class="fl-i">
+            <span class="fl-b" style="background:var(--green)"></span><strong
+              >Active military members</strong
+            >
+          </div>
+          <div class="fl-i">
+            <span class="fl-b" style="background:var(--green)"></span><strong
+              >Licensed dealers</strong
+            > for servicing or out-of-state transfers
+          </div>
+          <div class="fl-i">
+            <span class="fl-b" style="background:var(--green)"></span><strong
+              >Existing owners</strong
+            > &mdash; may keep firearms, transfer to immediate family
+          </div>
+        </div>
+
+        <div class="co co-red">
+          <div class="co-t">Two-tier system</div>
+          <p>
+            Police and military can purchase and carry the same guns that become
+            criminal contraband for civilians. The people enforcing the law are
+            exempt from it.
+          </p>
+        </div>
+      </div>
+
+      <!-- Penalties -->
+      <div class="section">
+        <div class="sh">Penalties</div>
+        <table class="tb">
+          <tr><th>Violation</th><th>Charge</th><th>Penalty</th></tr>
+          <tr
+            ><td>Sale, purchase, receipt, or transfer</td><td>Misdemeanor</td
+            ><td class="b-ban">Up to 3 years + $5,000 fine</td></tr
+          >
+          <tr
+            ><td>Possession during felony or crime of violence</td><td
+              >Enhanced</td
+            ><td class="b-ban">Up to 10 years (20 for second offense)</td></tr
+          >
+        </table>
+      </div>
+
+      <!-- Timeline -->
+      <div class="section">
+        <div class="sh">Timeline</div>
+        <div class="tl">
+          <div class="tl-item">
+            <span class="tl-date">2025 Session</span>
+            <span class="tl-text"
+              >HB 1287 (predecessor) introduced by Del. Williams &mdash; dies in
+              House Judiciary Committee</span
+            >
+          </div>
+          <div class="tl-item">
+            <span class="tl-date">Jan 23, 2026</span>
+            <span class="tl-text"
+              >SB 334 introduced by Sen. Love, Smith, Waldstreicher</span
+            >
+          </div>
+          <div class="tl-item">
+            <span class="tl-date">Feb 5, 2026</span>
+            <span class="tl-text">Senate Judicial Proceedings hearing</span>
+          </div>
+          <div class="tl-item">
+            <span class="tl-date">Mar 19, 2026</span>
+            <span class="tl-text major">Senate passes SB 334 &mdash; 28-16</span
+            >
+          </div>
+          <div class="tl-item">
+            <span class="tl-date">Apr 8, 2026</span>
+            <span class="tl-text major">House passes SB 334 &mdash; 92-39</span>
+          </div>
+          <div class="tl-item">
+            <span class="tl-date">Apr 9, 2026</span>
+            <span class="tl-text major"
+              >House recedes to Senate version &mdash; final passage 91-40</span
+            >
+          </div>
+          <div class="tl-item">
+            <span class="tl-date">Apr 10, 2026</span>
+            <span class="tl-text">Bill sent to Governor Moore's desk</span>
+          </div>
+          <div class="tl-item">
+            <span class="tl-date">Apr 17, 2026</span>
+            <span class="tl-text"
+              >Legislature adjourns sine die &mdash; 30-day signing window
+              begins</span
+            >
+          </div>
+          <div class="tl-item">
+            <span class="tl-date">Oct 1, 2026</span>
+            <span class="tl-text major"
+              >Law takes effect (if signed or unsigned)</span
+            >
+          </div>
+          <div class="tl-item">
+            <span class="tl-date">Jan 1, 2027</span>
+            <span class="tl-text major"
+              >Sales and transfer ban begins &mdash; MSP prohibited list must be
+              published</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Legal challenges -->
+      <div class="section">
+        <div class="sh">Legal challenges</div>
+        <p>
+          <strong>Maryland Shall Issue</strong> president Mark Pennak has stated the
+          organization "fully intends" to challenge SB 334 in court if Governor Moore
+          signs it. No lawsuit has been filed yet because the bill has not been signed.
+        </p>
+        <p>
+          <strong>The California parallel:</strong> California passed an identical
+          law (AB 1127) in October 2025, effective July 1, 2026. It is already being
+          challenged in <em>Jaymes v. Bonta</em>, filed October 13, 2025, by the
+          SAF, NRA, and Firearms Policy Coalition. That case is the leading
+          federal court test of whether states can ban entire firearm platforms
+          based on internal design characteristics.
+        </p>
+
+        <div class="co">
+          <div class="co-t">The Bruen problem</div>
+          <p>
+            Under <em>NYSRPA v. Bruen</em> (2022), firearms regulations must be consistent
+            with America's historical tradition of firearm regulation. There is no
+            founding-era or historical tradition of banning ordinary arms because
+            a criminal could theoretically modify them with illegal devices. Under
+            <em>Heller</em> (2008), handguns are the "quintessential self-defense
+            weapon" and arms in common use cannot be categorically banned.
+          </p>
+        </div>
+
+        <div class="co co-red">
+          <div class="co-t">Veto override is irrelevant</div>
+          <p>
+            Democrats hold a veto-proof supermajority in both chambers of the
+            Maryland General Assembly (Senate 34-13, House 102-39). Even if
+            Moore vetoed the bill, the legislature has the votes to override.
+          </p>
+        </div>
+      </div>
+
+      <!-- National context -->
+      <div class="section">
+        <div class="sh">National context</div>
+        <table class="tb">
+          <tr><th>State</th><th>Bill</th><th>Status</th><th>Effective</th></tr>
+          <tr
+            ><td><strong>California</strong></td><td>AB 1127</td><td
+              >Signed (Oct 2025)</td
+            ><td class="b-ban">July 1, 2026</td></tr
+          >
+          <tr
+            ><td><strong>Maryland</strong></td><td>SB 334</td><td
+              >Awaiting Governor</td
+            ><td class="b-warn">Jan 1, 2027</td></tr
+          >
+          <tr
+            ><td><strong>Illinois</strong></td><td>Pending</td><td
+              >In progress</td
+            ><td class="b-warn">TBD</td></tr
+          >
+          <tr
+            ><td><strong>New York</strong></td><td>Pending</td><td
+              >In progress</td
+            ><td class="b-warn">TBD</td></tr
+          >
+        </table>
+        <p>
+          Maryland is the second state to pass this type of legislation. The
+          cruciform trigger bar definition targets the most popular handgun
+          platform in America and creates a template for other states. If
+          <em>Jaymes v. Bonta</em> fails in California, this framework spreads nationwide.
+        </p>
+      </div>
+
+      <!-- Watch -->
+      <div class="section">
+        <div class="sh">Watch the breakdown</div>
+        <div class="video-embed">
+          <iframe
+            src="https://www.youtube.com/embed/1sEZiDaUys0"
+            title="Maryland Glock Ban — Bearing Freedom"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="cta">
+        <div class="cta-t">
+          Stay informed. They're counting on you not paying attention.
+        </div>
+        <a
+          href="https://www.youtube.com/@BearingFreedom?sub_confirmation=1"
+          target="_blank"
+          class="sub-btn"
+        >
+          Subscribe &mdash; Bearing Freedom
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="foot">
+      <p>
+        Commentary and opinion. Not legal advice. &copy; 2026 Bearing Freedom
+      </p>
+    </div>
+  </body>
+</html>
