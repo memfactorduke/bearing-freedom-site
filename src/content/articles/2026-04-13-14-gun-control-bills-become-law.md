@@ -46,11 +46,11 @@ The carry ban is the one that's going to catch people off guard. It takes the ex
 
 CHP holders aren't exempt from this either. You passed the test, paid the fee, waited the weeks, and received your permit. Virginia says that doesn't matter if your gun has a threaded barrel, a second grip, or a collapsible stock. You cannot carry it legally under this new framework.
 
-## The purchase license and what it actually is
+## The under-21 purchase ban
 
-Bill three is the under-21 handgun and firearm purchaser license. The title is misleading. Yes, it restricts purchases by people under 21, but buried in the structure is a new state-level gun registry. To purchase certain firearms, you now have to go through fingerprinting, mandatory training, and a 45-day waiting period, after which you get added to a government database. The bill was written to apply to under-21 buyers, but the database infrastructure doesn't disappear when you turn 22. The government now has a registry mechanism they didn't have before.
+Bill three is HB 1525, which bans anyone under 21 from purchasing a handgun or assault firearm in Virginia. It does not ban all firearm purchases for that age group. An 18-year-old can still walk into a dealer and buy a bolt-action rifle, a pump shotgun, or any non-assault firearm. The ban targets handguns and assault firearms as defined under the new features-based definition, and it is a purchase restriction only, not a possession ban. If you already own a handgun at 19, you can keep it.
 
-Virginia, like federal law, has historically prohibited a formal gun registry. This bill doesn't call itself a registry. But if it fingerprints you, tracks your training completion, and stores your purchase in a government database linked to your identity, it's functionally a registry regardless of what the bill text calls it.
+The purchase ban has no military exemption. A 19-year-old Marine home on leave cannot buy a handgun in Virginia under this bill. The under-18 possession ban does include military and law enforcement exceptions, but the under-21 purchase restriction does not.
 
 ## The red flag expansion
 

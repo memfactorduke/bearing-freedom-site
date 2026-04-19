@@ -47,7 +47,7 @@ For semi-automatic centerfire rifles, the bill captures any gun that accepts a d
 
 Think about what that features list actually catches. A standard AR-15 with an adjustable stock is an "assault firearm." A pistol with a threaded barrel for a legally owned suppressor is an "assault firearm." A competition rifle with a second grip for stability is an "assault firearm." The bill captures these firearms not because they behave differently in any meaningful way from excluded semi-automatics, but because they have ergonomic features that make them easier to shoot accurately. That's the argument for banning them: that they work too well.
 
-On the magazine side, the cutoff is 15 rounds for anything manufactured after July 1, 2026. Violating the law is a Class 1 misdemeanor, with a three-year prohibition on firearm purchases following conviction. For anyone under 21, even possessing a grandfathered "assault firearm" is prohibited with narrow exceptions for military and law enforcement.
+On the magazine side, the cutoff is 15 rounds for anything manufactured after July 1, 2026. Violating the law is a Class 1 misdemeanor, with a three-year prohibition on firearm purchases following conviction. A separate bill (HB 1525) bans under-21 from purchasing handguns and assault firearms, but the AWB's grandfather clause itself applies regardless of age, and HB 1525 does not create a possession ban for 18-20 year olds.
 
 ## The veteran argument and why it doesn't hold up
 
