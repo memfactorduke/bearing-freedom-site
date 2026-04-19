@@ -35,6 +35,25 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
 
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6WRV03TTZ"
+    ></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-Q6WRV03TTZ', {
+        send_page_view: true,
+        allow_google_signals: true,
+        allow_ad_personalization_signals: true,
+        cookie_flags: 'SameSite=None;Secure',
+        page_referrer: document.referrer,
+        screen_resolution: window.screen.width + 'x' + window.screen.height,
+      });
+    </script>
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -352,6 +371,61 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
         el.style.opacity = '0';
         observer.observe(el);
       });
+    </script>
+
+    <!-- GA4 custom events -->
+    <script is:inline>
+      (function () {
+        if (typeof gtag !== 'function') return;
+
+        // Scroll depth: 25%, 50%, 75%
+        var marks = [25, 50, 75],
+          fired = {};
+        window.addEventListener(
+          'scroll',
+          function () {
+            var pct = Math.round(
+              ((window.scrollY + window.innerHeight) /
+                document.body.scrollHeight) *
+                100,
+            );
+            marks.forEach(function (m) {
+              if (pct >= m && !fired[m]) {
+                fired[m] = true;
+                gtag('event', 'scroll_depth', { percent: m });
+              }
+            });
+          },
+          { passive: true },
+        );
+
+        // Time on page: 15s, 30s, 60s, 180s
+        [15, 30, 60, 180].forEach(function (s) {
+          setTimeout(function () {
+            gtag('event', 'time_on_page', { seconds: s });
+          }, s * 1000);
+        });
+
+        // Outbound clicks with link text
+        document.addEventListener(
+          'click',
+          function (e) {
+            var a = e.target.closest('a');
+            if (!a || !a.href || a.host === location.host) return;
+            gtag('event', 'outbound_click_detailed', {
+              link_url: a.href,
+              link_text: (a.textContent || '').trim().slice(0, 100),
+              link_domain: a.host,
+            });
+          },
+          true,
+        );
+
+        // Copy to clipboard
+        document.addEventListener('copy', function () {
+          gtag('event', 'content_copy', { page_path: location.pathname });
+        });
+      })();
     </script>
   </body>
 </html>
