@@ -1,0 +1,163 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const extras = [
+  {
+    title: 'Virginia Legislation Tracker',
+    description:
+      "Track all 18 gun control bills on Governor Spanberger's desk. Assault weapons ban, red flag expansion, ghost gun ban, and more.",
+    href: '/legislation',
+    state: 'Virginia',
+    accent: '#dc2626',
+    icon: 'gavel',
+    status: 'live' as const,
+  },
+  {
+    title: 'Kentucky Veto Override',
+    description:
+      "Kentucky's legislature crushed Beshear's gun vetoes. HB 78 and HB 312 overridden with massive supermajorities.",
+    href: '/override',
+    state: 'Kentucky',
+    accent: '#d4a017',
+    icon: 'shield',
+    status: 'live' as const,
+  },
+  {
+    title: 'Virginia Gun Law Tier List',
+    description:
+      "Rank Spanberger's 2026 anti-gun package from most to least dangerous. Interactive tier list.",
+    href: '/tierlist',
+    state: 'Virginia',
+    accent: '#6366f1',
+    icon: 'list',
+    status: 'live' as const,
+  },
+  {
+    title: 'Maryland Glock Ban',
+    description: 'Coming soon.',
+    href: '#',
+    state: 'Maryland',
+    accent: '#555555',
+    icon: 'ban',
+    status: 'soon' as const,
+  },
+];
+
+const icons: Record<string, string> = {
+  gavel: 'M12 2L2 7l3 3 7-4 7 4 3-3-10-5zm-1 8.5L4.5 14 12 22l7.5-8L12 10.5z',
+  shield:
+    'M12 2L3 7v5c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5zm0 2.18l7 3.89v4.43c0 4.56-3.07 8.81-7 9.93-3.93-1.12-7-5.37-7-9.93V8.07l7-3.89z',
+  list: 'M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z',
+  ban: 'M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8 0-1.85.63-3.55 1.69-4.9L16.9 18.31A7.902 7.902 0 0112 20zm6.31-3.1L7.1 5.69A7.902 7.902 0 0112 4c4.42 0 8 3.58 8 8 0 1.85-.63 3.55-1.69 4.9z',
+};
+---
+
+<BaseLayout
+  title="Extras"
+  description="Standalone interactive pages and tools from Bearing Freedom. Legislation trackers, tier lists, and deep dives."
+>
+  <section class="bg-void">
+    <div class="max-w-7xl mx-auto px-5 lg:px-8 py-16 lg:py-24">
+      <!-- Header -->
+      <div class="mb-16" data-animate>
+        <p
+          class="text-[11px] font-[Archivo_Black] font-bold text-accent uppercase tracking-[0.25em] mb-4"
+        >
+          Interactive tools
+        </p>
+        <h1
+          class="text-4xl lg:text-5xl font-[Archivo_Black] font-extrabold text-text leading-tight mb-5"
+        >
+          Extras
+        </h1>
+        <p
+          class="text-lg text-text-secondary font-[Crimson_Pro] max-w-2xl leading-relaxed"
+        >
+          Standalone pages built to accompany specific videos. Deep dives,
+          trackers, and interactive tools that go beyond the article.
+        </p>
+      </div>
+
+      <!-- Card grid -->
+      <div class="grid md:grid-cols-2 gap-6 lg:gap-8">
+        {
+          extras.map((item, i) => (
+            <a
+              href={item.href}
+              class:list={[
+                'group block relative overflow-hidden rounded-sm bg-surface border border-border-subtle transition-all duration-300',
+                item.status === 'live'
+                  ? 'card-lift hover:border-border'
+                  : 'opacity-50 pointer-events-none',
+              ]}
+              data-animate
+              class={`stagger-${i + 1}`}
+            >
+              {/* Accent top bar */}
+              <div class="h-1" style={`background: ${item.accent}`} />
+
+              <div class="p-7 lg:p-8">
+                {/* Icon + state */}
+                <div class="flex items-start justify-between mb-5">
+                  <div
+                    class="w-11 h-11 rounded-sm flex items-center justify-center"
+                    style={`background: ${item.accent}15; color: ${item.accent}`}
+                  >
+                    <svg
+                      class="w-5 h-5"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path d={icons[item.icon]} />
+                    </svg>
+                  </div>
+                  <span class="text-[10px] font-[JetBrains_Mono] font-medium tracking-wider uppercase px-2.5 py-1 rounded-full border border-border-subtle text-text-muted">
+                    {item.state}
+                  </span>
+                </div>
+
+                {/* Title */}
+                <h2 class="text-xl font-[Archivo_Black] font-bold text-text mb-3 group-hover:text-accent transition-colors">
+                  {item.title}
+                </h2>
+
+                {/* Description */}
+                <p class="text-sm text-text-secondary font-[Crimson_Pro] leading-relaxed mb-5">
+                  {item.description}
+                </p>
+
+                {/* Footer */}
+                <div class="flex items-center gap-2 text-text-muted">
+                  {item.status === 'live' ? (
+                    <>
+                      <span class="text-[11px] font-[JetBrains_Mono] font-medium tracking-wide uppercase group-hover:text-accent transition-colors">
+                        View page
+                      </span>
+                      <svg
+                        class="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M9 5l7 7-7 7"
+                        />
+                      </svg>
+                    </>
+                  ) : (
+                    <span class="text-[11px] font-[JetBrains_Mono] font-medium tracking-wide uppercase">
+                      Coming soon
+                    </span>
+                  )}
+                </div>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</BaseLayout>
