@@ -26,7 +26,6 @@
       content="https://bearingfreedom.com/marylandglockban"
     />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <!-- GA4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YJWJPMSXN4"
     ></script>
     <script is:inline>
@@ -37,10 +36,13 @@
       gtag('js', new Date());
       gtag('config', 'G-YJWJPMSXN4');
     </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700;800&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Space+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
     <style is:global>
       *,
       *::before,
@@ -49,117 +51,139 @@
         padding: 0;
         box-sizing: border-box;
       }
+
       :root {
-        --bg: #08090c;
-        --surface: #10121a;
-        --card: #161a24;
-        --card-hover: #1c2030;
-        --accent: #4a7cff;
-        --accent-bright: #6b9aff;
-        --accent-dim: rgba(74, 124, 255, 0.1);
-        --red: #dc2626;
-        --red-dim: rgba(220, 38, 38, 0.08);
-        --green: #22c55e;
-        --green-dim: rgba(34, 197, 94, 0.08);
-        --yellow: #eab308;
-        --yellow-dim: rgba(234, 179, 8, 0.08);
-        --white: #e8eaf0;
-        --light: #c4c8d4;
-        --dim: #8890a4;
-        --muted: #5a6278;
-        --faint: #2e3448;
-        --border: #232838;
-        --font: 'Source Serif 4', Georgia, serif;
-        --head: 'Oswald', sans-serif;
-        --mono: 'JetBrains Mono', monospace;
+        --bg: #05080e;
+        --surface: #0a1020;
+        --raised: #0f1630;
+        --accent: #3b7dd8;
+        --accent-bright: #5a9fe8;
+        --accent-glow: rgba(59, 125, 216, 0.15);
+        --accent-line: rgba(59, 125, 216, 0.3);
+        --danger: #c23b3b;
+        --danger-dim: rgba(194, 59, 59, 0.08);
+        --safe: #2d9e5f;
+        --safe-dim: rgba(45, 158, 95, 0.06);
+        --caution: #c9922a;
+        --caution-dim: rgba(201, 146, 42, 0.06);
+        --text: #d0d5e2;
+        --text-bright: #ebeef5;
+        --text-dim: #7a8399;
+        --text-muted: #4a5268;
+        --border: #1a2040;
+        --border-light: #243060;
+        --display: 'Bebas Neue', sans-serif;
+        --serif: 'Cormorant Garamond', Georgia, serif;
+        --mono: 'Space Mono', monospace;
       }
+
       html {
         scroll-behavior: smooth;
       }
+
       body {
         background: var(--bg);
-        color: var(--white);
-        font-family: var(--font);
+        color: var(--text);
+        font-family: var(--serif);
+        font-size: 17px;
+        line-height: 1.75;
         -webkit-font-smoothing: antialiased;
-        line-height: 1.7;
+        overflow-x: hidden;
       }
+
+      /* Grain overlay */
+      body::after {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
+        pointer-events: none;
+        z-index: 9999;
+      }
+
       a {
-        color: var(--accent);
+        color: var(--accent-bright);
         text-decoration: none;
       }
       a:hover {
-        color: var(--accent-bright);
+        color: #8ac0ff;
       }
 
-      /* Nav */
+      /* ════════════════════════ NAV ════════════════════════ */
       .nav {
         position: sticky;
         top: 0;
-        z-index: 50;
-        background: rgba(8, 9, 12, 0.92);
-        backdrop-filter: blur(12px);
+        z-index: 100;
+        background: rgba(5, 8, 14, 0.85);
+        backdrop-filter: blur(20px) saturate(1.4);
         border-bottom: 1px solid var(--border);
-        padding: 0 20px;
       }
       .nav-inner {
-        max-width: 900px;
+        max-width: 1100px;
         margin: 0 auto;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 52px;
+        height: 56px;
+        padding: 0 28px;
       }
       .nav-brand {
-        font-family: var(--head);
-        font-weight: 800;
-        font-size: 18px;
+        font-family: var(--display);
+        font-size: 26px;
         color: var(--accent);
         text-decoration: none;
+        letter-spacing: 2px;
       }
       .nav-links {
         display: flex;
-        gap: 18px;
-        align-items: center;
+        gap: 24px;
       }
       .nav-links a {
         font-family: var(--mono);
-        font-size: 11px;
-        font-weight: 500;
+        font-size: 10px;
+        font-weight: 700;
         text-transform: uppercase;
-        letter-spacing: 0.08em;
-        color: var(--dim);
+        letter-spacing: 0.12em;
+        color: var(--text-dim);
       }
       .nav-links a:hover {
-        color: var(--white);
+        color: var(--text-bright);
       }
 
-      /* Ticker */
-      .ticker-bar {
-        background: var(--red);
+      /* ════════════════════════ TICKER ════════════════════════ */
+      .ticker {
+        background: linear-gradient(
+          90deg,
+          #1a0808 0%,
+          var(--danger) 15%,
+          var(--danger) 85%,
+          #1a0808 100%
+        );
         overflow: hidden;
         white-space: nowrap;
-        padding: 6px 0;
+        padding: 7px 0;
+        border-bottom: 1px solid rgba(194, 59, 59, 0.3);
       }
-      .ticker-label {
+      .ticker-inner {
         display: inline-block;
-        font-family: var(--head);
-        font-weight: 700;
-        font-size: 11px;
-        background: #000;
-        color: #fff;
-        padding: 2px 10px;
-        margin-right: 12px;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
+        animation: tickerScroll 50s linear infinite;
       }
-      .ticker-text {
-        display: inline-block;
+      .ticker-inner span {
         font-family: var(--mono);
-        font-size: 11px;
-        font-weight: 600;
-        color: #fff;
-        letter-spacing: 0.03em;
-        animation: tickerScroll 40s linear infinite;
+        font-size: 10px;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 0.92);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .ticker-dot {
+        display: inline-block;
+        width: 4px;
+        height: 4px;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 50%;
+        margin: 0 20px;
+        vertical-align: middle;
       }
       @keyframes tickerScroll {
         0% {
@@ -170,337 +194,589 @@
         }
       }
 
-      /* Hero */
+      /* ════════════════════════ HERO ════════════════════════ */
       .hero {
-        padding: 64px 20px 48px;
-        border-bottom: 1px solid var(--border);
+        position: relative;
+        padding: 100px 28px 80px;
+        overflow: hidden;
+        background:
+          radial-gradient(
+            ellipse 80% 50% at 20% 40%,
+            rgba(59, 125, 216, 0.06) 0%,
+            transparent 70%
+          ),
+          radial-gradient(
+            ellipse 60% 40% at 80% 60%,
+            rgba(194, 59, 59, 0.04) 0%,
+            transparent 60%
+          );
+      }
+      .hero::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: repeating-linear-gradient(
+          0deg,
+          transparent,
+          transparent 2px,
+          rgba(59, 125, 216, 0.015) 2px,
+          rgba(59, 125, 216, 0.015) 3px
+        );
+        pointer-events: none;
       }
       .hero-inner {
-        max-width: 900px;
+        max-width: 1100px;
         margin: 0 auto;
+        position: relative;
       }
-      .hero-state {
+      .hero-eyebrow {
         font-family: var(--mono);
         font-size: 11px;
-        font-weight: 600;
+        font-weight: 700;
         color: var(--accent);
         text-transform: uppercase;
-        letter-spacing: 0.15em;
-        margin-bottom: 12px;
-      }
-      .hero h1 {
-        font-family: var(--head);
-        font-size: clamp(32px, 6vw, 56px);
-        font-weight: 800;
-        text-transform: uppercase;
-        letter-spacing: -0.02em;
-        line-height: 1.05;
+        letter-spacing: 0.25em;
         margin-bottom: 20px;
-      }
-      .hero-sub {
-        font-size: 18px;
-        color: var(--light);
-        max-width: 640px;
-        line-height: 1.65;
-      }
-      .hero-meta {
-        margin-top: 24px;
         display: flex;
-        flex-wrap: wrap;
+        align-items: center;
         gap: 12px;
       }
-      .meta-chip {
-        font-family: var(--mono);
-        font-size: 10px;
-        font-weight: 600;
-        padding: 5px 12px;
-        border-radius: 4px;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        border: 1px solid var(--border);
-        color: var(--dim);
+      .hero-eyebrow::before {
+        content: '';
+        width: 40px;
+        height: 1px;
+        background: var(--accent);
       }
-      .meta-chip.pending {
-        border-color: var(--yellow);
-        color: var(--yellow);
+      .hero-pulse {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--caution);
+        box-shadow:
+          0 0 8px var(--caution),
+          0 0 16px rgba(201, 146, 42, 0.3);
+        animation: pulse 2s ease-in-out infinite;
       }
-      .meta-chip.passed {
-        border-color: var(--red);
-        color: var(--red);
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.4;
+        }
       }
 
-      /* Stats */
-      .stats {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-        gap: 1px;
-        background: var(--border);
-        border: 1px solid var(--border);
-        margin: 32px auto;
-        max-width: 900px;
+      .hero h1 {
+        font-family: var(--display);
+        font-size: clamp(56px, 10vw, 120px);
+        line-height: 0.92;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: var(--text-bright);
+        margin-bottom: 8px;
       }
-      .stat {
-        background: var(--surface);
-        padding: 20px;
-        text-align: center;
+      .hero h1 em {
+        font-style: normal;
+        color: var(--danger);
+        display: block;
       }
-      .stat-val {
-        font-family: var(--head);
-        font-size: 28px;
-        font-weight: 700;
-        color: var(--white);
+      .hero-sub {
+        font-family: var(--serif);
+        font-size: 20px;
+        font-weight: 400;
+        color: var(--text);
+        max-width: 600px;
+        line-height: 1.7;
+        margin-top: 24px;
       }
-      .stat-val.red {
-        color: var(--red);
+      .hero-chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 32px;
       }
-      .stat-val.yellow {
-        color: var(--yellow);
-      }
-      .stat-label {
+      .chip {
         font-family: var(--mono);
         font-size: 9px;
-        font-weight: 600;
+        font-weight: 700;
+        padding: 6px 14px;
+        border-radius: 2px;
         text-transform: uppercase;
-        letter-spacing: 0.12em;
-        color: var(--muted);
+        letter-spacing: 0.1em;
+        border: 1px solid var(--border);
+        color: var(--text-dim);
+        background: var(--surface);
+      }
+      .chip-danger {
+        border-color: var(--danger);
+        color: var(--danger);
+      }
+      .chip-caution {
+        border-color: var(--caution);
+        color: var(--caution);
+      }
+
+      /* ════════════════════════ STATS BAR ════════════════════════ */
+      .stats-bar {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        border: 1px solid var(--border);
+        border-top: 2px solid var(--accent);
+        background: var(--surface);
+      }
+      .stat-cell {
+        padding: 24px 16px;
+        text-align: center;
+        border-right: 1px solid var(--border);
+        position: relative;
+      }
+      .stat-cell:last-child {
+        border-right: none;
+      }
+      .stat-num {
+        font-family: var(--display);
+        font-size: 32px;
+        color: var(--text-bright);
+        letter-spacing: 1px;
+      }
+      .stat-num.danger {
+        color: var(--danger);
+      }
+      .stat-num.caution {
+        color: var(--caution);
+      }
+      .stat-lbl {
+        font-family: var(--mono);
+        font-size: 8px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        color: var(--text-muted);
         margin-top: 6px;
       }
 
-      /* Content sections */
-      .content {
-        max-width: 900px;
+      /* ════════════════════════ CONTENT ════════════════════════ */
+      .wrap {
+        max-width: 1100px;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 28px;
       }
-      .section {
-        padding: 48px 0;
-        border-bottom: 1px solid var(--border);
+
+      .sect {
+        padding: 72px 0;
+        position: relative;
       }
-      .sh {
-        font-family: var(--head);
-        font-size: 22px;
-        font-weight: 700;
+      .sect + .sect {
+        border-top: 1px solid var(--border);
+      }
+
+      /* Section headers */
+      .sect-head {
+        margin-bottom: 36px;
+        display: flex;
+        align-items: flex-end;
+        gap: 20px;
+      }
+      .sect-num {
+        font-family: var(--display);
+        font-size: 64px;
+        line-height: 0.8;
+        color: var(--border-light);
+        letter-spacing: 2px;
+      }
+      .sect-title {
+        font-family: var(--display);
+        font-size: 36px;
         text-transform: uppercase;
-        letter-spacing: 0.02em;
+        letter-spacing: 2px;
+        color: var(--text-bright);
+        line-height: 1;
+      }
+
+      .body-text {
+        font-family: var(--serif);
+        font-size: 18px;
+        color: var(--text);
+        line-height: 1.8;
+        max-width: 720px;
         margin-bottom: 20px;
-        color: var(--white);
       }
-      .sh::before {
-        content: '';
-        display: inline-block;
-        width: 4px;
-        height: 20px;
-        background: var(--accent);
-        margin-right: 12px;
-        vertical-align: middle;
-      }
-      p {
-        margin-bottom: 16px;
-        color: var(--light);
-        font-size: 16px;
+      .body-text strong {
+        color: var(--text-bright);
+        font-weight: 600;
       }
 
-      /* Callout */
-      .co {
-        border-left: 3px solid var(--accent);
-        background: var(--accent-dim);
-        padding: 16px 20px;
-        margin: 20px 0;
-        border-radius: 0 6px 6px 0;
+      /* Callout blocks */
+      .alert {
+        position: relative;
+        border: 1px solid var(--border);
+        padding: 28px 28px 28px 32px;
+        margin: 28px 0;
+        background: var(--surface);
+        overflow: hidden;
       }
-      .co-red {
-        border-color: var(--red);
-        background: var(--red-dim);
+      .alert::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 3px;
+        background: var(--accent);
       }
-      .co-yellow {
-        border-color: var(--yellow);
-        background: var(--yellow-dim);
+      .alert-danger::before {
+        background: var(--danger);
       }
-      .co-green {
-        border-color: var(--green);
-        background: var(--green-dim);
+      .alert-caution::before {
+        background: var(--caution);
       }
-      .co-t {
-        font-family: var(--head);
-        font-size: 14px;
+      .alert-safe::before {
+        background: var(--safe);
+      }
+
+      .alert-tag {
+        font-family: var(--mono);
+        font-size: 9px;
         font-weight: 700;
         text-transform: uppercase;
-        letter-spacing: 0.04em;
-        margin-bottom: 8px;
-        color: var(--white);
+        letter-spacing: 0.15em;
+        color: var(--accent);
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
       }
-      .co p,
-      .co span {
-        font-size: 14px;
-        margin-bottom: 0;
+      .alert-danger .alert-tag {
+        color: var(--danger);
+      }
+      .alert-caution .alert-tag {
+        color: var(--caution);
+      }
+      .alert-safe .alert-tag {
+        color: var(--safe);
       }
 
-      /* Table */
-      .tb {
+      .alert p {
+        font-family: var(--serif);
+        font-size: 15px;
+        color: var(--text);
+        line-height: 1.7;
+        margin: 0;
+      }
+      .alert p strong {
+        color: var(--text-bright);
+      }
+      .alert p em {
+        color: var(--accent-bright);
+        font-style: italic;
+      }
+
+      /* ════════════════════════ TABLES ════════════════════════ */
+      .data-table {
         width: 100%;
         border-collapse: collapse;
-        margin: 20px 0;
-        font-size: 14px;
+        margin: 24px 0;
+        font-family: var(--serif);
+        border: 1px solid var(--border);
       }
-      .tb th {
+      .data-table thead th {
+        font-family: var(--mono);
+        font-size: 9px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        padding: 12px 18px;
+        text-align: left;
+        background: var(--raised);
+        color: var(--text-dim);
+        border-bottom: 2px solid var(--accent-line);
+      }
+      .data-table tbody td {
+        padding: 14px 18px;
+        font-size: 15px;
+        border-bottom: 1px solid var(--border);
+        color: var(--text);
+        vertical-align: top;
+      }
+      .data-table tbody tr {
+        transition: background 0.15s;
+      }
+      .data-table tbody tr:hover {
+        background: rgba(59, 125, 216, 0.03);
+      }
+      .data-table td strong {
+        color: var(--text-bright);
+        font-weight: 600;
+      }
+
+      .badge {
         font-family: var(--mono);
         font-size: 10px;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.1em;
-        text-align: left;
-        padding: 10px 14px;
-        background: var(--surface);
-        border-bottom: 2px solid var(--border);
-        color: var(--dim);
+        padding: 3px 10px;
+        border-radius: 2px;
+        display: inline-block;
       }
-      .tb td {
-        padding: 10px 14px;
-        border-bottom: 1px solid var(--border);
-        color: var(--light);
-        vertical-align: top;
+      .badge-ban {
+        background: var(--danger-dim);
+        color: var(--danger);
+        border: 1px solid rgba(194, 59, 59, 0.2);
       }
-      .b-ban {
-        color: var(--red);
-        font-weight: 600;
+      .badge-ok {
+        background: var(--safe-dim);
+        color: var(--safe);
+        border: 1px solid rgba(45, 158, 95, 0.2);
       }
-      .b-ok {
-        color: var(--green);
-        font-weight: 600;
-      }
-      .b-warn {
-        color: var(--yellow);
-        font-weight: 600;
+      .badge-tbd {
+        background: var(--caution-dim);
+        color: var(--caution);
+        border: 1px solid rgba(201, 146, 42, 0.2);
       }
 
-      /* Feature list */
-      .fl {
-        margin: 16px 0;
+      /* ════════════════════════ FEATURE LIST ════════════════════════ */
+      .flist {
+        margin: 24px 0;
       }
-      .fl-i {
+      .flist-row {
         display: flex;
         align-items: flex-start;
-        gap: 10px;
-        padding: 8px 0;
-        font-size: 14px;
-        color: var(--light);
+        gap: 14px;
+        padding: 14px 0;
         border-bottom: 1px solid var(--border);
+        font-size: 15px;
+        color: var(--text);
       }
-      .fl-b {
+      .flist-dot {
         flex-shrink: 0;
-        width: 8px;
-        height: 8px;
+        width: 6px;
+        height: 6px;
         border-radius: 50%;
-        background: var(--red);
-        margin-top: 7px;
+        margin-top: 9px;
+      }
+      .flist-row strong {
+        color: var(--text-bright);
+        font-weight: 600;
       }
 
-      /* Timeline */
-      .tl {
-        margin: 20px 0;
+      /* ════════════════════════ TIMELINE ════════════════════════ */
+      .timeline {
+        position: relative;
+        margin: 32px 0;
+        padding-left: 32px;
       }
-      .tl-item {
-        display: flex;
-        gap: 16px;
-        padding: 12px 0;
-        border-bottom: 1px solid var(--border);
-        font-size: 14px;
+      .timeline::before {
+        content: '';
+        position: absolute;
+        left: 7px;
+        top: 8px;
+        bottom: 8px;
+        width: 1px;
+        background: linear-gradient(180deg, var(--accent), var(--border) 80%);
+      }
+      .tl-entry {
+        position: relative;
+        padding: 14px 0 14px 24px;
+        font-size: 15px;
+      }
+      .tl-entry::before {
+        content: '';
+        position: absolute;
+        left: -28px;
+        top: 20px;
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background: var(--border-light);
+        border: 2px solid var(--bg);
+      }
+      .tl-entry.major::before {
+        background: var(--accent);
+        box-shadow: 0 0 6px var(--accent);
       }
       .tl-date {
         font-family: var(--mono);
-        font-size: 12px;
-        font-weight: 600;
-        color: var(--dim);
-        min-width: 100px;
-        flex-shrink: 0;
-      }
-      .tl-text {
-        color: var(--light);
-      }
-      .tl-text.major {
-        color: var(--white);
-        font-weight: 600;
-      }
-
-      /* CTA */
-      .cta {
-        text-align: center;
-        padding: 48px 20px;
-      }
-      .cta-t {
-        font-family: var(--head);
-        font-size: 18px;
+        font-size: 11px;
         font-weight: 700;
-        text-transform: uppercase;
-        color: var(--dim);
-        margin-bottom: 16px;
-      }
-      .sub-btn {
-        display: inline-block;
-        font-family: var(--mono);
-        font-size: 13px;
-        font-weight: 700;
-        padding: 12px 28px;
-        background: var(--accent);
-        color: #fff;
-        border-radius: 4px;
-        text-decoration: none;
-        text-transform: uppercase;
+        color: var(--text-dim);
         letter-spacing: 0.06em;
       }
-      .sub-btn:hover {
-        background: var(--accent-bright);
-        color: #fff;
+      .tl-desc {
+        color: var(--text);
+        margin-top: 2px;
+      }
+      .tl-entry.major .tl-desc {
+        color: var(--text-bright);
+        font-weight: 600;
       }
 
-      /* Footer */
-      .foot {
-        border-top: 1px solid var(--border);
-        padding: 24px 20px;
-        text-align: center;
+      /* ════════════════════════ DOSSIER DIVIDER ════════════════════════ */
+      .divider {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 48px 0 0;
       }
-      .foot p {
+      .divider-line {
+        flex: 1;
+        height: 1px;
+        background: linear-gradient(90deg, var(--accent-line), transparent);
+      }
+      .divider-line:last-child {
+        background: linear-gradient(90deg, transparent, var(--accent-line));
+      }
+      .divider-label {
         font-family: var(--mono);
-        font-size: 10px;
-        color: var(--muted);
-        margin: 0;
+        font-size: 9px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: var(--text-muted);
       }
 
-      /* Video */
-      .video-embed {
+      /* ════════════════════════ VIDEO ════════════════════════ */
+      .video-wrap {
         position: relative;
         padding-bottom: 56.25%;
-        margin: 24px 0;
-        background: var(--surface);
+        margin: 32px 0;
         border: 1px solid var(--border);
-        border-radius: 4px;
+        background: var(--surface);
         overflow: hidden;
       }
-      .video-embed iframe {
+      .video-wrap iframe {
         position: absolute;
-        top: 0;
-        left: 0;
+        inset: 0;
         width: 100%;
         height: 100%;
         border: 0;
       }
 
-      @media (max-width: 600px) {
+      /* ════════════════════════ CTA ════════════════════════ */
+      .cta-block {
+        text-align: center;
+        padding: 80px 28px;
+        background: radial-gradient(
+          ellipse at center,
+          var(--accent-glow) 0%,
+          transparent 60%
+        );
+      }
+      .cta-text {
+        font-family: var(--display);
+        font-size: 28px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: var(--text-dim);
+        margin-bottom: 24px;
+      }
+      .cta-btn {
+        display: inline-block;
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 700;
+        padding: 14px 36px;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        background: transparent;
+        color: var(--accent-bright);
+        border: 1px solid var(--accent);
+        text-decoration: none;
+        transition: all 0.3s;
+      }
+      .cta-btn:hover {
+        background: var(--accent);
+        color: #fff;
+        box-shadow: 0 0 20px var(--accent-glow);
+      }
+
+      /* ════════════════════════ FOOTER ════════════════════════ */
+      .foot {
+        border-top: 1px solid var(--border);
+        padding: 28px;
+        text-align: center;
+      }
+      .foot p {
+        font-family: var(--mono);
+        font-size: 9px;
+        color: var(--text-muted);
+        letter-spacing: 0.08em;
+        margin: 0;
+      }
+
+      /* ════════════════════════ SCROLL ANIMATIONS ════════════════════════ */
+      [data-reveal] {
+        opacity: 0;
+        transform: translateY(24px);
+        transition:
+          opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+          transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+      }
+      [data-reveal].visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      [data-reveal='delay-1'] {
+        transition-delay: 0.1s;
+      }
+      [data-reveal='delay-2'] {
+        transition-delay: 0.2s;
+      }
+      [data-reveal='delay-3'] {
+        transition-delay: 0.3s;
+      }
+      [data-reveal='delay-4'] {
+        transition-delay: 0.4s;
+      }
+
+      /* ════════════════════════ RESPONSIVE ════════════════════════ */
+      @media (max-width: 768px) {
         .hero {
-          padding: 40px 16px 32px;
+          padding: 60px 20px 50px;
         }
-        .stats {
-          grid-template-columns: repeat(2, 1fr);
+        .hero h1 {
+          font-size: clamp(44px, 12vw, 80px);
+        }
+        .stats-bar {
+          grid-template-columns: repeat(3, 1fr);
         }
         .nav-links {
           display: none;
         }
-        .section {
-          padding: 32px 0;
+        .sect {
+          padding: 48px 0;
         }
-        .tl-item {
+        .sect-head {
           flex-direction: column;
           gap: 4px;
+          align-items: flex-start;
+        }
+        .sect-num {
+          font-size: 36px;
+        }
+        .sect-title {
+          font-size: 26px;
+        }
+        .wrap {
+          padding: 0 20px;
+        }
+        .data-table {
+          font-size: 13px;
+        }
+        .data-table thead th,
+        .data-table tbody td {
+          padding: 10px 12px;
+        }
+      }
+      @media (max-width: 480px) {
+        .stats-bar {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .hero h1 {
+          font-size: 44px;
         }
       }
     </style>
@@ -524,76 +800,111 @@
     </nav>
 
     <!-- Ticker -->
-    <div class="ticker-bar">
-      <span class="ticker-label">Breaking</span>
-      <span class="ticker-text">
-        SB 334 PASSES MARYLAND LEGISLATURE 92-39 &mdash; BANS SALE OF GLOCKS AND
-        ALL CRUCIFORM TRIGGER BAR PISTOLS &mdash; ON GOVERNOR MOORE'S DESK
-        &mdash; MARYLAND SHALL ISSUE PLEDGES LAWSUIT &mdash; EXISTING OWNERS MAY
-        KEEP FIREARMS &mdash; SALES BAN BEGINS JAN 1, 2027 &mdash; CALIFORNIA'S
-        IDENTICAL LAW (AB 1127) ALREADY BEING CHALLENGED IN JAYMES V. BONTA
-        &mdash; SUBSCRIBE TO BEARING FREEDOM FOR FULL COVERAGE &mdash; SB 334
-        PASSES MARYLAND LEGISLATURE 92-39 &mdash; BANS SALE OF GLOCKS AND ALL
-        CRUCIFORM TRIGGER BAR PISTOLS &mdash; ON GOVERNOR MOORE'S DESK &mdash;
-        MARYLAND SHALL ISSUE PLEDGES LAWSUIT &mdash; EXISTING OWNERS MAY KEEP
-        FIREARMS &mdash; SALES BAN BEGINS JAN 1, 2027
-      </span>
+    <div class="ticker">
+      <div class="ticker-inner">
+        <span>SB 334 passes Maryland legislature 92-39</span><span
+          class="ticker-dot"></span>
+        <span>Bans sale of Glocks and all cruciform trigger bar pistols</span
+        ><span class="ticker-dot"></span>
+        <span>On Governor Moore's desk</span><span class="ticker-dot"></span>
+        <span>Maryland Shall Issue pledges lawsuit</span><span
+          class="ticker-dot"></span>
+        <span>Existing owners may keep firearms</span><span class="ticker-dot"
+        ></span>
+        <span>Sales ban begins Jan 1, 2027</span><span class="ticker-dot"
+        ></span>
+        <span
+          >California's identical law (AB 1127) already challenged in Jaymes v.
+          Bonta</span
+        ><span class="ticker-dot"></span>
+        <span>SB 334 passes Maryland legislature 92-39</span><span
+          class="ticker-dot"></span>
+        <span>Bans sale of Glocks and all cruciform trigger bar pistols</span
+        ><span class="ticker-dot"></span>
+        <span>On Governor Moore's desk</span><span class="ticker-dot"></span>
+        <span>Maryland Shall Issue pledges lawsuit</span><span
+          class="ticker-dot"></span>
+        <span>Existing owners may keep firearms</span><span class="ticker-dot"
+        ></span>
+        <span>Sales ban begins Jan 1, 2027</span><span class="ticker-dot"
+        ></span>
+        <span
+          >California's identical law (AB 1127) already challenged in Jaymes v.
+          Bonta</span
+        ><span class="ticker-dot"></span>
+      </div>
     </div>
 
     <!-- Hero -->
     <div class="hero">
       <div class="hero-inner">
-        <div class="hero-state">Maryland &mdash; SB 334</div>
-        <h1>Maryland Glock Ban</h1>
-        <p class="hero-sub">
+        <div class="hero-eyebrow" data-reveal>
+          <span>Maryland</span>
+          <span style="color: var(--text-muted)">SB 334</span>
+          <div class="hero-pulse"></div>
+          <span style="color: var(--caution)">Awaiting Governor</span>
+        </div>
+        <h1 data-reveal="delay-1">Maryland<em>Glock Ban</em></h1>
+        <p class="hero-sub" data-reveal="delay-2">
           Maryland's legislature passed SB 334, banning the sale of Glocks and
           all pistols with cruciform trigger bars. The bill targets the internal
-          mechanism that enables illegal auto-sear "switch" conversion &mdash;
-          and bans the most popular handgun in America in the process.
+          mechanism that enables illegal auto-sear "switch"
+          conversion&thinsp;&mdash;&thinsp;and bans the most popular handgun in
+          America in the process.
         </p>
-        <div class="hero-meta">
-          <span class="meta-chip passed">Passed Legislature</span>
-          <span class="meta-chip pending">Awaiting Governor</span>
-          <span class="meta-chip">Senate 28-16</span>
-          <span class="meta-chip">House 92-39</span>
+        <div class="hero-chips" data-reveal="delay-3">
+          <span class="chip chip-danger">Passed Legislature</span>
+          <span class="chip chip-caution">Awaiting Governor</span>
+          <span class="chip">Senate 28-16</span>
+          <span class="chip">House 92-39</span>
         </div>
       </div>
     </div>
 
     <!-- Stats -->
-    <div class="stats" style="margin-left:20px;margin-right:20px;">
-      <div class="stat">
-        <div class="stat-val red">SB 334</div>
-        <div class="stat-label">Bill Number</div>
+    <div class="stats-bar" data-reveal>
+      <div class="stat-cell">
+        <div class="stat-num danger">SB 334</div><div class="stat-lbl">
+          Bill Number
+        </div>
       </div>
-      <div class="stat">
-        <div class="stat-val">92-39</div>
-        <div class="stat-label">House Vote</div>
+      <div class="stat-cell">
+        <div class="stat-num">92&ndash;39</div><div class="stat-lbl">
+          House Vote
+        </div>
       </div>
-      <div class="stat">
-        <div class="stat-val">28-16</div>
-        <div class="stat-label">Senate Vote</div>
+      <div class="stat-cell">
+        <div class="stat-num">28&ndash;16</div><div class="stat-lbl">
+          Senate Vote
+        </div>
       </div>
-      <div class="stat">
-        <div class="stat-val red">3 yrs</div>
-        <div class="stat-label">Max Prison</div>
+      <div class="stat-cell">
+        <div class="stat-num danger">3 yrs</div><div class="stat-lbl">
+          Max Prison
+        </div>
       </div>
-      <div class="stat">
-        <div class="stat-val red">$5,000</div>
-        <div class="stat-label">Max Fine</div>
+      <div class="stat-cell">
+        <div class="stat-num danger">$5,000</div><div class="stat-lbl">
+          Max Fine
+        </div>
       </div>
-      <div class="stat">
-        <div class="stat-val yellow">Jan 2027</div>
-        <div class="stat-label">Sales Ban Date</div>
+      <div class="stat-cell">
+        <div class="stat-num caution">Jan 2027</div><div class="stat-lbl">
+          Sales Ban Date
+        </div>
       </div>
     </div>
 
     <!-- Content -->
-    <div class="content">
-      <!-- What the bill does -->
-      <div class="section">
-        <div class="sh">What the bill does</div>
-        <p>
+    <div class="wrap">
+      <!-- 01 — What the bill does -->
+      <div class="sect" data-reveal>
+        <div class="sect-head">
+          <div class="sect-num">01</div>
+          <div class="sect-title">What the bill does</div>
+        </div>
+
+        <p class="body-text">
           SB 334 creates a new category of prohibited firearm: the <strong
             >"machine gun convertible pistol."</strong
           > It bans the manufacture, sale, purchase, receipt, and transfer of any
@@ -601,95 +912,103 @@
           can be converted to fully automatic fire by installing an illegal auto-sear
           device (commonly called a "Glock switch") to the rear of the slide.
         </p>
-        <p>
+        <p class="body-text">
           This is <strong>not</strong> the Maryland Handgun Roster. SB 334 creates
           an entirely new criminal prohibition in the Criminal Law Article (sections
           4-301, 4-302, 4-305.2, and 4-306). Even guns already approved on the roster
           become illegal to sell if they meet the new definition.
         </p>
 
-        <div class="co co-red">
-          <div class="co-t">The cruciform trigger bar is the target</div>
+        <div class="alert alert-danger">
+          <div class="alert-tag">Critical &mdash; Mechanism</div>
           <p>
             The bill defines a <strong>"cruciform trigger bar"</strong> as a component
             that serves as a link between the trigger and the firing pin, with its
             sear incorporated into a cross-shaped surface. This is the design feature
-            that makes "Glock switch" installation possible. Every Glock ever made
-            uses this mechanism.
+            that makes "Glock switch" installation possible. <strong
+              >Every Glock ever made uses this mechanism.</strong>
           </p>
         </div>
 
-        <div class="co co-yellow">
-          <div class="co-t">The V Series blocking tab doesn't save you</div>
+        <div class="alert alert-caution">
+          <div class="alert-tag">V Series Defeated</div>
           <p>
             Glock redesigned its pistols (the "V Series") to resist switch
             installation by adding a blocking tab. SB 334 specifically
             anticipated this: the bill states a gun is still prohibited even if
             it has a "piece of material" designed to block switch attachment, <strong
               >as long as that material can be removed with a common household
-              tool</strong
-            >. The V Series is banned.
+              tool.</strong
+            > The V Series is banned.
           </p>
         </div>
       </div>
 
-      <!-- Which guns -->
-      <div class="section">
-        <div class="sh">Which guns are affected</div>
+      <!-- 02 — Which guns -->
+      <div class="sect" data-reveal>
+        <div class="sect-head">
+          <div class="sect-num">02</div>
+          <div class="sect-title">Which guns are affected</div>
+        </div>
 
-        <table class="tb">
-          <tr><th>Manufacturer</th><th>Models</th><th>Status</th></tr>
-          <tr
-            ><td><strong>Glock (Gen 1-5)</strong></td><td
-              >All models (G17, G19, G26, G43, G45, etc.)</td
-            ><td class="b-ban">BANNED</td></tr
-          >
-          <tr
-            ><td><strong>Glock V Series</strong></td><td
-              >All V Series models (still uses cruciform trigger bar)</td
-            ><td class="b-ban">BANNED</td></tr
-          >
-          <tr
-            ><td><strong>PSA Dagger</strong></td><td
-              >Glock-pattern clone with compatible trigger bar</td
-            ><td class="b-ban">BANNED</td></tr
-          >
-          <tr
-            ><td><strong>Shadow Systems</strong></td><td
-              >MR920, DR920, CR920, XR920 (Glock-pattern trigger)</td
-            ><td class="b-ban">BANNED</td></tr
-          >
-          <tr
-            ><td><strong>Polymer80</strong></td><td>Glock-pattern builds</td><td
-              class="b-ban">BANNED</td
-            ></tr
-          >
-          <tr
-            ><td><strong>Hammer-fired pistols</strong></td><td
-              >Beretta 92, CZ 75, Sig P226, 1911-pattern</td
-            ><td class="b-ok">NOT AFFECTED</td></tr
-          >
-          <tr
-            ><td><strong>S&W M&P, SIG P320, Springfield XD</strong></td><td
-              >Striker-fired but may not use cruciform trigger bar</td
-            ><td class="b-warn">TBD &mdash; MSP list pending</td></tr
-          >
+        <table class="data-table">
+          <thead>
+            <tr><th>Manufacturer</th><th>Models</th><th>Status</th></tr>
+          </thead>
+          <tbody>
+            <tr
+              ><td><strong>Glock (Gen 1-5)</strong></td><td
+                >All models (G17, G19, G26, G43, G45, etc.)</td
+              ><td><span class="badge badge-ban">Banned</span></td></tr
+            >
+            <tr
+              ><td><strong>Glock V Series</strong></td><td
+                >All V Series models (still uses cruciform trigger bar)</td
+              ><td><span class="badge badge-ban">Banned</span></td></tr
+            >
+            <tr
+              ><td><strong>PSA Dagger</strong></td><td
+                >Glock-pattern clone with compatible trigger bar</td
+              ><td><span class="badge badge-ban">Banned</span></td></tr
+            >
+            <tr
+              ><td><strong>Shadow Systems</strong></td><td
+                >MR920, DR920, CR920, XR920 (Glock-pattern trigger)</td
+              ><td><span class="badge badge-ban">Banned</span></td></tr
+            >
+            <tr
+              ><td><strong>Polymer80</strong></td><td>Glock-pattern builds</td
+              ><td><span class="badge badge-ban">Banned</span></td></tr
+            >
+            <tr
+              ><td><strong>Hammer-fired pistols</strong></td><td
+                >Beretta 92, CZ 75, Sig P226, 1911-pattern</td
+              ><td><span class="badge badge-ok">Not affected</span></td></tr
+            >
+            <tr
+              ><td
+                ><strong>S&amp;W M&amp;P, SIG P320, Springfield XD</strong></td
+              ><td>Striker-fired but may not use cruciform trigger bar</td><td
+                ><span class="badge badge-tbd">TBD &mdash; MSP list</span></td
+              ></tr
+            >
+          </tbody>
         </table>
 
-        <div class="co">
-          <div class="co-t">Maryland State Police publishes the final list</div>
+        <div class="alert">
+          <div class="alert-tag">Administrative Expansion</div>
           <p>
             SB 334 requires the Maryland Department of State Police to adopt
             regulations and <strong
               >publish a list of specifically prohibited pistol models</strong
             > before the sales ban takes effect January 1, 2027. The exact scope beyond
-            Glock-pattern guns will be determined administratively &mdash; no further
-            legislation required.
+            Glock-pattern guns will be determined administratively&thinsp;&mdash;&thinsp;no
+            further legislation required.
           </p>
         </div>
 
-        <div class="co co-red">
-          <div class="co-t">The most popular handgun in America</div>
+        <div class="alert alert-danger">
+          <div class="alert-tag">Market Context</div>
           <p>
             Glock holds approximately 65% of the U.S. law enforcement market and
             roughly 35% of the civilian handgun market. Over 20 million Glock
@@ -699,79 +1018,93 @@
         </div>
       </div>
 
-      <!-- What bill explicitly excludes -->
-      <div class="section">
-        <div class="sh">What the bill explicitly excludes</div>
-        <div class="fl">
-          <div class="fl-i">
-            <span class="fl-b" style="background:var(--green)"></span><strong
-              >Hammer-fired semiautomatic pistols</strong
-            > &mdash; explicitly excluded by the definition
+      <!-- 03 — Exclusions -->
+      <div class="sect" data-reveal>
+        <div class="sect-head">
+          <div class="sect-num">03</div>
+          <div class="sect-title">What the bill excludes</div>
+        </div>
+
+        <div class="flist">
+          <div class="flist-row">
+            <span class="flist-dot" style="background:var(--safe)"
+            ></span><strong>Hammer-fired semiautomatic pistols</strong
+            >&thinsp;&mdash;&thinsp;explicitly excluded by the definition
           </div>
-          <div class="fl-i">
-            <span class="fl-b" style="background:var(--green)"></span><strong
+          <div class="flist-row">
+            <span class="flist-dot" style="background:var(--safe)"
+            ></span><strong
               >Striker-fired pistols without a cruciform trigger bar</strong
             > that have a trigger bar shielded from interference by a pistol converter
           </div>
-          <div class="fl-i">
-            <span class="fl-b" style="background:var(--green)"></span><strong
-              >Revolvers</strong
-            > &mdash; not semiautomatic, not covered
+          <div class="flist-row">
+            <span class="flist-dot" style="background:var(--safe)"
+            ></span><strong>Revolvers</strong>&thinsp;&mdash;&thinsp;not
+            semiautomatic, not covered
           </div>
         </div>
       </div>
 
-      <!-- Impact on buyers -->
-      <div class="section">
-        <div class="sh">Impact on gun owners &amp; buyers</div>
+      <!-- 04 — Impact -->
+      <div class="sect" data-reveal>
+        <div class="sect-head">
+          <div class="sect-num">04</div>
+          <div class="sect-title">Impact on owners &amp; buyers</div>
+        </div>
 
-        <table class="tb">
-          <tr><th>Action</th><th>After Jan 1, 2027</th></tr>
-          <tr
-            ><td>Keep your existing Glock</td><td class="b-ok"
-              >Legal &mdash; no confiscation</td
-            ></tr
-          >
-          <tr
-            ><td>Buy a new Glock from a dealer</td><td class="b-ban"
-              >Prohibited</td
-            ></tr
-          >
-          <tr
-            ><td>Buy a used Glock via private sale</td><td class="b-ban"
-              >Prohibited</td
-            ></tr
-          >
-          <tr
-            ><td>Transfer to immediate family member</td><td class="b-ok"
-              >Legal</td
-            ></tr
-          >
-          <tr><td>Inherit a Glock</td><td class="b-ok">Legal</td></tr>
-          <tr
-            ><td>Buy out of state and bring back to MD</td><td class="b-ban"
-              >Prohibited (covers "receiving")</td
-            ></tr
-          >
-          <tr
-            ><td>Have a dealer repair/service your Glock</td><td class="b-ok"
-              >Legal</td
-            ></tr
-          >
-          <tr
-            ><td>Sell your Glock to a non-family MD resident</td><td
-              class="b-ban">Prohibited</td
-            ></tr
-          >
-          <tr
-            ><td>Sell your Glock to an out-of-state buyer via FFL</td><td
-              class="b-ok">Legal</td
-            ></tr
-          >
+        <table class="data-table">
+          <thead><tr><th>Action</th><th>After Jan 1, 2027</th></tr></thead>
+          <tbody>
+            <tr
+              ><td>Keep your existing Glock</td><td
+                ><span class="badge badge-ok">Legal</span> &mdash; no confiscation</td
+              ></tr
+            >
+            <tr
+              ><td>Buy a new Glock from a dealer</td><td
+                ><span class="badge badge-ban">Prohibited</span></td
+              ></tr
+            >
+            <tr
+              ><td>Buy a used Glock via private sale</td><td
+                ><span class="badge badge-ban">Prohibited</span></td
+              ></tr
+            >
+            <tr
+              ><td>Transfer to immediate family member</td><td
+                ><span class="badge badge-ok">Legal</span></td
+              ></tr
+            >
+            <tr
+              ><td>Inherit a Glock</td><td
+                ><span class="badge badge-ok">Legal</span></td
+              ></tr
+            >
+            <tr
+              ><td>Buy out of state and bring back to MD</td><td
+                ><span class="badge badge-ban">Prohibited</span> (covers "receiving")</td
+              ></tr
+            >
+            <tr
+              ><td>Have a dealer repair/service your Glock</td><td
+                ><span class="badge badge-ok">Legal</span></td
+              ></tr
+            >
+            <tr
+              ><td>Sell your Glock to a non-family MD resident</td><td
+                ><span class="badge badge-ban">Prohibited</span></td
+              ></tr
+            >
+            <tr
+              ><td>Sell your Glock to an out-of-state buyer via FFL</td><td
+                ><span class="badge badge-ok">Legal</span></td
+              ></tr
+            >
+          </tbody>
         </table>
 
-        <div class="co co-red">
-          <div class="co-t">Used market effectively killed</div>
+        <div class="alert alert-danger">
+          <div class="alert-tag">Used Market Killed</div>
           <p>
             With no legal transfer mechanism outside of family and inheritance,
             the used Glock market in Maryland is eliminated. Ownership is
@@ -780,39 +1113,40 @@
         </div>
       </div>
 
-      <!-- Exemptions -->
-      <div class="section">
-        <div class="sh">Exemptions</div>
-        <div class="fl">
-          <div class="fl-i">
-            <span class="fl-b" style="background:var(--green)"></span><strong
-              >Active law enforcement officers</strong
-            >
+      <!-- 05 — Exemptions -->
+      <div class="sect" data-reveal>
+        <div class="sect-head">
+          <div class="sect-num">05</div>
+          <div class="sect-title">Exemptions</div>
+        </div>
+
+        <div class="flist">
+          <div class="flist-row">
+            <span class="flist-dot" style="background:var(--safe)"
+            ></span><strong>Active law enforcement officers</strong>
           </div>
-          <div class="fl-i">
-            <span class="fl-b" style="background:var(--green)"></span><strong
-              >Retired law enforcement officers</strong
-            >
+          <div class="flist-row">
+            <span class="flist-dot" style="background:var(--safe)"
+            ></span><strong>Retired law enforcement officers</strong>
           </div>
-          <div class="fl-i">
-            <span class="fl-b" style="background:var(--green)"></span><strong
-              >Active military members</strong
-            >
+          <div class="flist-row">
+            <span class="flist-dot" style="background:var(--safe)"
+            ></span><strong>Active military members</strong>
           </div>
-          <div class="fl-i">
-            <span class="fl-b" style="background:var(--green)"></span><strong
-              >Licensed dealers</strong
-            > for servicing or out-of-state transfers
+          <div class="flist-row">
+            <span class="flist-dot" style="background:var(--safe)"
+            ></span><strong>Licensed dealers</strong> for servicing or out-of-state
+            transfers
           </div>
-          <div class="fl-i">
-            <span class="fl-b" style="background:var(--green)"></span><strong
-              >Existing owners</strong
-            > &mdash; may keep firearms, transfer to immediate family
+          <div class="flist-row">
+            <span class="flist-dot" style="background:var(--safe)"
+            ></span><strong>Existing owners</strong>&thinsp;&mdash;&thinsp;may
+            keep firearms, transfer to immediate family
           </div>
         </div>
 
-        <div class="co co-red">
-          <div class="co-t">Two-tier system</div>
+        <div class="alert alert-danger">
+          <div class="alert-tag">Two-Tier System</div>
           <p>
             Police and military can purchase and carry the same guns that become
             criminal contraband for civilians. The people enforcing the law are
@@ -821,95 +1155,117 @@
         </div>
       </div>
 
-      <!-- Penalties -->
-      <div class="section">
-        <div class="sh">Penalties</div>
-        <table class="tb">
-          <tr><th>Violation</th><th>Charge</th><th>Penalty</th></tr>
-          <tr
-            ><td>Sale, purchase, receipt, or transfer</td><td>Misdemeanor</td
-            ><td class="b-ban">Up to 3 years + $5,000 fine</td></tr
+      <!-- 06 — Penalties -->
+      <div class="sect" data-reveal>
+        <div class="sect-head">
+          <div class="sect-num">06</div>
+          <div class="sect-title">Penalties</div>
+        </div>
+
+        <table class="data-table">
+          <thead
+            ><tr><th>Violation</th><th>Charge</th><th>Penalty</th></tr></thead
           >
-          <tr
-            ><td>Possession during felony or crime of violence</td><td
-              >Enhanced</td
-            ><td class="b-ban">Up to 10 years (20 for second offense)</td></tr
-          >
+          <tbody>
+            <tr
+              ><td><strong>Sale, purchase, receipt, or transfer</strong></td><td
+                >Misdemeanor</td
+              ><td
+                ><span style="color:var(--danger);font-weight:600;"
+                  >Up to 3 years + $5,000 fine</span
+                ></td
+              ></tr
+            >
+            <tr
+              ><td
+                ><strong>Possession during felony or crime of violence</strong
+                ></td
+              ><td>Enhanced</td><td
+                ><span style="color:var(--danger);font-weight:600;"
+                  >Up to 10 years (20 for second offense)</span
+                ></td
+              ></tr
+            >
+          </tbody>
         </table>
       </div>
 
-      <!-- Timeline -->
-      <div class="section">
-        <div class="sh">Timeline</div>
-        <div class="tl">
-          <div class="tl-item">
-            <span class="tl-date">2025 Session</span>
-            <span class="tl-text"
-              >HB 1287 (predecessor) introduced by Del. Williams &mdash; dies in
-              House Judiciary Committee</span
-            >
+      <!-- 07 — Timeline -->
+      <div class="sect" data-reveal>
+        <div class="sect-head">
+          <div class="sect-num">07</div>
+          <div class="sect-title">Timeline</div>
+        </div>
+
+        <div class="timeline">
+          <div class="tl-entry">
+            <div class="tl-date">2025 Session</div><div class="tl-desc">
+              HB 1287 (predecessor) introduced by Del. Williams &mdash; dies in
+              House Judiciary Committee
+            </div>
           </div>
-          <div class="tl-item">
-            <span class="tl-date">Jan 23, 2026</span>
-            <span class="tl-text"
-              >SB 334 introduced by Sen. Love, Smith, Waldstreicher</span
-            >
+          <div class="tl-entry">
+            <div class="tl-date">Jan 23, 2026</div><div class="tl-desc">
+              SB 334 introduced by Sen. Love, Smith, Waldstreicher
+            </div>
           </div>
-          <div class="tl-item">
-            <span class="tl-date">Feb 5, 2026</span>
-            <span class="tl-text">Senate Judicial Proceedings hearing</span>
+          <div class="tl-entry">
+            <div class="tl-date">Feb 5, 2026</div><div class="tl-desc">
+              Senate Judicial Proceedings hearing
+            </div>
           </div>
-          <div class="tl-item">
-            <span class="tl-date">Mar 19, 2026</span>
-            <span class="tl-text major">Senate passes SB 334 &mdash; 28-16</span
-            >
+          <div class="tl-entry major">
+            <div class="tl-date">Mar 19, 2026</div><div class="tl-desc">
+              Senate passes SB 334 &mdash; 28-16
+            </div>
           </div>
-          <div class="tl-item">
-            <span class="tl-date">Apr 8, 2026</span>
-            <span class="tl-text major">House passes SB 334 &mdash; 92-39</span>
+          <div class="tl-entry major">
+            <div class="tl-date">Apr 8, 2026</div><div class="tl-desc">
+              House passes SB 334 &mdash; 92-39
+            </div>
           </div>
-          <div class="tl-item">
-            <span class="tl-date">Apr 9, 2026</span>
-            <span class="tl-text major"
-              >House recedes to Senate version &mdash; final passage 91-40</span
-            >
+          <div class="tl-entry major">
+            <div class="tl-date">Apr 9, 2026</div><div class="tl-desc">
+              House recedes to Senate version &mdash; final passage 91-40
+            </div>
           </div>
-          <div class="tl-item">
-            <span class="tl-date">Apr 10, 2026</span>
-            <span class="tl-text">Bill sent to Governor Moore's desk</span>
+          <div class="tl-entry">
+            <div class="tl-date">Apr 10, 2026</div><div class="tl-desc">
+              Bill sent to Governor Moore's desk
+            </div>
           </div>
-          <div class="tl-item">
-            <span class="tl-date">Apr 17, 2026</span>
-            <span class="tl-text"
-              >Legislature adjourns sine die &mdash; 30-day signing window
-              begins</span
-            >
+          <div class="tl-entry">
+            <div class="tl-date">Apr 17, 2026</div><div class="tl-desc">
+              Legislature adjourns sine die &mdash; 30-day signing window begins
+            </div>
           </div>
-          <div class="tl-item">
-            <span class="tl-date">Oct 1, 2026</span>
-            <span class="tl-text major"
-              >Law takes effect (if signed or unsigned)</span
-            >
+          <div class="tl-entry major">
+            <div class="tl-date">Oct 1, 2026</div><div class="tl-desc">
+              Law takes effect (if signed or unsigned)
+            </div>
           </div>
-          <div class="tl-item">
-            <span class="tl-date">Jan 1, 2027</span>
-            <span class="tl-text major"
-              >Sales and transfer ban begins &mdash; MSP prohibited list must be
-              published</span
-            >
+          <div class="tl-entry major">
+            <div class="tl-date">Jan 1, 2027</div><div class="tl-desc">
+              Sales and transfer ban begins &mdash; MSP prohibited list must be
+              published
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- Legal challenges -->
-      <div class="section">
-        <div class="sh">Legal challenges</div>
-        <p>
+      <!-- 08 — Legal -->
+      <div class="sect" data-reveal>
+        <div class="sect-head">
+          <div class="sect-num">08</div>
+          <div class="sect-title">Legal challenges</div>
+        </div>
+
+        <p class="body-text">
           <strong>Maryland Shall Issue</strong> president Mark Pennak has stated the
           organization "fully intends" to challenge SB 334 in court if Governor Moore
           signs it. No lawsuit has been filed yet because the bill has not been signed.
         </p>
-        <p>
+        <p class="body-text">
           <strong>The California parallel:</strong> California passed an identical
           law (AB 1127) in October 2025, effective July 1, 2026. It is already being
           challenged in <em>Jaymes v. Bonta</em>, filed October 13, 2025, by the
@@ -918,8 +1274,8 @@
           based on internal design characteristics.
         </p>
 
-        <div class="co">
-          <div class="co-t">The Bruen problem</div>
+        <div class="alert">
+          <div class="alert-tag">The Bruen Problem</div>
           <p>
             Under <em>NYSRPA v. Bruen</em> (2022), firearms regulations must be consistent
             with America's historical tradition of firearm regulation. There is no
@@ -930,8 +1286,8 @@
           </p>
         </div>
 
-        <div class="co co-red">
-          <div class="co-t">Veto override is irrelevant</div>
+        <div class="alert alert-danger">
+          <div class="alert-tag">Veto Override Irrelevant</div>
           <p>
             Democrats hold a veto-proof supermajority in both chambers of the
             Maryland General Assembly (Senate 34-13, House 102-39). Even if
@@ -940,44 +1296,74 @@
         </div>
       </div>
 
-      <!-- National context -->
-      <div class="section">
-        <div class="sh">National context</div>
-        <table class="tb">
-          <tr><th>State</th><th>Bill</th><th>Status</th><th>Effective</th></tr>
-          <tr
-            ><td><strong>California</strong></td><td>AB 1127</td><td
-              >Signed (Oct 2025)</td
-            ><td class="b-ban">July 1, 2026</td></tr
+      <!-- 09 — National Context -->
+      <div class="sect" data-reveal>
+        <div class="sect-head">
+          <div class="sect-num">09</div>
+          <div class="sect-title">National context</div>
+        </div>
+
+        <table class="data-table">
+          <thead
+            ><tr
+              ><th>State</th><th>Bill</th><th>Status</th><th>Effective</th></tr
+            ></thead
           >
-          <tr
-            ><td><strong>Maryland</strong></td><td>SB 334</td><td
-              >Awaiting Governor</td
-            ><td class="b-warn">Jan 1, 2027</td></tr
-          >
-          <tr
-            ><td><strong>Illinois</strong></td><td>Pending</td><td
-              >In progress</td
-            ><td class="b-warn">TBD</td></tr
-          >
-          <tr
-            ><td><strong>New York</strong></td><td>Pending</td><td
-              >In progress</td
-            ><td class="b-warn">TBD</td></tr
-          >
+          <tbody>
+            <tr
+              ><td><strong>California</strong></td><td>AB 1127</td><td
+                >Signed (Oct 2025)</td
+              ><td
+                ><span style="color:var(--danger);font-weight:600;"
+                  >July 1, 2026</span
+                ></td
+              ></tr
+            >
+            <tr
+              ><td><strong>Maryland</strong></td><td>SB 334</td><td
+                >Awaiting Governor</td
+              ><td
+                ><span style="color:var(--caution);font-weight:600;"
+                  >Jan 1, 2027</span
+                ></td
+              ></tr
+            >
+            <tr
+              ><td><strong>Illinois</strong></td><td>Pending</td><td
+                >In progress</td
+              ><td
+                ><span style="color:var(--caution);font-weight:600;">TBD</span
+                ></td
+              ></tr
+            >
+            <tr
+              ><td><strong>New York</strong></td><td>Pending</td><td
+                >In progress</td
+              ><td
+                ><span style="color:var(--caution);font-weight:600;">TBD</span
+                ></td
+              ></tr
+            >
+          </tbody>
         </table>
-        <p>
+
+        <p class="body-text">
           Maryland is the second state to pass this type of legislation. The
           cruciform trigger bar definition targets the most popular handgun
-          platform in America and creates a template for other states. If
-          <em>Jaymes v. Bonta</em> fails in California, this framework spreads nationwide.
+          platform in America and creates a template for other states. If <em
+            >Jaymes v. Bonta</em
+          > fails in California, this framework spreads nationwide.
         </p>
       </div>
 
-      <!-- Watch -->
-      <div class="section">
-        <div class="sh">Watch the breakdown</div>
-        <div class="video-embed">
+      <!-- 10 — Video -->
+      <div class="sect" data-reveal>
+        <div class="sect-head">
+          <div class="sect-num">10</div>
+          <div class="sect-title">Watch the breakdown</div>
+        </div>
+
+        <div class="video-wrap">
           <iframe
             src="https://www.youtube.com/embed/1sEZiDaUys0"
             title="Maryland Glock Ban — Bearing Freedom"
@@ -985,20 +1371,18 @@
             allowfullscreen></iframe>
         </div>
       </div>
+    </div>
 
-      <!-- CTA -->
-      <div class="cta">
-        <div class="cta-t">
-          Stay informed. They're counting on you not paying attention.
-        </div>
-        <a
-          href="https://www.youtube.com/@BearingFreedom?sub_confirmation=1"
-          target="_blank"
-          class="sub-btn"
-        >
-          Subscribe &mdash; Bearing Freedom
-        </a>
+    <!-- CTA -->
+    <div class="cta-block">
+      <div class="cta-text">
+        Stay informed. They're counting on you not paying attention.
       </div>
+      <a
+        href="https://www.youtube.com/@BearingFreedom?sub_confirmation=1"
+        target="_blank"
+        class="cta-btn">Subscribe &mdash; Bearing Freedom</a
+      >
     </div>
 
     <!-- Footer -->
@@ -1007,5 +1391,23 @@
         Commentary and opinion. Not legal advice. &copy; 2026 Bearing Freedom
       </p>
     </div>
+
+    <!-- Scroll reveal script -->
+    <script is:inline>
+      const obs = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add('visible');
+              obs.unobserve(e.target);
+            }
+          });
+        },
+        { threshold: 0.08, rootMargin: '0px 0px -40px 0px' },
+      );
+      document
+        .querySelectorAll('[data-reveal]')
+        .forEach((el) => obs.observe(el));
+    </script>
   </body>
 </html>
