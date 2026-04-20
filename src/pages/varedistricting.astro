@@ -1,0 +1,2748 @@
+---
+// Standalone page — self-contained styles and scripts, no global.css
+// VA Redistricting Amendment — April 21, 2026 special election
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virginia Redistricting: The 10-1 Takeover | Bearing Freedom</title>
+    <meta
+      name="description"
+      content="Virginia's April 21 redistricting amendment asks voters to 'restore fairness' by handing Democrats 10 of 11 congressional seats. The case for NO: maps, polling, prediction markets, and the ballot language."
+    />
+    <meta
+      property="og:title"
+      content="Virginia Redistricting: The 10-1 Takeover | Bearing Freedom"
+    />
+    <meta
+      property="og:description"
+      content="The word 'fair' doesn't appear in the proposed map. Full breakdown of Virginia's April 21 redistricting referendum."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://bearingfreedom.com/varedistricting"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6WRV03TTZ"
+    ></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-Q6WRV03TTZ', {
+        send_page_view: true,
+        allow_google_signals: true,
+        allow_ad_personalization_signals: true,
+        cookie_flags: 'SameSite=None;Secure',
+        page_referrer: document.referrer,
+        screen_resolution: window.screen.width + 'x' + window.screen.height,
+      });
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style is:global>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --void: #07090f;
+        --bg: #0b0f1a;
+        --surface: #111627;
+        --panel: #161d30;
+        --panel-2: #1c2540;
+        --border: #232c48;
+        --border-dim: #1a2139;
+        --text: #f2f5fb;
+        --text-mid: #c5cdde;
+        --text-dim: #8892a8;
+        --text-faint: #596176;
+        --red: #ef3b3b;
+        --red-deep: #b91c1c;
+        --red-glow: rgba(239, 59, 59, 0.2);
+        --blue: #3b82f6;
+        --blue-deep: #1e40af;
+        --blue-glow: rgba(59, 130, 246, 0.18);
+        --gold: #f5b129;
+        --gold-deep: #a37a18;
+        --green: #10b981;
+        --purple: #a855f7;
+        --grid: #1a2139;
+        --display: 'Archivo Black', Impact, 'Helvetica Neue', sans-serif;
+        --body: 'Inter', system-ui, -apple-system, sans-serif;
+        --mono: 'JetBrains Mono', 'Courier New', monospace;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        background: var(--void);
+      }
+
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: var(--body);
+        font-size: 17px;
+        line-height: 1.65;
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+      }
+
+      a {
+        color: var(--red);
+        text-decoration: none;
+      }
+      a:hover {
+        color: var(--text);
+      }
+
+      /* ═══ TOPBAR ═══ */
+      .topbar {
+        background: var(--void);
+        padding: 0 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 48px;
+        border-bottom: 1px solid var(--border-dim);
+        position: sticky;
+        top: 0;
+        z-index: 50;
+      }
+      .topbar-brand {
+        font-family: var(--display);
+        font-size: 18px;
+        color: var(--text);
+        letter-spacing: 0.5px;
+      }
+      .topbar-brand .tick {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background: var(--red);
+        border-radius: 50%;
+        margin-right: 8px;
+        animation: pulse 1.8s ease-in-out infinite;
+        vertical-align: middle;
+        transform: translateY(-2px);
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+          box-shadow: 0 0 0 0 var(--red-glow);
+        }
+        50% {
+          opacity: 0.6;
+          box-shadow: 0 0 0 6px rgba(239, 59, 59, 0);
+        }
+      }
+      .topbar-links {
+        display: flex;
+        gap: 20px;
+      }
+      .topbar-links a {
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--text-dim);
+      }
+      .topbar-links a:hover {
+        color: var(--text);
+      }
+
+      /* ═══ TICKER ═══ */
+      .ticker {
+        background: var(--red-deep);
+        overflow: hidden;
+        white-space: nowrap;
+        padding: 9px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+      }
+      .ticker-scroll {
+        display: inline-block;
+        animation: scroll 60s linear infinite;
+      }
+      .ticker-scroll span {
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 500;
+        color: #fff;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .ticker-sep {
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        background: rgba(255, 255, 255, 0.55);
+        border-radius: 50%;
+        margin: 0 22px;
+        vertical-align: middle;
+      }
+      @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+
+      /* ═══ HERO ═══ */
+      .hero {
+        position: relative;
+        padding: 72px 24px 56px;
+        border-bottom: 1px solid var(--border);
+        overflow: hidden;
+      }
+      .hero::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(var(--grid) 1px, transparent 1px),
+          linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+        background-size: 56px 56px;
+        background-position: 0 0;
+        mask-image: radial-gradient(
+          ellipse at 50% 40%,
+          #000 30%,
+          transparent 70%
+        );
+        -webkit-mask-image: radial-gradient(
+          ellipse at 50% 40%,
+          #000 30%,
+          transparent 70%
+        );
+        opacity: 0.55;
+        pointer-events: none;
+      }
+      .hero-inner {
+        position: relative;
+        max-width: 1180px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .dateline {
+        font-family: var(--mono);
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+        color: var(--text-dim);
+        margin-bottom: 28px;
+      }
+      .dateline .sep {
+        color: var(--red);
+        margin: 0 10px;
+      }
+      .hero-title {
+        font-family: var(--display);
+        font-size: clamp(54px, 10vw, 128px);
+        line-height: 0.92;
+        letter-spacing: -2px;
+        color: var(--text);
+        margin-bottom: 4px;
+      }
+      .hero-title .red {
+        color: var(--red);
+      }
+      .hero-title .strike {
+        position: relative;
+        display: inline-block;
+      }
+      .hero-title .strike::after {
+        content: '';
+        position: absolute;
+        left: -4%;
+        right: -4%;
+        top: 52%;
+        height: 7px;
+        background: var(--red);
+        transform: rotate(-3deg);
+      }
+      .hero-deck {
+        font-family: var(--body);
+        font-size: clamp(18px, 2.2vw, 24px);
+        color: var(--text-mid);
+        max-width: 780px;
+        margin: 28px auto 0;
+        line-height: 1.45;
+        font-weight: 400;
+      }
+      .hero-deck em {
+        color: var(--gold);
+        font-style: normal;
+        font-weight: 600;
+      }
+      .hero-tags {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 32px;
+      }
+      .pill {
+        font-family: var(--mono);
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        padding: 6px 14px;
+        border: 1px solid var(--border);
+        color: var(--text-dim);
+        border-radius: 999px;
+        background: var(--surface);
+      }
+      .pill-red {
+        border-color: var(--red);
+        color: var(--red);
+        background: var(--red-glow);
+      }
+      .pill-gold {
+        border-color: var(--gold);
+        color: var(--gold);
+        background: rgba(245, 177, 41, 0.1);
+      }
+
+      /* ═══ COUNTDOWN ═══ */
+      .countdown {
+        margin: 44px auto 0;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 16px 24px;
+        background: var(--void);
+        border: 1px solid var(--red);
+        border-radius: 4px;
+        box-shadow: 0 0 40px rgba(239, 59, 59, 0.15);
+      }
+      .countdown-label {
+        font-family: var(--mono);
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        color: var(--red);
+        margin-right: 10px;
+      }
+      .countdown-unit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 50px;
+      }
+      .countdown-val {
+        font-family: var(--display);
+        font-size: 32px;
+        color: var(--text);
+        line-height: 1;
+        font-variant-numeric: tabular-nums;
+      }
+      .countdown-lbl {
+        font-family: var(--mono);
+        font-size: 8px;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        color: var(--text-dim);
+        margin-top: 4px;
+      }
+      .countdown-colon {
+        font-family: var(--display);
+        font-size: 28px;
+        color: var(--red);
+        line-height: 1;
+        opacity: 0.4;
+      }
+
+      /* ═══ STATS STRIP ═══ */
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        background: var(--surface);
+        border-bottom: 1px solid var(--border);
+      }
+      .stat {
+        padding: 28px 18px;
+        text-align: center;
+        border-right: 1px solid var(--border-dim);
+      }
+      .stat:last-child {
+        border-right: none;
+      }
+      .stat-val {
+        font-family: var(--display);
+        font-size: 34px;
+        line-height: 1;
+        color: var(--text);
+        font-variant-numeric: tabular-nums;
+      }
+      .stat-val.red {
+        color: var(--red);
+      }
+      .stat-val.blue {
+        color: var(--blue);
+      }
+      .stat-val.gold {
+        color: var(--gold);
+      }
+      .stat-val .sub {
+        font-size: 16px;
+        color: var(--text-dim);
+        font-family: var(--mono);
+        font-weight: 500;
+        margin-left: 4px;
+      }
+      .stat-lbl {
+        font-family: var(--mono);
+        font-size: 9px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        color: var(--text-dim);
+        margin-top: 10px;
+      }
+      @media (max-width: 900px) {
+        .stats {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        .stat:nth-child(3) {
+          border-right: none;
+        }
+        .stat:nth-child(-n + 3) {
+          border-bottom: 1px solid var(--border-dim);
+        }
+      }
+
+      /* ═══ SECTION ═══ */
+      .section {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 80px 24px;
+        border-bottom: 1px solid var(--border-dim);
+      }
+      .section-wide {
+        max-width: 1280px;
+      }
+      .section-label {
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.22em;
+        color: var(--red);
+        margin-bottom: 14px;
+      }
+      .section-label .num {
+        color: var(--text-faint);
+        margin-right: 10px;
+      }
+      .section-title {
+        font-family: var(--display);
+        font-size: clamp(32px, 4.6vw, 56px);
+        line-height: 1.02;
+        letter-spacing: -1px;
+        color: var(--text);
+        margin-bottom: 16px;
+      }
+      .section-title .red {
+        color: var(--red);
+      }
+      .section-title .gold {
+        color: var(--gold);
+      }
+      .section-deck {
+        font-size: 18px;
+        color: var(--text-mid);
+        max-width: 720px;
+        margin-bottom: 48px;
+        line-height: 1.55;
+      }
+
+      /* ═══ PROSE ═══ */
+      .prose {
+        font-size: 17px;
+        line-height: 1.75;
+        color: var(--text-mid);
+        max-width: 720px;
+      }
+      .prose p {
+        margin-bottom: 18px;
+      }
+      .prose strong {
+        color: var(--text);
+        font-weight: 700;
+      }
+      .prose em {
+        color: var(--gold);
+        font-style: normal;
+        font-weight: 600;
+      }
+
+      /* ═══ BALLOT BOX ═══ */
+      .ballot {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-left: 4px solid var(--red);
+        padding: 36px 36px 32px;
+        margin: 16px 0 32px;
+        position: relative;
+      }
+      .ballot::before {
+        content: 'OFFICIAL BALLOT TEXT';
+        position: absolute;
+        top: -10px;
+        left: 24px;
+        font-family: var(--mono);
+        font-size: 9px;
+        letter-spacing: 0.2em;
+        padding: 3px 10px;
+        background: var(--bg);
+        color: var(--red);
+        border: 1px solid var(--border);
+      }
+      .ballot-text {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 22px;
+        line-height: 1.55;
+        color: var(--text);
+        font-style: italic;
+      }
+      .ballot-text .flag {
+        background: var(--red-glow);
+        color: var(--red);
+        font-weight: 700;
+        padding: 0 4px;
+        border-bottom: 2px solid var(--red);
+        font-style: normal;
+      }
+      .ballot-text .flag-gold {
+        background: rgba(245, 177, 41, 0.16);
+        color: var(--gold);
+        font-weight: 700;
+        padding: 0 4px;
+        border-bottom: 2px solid var(--gold);
+        font-style: normal;
+      }
+      .ballot-meta {
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--text-faint);
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        margin-top: 22px;
+        padding-top: 18px;
+        border-top: 1px solid var(--border-dim);
+      }
+
+      /* ═══ ANNOTATION ROW ═══ */
+      .annot {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 20px 28px;
+        margin: 24px 0 0;
+      }
+      .annot-word {
+        font-family: var(--display);
+        font-size: 18px;
+        color: var(--red);
+        white-space: nowrap;
+        line-height: 1.4;
+        padding-top: 2px;
+      }
+      .annot-word.gold {
+        color: var(--gold);
+      }
+      .annot-text {
+        color: var(--text-mid);
+        font-size: 16px;
+        line-height: 1.6;
+      }
+      .annot-text strong {
+        color: var(--text);
+      }
+
+      /* ═══ MAP COMPARISON ═══ */
+      .maps {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        gap: 16px;
+        align-items: stretch;
+        margin: 16px 0 32px;
+      }
+      .map-panel {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        padding: 28px 20px 20px;
+        position: relative;
+      }
+      .map-panel.before {
+        border-left: 3px solid var(--blue);
+      }
+      .map-panel.after {
+        border-left: 3px solid var(--red);
+      }
+      .map-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 6px;
+        font-family: var(--mono);
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        color: var(--text-dim);
+      }
+      .map-head .tag {
+        color: var(--red);
+      }
+      .map-title {
+        font-family: var(--display);
+        font-size: 22px;
+        color: var(--text);
+        margin-bottom: 2px;
+      }
+      .map-tally {
+        font-family: var(--display);
+        font-size: 44px;
+        color: var(--text);
+        letter-spacing: -1px;
+        margin: 10px 0 16px;
+      }
+      .map-tally .d {
+        color: var(--blue);
+      }
+      .map-tally .r {
+        color: var(--red);
+      }
+      .map-tally .slash {
+        color: var(--text-faint);
+        margin: 0 6px;
+      }
+
+      .hexgrid {
+        position: relative;
+        width: 100%;
+        max-width: 340px;
+        margin: 10px auto 4px;
+      }
+      .hexgrid svg {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .hex {
+        transition:
+          transform 0.18s ease,
+          filter 0.18s ease;
+        cursor: pointer;
+      }
+      .hex:hover {
+        transform: scale(1.06);
+        transform-origin: center;
+        filter: brightness(1.25);
+      }
+      .hex-D {
+        fill: var(--blue);
+      }
+      .hex-R {
+        fill: var(--red);
+      }
+      .hex-D-safe {
+        fill: var(--blue-deep);
+      }
+      .hex-R-safe {
+        fill: var(--red-deep);
+      }
+      .hex-flip {
+        fill: var(--gold);
+        stroke: var(--gold);
+        stroke-width: 1.5;
+      }
+      .hex-num {
+        font-family: var(--display);
+        font-size: 14px;
+        fill: #fff;
+        text-anchor: middle;
+        dominant-baseline: central;
+        pointer-events: none;
+      }
+
+      .map-legend {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 10px;
+        font-family: var(--mono);
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: var(--text-dim);
+      }
+      .map-legend .swatch {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-right: 6px;
+        vertical-align: middle;
+      }
+      .map-legend .sw-D {
+        background: var(--blue);
+      }
+      .map-legend .sw-R {
+        background: var(--red);
+      }
+      .map-legend .sw-flip {
+        background: var(--gold);
+      }
+
+      .map-arrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 8px;
+      }
+      .map-arrow-inner {
+        font-family: var(--display);
+        font-size: 44px;
+        color: var(--red);
+        transform: rotate(-3deg);
+        text-shadow: 0 0 30px rgba(239, 59, 59, 0.4);
+      }
+      .map-arrow-label {
+        font-family: var(--mono);
+        font-size: 9px;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: var(--text-dim);
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        margin-top: 8px;
+      }
+      @media (max-width: 800px) {
+        .maps {
+          grid-template-columns: 1fr;
+        }
+        .map-arrow {
+          padding: 12px 0;
+        }
+        .map-arrow-label {
+          writing-mode: horizontal-tb;
+          transform: none;
+        }
+      }
+
+      /* ═══ TALLY BAR ═══ */
+      .tally {
+        display: flex;
+        gap: 3px;
+        margin: 14px 0 6px;
+      }
+      .tally-cell {
+        flex: 1;
+        height: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--mono);
+        font-size: 10px;
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: 0.04em;
+      }
+      .tally-D {
+        background: var(--blue);
+      }
+      .tally-R {
+        background: var(--red);
+      }
+
+      /* ═══ FLIP CARDS ═══ */
+      .flips {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 14px;
+        margin-top: 36px;
+      }
+      .flip {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        padding: 22px 22px 20px;
+        position: relative;
+        overflow: hidden;
+      }
+      .flip::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-top: 36px solid var(--gold);
+        border-left: 36px solid transparent;
+      }
+      .flip-district {
+        font-family: var(--display);
+        font-size: 14px;
+        color: var(--red);
+        letter-spacing: 0.08em;
+        margin-bottom: 4px;
+      }
+      .flip-rep {
+        font-family: var(--display);
+        font-size: 22px;
+        color: var(--text);
+        margin-bottom: 4px;
+        line-height: 1.2;
+      }
+      .flip-region {
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--text-dim);
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        margin-bottom: 16px;
+      }
+      .flip-change {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: var(--mono);
+        font-size: 11px;
+        margin-bottom: 14px;
+        padding: 10px 12px;
+        background: var(--bg);
+        border-left: 2px solid var(--gold);
+      }
+      .flip-change .was {
+        color: var(--red);
+        font-weight: 700;
+      }
+      .flip-change .arrow {
+        color: var(--text-faint);
+      }
+      .flip-change .is {
+        color: var(--blue);
+        font-weight: 700;
+      }
+      .flip-note {
+        font-size: 14px;
+        color: var(--text-mid);
+        line-height: 1.55;
+      }
+
+      /* ═══ POLL CHART ═══ */
+      .chart-wrap {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        padding: 32px 24px 24px;
+        margin: 16px 0 24px;
+      }
+      .chart-legend {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+      .chart-legend-items {
+        display: flex;
+        gap: 22px;
+        font-family: var(--mono);
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: var(--text-dim);
+      }
+      .chart-legend-items .dot {
+        display: inline-block;
+        width: 12px;
+        height: 3px;
+        vertical-align: middle;
+        margin-right: 8px;
+      }
+      .chart-legend-items .dot-yes {
+        background: var(--blue);
+      }
+      .chart-legend-items .dot-no {
+        background: var(--red);
+      }
+      .chart-legend-items .dot-moe {
+        background: repeating-linear-gradient(
+          90deg,
+          var(--text-faint) 0 3px,
+          transparent 3px 6px
+        );
+        height: 2px;
+      }
+      .chart-title-small {
+        font-family: var(--mono);
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        color: var(--text-faint);
+      }
+      .chart {
+        width: 100%;
+        height: auto;
+      }
+
+      .poll-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1px;
+        margin-top: 24px;
+        background: var(--border-dim);
+        border: 1px solid var(--border-dim);
+      }
+      .poll-item {
+        background: var(--panel);
+        padding: 16px;
+      }
+      .poll-date {
+        font-family: var(--mono);
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--text-faint);
+        margin-bottom: 4px;
+      }
+      .poll-name {
+        font-family: var(--display);
+        font-size: 13px;
+        color: var(--text);
+        margin-bottom: 10px;
+        line-height: 1.25;
+      }
+      .poll-numbers {
+        display: flex;
+        gap: 10px;
+        font-family: var(--mono);
+        font-size: 13px;
+        font-weight: 700;
+      }
+      .poll-numbers .yes {
+        color: var(--blue);
+      }
+      .poll-numbers .no {
+        color: var(--red);
+      }
+      .poll-numbers .gap {
+        color: var(--text-faint);
+        font-weight: 500;
+      }
+      .poll-flag {
+        display: inline-block;
+        margin-top: 10px;
+        font-family: var(--mono);
+        font-size: 9px;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        padding: 3px 8px;
+        background: var(--gold);
+        color: var(--void);
+        font-weight: 700;
+      }
+      .poll-flag.red {
+        background: var(--red);
+        color: #fff;
+      }
+
+      /* ═══ MARKETS ═══ */
+      .markets {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 14px;
+        margin: 16px 0 24px;
+      }
+      .market {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        padding: 22px;
+      }
+      .market-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 14px;
+      }
+      .market-name {
+        font-family: var(--display);
+        font-size: 15px;
+        color: var(--text);
+        letter-spacing: 0.02em;
+      }
+      .market-vol {
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--text-faint);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+      }
+      .market-bar {
+        display: flex;
+        height: 36px;
+        border: 1px solid var(--border);
+        overflow: hidden;
+        margin-bottom: 8px;
+      }
+      .market-bar-yes {
+        background: var(--blue);
+        display: flex;
+        align-items: center;
+        padding-left: 12px;
+        color: #fff;
+        font-family: var(--mono);
+        font-weight: 700;
+        font-size: 13px;
+      }
+      .market-bar-no {
+        background: var(--red);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 12px;
+        color: #fff;
+        font-family: var(--mono);
+        font-weight: 700;
+        font-size: 13px;
+      }
+      .market-labels {
+        display: flex;
+        justify-content: space-between;
+        font-family: var(--mono);
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--text-dim);
+      }
+      .market-note {
+        font-size: 13px;
+        color: var(--text-dim);
+        margin-top: 12px;
+        line-height: 1.5;
+      }
+
+      /* ═══ FUNDING ═══ */
+      .funding-wrap {
+        margin: 16px 0 0;
+      }
+      .funding-bar-wrap {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        padding: 28px 28px 24px;
+        margin-bottom: 20px;
+      }
+      .funding-bar-label-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: wrap;
+        gap: 12px;
+        font-family: var(--mono);
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        margin-bottom: 14px;
+      }
+      .funding-bar-label {
+        color: var(--text);
+      }
+      .funding-bar-total {
+        color: var(--red);
+      }
+      .funding-bar {
+        display: flex;
+        height: 72px;
+        border: 1px solid var(--border);
+        overflow: hidden;
+        background: var(--bg);
+      }
+      .funding-seg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-family: var(--display);
+        position: relative;
+        overflow: hidden;
+      }
+      .funding-seg.out {
+        background: linear-gradient(
+          135deg,
+          var(--red-deep) 0%,
+          var(--red) 100%
+        );
+      }
+      .funding-seg.va {
+        background: var(--green);
+      }
+      .funding-seg-pct {
+        font-size: 28px;
+        line-height: 1;
+      }
+      .funding-seg-lbl {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.14em;
+        margin-top: 4px;
+        font-weight: 700;
+      }
+      .funding-bar-footnote {
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--text-faint);
+        letter-spacing: 0.1em;
+        margin-top: 12px;
+        text-transform: uppercase;
+      }
+
+      .donors {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 14px;
+        margin-bottom: 20px;
+      }
+      .donor {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-left: 3px solid var(--red);
+        padding: 22px 22px 20px;
+      }
+      .donor:nth-child(3) {
+        border-left-color: var(--green);
+      }
+      .donor-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .donor-rank {
+        font-family: var(--mono);
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        color: var(--text-dim);
+      }
+      .donor-pct {
+        font-family: var(--mono);
+        font-size: 11px;
+        color: var(--red);
+        font-weight: 700;
+        letter-spacing: 0.08em;
+      }
+      .donor:nth-child(3) .donor-pct {
+        color: var(--green);
+      }
+      .donor-amount {
+        font-family: var(--display);
+        font-size: 48px;
+        color: var(--red);
+        line-height: 1;
+        margin-bottom: 6px;
+        letter-spacing: -1px;
+      }
+      .donor-amount.va-green {
+        color: var(--green);
+      }
+      .donor-name {
+        font-family: var(--display);
+        font-size: 17px;
+        color: var(--text);
+        margin-bottom: 10px;
+        letter-spacing: -0.3px;
+      }
+      .donor-detail {
+        font-size: 14px;
+        color: var(--text-mid);
+        line-height: 1.55;
+      }
+      .donor-detail strong {
+        color: var(--text);
+      }
+
+      .fair-note {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-left: 3px solid var(--gold);
+        padding: 22px 26px 20px;
+        margin-top: 8px;
+      }
+      .fair-note-label {
+        font-family: var(--mono);
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        color: var(--gold);
+        margin-bottom: 10px;
+      }
+      .fair-note p {
+        font-size: 15px;
+        color: var(--text-mid);
+        line-height: 1.65;
+      }
+      .fair-note p strong {
+        color: var(--text);
+      }
+
+      /* ═══ PULLQUOTE ═══ */
+      .pull {
+        padding: 60px 24px;
+        margin: 48px 0;
+        border-top: 1px solid var(--red);
+        border-bottom: 1px solid var(--red);
+        text-align: center;
+      }
+      .pull-text {
+        font-family: var(--display);
+        font-size: clamp(24px, 3.4vw, 40px);
+        color: var(--text);
+        line-height: 1.2;
+        letter-spacing: -0.5px;
+        max-width: 860px;
+        margin: 0 auto;
+      }
+      .pull-text .red {
+        color: var(--red);
+      }
+
+      /* ═══ CASE LIST ═══ */
+      .case {
+        margin: 24px 0;
+      }
+      .case-item {
+        display: grid;
+        grid-template-columns: 60px 1fr;
+        gap: 20px;
+        padding: 22px 0;
+        border-bottom: 1px solid var(--border-dim);
+      }
+      .case-item:last-child {
+        border-bottom: none;
+      }
+      .case-num {
+        font-family: var(--display);
+        font-size: 40px;
+        color: var(--red);
+        line-height: 1;
+      }
+      .case-body h3 {
+        font-family: var(--display);
+        font-size: 20px;
+        color: var(--text);
+        margin-bottom: 6px;
+        line-height: 1.25;
+      }
+      .case-body p {
+        font-size: 16px;
+        color: var(--text-mid);
+        line-height: 1.6;
+      }
+      .case-body p strong {
+        color: var(--text);
+      }
+
+      /* ═══ MOMENTUM ═══ */
+      .momentum {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 14px;
+        margin: 36px 0;
+      }
+      .mo {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-top: 3px solid var(--green);
+        padding: 24px 22px;
+      }
+      .mo-val {
+        font-family: var(--display);
+        font-size: 44px;
+        color: var(--green);
+        line-height: 1;
+        font-variant-numeric: tabular-nums;
+      }
+      .mo-val .sub {
+        font-size: 20px;
+        color: var(--text-dim);
+        margin-left: 4px;
+      }
+      .mo-label {
+        font-family: var(--mono);
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        color: var(--text-dim);
+        margin-top: 8px;
+      }
+      .mo-note {
+        font-size: 13px;
+        color: var(--text-mid);
+        margin-top: 12px;
+        line-height: 1.5;
+      }
+
+      /* ═══ CTA ═══ */
+      .cta {
+        background: var(--red-deep);
+        padding: 80px 24px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+      .cta::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(rgba(0, 0, 0, 0.25) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(0, 0, 0, 0.25) 1px, transparent 1px);
+        background-size: 40px 40px;
+        opacity: 0.5;
+      }
+      .cta-inner {
+        position: relative;
+        max-width: 860px;
+        margin: 0 auto;
+      }
+      .cta-kicker {
+        font-family: var(--mono);
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+        color: rgba(255, 255, 255, 0.75);
+        margin-bottom: 18px;
+      }
+      .cta h2 {
+        font-family: var(--display);
+        font-size: clamp(40px, 6vw, 80px);
+        color: #fff;
+        line-height: 0.98;
+        letter-spacing: -1.5px;
+        margin-bottom: 18px;
+      }
+      .cta p {
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.9);
+        max-width: 640px;
+        margin: 0 auto 30px;
+        line-height: 1.55;
+      }
+      .cta-button {
+        display: inline-block;
+        font-family: var(--mono);
+        font-size: 13px;
+        font-weight: 700;
+        padding: 18px 42px;
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        background: #fff;
+        color: var(--red-deep);
+        text-decoration: none;
+        transition:
+          transform 0.15s ease,
+          background 0.15s ease;
+      }
+      .cta-button:hover {
+        background: var(--text);
+        transform: translateY(-2px);
+        color: var(--red-deep);
+      }
+      .cta-hours {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-top: 28px;
+        font-family: var(--mono);
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        color: rgba(255, 255, 255, 0.85);
+      }
+      .cta-hours span {
+        padding: 6px 14px;
+        border: 1px solid rgba(255, 255, 255, 0.35);
+      }
+
+      /* ═══ FOOTER ═══ */
+      .foot {
+        background: var(--void);
+        padding: 48px 24px 32px;
+        text-align: center;
+        border-top: 1px solid var(--border);
+      }
+      .foot-title {
+        font-family: var(--mono);
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: var(--text-dim);
+        margin-bottom: 18px;
+      }
+      .foot-sources {
+        max-width: 860px;
+        margin: 0 auto;
+        font-family: var(--mono);
+        font-size: 11px;
+        color: var(--text-faint);
+        line-height: 1.9;
+      }
+      .foot-sources a {
+        color: var(--text-dim);
+      }
+      .foot-sources a:hover {
+        color: var(--text);
+      }
+      .foot-brand {
+        margin-top: 28px;
+        font-family: var(--display);
+        font-size: 14px;
+        color: var(--text);
+        letter-spacing: 0.5px;
+      }
+      .foot-small {
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--text-faint);
+        margin-top: 6px;
+        letter-spacing: 0.1em;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- TOPBAR -->
+    <nav class="topbar">
+      <a href="/" class="topbar-brand"
+        ><span class="tick"></span>BEARING FREEDOM</a
+      >
+      <div class="topbar-links">
+        <a href="/extras">EXTRAS</a>
+        <a href="/articles">ARTICLES</a>
+        <a href="/videos">VIDEOS</a>
+      </div>
+    </nav>
+
+    <!-- TICKER -->
+    <div class="ticker">
+      <div class="ticker-scroll">
+        <span>POLLS OPEN TOMORROW 6 AM</span>
+        <span class="ticker-sep"></span>
+        <span>VIRGINIA SPECIAL ELECTION APR 21 2026</span>
+        <span class="ticker-sep"></span>
+        <span>WITHIN MARGIN OF ERROR</span>
+        <span class="ticker-sep"></span>
+        <span>10-1 MAP ON THE LINE</span>
+        <span class="ticker-sep"></span>
+        <span>VOTE NO</span>
+        <span class="ticker-sep"></span>
+        <span>AD GAP CLOSED 17X → 3X</span>
+        <span class="ticker-sep"></span>
+        <span>GOP VOTERS MORE MOTIVATED PER WAPO</span>
+        <span class="ticker-sep"></span>
+        <span>92% OF YES MONEY FROM OUT-OF-STATE DARK MONEY — VPAP</span>
+        <span class="ticker-sep"></span>
+        <span>HOUSE MAJORITY FORWARD: $29.3M</span>
+        <span class="ticker-sep"></span>
+        <span>POLLS OPEN TOMORROW 6 AM</span>
+        <span class="ticker-sep"></span>
+        <span>VIRGINIA SPECIAL ELECTION APR 21 2026</span>
+        <span class="ticker-sep"></span>
+        <span>WITHIN MARGIN OF ERROR</span>
+        <span class="ticker-sep"></span>
+        <span>10-1 MAP ON THE LINE</span>
+        <span class="ticker-sep"></span>
+        <span>VOTE NO</span>
+        <span class="ticker-sep"></span>
+        <span>AD GAP CLOSED 17X → 3X</span>
+        <span class="ticker-sep"></span>
+        <span>GOP VOTERS MORE MOTIVATED PER WAPO</span>
+        <span class="ticker-sep"></span>
+      </div>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="dateline">
+          VIRGINIA<span class="sep">●</span>SPECIAL ELECTION<span class="sep"
+            >●</span
+          >APRIL 21 2026
+        </div>
+        <h1 class="hero-title">
+          THE <span class="red">10-1</span><br />TAKEOVER
+        </h1>
+        <p class="hero-deck">
+          One ballot question. One word — <em>"fairness"</em> — doing all the heavy
+          lifting. And a map that hands Democrats ten of Virginia's eleven congressional
+          seats in a state that voted roughly 54/46 last presidential cycle.
+        </p>
+        <div class="hero-tags">
+          <span class="pill pill-red">VOTE NO</span>
+          <span class="pill">CONST. AMENDMENT</span>
+          <span class="pill pill-gold">WITHIN MoE</span>
+          <span class="pill">EXPIRES 2030</span>
+          <span class="pill">11 CD SEATS</span>
+        </div>
+        <div class="countdown" id="countdown">
+          <div class="countdown-label">POLLS OPEN IN</div>
+          <div class="countdown-unit">
+            <div class="countdown-val" id="cd-d">00</div>
+            <div class="countdown-lbl">DAYS</div>
+          </div>
+          <div class="countdown-colon">:</div>
+          <div class="countdown-unit">
+            <div class="countdown-val" id="cd-h">00</div>
+            <div class="countdown-lbl">HRS</div>
+          </div>
+          <div class="countdown-colon">:</div>
+          <div class="countdown-unit">
+            <div class="countdown-val" id="cd-m">00</div>
+            <div class="countdown-lbl">MIN</div>
+          </div>
+          <div class="countdown-colon">:</div>
+          <div class="countdown-unit">
+            <div class="countdown-val" id="cd-s">00</div>
+            <div class="countdown-lbl">SEC</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS STRIP -->
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-val blue">50<span class="sub">%</span></div>
+        <div class="stat-lbl">Latest YES (State Navigate)</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val red">45<span class="sub">%</span></div>
+        <div class="stat-lbl">Latest NO</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val gold">±5<span class="sub">pt</span></div>
+        <div class="stat-lbl">Within margin of error</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val red">10–1</div>
+        <div class="stat-lbl">Proposed partisan split</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val">4</div>
+        <div class="stat-lbl">GOP seats erased</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val gold">&lt;24<span class="sub">hrs</span></div>
+        <div class="stat-lbl">Until polls open</div>
+      </div>
+    </div>
+
+    <!-- THE QUESTION -->
+    <section class="section">
+      <div class="section-label">
+        <span class="num">01 /</span>THE QUESTION ON YOUR BALLOT
+      </div>
+      <h2 class="section-title">
+        Read it carefully. <span class="red"
+          >They're counting on you not to.</span
+        >
+      </h2>
+      <p class="section-deck">
+        Every word of a ballot question is a fight. This one was written by the
+        people who drew the 10-1 map — and they spent their word budget on
+        exactly two moves.
+      </p>
+
+      <div class="ballot">
+        <p class="ballot-text">
+          "Should the Constitution of Virginia be amended to allow the General
+          Assembly to <span class="flag-gold">temporarily</span> adopt new congressional
+          districts to
+          <span class="flag">restore fairness</span> in the upcoming elections, while
+          ensuring Virginia's standard redistricting process resumes for all future
+          redistricting after the 2030 census?"
+        </p>
+        <div class="ballot-meta">
+          VA DEPT. OF ELECTIONS — PROPOSED AMENDMENT, APRIL 2026 SPECIAL
+          ELECTION
+        </div>
+      </div>
+
+      <div class="prose">
+        <p>
+          Notice what's <strong>not</strong> on the ballot: the actual map. The proposed
+          10-1 district layout does not appear in the question you are being asked
+          to vote on. You are voting on the
+          <em>power to draw it</em>, not the map itself — which means a yes vote
+          is a blank check.
+        </p>
+      </div>
+
+      <div class="annot">
+        <div class="annot-word">"restore fairness"</div>
+        <div class="annot-text">
+          <strong>The load-bearing phrase.</strong> Presented as a correction. In
+          practice, it means handing one party 91% of Virginia's House delegation
+          in a state that splits almost evenly in statewide races. The word "fair"
+          does not appear anywhere in the map itself — only in the ballot language
+          asking permission to draw it.
+        </div>
+        <div class="annot-word gold">"temporarily"</div>
+        <div class="annot-text">
+          <strong>Until 2031.</strong> Which is three federal elections, every House
+          seat up for grabs. "Temporary" doing a lot of work when the timeline covers
+          100% of the next decade's congressional cycle.
+        </div>
+        <div class="annot-word">"upcoming elections"</div>
+        <div class="annot-text">
+          <strong>No limit on scope.</strong> The General Assembly gets to pick the
+          map. You get to vote on whether they get to pick.
+        </div>
+        <div class="annot-word gold">"standard … process resumes"</div>
+        <div class="annot-text">
+          <strong>The permission slip.</strong> Framed as a return-to-normal after
+          a one-time intervention. What it actually does is carve a retaliation loophole
+          into the Virginia Constitution that any future legislature can invoke the
+          moment another state redraws.
+        </div>
+      </div>
+    </section>
+
+    <!-- THE MAP -->
+    <section class="section section-wide">
+      <div class="section-label">
+        <span class="num">02 /</span>THE MAP — BEFORE AND AFTER
+      </div>
+      <h2 class="section-title">
+        From <span class="red">6–5</span> to <span class="red">10–1</span>
+        overnight.
+      </h2>
+      <p class="section-deck">
+        Virginia's current congressional map — drawn by the independent
+        redistricting process voters approved in 2020 — produces a near-even
+        split that mirrors the state's actual partisan balance. The proposed map
+        erases four Republican-held seats in one stroke.
+      </p>
+
+      <div class="maps">
+        <div class="map-panel before">
+          <div class="map-head">
+            <span>CURRENT MAP</span>
+            <span>DRAWN 2022</span>
+          </div>
+          <div class="map-title">The map Virginia has</div>
+          <div class="map-tally">
+            <span class="d">6D</span><span class="slash">/</span><span class="r"
+              >5R</span
+            >
+          </div>
+          <div class="hexgrid">
+            <svg
+              viewBox="0 0 340 260"
+              aria-label="Current VA congressional map (6D/5R)"
+            >
+              <!-- Row 1 (north) -->
+              <g class="hex" data-info="VA-10 — Subramanyam (D) — Loudoun">
+                <polygon
+                  class="hex-D"
+                  points="42,40 68,25 94,40 94,70 68,85 42,70"></polygon>
+                <text class="hex-num" x="68" y="55">10</text>
+              </g>
+              <g class="hex" data-info="VA-11 — Walkinshaw (D) — Fairfax">
+                <polygon
+                  class="hex-D"
+                  points="110,40 136,25 162,40 162,70 136,85 110,70"></polygon>
+                <text class="hex-num" x="136" y="55">11</text>
+              </g>
+              <g
+                class="hex"
+                data-info="VA-8 — Beyer (D) — Arlington/Alexandria"
+              >
+                <polygon
+                  class="hex-D"
+                  points="178,40 204,25 230,40 230,70 204,85 178,70"></polygon>
+                <text class="hex-num" x="204" y="55">8</text>
+              </g>
+              <g
+                class="hex"
+                data-info="VA-1 — Wittman (R) — Northern Neck/Fredericksburg"
+              >
+                <polygon
+                  class="hex-R"
+                  points="246,40 272,25 298,40 298,70 272,85 246,70"></polygon>
+                <text class="hex-num" x="272" y="55">1</text>
+              </g>
+              <!-- Row 2 (middle) -->
+              <g class="hex" data-info="VA-9 — Griffith (R) — Southwest VA">
+                <polygon
+                  class="hex-R"
+                  points="8,95 34,80 60,95 60,125 34,140 8,125"></polygon>
+                <text class="hex-num" x="34" y="110">9</text>
+              </g>
+              <g class="hex" data-info="VA-6 — Cline (R) — Shenandoah Valley">
+                <polygon
+                  class="hex-R"
+                  points="76,95 102,80 128,95 128,125 102,140 76,125"></polygon>
+                <text class="hex-num" x="102" y="110">6</text>
+              </g>
+              <g
+                class="hex"
+                data-info="VA-7 — Vindman (D) — Prince William/Fredericksburg"
+              >
+                <polygon
+                  class="hex-D"
+                  points="144,95 170,80 196,95 196,125 170,140 144,125"
+                ></polygon>
+                <text class="hex-num" x="170" y="110">7</text>
+              </g>
+              <g
+                class="hex"
+                data-info="VA-4 — McClellan (D) — Richmond/Petersburg"
+              >
+                <polygon
+                  class="hex-D"
+                  points="212,95 238,80 264,95 264,125 238,140 212,125"
+                ></polygon>
+                <text class="hex-num" x="238" y="110">4</text>
+              </g>
+              <g class="hex" data-info="VA-3 — Scott (D) — Norfolk/Hampton">
+                <polygon
+                  class="hex-D"
+                  points="280,95 306,80 332,95 332,125 306,140 280,125"
+                ></polygon>
+                <text class="hex-num" x="306" y="110">3</text>
+              </g>
+              <!-- Row 3 (south) -->
+              <g
+                class="hex"
+                data-info="VA-5 — (open seat, R-held) — Central/Southside VA"
+              >
+                <polygon
+                  class="hex-R"
+                  points="144,150 170,135 196,150 196,180 170,195 144,180"
+                ></polygon>
+                <text class="hex-num" x="170" y="165">5</text>
+              </g>
+              <g class="hex" data-info="VA-2 — Kiggans (R) — Virginia Beach">
+                <polygon
+                  class="hex-R"
+                  points="246,150 272,135 298,150 298,180 272,195 246,180"
+                ></polygon>
+                <text class="hex-num" x="272" y="165">2</text>
+              </g>
+            </svg>
+          </div>
+          <div class="tally">
+            <div class="tally-cell tally-D">D</div>
+            <div class="tally-cell tally-D">D</div>
+            <div class="tally-cell tally-D">D</div>
+            <div class="tally-cell tally-D">D</div>
+            <div class="tally-cell tally-D">D</div>
+            <div class="tally-cell tally-D">D</div>
+            <div class="tally-cell tally-R">R</div>
+            <div class="tally-cell tally-R">R</div>
+            <div class="tally-cell tally-R">R</div>
+            <div class="tally-cell tally-R">R</div>
+            <div class="tally-cell tally-R">R</div>
+          </div>
+          <div class="map-legend">
+            <span><span class="swatch sw-D"></span>DEM</span>
+            <span><span class="swatch sw-R"></span>GOP</span>
+          </div>
+        </div>
+
+        <div class="map-arrow">
+          <div
+            style="display:flex; flex-direction:column; align-items:center; gap:8px;"
+          >
+            <div class="map-arrow-inner">→</div>
+            <div class="map-arrow-label">IF YES</div>
+          </div>
+        </div>
+
+        <div class="map-panel after">
+          <div class="map-head">
+            <span>PROPOSED MAP</span>
+            <span class="tag">IF "YES" WINS</span>
+          </div>
+          <div class="map-title">The map they want</div>
+          <div class="map-tally">
+            <span class="d">10D</span><span class="slash">/</span><span
+              class="r">1R</span
+            >
+          </div>
+          <div class="hexgrid">
+            <svg
+              viewBox="0 0 340 260"
+              aria-label="Proposed VA congressional map (10D/1R)"
+            >
+              <!-- Row 1 (north) -->
+              <g class="hex" data-info="VA-10 — Safe D">
+                <polygon
+                  class="hex-D"
+                  points="42,40 68,25 94,40 94,70 68,85 42,70"></polygon>
+                <text class="hex-num" x="68" y="55">10</text>
+              </g>
+              <g class="hex" data-info="VA-11 — Safe D">
+                <polygon
+                  class="hex-D"
+                  points="110,40 136,25 162,40 162,70 136,85 110,70"></polygon>
+                <text class="hex-num" x="136" y="55">11</text>
+              </g>
+              <g class="hex" data-info="VA-8 — Safe D">
+                <polygon
+                  class="hex-D"
+                  points="178,40 204,25 230,40 230,70 204,85 178,70"></polygon>
+                <text class="hex-num" x="204" y="55">8</text>
+              </g>
+              <g
+                class="hex"
+                data-info="VA-1 — FLIPPED R → D (Wittman absorbed into D-leaning Richmond suburbs)"
+              >
+                <polygon
+                  class="hex-flip"
+                  points="246,40 272,25 298,40 298,70 272,85 246,70"></polygon>
+                <text class="hex-num" x="272" y="55">1</text>
+              </g>
+              <!-- Row 2 (middle) -->
+              <g
+                class="hex"
+                data-info="VA-9 — The ONLY remaining GOP seat (Griffith — Southwest VA)"
+              >
+                <polygon
+                  class="hex-R-safe"
+                  points="8,95 34,80 60,95 60,125 34,140 8,125"></polygon>
+                <text class="hex-num" x="34" y="110">9</text>
+              </g>
+              <g
+                class="hex"
+                data-info="VA-6 — FLIPPED R → D (Cline district dismembered, stretched into Charlottesville)"
+              >
+                <polygon
+                  class="hex-flip"
+                  points="76,95 102,80 128,95 128,125 102,140 76,125"></polygon>
+                <text class="hex-num" x="102" y="110">6</text>
+              </g>
+              <g class="hex" data-info="VA-7 — Safe D">
+                <polygon
+                  class="hex-D"
+                  points="144,95 170,80 196,95 196,125 170,140 144,125"
+                ></polygon>
+                <text class="hex-num" x="170" y="110">7</text>
+              </g>
+              <g class="hex" data-info="VA-4 — Safe D">
+                <polygon
+                  class="hex-D"
+                  points="212,95 238,80 264,95 264,125 238,140 212,125"
+                ></polygon>
+                <text class="hex-num" x="238" y="110">4</text>
+              </g>
+              <g class="hex" data-info="VA-3 — Safe D">
+                <polygon
+                  class="hex-D"
+                  points="280,95 306,80 332,95 332,125 306,140 280,125"
+                ></polygon>
+                <text class="hex-num" x="306" y="110">3</text>
+              </g>
+              <!-- Row 3 (south) -->
+              <g
+                class="hex"
+                data-info="VA-5 — FLIPPED R → D (anchor pulled north into Charlottesville)"
+              >
+                <polygon
+                  class="hex-flip"
+                  points="144,150 170,135 196,150 196,180 170,195 144,180"
+                ></polygon>
+                <text class="hex-num" x="170" y="165">5</text>
+              </g>
+              <g
+                class="hex"
+                data-info="VA-2 — FLIPPED R → D (Kiggans seat reshaped to pull in Norfolk voters)"
+              >
+                <polygon
+                  class="hex-flip"
+                  points="246,150 272,135 298,150 298,180 272,195 246,180"
+                ></polygon>
+                <text class="hex-num" x="272" y="165">2</text>
+              </g>
+            </svg>
+          </div>
+          <div class="tally">
+            <div class="tally-cell tally-D">D</div>
+            <div class="tally-cell tally-D">D</div>
+            <div class="tally-cell tally-D">D</div>
+            <div class="tally-cell tally-D">D</div>
+            <div class="tally-cell tally-D">D</div>
+            <div class="tally-cell tally-D">D</div>
+            <div class="tally-cell tally-D">D</div>
+            <div class="tally-cell tally-D">D</div>
+            <div class="tally-cell tally-D">D</div>
+            <div class="tally-cell tally-D">D</div>
+            <div class="tally-cell tally-R">R</div>
+          </div>
+          <div class="map-legend">
+            <span><span class="swatch sw-D"></span>DEM</span>
+            <span><span class="swatch sw-R"></span>GOP</span>
+            <span><span class="swatch sw-flip"></span>FLIPPED</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="prose" style="margin-top: 20px;">
+        <p>
+          Hover any district. The four gold hexes are the seats erased by the
+          amendment — <strong>VA-1, VA-2, VA-5, VA-6</strong>. Only the deep
+          Southwest (VA-9) survives as a Republican seat, because there's no
+          amount of cartographic creativity that can stretch Fairfax voters into
+          Galax.
+        </p>
+      </div>
+    </section>
+
+    <!-- FOUR SEATS -->
+    <section class="section section-wide">
+      <div class="section-label">
+        <span class="num">03 /</span>THE FOUR SEATS THEY ERASE
+      </div>
+      <h2 class="section-title">
+        Four Republicans, four redraws, <span class="red">one outcome.</span>
+      </h2>
+      <p class="section-deck">
+        Each of these districts is currently competitive or Republican-held.
+        Each one becomes Democratic under the proposed map. This is how you get
+        to 10-1.
+      </p>
+
+      <div class="flips">
+        <div class="flip">
+          <div class="flip-district">DISTRICT 1</div>
+          <div class="flip-rep">Rob Wittman</div>
+          <div class="flip-region">NORTHERN NECK / FREDERICKSBURG</div>
+          <div class="flip-change">
+            <span class="was">SAFE R</span>
+            <span class="arrow">→</span>
+            <span class="is">LIKELY D</span>
+          </div>
+          <div class="flip-note">
+            Redrawn to absorb Democratic-leaning Richmond suburbs and exurbs.
+            Wittman's base in the rural coastal counties gets outvoted by the
+            new NoVa-adjacent precincts added to the district.
+          </div>
+        </div>
+
+        <div class="flip">
+          <div class="flip-district">DISTRICT 2</div>
+          <div class="flip-rep">Jen Kiggans</div>
+          <div class="flip-region">VIRGINIA BEACH / HAMPTON ROADS</div>
+          <div class="flip-change">
+            <span class="was">TOSSUP (R)</span>
+            <span class="arrow">→</span>
+            <span class="is">LEAN D</span>
+          </div>
+          <div class="flip-note">
+            The state's premier swing seat gets tilted left by pulling in more
+            Norfolk precincts. Kiggans — a Navy veteran nurse — goes from 50/50
+            territory to a district Biden would've carried by 6+.
+          </div>
+        </div>
+
+        <div class="flip">
+          <div class="flip-district">DISTRICT 5</div>
+          <div class="flip-rep">Open seat (vacant)</div>
+          <div class="flip-region">CENTRAL VA / SOUTHSIDE</div>
+          <div class="flip-change">
+            <span class="was">SAFE R</span>
+            <span class="arrow">→</span>
+            <span class="is">LIKELY D</span>
+          </div>
+          <div class="flip-note">
+            Anchor pulled north to include Charlottesville and Albemarle County.
+            The district stops being about Danville and Pittsylvania and starts
+            being about UVA. That's the whole trick.
+          </div>
+        </div>
+
+        <div class="flip">
+          <div class="flip-district">DISTRICT 6</div>
+          <div class="flip-rep">Ben Cline</div>
+          <div class="flip-region">SHENANDOAH VALLEY</div>
+          <div class="flip-change">
+            <span class="was">SAFE R</span>
+            <span class="arrow">→</span>
+            <span class="is">LEAN D</span>
+          </div>
+          <div class="flip-note">
+            Dismembered. The new VA-6 would run Radford → Roanoke → Lynchburg →
+            Charlottesville → Staunton → Harrisonburg — a shape that exists for
+            one reason: to stretch into enough blue precincts to flip. Cline
+            might have to run in VA-9 instead.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PULLQUOTE -->
+    <div class="pull">
+      <p class="pull-text">
+        "Restoring fairness by drawing the
+        <span class="red">most lopsided map</span> in Virginia history is an argument
+        that <span class="red">refutes itself</span>."
+      </p>
+    </div>
+
+    <!-- DARK MONEY / FOLLOW THE MONEY -->
+    <section class="section section-wide">
+      <div class="section-label">
+        <span class="num">04 /</span>FOLLOW THE MONEY
+      </div>
+      <h2 class="section-title">
+        The YES campaign isn't a Virginia movement.<br />
+        It's a <span class="red">Washington wire transfer.</span>
+      </h2>
+      <p class="section-deck">
+        If this amendment were good for Virginians, Virginians would be paying
+        for it. They're not. Per <strong>Virginia Public Access Project</strong>
+        filings, more than <strong>90%</strong> of large contributions to the main
+        YES committee — <em>Virginians for Fair Elections</em> — come from out-of-state
+        Democratic-aligned dark-money groups. Two donors alone account for over <strong
+          >$40 million</strong
+        >.
+      </p>
+
+      <div class="funding-wrap">
+        <div class="funding-bar-wrap">
+          <div class="funding-bar-label-row">
+            <span class="funding-bar-label"
+              >YES COMMITTEE — "VIRGINIANS FOR FAIR ELECTIONS"</span
+            >
+            <span class="funding-bar-total">~$40M+ LARGE DONATIONS</span>
+          </div>
+          <div class="funding-bar">
+            <div class="funding-seg out" style="width: 92%;">
+              <span class="funding-seg-pct">92%</span>
+              <span class="funding-seg-lbl">OUT-OF-STATE / DARK MONEY</span>
+            </div>
+            <div class="funding-seg va" style="width: 8%;">
+              <span class="funding-seg-pct">8%</span>
+            </div>
+          </div>
+          <div class="funding-bar-footnote">
+            VA sources: ~8% · Source: Virginia Public Access Project, April 2026
+          </div>
+        </div>
+
+        <div class="donors">
+          <div class="donor">
+            <div class="donor-head">
+              <span class="donor-rank">#1 DONOR</span>
+              <span class="donor-pct">~74%</span>
+            </div>
+            <div class="donor-amount">$29.3M</div>
+            <div class="donor-name">House Majority Forward</div>
+            <div class="donor-detail">
+              Washington, DC. Dark-money 501(c)(4) aligned with U.S. House
+              Minority Leader <strong>Hakeem Jeffries</strong>. Mission: elect
+              Democrats to the U.S. House. Donors: not disclosed.
+            </div>
+          </div>
+
+          <div class="donor">
+            <div class="donor-head">
+              <span class="donor-rank">#2 DONOR</span>
+              <span class="donor-pct">~28%</span>
+            </div>
+            <div class="donor-amount">$11M</div>
+            <div class="donor-name">The Fairness Project</div>
+            <div class="donor-detail">
+              Washington, DC. Labor-union-backed 501(c)(4). Finances
+              left-of-center ballot initiatives across the country. Four
+              contributions between February and March 2026.
+            </div>
+          </div>
+
+          <div class="donor">
+            <div class="donor-head">
+              <span class="donor-rank">VA SOURCES</span>
+              <span class="donor-pct">&lt;10%</span>
+            </div>
+            <div class="donor-amount va-green">~$3M</div>
+            <div class="donor-name">Actual Virginians</div>
+            <div class="donor-detail">
+              The sum total of contributions from people and entities based in
+              the state whose constitution is being rewritten. Rounding error on
+              the national haul.
+            </div>
+          </div>
+        </div>
+
+        <div class="fair-note">
+          <div class="fair-note-label">FULL DISCLOSURE</div>
+          <p>
+            The NO side has out-of-state money too — Justice for Democracy PAC
+            received roughly <strong>$9M</strong> from a group linked to Peter Thiel.
+            That's real, and it matters. But it's a fraction of the YES haul, and
+            it doesn't change the underlying story: this ballot question was conceived,
+            funded, and scripted by the national Democratic Party's House operation.
+            Virginia voters are the mechanism for delivering four seats to Hakeem
+            Jeffries.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- POLLING TREND -->
+    <section class="section section-wide">
+      <div class="section-label">
+        <span class="num">05 /</span>THE POLLING TREND
+      </div>
+      <h2 class="section-title">
+        The margin has been <span class="gold">shrinking every week.</span>
+      </h2>
+      <p class="section-deck">
+        Five public polls. Only one outside the margin of error. Every
+        successive survey has the YES lead getting smaller as voters actually
+        read the map instead of the ballot language.
+      </p>
+
+      <div class="chart-wrap">
+        <div class="chart-legend">
+          <div class="chart-title-small">YES vs NO — FEB–APR 2026</div>
+          <div class="chart-legend-items">
+            <span><span class="dot dot-yes"></span>YES</span>
+            <span><span class="dot dot-no"></span>NO</span>
+            <span><span class="dot dot-moe"></span>MoE BAND</span>
+          </div>
+        </div>
+        <svg
+          class="chart"
+          viewBox="0 0 860 360"
+          preserveAspectRatio="xMidYMid meet"
+        >
+          <defs>
+            <linearGradient id="yesFade" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.35"></stop>
+              <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"></stop>
+            </linearGradient>
+            <linearGradient id="noFade" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stop-color="#ef3b3b" stop-opacity="0"></stop>
+              <stop offset="100%" stop-color="#ef3b3b" stop-opacity="0.35"
+              ></stop>
+            </linearGradient>
+          </defs>
+
+          <!-- Grid -->
+          <g stroke="#232c48" stroke-width="1">
+            <line x1="60" y1="60" x2="820" y2="60"></line>
+            <line x1="60" y1="120" x2="820" y2="120"></line>
+            <line x1="60" y1="180" x2="820" y2="180"></line>
+            <line x1="60" y1="240" x2="820" y2="240"></line>
+            <line x1="60" y1="300" x2="820" y2="300"></line>
+          </g>
+
+          <!-- Y labels -->
+          <g
+            font-family="JetBrains Mono, monospace"
+            font-size="11"
+            fill="#596176"
+          >
+            <text x="48" y="64" text-anchor="end">65%</text>
+            <text x="48" y="124" text-anchor="end">60%</text>
+            <text x="48" y="184" text-anchor="end">55%</text>
+            <text x="48" y="244" text-anchor="end">50%</text>
+            <text x="48" y="304" text-anchor="end">45%</text>
+          </g>
+
+          <!-- MoE band (±4 pts around 50%) -->
+          <rect
+            x="60"
+            y="216"
+            width="760"
+            height="56"
+            fill="#f5b129"
+            fill-opacity="0.08"></rect>
+          <line
+            x1="60"
+            y1="216"
+            x2="820"
+            y2="216"
+            stroke="#596176"
+            stroke-width="1"
+            stroke-dasharray="4 4"></line>
+          <line
+            x1="60"
+            y1="272"
+            x2="820"
+            y2="272"
+            stroke="#596176"
+            stroke-width="1"
+            stroke-dasharray="4 4"></line>
+          <text
+            x="815"
+            y="212"
+            font-family="JetBrains Mono"
+            font-size="10"
+            fill="#f5b129"
+            text-anchor="end">MoE BAND</text
+          >
+
+          <!-- YES area -->
+          <path
+            d="M 120,72 L 260,96 L 440,156 L 620,204 L 760,228 L 760,320 L 120,320 Z"
+            fill="url(#yesFade)"></path>
+          <!-- NO area -->
+          <path
+            d="M 120,60 L 120,240 L 260,228 L 440,204 L 620,240 L 760,252 L 760,60 Z"
+            fill="url(#noFade)"
+            fill-opacity="0"></path>
+
+          <!-- YES line -->
+          <polyline
+            fill="none"
+            stroke="#3b82f6"
+            stroke-width="3"
+            points="120,72 260,96 440,156 620,204 760,228"></polyline>
+          <!-- NO line -->
+          <polyline
+            fill="none"
+            stroke="#ef3b3b"
+            stroke-width="3"
+            points="120,240 260,228 440,204 620,240 760,252"></polyline>
+
+          <!-- YES dots -->
+          <g fill="#3b82f6">
+            <circle cx="120" cy="72" r="6"></circle>
+            <circle cx="260" cy="96" r="6"></circle>
+            <circle cx="440" cy="156" r="6"></circle>
+            <circle cx="620" cy="204" r="6"></circle>
+            <circle cx="760" cy="228" r="6"></circle>
+          </g>
+          <!-- NO dots -->
+          <g fill="#ef3b3b">
+            <circle cx="120" cy="240" r="6"></circle>
+            <circle cx="260" cy="228" r="6"></circle>
+            <circle cx="440" cy="204" r="6"></circle>
+            <circle cx="620" cy="240" r="6"></circle>
+            <circle cx="760" cy="252" r="6"></circle>
+          </g>
+
+          <!-- Value labels on YES line -->
+          <g
+            font-family="JetBrains Mono"
+            font-size="11"
+            fill="#3b82f6"
+            font-weight="700"
+          >
+            <text x="120" y="58" text-anchor="middle">58</text>
+            <text x="260" y="82" text-anchor="middle">56</text>
+            <text x="440" y="142" text-anchor="middle">52</text>
+            <text x="620" y="190" text-anchor="middle">50</text>
+            <text x="760" y="214" text-anchor="middle">50</text>
+          </g>
+          <!-- Value labels on NO line -->
+          <g
+            font-family="JetBrains Mono"
+            font-size="11"
+            fill="#ef3b3b"
+            font-weight="700"
+          >
+            <text x="120" y="260" text-anchor="middle">37</text>
+            <text x="260" y="248" text-anchor="middle">39</text>
+            <text x="440" y="224" text-anchor="middle">44</text>
+            <text x="620" y="260" text-anchor="middle">45</text>
+            <text x="760" y="272" text-anchor="middle">45</text>
+          </g>
+
+          <!-- X axis labels -->
+          <g font-family="JetBrains Mono" font-size="11" fill="#8892a8">
+            <text x="120" y="340" text-anchor="middle">FEB 5</text>
+            <text x="260" y="340" text-anchor="middle">FEB 24</text>
+            <text x="440" y="340" text-anchor="middle">MAR 18</text>
+            <text x="620" y="340" text-anchor="middle">APR 10</text>
+            <text x="760" y="340" text-anchor="middle">APR 19</text>
+          </g>
+
+          <!-- Gap marker -->
+          <g>
+            <line
+              x1="760"
+              y1="228"
+              x2="760"
+              y2="252"
+              stroke="#f5b129"
+              stroke-width="2"></line>
+            <text
+              x="778"
+              y="244"
+              font-family="JetBrains Mono"
+              font-size="13"
+              fill="#f5b129"
+              font-weight="700">GAP: 5 pts</text
+            >
+          </g>
+        </svg>
+      </div>
+
+      <div class="poll-list">
+        <div class="poll-item">
+          <div class="poll-date">FEB 2026</div>
+          <div class="poll-name">Virginia Commonwealth Univ.</div>
+          <div class="poll-numbers">
+            <span class="yes">YES 58</span>
+            <span class="gap">/</span>
+            <span class="no">NO 37</span>
+          </div>
+        </div>
+        <div class="poll-item">
+          <div class="poll-date">FEB 2026</div>
+          <div class="poll-name">Roanoke College</div>
+          <div class="poll-numbers">
+            <span class="yes">YES 41</span>
+            <span class="gap">/</span>
+            <span class="no">NO 46</span>
+          </div>
+          <div class="poll-flag red">NO LEADS</div>
+        </div>
+        <div class="poll-item">
+          <div class="poll-date">MAR 2026</div>
+          <div class="poll-name">Christopher Newport Univ.</div>
+          <div class="poll-numbers">
+            <span class="yes">YES 52</span>
+            <span class="gap">/</span>
+            <span class="no">NO 44</span>
+          </div>
+        </div>
+        <div class="poll-item">
+          <div class="poll-date">APR 2026</div>
+          <div class="poll-name">WaPo / George Mason Univ.</div>
+          <div class="poll-numbers">
+            <span class="yes">YES 52</span>
+            <span class="gap">/</span>
+            <span class="no">NO 47</span>
+          </div>
+          <div class="poll-flag">WITHIN MoE</div>
+        </div>
+        <div class="poll-item">
+          <div class="poll-date">APR 19 2026</div>
+          <div class="poll-name">State Navigate (LV)</div>
+          <div class="poll-numbers">
+            <span class="yes">YES 50</span>
+            <span class="gap">/</span>
+            <span class="no">NO 45</span>
+          </div>
+          <div class="poll-flag">WITHIN MoE</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARKETS -->
+    <section class="section section-wide">
+      <div class="section-label">
+        <span class="num">06 /</span>THE PREDICTION MARKETS
+      </div>
+      <h2 class="section-title">
+        Markets say <span class="red">YES</span>. Markets have been
+        <span class="gold">wrong</span>.
+      </h2>
+      <p class="section-deck">
+        Polymarket and Kalshi have the referendum at 80-86% to pass. But the
+        margin-of-victory markets are clustered in the narrowest bands on the
+        board — meaning traders think it passes, <em>barely</em>. That's the
+        same setup we saw in Brexit, Trump '16, and every referendum where
+        "likely voters" models are wrong about who shows up.
+      </p>
+
+      <div class="markets">
+        <div class="market">
+          <div class="market-head">
+            <div class="market-name">POLYMARKET</div>
+            <div class="market-vol">$466K VOL</div>
+          </div>
+          <div class="market-bar">
+            <div class="market-bar-yes" style="width: 86%;">YES 86%</div>
+            <div class="market-bar-no" style="width: 14%;">14%</div>
+          </div>
+          <div class="market-labels">
+            <span>WILL IT PASS?</span>
+            <span>AS OF APR 19</span>
+          </div>
+          <div class="market-note">
+            Margin-of-victory market peaks at the 3–6% band (~31% probability) —
+            a bare-minimum pass.
+          </div>
+        </div>
+
+        <div class="market">
+          <div class="market-head">
+            <div class="market-name">KALSHI</div>
+            <div class="market-vol">REGULATED US</div>
+          </div>
+          <div class="market-bar">
+            <div class="market-bar-yes" style="width: 82%;">YES 82%</div>
+            <div class="market-bar-no" style="width: 18%;">18%</div>
+          </div>
+          <div class="market-labels">
+            <span>WILL IT PASS?</span>
+            <span>AS OF APR 19</span>
+          </div>
+          <div class="market-note">
+            Traders have shifted 5+ points toward NO over the past week as
+            early-vote data and polling converged.
+          </div>
+        </div>
+
+        <div class="market">
+          <div class="market-head">
+            <div class="market-name">TRACK RECORD</div>
+            <div class="market-vol">RECENT REFERENDA</div>
+          </div>
+          <div class="market-bar">
+            <div class="market-bar-yes" style="width: 55%;">HITS 55%</div>
+            <div class="market-bar-no" style="width: 45%;">MISSES 45%</div>
+          </div>
+          <div class="market-labels">
+            <span>WITHIN 5pt</span>
+            <span>2016–2025</span>
+          </div>
+          <div class="market-note">
+            Prediction markets underprice low-turnout special elections because
+            they're modeling general-electorate behavior. Apr 21 is neither.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE CASE FOR NO -->
+    <section class="section">
+      <div class="section-label">
+        <span class="num">07 /</span>THE CASE FOR NO
+      </div>
+      <h2 class="section-title">
+        Five reasons this amendment fails its
+        <span class="red">own stated test.</span>
+      </h2>
+
+      <div class="case">
+        <div class="case-item">
+          <div class="case-num">01</div>
+          <div class="case-body">
+            <h3>
+              It is a partisan gerrymander dressed up as a fairness measure.
+            </h3>
+            <p>
+              Virginia splits roughly <strong>54/46</strong> in statewide races. A
+              "fair" outcome is somewhere in the neighborhood of a 6–5 split. The
+              proposed map delivers <strong>10–1</strong>. That isn't a
+              correction. That's a takeover.
+            </p>
+          </div>
+        </div>
+
+        <div class="case-item">
+          <div class="case-num">02</div>
+          <div class="case-body">
+            <h3>Two wrongs don't make a right.</h3>
+            <p>
+              The stated justification is <strong>Texas</strong> — that other states
+              redrew first, so Virginia has to respond. Gerrymandering is bad when
+              Republicans do it <strong>and</strong> when Democrats do it. An amendment
+              that embraces the logic of the thing you claim to oppose is not principled
+              — it's tit-for-tat.
+            </p>
+          </div>
+        </div>
+
+        <div class="case-item">
+          <div class="case-num">03</div>
+          <div class="case-body">
+            <h3>It guts the redistricting commission Virginians voted for.</h3>
+            <p>
+              In <strong>2020</strong>, Virginia voters approved — by a
+              two-thirds majority — a constitutional amendment taking map
+              drawing away from the General Assembly and giving it to an
+              independent bipartisan commission. This amendment
+              <strong>overrides that decision</strong> for the entire rest of the
+              decade. You're being asked to unvote your own 2020 vote.
+            </p>
+          </div>
+        </div>
+
+        <div class="case-item">
+          <div class="case-num">04</div>
+          <div class="case-body">
+            <h3>It erases the only competitive House seats Virginia has.</h3>
+            <p>
+              VA-2 and VA-7 are among the
+              <strong>most competitive districts in the country</strong>. That's
+              good for voters — it means candidates have to fight for votes, and
+              incumbents can actually lose. The new map doesn't just flip them.
+              It <strong>eliminates competition</strong>
+              altogether.
+            </p>
+          </div>
+        </div>
+
+        <div class="case-item">
+          <div class="case-num">05</div>
+          <div class="case-body">
+            <h3>It sets a permanent mid-decade gerrymander precedent.</h3>
+            <p>
+              The amendment's trigger ("if another state redraws") creates a
+              <strong>cycle with no exit</strong>. Every future GOP or
+              Democratic legislature in any state can force every other state to
+              respond. Redistricting stops happening once a decade and starts
+              happening <strong>every election</strong>. The big loser is the
+              voter.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MOMENTUM -->
+    <section class="section section-wide">
+      <div class="section-label">
+        <span class="num">08 /</span>WHY WE CAN WIN
+      </div>
+      <h2 class="section-title">
+        This is <span class="gold">a winnable fight.</span>
+      </h2>
+      <p class="section-deck">
+        Every indicator that matters in the final 72 hours is moving the right
+        direction. The ad dominance is gone. The polling is within the margin.
+        Republican-leaning voters are more motivated to show up. The only thing
+        left is turnout.
+      </p>
+
+      <div class="momentum">
+        <div class="mo">
+          <div class="mo-val">17<span class="sub">x → 3x</span></div>
+          <div class="mo-label">AD SPEND GAP COLLAPSED</div>
+          <div class="mo-note">
+            In March, YES outspent NO 17 to 1 on ads. That gap is now 3 to 1 and
+            falling. A late cash influx funded the NO campaign's closing
+            argument. (Source: AdImpact)
+          </div>
+        </div>
+        <div class="mo">
+          <div class="mo-val">810K<span class="sub">+</span></div>
+          <div class="mo-label">EARLY VOTES CAST</div>
+          <div class="mo-note">
+            With elevated turnout in Republican rural counties
+            <strong>outpacing</strong> urban Democratic areas — a pattern the polling
+            likely-voter models weren't calibrated for.
+          </div>
+        </div>
+        <div class="mo">
+          <div class="mo-val">+6<span class="sub">pts</span></div>
+          <div class="mo-label">GOP MOTIVATION EDGE</div>
+          <div class="mo-note">
+            Washington Post / George Mason: Republicans and Republican-leaning
+            independents are more likely to vote on Apr 21 than their Dem
+            counterparts. In a referendum with zero other races on the ballot,
+            that's everything.
+          </div>
+        </div>
+        <div class="mo">
+          <div class="mo-val">1 <span class="sub">of 5</span></div>
+          <div class="mo-label">POLLS OUTSIDE MoE</div>
+          <div class="mo-note">
+            Four of the five public polls are inside the margin of error.
+            Roanoke College (Feb) had NO leading outright. This isn't a blowout.
+            It's a coin flip we're trending into.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="cta-inner">
+        <div class="cta-kicker">APRIL 21 · BEFORE 7 PM</div>
+        <h2>VOTE NO.<br />STOP THE 10–1.</h2>
+        <p>
+          Polls open tomorrow across Virginia. Every precinct in every county is
+          a vote. If you're registered, you vote. If you're not sure where to
+          vote, find out now. Tomorrow is the whole game.
+        </p>
+        <a
+          class="cta-button"
+          href="https://vote.elections.virginia.gov/VoterInformation/Lookup/polling"
+          target="_blank"
+          rel="noopener">FIND YOUR POLLING PLACE →</a
+        >
+        <div class="cta-hours">
+          <span>POLLS OPEN 6 AM</span>
+          <span>POLLS CLOSE 7 PM</span>
+          <span>IN LINE BY 7 = YOU VOTE</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER / SOURCES -->
+    <footer class="foot">
+      <div class="foot-title">— SOURCES —</div>
+      <div class="foot-sources">
+        <a
+          href="https://www.elections.virginia.gov/election-law/proposed-amendment-for-april-2026-special-election/"
+          target="_blank"
+          rel="noopener">VA Dept. of Elections — Proposed Amendment</a
+        >
+        ·
+        <a
+          href="https://ballotpedia.org/Virginia_Use_of_Legislative_Congressional_Redistricting_Map_Amendment_(April_2026)"
+          target="_blank"
+          rel="noopener">Ballotpedia — VA Redistricting Amendment</a
+        >
+        ·
+        <a
+          href="https://en.wikipedia.org/wiki/2026_Virginia_redistricting_amendment"
+          target="_blank"
+          rel="noopener">Wikipedia — 2026 VA Redistricting Amendment</a
+        >
+        ·
+        <a
+          href="https://www.vpap.org/redistricting/2026/"
+          target="_blank"
+          rel="noopener">VPAP — 2026 Congressional Redistricting</a
+        >
+        ·
+        <a
+          href="https://www.vpap.org/committees/610181/top_donors/"
+          target="_blank"
+          rel="noopener">VPAP — Virginians for Fair Elections Top Donors</a
+        >
+        ·
+        <a
+          href="https://cardinalnews.org/2026/04/14/dark-money-is-fueling-both-sides-of-virginias-redistricting-campaign/"
+          target="_blank"
+          rel="noopener">Cardinal News — Dark Money on Both Sides</a
+        >
+        ·
+        <a
+          href="https://time.com/article/2026/04/19/peter-thiel-and-dark-money-pour-millions-into-virginia-redistricting-fight-that-could-tilt-control-of-congress/"
+          target="_blank"
+          rel="noopener">TIME — Peter Thiel & Dark Money</a
+        >
+        ·
+        <a
+          href="https://thefederalist.com/2026/04/09/analysis-more-than-90-percent-of-funds-backing-dems-gerrymandering-scheme-come-from-outside-virginia/"
+          target="_blank"
+          rel="noopener">The Federalist — 90% Out-of-State Analysis</a
+        >
+        ·
+        <a
+          href="https://centerforpolitics.org/crystalball/ratingvagerrymander/"
+          target="_blank"
+          rel="noopener">Sabato's Crystal Ball — VA Gerrymander Ratings</a
+        >
+        ·
+        <a
+          href="https://polymarket.com/event/will-the-virginia-redistricting-referendum-pass"
+          target="_blank"
+          rel="noopener">Polymarket — Referendum Pass</a
+        >
+        ·
+        <a
+          href="https://kalshi.com/markets/kxvirginiaredistricting/will-the-virginia-redistricting-referendum-pass/kxvirginiaredistricting-26"
+          target="_blank"
+          rel="noopener">Kalshi — Referendum Pass</a
+        >
+        ·
+        <a
+          href="https://www.nbcnews.com/politics/2026-election/republicans-rush-close-gap-final-stretch-virginia-redistricting-rcna331803"
+          target="_blank"
+          rel="noopener">NBC News — GOP Closes Gap</a
+        >
+        ·
+        <a
+          href="https://www.cnn.com/2026/04/14/politics/virginia-redistricting-gerrymandering-early-voting"
+          target="_blank"
+          rel="noopener">CNN — Early Voting</a
+        >
+        ·
+        <a
+          href="https://virginiamercury.com/2026/04/20/10-questions-and-answers-about-virginias-redistricting-referendum/"
+          target="_blank"
+          rel="noopener">Virginia Mercury — 10 Questions</a
+        >
+      </div>
+      <div class="foot-brand">BEARING FREEDOM</div>
+      <div class="foot-small">
+        2A COMMENTARY · INDEPENDENT · BEARINGFREEDOM.COM
+      </div>
+    </footer>
+
+    <!-- COUNTDOWN SCRIPT + HEX TOOLTIPS -->
+    <script is:inline>
+      // Countdown to April 21, 2026 06:00 ET (polls open)
+      (function () {
+        const target = new Date('2026-04-21T06:00:00-04:00').getTime();
+        const d = document.getElementById('cd-d');
+        const h = document.getElementById('cd-h');
+        const m = document.getElementById('cd-m');
+        const s = document.getElementById('cd-s');
+        function pad(n) {
+          return String(Math.max(0, n)).padStart(2, '0');
+        }
+        function tick() {
+          const now = Date.now();
+          let delta = Math.max(0, target - now);
+          const days = Math.floor(delta / 86400000);
+          delta -= days * 86400000;
+          const hrs = Math.floor(delta / 3600000);
+          delta -= hrs * 3600000;
+          const mins = Math.floor(delta / 60000);
+          delta -= mins * 60000;
+          const secs = Math.floor(delta / 1000);
+          if (d) d.textContent = pad(days);
+          if (h) h.textContent = pad(hrs);
+          if (m) m.textContent = pad(mins);
+          if (s) s.textContent = pad(secs);
+        }
+        tick();
+        setInterval(tick, 1000);
+      })();
+
+      // Simple hex tooltip (title attribute fallback is fine; we add a floating label)
+      (function () {
+        const hexes = document.querySelectorAll('.hex[data-info]');
+        let tip = document.createElement('div');
+        tip.style.cssText =
+          'position:fixed;pointer-events:none;z-index:100;background:#07090f;color:#f2f5fb;border:1px solid #ef3b3b;padding:8px 12px;font-family:JetBrains Mono,monospace;font-size:12px;max-width:260px;line-height:1.5;opacity:0;transition:opacity 0.12s;box-shadow:0 8px 24px rgba(0,0,0,0.5);';
+        document.body.appendChild(tip);
+        hexes.forEach(function (h) {
+          h.addEventListener('mouseenter', function (e) {
+            tip.textContent = h.getAttribute('data-info');
+            tip.style.opacity = '1';
+          });
+          h.addEventListener('mousemove', function (e) {
+            tip.style.left = e.clientX + 14 + 'px';
+            tip.style.top = e.clientY + 14 + 'px';
+          });
+          h.addEventListener('mouseleave', function () {
+            tip.style.opacity = '0';
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>
