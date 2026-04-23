@@ -39,12 +39,12 @@ const missing = [];
 
 for (const f of files) {
   const content = await readFile(join(articlesDir, f), 'utf-8');
-  const thumbMatch = content.match(/thumbnail:\s*"([^"]+)"/);
+  const thumbMatch = content.match(/thumbnail:\s*["']([^"']+)["']/);
   if (!thumbMatch) continue;
   const imgPath = thumbMatch[1].replace(/^\/images\/articles\//, '');
   if (!existsSync(join(imagesDir, imgPath))) {
-    const promptMatch = content.match(/image_prompt:\s*"([^"]+)"/);
-    const titleMatch = content.match(/title:\s*"([^"]+)"/);
+    const promptMatch = content.match(/image_prompt:\s*["']([^"']+)["']/);
+    const titleMatch = content.match(/title:\s*["']([^"']+)["']/);
     missing.push({
       file: f,
       image: imgPath,
