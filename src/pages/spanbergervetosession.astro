@@ -1,0 +1,1844 @@
+---
+// Standalone page — self-contained styles and scripts, no global.css
+// Spanberger's 9 Bills — April 22, 2026 reconvened session recap
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spanberger's Gun Bills: The House Said No | Bearing Freedom</title>
+    <meta
+      name="description"
+      content="On April 22 the Virginia General Assembly met to act on Gov. Spanberger's recommended changes to six gun-bill packages. Her own caucus rejected the headline amendments. Here's every bill, every outcome, every next step."
+    />
+    <meta
+      property="og:title"
+      content="Spanberger's Gun Bills: The House Said No | Bearing Freedom"
+    />
+    <meta
+      property="og:description"
+      content="Virginia's veto session tossed the governor's amendments on the assault weapons ban and the public-carry ban. Spanberger gets the original bills back on her desk. Sign as-passed or veto."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://bearingfreedom.com/spanbergervetosession"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6WRV03TTZ"
+    ></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-Q6WRV03TTZ', {
+        send_page_view: true,
+        allow_google_signals: true,
+        allow_ad_personalization_signals: true,
+        cookie_flags: 'SameSite=None;Secure',
+        page_referrer: document.referrer,
+        screen_resolution: window.screen.width + 'x' + window.screen.height,
+      });
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style is:global>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --void: #07090f;
+        --bg: #0b0f1a;
+        --surface: #111627;
+        --panel: #161d30;
+        --panel-2: #1c2540;
+        --border: #232c48;
+        --border-dim: #1a2139;
+        --text: #f2f5fb;
+        --text-mid: #c5cdde;
+        --text-dim: #8892a8;
+        --text-faint: #596176;
+        --red: #ef3b3b;
+        --red-deep: #b91c1c;
+        --red-glow: rgba(239, 59, 59, 0.2);
+        --blue: #3b82f6;
+        --blue-deep: #1e40af;
+        --blue-glow: rgba(59, 130, 246, 0.18);
+        --gold: #f5b129;
+        --gold-deep: #a37a18;
+        --green: #10b981;
+        --purple: #a855f7;
+        --grid: #1a2139;
+        --display: 'Archivo Black', Impact, 'Helvetica Neue', sans-serif;
+        --body: 'Inter', system-ui, -apple-system, sans-serif;
+        --mono: 'JetBrains Mono', 'Courier New', monospace;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        background: var(--void);
+      }
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: var(--body);
+        font-size: 17px;
+        line-height: 1.65;
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+      }
+      a {
+        color: var(--red);
+        text-decoration: none;
+      }
+      a:hover {
+        color: var(--text);
+      }
+
+      /* ═══ TOPBAR ═══ */
+      .topbar {
+        background: var(--void);
+        padding: 0 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 48px;
+        border-bottom: 1px solid var(--border-dim);
+        position: sticky;
+        top: 0;
+        z-index: 50;
+      }
+      .topbar-brand {
+        font-family: var(--display);
+        font-size: 18px;
+        color: var(--text);
+        letter-spacing: 0.5px;
+      }
+      .topbar-brand .tick {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background: var(--red);
+        border-radius: 50%;
+        margin-right: 8px;
+        animation: pulse 1.8s ease-in-out infinite;
+        vertical-align: middle;
+        transform: translateY(-2px);
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+          box-shadow: 0 0 0 0 var(--red-glow);
+        }
+        50% {
+          opacity: 0.6;
+          box-shadow: 0 0 0 6px rgba(239, 59, 59, 0);
+        }
+      }
+      .topbar-links {
+        display: flex;
+        gap: 20px;
+      }
+      .topbar-links a {
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--text-dim);
+      }
+      .topbar-links a:hover {
+        color: var(--text);
+      }
+
+      /* ═══ TICKER ═══ */
+      .ticker {
+        background: var(--red-deep);
+        overflow: hidden;
+        white-space: nowrap;
+        padding: 9px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+      }
+      .ticker-scroll {
+        display: inline-block;
+        animation: scroll 62s linear infinite;
+      }
+      .ticker-scroll span {
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 500;
+        color: #fff;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .ticker-sep {
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        background: rgba(255, 255, 255, 0.55);
+        border-radius: 50%;
+        margin: 0 22px;
+        vertical-align: middle;
+      }
+      @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+
+      /* ═══ HERO ═══ */
+      .hero {
+        position: relative;
+        padding: 72px 24px 56px;
+        border-bottom: 1px solid var(--border);
+        overflow: hidden;
+      }
+      .hero::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(var(--grid) 1px, transparent 1px),
+          linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+        background-size: 56px 56px;
+        mask-image: radial-gradient(
+          ellipse at 50% 40%,
+          #000 30%,
+          transparent 70%
+        );
+        -webkit-mask-image: radial-gradient(
+          ellipse at 50% 40%,
+          #000 30%,
+          transparent 70%
+        );
+        opacity: 0.55;
+        pointer-events: none;
+      }
+      .hero-inner {
+        position: relative;
+        max-width: 1180px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .dateline {
+        font-family: var(--mono);
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+        color: var(--text-dim);
+        margin-bottom: 28px;
+      }
+      .dateline .sep {
+        color: var(--red);
+        margin: 0 10px;
+      }
+      .hero-title {
+        font-family: var(--display);
+        font-size: clamp(54px, 10vw, 128px);
+        line-height: 0.92;
+        letter-spacing: -2px;
+        color: var(--text);
+        margin-bottom: 4px;
+      }
+      .hero-title .red {
+        color: var(--red);
+      }
+      .hero-title .strike {
+        position: relative;
+        display: inline-block;
+        color: var(--text-dim);
+      }
+      .hero-title .strike::after {
+        content: '';
+        position: absolute;
+        left: -4%;
+        right: -4%;
+        top: 52%;
+        height: 7px;
+        background: var(--red);
+        transform: rotate(-2.5deg);
+      }
+      .hero-deck {
+        font-family: var(--body);
+        font-size: clamp(18px, 2.2vw, 24px);
+        color: var(--text-mid);
+        max-width: 820px;
+        margin: 28px auto 0;
+        line-height: 1.45;
+        font-weight: 400;
+      }
+      .hero-deck em {
+        color: var(--gold);
+        font-style: normal;
+        font-weight: 600;
+      }
+      .hero-tags {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 32px;
+      }
+      .pill {
+        font-family: var(--mono);
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        padding: 6px 14px;
+        border: 1px solid var(--border);
+        color: var(--text-dim);
+        border-radius: 999px;
+        background: var(--surface);
+      }
+      .pill-red {
+        border-color: var(--red);
+        color: var(--red);
+        background: var(--red-glow);
+      }
+      .pill-gold {
+        border-color: var(--gold);
+        color: var(--gold);
+        background: rgba(245, 177, 41, 0.1);
+      }
+      .pill-green {
+        border-color: var(--green);
+        color: var(--green);
+        background: rgba(16, 185, 129, 0.12);
+      }
+
+      /* ═══ SCOREBOARD ═══ */
+      .scoreboard {
+        background: var(--surface);
+        border-bottom: 1px solid var(--border);
+      }
+      .scoreboard-inner {
+        max-width: 1180px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1px;
+        background: var(--border-dim);
+      }
+      .score-cell {
+        background: var(--surface);
+        padding: 36px 28px;
+        text-align: center;
+        position: relative;
+      }
+      .score-cell.rejected {
+        background: linear-gradient(
+          180deg,
+          rgba(239, 59, 59, 0.08) 0%,
+          var(--surface) 80%
+        );
+      }
+      .score-cell.accepted {
+        background: linear-gradient(
+          180deg,
+          rgba(16, 185, 129, 0.06) 0%,
+          var(--surface) 80%
+        );
+      }
+      .score-cell.pending {
+        background: linear-gradient(
+          180deg,
+          rgba(245, 177, 41, 0.06) 0%,
+          var(--surface) 80%
+        );
+      }
+      .score-lbl {
+        font-family: var(--mono);
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.22em;
+        color: var(--text-dim);
+        margin-bottom: 14px;
+      }
+      .score-val {
+        font-family: var(--display);
+        font-size: 72px;
+        line-height: 1;
+        color: var(--text);
+        font-variant-numeric: tabular-nums;
+        margin-bottom: 8px;
+      }
+      .score-cell.rejected .score-val {
+        color: var(--red);
+      }
+      .score-cell.accepted .score-val {
+        color: var(--green);
+      }
+      .score-cell.pending .score-val {
+        color: var(--gold);
+      }
+      .score-sub {
+        font-family: var(--mono);
+        font-size: 11px;
+        color: var(--text-mid);
+        letter-spacing: 0.08em;
+      }
+      .score-note {
+        font-family: var(--body);
+        font-size: 13px;
+        color: var(--text-dim);
+        max-width: 220px;
+        margin: 12px auto 0;
+        line-height: 1.5;
+      }
+      @media (max-width: 760px) {
+        .scoreboard-inner {
+          grid-template-columns: 1fr;
+        }
+        .score-val {
+          font-size: 60px;
+        }
+      }
+
+      /* ═══ STATS STRIP ═══ */
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        background: var(--void);
+        border-bottom: 1px solid var(--border);
+      }
+      .stat {
+        padding: 26px 16px;
+        text-align: center;
+        border-right: 1px solid var(--border-dim);
+      }
+      .stat:last-child {
+        border-right: none;
+      }
+      .stat-val {
+        font-family: var(--display);
+        font-size: 30px;
+        line-height: 1;
+        color: var(--text);
+        font-variant-numeric: tabular-nums;
+      }
+      .stat-val.red {
+        color: var(--red);
+      }
+      .stat-val.gold {
+        color: var(--gold);
+      }
+      .stat-val.green {
+        color: var(--green);
+      }
+      .stat-val .sub {
+        font-size: 15px;
+        color: var(--text-dim);
+        font-family: var(--mono);
+        font-weight: 500;
+        margin-left: 4px;
+      }
+      .stat-lbl {
+        font-family: var(--mono);
+        font-size: 9px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        color: var(--text-dim);
+        margin-top: 10px;
+        line-height: 1.45;
+      }
+      @media (max-width: 900px) {
+        .stats {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .stat {
+          border-bottom: 1px solid var(--border-dim);
+        }
+        .stat:nth-child(2n) {
+          border-right: none;
+        }
+      }
+
+      /* ═══ SECTION ═══ */
+      .section {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 80px 24px;
+        border-bottom: 1px solid var(--border-dim);
+      }
+      .section-wide {
+        max-width: 1280px;
+      }
+      .section-label {
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.22em;
+        color: var(--red);
+        margin-bottom: 14px;
+      }
+      .section-label .num {
+        color: var(--text-faint);
+        margin-right: 10px;
+      }
+      .section-title {
+        font-family: var(--display);
+        font-size: clamp(32px, 4.6vw, 56px);
+        line-height: 1.02;
+        letter-spacing: -1px;
+        color: var(--text);
+        margin-bottom: 16px;
+      }
+      .section-title .red {
+        color: var(--red);
+      }
+      .section-title .gold {
+        color: var(--gold);
+      }
+      .section-deck {
+        font-size: 18px;
+        color: var(--text-mid);
+        max-width: 760px;
+        margin-bottom: 48px;
+        line-height: 1.55;
+      }
+
+      /* ═══ PROSE ═══ */
+      .prose {
+        font-size: 17px;
+        line-height: 1.75;
+        color: var(--text-mid);
+        max-width: 760px;
+      }
+      .prose p {
+        margin-bottom: 18px;
+      }
+      .prose strong {
+        color: var(--text);
+        font-weight: 700;
+      }
+      .prose em {
+        color: var(--gold);
+        font-style: normal;
+        font-weight: 600;
+      }
+
+      /* ═══ PROCESS DIAGRAM ═══ */
+      .process {
+        margin-top: 32px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+        border: 1px solid var(--border);
+        background: var(--panel);
+      }
+      .process-step {
+        padding: 22px 20px;
+        border-right: 1px solid var(--border);
+        position: relative;
+      }
+      .process-step:last-child {
+        border-right: none;
+      }
+      .process-step::after {
+        content: '▸';
+        position: absolute;
+        right: -9px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--red);
+        background: var(--bg);
+        width: 18px;
+        height: 18px;
+        display: grid;
+        place-items: center;
+        font-size: 12px;
+        border: 1px solid var(--border);
+        z-index: 2;
+      }
+      .process-step:last-child::after {
+        display: none;
+      }
+      .process-num {
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--red);
+        letter-spacing: 0.2em;
+        margin-bottom: 10px;
+      }
+      .process-head {
+        font-family: var(--display);
+        font-size: 15px;
+        color: var(--text);
+        margin-bottom: 8px;
+        line-height: 1.1;
+      }
+      .process-body {
+        font-size: 13px;
+        color: var(--text-dim);
+        line-height: 1.55;
+      }
+      @media (max-width: 820px) {
+        .process {
+          grid-template-columns: 1fr;
+        }
+        .process-step {
+          border-right: none;
+          border-bottom: 1px solid var(--border);
+        }
+        .process-step:last-child {
+          border-bottom: none;
+        }
+        .process-step::after {
+          display: none;
+        }
+      }
+
+      /* ═══ BILL CARDS ═══ */
+      .bill-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        margin-top: 8px;
+      }
+      @media (max-width: 900px) {
+        .bill-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .bill {
+        position: relative;
+        background: var(--panel);
+        border: 1px solid var(--border);
+        overflow: hidden;
+      }
+      .bill-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 20px 24px 16px;
+        border-bottom: 1px solid var(--border);
+        gap: 18px;
+      }
+      .bill-meta {
+        flex: 1;
+        min-width: 0;
+      }
+      .bill-num {
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--text-faint);
+        letter-spacing: 0.24em;
+        margin-bottom: 8px;
+      }
+      .bill-ids {
+        font-family: var(--display);
+        font-size: 24px;
+        color: var(--text);
+        letter-spacing: -0.2px;
+        line-height: 1.05;
+        margin-bottom: 6px;
+      }
+      .bill-topic {
+        font-family: var(--mono);
+        font-size: 11px;
+        color: var(--gold);
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+      }
+      .bill-topic.topic-2a {
+        color: var(--red);
+      }
+      .bill-topic.topic-cannabis {
+        color: var(--green);
+      }
+      .bill-topic.topic-ice {
+        color: var(--blue);
+      }
+      .bill-topic.topic-health {
+        color: var(--purple);
+      }
+      .stamp {
+        font-family: var(--display);
+        font-size: 13px;
+        letter-spacing: 0.14em;
+        padding: 8px 14px;
+        border: 2px solid;
+        border-radius: 2px;
+        text-transform: uppercase;
+        transform: rotate(-2deg);
+        white-space: nowrap;
+        line-height: 1;
+        align-self: flex-start;
+        flex-shrink: 0;
+      }
+      .stamp.rejected {
+        color: var(--red);
+        border-color: var(--red);
+        background: rgba(239, 59, 59, 0.08);
+      }
+      .stamp.accepted {
+        color: var(--green);
+        border-color: var(--green);
+        background: rgba(16, 185, 129, 0.08);
+      }
+      .stamp.pending {
+        color: var(--gold);
+        border-color: var(--gold);
+        background: rgba(245, 177, 41, 0.08);
+      }
+      .stamp.showdown {
+        color: var(--red);
+        border-color: var(--red);
+        background: rgba(239, 59, 59, 0.08);
+      }
+      .bill-body {
+        padding: 4px 24px 22px;
+      }
+      .bill-row {
+        padding: 16px 0;
+        border-bottom: 1px solid var(--border-dim);
+      }
+      .bill-row:last-child {
+        border-bottom: none;
+      }
+      .bill-row-lbl {
+        font-family: var(--mono);
+        font-size: 9px;
+        color: var(--text-faint);
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        margin-bottom: 6px;
+      }
+      .bill-row-lbl.accent {
+        color: var(--red);
+      }
+      .bill-row-lbl.accent-g {
+        color: var(--green);
+      }
+      .bill-row-lbl.accent-y {
+        color: var(--gold);
+      }
+      .bill-row-body {
+        font-size: 15px;
+        color: var(--text-mid);
+        line-height: 1.6;
+      }
+      .bill-row-body strong {
+        color: var(--text);
+        font-weight: 700;
+      }
+      .bill-row-body em {
+        color: var(--gold);
+        font-style: normal;
+        font-weight: 600;
+      }
+      .bill-row-body .red {
+        color: var(--red);
+        font-weight: 600;
+      }
+
+      /* ═══ CALLOUT ═══ */
+      .callout {
+        position: relative;
+        background: var(--void);
+        border: 1px solid var(--red);
+        border-left-width: 6px;
+        padding: 40px 44px 36px;
+        margin: 16px 0 0;
+        overflow: hidden;
+      }
+      .callout::before {
+        content: 'EDITORIAL';
+        position: absolute;
+        top: -10px;
+        left: 24px;
+        font-family: var(--mono);
+        font-size: 9px;
+        letter-spacing: 0.25em;
+        padding: 3px 10px;
+        background: var(--bg);
+        color: var(--red);
+        border: 1px solid var(--red);
+      }
+      .callout-quote {
+        font-family: var(--display);
+        font-size: clamp(28px, 4vw, 44px);
+        line-height: 1.08;
+        color: var(--text);
+        letter-spacing: -0.5px;
+        margin-bottom: 22px;
+      }
+      .callout-quote .red {
+        color: var(--red);
+      }
+      .callout-quote .gold {
+        color: var(--gold);
+      }
+      .callout-body {
+        font-size: 17px;
+        color: var(--text-mid);
+        line-height: 1.7;
+        max-width: 760px;
+      }
+      .callout-body strong {
+        color: var(--text);
+        font-weight: 700;
+      }
+      .callout-body p {
+        margin-bottom: 14px;
+      }
+      .callout-body p:last-child {
+        margin-bottom: 0;
+      }
+
+      /* ═══ DECISION MATRIX ═══ */
+      .matrix {
+        margin-top: 28px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+      }
+      @media (max-width: 820px) {
+        .matrix {
+          grid-template-columns: 1fr;
+        }
+      }
+      .matrix-cell {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        padding: 22px 22px 20px;
+        position: relative;
+      }
+      .matrix-cell.red {
+        border-color: var(--red);
+      }
+      .matrix-cell.gold {
+        border-color: var(--gold);
+      }
+      .matrix-cell.green {
+        border-color: var(--green);
+      }
+      .matrix-head {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+      }
+      .matrix-cell.red .matrix-head {
+        color: var(--red);
+      }
+      .matrix-cell.gold .matrix-head {
+        color: var(--gold);
+      }
+      .matrix-cell.green .matrix-head {
+        color: var(--green);
+      }
+      .matrix-title {
+        font-family: var(--display);
+        font-size: 22px;
+        color: var(--text);
+        margin-bottom: 10px;
+        line-height: 1.1;
+      }
+      .matrix-body {
+        font-size: 14px;
+        color: var(--text-dim);
+        line-height: 1.6;
+      }
+
+      /* ═══ CTA ═══ */
+      .cta {
+        background: var(--red-deep);
+        padding: 64px 24px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+      .cta::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(rgba(0, 0, 0, 0.25) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(0, 0, 0, 0.25) 1px, transparent 1px);
+        background-size: 40px 40px;
+        opacity: 0.5;
+      }
+      .cta-inner {
+        position: relative;
+        max-width: 860px;
+        margin: 0 auto;
+      }
+      .cta-kicker {
+        font-family: var(--mono);
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+        color: rgba(255, 255, 255, 0.75);
+        margin-bottom: 18px;
+      }
+      .cta h2 {
+        font-family: var(--display);
+        font-size: clamp(38px, 5.6vw, 72px);
+        color: #fff;
+        line-height: 0.98;
+        letter-spacing: -1.5px;
+        margin-bottom: 18px;
+      }
+      .cta p {
+        font-size: 17px;
+        color: rgba(255, 255, 255, 0.9);
+        max-width: 620px;
+        margin: 0 auto 28px;
+        line-height: 1.55;
+      }
+      .cta-btnrow {
+        display: flex;
+        gap: 14px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .cta-button {
+        display: inline-block;
+        font-family: var(--mono);
+        font-size: 13px;
+        font-weight: 700;
+        padding: 16px 34px;
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        background: #fff;
+        color: var(--red-deep);
+        text-decoration: none;
+        transition:
+          transform 0.15s ease,
+          background 0.15s ease;
+      }
+      .cta-button:hover {
+        background: var(--text);
+        transform: translateY(-2px);
+        color: var(--red-deep);
+      }
+      .cta-button.ghost {
+        background: transparent;
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+      }
+      .cta-button.ghost:hover {
+        background: rgba(255, 255, 255, 0.1);
+        color: #fff;
+      }
+
+      /* ═══ FOOTER ═══ */
+      .foot {
+        background: var(--void);
+        padding: 48px 24px 32px;
+        text-align: center;
+        border-top: 1px solid var(--border);
+      }
+      .foot-title {
+        font-family: var(--mono);
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: var(--text-dim);
+        margin-bottom: 18px;
+      }
+      .foot-sources {
+        max-width: 880px;
+        margin: 0 auto;
+        font-family: var(--mono);
+        font-size: 11px;
+        color: var(--text-faint);
+        line-height: 1.9;
+      }
+      .foot-sources a {
+        color: var(--text-dim);
+      }
+      .foot-sources a:hover {
+        color: var(--text);
+      }
+      .foot-brand {
+        margin-top: 28px;
+        font-family: var(--display);
+        font-size: 14px;
+        color: var(--text);
+        letter-spacing: 0.5px;
+      }
+      .foot-small {
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--text-faint);
+        margin-top: 6px;
+        letter-spacing: 0.1em;
+      }
+      .foot-nav {
+        margin: 22px auto 10px;
+        display: flex;
+        justify-content: center;
+        gap: 22px;
+      }
+      .foot-nav a {
+        font-family: var(--mono);
+        font-size: 11px;
+        color: var(--text-dim);
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+      .foot-nav a:hover {
+        color: var(--red);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- TOPBAR -->
+    <nav class="topbar">
+      <a href="/" class="topbar-brand"
+        ><span class="tick"></span>BEARING FREEDOM</a
+      >
+      <div class="topbar-links">
+        <a href="/extras">EXTRAS</a>
+        <a href="/articles">ARTICLES</a>
+        <a href="/videos">VIDEOS</a>
+      </div>
+    </nav>
+
+    <!-- TICKER -->
+    <div class="ticker">
+      <div class="ticker-scroll">
+        <span>VA RECONVENED SESSION · APR 22 2026</span>
+        <span class="ticker-sep"></span>
+        <span>HOUSE REJECTS SPANBERGER'S ASSAULT FIREARM AMENDMENT</span>
+        <span class="ticker-sep"></span>
+        <span>HB 217 / SB 749 PASSED BY FOR THE DAY</span>
+        <span class="ticker-sep"></span>
+        <span>GOV REMOVED "FIXED" FROM MAGAZINE CLAUSE</span>
+        <span class="ticker-sep"></span>
+        <span>PUBLIC CARRY BAN HB 1524 / SB 727 IN THE PACKAGE</span>
+        <span class="ticker-sep"></span>
+        <span>UBC + EMERGENCY CLAUSE HB 1525</span>
+        <span class="ticker-sep"></span>
+        <span>6 GUN BILL PACKAGES · 10 BILL NUMBERS</span>
+        <span class="ticker-sep"></span>
+        <span>BILLS RETURN TO GOV IN ORIGINAL FORM</span>
+        <span class="ticker-sep"></span>
+        <span>SIGN AS-PASSED · VETO · OR POCKET SIGN</span>
+        <span class="ticker-sep"></span>
+        <span>VA RECONVENED SESSION · APR 22 2026</span>
+        <span class="ticker-sep"></span>
+        <span>HOUSE REJECTS SPANBERGER'S ASSAULT FIREARM AMENDMENT</span>
+        <span class="ticker-sep"></span>
+        <span>HB 217 / SB 749 PASSED BY FOR THE DAY</span>
+        <span class="ticker-sep"></span>
+        <span>GOV REMOVED "FIXED" FROM MAGAZINE CLAUSE</span>
+        <span class="ticker-sep"></span>
+        <span>PUBLIC CARRY BAN HB 1524 / SB 727 IN THE PACKAGE</span>
+        <span class="ticker-sep"></span>
+        <span>UBC + EMERGENCY CLAUSE HB 1525</span>
+        <span class="ticker-sep"></span>
+        <span>6 GUN BILL PACKAGES · 10 BILL NUMBERS</span>
+        <span class="ticker-sep"></span>
+      </div>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="dateline">
+          RICHMOND<span class="sep">●</span>RECONVENED SESSION<span class="sep"
+            >●</span
+          >APRIL 22 2026
+        </div>
+        <h1 class="hero-title">
+          SPANBERGER'S <span class="red">GUN BILLS</span>
+          <br /><span class="strike">AMENDED</span> REJECTED.
+        </h1>
+        <p class="hero-deck">
+          Six gun-bill packages went back to the General Assembly with the
+          governor's recommended changes. On April 22 her own caucus killed the
+          headline amendments without a floor vote. The <em>original bills</em> are
+          now on her desk and the clock is running.
+        </p>
+        <div class="hero-tags">
+          <span class="pill pill-red">6 GUN PACKAGES</span>
+          <span class="pill">RECONVENED SESSION</span>
+          <span class="pill pill-gold">HB 217 / SB 749 REJECTED</span>
+          <span class="pill">HB 1524 / SB 727 IN BLOCK</span>
+          <span class="pill pill-green">~30 DAYS TO ACT</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCOREBOARD -->
+    <section class="scoreboard">
+      <div class="scoreboard-inner">
+        <div class="score-cell rejected">
+          <div class="score-lbl">CONFIRMED REJECTED</div>
+          <div class="score-val">2</div>
+          <div class="score-sub">HB 217 / SB 749</div>
+          <div class="score-note">
+            Assault firearm and magazine ban. Both chambers "passed by" with no
+            floor vote. Original language goes back to the governor.
+          </div>
+        </div>
+        <div class="score-cell pending">
+          <div class="score-lbl">IN THE REJECTED BLOCK</div>
+          <div class="score-val">4</div>
+          <div class="score-sub">INDIVIDUAL OUTCOMES UNCONFIRMED</div>
+          <div class="score-note">
+            Same-day reporting flagged 20+ amendments killed as a block. The
+            other four gun packages were part of that block, though not every
+            bill got a dedicated write-up.
+          </div>
+        </div>
+        <div class="score-cell accepted">
+          <div class="score-lbl">GOV'S CHOICE</div>
+          <div class="score-val">3</div>
+          <div class="score-sub">OPTIONS PER RETURNED BILL</div>
+          <div class="score-note">
+            Sign as-passed, veto, or let it become law without a signature after
+            30 days. No fourth move left.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-val red">6</div>
+        <div class="stat-lbl">Gun bill packages<br />amended</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val">10</div>
+        <div class="stat-lbl">Individual bill<br />numbers (HB + SB)</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val gold">20+</div>
+        <div class="stat-lbl">
+          Amendments rejected<br />April 22 across all topics
+        </div>
+      </div>
+      <div class="stat">
+        <div class="stat-val red">2/3</div>
+        <div class="stat-lbl">Vote needed<br />to override a veto</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val green">30</div>
+        <div class="stat-lbl">Days she has<br />to sign or veto</div>
+      </div>
+    </div>
+
+    <!-- WHAT JUST HAPPENED -->
+    <section class="section">
+      <div class="section-label">
+        <span class="num">01 /</span> THE BASICS
+      </div>
+      <h2 class="section-title">
+        What the <span class="red">veto session</span> is and why it mattered yesterday.
+      </h2>
+      <p class="section-deck">
+        Virginia's governor has three options for every bill the General
+        Assembly sends her: sign, veto, or return it with <em
+          >recommended amendments</em
+        >. That third option is what forced lawmakers back to Richmond.
+      </p>
+
+      <div class="prose">
+        <p>
+          Spanberger returned <strong>176 bills</strong> with recommended changes
+          before her April 13 deadline, on top of vetoing eight. When she sends a
+          bill back, the legislature has one chance to decide what to do with her
+          suggestions. That chance was yesterday.
+        </p>
+        <p>
+          Lawmakers had three moves on each amendment: <strong>accept</strong>
+          with a simple majority, <strong>reject</strong> by majority or by simply
+          refusing to take it up, or <strong>override</strong> with a two-thirds supermajority
+          in both chambers. Any emergency clause the governor added requires a steeper
+          <strong>four-fifths</strong> vote to survive.
+        </p>
+        <p>
+          Rejection doesn't kill a bill. It sends the <em>original text</em>
+          back to the governor's desk, where she has about thirty days to sign it,
+          veto it, or let it become law without a signature. That's where we are now
+          on every rejected package below.
+        </p>
+      </div>
+
+      <div class="process">
+        <div class="process-step">
+          <div class="process-num">STEP 01</div>
+          <div class="process-head">GA passes bill</div>
+          <div class="process-body">
+            House and Senate reconcile, send enrolled text to the Executive
+            Mansion.
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-num">STEP 02</div>
+          <div class="process-head">Governor amends</div>
+          <div class="process-body">
+            Instead of signing or vetoing, Spanberger returns the bill with
+            "recommended" changes.
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-num">STEP 03</div>
+          <div class="process-head">Reconvened vote</div>
+          <div class="process-body">
+            April 22 one-day session. Each chamber votes accept / reject, or
+            "passes by" with no vote at all.
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-num">STEP 04</div>
+          <div class="process-head">Back to the gov</div>
+          <div class="process-body">
+            Rejected bills return in their original form. She signs, vetoes, or
+            lets them become law.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE 9 BILL CARDS -->
+    <section class="section section-wide">
+      <div class="section-label">
+        <span class="num">02 /</span> THE SIX GUN PACKAGES
+      </div>
+      <h2 class="section-title">
+        Every gun bill, every <span class="red">amendment</span>, every next
+        step.
+      </h2>
+      <p class="section-deck">
+        Six gun-bill packages across ten individual bill numbers. Four are
+        confrontational (bans, carry restrictions, age hikes, hospital
+        carve-outs). Two are incremental (storage definition, buyback program
+        language). Every one of them is now on Spanberger's desk in its original
+        form, or about to be.
+      </p>
+
+      <div class="bill-grid">
+        <!-- BILL 01 — Assault firearms & magazine ban -->
+        <article class="bill">
+          <div class="bill-top">
+            <div class="bill-meta">
+              <div class="bill-num">PACKAGE 01</div>
+              <div class="bill-ids">HB 217 / SB 749</div>
+              <div class="bill-topic topic-2a">
+                ASSAULT FIREARM &amp; MAG BAN
+              </div>
+            </div>
+            <div class="stamp rejected">Rejected</div>
+          </div>
+          <div class="bill-body">
+            <div class="bill-row">
+              <div class="bill-row-lbl">THE BILL</div>
+              <div class="bill-row-body">
+                Class 1 misdemeanor to import, sell, manufacture, or transfer
+                assault firearms and magazines holding more than 15 rounds.
+                Lawfully owned firearms and magazines acquired before July 1,
+                2026 are grandfathered.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent-y">SPANBERGER'S AMENDMENT</div>
+              <div class="bill-row-body">
+                Shifted the ban to a features-based test covering rifles,
+                pistols and shotguns. Exempted certain semi-auto hunting
+                shotguns. Added a three-year firearm purchase and possession ban
+                on anyone convicted under the measure. The critical change: <span
+                  class="red">struck the word "fixed"</span
+                > from the magazine clause, which critics including the NRA-ILA argue
+                expands the ban to common centerfire semi-autos that accept detachable
+                magazines over 15 rounds.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent">APRIL 22 OUTCOME</div>
+              <div class="bill-row-body">
+                Both chambers <strong>"passed by for the day."</strong> No floor vote,
+                no name on the board, procedurally identical to a No. House Democrats
+                killed their own governor's substitute without debate.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent-g">NEXT STEP</div>
+              <div class="bill-row-body">
+                Bill returns to Spanberger in its <em>original form</em>. She
+                can sign the assault weapons ban as the legislature wrote it,
+                veto it, or let it become law unsigned. Roughly 30 days on the
+                clock.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- BILL 02 — Public carry ban -->
+        <article class="bill">
+          <div class="bill-top">
+            <div class="bill-meta">
+              <div class="bill-num">PACKAGE 02</div>
+              <div class="bill-ids">HB 1524 / SB 727</div>
+              <div class="bill-topic topic-2a">
+                PUBLIC CARRY OF "ASSAULT FIREARMS"
+              </div>
+            </div>
+            <div class="stamp pending">In block</div>
+          </div>
+          <div class="bill-body">
+            <div class="bill-row">
+              <div class="bill-row-lbl">THE BILL</div>
+              <div class="bill-row-body">
+                Makes it a criminal offense to carry an "assault firearm" in
+                most public places (streets, roads, sidewalks, parks, public
+                spaces). As enrolled, concealed handgun permit holders were
+                <em>not</em> exempt. Amends Va. Code §18.2-287.4.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent-y">SPANBERGER'S AMENDMENT</div>
+              <div class="bill-row-body">
+                Pointed the "assault firearm" definition at the broader HB 217 /
+                SB 749 substitute, so any expansion there flows through here. <span
+                  class="red"
+                  >Kept the no-exemption for concealed permit holders</span
+                >, meaning permitted carriers remain subject to the ban. Added a
+                narrow exemption for cadet corps at public colleges during
+                approved training or ceremonial events.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent">APRIL 22 OUTCOME</div>
+              <div class="bill-row-body">
+                Not individually covered in same-day reporting. Cardinal News
+                and Bearing Arms both reported <strong
+                  >20+ amendments rejected as a block</strong
+                >, and this bill's definitions are tied directly to HB 217,
+                which was rejected. Almost certainly part of the same block
+                dispatch.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent-g">NEXT STEP</div>
+              <div class="bill-row-body">
+                If rejected, goes back to Spanberger in original form. Either a
+                public-carry ban on named assault firearms becomes law without
+                her features-based expansion, or she vetoes a bill her own
+                caucus just insisted on. The underlying permit-holder exposure
+                is unchanged either way.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- BILL 03 — UBC + age alignment + emergency clause -->
+        <article class="bill">
+          <div class="bill-top">
+            <div class="bill-meta">
+              <div class="bill-num">PACKAGE 03</div>
+              <div class="bill-ids">HB 1525</div>
+              <div class="bill-topic topic-2a">UBC + 18-TO-21 AGE HIKE</div>
+            </div>
+            <div class="stamp pending">In block</div>
+          </div>
+          <div class="bill-body">
+            <div class="bill-row">
+              <div class="bill-row-lbl">THE BILL</div>
+              <div class="bill-row-body">
+                Restores universal background checks on private firearm sales
+                after a Lynchburg court ruling ended enforcement of the earlier
+                state mandate. Raises the minimum purchase age for handguns and
+                certain covered firearms from 18 to 21, with exceptions for
+                military and law enforcement.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent-y">SPANBERGER'S AMENDMENT</div>
+              <div class="bill-row-body">
+                Directed Virginia State Police to resume private-sale checks,
+                aligned the age-21 floor explicitly with federal law, and added
+                an <strong>emergency clause</strong> so the law would take effect
+                on passage rather than July 1. The emergency clause is the procedural
+                pressure point.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent">APRIL 22 OUTCOME</div>
+              <div class="bill-row-body">
+                Not broken out individually in same-day reporting. An emergency
+                clause requires a <strong>four-fifths</strong> vote in each chamber,
+                which Democrats alone can't hit. If the emergency clause fails, the
+                underlying amendment can still be rejected by simple majority. Most
+                likely part of the broad rejection block.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent-g">NEXT STEP</div>
+              <div class="bill-row-body">
+                If rejected, the original bill goes back to Spanberger with the
+                standard July 1 effective date and without her age-alignment
+                language. GOA has signaled litigation over the private-sale
+                background check regardless of final form.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- BILL 04 — Firearms in mental health hospitals -->
+        <article class="bill">
+          <div class="bill-top">
+            <div class="bill-meta">
+              <div class="bill-num">PACKAGE 04</div>
+              <div class="bill-ids">HB 229 / SB 173</div>
+              <div class="bill-topic topic-2a">
+                WEAPONS IN MENTAL HEALTH HOSPITALS
+              </div>
+            </div>
+            <div class="stamp pending">In block</div>
+          </div>
+          <div class="bill-body">
+            <div class="bill-row">
+              <div class="bill-row-lbl">THE BILL</div>
+              <div class="bill-row-body">
+                Class 1 misdemeanor to knowingly possess a firearm, a knife with
+                a blade over 3.5 inches, or other dangerous weapon inside any
+                hospital building that provides mental health or developmental
+                services, including emergency departments. Seized weapons
+                forfeited to the Commonwealth.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent-y">SPANBERGER'S AMENDMENT</div>
+              <div class="bill-row-body">
+                <span class="red"
+                  >Stripped the written-authorization exception</span
+                >. As enrolled, the bill carved out anyone with written
+                permission from hospital administrators (including security
+                personnel and employees). Spanberger's substitute eliminates
+                that path entirely. Hospitals can no longer authorize armed
+                staff or private security on mental health campuses.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent">APRIL 22 OUTCOME</div>
+              <div class="bill-row-body">
+                Not individually detailed in same-day reporting, but listed by
+                NRA-ILA as one of the four headline amended gun bills. Likely
+                part of the same block of rejected amendments.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent-g">NEXT STEP</div>
+              <div class="bill-row-body">
+                If rejected, the original bill with the written-permission
+                exception returns to Spanberger. Hospitals retain the authority
+                to let designated employees or contract security carry on their
+                property, which is what her amendment tried to close.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- BILL 05 — Safe storage -->
+        <article class="bill">
+          <div class="bill-top">
+            <div class="bill-meta">
+              <div class="bill-num">PACKAGE 05</div>
+              <div class="bill-ids">HB 871 / SB 348</div>
+              <div class="bill-topic topic-2a">
+                SAFE STORAGE (HOMES WITH MINORS)
+              </div>
+            </div>
+            <div class="stamp pending">Pending</div>
+          </div>
+          <div class="bill-body">
+            <div class="bill-row">
+              <div class="bill-row-lbl">THE BILL</div>
+              <div class="bill-row-body">
+                Requires firearms in homes where minors are present to be kept
+                in "a locked container, compartment, or cabinet" that is
+                inaccessible to the minor. Enforcement tied to civil penalties
+                and aggravating-factor treatment for downstream offenses.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent-y">SPANBERGER'S AMENDMENT</div>
+              <div class="bill-row-body">
+                Expanded the safe-storage definition to include a firearm
+                rendered inoperable by a dedicated locking device (trigger lock,
+                cable lock). A genuine concession: the enrolled bill required
+                physical containment, and trigger-locked firearms were arguably
+                non-compliant.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent">APRIL 22 OUTCOME</div>
+              <div class="bill-row-body">
+                Not flagged as a fight in same-day reporting. This was the least
+                adversarial of her firearm amendments and the one gun-rights
+                groups didn't attack. Plausibly accepted, though not confirmed.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent-g">NEXT STEP</div>
+              <div class="bill-row-body">
+                If accepted, trigger-locked firearms count as compliant when the
+                law takes effect July 1. If rejected, the tighter
+                containment-only version goes back to the governor.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- BILL 06 — Gun buyback programs -->
+        <article class="bill">
+          <div class="bill-top">
+            <div class="bill-meta">
+              <div class="bill-num">PACKAGE 06</div>
+              <div class="bill-ids">HB 702</div>
+              <div class="bill-topic topic-2a">LOCAL GUN BUY-BACK PROGRAMS</div>
+            </div>
+            <div class="stamp pending">Pending</div>
+          </div>
+          <div class="bill-body">
+            <div class="bill-row">
+              <div class="bill-row-lbl">THE BILL</div>
+              <div class="bill-row-body">
+                Authorizes Virginia localities to stand up voluntary gun
+                buy-back programs where residents can turn in firearms in
+                exchange for compensation.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent-y">SPANBERGER'S AMENDMENT</div>
+              <div class="bill-row-body">
+                Technical language clarifying that buy-back programs exist "to
+                provide a safe process" for residents who choose to return a
+                firearm. No operational teeth, no enforcement change, no budget
+                implications. The smallest of her six gun amendments.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent">APRIL 22 OUTCOME</div>
+              <div class="bill-row-body">
+                Not flagged as contested. Technical amendments of this scale are
+                usually rubber-stamped even in a hostile reconvened session.
+              </div>
+            </div>
+            <div class="bill-row">
+              <div class="bill-row-lbl accent-g">NEXT STEP</div>
+              <div class="bill-row-body">
+                Either way, the authorization for local buy-back programs moves
+                forward. Richmond, Norfolk, and NoVA localities now have a
+                standing lane to spend local funds buying firearms off the
+                street.
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDITORIAL: WHAT THIS MEANS FOR 2A -->
+    <section class="section">
+      <div class="section-label">
+        <span class="num">03 /</span> THE 2A READ
+      </div>
+      <h2 class="section-title">
+        The assault weapons ban is <span class="red">on her desk</span>.
+      </h2>
+      <p class="section-deck">
+        Strip away the other five gun packages and this is the one fight that
+        defines her governorship. The House just took her exit ramps away.
+      </p>
+
+      <div class="callout">
+        <div class="callout-quote">
+          Spanberger's three-option menu is now a <span class="red"
+            >two-option trap</span
+          >: sign what her own party wrote, or veto and take the
+          <span class="gold">hit</span>.
+        </div>
+        <div class="callout-body">
+          <p>
+            Her amendments were the face-saving version. By removing the word
+            "fixed" from the magazine clause, she handed the original ban more
+            teeth than the sponsors had written in, while giving herself a
+            political hedge to point at shotgun exemptions and feature
+            clarifications. The House passed it by without a vote. No hedge. No
+            cover.
+          </p>
+          <p>
+            <strong>Option one:</strong> she signs HB 217 / SB 749 as the legislature
+            passed it. Virginia becomes the next state with an active assault weapons
+            ban, the DOJ lawsuit threats turn into actual filings, and Bruen-era litigation
+            starts almost immediately.
+          </p>
+          <p>
+            <strong>Option two:</strong> she vetoes. The ban dies. Her own caucus,
+            the same caucus that killed her amendments yesterday, watches its signature
+            2026 policy win evaporate because their governor couldn't take yes for
+            an answer. Override needs 2/3 of each chamber. Democrats don't have that
+            alone.
+          </p>
+          <p>
+            <strong>Option three doesn't exist anymore.</strong> The House made sure
+            of that.
+          </p>
+        </div>
+      </div>
+
+      <div class="matrix">
+        <div class="matrix-cell red">
+          <div class="matrix-head">SCENARIO A</div>
+          <div class="matrix-title">She signs the ban</div>
+          <div class="matrix-body">
+            Virginia joins the active AWB states. Grandfathered pre-July 2026
+            firearms. DOJ litigation threats materialize. Court challenges from
+            VCDL and GOA start in the Eastern District. 2A community
+            mobilization goes vertical.
+          </div>
+        </div>
+        <div class="matrix-cell gold">
+          <div class="matrix-head">SCENARIO B</div>
+          <div class="matrix-title">She vetoes it</div>
+          <div class="matrix-body">
+            Ban dies. Dem caucus faces a brutal civil war between the governor's
+            office and General Assembly leadership. Override vote would need
+            roughly 67 House votes and 27 Senate. Dems don't have it alone.
+          </div>
+        </div>
+        <div class="matrix-cell green">
+          <div class="matrix-head">SCENARIO C</div>
+          <div class="matrix-title">She lets it become law</div>
+          <div class="matrix-body">
+            No signature, no veto. After 30 days the bill becomes law anyway.
+            She gets the policy without a signing ceremony. Politically clean.
+            The weakest governor choice, and probably the most likely.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BIGGER PICTURE -->
+    <section class="section">
+      <div class="section-label">
+        <span class="num">04 /</span> THE BIGGER STORY
+      </div>
+      <h2 class="section-title">
+        Democrats just <span class="red">publicly broke</span> with their own governor.
+      </h2>
+      <div class="prose">
+        <p>
+          Keep in mind the math. Democrats control the House
+          <strong>51-49</strong> and the Senate <strong>21-19</strong>. They
+          don't need a single Republican to pass or reject anything in a
+          majority vote. Everything that happened yesterday happened <em
+            >inside the majority</em
+          >.
+        </p>
+        <p>
+          Reporting from Cardinal News, WVTF, and Virginia Mercury tells the
+          same story: Democratic lawmakers complained Spanberger sent back too
+          many bills with too little warning, made substantive rewrites (not
+          technical cleanup), and did it without consulting bill sponsors. On
+          the assault firearm ban specifically, removing "fixed" from the
+          magazine clause was never what the sponsors wrote. The House killed it
+          without even taking a vote.
+        </p>
+        <p>
+          This isn't a split between parties. It's a split between
+          <strong>legislative Democrats</strong> who spent years negotiating these
+          bills and an <strong>executive Democrat</strong> who tried to rewrite them
+          with a pen on April 13. That matters for the next four years of Virginia
+          politics, not just the 2A fight.
+        </p>
+        <p>
+          For gun owners, the upside is narrow but real. The governor's own
+          party just told her: <em>take what we gave you, or take the loss</em>.
+          Every scenario now produces a cleaner political fact on the record
+          than her amended version would have.
+        </p>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="cta-inner">
+        <div class="cta-kicker">WATCH THE NEXT 30 DAYS</div>
+        <h2>HB 217 IS<br />ON HER DESK.</h2>
+        <p>
+          By roughly May 22 Spanberger has to sign, veto, or let it become law.
+          The other rejected packages run the same clock. Every one of them is a
+          test of whether a Democratic governor will break with her caucus to
+          cover for her own amendments, or swallow the bills she publicly
+          rewrote.
+        </p>
+        <div class="cta-btnrow">
+          <a class="cta-button" href="/legislation">VA LEGISLATION TRACKER →</a>
+          <a class="cta-button ghost" href="/tierlist">TIER LIST THE BILLS →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER / SOURCES -->
+    <footer class="foot">
+      <div class="foot-title">— SOURCES —</div>
+      <div class="foot-sources">
+        <a
+          href="https://cardinalnews.org/2026/04/22/general-assembly-rejects-more-than-a-dozen-of-spanbergers-amendments/"
+          target="_blank"
+          rel="noopener"
+          >Cardinal News — GA Rejects More Than a Dozen Amendments (Apr 22)</a
+        >
+        ·
+        <a
+          href="https://www.wvtf.org/news/2026-04-22/general-assembly-rejects-spanberger-amendments-on-many-high-profile-bills"
+          target="_blank"
+          rel="noopener"
+          >WVTF — GA Rejects Amendments on Many High-Profile Bills</a
+        >
+        ·
+        <a
+          href="https://bearingarms.com/camedwards/2026/04/22/virginia-house-democrats-deny-spanbergers-gun-ban-amendment-n1232308"
+          target="_blank"
+          rel="noopener">Bearing Arms — House Denies Gun Ban Amendment</a
+        >
+        ·
+        <a
+          href="https://bearingarms.com/camedwards/2026/04/22/virginia-dems-set-to-approve-spanbergers-expanded-assault-firearm-ban-n1232300"
+          target="_blank"
+          rel="noopener">Bearing Arms — Expanded Assault Firearm Ban</a
+        >
+        ·
+        <a
+          href="https://virginiamercury.com/2026/04/14/spanberger-amends-signs-sweeping-gun-legislation-reshaping-virginias-firearm-laws/"
+          target="_blank"
+          rel="noopener">Virginia Mercury — Sweeping Gun Legislation</a
+        >
+        ·
+        <a
+          href="https://farmvilleherald.com/2026/04/governor-amends-signs-gun-bills/"
+          target="_blank"
+          rel="noopener">Farmville Herald — Governor Amends, Signs Gun Bills</a
+        >
+        ·
+        <a
+          href="https://www.washingtontimes.com/news/2026/apr/14/spanberger-approves-amends-several-virginia-gun-control-laws/"
+          target="_blank"
+          rel="noopener"
+          >Washington Times — Spanberger Amends Gun Control Laws</a
+        >
+        ·
+        <a
+          href="https://www.foxnews.com/politics/spanberger-signs-gun-bills-makes-proposed-gun-ban-even-harsher"
+          target="_blank"
+          rel="noopener">Fox News — Spanberger Makes Gun Ban Harsher</a
+        >
+        ·
+        <a
+          href="https://www.nraila.org/articles/20260414/virginia-spanberger-offers-fake-adjustments-real-infringements-on-virginia-gun-rights"
+          target="_blank"
+          rel="noopener">NRA-ILA — Fake Adjustments, Real Infringements</a
+        >
+        ·
+        <a
+          href="https://www.nraila.org/articles/20260415/virginia-spanberger-bill-threatens-to-ban-most-centerfire-semi-autos-devastate-right-to-carry"
+          target="_blank"
+          rel="noopener">NRA-ILA — Centerfire Semi-Autos & Right-to-Carry</a
+        >
+        ·
+        <a
+          href="https://www.usacarry.com/virginia-governor-returns-sb749-with-amendments-that-may-broaden-semi-auto-firearm-ban/"
+          target="_blank"
+          rel="noopener">USA Carry — SB 749 Amendments May Broaden Ban</a
+        >
+        ·
+        <a
+          href="https://www.pewpewtactical.com/gun-ban-virginia/"
+          target="_blank"
+          rel="noopener">Pew Pew Tactical — VA Gun Ban Update</a
+        >
+        ·
+        <a
+          href="https://www.cavalierdaily.com/article/2026/04/sb727-to-tighten-assault-firearm-usage-if-spanbergers-amendment-reaches-approval"
+          target="_blank"
+          rel="noopener">Cavalier Daily — SB 727 Amendment Analysis</a
+        >
+        ·
+        <a
+          href="https://thereload.com/spanberger-requests-stricter-hospital-gun-ban-from-virginia-legislature/"
+          target="_blank"
+          rel="noopener">The Reload — Stricter Hospital Gun Ban (HB 229)</a
+        >
+        ·
+        <a
+          href="https://www.vpm.org/generalassembly/2026-04-14/abigail-spanberger-virginia-general-assembly-veto-day-deadline"
+          target="_blank"
+          rel="noopener">VPM — Last-Minute Actions on 11 Issues</a
+        >
+        ·
+        <a
+          href="https://www.governor.virginia.gov/newsroom/news-releases/2026/april-releases/name-1116400-en.html"
+          target="_blank"
+          rel="noopener">Office of the Governor — April Releases</a
+        >
+        ·
+        <a
+          href="https://lis.virginia.gov/bill-details/20261/HB217"
+          target="_blank"
+          rel="noopener">VA LIS — HB 217</a
+        >
+        ·
+        <a
+          href="https://lis.virginia.gov/bill-details/20261/SB749"
+          target="_blank"
+          rel="noopener">VA LIS — SB 749</a
+        >
+        ·
+        <a
+          href="https://lis.virginia.gov/bill-details/20261/SB727"
+          target="_blank"
+          rel="noopener">VA LIS — SB 727</a
+        >
+        ·
+        <a
+          href="https://lis.virginia.gov/bill-details/20261/HB1525"
+          target="_blank"
+          rel="noopener">VA LIS — HB 1525</a
+        >
+      </div>
+      <div class="foot-nav">
+        <a href="/">HOME</a>
+        <a href="/extras">EXTRAS</a>
+        <a href="/legislation">LEGISLATION</a>
+        <a href="/tierlist">TIER LIST</a>
+        <a href="/articles">ARTICLES</a>
+      </div>
+      <div class="foot-brand">BEARING FREEDOM</div>
+      <div class="foot-small">
+        2A COMMENTARY · INDEPENDENT · BEARINGFREEDOM.COM
+      </div>
+    </footer>
+  </body>
+</html>
