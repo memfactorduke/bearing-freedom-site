@@ -18,7 +18,13 @@ Converts YouTube videos from the Bearing Freedom channel into standalone opinion
 cd "/Users/memfactor/Desktop/Bearing Freedom Site"
 
 # Build list of already-processed YouTube IDs
-grep -h "youtube_id:" src/content/articles/*.md 2>/dev/null | sed 's/.*youtube_id: "//;s/".*//' | sort > /tmp/existing-ids.txt
+# Note: handles BOTH single- and double-quoted youtube_id values. Existing
+# articles use single quotes (the agent that wrote them defaulted to single);
+# new agent runs default to double. Without the permissive regex, the dedup
+# misses the entire single-quoted backlog and reprocesses videos.
+grep -h "^youtube_id:" src/content/articles/*.md 2>/dev/null \
+  | sed -E "s/^youtube_id:[[:space:]]*[\"']?([^\"']+)[\"']?[[:space:]]*$/\1/" \
+  | sort -u > /tmp/existing-ids.txt
 
 # Get channel video IDs, filter out existing
 yt-dlp --flat-playlist --print "%(id)s" "https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw/videos" \
