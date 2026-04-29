@@ -1,0 +1,1818 @@
+---
+// Standalone page — self-contained styles, no global.css
+// ATF "New Era of Reform" — April 7, 2026
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATF: New Era of Reform | Bearing Freedom</title>
+    <meta
+      name="description"
+      content="The ATF formally repealed Zero Tolerance, the pistol brace rule, bump-stock language, and more. 34 actions across 5 categories. Full case file with what's gone, what's kept, and the 2A take."
+    />
+    <meta
+      property="og:title"
+      content="ATF: New Era of Reform | Bearing Freedom"
+    />
+    <meta
+      property="og:description"
+      content="34 regulatory actions. Zero Tolerance is dead. Pistol brace rule is gone. NFA tax is $0. But the frames-and-receivers rule survived. Here's the case file."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bearingfreedom.com/atfreform" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6WRV03TTZ"
+    ></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-Q6WRV03TTZ', {
+        send_page_view: true,
+        allow_google_signals: true,
+        allow_ad_personalization_signals: true,
+        cookie_flags: 'SameSite=None;Secure',
+        page_referrer: document.referrer,
+        screen_resolution: window.screen.width + 'x' + window.screen.height,
+      });
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Special+Elite&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style is:global>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        /* Manila / paper palette */
+        --paper: #ede4d0;
+        --paper-shade: #e1d5b8;
+        --paper-deep: #c9bb98;
+        --paper-edge: #9c8e6a;
+
+        /* Ink */
+        --ink: #1a1410;
+        --ink-soft: #2c241c;
+        --ink-mid: #5a4d3e;
+        --ink-faint: #8a7c68;
+        --ink-ghost: rgba(26, 20, 16, 0.18);
+
+        /* Stamps */
+        --red: #a82828;
+        --red-deep: #7a1c1c;
+        --red-glow: rgba(168, 40, 40, 0.85);
+        --red-faded: rgba(168, 40, 40, 0.55);
+
+        /* Accents */
+        --amber: #b8860b;
+        --amber-deep: #8a6608;
+        --amber-bg: #f5e9c0;
+        --green: #2d5016;
+        --green-deep: #1f3a0e;
+        --green-bg: #d8e4c0;
+        --blue-stamp: #1f3a6b;
+
+        /* Black */
+        --black: #08060a;
+        --white: #fefcf6;
+
+        /* Type */
+        --display: 'Anton', Impact, 'Helvetica Neue', sans-serif;
+        --stamp: 'Special Elite', 'Courier New', monospace;
+        --body: 'Newsreader', Georgia, 'Times New Roman', serif;
+        --mono: 'JetBrains Mono', 'Courier New', monospace;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        background: var(--paper);
+        background-image:
+          radial-gradient(
+            circle at 25% 15%,
+            rgba(156, 142, 106, 0.08) 0%,
+            transparent 35%
+          ),
+          radial-gradient(
+            circle at 75% 65%,
+            rgba(122, 28, 28, 0.05) 0%,
+            transparent 40%
+          ),
+          radial-gradient(
+            circle at 50% 95%,
+            rgba(156, 142, 106, 0.1) 0%,
+            transparent 45%
+          );
+        color: var(--ink);
+        font-family: var(--body);
+        font-size: 18px;
+        line-height: 1.7;
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+        position: relative;
+      }
+
+      /* Subtle paper grain */
+      body::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        z-index: 1;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.1 0 0 0 0 0.08 0 0 0 0 0.06 0 0 0 0.18 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+        opacity: 0.55;
+        mix-blend-mode: multiply;
+      }
+
+      a {
+        color: var(--red);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+      }
+      a:hover {
+        color: var(--ink);
+      }
+
+      /* ═════════════════════════════════════════ */
+      /* TOPBAR                                     */
+      /* ═════════════════════════════════════════ */
+      .topbar {
+        position: relative;
+        z-index: 10;
+        background: var(--black);
+        padding: 0 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 44px;
+      }
+      .topbar-brand {
+        font-family: var(--display);
+        font-size: 22px;
+        font-weight: 400;
+        color: var(--white);
+        text-decoration: none;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+      .topbar-links {
+        display: flex;
+        gap: 22px;
+        align-items: center;
+      }
+      .topbar-links a {
+        font-family: var(--stamp);
+        font-size: 11px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        color: #b8a890;
+        text-decoration: none;
+      }
+      .topbar-links a:hover {
+        color: var(--white);
+      }
+
+      /* ═════════════════════════════════════════ */
+      /* CLASSIFICATION BAR                         */
+      /* ═════════════════════════════════════════ */
+      .classbar {
+        position: relative;
+        z-index: 5;
+        background: var(--red);
+        color: var(--white);
+        padding: 6px 0;
+        text-align: center;
+        font-family: var(--stamp);
+        font-size: 11px;
+        letter-spacing: 0.32em;
+        text-transform: uppercase;
+        border-top: 1px solid rgba(255, 255, 255, 0.18);
+        border-bottom: 3px double rgba(255, 255, 255, 0.35);
+      }
+      .classbar span {
+        margin: 0 14px;
+      }
+      .classbar .dot {
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        background: var(--white);
+        border-radius: 50%;
+        vertical-align: middle;
+        margin: 0 4px 2px;
+      }
+
+      /* ═════════════════════════════════════════ */
+      /* FILE TAB / FOLDER HEADER                   */
+      /* ═════════════════════════════════════════ */
+      .file-tab-bar {
+        position: relative;
+        z-index: 4;
+        background: var(--paper-deep);
+        border-bottom: 1px solid var(--paper-edge);
+        padding: 16px 32px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px 32px;
+        align-items: center;
+        justify-content: space-between;
+        font-family: var(--stamp);
+        font-size: 12px;
+        color: var(--ink-soft);
+      }
+      .file-tab-bar .item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .file-tab-bar .label {
+        color: var(--ink-mid);
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        font-size: 10px;
+      }
+      .file-tab-bar .value {
+        font-weight: 400;
+        color: var(--ink);
+        letter-spacing: 0.04em;
+      }
+      .file-tab-bar .stamp-mark {
+        display: inline-block;
+        padding: 3px 9px;
+        border: 1.5px solid var(--red);
+        color: var(--red);
+        font-weight: 400;
+        letter-spacing: 0.18em;
+        transform: rotate(-2deg);
+      }
+
+      /* ═════════════════════════════════════════ */
+      /* MASTHEAD                                   */
+      /* ═════════════════════════════════════════ */
+      .masthead {
+        position: relative;
+        z-index: 3;
+        padding: 64px 24px 56px;
+        text-align: center;
+        border-bottom: 6px double var(--ink);
+        max-width: 1120px;
+        margin: 0 auto;
+      }
+      .masthead-eyebrow {
+        font-family: var(--stamp);
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.32em;
+        color: var(--ink-mid);
+        margin-bottom: 24px;
+      }
+      .masthead-eyebrow::before,
+      .masthead-eyebrow::after {
+        content: '◆';
+        margin: 0 14px;
+        color: var(--red);
+        font-size: 8px;
+        vertical-align: middle;
+      }
+      .masthead h1 {
+        font-family: var(--display);
+        font-size: clamp(56px, 11vw, 132px);
+        font-weight: 400;
+        line-height: 0.92;
+        letter-spacing: 0.005em;
+        color: var(--ink);
+        text-transform: uppercase;
+        margin-bottom: 18px;
+      }
+      .masthead h1 .of {
+        font-family: var(--body);
+        font-style: italic;
+        font-weight: 400;
+        font-size: 0.6em;
+        text-transform: lowercase;
+        color: var(--red);
+        letter-spacing: 0;
+      }
+      .masthead-sub {
+        font-family: var(--body);
+        font-style: italic;
+        font-size: clamp(20px, 2.6vw, 30px);
+        font-weight: 400;
+        color: var(--ink-soft);
+        max-width: 760px;
+        margin: 0 auto 28px;
+        line-height: 1.4;
+      }
+      .masthead-meta {
+        display: flex;
+        justify-content: center;
+        gap: 34px;
+        flex-wrap: wrap;
+        font-family: var(--stamp);
+        font-size: 11px;
+        color: var(--ink-mid);
+        text-transform: uppercase;
+        letter-spacing: 0.22em;
+        padding-top: 18px;
+        border-top: 1px solid var(--paper-edge);
+      }
+      .masthead-meta b {
+        color: var(--ink);
+        font-weight: 400;
+        letter-spacing: 0.06em;
+      }
+
+      /* ═════════════════════════════════════════ */
+      /* CONTAINER                                  */
+      /* ═════════════════════════════════════════ */
+      .wrap {
+        position: relative;
+        z-index: 3;
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 0 24px;
+      }
+      .wrap-narrow {
+        max-width: 780px;
+      }
+
+      /* ═════════════════════════════════════════ */
+      /* LEAD SECTION                               */
+      /* ═════════════════════════════════════════ */
+      .lead-section {
+        padding: 72px 0 56px;
+        position: relative;
+      }
+      .lead-grid {
+        display: grid;
+        grid-template-columns: 1fr 320px;
+        gap: 56px;
+        align-items: start;
+      }
+      @media (max-width: 880px) {
+        .lead-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .lead-text {
+        font-family: var(--body);
+        font-size: 21px;
+        line-height: 1.65;
+        color: var(--ink);
+      }
+      .lead-text .dropcap {
+        float: left;
+        font-family: var(--display);
+        font-size: 96px;
+        line-height: 0.85;
+        color: var(--red);
+        padding: 6px 14px 0 0;
+        margin-top: 4px;
+      }
+      .lead-text p {
+        margin-bottom: 20px;
+      }
+      .lead-text p:last-child {
+        margin-bottom: 0;
+      }
+      .lead-text strong {
+        font-weight: 700;
+        color: var(--ink);
+      }
+
+      /* Stamp box on the side */
+      .stamp-box {
+        position: relative;
+        padding: 28px 18px;
+        border: 2px solid var(--ink);
+        background: var(--paper-shade);
+      }
+      .stamp-box::before {
+        content: '';
+        position: absolute;
+        inset: 6px;
+        border: 1px solid var(--ink);
+        pointer-events: none;
+      }
+      .stamp-rotate {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        transform: rotate(-3deg);
+      }
+      .stamp-big {
+        font-family: var(--display);
+        font-size: 64px;
+        line-height: 0.9;
+        color: var(--red);
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 14px 18px 10px;
+        border: 4px double var(--red);
+        background: rgba(255, 255, 255, 0.18);
+        text-shadow:
+          1px 1px 0 rgba(168, 40, 40, 0.18),
+          0 0 1px rgba(168, 40, 40, 0.5);
+        opacity: 0.92;
+      }
+      .stamp-meta {
+        font-family: var(--stamp);
+        font-size: 11px;
+        color: var(--red-deep);
+        text-transform: uppercase;
+        letter-spacing: 0.22em;
+        text-align: center;
+      }
+      .stamp-date {
+        font-family: var(--stamp);
+        font-size: 13px;
+        color: var(--ink);
+        letter-spacing: 0.1em;
+        margin-top: 6px;
+      }
+
+      /* ═════════════════════════════════════════ */
+      /* CATEGORY GRID                              */
+      /* ═════════════════════════════════════════ */
+      .section {
+        padding: 72px 0;
+        position: relative;
+      }
+      .section-rule {
+        border-top: 1px solid var(--paper-edge);
+      }
+      .section-head {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-bottom: 36px;
+        padding-bottom: 18px;
+        border-bottom: 3px double var(--ink);
+      }
+      .section-num {
+        font-family: var(--stamp);
+        font-size: 11px;
+        color: var(--red);
+        letter-spacing: 0.32em;
+        text-transform: uppercase;
+        margin-bottom: 6px;
+      }
+      .section-head h2 {
+        font-family: var(--display);
+        font-size: clamp(38px, 5.5vw, 64px);
+        font-weight: 400;
+        line-height: 0.95;
+        color: var(--ink);
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+      }
+      .section-head .right {
+        font-family: var(--stamp);
+        font-size: 12px;
+        color: var(--ink-mid);
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        text-align: right;
+      }
+      .section-intro {
+        font-family: var(--body);
+        font-style: italic;
+        font-size: 19px;
+        color: var(--ink-soft);
+        max-width: 780px;
+        margin-bottom: 36px;
+        line-height: 1.55;
+      }
+
+      .cat-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 1px;
+        background: var(--ink);
+        border: 2px solid var(--ink);
+      }
+      @media (max-width: 880px) {
+        .cat-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (max-width: 480px) {
+        .cat-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .cat-cell {
+        background: var(--paper-shade);
+        padding: 22px 18px 24px;
+        text-align: center;
+        position: relative;
+      }
+      .cat-cell-num {
+        font-family: var(--display);
+        font-size: 56px;
+        line-height: 1;
+        color: var(--ink);
+        margin-bottom: 6px;
+      }
+      .cat-cell-label {
+        font-family: var(--stamp);
+        font-size: 12px;
+        color: var(--ink-soft);
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        margin-bottom: 12px;
+      }
+      .cat-cell-bar {
+        height: 6px;
+        background: var(--paper-deep);
+        border: 1px solid var(--ink-mid);
+        position: relative;
+        overflow: hidden;
+      }
+      .cat-cell-bar i {
+        position: absolute;
+        inset: 0 auto 0 0;
+        background: var(--red);
+      }
+      .cat-cell:nth-child(1) .cat-cell-bar i {
+        background: var(--red);
+      }
+      .cat-cell:nth-child(2) .cat-cell-bar i {
+        background: var(--blue-stamp);
+      }
+      .cat-cell:nth-child(3) .cat-cell-bar i {
+        background: var(--amber-deep);
+      }
+      .cat-cell:nth-child(4) .cat-cell-bar i {
+        background: var(--green-deep);
+      }
+      .cat-cell:nth-child(5) .cat-cell-bar i {
+        background: var(--ink-mid);
+      }
+
+      /* ═════════════════════════════════════════ */
+      /* CASE FILE CARDS — the big repeals          */
+      /* ═════════════════════════════════════════ */
+      .casefile {
+        position: relative;
+        background: var(--paper-shade);
+        border: 2px solid var(--ink);
+        padding: 36px 36px 32px;
+        margin-bottom: 32px;
+        overflow: hidden;
+      }
+      .casefile::before {
+        content: '';
+        position: absolute;
+        inset: 7px;
+        border: 1px solid var(--ink-mid);
+        pointer-events: none;
+      }
+      @media (max-width: 640px) {
+        .casefile {
+          padding: 26px 22px 24px;
+        }
+      }
+      .casefile-head {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 18px;
+        margin-bottom: 22px;
+        padding-bottom: 18px;
+        border-bottom: 1px dashed var(--ink-mid);
+      }
+      .casefile-id {
+        font-family: var(--stamp);
+        font-size: 11px;
+        color: var(--ink-mid);
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        margin-bottom: 6px;
+      }
+      .casefile-title {
+        font-family: var(--display);
+        font-size: clamp(28px, 3.6vw, 40px);
+        line-height: 1;
+        color: var(--ink);
+        text-transform: uppercase;
+        letter-spacing: 0.012em;
+        text-decoration: line-through;
+        text-decoration-color: rgba(168, 40, 40, 0.85);
+        text-decoration-thickness: 4px;
+      }
+      .casefile-status {
+        flex-shrink: 0;
+        position: relative;
+      }
+      .casefile-status .stamp {
+        display: inline-block;
+        font-family: var(--display);
+        font-size: 24px;
+        line-height: 1;
+        color: var(--red);
+        padding: 8px 14px 6px;
+        border: 3px double var(--red);
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        transform: rotate(4deg);
+        background: rgba(254, 252, 246, 0.3);
+        opacity: 0.92;
+        text-shadow: 0 0 1px rgba(168, 40, 40, 0.5);
+      }
+      .casefile-status.kept .stamp {
+        color: var(--amber-deep);
+        border-color: var(--amber-deep);
+      }
+      .casefile-status.new .stamp {
+        color: var(--blue-stamp);
+        border-color: var(--blue-stamp);
+        transform: rotate(-3deg);
+      }
+
+      .casefile-grid {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 32px;
+        position: relative;
+      }
+      @media (max-width: 720px) {
+        .casefile-grid {
+          grid-template-columns: 1fr;
+          gap: 20px;
+        }
+      }
+
+      .casefile-meta {
+        font-family: var(--stamp);
+        font-size: 12px;
+        line-height: 1.7;
+      }
+      .casefile-meta dt {
+        color: var(--ink-mid);
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        font-size: 10px;
+        margin-top: 10px;
+      }
+      .casefile-meta dt:first-child {
+        margin-top: 0;
+      }
+      .casefile-meta dd {
+        color: var(--ink);
+        margin-bottom: 4px;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+      }
+
+      .casefile-body {
+        font-family: var(--body);
+        font-size: 18px;
+        line-height: 1.65;
+        color: var(--ink-soft);
+      }
+      .casefile-body p {
+        margin-bottom: 16px;
+      }
+      .casefile-body p:last-child {
+        margin-bottom: 0;
+      }
+      .casefile-body strong {
+        color: var(--ink);
+        font-weight: 700;
+      }
+      .casefile-body .pullquote {
+        border-left: 3px solid var(--red);
+        padding: 4px 0 4px 18px;
+        margin: 18px 0;
+        font-style: italic;
+        color: var(--ink);
+      }
+
+      .casefile-take {
+        margin-top: 22px;
+        padding: 16px 20px;
+        background: var(--paper);
+        border: 1px solid var(--ink);
+        border-left: 6px solid var(--red);
+        font-family: var(--body);
+        font-size: 16px;
+        font-style: italic;
+        color: var(--ink-soft);
+        line-height: 1.55;
+      }
+      .casefile-take .lbl {
+        font-family: var(--stamp);
+        font-style: normal;
+        font-size: 10px;
+        color: var(--red);
+        text-transform: uppercase;
+        letter-spacing: 0.22em;
+        display: block;
+        margin-bottom: 6px;
+      }
+
+      /* ═════════════════════════════════════════ */
+      /* TAX BANNER                                 */
+      /* ═════════════════════════════════════════ */
+      .tax-banner {
+        position: relative;
+        background: var(--ink);
+        color: var(--paper);
+        padding: 56px 36px;
+        margin: 56px 0;
+        border: 2px solid var(--ink);
+        overflow: hidden;
+      }
+      .tax-banner::before {
+        content: '';
+        position: absolute;
+        inset: 6px;
+        border: 1px solid var(--paper-deep);
+        pointer-events: none;
+      }
+      .tax-banner-grid {
+        display: grid;
+        grid-template-columns: 280px 1fr;
+        gap: 40px;
+        align-items: center;
+        position: relative;
+      }
+      @media (max-width: 720px) {
+        .tax-banner-grid {
+          grid-template-columns: 1fr;
+          gap: 28px;
+          text-align: center;
+        }
+      }
+      .tax-amount {
+        font-family: var(--display);
+        font-size: clamp(120px, 18vw, 200px);
+        line-height: 0.85;
+        color: var(--paper);
+        letter-spacing: -0.04em;
+        position: relative;
+      }
+      .tax-amount .strike {
+        position: relative;
+        color: var(--ink-faint);
+        font-size: 0.55em;
+        text-decoration: line-through;
+        text-decoration-color: var(--red);
+        text-decoration-thickness: 4px;
+        margin-right: 4px;
+        letter-spacing: 0;
+      }
+      .tax-content h3 {
+        font-family: var(--display);
+        font-size: clamp(28px, 4vw, 42px);
+        line-height: 0.95;
+        color: var(--paper);
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+        margin-bottom: 14px;
+      }
+      .tax-content p {
+        font-family: var(--body);
+        font-size: 17px;
+        line-height: 1.6;
+        color: #d4c8a8;
+      }
+      .tax-content .meta {
+        margin-top: 14px;
+        font-family: var(--stamp);
+        font-size: 11px;
+        color: var(--paper-deep);
+        text-transform: uppercase;
+        letter-spacing: 0.22em;
+      }
+      .tax-content .meta b {
+        color: var(--red);
+        font-weight: 400;
+      }
+
+      /* ═════════════════════════════════════════ */
+      /* WHAT WAS KEPT — warning section            */
+      /* ═════════════════════════════════════════ */
+      .kept-shell {
+        background: var(--amber-bg);
+        border: 2px solid var(--amber-deep);
+        position: relative;
+        padding: 36px 36px 28px;
+      }
+      .kept-shell::before {
+        content: '';
+        position: absolute;
+        inset: 6px;
+        border: 1px solid var(--amber-deep);
+        pointer-events: none;
+      }
+      .kept-banner {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-bottom: 22px;
+        padding-bottom: 16px;
+        border-bottom: 1px dashed var(--amber-deep);
+      }
+      .kept-banner .pin {
+        font-family: var(--display);
+        font-size: 38px;
+        color: var(--amber-deep);
+      }
+      .kept-banner h3 {
+        font-family: var(--display);
+        font-size: clamp(26px, 3.5vw, 36px);
+        line-height: 1;
+        color: var(--ink);
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+      }
+      .kept-banner .label {
+        font-family: var(--stamp);
+        font-size: 11px;
+        color: var(--amber-deep);
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+      }
+      .kept-list {
+        display: grid;
+        gap: 18px;
+      }
+      .kept-item {
+        display: grid;
+        grid-template-columns: 36px 1fr;
+        gap: 18px;
+        align-items: start;
+        padding: 14px 0;
+        border-bottom: 1px solid rgba(138, 102, 8, 0.3);
+      }
+      .kept-item:last-child {
+        border-bottom: none;
+      }
+      .kept-item-mark {
+        font-family: var(--display);
+        font-size: 28px;
+        color: var(--amber-deep);
+        line-height: 1;
+        text-align: center;
+      }
+      .kept-item h4 {
+        font-family: var(--body);
+        font-size: 19px;
+        font-weight: 700;
+        color: var(--ink);
+        margin-bottom: 4px;
+        line-height: 1.3;
+      }
+      .kept-item p {
+        font-family: var(--body);
+        font-size: 16px;
+        color: var(--ink-soft);
+        line-height: 1.55;
+      }
+
+      /* ═════════════════════════════════════════ */
+      /* ORDER CARD — 5370.1H                       */
+      /* ═════════════════════════════════════════ */
+      .order-card {
+        position: relative;
+        background: var(--paper-shade);
+        border: 2px solid var(--ink);
+        padding: 40px;
+        display: grid;
+        grid-template-columns: 220px 1fr;
+        gap: 40px;
+        align-items: center;
+      }
+      .order-card::before {
+        content: '';
+        position: absolute;
+        inset: 6px;
+        border: 1px solid var(--ink-mid);
+        pointer-events: none;
+      }
+      @media (max-width: 720px) {
+        .order-card {
+          grid-template-columns: 1fr;
+          gap: 24px;
+          padding: 28px 22px;
+        }
+      }
+      .order-seal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+      .order-seal .ring {
+        width: 180px;
+        height: 180px;
+        border: 4px double var(--blue-stamp);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 6px;
+        transform: rotate(-4deg);
+        background: rgba(254, 252, 246, 0.4);
+        position: relative;
+      }
+      .order-seal .ring::before {
+        content: '';
+        position: absolute;
+        inset: 8px;
+        border: 1px dashed var(--blue-stamp);
+        border-radius: 50%;
+      }
+      .order-seal .ring-num {
+        font-family: var(--display);
+        font-size: 32px;
+        color: var(--blue-stamp);
+        line-height: 1;
+        letter-spacing: 0.02em;
+      }
+      .order-seal .ring-lbl {
+        font-family: var(--stamp);
+        font-size: 9px;
+        color: var(--blue-stamp);
+        text-transform: uppercase;
+        letter-spacing: 0.22em;
+        text-align: center;
+        max-width: 130px;
+        line-height: 1.3;
+      }
+      .order-content h3 {
+        font-family: var(--display);
+        font-size: clamp(28px, 3.6vw, 40px);
+        line-height: 1;
+        color: var(--ink);
+        text-transform: uppercase;
+        letter-spacing: 0.012em;
+        margin-bottom: 14px;
+      }
+      .order-content p {
+        font-family: var(--body);
+        font-size: 17px;
+        line-height: 1.6;
+        color: var(--ink-soft);
+        margin-bottom: 12px;
+      }
+      .order-content .frame {
+        margin-top: 16px;
+        padding: 14px 16px;
+        background: var(--paper);
+        border-left: 4px solid var(--blue-stamp);
+        font-family: var(--stamp);
+        font-size: 13px;
+        color: var(--ink);
+        line-height: 1.6;
+      }
+
+      /* ═════════════════════════════════════════ */
+      /* THE TAKE                                   */
+      /* ═════════════════════════════════════════ */
+      .take {
+        position: relative;
+        padding: 80px 0 96px;
+        margin-top: 32px;
+      }
+      .take-head {
+        text-align: center;
+        margin-bottom: 48px;
+      }
+      .take-head .pre {
+        font-family: var(--stamp);
+        font-size: 12px;
+        color: var(--red);
+        text-transform: uppercase;
+        letter-spacing: 0.32em;
+        margin-bottom: 14px;
+      }
+      .take-head .pre::before,
+      .take-head .pre::after {
+        content: '— ';
+        color: var(--ink-faint);
+      }
+      .take-head .pre::after {
+        content: ' —';
+      }
+      .take-head h2 {
+        font-family: var(--display);
+        font-size: clamp(48px, 8vw, 92px);
+        line-height: 0.92;
+        color: var(--ink);
+        text-transform: uppercase;
+        letter-spacing: 0.012em;
+      }
+      .take-body {
+        max-width: 720px;
+        margin: 0 auto;
+        font-family: var(--body);
+        font-size: 21px;
+        line-height: 1.75;
+        color: var(--ink);
+      }
+      .take-body p {
+        margin-bottom: 22px;
+      }
+      .take-body p:first-child::first-letter {
+        font-family: var(--display);
+        font-size: 84px;
+        line-height: 0.85;
+        float: left;
+        padding: 8px 12px 0 0;
+        color: var(--red);
+      }
+      .take-body strong {
+        font-weight: 700;
+        color: var(--ink);
+      }
+      .take-body .em-italic {
+        font-style: italic;
+        color: var(--ink-soft);
+      }
+      .take-body blockquote {
+        border-left: 4px solid var(--ink);
+        padding: 14px 22px;
+        margin: 28px 0;
+        font-family: var(--display);
+        font-size: 28px;
+        line-height: 1.2;
+        color: var(--ink);
+        text-transform: uppercase;
+        letter-spacing: 0.01em;
+      }
+
+      /* ═════════════════════════════════════════ */
+      /* SOURCES + FOOTER                           */
+      /* ═════════════════════════════════════════ */
+      .sources {
+        padding: 48px 0 24px;
+        border-top: 3px double var(--ink);
+      }
+      .sources h4 {
+        font-family: var(--stamp);
+        font-size: 12px;
+        color: var(--ink-mid);
+        text-transform: uppercase;
+        letter-spacing: 0.28em;
+        margin-bottom: 16px;
+      }
+      .sources ul {
+        list-style: none;
+        display: grid;
+        gap: 8px;
+      }
+      .sources li {
+        font-family: var(--stamp);
+        font-size: 13px;
+        color: var(--ink-soft);
+      }
+      .sources a {
+        color: var(--red);
+      }
+      .sources a:hover {
+        color: var(--ink);
+      }
+
+      .footer {
+        position: relative;
+        z-index: 3;
+        padding: 32px 24px 48px;
+        text-align: center;
+        font-family: var(--stamp);
+        font-size: 11px;
+        color: var(--ink-mid);
+        text-transform: uppercase;
+        letter-spacing: 0.22em;
+      }
+      .footer a {
+        color: var(--red);
+      }
+
+      /* Animations on scroll */
+      [data-reveal] {
+        opacity: 0;
+        transform: translateY(18px);
+        transition:
+          opacity 0.7s ease,
+          transform 0.7s ease;
+      }
+      [data-reveal].in {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- TOPBAR -->
+    <div class="topbar">
+      <a href="/" class="topbar-brand">Bearing Freedom</a>
+      <div class="topbar-links">
+        <a href="/extras">← Extras</a>
+        <a href="/articles">Articles</a>
+        <a href="/videos">Videos</a>
+      </div>
+    </div>
+
+    <!-- CLASSIFICATION BAR -->
+    <div class="classbar">
+      <span>Filed</span><span class="dot"></span>
+      <span>ATF · DOJ · Office of Public &amp; Governmental Affairs</span>
+      <span class="dot"></span>
+      <span>April 7, 2026</span><span class="dot"></span>
+      <span>34 actions · 5 categories</span>
+    </div>
+
+    <!-- FILE TAB BAR -->
+    <div class="file-tab-bar">
+      <div class="item">
+        <span class="label">Doc №</span>
+        <span class="value">ATF-O-5370.1H</span>
+      </div>
+      <div class="item">
+        <span class="label">Origin</span>
+        <span class="value">Washington, D.C.</span>
+      </div>
+      <div class="item">
+        <span class="label">Status</span>
+        <span class="stamp-mark">In Force</span>
+      </div>
+      <div class="item">
+        <span class="label">Subject</span>
+        <span class="value">Federal firearms enforcement reform</span>
+      </div>
+    </div>
+
+    <!-- MASTHEAD -->
+    <header class="masthead">
+      <div class="masthead-eyebrow">
+        Federal Records · Bureau of Alcohol, Tobacco, Firearms &amp; Explosives
+      </div>
+      <h1>New Era<br /><span class="of">of</span> Reform</h1>
+      <p class="masthead-sub">
+        The agency that wrote the regulations is the same agency now striking
+        them off the books. Thirty-four actions. Five categories. The biggest
+        ATF rollback in a generation.
+      </p>
+      <div class="masthead-meta">
+        <span><b>Filed</b> April 7, 2026</span>
+        <span><b>Actions</b> 34</span>
+        <span><b>Repealed</b> 7 major</span>
+        <span><b>Tax cut</b> $200 → $0</span>
+      </div>
+    </header>
+
+    <!-- LEAD -->
+    <section class="lead-section">
+      <div class="wrap">
+        <div class="lead-grid">
+          <div class="lead-text">
+            <p>
+              <span class="dropcap">F</span>or four years the ATF told the
+              firearms industry exactly what it thought of due process. Inverted
+              shall-issue inspections into shall-revoke inspections. Decided a
+              brace was a stock. Decided 80% blanks were finished receivers.
+              Decided every guy at a gun show was an unlicensed dealer. Then
+              lost in court. And lost again. And again.
+            </p>
+            <p>
+              On <strong>April 7, 2026</strong> the same agency published a package
+              it is calling the <em>New Era of Reform</em>. Thirty-four
+              regulatory actions divided into five buckets — Repeal, Modernize,
+              Reduce Burden, Clarify, Align — and a new internal directive,
+              <strong>ATF Order 5370.1H</strong>, that draws an explicit line
+              between paperwork mistakes and willful violations.
+            </p>
+            <p>
+              Some of this is real. Some of this is the agency formalizing
+              losses it had already taken in court. Some of it is conspicuously
+              missing. This is the case file.
+            </p>
+          </div>
+
+          <aside class="stamp-box">
+            <div class="stamp-rotate">
+              <div class="stamp-big">Repealed</div>
+              <div class="stamp-meta">
+                Enhanced Regulatory<br />Enforcement Policy
+              </div>
+              <div class="stamp-date">07 APR 2026</div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORY BREAKDOWN -->
+    <section class="section section-rule">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="section-num">§ 01 · Inventory</div>
+            <h2>Thirty-four actions, five buckets</h2>
+          </div>
+          <div class="right">
+            ATF taxonomy<br />self-classified
+          </div>
+        </div>
+        <p class="section-intro">
+          The reform package is the agency's own count, in the agency's own
+          words. Repeal is the loudest column. Modernize is the most boring,
+          and, for most FFLs, the most consequential.
+        </p>
+
+        <div class="cat-grid">
+          <div class="cat-cell">
+            <div class="cat-cell-num">7</div>
+            <div class="cat-cell-label">Repeal</div>
+            <div class="cat-cell-bar"><i style="width:100%"></i></div>
+          </div>
+          <div class="cat-cell">
+            <div class="cat-cell-num">9</div>
+            <div class="cat-cell-label">Modernize</div>
+            <div class="cat-cell-bar"><i style="width:100%"></i></div>
+          </div>
+          <div class="cat-cell">
+            <div class="cat-cell-num">8</div>
+            <div class="cat-cell-label">Reduce Burden</div>
+            <div class="cat-cell-bar"><i style="width:100%"></i></div>
+          </div>
+          <div class="cat-cell">
+            <div class="cat-cell-num">6</div>
+            <div class="cat-cell-label">Clarify</div>
+            <div class="cat-cell-bar"><i style="width:100%"></i></div>
+          </div>
+          <div class="cat-cell">
+            <div class="cat-cell-num">4</div>
+            <div class="cat-cell-label">Align</div>
+            <div class="cat-cell-bar"><i style="width:100%"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE BIG REPEALS -->
+    <section class="section section-rule">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="section-num">§ 02 · The Repeals</div>
+            <h2>What just got struck off the books</h2>
+          </div>
+          <div class="right">
+            Five case files<br />in priority order
+          </div>
+        </div>
+
+        <!-- CASE 1: Zero Tolerance -->
+        <article class="casefile" data-reveal>
+          <div class="casefile-head">
+            <div>
+              <div class="casefile-id">Case file 01 · ERP-2021</div>
+              <h3 class="casefile-title">Zero Tolerance Policy</h3>
+            </div>
+            <div class="casefile-status">
+              <span class="stamp">Repealed</span>
+            </div>
+          </div>
+          <div class="casefile-grid">
+            <dl class="casefile-meta">
+              <dt>Issued</dt>
+              <dd>June 2021</dd>
+              <dt>Formal name</dt>
+              <dd>Enhanced Regulatory Enforcement Policy</dd>
+              <dt>Replaced by</dt>
+              <dd>ATF Order 5370.1H</dd>
+              <dt>Effect on FFLs</dt>
+              <dd>License revocations down sharply</dd>
+            </dl>
+            <div class="casefile-body">
+              <p>
+                Under the Biden directive, ATF Industry Operations Investigators
+                were instructed to initiate <strong
+                  >license revocation proceedings</strong
+                > for any of five categories of violation regardless of whether the
+                dealer had three errors or three hundred, and regardless of whether
+                anyone got hurt. A bookkeeping error and a straw sale were treated
+                identically.
+              </p>
+              <p>
+                Revocations of FFLs jumped roughly five-fold. Most of the
+                dealers pulled were small-town gun shops that had operated for
+                decades without complaint and had no ability to absorb a
+                revocation hearing.
+              </p>
+              <p class="pullquote">
+                The revocation rate did not drop because dealers got better. It
+                dropped because the policy got rescinded.
+              </p>
+              <div class="casefile-take">
+                <span class="lbl">2A take</span>
+                Killing this one undoes more real-world damage than any single court
+                decision did. Dealers can breathe now. The policy was always lawless
+                — it converted ATF inspectors into prosecutors with a quota.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- CASE 2: Pistol Brace Rule -->
+        <article class="casefile" data-reveal>
+          <div class="casefile-head">
+            <div>
+              <div class="casefile-id">Case file 02 · 2021R-08F</div>
+              <h3 class="casefile-title">Pistol Brace Rule</h3>
+            </div>
+            <div class="casefile-status">
+              <span class="stamp">Repealed</span>
+            </div>
+          </div>
+          <div class="casefile-grid">
+            <dl class="casefile-meta">
+              <dt>Issued</dt>
+              <dd>January 2023</dd>
+              <dt>Effect</dt>
+              <dd>Reclassified ~40 million pistols as SBRs</dd>
+              <dt>Court status</dt>
+              <dd>Vacated in Mock v. Garland (5th Cir.)</dd>
+              <dt>APA violation</dt>
+              <dd>Confirmed</dd>
+            </dl>
+            <div class="casefile-body">
+              <p>
+                ATF spent a decade telling people braces were not stocks. It
+                published <strong>letters in writing</strong> approving them. Then
+                in 2023 it reversed course and demanded that owners register, demill,
+                surrender, or destroy. The Fifth Circuit vacated the rule and the
+                agency lost again on the merits.
+              </p>
+              <p>
+                The reform package now formally pulls the rule from the books.
+                It was already enjoined or stayed across most of the country —
+                this just makes it official.
+              </p>
+              <div class="casefile-take">
+                <span class="lbl">2A take</span>
+                Important but largely posthumous. The rule was already a dead letter.
+                The win is precedent: an agency that reverses thirty years of guidance
+                overnight will lose under the APA, and the agency now admits it.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- CASE 3: Engaged in Business Rule -->
+        <article class="casefile" data-reveal>
+          <div class="casefile-head">
+            <div>
+              <div class="casefile-id">Case file 03 · 2022R-17F</div>
+              <h3 class="casefile-title">"Engaged in the Business" Rule</h3>
+            </div>
+            <div class="casefile-status">
+              <span class="stamp">Repealed</span>
+            </div>
+          </div>
+          <div class="casefile-grid">
+            <dl class="casefile-meta">
+              <dt>Issued</dt>
+              <dd>April 2024</dd>
+              <dt>Effect</dt>
+              <dd>Treated single sales as dealing</dd>
+              <dt>Litigation</dt>
+              <dd>Texas v. ATF — DOJ dropped defense April 2026</dd>
+              <dt>Statutory floor</dt>
+              <dd>BSCA definition retained</dd>
+            </dl>
+            <div class="casefile-body">
+              <p>
+                The original "private sale at a gun show is a federal crime"
+                rule. ATF stretched the statutory definition of "engaged in the
+                business" so far that a single transaction could trigger an
+                unlicensed-dealing prosecution. The Justice Department
+                <strong>dismissed its own appeal</strong> in
+                <em>Texas v. ATF</em> in April 2026 and the agency now formally rescinds
+                the regulatory overreach.
+              </p>
+              <p>
+                The underlying statutory text from the Bipartisan Safer
+                Communities Act stays in place. So this is not a return to
+                pre-2022 — it is a return to <strong
+                  >only what Congress actually wrote</strong
+                >.
+              </p>
+              <div class="casefile-take">
+                <span class="lbl">2A take</span>
+                The right outcome via the wrong vehicle. Congress wrote "with the
+                principal objective of livelihood and profit" and the agency tried
+                to delete those words. The text won. Read it. Then re-read BSCA —
+                the statute itself is still bad.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- CASE 4: Bump stock language -->
+        <article class="casefile" data-reveal>
+          <div class="casefile-head">
+            <div>
+              <div class="casefile-id">Case file 04 · 27 CFR 478.11</div>
+              <h3 class="casefile-title">Bump-Stock Language</h3>
+            </div>
+            <div class="casefile-status">
+              <span class="stamp">Repealed</span>
+            </div>
+          </div>
+          <div class="casefile-grid">
+            <dl class="casefile-meta">
+              <dt>Issued</dt>
+              <dd>December 2018</dd>
+              <dt>Aligns with</dt>
+              <dd>Garland v. Cargill (2024)</dd>
+              <dt>Mechanism</dt>
+              <dd>
+                Two sentences removed from three definitions of "machine gun"
+              </dd>
+              <dt>Surrendered devices</dt>
+              <dd>~520,000 (no return mechanism announced)</dd>
+            </dl>
+            <div class="casefile-body">
+              <p>
+                The Supreme Court already settled this in <em>Cargill</em>: a
+                bump stock does not convert a semi-auto into a machine gun, full
+                stop. ATF is now scrubbing the regulatory definitions to match
+                the statute the Court enforced.
+              </p>
+              <p>
+                What is conspicuously absent: any program to return or
+                compensate the half-million devices Americans surrendered or
+                destroyed under the 2018 rule. The agency took those.
+                <strong>It is not giving them back.</strong>
+              </p>
+              <div class="casefile-take">
+                <span class="lbl">2A take</span>
+                Symbolic cleanup. The substantive win was Cargill. The missing compensation
+                program is the tell — agencies that claim error rarely make people
+                whole.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- CASE 5: FFL Poster -->
+        <article class="casefile" data-reveal>
+          <div class="casefile-head">
+            <div>
+              <div class="casefile-id">Case file 05 · 27 CFR 478.103</div>
+              <h3 class="casefile-title">Youth Handgun Safety Notice</h3>
+            </div>
+            <div class="casefile-status">
+              <span class="stamp">Repealed</span>
+            </div>
+          </div>
+          <div class="casefile-grid">
+            <dl class="casefile-meta">
+              <dt>Issued</dt>
+              <dd>1994</dd>
+              <dt>Affected</dt>
+              <dd>~75,000 FFLs nationwide</dd>
+              <dt>Reason given</dt>
+              <dd>"Unnecessary regulatory burden"</dd>
+              <dt>Practical effect</dt>
+              <dd>One fewer poster on the wall</dd>
+            </dl>
+            <div class="casefile-body">
+              <p>
+                A small one. Every FFL was required to post the Youth Handgun
+                Safety Notice in plain view of customers. Thirty years on the
+                wall, no measurable safety effect, and the statutory disclosure
+                is duplicative of the 4473.
+              </p>
+              <div class="casefile-take">
+                <span class="lbl">2A take</span>
+                Minor but useful. Every burden reduction is a precedent that the agency
+                does not need to be told twice. Stack enough of them and the compliance
+                bill on a small dealer actually shrinks.
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- TAX BANNER -->
+    <section class="wrap">
+      <div class="tax-banner" data-reveal>
+        <div class="tax-banner-grid">
+          <div class="tax-amount">
+            <span class="strike">$200</span>$0
+          </div>
+          <div class="tax-content">
+            <h3>The NFA Tax is Dead</h3>
+            <p>
+              Effective <strong>January 1, 2026</strong>, the federal
+              transfer-and-make tax on suppressors, short-barreled rifles,
+              short-barreled shotguns, and "any other weapon" dropped from $200
+              to zero. The reform package codifies the implementation and
+              modernizes the eForm processing around it.
+            </p>
+            <p class="meta">
+              <b>Caveat:</b> Registration · background check · Form 4 wait · all still
+              in effect
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT WAS KEPT -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="section-num">§ 03 · The Survivors</div>
+            <h2>What did NOT get repealed</h2>
+          </div>
+          <div class="right">
+            Read this column<br />before celebrating
+          </div>
+        </div>
+        <p class="section-intro">
+          Reform packages are advertised by what they remove. The smarter read
+          is what the agency chose to keep — every survivor is a deliberate
+          choice, not an oversight.
+        </p>
+
+        <div class="kept-shell" data-reveal>
+          <div class="kept-banner">
+            <span class="pin">⚠</span>
+            <h3>Still on the books</h3>
+            <span class="label">— Hold your applause</span>
+          </div>
+          <div class="kept-list">
+            <div class="kept-item">
+              <span class="kept-item-mark">▸</span>
+              <div>
+                <h4>Frames &amp; Receivers Rule (2022R-05F)</h4>
+                <p>
+                  The "ghost gun" rule. ATF kept it. Even though SCOTUS upheld a
+                  narrow reading in Garland v. VanDerStok, the underlying
+                  redefinition of "frame or receiver" stays intact. The agency
+                  had every chance to kill it here and passed.
+                </p>
+              </div>
+            </div>
+            <div class="kept-item">
+              <span class="kept-item-mark">▸</span>
+              <div>
+                <h4>Background-check infrastructure</h4>
+                <p>
+                  NICS, the 4473, the FFL system itself. None of it is touched.
+                  This was never going to be on the table, but it is worth
+                  saying out loud — federal background checks remain federal
+                  background checks.
+                </p>
+              </div>
+            </div>
+            <div class="kept-item">
+              <span class="kept-item-mark">▸</span>
+              <div>
+                <h4>NFA registry for suppressors and SBRs</h4>
+                <p>
+                  Tax is gone, registration is not. Every can and every SBR
+                  still rides through the same Form 4 process and lives forever
+                  in the National Firearms Registration and Transfer Record.
+                  Cheaper, not freer.
+                </p>
+              </div>
+            </div>
+            <div class="kept-item">
+              <span class="kept-item-mark">▸</span>
+              <div>
+                <h4>BSCA "engaged in business" statutory language</h4>
+                <p>
+                  Only the regulatory <em>expansion</em> got pulled. The Bipartisan
+                  Safer Communities Act amendment that broadened the definition was
+                  passed by Congress, signed by a president, and remains in force.
+                  ATF cannot rewrite a statute it did not write.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ORDER 5370.1H -->
+    <section class="section section-rule">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="section-num">§ 04 · The Replacement</div>
+            <h2>What replaces Zero Tolerance</h2>
+          </div>
+          <div class="right">
+            Internal directive<br />operative now
+          </div>
+        </div>
+
+        <div class="order-card" data-reveal>
+          <div class="order-seal">
+            <div class="ring">
+              <div class="ring-num">5370.1H</div>
+              <div class="ring-lbl">
+                ATF Order · Administrative Action Framework
+              </div>
+            </div>
+          </div>
+          <div class="order-content">
+            <h3>The Adminstrative Action Order</h3>
+            <p>
+              <strong>ATF Order 5370.1H</strong> is the replacement framework. It
+              instructs Industry Operations Investigators to draw an explicit distinction
+              between
+              <strong>willful violations</strong> and clerical errors, and to scale
+              enforcement in proportion. Revocation is the last step on a ladder,
+              not the first.
+            </p>
+            <p>
+              The order also imposes new internal review checkpoints before any
+              revocation proceeding can be initiated. In practical terms, a
+              missing 4473 signature should no longer start a license-pull.
+              Whether the field offices follow it is the next question.
+            </p>
+            <div class="frame">
+              ▸ Tiered response<br />
+              ▸ Willfulness inquiry required<br />
+              ▸ Revocation only after demonstrated pattern<br />
+              ▸ Internal review before adverse action
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE TAKE -->
+    <section class="take">
+      <div class="wrap wrap-narrow">
+        <div class="take-head">
+          <div class="pre">The Take</div>
+          <h2>Real, partial,<br />and overdue</h2>
+        </div>
+        <div class="take-body">
+          <p>
+            This is the largest voluntary contraction of ATF authority in my
+            lifetime, and it is also less than it advertises itself to be. Both
+            of those things are true. Reform packages always read as victories
+            on the page they are printed on. The trick is to read the column the
+            agency did not print.
+          </p>
+          <p>
+            Zero Tolerance was the worst of it and Zero Tolerance is
+            <strong>gone</strong>. That alone is a structural win for small
+            dealers. The pistol brace rule is dead in writing, not just in the
+            courtroom. The bump-stock cleanup matches
+            <em class="em-italic">Cargill</em>. The "engaged in the business"
+            expansion is rescinded and the Justice Department dropped its own
+            appeal — that is the rarest kind of admission a federal agency
+            makes.
+          </p>
+          <blockquote>
+            The agency that wrote the regulations is the same agency now
+            striking them off the books.
+          </blockquote>
+          <p>
+            And the column the agency did not print: the frames-and-receivers
+            rule survives. The NFA registry survives. The roughly 520,000 bump
+            stocks Americans handed over are not coming back. The statutory
+            expansion of "engaged in the business" that Congress passed in BSCA
+            is intact and will outlive every administration that inherits it.
+          </p>
+          <p>
+            The right way to read this package is as a
+            <strong>policy retreat under court pressure</strong>, not a
+            philosophical conversion. The cases that forced the agency to write
+            this document — <em>Cargill</em>, <em>Mock</em>,
+            <em>VanDerStok</em>, <em>Texas v. ATF</em> — all came from outside the
+            building. ATF did not wake up. It was woken up. Repeatedly. By judges.
+          </p>
+          <p>Take the win. Catalog the survivors. Then keep litigating.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOURCES -->
+    <section class="wrap">
+      <div class="sources">
+        <h4>Sources &amp; primary documents</h4>
+        <ul>
+          <li>
+            ATF —
+            <a
+              href="https://www.atf.gov/rules-and-regulations/atf-launches-new-era-reform"
+              target="_blank"
+              rel="noopener">Launches New Era of Reform</a
+            >
+          </li>
+          <li>
+            ATF —
+            <a
+              href="https://www.atf.gov/rules-and-regulations/atf-launches-new-era-reform/repeal"
+              target="_blank"
+              rel="noopener">Repeal — full action list</a
+            >
+          </li>
+          <li>
+            ATF —
+            <a
+              href="https://www.atf.gov/rules-and-regulations/atf-launches-new-era-reform/modernize"
+              target="_blank"
+              rel="noopener">Modernize — full action list</a
+            >
+          </li>
+          <li>
+            Ammoland —
+            <a
+              href="https://www.ammoland.com/2026/04/atf-rolls-back-biden-era-gun-rules-in-major-reform-package/"
+              target="_blank"
+              rel="noopener">ATF Rolls Back Biden-Era Gun Rules</a
+            >
+          </li>
+          <li>
+            Ammoland —
+            <a
+              href="https://www.ammoland.com/2026/04/doj-dismisses-texas-v-atf-engage-in-the-business-rule/"
+              target="_blank"
+              rel="noopener"
+              >DOJ Drops Defense of "Engaged in the Business" in Texas v. ATF</a
+            >
+          </li>
+          <li>
+            Ammoland —
+            <a
+              href="https://www.ammoland.com/2026/04/atf-to-keep-biden-era-frames-and-receivers-rule-in-place/"
+              target="_blank"
+              rel="noopener">ATF to Keep Biden-Era Frames and Receivers Rule</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div>
+        Bearing Freedom · April 2026 · <a href="/extras">More extras →</a>
+      </div>
+    </footer>
+
+    <script is:inline>
+      (function () {
+        const els = document.querySelectorAll('[data-reveal]');
+        if (!('IntersectionObserver' in window)) {
+          els.forEach((el) => el.classList.add('in'));
+          return;
+        }
+        const io = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((e) => {
+              if (e.isIntersecting) {
+                e.target.classList.add('in');
+                io.unobserve(e.target);
+              }
+            });
+          },
+          { threshold: 0.12, rootMargin: '0px 0px -60px 0px' },
+        );
+        els.forEach((el) => io.observe(el));
+      })();
+    </script>
+  </body>
+</html>
