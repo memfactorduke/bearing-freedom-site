@@ -625,6 +625,8 @@
         color: var(--ink);
         text-transform: uppercase;
         letter-spacing: 0.012em;
+      }
+      .casefile.repeal .casefile-title {
         text-decoration: line-through;
         text-decoration-color: rgba(168, 40, 40, 0.85);
         text-decoration-thickness: 4px;
@@ -636,7 +638,7 @@
       .casefile-status .stamp {
         display: inline-block;
         font-family: var(--display);
-        font-size: 24px;
+        font-size: 22px;
         line-height: 1;
         color: var(--red);
         padding: 8px 14px 6px;
@@ -648,14 +650,27 @@
         opacity: 0.92;
         text-shadow: 0 0 1px rgba(168, 40, 40, 0.5);
       }
-      .casefile-status.kept .stamp {
+      .casefile-status.proposed .stamp {
         color: var(--amber-deep);
         border-color: var(--amber-deep);
+        transform: rotate(-2deg);
       }
-      .casefile-status.new .stamp {
+      .casefile-status.final .stamp {
+        color: var(--red);
+        border-color: var(--red);
+      }
+      .casefile-status.directfinal .stamp {
         color: var(--blue-stamp);
         border-color: var(--blue-stamp);
         transform: rotate(-3deg);
+      }
+      .casefile-status .stamp .sub {
+        display: block;
+        font-family: var(--stamp);
+        font-size: 9px;
+        letter-spacing: 0.18em;
+        margin-top: 4px;
+        opacity: 0.85;
       }
 
       .casefile-grid {
@@ -738,6 +753,326 @@
         letter-spacing: 0.22em;
         display: block;
         margin-bottom: 6px;
+      }
+
+      /* ═════════════════════════════════════════ */
+      /* DOCKET LEDGER — all 34 reforms             */
+      /* ═════════════════════════════════════════ */
+      .docket {
+        margin-top: 16px;
+      }
+      .docket-group {
+        margin-bottom: 36px;
+        border: 2px solid var(--ink);
+        background: var(--paper-shade);
+        position: relative;
+      }
+      .docket-group::before {
+        content: '';
+        position: absolute;
+        inset: 6px;
+        border: 1px solid var(--ink-mid);
+        pointer-events: none;
+      }
+      .docket-group-head {
+        position: relative;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 16px;
+        flex-wrap: wrap;
+        padding: 22px 28px 18px;
+        border-bottom: 1px dashed var(--ink-mid);
+        background: var(--paper-deep);
+      }
+      .docket-group-head h3 {
+        font-family: var(--display);
+        font-size: clamp(28px, 3.6vw, 38px);
+        line-height: 1;
+        color: var(--ink);
+        text-transform: uppercase;
+        letter-spacing: 0.012em;
+      }
+      .docket-group-head .meta {
+        font-family: var(--stamp);
+        font-size: 11px;
+        color: var(--ink-soft);
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+      }
+      .docket-group-head .meta b {
+        color: var(--red);
+        font-weight: 400;
+      }
+      .docket-group-mission {
+        position: relative;
+        padding: 14px 28px 0;
+        font-family: var(--body);
+        font-size: 15px;
+        font-style: italic;
+        color: var(--ink-soft);
+        line-height: 1.5;
+      }
+      .docket-rows {
+        position: relative;
+        padding: 14px 18px 18px;
+      }
+      .docket-row {
+        display: grid;
+        grid-template-columns: 78px 1fr 92px;
+        gap: 18px;
+        padding: 14px 12px;
+        border-top: 1px dotted var(--ink-mid);
+        align-items: start;
+      }
+      .docket-row:first-child {
+        border-top: none;
+      }
+      @media (max-width: 720px) {
+        .docket-row {
+          grid-template-columns: 64px 1fr;
+          gap: 12px;
+        }
+        .docket-row .pill {
+          grid-column: 1 / -1;
+          justify-self: start;
+          margin-top: 4px;
+        }
+      }
+      .docket-code {
+        font-family: var(--stamp);
+        font-size: 13px;
+        color: var(--ink);
+        letter-spacing: 0.04em;
+        line-height: 1.3;
+        padding-top: 4px;
+      }
+      .docket-code .num {
+        display: block;
+        font-size: 10px;
+        color: var(--red);
+        letter-spacing: 0.18em;
+        margin-bottom: 2px;
+      }
+      .docket-row .body h4 {
+        font-family: var(--body);
+        font-size: 17px;
+        font-weight: 700;
+        color: var(--ink);
+        line-height: 1.3;
+        margin-bottom: 4px;
+      }
+      .docket-row .body p {
+        font-family: var(--body);
+        font-size: 15px;
+        color: var(--ink-soft);
+        line-height: 1.5;
+      }
+      .docket-row .body p .cite {
+        font-family: var(--stamp);
+        font-size: 11px;
+        color: var(--ink-mid);
+        letter-spacing: 0.06em;
+        display: block;
+        margin-top: 4px;
+      }
+      .pill {
+        display: inline-block;
+        font-family: var(--stamp);
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        padding: 4px 8px;
+        border: 1.5px solid var(--ink-mid);
+        color: var(--ink-soft);
+        background: var(--paper);
+        white-space: nowrap;
+        text-align: center;
+      }
+      .pill.nprm {
+        color: var(--amber-deep);
+        border-color: var(--amber-deep);
+      }
+      .pill.final {
+        color: var(--red);
+        border-color: var(--red);
+      }
+      .pill.directfinal {
+        color: var(--blue-stamp);
+        border-color: var(--blue-stamp);
+      }
+
+      /* ═════════════════════════════════════════ */
+      /* PREDICATE / ADMIN ACTIONS BOX              */
+      /* ═════════════════════════════════════════ */
+      .predicate {
+        position: relative;
+        background: var(--paper-shade);
+        border: 2px solid var(--ink);
+        padding: 36px 36px 28px;
+      }
+      .predicate::before {
+        content: '';
+        position: absolute;
+        inset: 6px;
+        border: 1px solid var(--ink-mid);
+        pointer-events: none;
+      }
+      .predicate-head {
+        display: flex;
+        align-items: baseline;
+        gap: 14px;
+        flex-wrap: wrap;
+        margin-bottom: 22px;
+        padding-bottom: 16px;
+        border-bottom: 1px dashed var(--ink-mid);
+      }
+      .predicate-head h3 {
+        font-family: var(--display);
+        font-size: clamp(26px, 3.4vw, 36px);
+        line-height: 1;
+        color: var(--ink);
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+      }
+      .predicate-head .label {
+        font-family: var(--stamp);
+        font-size: 11px;
+        color: var(--ink-mid);
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+      }
+      .predicate-list {
+        display: grid;
+        gap: 18px;
+      }
+      .predicate-item {
+        display: grid;
+        grid-template-columns: 130px 1fr;
+        gap: 22px;
+        padding: 14px 0;
+        border-bottom: 1px solid var(--paper-edge);
+      }
+      .predicate-item:last-child {
+        border-bottom: none;
+      }
+      @media (max-width: 640px) {
+        .predicate-item {
+          grid-template-columns: 1fr;
+          gap: 6px;
+        }
+      }
+      .predicate-when {
+        font-family: var(--stamp);
+        font-size: 11px;
+        color: var(--red);
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        line-height: 1.4;
+        padding-top: 4px;
+      }
+      .predicate-when b {
+        color: var(--ink);
+        font-weight: 400;
+        display: block;
+        font-size: 13px;
+        letter-spacing: 0.04em;
+        margin-bottom: 2px;
+      }
+      .predicate-item h4 {
+        font-family: var(--body);
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--ink);
+        margin-bottom: 4px;
+        line-height: 1.3;
+      }
+      .predicate-item p {
+        font-family: var(--body);
+        font-size: 16px;
+        color: var(--ink-soft);
+        line-height: 1.55;
+      }
+
+      /* ═════════════════════════════════════════ */
+      /* COMMENT WINDOW CTA                         */
+      /* ═════════════════════════════════════════ */
+      .comment-cta {
+        position: relative;
+        background: var(--red);
+        color: var(--paper);
+        padding: 40px;
+        border: 2px solid var(--ink);
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 32px;
+        align-items: center;
+      }
+      .comment-cta::before {
+        content: '';
+        position: absolute;
+        inset: 6px;
+        border: 1px solid rgba(254, 252, 246, 0.4);
+        pointer-events: none;
+      }
+      @media (max-width: 720px) {
+        .comment-cta {
+          grid-template-columns: 1fr;
+          padding: 28px 22px;
+          text-align: center;
+        }
+      }
+      .comment-cta-content {
+        position: relative;
+      }
+      .comment-cta .label {
+        font-family: var(--stamp);
+        font-size: 11px;
+        color: rgba(254, 252, 246, 0.8);
+        letter-spacing: 0.28em;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      }
+      .comment-cta h3 {
+        font-family: var(--display);
+        font-size: clamp(28px, 3.6vw, 40px);
+        line-height: 0.95;
+        color: var(--paper);
+        text-transform: uppercase;
+        letter-spacing: 0.012em;
+        margin-bottom: 12px;
+      }
+      .comment-cta p {
+        font-family: var(--body);
+        font-size: 17px;
+        line-height: 1.55;
+        color: rgba(254, 252, 246, 0.92);
+        max-width: 560px;
+      }
+      .comment-cta-link {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        font-family: var(--display);
+        font-size: 24px;
+        line-height: 1;
+        color: var(--paper);
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        padding: 16px 22px;
+        border: 3px double var(--paper);
+        text-decoration: none;
+        transition: all 0.2s ease;
+        white-space: nowrap;
+      }
+      .comment-cta-link:hover {
+        background: var(--paper);
+        color: var(--red);
+      }
+      .comment-cta-link .arr {
+        font-family: var(--body);
+        font-weight: 700;
       }
 
       /* ═════════════════════════════════════════ */
@@ -1159,27 +1494,27 @@
       <span>Filed</span><span class="dot"></span>
       <span>ATF · DOJ · Office of Public &amp; Governmental Affairs</span>
       <span class="dot"></span>
-      <span>April 7, 2026</span><span class="dot"></span>
-      <span>34 actions · 5 categories</span>
+      <span>April 29, 2026</span><span class="dot"></span>
+      <span>34 rulemakings · 5 groups</span>
     </div>
 
     <!-- FILE TAB BAR -->
     <div class="file-tab-bar">
       <div class="item">
-        <span class="label">Doc №</span>
-        <span class="value">ATF-O-5370.1H</span>
+        <span class="label">Announced</span>
+        <span class="value">29 APR 2026</span>
       </div>
       <div class="item">
         <span class="label">Origin</span>
         <span class="value">Washington, D.C.</span>
       </div>
       <div class="item">
-        <span class="label">Status</span>
-        <span class="stamp-mark">In Force</span>
+        <span class="label">Notices</span>
+        <span class="value">34 · 5 groups</span>
       </div>
       <div class="item">
-        <span class="label">Subject</span>
-        <span class="value">Federal firearms enforcement reform</span>
+        <span class="label">Status</span>
+        <span class="stamp-mark">Open Comment</span>
       </div>
     </div>
 
@@ -1191,14 +1526,14 @@
       <h1>New Era <span class="of">of</span> Reform</h1>
       <p class="masthead-sub">
         The agency that wrote the regulations is the same agency now striking
-        them off the books. Thirty-four actions. Five categories. The biggest
-        ATF rollback in a generation.
+        them off the books. Thirty-four rulemakings. Five groups. The largest
+        modernization of ATF regulations since the agency was created.
       </p>
       <div class="masthead-meta">
-        <span><b>Filed</b> April 7, 2026</span>
-        <span><b>Actions</b> 34</span>
-        <span><b>Repealed</b> 7 major</span>
-        <span><b>Tax cut</b> $200 → $0</span>
+        <span><b>Announced</b> April 29, 2026</span>
+        <span><b>Notices</b> 34</span>
+        <span><b>Open comment</b> 27 of 34</span>
+        <span><b>Already final</b> 7</span>
       </div>
     </header>
 
@@ -1216,12 +1551,18 @@
               lost in court. And lost again. And again.
             </p>
             <p>
-              On <strong>April 7, 2026</strong> the same agency published a package
-              it is calling the <em>New Era of Reform</em>. Thirty-four
-              regulatory actions divided into five buckets — Repeal, Modernize,
-              Reduce Burden, Clarify, Align — and a new internal directive,
-              <strong>ATF Order 5370.1H</strong>, that draws an explicit line
-              between paperwork mistakes and willful violations.
+              The first cleanup happened a year ago. In April 2025 the agency
+              rescinded the Enhanced Regulatory Enforcement Policy — the "Zero
+              Tolerance" framework that had quintupled FFL revocations. In May
+              2025 it published <strong>ATF Order 5370.1H</strong> as the replacement.
+              That work is the predicate.
+            </p>
+            <p>
+              On <strong>April 29, 2026</strong> the agency followed it with the package
+              itself: <strong>34 separate rulemaking notices</strong>
+              divided into five groups — Repeal, Modernize, Reduce Burden, Clarify,
+              Align. Twenty-seven are Notices of Proposed Rulemaking with open public
+              comment. Seven are already Final or Direct Final Rules.
             </p>
             <p>
               Some of this is real. Some of this is the agency formalizing
@@ -1232,11 +1573,11 @@
 
           <aside class="stamp-box">
             <div class="stamp-rotate">
-              <div class="stamp-big">Repealed</div>
+              <div class="stamp-big">Filed</div>
               <div class="stamp-meta">
-                Enhanced Regulatory<br />Enforcement Policy
+                34 rulemakings ·<br />5 groups
               </div>
-              <div class="stamp-date">07 APR 2026</div>
+              <div class="stamp-date">29 APR 2026</div>
             </div>
           </aside>
         </div>
@@ -1251,39 +1592,40 @@
             <div class="section-num">§ 01 · Inventory</div>
             <div class="right">ATF taxonomy · self-classified</div>
           </div>
-          <h2>Thirty-four actions, five buckets</h2>
+          <h2>Thirty-four notices, five groups</h2>
         </div>
         <p class="section-intro">
-          The reform package is the agency's own count, in the agency's own
-          words. Repeal is the loudest column. Modernize is the most boring,
-          and, for most FFLs, the most consequential.
+          The package is ATF's own count, in ATF's own words. Repeal is the
+          loudest group. Clarify is the largest, and most of its substance flies
+          under the radar — including a new statutory definition of "willfully"
+          that will reshape how license revocations work.
         </p>
 
         <div class="cat-grid">
           <div class="cat-cell">
-            <div class="cat-cell-num">7</div>
+            <div class="cat-cell-num">4</div>
             <div class="cat-cell-label">Repeal</div>
-            <div class="cat-cell-bar"><i style="width:100%"></i></div>
+            <div class="cat-cell-bar"><i style="width:33%"></i></div>
           </div>
           <div class="cat-cell">
-            <div class="cat-cell-num">9</div>
+            <div class="cat-cell-num">5</div>
             <div class="cat-cell-label">Modernize</div>
-            <div class="cat-cell-bar"><i style="width:100%"></i></div>
+            <div class="cat-cell-bar"><i style="width:42%"></i></div>
           </div>
           <div class="cat-cell">
-            <div class="cat-cell-num">8</div>
+            <div class="cat-cell-num">7</div>
             <div class="cat-cell-label">Reduce Burden</div>
-            <div class="cat-cell-bar"><i style="width:100%"></i></div>
+            <div class="cat-cell-bar"><i style="width:58%"></i></div>
           </div>
           <div class="cat-cell">
-            <div class="cat-cell-num">6</div>
+            <div class="cat-cell-num">12</div>
             <div class="cat-cell-label">Clarify</div>
             <div class="cat-cell-bar"><i style="width:100%"></i></div>
           </div>
           <div class="cat-cell">
-            <div class="cat-cell-num">4</div>
+            <div class="cat-cell-num">6</div>
             <div class="cat-cell-label">Align</div>
-            <div class="cat-cell-bar"><i style="width:100%"></i></div>
+            <div class="cat-cell-bar"><i style="width:50%"></i></div>
           </div>
         </div>
       </div>
@@ -1294,85 +1636,41 @@
       <div class="wrap">
         <div class="section-head">
           <div class="section-head-meta">
-            <div class="section-num">§ 02 · The Repeals</div>
-            <div class="right">Five case files · in priority order</div>
+            <div class="section-num">§ 02 · Featured Notices</div>
+            <div class="right">Five rulemakings · biggest leverage</div>
           </div>
-          <h2>What just got struck off the books</h2>
+          <h2>The five that matter most</h2>
         </div>
+        <p class="section-intro">
+          The package is thirty-four notices, not five. But these five carry the
+          weight — three repeals of the most contested Biden-era rules, one
+          quiet structural change to how long records are kept, and one new
+          statutory definition that will reshape how license revocations work.
+          Three are still proposals with open comment. One is already a Final
+          Rule.
+        </p>
 
-        <!-- CASE 1: Zero Tolerance -->
-        <article class="casefile" data-reveal>
+        <!-- CASE 1: Pistol Brace -->
+        <article class="casefile repeal" data-reveal>
           <div class="casefile-head">
             <div>
-              <div class="casefile-id">Case file 01 · ERP-2021</div>
-              <h3 class="casefile-title">Zero Tolerance Policy</h3>
+              <div class="casefile-id">Case file 01 · Code 11P · Repeal</div>
+              <h3 class="casefile-title">Stabilizing Brace Rule</h3>
             </div>
-            <div class="casefile-status">
-              <span class="stamp">Repealed</span>
+            <div class="casefile-status proposed">
+              <span class="stamp">Proposed<span class="sub">NPRM</span></span>
             </div>
           </div>
           <div class="casefile-grid">
             <dl class="casefile-meta">
-              <dt>Issued</dt>
-              <dd>June 2021</dd>
-              <dt>Formal name</dt>
-              <dd>Enhanced Regulatory Enforcement Policy</dd>
-              <dt>Replaced by</dt>
-              <dd>ATF Order 5370.1H</dd>
-              <dt>Effect on FFLs</dt>
-              <dd>License revocations down sharply</dd>
-            </dl>
-            <div class="casefile-body">
-              <p>
-                Under the Biden directive, ATF Industry Operations Investigators
-                were instructed to initiate <strong
-                  >license revocation proceedings</strong
-                > for any of five categories of violation regardless of whether the
-                dealer had three errors or three hundred, and regardless of whether
-                anyone got hurt. A bookkeeping error and a straw sale were treated
-                identically.
-              </p>
-              <p>
-                Revocations of FFLs jumped roughly five-fold. Most of the
-                dealers pulled were small-town gun shops that had operated for
-                decades without complaint and had no ability to absorb a
-                revocation hearing.
-              </p>
-              <p class="pullquote">
-                The revocation rate did not drop because dealers got better. It
-                dropped because the policy got rescinded.
-              </p>
-              <div class="casefile-take">
-                <span class="lbl">2A take</span>
-                Killing this one undoes more real-world damage than any single court
-                decision did. Dealers can breathe now. The policy was always lawless
-                — it converted ATF inspectors into prosecutors with a quota.
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <!-- CASE 2: Pistol Brace Rule -->
-        <article class="casefile" data-reveal>
-          <div class="casefile-head">
-            <div>
-              <div class="casefile-id">Case file 02 · 2021R-08F</div>
-              <h3 class="casefile-title">Pistol Brace Rule</h3>
-            </div>
-            <div class="casefile-status">
-              <span class="stamp">Repealed</span>
-            </div>
-          </div>
-          <div class="casefile-grid">
-            <dl class="casefile-meta">
-              <dt>Issued</dt>
-              <dd>January 2023</dd>
-              <dt>Effect</dt>
-              <dd>Reclassified ~40 million pistols as SBRs</dd>
+              <dt>Original rule</dt>
+              <dd>2021R-08F (Jan 2023)</dd>
+              <dt>Effect rescinded</dt>
+              <dd>Reclassified ~40M pistols as SBRs</dd>
               <dt>Court status</dt>
               <dd>Vacated in Mock v. Garland (5th Cir.)</dd>
-              <dt>APA violation</dt>
-              <dd>Confirmed</dd>
+              <dt>Action</dt>
+              <dd>Removes 27 CFR 478.11 / 479.11 language</dd>
             </dl>
             <div class="casefile-body">
               <p>
@@ -1383,36 +1681,38 @@
                 agency lost again on the merits.
               </p>
               <p>
-                The reform package now formally pulls the rule from the books.
-                It was already enjoined or stayed across most of the country —
-                this just makes it official.
+                The reform package now formally proposes to pull the regulatory
+                language. The rule was already enjoined or stayed across most of
+                the country — this comment-period filing is the agency making
+                the funeral arrangements official.
               </p>
               <div class="casefile-take">
                 <span class="lbl">2A take</span>
                 Important but largely posthumous. The rule was already a dead letter.
                 The win is precedent: an agency that reverses thirty years of guidance
-                overnight will lose under the APA, and the agency now admits it.
+                overnight will lose under the APA, and the agency now admits it in
+                a Federal Register filing.
               </div>
             </div>
           </div>
         </article>
 
-        <!-- CASE 3: Engaged in Business Rule -->
-        <article class="casefile" data-reveal>
+        <!-- CASE 2: Engaged in Business -->
+        <article class="casefile repeal" data-reveal>
           <div class="casefile-head">
             <div>
-              <div class="casefile-id">Case file 03 · 2022R-17F</div>
+              <div class="casefile-id">Case file 02 · Code 27P · Repeal</div>
               <h3 class="casefile-title">"Engaged in the Business" Rule</h3>
             </div>
-            <div class="casefile-status">
-              <span class="stamp">Repealed</span>
+            <div class="casefile-status proposed">
+              <span class="stamp">Proposed<span class="sub">NPRM</span></span>
             </div>
           </div>
           <div class="casefile-grid">
             <dl class="casefile-meta">
-              <dt>Issued</dt>
-              <dd>April 2024</dd>
-              <dt>Effect</dt>
+              <dt>Original rule</dt>
+              <dd>2022R-17F (April 2024)</dd>
+              <dt>Effect rescinded</dt>
               <dd>Treated single sales as dealing</dd>
               <dt>Litigation</dt>
               <dd>Texas v. ATF — DOJ dropped defense April 2026</dd>
@@ -1426,8 +1726,8 @@
                 business" so far that a single transaction could trigger an
                 unlicensed-dealing prosecution. The Justice Department
                 <strong>dismissed its own appeal</strong> in
-                <em>Texas v. ATF</em> in April 2026 and the agency now formally rescinds
-                the regulatory overreach.
+                <em>Texas v. ATF</em> earlier this month and the agency now proposes
+                to rescind the regulatory overreach.
               </p>
               <p>
                 The underlying statutory text from the Bipartisan Safer
@@ -1447,20 +1747,24 @@
           </div>
         </article>
 
-        <!-- CASE 4: Bump stock language -->
-        <article class="casefile" data-reveal>
+        <!-- CASE 3: Bump stock — Final Rule -->
+        <article class="casefile repeal" data-reveal>
           <div class="casefile-head">
             <div>
-              <div class="casefile-id">Case file 04 · 27 CFR 478.11</div>
+              <div class="casefile-id">
+                Case file 03 · Code 2024-01F · Repeal
+              </div>
               <h3 class="casefile-title">Bump-Stock Language</h3>
             </div>
-            <div class="casefile-status">
-              <span class="stamp">Repealed</span>
+            <div class="casefile-status final">
+              <span class="stamp"
+                >Final Rule<span class="sub">Effective</span></span
+              >
             </div>
           </div>
           <div class="casefile-grid">
             <dl class="casefile-meta">
-              <dt>Issued</dt>
+              <dt>Original rule</dt>
               <dd>December 2018</dd>
               <dt>Aligns with</dt>
               <dd>Garland v. Cargill (2024)</dd>
@@ -1469,14 +1773,15 @@
                 Two sentences removed from three definitions of "machine gun"
               </dd>
               <dt>Surrendered devices</dt>
-              <dd>~520,000 (no return mechanism announced)</dd>
+              <dd>~520,000 — no return mechanism</dd>
             </dl>
             <div class="casefile-body">
               <p>
                 The Supreme Court already settled this in <em>Cargill</em>: a
                 bump stock does not convert a semi-auto into a machine gun, full
-                stop. ATF is now scrubbing the regulatory definitions to match
-                the statute the Court enforced.
+                stop. The Final Rule scrubs the regulatory definitions to match
+                the statute the Court enforced. This one is not a proposal — it
+                is already in effect.
               </p>
               <p>
                 What is conspicuously absent: any program to return or
@@ -1494,40 +1799,104 @@
           </div>
         </article>
 
-        <!-- CASE 5: FFL Poster -->
+        <!-- CASE 4: Records Retention -->
         <article class="casefile" data-reveal>
           <div class="casefile-head">
             <div>
-              <div class="casefile-id">Case file 05 · 27 CFR 478.103</div>
-              <h3 class="casefile-title">Youth Handgun Safety Notice</h3>
+              <div class="casefile-id">Case file 04 · Code 08P · Modernize</div>
+              <h3 class="casefile-title">Records-Retention Periods</h3>
             </div>
-            <div class="casefile-status">
-              <span class="stamp">Repealed</span>
+            <div class="casefile-status proposed">
+              <span class="stamp">Proposed<span class="sub">NPRM</span></span>
             </div>
           </div>
           <div class="casefile-grid">
             <dl class="casefile-meta">
-              <dt>Issued</dt>
-              <dd>1994</dd>
-              <dt>Affected</dt>
-              <dd>~75,000 FFLs nationwide</dd>
-              <dt>Reason given</dt>
-              <dd>"Unnecessary regulatory burden"</dd>
-              <dt>Practical effect</dt>
-              <dd>One fewer poster on the wall</dd>
+              <dt>Current rule</dt>
+              <dd>Indefinite retention</dd>
+              <dt>Proposed</dt>
+              <dd>20 or 30 years (comment open)</dd>
+              <dt>Records covered</dt>
+              <dd>Form 4473 · A&amp;D records · OoB Records Center</dd>
+              <dt>Shorter periods</dt>
+              <dd>
+                5y for multiple-sales / theft / incomplete 4473s · 90d for
+                private-party checks
+              </dd>
             </dl>
             <div class="casefile-body">
               <p>
-                A small one. Every FFL was required to post the Youth Handgun
-                Safety Notice in plain view of customers. Thirty years on the
-                wall, no measurable safety effect, and the statutory disclosure
-                is duplicative of the 4473.
+                The quietest item in the package and possibly the most
+                consequential one for daily FFL operations. Today, federal
+                firearms records have <strong>no expiration</strong> — the agency
+                keeps them effectively forever, and out-of-business records flow to
+                the National Tracing Center to live on permanently. ATF now proposes
+                a definite retention window: either twenty or thirty years, with public
+                comment requested on which.
+              </p>
+              <p>
+                The comment period is the entire fight here. Twenty years vs.
+                thirty years is the real question on the table. So is whether
+                the same window applies to OoB Records Center holdings — and
+                privacy advocates have been arguing for the shorter end since
+                the Tracing Center was first stood up.
               </p>
               <div class="casefile-take">
                 <span class="lbl">2A take</span>
-                Minor but useful. Every burden reduction is a precedent that the agency
-                does not need to be told twice. Stack enough of them and the compliance
-                bill on a small dealer actually shrinks.
+                Comment on this one. The retention question is a structural privacy
+                decision dressed up as a paperwork question. Twenty years is the floor
+                — anything longer reads as the registry that Congress explicitly forbade
+                ATF from building.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- CASE 5: Willfully -->
+        <article class="casefile" data-reveal>
+          <div class="casefile-head">
+            <div>
+              <div class="casefile-id">Case file 05 · Code 47P · Clarify</div>
+              <h3 class="casefile-title">Definition of "Willfully"</h3>
+            </div>
+            <div class="casefile-status proposed">
+              <span class="stamp">Proposed<span class="sub">NPRM</span></span>
+            </div>
+          </div>
+          <div class="casefile-grid">
+            <dl class="casefile-meta">
+              <dt>Standard adopted</dt>
+              <dd>Bryan v. United States</dd>
+              <dt>Applies to</dt>
+              <dd>FFL revocation · suspension · civil penalties</dd>
+              <dt>Current state</dt>
+              <dd>No regulatory definition</dd>
+              <dt>Author</dt>
+              <dd>Codifies SCOTUS standard in CFR</dd>
+            </dl>
+            <div class="casefile-body">
+              <p>
+                Under the GCA, ATF can only revoke an FFL for
+                <strong>willful</strong> violations. Courts have spent decades arguing
+                about what that word means. The agency now proposes to bake the Supreme
+                Court's <em>Bryan</em>
+                standard directly into the regulations: a person acts willfully when
+                they know their conduct is unlawful, even if they don't know the specific
+                statute.
+              </p>
+              <p>
+                In plain English: a missing 4473 signature is not, by itself, a
+                willful violation. Pattern, knowledge, and intent now have to be
+                in the file before a revocation proceeding can begin. This is
+                the regulatory cousin of the Order 5370.1H administrative reform
+                — a procedural guardrail with teeth.
+              </p>
+              <div class="casefile-take">
+                <span class="lbl">2A take</span>
+                Comment supportively and loudly. A federal regulation that codifies
+                the SCOTUS <em>Bryan</em> standard is a structural protection for
+                every FFL in the country, and an explicit rejection of the "any error
+                is grounds for revocation" theory that powered Zero Tolerance.
               </div>
             </div>
           </div>
@@ -1562,12 +1931,660 @@
       </div>
     </section>
 
+    <!-- THE FULL DOCKET — all 34 reforms -->
+    <section class="section section-rule">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="section-head-meta">
+            <div class="section-num">§ 03 · The Full Docket</div>
+            <div class="right">All thirty-four · grouped by purpose</div>
+          </div>
+          <h2>Every notice, every code, every type</h2>
+        </div>
+        <p class="section-intro">
+          The featured five upstream are the ones with the most leverage. The
+          remaining twenty-nine are the bulk of the package. Codes are ATF's
+          internal identifiers — public-comment dockets at regulations.gov use
+          them. Type pills mark what stage each notice is at:
+          <span class="pill nprm">NPRM</span> means a comment period is open;
+          <span class="pill final">Final</span> means it is already in effect;
+          <span class="pill directfinal">Direct Final</span> means it takes effect
+          without a typical proposal cycle barring significant adverse comment.
+        </p>
+
+        <div class="docket">
+          <!-- GROUP 1: REPEAL -->
+          <div class="docket-group" data-reveal>
+            <div class="docket-group-head">
+              <h3>Group 1 · Repeal</h3>
+              <div class="meta">
+                <b>4 notices</b> · rescind regulations that exceed statutory authority
+                or failed in court
+              </div>
+            </div>
+            <div class="docket-group-mission">
+              Rescinding regulatory language that exceeds statutory authority,
+              failed judicial review, or did not achieve its intended outcome.
+            </div>
+            <div class="docket-rows">
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 01</span>11P</div>
+                <div class="body">
+                  <h4>
+                    Removing factoring criteria for firearms with attached
+                    "stabilizing braces"
+                  </h4>
+                  <p>
+                    Formally rescinds the 2023 brace rule and restores
+                    definitions consistent with the underlying statute. <span
+                      class="cite">27 CFR 478.11 · 27 CFR 479.11</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 02</span>27P</div>
+                <div class="body">
+                  <h4>
+                    Revising regulations defining "engaged in the business" as a
+                    dealer in firearms
+                  </h4>
+                  <p>
+                    Rescinds provisions of the 2024 EITB rule that expanded who
+                    must obtain an FFL. Retains the BSCA statutory definition. <span
+                      class="cite">Bipartisan Safer Communities Act</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 03</span>28P</div>
+                <div class="body">
+                  <h4>Removing the Youth Handgun Safety Act notice</h4>
+                  <p>
+                    Rescinds the 1998 regulation that required FFLs to post and
+                    distribute the Youth Handgun Safety Act notice. The 1994 Act
+                    remains; the counter paperwork goes. <span class="cite"
+                      >27 CFR § 478.103 · ATF I 5300.1 · ATF I 5300.2</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code">
+                  <span class="num">№ 04</span>2024-01F
+                </div>
+                <div class="body">
+                  <h4>
+                    Revising the machine-gun definition in response to a Supreme
+                    Court decision
+                  </h4>
+                  <p>
+                    Removes two sentences from each of three definitions of
+                    "machine gun" to implement Garland v. Cargill. Already
+                    final. <span class="cite"
+                      >Garland v. Cargill (2024) · NFA</span
+                    >
+                  </p>
+                </div>
+                <span class="pill final">Final</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- GROUP 2: MODERNIZE -->
+          <div class="docket-group" data-reveal>
+            <div class="docket-group-head">
+              <h3>Group 2 · Modernize</h3>
+              <div class="meta">
+                <b>5 notices</b> · update compliance and recordkeeping for current
+                technology
+              </div>
+            </div>
+            <div class="docket-group-mission">
+              Updating ATF's compliance and recordkeeping framework to reflect
+              current technology and business practices.
+            </div>
+            <div class="docket-rows">
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 05</span>01P</div>
+                <div class="body">
+                  <h4>Revising the Firearms Transaction Record, Form 4473</h4>
+                  <p>
+                    Streamlines identity and residency verification, extends the
+                    validity window of a NICS check, clarifies background-check
+                    exceptions, and authorizes electronic forms with
+                    auto-population. <span class="cite"
+                      >ATF Form 4473 · NICS</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 06</span>07P</div>
+                <div class="body">
+                  <h4>Firearms electronic recordkeeping</h4>
+                  <p>
+                    Codifies what variances have already permitted: FFLs may
+                    generate, maintain, and store Form 4473 and A&amp;D records
+                    electronically. <span class="cite"
+                      >Form 4473 · A&amp;D records</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 07</span>08P</div>
+                <div class="body">
+                  <h4>Firearm records-retention periods</h4>
+                  <p>
+                    Replaces today's effectively indefinite retention of FFL
+                    records with a definite 20- or 30-year window (comment open
+                    on which). 5-year and 90-day windows for narrower
+                    categories. <em>Featured above.</em>
+                    <span class="cite"
+                      >Form 4473 · A&amp;D · Form 3310.4 · Form 3310.11</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 08</span>26P</div>
+                <div class="body">
+                  <h4>
+                    Revising non-over-the-counter firearms transaction
+                    requirements
+                  </h4>
+                  <p>
+                    Authorizes NOTC sales by FFLs to in-state residents (e.g.
+                    online sales delivered in-state) and modernizes how FFLs
+                    verify ID remotely. <span class="cite"
+                      >Gun Control Act 1968 · Brady Act 1994</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 09</span>32D</div>
+                <div class="body">
+                  <h4>Licensee "eZ Check" verification for transfers</h4>
+                  <p>
+                    Lets a transferring FFL verify the receiving FFL through
+                    ATF's online eZ Check system instead of requiring a paper
+                    certified copy. Removes the outdated 45-day grace period. <span
+                      class="cite">FFL eZ Check</span
+                    >
+                  </p>
+                </div>
+                <span class="pill directfinal">Direct Final</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- GROUP 3: REDUCE BURDEN -->
+          <div class="docket-group" data-reveal>
+            <div class="docket-group-head">
+              <h3>Group 3 · Reduce Burden</h3>
+              <div class="meta">
+                <b>7 notices</b> · eliminate administrative requirements that impose
+                costs on law-abiding people
+              </div>
+            </div>
+            <div class="docket-group-mission">
+              Eliminating administrative requirements that impose costs on
+              law-abiding individuals and businesses.
+            </div>
+            <div class="docket-rows">
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 10</span>03P</div>
+                <div class="body">
+                  <h4>
+                    Interstate transport and temporary export of NFA items
+                  </h4>
+                  <p>
+                    Short-term transport (≤365 days): no advance notice or
+                    pre-approval required. Long-term: notice required, no
+                    waiting on ATF. <span class="cite"
+                      >ATF Form 5320.20 · 27 CFR § 478.28</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 11</span>13P</div>
+                <div class="body">
+                  <h4>Joint registration for spouses under the NFA</h4>
+                  <p>
+                    Married couples may file a joint application as makers
+                    and/or transferees of NFA firearms — without setting up a
+                    trust. Spousal transfers no longer count as a separate NFA
+                    transfer. <span class="cite">National Firearms Act</span>
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 12</span>15P</div>
+                <div class="body">
+                  <h4>Removing CLEO notification under the NFA</h4>
+                  <p>
+                    Removes the requirement that NFA make/transfer applicants
+                    forward a copy of the application to their local Chief Law
+                    Enforcement Officer. <span class="cite"
+                      >ATF Form 5320.23</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 13</span>18P</div>
+                <div class="body">
+                  <h4>
+                    Clarifying interstate transportation of firearms under the
+                    GCA
+                  </h4>
+                  <p>
+                    Recognizes that overnight stops, fueling, vehicle
+                    maintenance, emergency stops, and medical treatments are
+                    part of "transport" under FOPA's interstate-transport
+                    protections. <span class="cite"
+                      >Firearms Owners' Protection Act · GCA</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 14</span>19P</div>
+                <div class="body">
+                  <h4>Transferring machine guns between qualified licensees</h4>
+                  <p>
+                    Simplifies transfers between licensed manufacturers,
+                    importers, and dealers in two narrow circumstances:
+                    government demos, and going-out-of-business situations. <span
+                      class="cite">GCA · NFA · January 2023 Open Letter</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 15</span>20P</div>
+                <div class="body">
+                  <h4>
+                    Clarifying Special Occupational Tax payments per business
+                    activity
+                  </h4>
+                  <p>
+                    Confirms that an FFL owes one SOT per business activity
+                    (manufacturing / importing / dealing) at a given location,
+                    regardless of how many GCA licenses are held there. <span
+                      class="cite">27 CFR · NFA · GCA</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 16</span>38F</div>
+                <div class="body">
+                  <h4>
+                    Removing the triplicate filing requirement for importing
+                    plastic explosives
+                  </h4>
+                  <p>
+                    Removes a regulation requiring importers to file the
+                    required attestation in triplicate. Administrative cleanup;
+                    no substantive change. <span class="cite">Form 6</span>
+                  </p>
+                </div>
+                <span class="pill final">Final</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- GROUP 4: CLARIFY -->
+          <div class="docket-group" data-reveal>
+            <div class="docket-group-head">
+              <h3>Group 4 · Clarify</h3>
+              <div class="meta">
+                <b>12 notices</b> · resolve regulatory ambiguity for licensees and
+                the public
+              </div>
+            </div>
+            <div class="docket-group-mission">
+              Resolving regulatory ambiguity to provide licensees, applicants,
+              and the public with clear, consistent, and actionable guidance.
+            </div>
+            <div class="docket-rows">
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 17</span>06P</div>
+                <div class="body">
+                  <h4>
+                    Firearm activities in Foreign Trade Zones and Customs-Bonded
+                    Warehouses
+                  </h4>
+                  <p>
+                    Excludes goods in CBWs from import requirements (matching
+                    FTZ treatment). Lifts the storage-only restriction on FFL
+                    activities in FTZs and CBWs. <span class="cite"
+                      >GCA · NFA</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 18</span>09P</div>
+                <div class="body">
+                  <h4>Importing dual-use frames, receivers, or barrels</h4>
+                  <p>
+                    FFLs may lawfully import barrels and frames/receivers usable
+                    on both sporting and non-sporting firearms, provided an
+                    identified sporting configuration exists at the time of
+                    import. <span class="cite">GCA · NFA</span>
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 19</span>10P</div>
+                <div class="body">
+                  <h4>Importing training rounds</h4>
+                  <p>
+                    Codifies that inert, marking, or simulated-projectile
+                    training rounds do not meet the GCA definition of
+                    "ammunition" and are therefore not regulated under the GCA
+                    or AECA. <span class="cite"
+                      >GCA · Arms Export Control Act</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 20</span>16P</div>
+                <div class="body">
+                  <h4>
+                    Converting temporary to permanent imports for defense
+                    articles
+                  </h4>
+                  <p>
+                    Creates a formal conversion path via Form 6 when a temporary
+                    import authorization expires — instead of forcing re-export,
+                    separate permanent re-import, or destruction. <span
+                      class="cite">ATF Form 6</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 21</span>17P</div>
+                <div class="body">
+                  <h4>
+                    Allowing makers to adopt certain markings for NFA items
+                  </h4>
+                  <p>
+                    Individuals making NFA firearms by altering existing
+                    firearms may adopt the original manufacturer's markings
+                    instead of applying duplicative markings. Codifies existing
+                    variance practice. <span class="cite"
+                      >NFA marking requirements</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 22</span>23P</div>
+                <div class="body">
+                  <h4>
+                    Clarifying delivery to a common or contract carrier when
+                    transporting firearms
+                  </h4>
+                  <p>
+                    A traveler personally maintaining direct control of a
+                    firearm aboard a common or contract carrier (e.g. Amtrak)
+                    does not constitute "delivery" to the carrier. <span
+                      class="cite">Gun Control Act</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 23</span>24P</div>
+                <div class="body">
+                  <h4>
+                    Revising definitions of "adjudicated as a mental defective"
+                    and "committed to a mental institution"
+                  </h4>
+                  <p>
+                    Modernizes the GCA definition. A person receiving assistance
+                    in only one functional area (e.g. financial management) is
+                    not, on that basis alone, prohibited. Commitments based on
+                    danger or NGRI properly fall under "committed," not "mental
+                    defective." <span class="cite">Gun Control Act</span>
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 24</span>25P</div>
+                <div class="body">
+                  <h4>
+                    Clarifying exceptions to the Brady Act background-check
+                    requirement
+                  </h4>
+                  <p>
+                    Sets standards for when a state-issued firearms permit
+                    substitutes for a NICS check: the permit must be valid,
+                    unexpired, and the state statute must conform to
+                    congressional requirements. <span class="cite"
+                      >Brady Act · NICS</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 25</span>33P</div>
+                <div class="body">
+                  <h4>Selecting biological sex on ATF forms</h4>
+                  <p>
+                    Implements Executive Order 14168: the sex field on ATF forms
+                    means biological sex (male or female) and excludes gender
+                    identity. Does not change any substantive eligibility. <span
+                      class="cite">Executive Order 14168</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 26</span>36P</div>
+                <div class="body">
+                  <h4>Definition of business premises</h4>
+                  <p>
+                    Clarifies that "business premises" expressly includes
+                    adjoining or adjacent properties that share a common parking
+                    lot, sidewalk, or road. <span class="cite"
+                      >Definition of "business premises"</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 27</span>41P</div>
+                <div class="body">
+                  <h4>Firearms transactions and straw purchases</h4>
+                  <p>
+                    Provides regulatory clarity around the federal
+                    straw-purchase prohibition. Distinguishes true straw
+                    purchases from legitimate transactions like gifts. <span
+                      class="cite">Federal straw-purchase prohibition</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 28</span>47P</div>
+                <div class="body">
+                  <h4>
+                    Creating a definition of "willfully" for firearms violations
+                  </h4>
+                  <p>
+                    Codifies the SCOTUS Bryan v. United States standard: a
+                    person acts willfully when they know their conduct is
+                    unlawful, even if they don't know the specific statute.
+                    Major procedural protection for FFLs. <em
+                      >Featured above.</em
+                    >
+                    <span class="cite">GCA · Bryan v. United States</span>
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- GROUP 5: ALIGN -->
+          <div class="docket-group" data-reveal>
+            <div class="docket-group-head">
+              <h3>Group 5 · Align</h3>
+              <div class="meta">
+                <b>6 notices</b> · conform regulatory text to statute, court decisions,
+                and partner-agency action
+              </div>
+            </div>
+            <div class="docket-group-mission">
+              Conforming ATF's regulatory text to reflect statutory changes,
+              judicial decisions, and actions taken by partner agencies.
+            </div>
+            <div class="docket-rows">
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 29</span>04P</div>
+                <div class="body">
+                  <h4>
+                    Update to proscribed countries for import restrictions
+                  </h4>
+                  <p>
+                    Replaces ATF's static proscribed-countries list with a
+                    dynamic reference to the State Department's list. Removes
+                    most former Soviet countries; retains the Russian
+                    Federation. <span class="cite"
+                      >Arms Export Control Act · Department of State</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code">
+                  <span class="num">№ 30</span>20-03D
+                </div>
+                <div class="body">
+                  <h4>
+                    Export-control reform: conforming references to the
+                    Department of Commerce
+                  </h4>
+                  <p>
+                    Technical amendments to 27 CFR parts 447 and 479 to reflect
+                    the Commerce/State export-control split. No substantive
+                    policy change. <span class="cite"
+                      >27 CFR Part 447 · Part 479 · AECA</span
+                    >
+                  </p>
+                </div>
+                <span class="pill final">Final</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 31</span>21F</div>
+                <div class="body">
+                  <h4>Conforming change for approving a making application</h4>
+                  <p>
+                    Codifies in regulation ATF's existing practice of conducting
+                    a NICS check as part of the NFA approval process for
+                    individuals making NFA firearms. <span class="cite"
+                      >NICS · NFA</span
+                    >
+                  </p>
+                </div>
+                <span class="pill final">Final</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 32</span>39P</div>
+                <div class="body">
+                  <h4>Adding component definitions under the AECA</h4>
+                  <p>
+                    Aligns ATF's AECA terminology with the State Department's
+                    United States Munitions List. <span class="cite"
+                      >AECA · USML</span
+                    >
+                  </p>
+                </div>
+                <span class="pill nprm">NPRM</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code">
+                  <span class="num">№ 33</span>2006R-01
+                </div>
+                <div class="body">
+                  <h4>
+                    Implementing PATRIOT Act improvements: contraband cigarettes
+                    and smokeless tobacco
+                  </h4>
+                  <p>
+                    Lowers the CCTA threshold from &gt;60,000 to &gt;10,000
+                    cigarettes; extends coverage to smokeless tobacco for the
+                    first time; expands recordkeeping. The only new restriction
+                    in the entire package — and it's on contraband tobacco
+                    trafficking. <span class="cite"
+                      >USA PATRIOT Improvement and Reauthorization Act · CCTA</span
+                    >
+                  </p>
+                </div>
+                <span class="pill final">Final</span>
+              </div>
+              <div class="docket-row">
+                <div class="docket-code"><span class="num">№ 34</span>45F</div>
+                <div class="body">
+                  <h4>Changes to NFA tax remittance provisions</h4>
+                  <p>
+                    Conforms NFA regulations to the One Big Beautiful Bill Act's
+                    reduction of the tax remittance rate for certain NFA
+                    firearms. Regulatory housekeeping for the $0 tax. <em
+                      >See banner above.</em
+                    >
+                    <span class="cite">NFA · One Big Beautiful Bill Act</span>
+                  </p>
+                </div>
+                <span class="pill final">Final</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- WHAT WAS KEPT -->
     <section class="section">
       <div class="wrap">
         <div class="section-head">
           <div class="section-head-meta">
-            <div class="section-num">§ 03 · The Survivors</div>
+            <div class="section-num">§ 04 · The Survivors</div>
             <div class="right">Read this column before celebrating</div>
           </div>
           <h2>What did NOT get repealed</h2>
@@ -1638,49 +2655,147 @@
       </div>
     </section>
 
-    <!-- ORDER 5370.1H -->
+    <!-- PREDICATE ACTIONS -->
     <section class="section section-rule">
       <div class="wrap">
         <div class="section-head">
           <div class="section-head-meta">
-            <div class="section-num">§ 04 · The Replacement</div>
-            <div class="right">Internal directive · operative now</div>
+            <div class="section-num">§ 05 · The Predicate</div>
+            <div class="right">Already in place · sets up today's package</div>
           </div>
-          <h2>What replaces Zero Tolerance</h2>
+          <h2>Administrative actions before today</h2>
         </div>
+        <p class="section-intro">
+          The 34 rulemakings filed today are not the whole story. ATF spent the
+          previous twelve months retiring Zero Tolerance and standing up the
+          internal scaffolding that makes the rest of this package operational.
+          These actions are not in the 34, but they are why the 34 are credible.
+        </p>
 
-        <div class="order-card" data-reveal>
-          <div class="order-seal">
-            <div class="ring">
-              <div class="ring-num">5370.1H</div>
-              <div class="ring-lbl">
-                ATF Order · Administrative Action Framework
+        <div class="predicate" data-reveal>
+          <div class="predicate-head">
+            <h3>Already done</h3>
+            <span class="label">— Five administrative actions, 2025–2026</span>
+          </div>
+          <div class="predicate-list">
+            <div class="predicate-item">
+              <div class="predicate-when">
+                <b>April 2025</b>
+                Administrative
+              </div>
+              <div>
+                <h4>Enhanced Regulatory Enforcement Policy rescinded</h4>
+                <p>
+                  The "Zero Tolerance Policy" required investigators to initiate
+                  revocation for any of five categories of violation regardless
+                  of severity or pattern. Roughly a five-fold spike in FFL
+                  revocations followed. ATF formally rescinded it April 7, 2025
+                  — twelve months before today's package. Dealers whose licenses
+                  were revoked or surrendered under ERP may now reapply.
+                </p>
+              </div>
+            </div>
+            <div class="predicate-item">
+              <div class="predicate-when">
+                <b>May 2025</b>
+                Administrative
+              </div>
+              <div>
+                <h4>ATF Order 5370.1H published</h4>
+                <p>
+                  The replacement framework. Instructs Industry Operations
+                  Investigators to draw an explicit distinction between willful
+                  violations and clerical errors, and to scale enforcement in
+                  proportion. Revocation is the last step on a ladder, not the
+                  first. Internal review checkpoints are required before any
+                  revocation proceeding can be initiated. The Reform 28 NPRM
+                  that codifies "willfully" in regulation is the regulatory
+                  cousin of this order.
+                </p>
+              </div>
+            </div>
+            <div class="predicate-item">
+              <div class="predicate-when">
+                <b>2025–26</b>
+                Administrative
+              </div>
+              <div>
+                <h4>Classifications board established</h4>
+                <p>
+                  All new firearm classifications now route through a
+                  centralized board with mandatory review by the Office of the
+                  Director. No more one-examiner determinations reclassifying
+                  entire categories of items overnight. The brace rule's
+                  procedural defect — agency-of-one reinterpretation — is the
+                  thing this board exists to prevent.
+                </p>
+              </div>
+            </div>
+            <div class="predicate-item">
+              <div class="predicate-when">
+                <b>2025–26</b>
+                Administrative
+              </div>
+              <div>
+                <h4>
+                  NICS alerts restricted to federal trafficking violations
+                </h4>
+                <p>
+                  ATF use of NICS alerts is now limited to federal firearms
+                  trafficking violations. The agency had been using NICS alerts
+                  as a much broader investigative tool; that authority is now
+                  scoped to its statutory purpose.
+                </p>
+              </div>
+            </div>
+            <div class="predicate-item">
+              <div class="predicate-when">
+                <b>2025–26</b>
+                Administrative
+              </div>
+              <div>
+                <h4>
+                  Senior Industry Partnership Advisor created · imports restored
+                </h4>
+                <p>
+                  A standing liaison between ATF and the firearms industry was
+                  created. Prior bans on the importation of non-lethal training
+                  ammunition and dual-use barrels were reversed (the latter is
+                  now also being formalized in the package as Reform 18, Code
+                  09P).
+                </p>
               </div>
             </div>
           </div>
-          <div class="order-content">
-            <h3>The Administrative Action Order</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMMENT WINDOW CTA -->
+    <section class="section">
+      <div class="wrap">
+        <div class="comment-cta" data-reveal>
+          <div class="comment-cta-content">
+            <div class="label">§ 06 · Open Comment Window</div>
+            <h3>Twenty-seven of the thirty-four are still proposals</h3>
             <p>
-              <strong>ATF Order 5370.1H</strong> is the replacement framework. It
-              instructs Industry Operations Investigators to draw an explicit distinction
-              between
-              <strong>willful violations</strong> and clerical errors, and to scale
-              enforcement in proportion. Revocation is the last step on a ladder,
-              not the first.
+              ATF is explicitly soliciting public comment on each NPRM. The
+              comment period is the only window in which the public, industry
+              groups, and 2A organizations have actual influence over what the
+              final rules look like. The retention-period question (Reform 7),
+              the "willfully" definition (Reform 28), the brace rescission
+              (Reform 1), and the EITB rescission (Reform 2) are all still open.
+              Use them.
             </p>
-            <p>
-              The order also imposes new internal review checkpoints before any
-              revocation proceeding can be initiated. In practical terms, a
-              missing 4473 signature should no longer start a license-pull.
-              Whether the field offices follow it is the next question.
-            </p>
-            <div class="frame">
-              ▸ Tiered response<br />
-              ▸ Willfulness inquiry required<br />
-              ▸ Revocation only after demonstrated pattern<br />
-              ▸ Internal review before adverse action
-            </div>
           </div>
+          <a
+            class="comment-cta-link"
+            href="https://www.regulations.gov/agency/ATF"
+            target="_blank"
+            rel="noopener"
+          >
+            Comment now <span class="arr">→</span>
+          </a>
         </div>
       </div>
     </section>
@@ -1694,21 +2809,22 @@
         </div>
         <div class="take-body">
           <p>
-            This is the largest voluntary contraction of ATF authority in my
-            lifetime, and it is also less than it advertises itself to be. Both
-            of those things are true. Reform packages always read as victories
-            on the page they are printed on. The trick is to read the column the
-            agency did not print.
+            Thirty-four rulemakings on a single day is the largest voluntary
+            contraction of ATF authority in my lifetime, and it is also less
+            than it advertises itself to be. Both of those things are true.
+            Reform packages always read as victories on the page they are
+            printed on. The trick is to read the column the agency did not print
+            and the page numbers it did not file.
           </p>
           <p>
-            Zero Tolerance was the worst of it and Zero Tolerance is
-            <strong>gone</strong>. That alone is a structural win for small
-            dealers. The pistol brace rule is dead in writing, not just in the
-            courtroom. The bump-stock cleanup matches
-            <em class="em-italic">Cargill</em>. The "engaged in the business"
-            expansion is rescinded and the Justice Department dropped its own
-            appeal — that is the rarest kind of admission a federal agency
-            makes.
+            Zero Tolerance was the worst of it and Zero Tolerance has been
+            <strong>gone</strong> for a year. The package now formally proposes to
+            pull the brace rule and the EITB rule from the books. The bump-stock cleanup
+            matches
+            <em class="em-italic">Cargill</em> and is already a Final Rule. Reform
+            28 — the new statutory definition of "willfully" — quietly converts the
+            5370.1H administrative protection into something a federal court can enforce
+            against the agency. That is real.
           </p>
           <blockquote>
             The agency that wrote the regulations is the same agency now
@@ -1720,6 +2836,9 @@
             stocks Americans handed over are not coming back. The statutory
             expansion of "engaged in the business" that Congress passed in BSCA
             is intact and will outlive every administration that inherits it.
+            None of the 34 notices is a new restriction on lawful gun owners —
+            but none of them rolls back BSCA, and none of them touches NICS
+            itself.
           </p>
           <p>
             The right way to read this package is as a
@@ -1729,7 +2848,13 @@
             <em>VanDerStok</em>, <em>Texas v. ATF</em> — all came from outside the
             building. ATF did not wake up. It was woken up. Repeatedly. By judges.
           </p>
-          <p>Take the win. Catalog the survivors. Then keep litigating.</p>
+          <p>
+            Twenty-seven of the thirty-four are still proposals.
+            <strong>Comment on them.</strong> The retention-period question and the
+            "willfully" definition are the two most consequential items in the entire
+            package, and they are both NPRMs. The window closes when ATF says it does.
+            Take the win. Catalog the survivors. Then file comments.
+          </p>
         </div>
       </div>
     </section>
@@ -1744,7 +2869,7 @@
             <a
               href="https://www.atf.gov/rules-and-regulations/atf-launches-new-era-reform"
               target="_blank"
-              rel="noopener">Launches New Era of Reform</a
+              rel="noopener">Launches a New Era of Reform — main page</a
             >
           </li>
           <li>
@@ -1752,7 +2877,7 @@
             <a
               href="https://www.atf.gov/rules-and-regulations/atf-launches-new-era-reform/repeal"
               target="_blank"
-              rel="noopener">Repeal — full action list</a
+              rel="noopener">Group 1 · Repeal</a
             >
           </li>
           <li>
@@ -1760,7 +2885,39 @@
             <a
               href="https://www.atf.gov/rules-and-regulations/atf-launches-new-era-reform/modernize"
               target="_blank"
-              rel="noopener">Modernize — full action list</a
+              rel="noopener">Group 2 · Modernize</a
+            >
+          </li>
+          <li>
+            ATF —
+            <a
+              href="https://www.atf.gov/rules-and-regulations/atf-launches-new-era-reform/reduce-burden"
+              target="_blank"
+              rel="noopener">Group 3 · Reduce Burden</a
+            >
+          </li>
+          <li>
+            ATF —
+            <a
+              href="https://www.atf.gov/rules-and-regulations/atf-launches-new-era-reform/clarify"
+              target="_blank"
+              rel="noopener">Group 4 · Clarify</a
+            >
+          </li>
+          <li>
+            ATF —
+            <a
+              href="https://www.atf.gov/rules-and-regulations/atf-launches-new-era-reform/align"
+              target="_blank"
+              rel="noopener">Group 5 · Align</a
+            >
+          </li>
+          <li>
+            regulations.gov —
+            <a
+              href="https://www.regulations.gov/agency/ATF"
+              target="_blank"
+              rel="noopener">ATF dockets · public comment portal</a
             >
           </li>
           <li>
