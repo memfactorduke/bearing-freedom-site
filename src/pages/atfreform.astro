@@ -293,22 +293,25 @@
       }
       .masthead h1 {
         font-family: var(--display);
-        font-size: clamp(56px, 11vw, 132px);
+        font-size: clamp(48px, 9.5vw, 116px);
         font-weight: 400;
         line-height: 0.92;
         letter-spacing: 0.005em;
         color: var(--ink);
         text-transform: uppercase;
         margin-bottom: 18px;
+        word-spacing: 0.04em;
       }
       .masthead h1 .of {
         font-family: var(--body);
         font-style: italic;
         font-weight: 400;
-        font-size: 0.6em;
+        font-size: 0.55em;
         text-transform: lowercase;
         color: var(--red);
         letter-spacing: 0;
+        vertical-align: 0.1em;
+        padding: 0 0.05em;
       }
       .masthead-sub {
         font-family: var(--body);
@@ -462,14 +465,17 @@
         border-top: 1px solid var(--paper-edge);
       }
       .section-head {
-        display: flex;
-        align-items: baseline;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 12px;
         margin-bottom: 36px;
         padding-bottom: 18px;
         border-bottom: 3px double var(--ink);
+      }
+      .section-head-meta {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-bottom: 14px;
       }
       .section-num {
         font-family: var(--stamp);
@@ -477,11 +483,10 @@
         color: var(--red);
         letter-spacing: 0.32em;
         text-transform: uppercase;
-        margin-bottom: 6px;
       }
       .section-head h2 {
         font-family: var(--display);
-        font-size: clamp(38px, 5.5vw, 64px);
+        font-size: clamp(34px, 5vw, 56px);
         font-weight: 400;
         line-height: 0.95;
         color: var(--ink);
@@ -490,7 +495,7 @@
       }
       .section-head .right {
         font-family: var(--stamp);
-        font-size: 12px;
+        font-size: 11px;
         color: var(--ink-mid);
         text-transform: uppercase;
         letter-spacing: 0.18em;
@@ -742,9 +747,10 @@
         position: relative;
         background: var(--ink);
         color: var(--paper);
-        padding: 56px 36px;
+        padding: 56px 40px 48px;
         margin: 56px 0;
         border: 2px solid var(--ink);
+        text-align: center;
         overflow: hidden;
       }
       .tax-banner::before {
@@ -754,37 +760,39 @@
         border: 1px solid var(--paper-deep);
         pointer-events: none;
       }
-      .tax-banner-grid {
-        display: grid;
-        grid-template-columns: 280px 1fr;
-        gap: 40px;
-        align-items: center;
+      .tax-banner-inner {
         position: relative;
-      }
-      @media (max-width: 720px) {
-        .tax-banner-grid {
-          grid-template-columns: 1fr;
-          gap: 28px;
-          text-align: center;
-        }
+        max-width: 760px;
+        margin: 0 auto;
       }
       .tax-amount {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        gap: 18px;
         font-family: var(--display);
-        font-size: clamp(120px, 18vw, 200px);
         line-height: 0.85;
         color: var(--paper);
-        letter-spacing: -0.04em;
-        position: relative;
+        letter-spacing: -0.02em;
+        margin-bottom: 28px;
       }
       .tax-amount .strike {
-        position: relative;
+        font-size: clamp(48px, 8vw, 88px);
         color: var(--ink-faint);
-        font-size: 0.55em;
         text-decoration: line-through;
         text-decoration-color: var(--red);
-        text-decoration-thickness: 4px;
-        margin-right: 4px;
-        letter-spacing: 0;
+        text-decoration-thickness: 5px;
+      }
+      .tax-amount .arrow {
+        font-size: clamp(36px, 5vw, 56px);
+        color: var(--red);
+        font-family: var(--body);
+        line-height: 1;
+        align-self: center;
+      }
+      .tax-amount .now {
+        font-size: clamp(96px, 15vw, 168px);
+        color: var(--paper);
       }
       .tax-content h3 {
         font-family: var(--display);
@@ -800,9 +808,13 @@
         font-size: 17px;
         line-height: 1.6;
         color: #d4c8a8;
+        max-width: 620px;
+        margin: 0 auto;
       }
       .tax-content .meta {
-        margin-top: 14px;
+        margin-top: 18px;
+        padding-top: 18px;
+        border-top: 1px solid rgba(212, 200, 168, 0.2);
         font-family: var(--stamp);
         font-size: 11px;
         color: var(--paper-deep);
@@ -1176,7 +1188,7 @@
       <div class="masthead-eyebrow">
         Federal Records · Bureau of Alcohol, Tobacco, Firearms &amp; Explosives
       </div>
-      <h1>New Era<br /><span class="of">of</span> Reform</h1>
+      <h1>New Era <span class="of">of</span> Reform</h1>
       <p class="masthead-sub">
         The agency that wrote the regulations is the same agency now striking
         them off the books. Thirty-four actions. Five categories. The biggest
@@ -1235,13 +1247,11 @@
     <section class="section section-rule">
       <div class="wrap">
         <div class="section-head">
-          <div>
+          <div class="section-head-meta">
             <div class="section-num">§ 01 · Inventory</div>
-            <h2>Thirty-four actions, five buckets</h2>
+            <div class="right">ATF taxonomy · self-classified</div>
           </div>
-          <div class="right">
-            ATF taxonomy<br />self-classified
-          </div>
+          <h2>Thirty-four actions, five buckets</h2>
         </div>
         <p class="section-intro">
           The reform package is the agency's own count, in the agency's own
@@ -1283,13 +1293,11 @@
     <section class="section section-rule">
       <div class="wrap">
         <div class="section-head">
-          <div>
+          <div class="section-head-meta">
             <div class="section-num">§ 02 · The Repeals</div>
-            <h2>What just got struck off the books</h2>
+            <div class="right">Five case files · in priority order</div>
           </div>
-          <div class="right">
-            Five case files<br />in priority order
-          </div>
+          <h2>What just got struck off the books</h2>
         </div>
 
         <!-- CASE 1: Zero Tolerance -->
@@ -1530,9 +1538,11 @@
     <!-- TAX BANNER -->
     <section class="wrap">
       <div class="tax-banner" data-reveal>
-        <div class="tax-banner-grid">
+        <div class="tax-banner-inner">
           <div class="tax-amount">
-            <span class="strike">$200</span>$0
+            <span class="strike">$200</span>
+            <span class="arrow">→</span>
+            <span class="now">$0</span>
           </div>
           <div class="tax-content">
             <h3>The NFA Tax is Dead</h3>
@@ -1556,13 +1566,11 @@
     <section class="section">
       <div class="wrap">
         <div class="section-head">
-          <div>
+          <div class="section-head-meta">
             <div class="section-num">§ 03 · The Survivors</div>
-            <h2>What did NOT get repealed</h2>
+            <div class="right">Read this column before celebrating</div>
           </div>
-          <div class="right">
-            Read this column<br />before celebrating
-          </div>
+          <h2>What did NOT get repealed</h2>
         </div>
         <p class="section-intro">
           Reform packages are advertised by what they remove. The smarter read
@@ -1634,13 +1642,11 @@
     <section class="section section-rule">
       <div class="wrap">
         <div class="section-head">
-          <div>
+          <div class="section-head-meta">
             <div class="section-num">§ 04 · The Replacement</div>
-            <h2>What replaces Zero Tolerance</h2>
+            <div class="right">Internal directive · operative now</div>
           </div>
-          <div class="right">
-            Internal directive<br />operative now
-          </div>
+          <h2>What replaces Zero Tolerance</h2>
         </div>
 
         <div class="order-card" data-reveal>
@@ -1653,7 +1659,7 @@
             </div>
           </div>
           <div class="order-content">
-            <h3>The Adminstrative Action Order</h3>
+            <h3>The Administrative Action Order</h3>
             <p>
               <strong>ATF Order 5370.1H</strong> is the replacement framework. It
               instructs Industry Operations Investigators to draw an explicit distinction
@@ -1684,7 +1690,7 @@
       <div class="wrap wrap-narrow">
         <div class="take-head">
           <div class="pre">The Take</div>
-          <h2>Real, partial,<br />and overdue</h2>
+          <h2>Real. Partial.<br />Overdue.</h2>
         </div>
         <div class="take-body">
           <p>
