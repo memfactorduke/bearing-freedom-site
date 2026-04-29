@@ -1,0 +1,2198 @@
+---
+// Standalone page — self-contained styles and scripts, no global.css.
+// Louisiana v. Callais — SCOTUS strikes down Louisiana's congressional map
+// as an unconstitutional racial gerrymander. 6-3, Alito for the majority.
+// Decided April 29, 2026.
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Louisiana v. Callais: Race Out. 6-3. | Bearing Freedom</title>
+    <meta
+      name="description"
+      content="The Supreme Court struck down Louisiana's congressional map on April 29, 2026, ruling 6-3 that the state's second majority-Black district was an unconstitutional racial gerrymander. Maps, the holding, the 4 new Section 2 tests, and what this means for the colorblind constitution."
+    />
+    <meta
+      property="og:title"
+      content="Louisiana v. Callais: Race Out. 6-3. | Bearing Freedom"
+    />
+    <meta
+      property="og:description"
+      content="6-3. Alito for the majority. The 250-mile backslash from Shreveport to Baton Rouge is gone. Section 2 isn't dead — but the Court just hung four new locks on the door."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bearingfreedom.com/callais" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6WRV03TTZ"
+    ></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-Q6WRV03TTZ', {
+        send_page_view: true,
+        allow_google_signals: true,
+        allow_ad_personalization_signals: true,
+        cookie_flags: 'SameSite=None;Secure',
+      });
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style is:global>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --void: #06080d;
+        --bg: #0a0d16;
+        --surface: #11151f;
+        --panel: #161c2a;
+        --panel-2: #1b2235;
+        --border: #2a3145;
+        --border-dim: #1d2336;
+        --text: #f4f1e8;
+        --text-mid: #c9c5b6;
+        --text-dim: #8a8775;
+        --text-faint: #5b5a4e;
+        --gold: #d4a82a;
+        --gold-deep: #8a6a18;
+        --gold-glow: rgba(212, 168, 42, 0.18);
+        --red: #c8333d;
+        --red-deep: #8a1f29;
+        --red-glow: rgba(200, 51, 61, 0.2);
+        --green: #6b8e4e;
+        --indigo: #3d4d8c;
+        --parchment: #ede4cf;
+        --parchment-deep: #c9bd9d;
+        --display: 'Archivo Black', Impact, sans-serif;
+        --serif: 'Fraunces', Georgia, serif;
+        --body: 'Inter', system-ui, sans-serif;
+        --mono: 'JetBrains Mono', 'Courier New', monospace;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        background: var(--void);
+      }
+
+      body {
+        font-family: var(--body);
+        background: var(--void);
+        color: var(--text);
+        line-height: 1.6;
+        font-feature-settings: 'ss01', 'ss02', 'cv11';
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+      }
+
+      ::selection {
+        background: var(--gold);
+        color: var(--void);
+      }
+
+      /* ============================================================
+         JUDICIAL HEADER STRIP — case caption ribbon at the very top
+         ============================================================ */
+      .caption-ribbon {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background: var(--void);
+        border-bottom: 1px solid var(--border-dim);
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--text-dim);
+      }
+      .caption-ribbon-inner {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 10px 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+      .caption-ribbon a {
+        color: var(--text-dim);
+        text-decoration: none;
+        transition: color 0.15s;
+      }
+      .caption-ribbon a:hover {
+        color: var(--gold);
+      }
+      .caption-cite {
+        color: var(--gold);
+      }
+      .caption-dot {
+        display: inline-block;
+        width: 4px;
+        height: 4px;
+        background: var(--gold);
+        border-radius: 50%;
+        margin: 0 10px;
+        vertical-align: middle;
+      }
+
+      /* ============================================================
+         SHARED LAYOUT
+         ============================================================ */
+      .wrap {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 24px;
+      }
+      @media (min-width: 768px) {
+        .wrap {
+          padding: 0 48px;
+        }
+      }
+
+      .section {
+        padding: 80px 0;
+        position: relative;
+      }
+      @media (min-width: 768px) {
+        .section {
+          padding: 120px 0;
+        }
+      }
+
+      .section-num {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.3em;
+        color: var(--gold);
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .section-num::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: linear-gradient(90deg, var(--gold-glow), transparent);
+        max-width: 120px;
+      }
+      .section-title {
+        font-family: var(--serif);
+        font-weight: 900;
+        font-size: clamp(36px, 6vw, 68px);
+        line-height: 0.95;
+        letter-spacing: -0.02em;
+        color: var(--text);
+        margin-bottom: 24px;
+        font-variation-settings: 'opsz' 144;
+      }
+      .section-title em {
+        font-style: italic;
+        color: var(--gold);
+        font-weight: 500;
+      }
+      .section-lede {
+        font-family: var(--serif);
+        font-size: 22px;
+        line-height: 1.5;
+        color: var(--text-mid);
+        max-width: 720px;
+        margin-bottom: 56px;
+        font-variation-settings: 'opsz' 32;
+      }
+      @media (min-width: 768px) {
+        .section-lede {
+          font-size: 26px;
+        }
+      }
+
+      /* ============================================================
+         HERO
+         ============================================================ */
+      .hero {
+        min-height: calc(100vh - 40px);
+        position: relative;
+        background:
+          radial-gradient(
+            ellipse at top right,
+            rgba(212, 168, 42, 0.12),
+            transparent 50%
+          ),
+          radial-gradient(
+            ellipse at bottom left,
+            rgba(200, 51, 61, 0.08),
+            transparent 50%
+          ),
+          var(--void);
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+      }
+
+      /* Marble/parchment texture overlay */
+      .hero::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-image:
+          repeating-linear-gradient(
+            0deg,
+            rgba(244, 241, 232, 0.015) 0,
+            rgba(244, 241, 232, 0.015) 1px,
+            transparent 1px,
+            transparent 3px
+          ),
+          repeating-linear-gradient(
+            90deg,
+            rgba(244, 241, 232, 0.015) 0,
+            rgba(244, 241, 232, 0.015) 1px,
+            transparent 1px,
+            transparent 3px
+          );
+        pointer-events: none;
+        mix-blend-mode: overlay;
+      }
+
+      /* Faint Roman numeral background mark */
+      .hero::after {
+        content: 'VI · III';
+        position: absolute;
+        right: -2vw;
+        bottom: -8vw;
+        font-family: var(--serif);
+        font-size: clamp(200px, 40vw, 600px);
+        font-weight: 900;
+        color: rgba(212, 168, 42, 0.04);
+        line-height: 1;
+        pointer-events: none;
+        font-variation-settings: 'opsz' 144;
+        letter-spacing: -0.04em;
+      }
+
+      .hero-inner {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        padding: 80px 0 60px;
+      }
+
+      .hero-eyebrow {
+        font-family: var(--mono);
+        font-size: 12px;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-bottom: 28px;
+        display: inline-flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .hero-eyebrow::before {
+        content: '';
+        width: 32px;
+        height: 1px;
+        background: var(--gold);
+      }
+
+      .hero-cite {
+        font-family: var(--serif);
+        font-style: italic;
+        font-weight: 500;
+        font-size: clamp(20px, 2.4vw, 28px);
+        color: var(--text-mid);
+        margin-bottom: 16px;
+        font-variation-settings: 'opsz' 48;
+      }
+      .hero-cite .v {
+        color: var(--text-faint);
+        margin: 0 8px;
+        font-style: normal;
+      }
+
+      .hero-title {
+        font-family: var(--display);
+        font-size: clamp(64px, 14vw, 220px);
+        line-height: 0.85;
+        letter-spacing: -0.04em;
+        color: var(--text);
+        margin: 18px 0 0;
+        text-transform: uppercase;
+      }
+      .hero-title .race {
+        display: block;
+      }
+      .hero-title .out {
+        display: block;
+        color: var(--gold);
+        position: relative;
+      }
+      .hero-title .out::after {
+        content: '';
+        position: absolute;
+        left: -2%;
+        top: 48%;
+        width: 104%;
+        height: 14%;
+        background: var(--red);
+        transform: rotate(-3deg);
+        z-index: -1;
+        opacity: 0.85;
+        box-shadow: 0 0 40px var(--red-glow);
+      }
+
+      .hero-meta {
+        margin-top: 56px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+      }
+      @media (min-width: 768px) {
+        .hero-meta {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+      .hero-stat {
+        padding: 24px 28px;
+        border-right: 1px solid var(--border);
+      }
+      .hero-stat:last-child {
+        border-right: none;
+      }
+      .hero-stat:nth-child(2n) {
+        border-right: none;
+      }
+      @media (min-width: 768px) {
+        .hero-stat:nth-child(2n) {
+          border-right: 1px solid var(--border);
+        }
+        .hero-stat:last-child {
+          border-right: none;
+        }
+      }
+      .hero-stat-label {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.25em;
+        color: var(--text-faint);
+        text-transform: uppercase;
+        margin-bottom: 12px;
+      }
+      .hero-stat-value {
+        font-family: var(--display);
+        font-size: 28px;
+        line-height: 1.05;
+        color: var(--text);
+        letter-spacing: -0.01em;
+      }
+      .hero-stat-value.gold {
+        color: var(--gold);
+      }
+      .hero-stat-sub {
+        font-family: var(--mono);
+        font-size: 11px;
+        color: var(--text-dim);
+        margin-top: 6px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+      }
+
+      .hero-stamp {
+        position: absolute;
+        top: 110px;
+        right: 24px;
+        width: 180px;
+        height: 180px;
+        border: 3px solid var(--red);
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: rotate(-12deg);
+        opacity: 0.9;
+        font-family: var(--display);
+        color: var(--red);
+        box-shadow:
+          inset 0 0 0 6px var(--void),
+          inset 0 0 0 7px var(--red);
+        text-align: center;
+      }
+      .hero-stamp::before,
+      .hero-stamp::after {
+        content: '';
+        position: absolute;
+        left: 12%;
+        right: 12%;
+        height: 1.5px;
+        background: var(--red);
+      }
+      .hero-stamp::before {
+        top: 26%;
+      }
+      .hero-stamp::after {
+        bottom: 26%;
+      }
+      .hero-stamp-main {
+        font-size: 26px;
+        letter-spacing: 0.06em;
+        line-height: 1;
+      }
+      .hero-stamp-sub {
+        font-size: 9px;
+        letter-spacing: 0.18em;
+        margin-top: 4px;
+        font-family: var(--mono);
+      }
+      @media (max-width: 900px) {
+        .hero-stamp {
+          position: static;
+          margin: 40px auto 0;
+          transform: rotate(-6deg);
+        }
+      }
+
+      /* ============================================================
+         OPINION QUOTE BLOCK
+         ============================================================ */
+      .opinion {
+        background: var(--bg);
+        border-top: 1px solid var(--border-dim);
+        border-bottom: 1px solid var(--border-dim);
+        padding: 100px 0;
+        position: relative;
+      }
+      .opinion::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 1px;
+        height: 60px;
+        background: var(--gold);
+        opacity: 0.4;
+      }
+      .opinion-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      @media (min-width: 900px) {
+        .opinion-grid {
+          grid-template-columns: 200px 1fr;
+          gap: 80px;
+        }
+      }
+      .opinion-byline {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.2em;
+        color: var(--text-dim);
+        text-transform: uppercase;
+        line-height: 1.8;
+      }
+      .opinion-byline strong {
+        color: var(--gold);
+        display: block;
+        font-size: 14px;
+        font-family: var(--display);
+        font-weight: normal;
+        letter-spacing: 0.04em;
+        margin-bottom: 6px;
+      }
+      .opinion-quote {
+        font-family: var(--serif);
+        font-size: clamp(28px, 4vw, 48px);
+        line-height: 1.18;
+        font-weight: 500;
+        color: var(--text);
+        text-indent: -0.4em;
+        font-variation-settings: 'opsz' 144;
+        letter-spacing: -0.01em;
+      }
+      .opinion-quote em {
+        font-style: italic;
+        color: var(--gold);
+      }
+      .opinion-quote::before {
+        content: '"';
+        font-size: 1.4em;
+        color: var(--gold);
+        line-height: 0;
+        vertical-align: -0.2em;
+        margin-right: 0.05em;
+      }
+      .opinion-quote::after {
+        content: '"';
+        color: var(--gold);
+        margin-left: 0.05em;
+      }
+
+      /* ============================================================
+         MAPS
+         ============================================================ */
+      .maps-section {
+        background: var(--void);
+      }
+      .map-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      @media (min-width: 1100px) {
+        .map-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+
+      .map-card {
+        background: var(--surface);
+        border: 1px solid var(--border-dim);
+        position: relative;
+        overflow: hidden;
+        transition:
+          border-color 0.3s,
+          transform 0.3s;
+      }
+      .map-card:hover {
+        border-color: var(--border);
+      }
+      .map-card.struck {
+        border-color: var(--red-deep);
+      }
+
+      .map-tag {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.18em;
+        padding: 6px 10px;
+        text-transform: uppercase;
+        background: var(--panel);
+        border: 1px solid var(--border);
+        color: var(--text-dim);
+        z-index: 3;
+      }
+      .map-tag.live {
+        color: var(--green);
+        border-color: var(--green);
+      }
+      .map-tag.struck {
+        color: var(--red);
+        border-color: var(--red);
+      }
+      .map-tag.tbd {
+        color: var(--gold);
+        border-color: var(--gold);
+      }
+
+      .map-header {
+        padding: 28px 28px 20px;
+        border-bottom: 1px solid var(--border-dim);
+      }
+      .map-eyebrow {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: var(--text-faint);
+        margin-bottom: 8px;
+      }
+      .map-title {
+        font-family: var(--display);
+        font-size: 22px;
+        line-height: 1.05;
+        margin-bottom: 8px;
+        color: var(--text);
+        letter-spacing: -0.01em;
+      }
+      .map-subtitle {
+        font-family: var(--serif);
+        font-size: 14px;
+        color: var(--text-dim);
+        font-style: italic;
+        font-variation-settings: 'opsz' 14;
+      }
+
+      .map-svg-wrap {
+        position: relative;
+        padding: 16px;
+        background: var(--surface);
+      }
+      /* Real-map exhibit frame: parchment-toned well behind a CC-licensed map */
+      .map-frame {
+        position: relative;
+        background: #faf6ec;
+        border: 1px solid var(--border);
+        box-shadow:
+          inset 0 0 0 6px #faf6ec,
+          inset 0 0 0 7px #d8cfb4,
+          0 8px 24px rgba(0, 0, 0, 0.4);
+        padding: 0;
+        overflow: hidden;
+      }
+      .map-frame img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .map-card.struck .map-frame::after {
+        content: 'VOID';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-22deg);
+        font-family: var(--display);
+        font-size: clamp(72px, 18vw, 132px);
+        color: var(--red);
+        opacity: 0.42;
+        letter-spacing: 0.12em;
+        pointer-events: none;
+        z-index: 2;
+        text-shadow: 0 2px 0 rgba(255, 255, 255, 0.4);
+        white-space: nowrap;
+      }
+      .map-card.struck .map-frame {
+        box-shadow:
+          inset 0 0 0 6px #faf6ec,
+          inset 0 0 0 7px var(--red),
+          0 8px 24px rgba(200, 51, 61, 0.18);
+      }
+      .map-attrib {
+        font-family: var(--mono);
+        font-size: 9px;
+        letter-spacing: 0.16em;
+        color: var(--text-faint);
+        text-transform: uppercase;
+        padding: 8px 16px 0;
+        text-align: right;
+      }
+      .map-attrib a {
+        color: var(--text-dim);
+        text-decoration: none;
+      }
+      .map-attrib a:hover {
+        color: var(--gold);
+      }
+      .map-svg-wrap svg {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      /* SVG district fills */
+      .d-fill {
+        transition: fill 0.3s;
+      }
+      .d-1 {
+        fill: #2c5078;
+      } /* New Orleans suburbs/coast */
+      .d-2 {
+        fill: #8a3434;
+      } /* New Orleans urban (maj-Black) */
+      .d-3 {
+        fill: #5a6e3a;
+      } /* SW (Lafayette/Lake Charles) */
+      .d-4 {
+        fill: #6b4789;
+      } /* NW (Shreveport) */
+      .d-5 {
+        fill: #b5832a;
+      } /* North/East */
+      .d-6 {
+        fill: #2d6f64;
+      } /* Capital region (Baton Rouge) */
+      .d-6-snake {
+        fill: #a82a36;
+      } /* Struck-down CD-6 backslash */
+
+      .d-stroke {
+        stroke: var(--void);
+        stroke-width: 1.4;
+        stroke-linejoin: round;
+      }
+      .la-outline {
+        fill: none;
+        stroke: var(--text);
+        stroke-width: 2;
+      }
+
+      .d-label {
+        font-family: var(--display);
+        font-size: 14px;
+        fill: rgba(255, 255, 255, 0.92);
+        text-anchor: middle;
+        pointer-events: none;
+        letter-spacing: 0.04em;
+      }
+      .city-dot {
+        fill: var(--parchment);
+        stroke: var(--void);
+        stroke-width: 1;
+      }
+      .city-label {
+        font-family: var(--mono);
+        font-size: 9px;
+        fill: var(--text-mid);
+        letter-spacing: 0.06em;
+      }
+      .legend-tag {
+        font-family: var(--mono);
+        font-size: 9px;
+        fill: var(--text-dim);
+        letter-spacing: 0.1em;
+      }
+
+      .map-stats {
+        padding: 20px 28px;
+        border-top: 1px solid var(--border-dim);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+      }
+      .map-stat-label {
+        font-family: var(--mono);
+        font-size: 9px;
+        letter-spacing: 0.18em;
+        color: var(--text-faint);
+        text-transform: uppercase;
+        margin-bottom: 4px;
+      }
+      .map-stat-value {
+        font-family: var(--display);
+        font-size: 20px;
+        color: var(--text);
+        line-height: 1;
+      }
+      .map-card.struck .map-stat-value.flag {
+        color: var(--red);
+      }
+      .map-stat-value.gold {
+        color: var(--gold);
+      }
+
+      .map-foot {
+        padding: 18px 28px 24px;
+        border-top: 1px solid var(--border-dim);
+        font-family: var(--serif);
+        font-size: 14px;
+        color: var(--text-mid);
+        line-height: 1.55;
+        font-style: italic;
+      }
+      .map-foot strong {
+        font-style: normal;
+        color: var(--text);
+        font-weight: 600;
+      }
+
+      /* ============================================================
+         CD-6 ANATOMY (the snake) — large featured detail
+         ============================================================ */
+      .anatomy {
+        background: var(--bg);
+        border-top: 1px solid var(--border-dim);
+        border-bottom: 1px solid var(--border-dim);
+      }
+      .anatomy-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 48px;
+        align-items: center;
+      }
+      @media (min-width: 1000px) {
+        .anatomy-grid {
+          grid-template-columns: 1.2fr 1fr;
+          gap: 80px;
+        }
+      }
+      .anatomy-svg {
+        position: relative;
+      }
+      .anatomy-svg .map-frame {
+        box-shadow:
+          inset 0 0 0 8px #faf6ec,
+          inset 0 0 0 9px var(--red),
+          0 12px 32px rgba(200, 51, 61, 0.18);
+      }
+      .anatomy-svg img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .anatomy-call {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--gold);
+      }
+      .anatomy h2 {
+        font-family: var(--display);
+        font-size: clamp(36px, 5vw, 64px);
+        line-height: 0.95;
+        margin: 12px 0 24px;
+        letter-spacing: -0.02em;
+      }
+      .anatomy h2 span {
+        color: var(--red);
+      }
+      .anatomy p {
+        font-family: var(--serif);
+        font-size: 19px;
+        line-height: 1.55;
+        color: var(--text-mid);
+        margin-bottom: 18px;
+        font-variation-settings: 'opsz' 19;
+      }
+      .anatomy ul {
+        list-style: none;
+        margin-top: 32px;
+        border-top: 1px solid var(--border-dim);
+      }
+      .anatomy li {
+        padding: 18px 0;
+        border-bottom: 1px solid var(--border-dim);
+        display: grid;
+        grid-template-columns: 90px 1fr;
+        gap: 24px;
+        align-items: baseline;
+      }
+      .anatomy li .num {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        color: var(--gold);
+        text-transform: uppercase;
+      }
+      .anatomy li .body {
+        font-family: var(--serif);
+        font-size: 17px;
+        color: var(--text);
+        line-height: 1.5;
+      }
+      .anatomy li .body strong {
+        color: var(--gold);
+        font-weight: 700;
+      }
+
+      /* ============================================================
+         FOUR NEW TESTS — section 2 considerations
+         ============================================================ */
+      .tests {
+        background: var(--void);
+      }
+      .tests-intro {
+        max-width: 760px;
+        font-family: var(--serif);
+        font-size: 20px;
+        line-height: 1.55;
+        color: var(--text-mid);
+        margin-bottom: 56px;
+      }
+      .tests-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1px;
+        background: var(--border-dim);
+        border: 1px solid var(--border-dim);
+      }
+      @media (min-width: 700px) {
+        .tests-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      .test-card {
+        background: var(--surface);
+        padding: 36px 32px;
+        position: relative;
+        transition: background 0.3s;
+      }
+      .test-card:hover {
+        background: var(--panel);
+      }
+      .test-num {
+        font-family: var(--display);
+        font-size: 80px;
+        line-height: 1;
+        color: var(--gold);
+        opacity: 0.15;
+        position: absolute;
+        top: 18px;
+        right: 28px;
+        font-variant-numeric: tabular-nums;
+      }
+      .test-tag {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.22em;
+        color: var(--gold);
+        text-transform: uppercase;
+        margin-bottom: 16px;
+      }
+      .test-title {
+        font-family: var(--display);
+        font-size: 22px;
+        line-height: 1.15;
+        color: var(--text);
+        margin-bottom: 14px;
+        letter-spacing: -0.01em;
+      }
+      .test-body {
+        font-family: var(--serif);
+        font-size: 16px;
+        line-height: 1.6;
+        color: var(--text-mid);
+      }
+
+      /* ============================================================
+         DISSENT BLOCK
+         ============================================================ */
+      .dissent {
+        background: linear-gradient(180deg, var(--void), var(--bg)), var(--bg);
+        position: relative;
+      }
+      .dissent-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      @media (min-width: 900px) {
+        .dissent-grid {
+          grid-template-columns: 220px 1fr;
+          gap: 80px;
+        }
+      }
+      .dissent-byline {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.2em;
+        color: var(--text-dim);
+        text-transform: uppercase;
+        line-height: 1.8;
+      }
+      .dissent-byline strong {
+        color: var(--red);
+        font-family: var(--display);
+        font-weight: normal;
+        font-size: 14px;
+        letter-spacing: 0.04em;
+        display: block;
+        margin-bottom: 6px;
+      }
+      .dissent-quote {
+        font-family: var(--serif);
+        font-size: clamp(26px, 3.6vw, 44px);
+        line-height: 1.22;
+        color: var(--text);
+        font-style: italic;
+        font-weight: 400;
+        font-variation-settings: 'opsz' 144;
+        letter-spacing: -0.005em;
+      }
+      .dissent-quote em {
+        font-style: normal;
+        color: var(--red);
+        font-weight: 600;
+      }
+      .dissent-quote::before {
+        content: '"';
+        color: var(--red);
+        font-size: 1.3em;
+        line-height: 0;
+        vertical-align: -0.2em;
+        margin-right: 0.05em;
+      }
+
+      /* ============================================================
+         2A ANGLE — Why this matters for gun rights
+         ============================================================ */
+      .angle {
+        background: var(--void);
+        position: relative;
+        overflow: hidden;
+      }
+      .angle::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        background: radial-gradient(
+          ellipse at right,
+          rgba(212, 168, 42, 0.06),
+          transparent 60%
+        );
+        pointer-events: none;
+      }
+
+      .angle-stamp {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.3em;
+        color: var(--gold);
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .angle-stamp::before {
+        content: '';
+        width: 20px;
+        height: 1px;
+        background: var(--gold);
+      }
+      .angle-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 56px;
+      }
+      @media (min-width: 1000px) {
+        .angle-grid {
+          grid-template-columns: 1.1fr 1fr;
+        }
+      }
+      .angle-body p {
+        font-family: var(--serif);
+        font-size: 19px;
+        line-height: 1.6;
+        color: var(--text-mid);
+        margin-bottom: 22px;
+        font-variation-settings: 'opsz' 19;
+      }
+      .angle-body p strong {
+        color: var(--text);
+        font-weight: 600;
+      }
+      .angle-body p em {
+        color: var(--gold);
+        font-style: italic;
+      }
+      .angle-pull {
+        font-family: var(--display);
+        font-size: clamp(28px, 3.4vw, 42px);
+        line-height: 1.1;
+        color: var(--text);
+        margin: 36px 0;
+        padding: 28px 0 28px 32px;
+        border-left: 4px solid var(--gold);
+        letter-spacing: -0.02em;
+      }
+      .angle-pull span {
+        color: var(--gold);
+      }
+
+      .precedent-stack {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+      }
+      .precedent {
+        background: var(--surface);
+        border: 1px solid var(--border-dim);
+        padding: 22px 24px;
+        position: relative;
+        transition:
+          border-color 0.3s,
+          transform 0.3s;
+      }
+      .precedent:hover {
+        border-color: var(--gold);
+        transform: translateX(4px);
+      }
+      .precedent-cite {
+        font-family: var(--serif);
+        font-style: italic;
+        font-size: 18px;
+        color: var(--gold);
+        margin-bottom: 8px;
+        font-variation-settings: 'opsz' 24;
+      }
+      .precedent-year {
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--text-faint);
+        letter-spacing: 0.18em;
+        position: absolute;
+        top: 22px;
+        right: 24px;
+      }
+      .precedent-line {
+        font-family: var(--serif);
+        font-size: 15px;
+        color: var(--text-mid);
+        line-height: 1.5;
+      }
+
+      /* ============================================================
+         WHAT'S NEXT — timeline / next steps
+         ============================================================ */
+      .next-section {
+        background: var(--bg);
+        border-top: 1px solid var(--border-dim);
+      }
+      .next-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+      @media (min-width: 800px) {
+        .next-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+      .next-card {
+        background: var(--surface);
+        border: 1px solid var(--border-dim);
+        padding: 28px;
+        transition: border-color 0.3s;
+      }
+      .next-card:hover {
+        border-color: var(--gold);
+      }
+      .next-when {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.22em;
+        color: var(--gold);
+        text-transform: uppercase;
+        margin-bottom: 14px;
+      }
+      .next-headline {
+        font-family: var(--display);
+        font-size: 19px;
+        line-height: 1.15;
+        color: var(--text);
+        margin-bottom: 12px;
+        letter-spacing: -0.01em;
+      }
+      .next-body {
+        font-family: var(--serif);
+        font-size: 15px;
+        line-height: 1.55;
+        color: var(--text-mid);
+      }
+
+      /* ============================================================
+         RIPPLE — other states
+         ============================================================ */
+      .ripple {
+        background: var(--void);
+      }
+      .ripple-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1px;
+        background: var(--border-dim);
+        border: 1px solid var(--border-dim);
+      }
+      @media (min-width: 700px) {
+        .ripple-grid {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+      .ripple-cell {
+        background: var(--surface);
+        padding: 28px 24px;
+      }
+      .ripple-state {
+        font-family: var(--display);
+        font-size: 28px;
+        color: var(--gold);
+        line-height: 1;
+        margin-bottom: 12px;
+        letter-spacing: -0.01em;
+      }
+      .ripple-tag {
+        font-family: var(--mono);
+        font-size: 9px;
+        letter-spacing: 0.2em;
+        color: var(--text-faint);
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      }
+      .ripple-body {
+        font-family: var(--serif);
+        font-size: 14px;
+        color: var(--text-mid);
+        line-height: 1.5;
+      }
+
+      /* ============================================================
+         FOOTER — sources / case info
+         ============================================================ */
+      .colophon {
+        background: var(--void);
+        border-top: 1px solid var(--border-dim);
+        padding: 60px 0 80px;
+      }
+      .colophon-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      @media (min-width: 700px) {
+        .colophon-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      @media (min-width: 1100px) {
+        .colophon-grid {
+          grid-template-columns: 1.2fr 1fr 1fr 1fr;
+        }
+      }
+      .colophon h4 {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.25em;
+        color: var(--gold);
+        text-transform: uppercase;
+        margin-bottom: 16px;
+      }
+      .colophon p,
+      .colophon li {
+        font-family: var(--serif);
+        font-size: 15px;
+        line-height: 1.6;
+        color: var(--text-mid);
+      }
+      .colophon ul {
+        list-style: none;
+      }
+      .colophon li {
+        padding: 8px 0;
+        border-bottom: 1px solid var(--border-dim);
+      }
+      .colophon a {
+        color: var(--text);
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+      .colophon a:hover {
+        color: var(--gold);
+      }
+      .colophon-cite {
+        font-family: var(--serif);
+        font-style: italic;
+        font-size: 18px;
+        color: var(--gold);
+        margin-bottom: 8px;
+      }
+      .colophon-meta {
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--text-faint);
+        letter-spacing: 0.15em;
+        margin-top: 24px;
+        text-transform: uppercase;
+        line-height: 1.8;
+      }
+
+      /* ============================================================
+         REVEAL ANIMATIONS
+         ============================================================ */
+      [data-reveal] {
+        opacity: 0;
+        transform: translateY(24px);
+        transition:
+          opacity 0.8s ease,
+          transform 0.8s ease;
+      }
+      [data-reveal].visible {
+        opacity: 1;
+        transform: none;
+      }
+      [data-reveal-delay='1'] {
+        transition-delay: 0.08s;
+      }
+      [data-reveal-delay='2'] {
+        transition-delay: 0.16s;
+      }
+      [data-reveal-delay='3'] {
+        transition-delay: 0.24s;
+      }
+      [data-reveal-delay='4'] {
+        transition-delay: 0.32s;
+      }
+
+      @keyframes stamp-in {
+        0% {
+          opacity: 0;
+          transform: rotate(-20deg) scale(1.4);
+        }
+        60% {
+          opacity: 1;
+          transform: rotate(-8deg) scale(0.95);
+        }
+        100% {
+          opacity: 0.9;
+          transform: rotate(-12deg) scale(1);
+        }
+      }
+      .hero-stamp {
+        animation: stamp-in 1.1s 0.4s both;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ============================================================
+         CASE CAPTION RIBBON
+         ============================================================ -->
+    <div class="caption-ribbon">
+      <div class="caption-ribbon-inner">
+        <span>
+          <span class="caption-cite">Louisiana</span> v.
+          <span class="caption-cite">Callais</span>
+          <span class="caption-dot"></span>
+          No. 24-109
+          <span class="caption-dot"></span>
+          Decided April 29, 2026
+        </span>
+        <a href="/extras">&larr; Back to extras</a>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-stamp">
+          <span class="hero-stamp-main">VOID</span>
+          <span class="hero-stamp-sub">RACIAL GERRYMANDER</span>
+        </div>
+
+        <div class="hero-eyebrow" data-reveal>
+          Supreme Court of the United States &mdash; April Term 2026
+        </div>
+
+        <div class="hero-cite" data-reveal data-reveal-delay="1">
+          <span>Louisiana</span><span class="v">v.</span><span>Callais</span>
+        </div>
+
+        <h1 class="hero-title" data-reveal data-reveal-delay="2">
+          <span class="race">Race</span>
+          <span class="out">Out.</span>
+        </h1>
+
+        <div class="hero-meta" data-reveal data-reveal-delay="3">
+          <div class="hero-stat">
+            <div class="hero-stat-label">Vote</div>
+            <div class="hero-stat-value gold">6 &mdash; 3</div>
+            <div class="hero-stat-sub">Ideological split</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-label">Majority</div>
+            <div class="hero-stat-value">Alito, J.</div>
+            <div class="hero-stat-sub">
+              Roberts &middot; Thomas &middot; Gorsuch &middot; Kavanaugh
+              &middot; Barrett
+            </div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-label">Dissent</div>
+            <div class="hero-stat-value">Kagan, J.</div>
+            <div class="hero-stat-sub">Sotomayor &middot; Jackson</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-label">Holding</div>
+            <div class="hero-stat-value gold">Map struck.</div>
+            <div class="hero-stat-sub">14th Amendment violation</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         OPINION QUOTE
+         ============================================================ -->
+    <section class="opinion">
+      <div class="wrap">
+        <div class="opinion-grid">
+          <div class="opinion-byline" data-reveal>
+            <strong>Majority &mdash; Alito, J.</strong>
+            Slip op., at 24<br />
+            Apr. 29, 2026
+          </div>
+          <blockquote class="opinion-quote" data-reveal data-reveal-delay="1">
+            Allowing race to play any part in government decision-making
+            represents a <em>departure from the constitutional rule</em>
+            that applies in almost every other context.
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         THE THREE MAPS
+         ============================================================ -->
+    <section class="section maps-section" id="maps">
+      <div class="wrap">
+        <div class="section-num" data-reveal>I &middot; The exhibits</div>
+        <h2 class="section-title" data-reveal data-reveal-delay="1">
+          One state. <em>Three maps.</em>
+        </h2>
+        <p class="section-lede" data-reveal data-reveal-delay="2">
+          Louisiana redrew its congressional districts twice between 2022 and
+          2024. The Court took one of those maps off the wall and pinned it to
+          the bench as exhibit A in a racial-gerrymander case.
+        </p>
+
+        <div class="map-grid">
+          <!-- ====== MAP 1: 2022 baseline ====== -->
+          <article class="map-card" data-reveal>
+            <div class="map-tag">Predecessor</div>
+            <div class="map-header">
+              <div class="map-eyebrow">Map I &middot; 2022 baseline</div>
+              <div class="map-title">The first map</div>
+              <div class="map-subtitle">
+                One Black-majority district. Federal court found this violated
+                Section 2 of the Voting Rights Act in <em>Robinson v. Ardoin</em
+                >.
+              </div>
+            </div>
+
+            <div class="map-svg-wrap">
+              <div class="map-frame">
+                <img
+                  src="/maps/la-118th-congress.svg"
+                  alt="Louisiana congressional districts under the 2022 Robinson-era map (118th Congress). One majority-Black district: CD-2, the urban New Orleans corridor."
+                  loading="lazy"
+                />
+              </div>
+              <div class="map-attrib">
+                Map: <a
+                  href="https://commons.wikimedia.org/wiki/File:Louisiana_Congressional_Districts,_118th_Congress.svg"
+                  target="_blank"
+                  rel="noopener">Wikimedia / Twotwofourtysix</a
+                > &middot; CC BY-SA 4.0
+              </div>
+            </div>
+
+            <div class="map-stats">
+              <div>
+                <div class="map-stat-label">Maj-Black</div>
+                <div class="map-stat-value gold">1 / 6</div>
+              </div>
+              <div>
+                <div class="map-stat-label">Drawn</div>
+                <div class="map-stat-value">2022</div>
+              </div>
+              <div>
+                <div class="map-stat-label">Status</div>
+                <div class="map-stat-value">Replaced</div>
+              </div>
+            </div>
+
+            <div class="map-foot">
+              <strong>Federal Judge Shelly Dick</strong> ordered Louisiana to add
+              a second Black-majority district in June 2022. The legislature's first
+              map didn't comply.
+            </div>
+          </article>
+
+          <!-- ====== MAP 2: SB8 (2024 — STRUCK DOWN) ====== -->
+          <article class="map-card struck" data-reveal data-reveal-delay="1">
+            <div class="map-tag struck">Struck down</div>
+            <div class="map-header">
+              <div class="map-eyebrow">Map II &middot; SB8 (Act 2)</div>
+              <div class="map-title">The 250-mile backslash</div>
+              <div class="map-subtitle">
+                CD-6 redrawn from <em>Shreveport</em> diagonally through
+                <em>Alexandria</em> and <em>Lafayette</em> to
+                <em>Baton Rouge</em>. The Court called it a racial gerrymander.
+              </div>
+            </div>
+
+            <div class="map-svg-wrap">
+              <div class="map-frame">
+                <img
+                  src="/maps/la-119th-congress.svg"
+                  alt="Louisiana congressional districts under the SB8 map (119th Congress) — struck down April 29, 2026. Two majority-Black districts: CD-2 (urban) and CD-6, the diagonal Shreveport-to-Baton Rouge district."
+                  loading="lazy"
+                />
+              </div>
+              <div class="map-attrib">
+                Map: <a
+                  href="https://commons.wikimedia.org/wiki/File:Louisiana_Congressional_Districts,_119th_Congress.svg"
+                  target="_blank"
+                  rel="noopener">Wikimedia / Twotwofourtysix</a
+                > &middot; CC BY-SA 4.0
+              </div>
+            </div>
+
+            <div class="map-stats">
+              <div>
+                <div class="map-stat-label">Maj-Black</div>
+                <div class="map-stat-value flag">2 / 6</div>
+              </div>
+              <div>
+                <div class="map-stat-label">CD-6 Black VAP</div>
+                <div class="map-stat-value">54%</div>
+              </div>
+              <div>
+                <div class="map-stat-label">Status</div>
+                <div class="map-stat-value flag">Voided</div>
+              </div>
+            </div>
+
+            <div class="map-foot">
+              The legislature lifted CD-6 from <strong>23% Black VAP</strong>
+              to <strong>54%</strong> in a single session.
+              <strong>Cleo Fields (D)</strong> won the seat in November 2024. The
+              Court ruled today that the line-drawers leaned too hard on race.
+            </div>
+          </article>
+
+          <!-- ====== MAP 3: TBD ====== -->
+          <article class="map-card" data-reveal data-reveal-delay="2">
+            <div class="map-tag tbd">Pending</div>
+            <div class="map-header">
+              <div class="map-eyebrow">Map III &middot; Remand</div>
+              <div class="map-title">The replacement</div>
+              <div class="map-subtitle">
+                Back to Louisiana to redraw &mdash; or to a federal court if the
+                legislature stalls. Same problem, narrower path through the new
+                Section 2 tests.
+              </div>
+            </div>
+
+            <div class="map-svg-wrap">
+              <svg
+                viewBox="0 0 360 280"
+                aria-label="Louisiana redraw pending — placeholder map"
+              >
+                <defs>
+                  <pattern
+                    id="grid3"
+                    width="14"
+                    height="14"
+                    patternUnits="userSpaceOnUse"
+                  >
+                    <path
+                      d="M14 0 L0 0 L0 14"
+                      fill="none"
+                      stroke="rgba(212,168,42,0.06)"
+                      stroke-width="0.5"></path>
+                  </pattern>
+                  <pattern
+                    id="hatchgold"
+                    width="8"
+                    height="8"
+                    patternUnits="userSpaceOnUse"
+                    patternTransform="rotate(45)"
+                  >
+                    <line
+                      x1="0"
+                      y1="0"
+                      x2="0"
+                      y2="8"
+                      stroke="rgba(212,168,42,0.35)"
+                      stroke-width="1"></line>
+                  </pattern>
+                </defs>
+                <rect width="360" height="280" fill="url(#grid3)"></rect>
+
+                <!-- Single LA outline filled with hatch — TBD -->
+                <path
+                  d="
+                  M30 30 L320 30 L320 200 L300 220 L260 250 L180 260 L120 240 L60 215 L30 150 Z"
+                  fill="url(#hatchgold)"
+                  stroke="var(--gold)"
+                  stroke-width="2"
+                  stroke-dasharray="4 4"></path>
+
+                <!-- Question mark big -->
+                <text
+                  x="180"
+                  y="160"
+                  text-anchor="middle"
+                  font-family="Archivo Black"
+                  font-size="120"
+                  fill="rgba(212,168,42,0.6)">?</text
+                >
+
+                <!-- Caption -->
+                <text
+                  x="180"
+                  y="220"
+                  text-anchor="middle"
+                  font-family="JetBrains Mono"
+                  font-size="10"
+                  fill="var(--gold)"
+                  letter-spacing="2"
+                >
+                  AWAITING LEGISLATIVE ACTION
+                </text>
+              </svg>
+            </div>
+
+            <div class="map-stats">
+              <div>
+                <div class="map-stat-label">Maj-Black</div>
+                <div class="map-stat-value gold">TBD</div>
+              </div>
+              <div>
+                <div class="map-stat-label">Deadline</div>
+                <div class="map-stat-value">2026 cycle</div>
+              </div>
+              <div>
+                <div class="map-stat-label">Status</div>
+                <div class="map-stat-value gold">Remand</div>
+              </div>
+            </div>
+
+            <div class="map-foot">
+              The legislature gets first crack. If they punt, the
+              <strong>Western District of Louisiana</strong> draws the next one. Either
+              way: the Section 2 path just got four locks added to it.
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CD-6 ANATOMY — the snake detail
+         ============================================================ -->
+    <section class="section anatomy">
+      <div class="wrap">
+        <div class="anatomy-grid">
+          <div class="anatomy-svg" data-reveal>
+            <div class="map-frame">
+              <img
+                src="/maps/la-cd6-2025.svg"
+                alt="Louisiana's 6th Congressional District as drawn under SB8 — outlined in red running diagonally from Caddo Parish (Shreveport) southeast through Natchitoches, Alexandria, Opelousas, to East Baton Rouge Parish."
+                loading="lazy"
+              />
+            </div>
+            <div class="map-attrib">
+              Map: <a
+                href="https://commons.wikimedia.org/wiki/File:Louisiana%27s_6th_congressional_district_(since_2025).svg"
+                target="_blank"
+                rel="noopener">Wikimedia / Twotwofourtysix</a
+              > &middot; CC BY-SA 4.0
+            </div>
+          </div>
+
+          <div data-reveal data-reveal-delay="1">
+            <div class="anatomy-call">II &middot; Anatomy of a snake</div>
+            <h2>The line that <span>broke</span> the rule.</h2>
+            <p>
+              CD-6 used to be a Baton Rouge anchor. SB8 stretched it across
+              two-thirds of the state on a single mission: hit
+              <em>50 percent</em> Black VAP. The path was the giveaway.
+            </p>
+            <p>
+              You can&apos;t draw a 250-mile diagonal through three regions and
+              tell a federal court the route was about anything other than the
+              racial composition of the neighborhoods you grabbed on the way.
+            </p>
+
+            <ul>
+              <li>
+                <span class="num">Length</span>
+                <span class="body">
+                  <strong>~250 miles</strong> of contiguous district running northwest
+                  to southeast.
+                </span>
+              </li>
+              <li>
+                <span class="num">Black VAP</span>
+                <span class="body">
+                  Lifted from <strong>23%</strong> to <strong>54%</strong>
+                  in one redraw.
+                </span>
+              </li>
+              <li>
+                <span class="num">Trace</span>
+                <span class="body">
+                  Hugs the Red and Mississippi rivers, threading majority-Black
+                  neighborhoods through Caddo, Rapides, East Baton Rouge.
+                </span>
+              </li>
+              <li>
+                <span class="num">Holding</span>
+                <span class="body">
+                  The Court found the route was &quot;explicable only by
+                  reference to race.&quot;
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FOUR NEW SECTION 2 TESTS
+         ============================================================ -->
+    <section class="section tests">
+      <div class="wrap">
+        <div class="section-num" data-reveal>III &middot; The new locks</div>
+        <h2 class="section-title" data-reveal data-reveal-delay="1">
+          Four reasons the old <em>Gingles</em> test no longer fits.
+        </h2>
+        <p class="tests-intro" data-reveal data-reveal-delay="2">
+          The Court didn&apos;t kill Section 2. It said the 1986 Gingles
+          framework was built for a country that doesn&apos;t exist anymore, and
+          added four new considerations every plaintiff has to clear. Kagan
+          calls this killing the statute slowly. Either way, the door is much
+          smaller than it was yesterday.
+        </p>
+
+        <div class="tests-grid">
+          <div class="test-card" data-reveal>
+            <div class="test-num">01</div>
+            <div class="test-tag">Consideration I</div>
+            <h3 class="test-title">No more entrenched Jim Crow.</h3>
+            <p class="test-body">
+              The Southern political machinery that Section 2 was written to
+              break is gone. The majority says courts can no longer presume the
+              same baseline of state hostility that justified race-conscious
+              remedies in 1965 or 1986.
+            </p>
+          </div>
+
+          <div class="test-card" data-reveal data-reveal-delay="1">
+            <div class="test-num">02</div>
+            <div class="test-tag">Consideration II</div>
+            <h3 class="test-title">Race tracks party.</h3>
+            <p class="test-body">
+              In a polarized two-party system, race and partisan affiliation
+              correlate sharply. A &quot;racially polarized vote&quot; under
+              Gingles is now functionally indistinguishable from a partisan vote
+              &mdash; which the Court has already pulled out of federal
+              jurisdiction.
+            </p>
+          </div>
+
+          <div class="test-card" data-reveal data-reveal-delay="2">
+            <div class="test-num">03</div>
+            <div class="test-tag">Consideration III</div>
+            <h3 class="test-title">Rucho closed the partisan door.</h3>
+            <p class="test-body">
+              <em>Rucho v. Common Cause</em> (2019) made partisan gerrymandering nonjusticiable
+              in federal court. Using race as a proxy for party to get the same remedy
+              through the side door of Section 2 is, the majority holds, an end-run
+              around Rucho.
+            </p>
+          </div>
+
+          <div class="test-card" data-reveal data-reveal-delay="3">
+            <div class="test-num">04</div>
+            <div class="test-tag">Consideration IV</div>
+            <h3 class="test-title">The computers can do it now.</h3>
+            <p class="test-body">
+              Plaintiffs can run millions of race-neutral simulated maps and
+              show the state&apos;s plan is an outlier. That tool didn&apos;t
+              exist in 1986. Courts no longer need to take race-conscious
+              redraws on faith &mdash; and the majority says they
+              shouldn&apos;t.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DISSENT
+         ============================================================ -->
+    <section class="section dissent">
+      <div class="wrap">
+        <div class="section-num" data-reveal>IV &middot; The dissent</div>
+        <div class="dissent-grid">
+          <div class="dissent-byline" data-reveal data-reveal-delay="1">
+            <strong>Dissent &mdash; Kagan, J.</strong>
+            joined by Sotomayor &amp; Jackson<br />
+            Slip op., at 1
+          </div>
+          <blockquote class="dissent-quote" data-reveal data-reveal-delay="2">
+            The consequences are likely to be far-reaching and grave.
+            Today&apos;s decision renders Section 2 <em
+              >all but a dead letter</em
+            >.
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         2A ANGLE
+         ============================================================ -->
+    <section class="section angle">
+      <div class="wrap">
+        <div class="angle-stamp" data-reveal>The 2A angle</div>
+        <h2 class="section-title" data-reveal data-reveal-delay="1">
+          A redistricting case is also a <em>gun rights case.</em>
+        </h2>
+        <p class="section-lede" data-reveal data-reveal-delay="2">
+          The Fourteenth Amendment doesn&apos;t come in flavors. The same Equal
+          Protection muscle the Court just flexed against race-based map drawing
+          is the muscle that has to flex when state legislatures write gun laws
+          that target some Americans and not others.
+        </p>
+
+        <div class="angle-grid">
+          <div class="angle-body" data-reveal data-reveal-delay="3">
+            <p>
+              The colorblind Constitution isn&apos;t a slogan. It&apos;s a rule
+              the government has to live by, and it&apos;s the rule the
+              <em>Bruen</em>-era Second Amendment leans on every time a
+              prohibited-person statute or a may-issue regime gets dragged into
+              court.
+            </p>
+            <p>
+              <strong>The history is ugly.</strong> Slave codes, Black Codes, the
+              Mulford Act &mdash; American gun control was built, more than once,
+              as a tool of racial control. Courts have spent the last decade dragging
+              that history into the light because <em>Bruen</em> made history dispositive.
+            </p>
+            <p>
+              <strong>What Callais reinforces:</strong> when the government makes
+              a decision that turns on race &mdash; whether the decision is which
+              neighborhoods share a congressman or which citizens get a permit &mdash;
+              the Equal Protection Clause forces strict scrutiny and a colorblind
+              alternative.
+            </p>
+            <p>
+              That principle cuts every direction. It strikes down a gerrymander
+              that packed Black voters. It would strike down a gun-permitting
+              scheme that disqualifies Black applicants by proxy. And it pulls a
+              thread that runs straight back to
+              <em>Heller</em>, <em>Bruen</em>, and the &quot;text, history, and
+              tradition&quot; test that gun owners now rely on as our floor.
+            </p>
+
+            <div class="angle-pull">
+              The same Fourteenth Amendment that protects a redistricting
+              plaintiff protects <span>a gun owner.</span>
+            </div>
+
+            <p>
+              Read <em>Callais</em> as a doctrine memo, not a redistricting memo.
+              The Court is reaffirming, in stark terms, that government acts based
+              on race trigger the highest possible scrutiny &mdash; and that legislatures
+              don&apos;t get to wave away that scrutiny by claiming a remedial purpose.
+            </p>
+          </div>
+
+          <div data-reveal data-reveal-delay="4">
+            <div class="precedent-stack">
+              <div class="precedent">
+                <div class="precedent-cite">McDonald v. City of Chicago</div>
+                <div class="precedent-year">2010</div>
+                <div class="precedent-line">
+                  Incorporated the Second Amendment against the states through
+                  the Fourteenth. Same amendment Callais is fought over.
+                </div>
+              </div>
+              <div class="precedent">
+                <div class="precedent-cite">
+                  Students for Fair Admissions v. Harvard
+                </div>
+                <div class="precedent-year">2023</div>
+                <div class="precedent-line">
+                  Killed race-conscious admissions. Same colorblind
+                  Constitution; same Equal Protection clause; same six justices.
+                </div>
+              </div>
+              <div class="precedent">
+                <div class="precedent-cite">
+                  N.Y. State Rifle &amp; Pistol Ass&apos;n v. Bruen
+                </div>
+                <div class="precedent-year">2022</div>
+                <div class="precedent-line">
+                  Set the &quot;text, history, and tradition&quot; test for gun
+                  laws &mdash; the test that is now exposing the racial history
+                  of American firearm regulation.
+                </div>
+              </div>
+              <div class="precedent">
+                <div class="precedent-cite">Rucho v. Common Cause</div>
+                <div class="precedent-year">2019</div>
+                <div class="precedent-line">
+                  Held partisan gerrymandering claims aren&apos;t justiciable in
+                  federal court. Callais closes the racial end-run around Rucho.
+                </div>
+              </div>
+              <div class="precedent">
+                <div class="precedent-cite">District of Columbia v. Heller</div>
+                <div class="precedent-year">2008</div>
+                <div class="precedent-line">
+                  Recognized the individual right to keep and bear arms.
+                  Anchored in the same individual-rights framework that Callais
+                  reinforces.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHAT'S NEXT
+         ============================================================ -->
+    <section class="section next-section">
+      <div class="wrap">
+        <div class="section-num" data-reveal>V &middot; What happens next</div>
+        <h2 class="section-title" data-reveal data-reveal-delay="1">
+          Three clocks <em>start running.</em>
+        </h2>
+        <p class="section-lede" data-reveal data-reveal-delay="2">
+          Decided April 29. The remand starts immediately. The Louisiana
+          legislature gets the next move &mdash; and so does every state
+          carrying a similar map under fresh scrutiny.
+        </p>
+
+        <div class="next-grid">
+          <div class="next-card" data-reveal>
+            <div class="next-when">Now &mdash; Apr 29</div>
+            <div class="next-headline">
+              Remand to the Western District of Louisiana
+            </div>
+            <div class="next-body">
+              The three-judge panel that originally found CD-6 unconstitutional
+              gets the case back. They oversee the redraw and approve any
+              replacement plan the legislature files.
+            </div>
+          </div>
+          <div class="next-card" data-reveal data-reveal-delay="1">
+            <div class="next-when">Within weeks</div>
+            <div class="next-headline">
+              Louisiana legislature drafts a remedial map
+            </div>
+            <div class="next-body">
+              The state gets the first opportunity to draw a new plan that
+              satisfies both the Voting Rights Act and the new four-factor
+              constitutional ceiling. Cleo Fields&apos; CD-6 seat is the
+              variable.
+            </div>
+          </div>
+          <div class="next-card" data-reveal data-reveal-delay="2">
+            <div class="next-when">Before 2026 elections</div>
+            <div class="next-headline">A working map by qualifying</div>
+            <div class="next-body">
+              Louisiana qualifying for federal office runs in July. Either the
+              legislature delivers a court-approved map by then or the federal
+              panel imposes one in time for ballots to print.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         RIPPLE — other states
+         ============================================================ -->
+    <section class="section ripple">
+      <div class="wrap">
+        <div class="section-num" data-reveal>VI &middot; The ripple</div>
+        <h2 class="section-title" data-reveal data-reveal-delay="1">
+          Four states with similar maps <em>under fresh scrutiny.</em>
+        </h2>
+        <p class="section-lede" data-reveal data-reveal-delay="2">
+          The four-factor framework applies everywhere. These are the maps most
+          likely to land back at SCOTUS or in a remand court before the 2026
+          cycle closes.
+        </p>
+
+        <div class="ripple-grid">
+          <div class="ripple-cell" data-reveal>
+            <div class="ripple-state">AL</div>
+            <div class="ripple-tag">CD-2 redrew under Allen v. Milligan</div>
+            <div class="ripple-body">
+              Same procedural posture as Louisiana &mdash; a court-ordered
+              second Black-majority district. Now exposed to the new tests.
+            </div>
+          </div>
+          <div class="ripple-cell" data-reveal data-reveal-delay="1">
+            <div class="ripple-state">GA</div>
+            <div class="ripple-tag">CD-6 / Atlanta exurbs</div>
+            <div class="ripple-body">
+              Pending Section 2 challenges in the Northern District. The Callais
+              framework changes how plaintiffs have to plead them.
+            </div>
+          </div>
+          <div class="ripple-cell" data-reveal data-reveal-delay="2">
+            <div class="ripple-state">SC</div>
+            <div class="ripple-tag">CD-1 / Lowcountry</div>
+            <div class="ripple-body">
+              Already up to SCOTUS once. Returns to lower courts under a tighter
+              ceiling on race-conscious remedies.
+            </div>
+          </div>
+          <div class="ripple-cell" data-reveal data-reveal-delay="3">
+            <div class="ripple-state">NC</div>
+            <div class="ripple-tag">CD-6 / Triad</div>
+            <div class="ripple-body">
+              Long-running fight over Greensboro-area lines. The new framework
+              gives the state stronger footing on remand.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         COLOPHON / SOURCES
+         ============================================================ -->
+    <footer class="colophon">
+      <div class="wrap">
+        <div class="colophon-grid">
+          <div>
+            <h4>The case</h4>
+            <div class="colophon-cite">Louisiana v. Callais</div>
+            <p>
+              No. 24-109. Cert. granted June 28, 2024. Argued March 24, 2025.
+              Reargued October 15, 2025. Decided April 29, 2026.
+            </p>
+            <p>
+              On appeal from the U.S. District Court for the Western District of
+              Louisiana. Three-judge panel.
+            </p>
+            <div class="colophon-meta">
+              Bearing Freedom &middot; Built for the video<br />
+              Page generated April 29, 2026
+            </div>
+          </div>
+
+          <div>
+            <h4>Primary sources</h4>
+            <ul>
+              <li>
+                <a
+                  href="https://www.supremecourt.gov/opinions/slipopinion/25"
+                  target="_blank"
+                  rel="noopener">Slip opinion (supremecourt.gov)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://en.wikipedia.org/wiki/Louisiana_v._Callais"
+                  target="_blank"
+                  rel="noopener">Case summary &mdash; Wikipedia</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.naacpldf.org/case-issue/louisiana-v-callais/"
+                  target="_blank"
+                  rel="noopener">NAACP LDF case page</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Maps</h4>
+            <p>
+              Congressional district maps used on this page are by
+              <a
+                href="https://commons.wikimedia.org/wiki/User:Twotwofourtysix"
+                target="_blank"
+                rel="noopener">Twotwofourtysix</a
+              >, sourced from Wikimedia Commons and licensed under
+              <a
+                href="https://creativecommons.org/licenses/by-sa/4.0/"
+                target="_blank"
+                rel="noopener">CC BY-SA 4.0</a
+              >.
+            </p>
+            <ul>
+              <li><a href="https://commons.wikimedia.org/wiki/File:Louisiana_Congressional_Districts,_118th_Congress.svg" target="_blank" rel="noopener">118th Congress map (predecessor)</a></li>
+              <li><a href="https://commons.wikimedia.org/wiki/File:Louisiana_Congressional_Districts,_119th_Congress.svg" target="_blank" rel="noopener">119th Congress map (struck down)</a></li>
+              <li><a href="https://commons.wikimedia.org/wiki/File:Louisiana%27s_6th_congressional_district_(since_2025).svg" target="_blank" rel="noopener">CD-6 (the snake)</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Coverage</h4>
+            <ul>
+              <li>
+                <a
+                  href="https://www.cbsnews.com/news/supreme-court-louisiana-congressional-map-voting-rights-act/"
+                  target="_blank"
+                  rel="noopener"
+                  >CBS News &mdash; SCOTUS strikes Louisiana map</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.npr.org/2026/04/29/nx-s1-5754657/supreme-court-louisiana-redistricting"
+                  target="_blank"
+                  rel="noopener"
+                  >NPR &mdash; Court calls map an unconstitutional gerrymander</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.washingtonexaminer.com/news/supreme-court/4410470/supreme-court-strikes-down-race-based-redistricting-map-in-louisiana/"
+                  target="_blank"
+                  rel="noopener"
+                  >Washington Examiner &mdash; Race-based redistricting struck</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://veritenews.org/2024/09/16/louisiana-has-a-new-majority-black-congressional-district-heres-what-you-need-to-know/"
+                  target="_blank"
+                  rel="noopener"
+                  >Verite News &mdash; Background on the SB8 map</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script is:inline>
+      // Reveal-on-scroll
+      (function () {
+        const els = document.querySelectorAll('[data-reveal]');
+        if (!('IntersectionObserver' in window)) {
+          els.forEach((el) => el.classList.add('visible'));
+          return;
+        }
+        const io = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                io.unobserve(entry.target);
+              }
+            });
+          },
+          { rootMargin: '0px 0px -10% 0px', threshold: 0.06 },
+        );
+        els.forEach((el) => io.observe(el));
+      })();
+    </script>
+  </body>
+</html>
