@@ -1,0 +1,3175 @@
+---
+// Standalone page — self-contained styles, no global.css
+// Denver AR-15 Ban — DRMC § 38-130 — and U.S. v. Denver (filed 2026-05-05)
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Denver AR-15 Ban (DRMC § 38-130) — DOJ v. Denver | Bearing Freedom
+    </title>
+    <meta
+      name="description"
+      content="Denver's 37-year-old assault-weapon ban is now the target of a federal lawsuit. DRMC § 38-130, the Article XX home-rule fight, Robertson v. Denver, SB21-256, and U.S. v. Denver — filed 5 May 2026. The full case file."
+    />
+    <meta
+      property="og:title"
+      content="Denver AR-15 Ban — DOJ v. Denver | Bearing Freedom"
+    />
+    <meta
+      property="og:description"
+      content="DOJ sued Denver over its 1989 assault-weapon ban on May 5, 2026. Mayor Johnston: 'Hell no.' Full case file with the ordinance, Article XX, Robertson, SB21-256, and the federal complaint."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bearingfreedom.com/denverarban" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6WRV03TTZ"
+    ></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-Q6WRV03TTZ', {
+        send_page_view: true,
+        allow_google_signals: true,
+        allow_ad_personalization_signals: true,
+        cookie_flags: 'SameSite=None;Secure',
+        page_referrer: document.referrer,
+        screen_resolution: window.screen.width + 'x' + window.screen.height,
+      });
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700;800;900&family=Spectral:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <style is:global>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        /* Cold alpine night */
+        --bg: #0b1117;
+        --bg-2: #121d29;
+        --bg-3: #1a2735;
+        --panel: #1e2c3a;
+        --panel-soft: #243345;
+        --panel-up: #2c3f54;
+
+        /* Rules / borders */
+        --rule: #243345;
+        --rule-bright: #3a526a;
+        --rule-glow: rgba(122, 163, 200, 0.25);
+
+        /* Text */
+        --ink: #ecf1f7;
+        --ink-soft: #c8d3e0;
+        --ink-mid: #95a4b6;
+        --ink-faint: #5e6e80;
+        --ink-ghost: rgba(236, 241, 247, 0.06);
+
+        /* Accents */
+        --crimson: #d1232a;
+        --crimson-deep: #8e1117;
+        --crimson-glow: rgba(209, 35, 42, 0.45);
+        --crimson-soft: rgba(209, 35, 42, 0.12);
+        --crimson-tint: rgba(209, 35, 42, 0.04);
+
+        --gold: #d4a82a;
+        --gold-deep: #9a7a17;
+        --gold-soft: rgba(212, 168, 42, 0.14);
+        --gold-tint: rgba(212, 168, 42, 0.05);
+
+        --mountain: #3d4f63;
+        --mountain-back: #243345;
+        --snow: #ffffff;
+
+        /* Type */
+        --display: 'Big Shoulders Display', 'Impact', sans-serif;
+        --body: 'Spectral', Georgia, 'Times New Roman', serif;
+        --mono: 'Space Mono', 'Courier New', monospace;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        background: var(--bg);
+      }
+
+      body {
+        background: var(--bg);
+        color: var(--ink);
+        font-family: var(--body);
+        font-size: 17px;
+        line-height: 1.7;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        overflow-x: hidden;
+        background-image:
+          radial-gradient(
+            ellipse at top,
+            rgba(58, 82, 106, 0.12) 0%,
+            transparent 60%
+          ),
+          radial-gradient(
+            ellipse at 80% 30%,
+            rgba(209, 35, 42, 0.04) 0%,
+            transparent 50%
+          );
+        background-attachment: fixed;
+      }
+
+      /* Subtle film grain */
+      body::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        z-index: 1000;
+        opacity: 0.04;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.95' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+        mix-blend-mode: overlay;
+      }
+
+      a {
+        color: var(--ink);
+        text-decoration: underline;
+        text-decoration-color: var(--gold);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+        transition: color 0.15s ease;
+      }
+      a:hover {
+        color: var(--gold);
+      }
+
+      ::selection {
+        background: var(--crimson);
+        color: var(--snow);
+      }
+
+      /* ─── ALERT TICKER (Top) ─────────────────────────── */
+      .alert-strip {
+        background: var(--crimson-deep);
+        border-bottom: 1px solid var(--crimson);
+        position: relative;
+        overflow: hidden;
+      }
+      .alert-strip::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: repeating-linear-gradient(
+          90deg,
+          transparent 0,
+          transparent 2px,
+          rgba(255, 255, 255, 0.04) 2px,
+          rgba(255, 255, 255, 0.04) 3px
+        );
+        pointer-events: none;
+      }
+      .alert-row {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        padding: 9px 24px;
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--snow);
+        position: relative;
+        z-index: 1;
+      }
+      .alert-pulse {
+        display: inline-block;
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background: var(--snow);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+        animation: pulse 1.6s infinite;
+        flex-shrink: 0;
+      }
+      @keyframes pulse {
+        0% {
+          box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+        }
+        70% {
+          box-shadow: 0 0 0 14px rgba(255, 255, 255, 0);
+        }
+        100% {
+          box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+        }
+      }
+      .alert-text {
+        font-weight: 700;
+        flex: 1;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .alert-text strong {
+        color: var(--gold);
+        font-weight: 700;
+      }
+      .alert-stamp {
+        opacity: 0.85;
+        flex-shrink: 0;
+      }
+
+      /* ─── NAV ─────────────────────────── */
+      .topbar {
+        background: var(--bg-2);
+        border-bottom: 1px solid var(--rule);
+        padding: 14px 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        backdrop-filter: blur(8px);
+        background: rgba(11, 17, 23, 0.92);
+      }
+      .brand {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: 22px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--ink);
+        text-decoration: none;
+      }
+      .brand-mark {
+        color: var(--crimson);
+      }
+      .nav-meta {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.2em;
+        color: var(--ink-mid);
+        text-transform: uppercase;
+        display: flex;
+        gap: 14px;
+        align-items: center;
+      }
+      .nav-meta a {
+        color: var(--ink-mid);
+        text-decoration: none;
+      }
+      .nav-meta a:hover {
+        color: var(--gold);
+      }
+      .dot {
+        width: 4px;
+        height: 4px;
+        background: var(--ink-faint);
+        border-radius: 50%;
+      }
+
+      /* ─── HERO ─────────────────────────── */
+      .hero {
+        position: relative;
+        padding: 70px 24px 0;
+        overflow: hidden;
+        border-bottom: 1px solid var(--rule);
+      }
+      .hero-mountains {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 320px;
+        pointer-events: none;
+        opacity: 0.35;
+      }
+      .hero-mountains svg {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      .hero-inner {
+        max-width: 1280px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 2;
+      }
+      .hero-eyebrow {
+        font-family: var(--mono);
+        font-size: 12px;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: var(--crimson);
+        margin-bottom: 24px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .hero-eyebrow::before,
+      .hero-eyebrow::after {
+        content: '';
+        height: 1px;
+        background: var(--crimson);
+        flex: 1;
+        max-width: 60px;
+      }
+
+      .hero-headline {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: clamp(66px, 12vw, 180px);
+        line-height: 0.84;
+        letter-spacing: -0.025em;
+        text-transform: uppercase;
+        color: var(--ink);
+        margin-bottom: 22px;
+      }
+      .hero-headline .word {
+        display: block;
+      }
+      .hero-headline .word.ghost {
+        color: transparent;
+        -webkit-text-stroke: 1.5px var(--ink-faint);
+      }
+      .hero-headline .word.crimson {
+        color: var(--crimson);
+      }
+      .hero-headline .word.gold {
+        color: var(--gold);
+      }
+
+      .hero-deck {
+        font-family: var(--body);
+        font-size: clamp(18px, 1.6vw, 22px);
+        line-height: 1.55;
+        font-weight: 500;
+        color: var(--ink-soft);
+        max-width: 760px;
+        margin-bottom: 42px;
+        font-style: italic;
+      }
+      .hero-deck em {
+        color: var(--gold);
+        font-style: normal;
+        font-weight: 600;
+      }
+
+      .hero-counters {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+        border-top: 1px solid var(--rule-bright);
+        border-bottom: 1px solid var(--rule-bright);
+        margin: 0 0 60px;
+      }
+      .hero-counter {
+        padding: 26px 24px;
+        border-right: 1px solid var(--rule);
+        position: relative;
+      }
+      .hero-counter:last-child {
+        border-right: none;
+      }
+      .hero-counter-num {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: clamp(40px, 5vw, 68px);
+        line-height: 0.95;
+        color: var(--ink);
+        margin-bottom: 6px;
+        letter-spacing: -0.02em;
+      }
+      .hero-counter-num.crimson {
+        color: var(--crimson);
+      }
+      .hero-counter-num.gold {
+        color: var(--gold);
+      }
+      .hero-counter-label {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--ink-mid);
+      }
+      @media (max-width: 720px) {
+        .hero-counters {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .hero-counter {
+          border-right: 1px solid var(--rule);
+          border-bottom: 1px solid var(--rule);
+        }
+        .hero-counter:nth-child(2),
+        .hero-counter:last-child {
+          border-right: none;
+        }
+        .hero-counter:nth-last-child(-n + 2) {
+          border-bottom: none;
+        }
+      }
+
+      /* ─── SECTION SCAFFOLDING ─────────────────────────── */
+      section.chapter {
+        padding: 90px 24px;
+        border-bottom: 1px solid var(--rule);
+        position: relative;
+      }
+      section.chapter.alt {
+        background: var(--bg-2);
+      }
+      .chapter-inner {
+        max-width: 1180px;
+        margin: 0 auto;
+      }
+      .chapter-header {
+        display: flex;
+        align-items: baseline;
+        gap: 28px;
+        padding-bottom: 22px;
+        margin-bottom: 50px;
+        border-bottom: 1px solid var(--rule-bright);
+        flex-wrap: wrap;
+      }
+      .chapter-num {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: clamp(46px, 5.5vw, 72px);
+        line-height: 1;
+        color: transparent;
+        -webkit-text-stroke: 1.5px var(--gold);
+        letter-spacing: -0.02em;
+      }
+      .chapter-eyebrow {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.28em;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-bottom: 6px;
+      }
+      .chapter-title {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: clamp(34px, 4.5vw, 58px);
+        line-height: 0.96;
+        color: var(--ink);
+        text-transform: uppercase;
+        letter-spacing: -0.01em;
+        flex: 1;
+        min-width: 280px;
+      }
+
+      .chapter-lede {
+        font-family: var(--body);
+        font-size: 21px;
+        line-height: 1.6;
+        color: var(--ink-soft);
+        max-width: 820px;
+        font-weight: 500;
+        margin-bottom: 40px;
+      }
+      .chapter-lede em {
+        color: var(--gold);
+        font-style: normal;
+      }
+
+      p.body {
+        font-family: var(--body);
+        font-size: 17px;
+        line-height: 1.78;
+        color: var(--ink-soft);
+        max-width: 760px;
+        margin-bottom: 22px;
+      }
+      p.body strong {
+        color: var(--ink);
+        font-weight: 600;
+      }
+      p.body em {
+        color: var(--gold);
+        font-style: italic;
+      }
+
+      h3.sub {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 28px;
+        text-transform: uppercase;
+        letter-spacing: 0.01em;
+        color: var(--ink);
+        margin: 36px 0 18px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid var(--rule);
+      }
+      h3.sub::before {
+        content: '§';
+        color: var(--gold);
+        font-weight: 400;
+        margin-right: 10px;
+      }
+
+      /* ─── OPENING SALVO BLOCK ─────────────────────────── */
+      .salvo {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 80px 24px 90px;
+        border-bottom: 1px solid var(--rule);
+        position: relative;
+      }
+      .salvo::before {
+        content: '';
+        position: absolute;
+        top: 70px;
+        left: 24px;
+        width: 64px;
+        height: 4px;
+        background: var(--crimson);
+      }
+      .salvo-eyebrow {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: var(--crimson);
+        margin-bottom: 14px;
+        padding-top: 18px;
+      }
+      .salvo p {
+        font-family: var(--body);
+        font-size: 22px;
+        line-height: 1.55;
+        color: var(--ink);
+        margin-bottom: 24px;
+        font-weight: 400;
+      }
+      .salvo p:first-of-type::first-letter {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: 92px;
+        line-height: 0.85;
+        float: left;
+        margin: 6px 14px 0 0;
+        color: var(--crimson);
+      }
+      .salvo p strong {
+        color: var(--ink);
+        font-weight: 600;
+        background: linear-gradient(transparent 60%, var(--gold-soft) 60%);
+      }
+      .salvo p em {
+        color: var(--gold);
+        font-style: italic;
+      }
+
+      /* ─── DOCKET CAPTION (boxing-poster header) ─────────── */
+      .docket {
+        background: var(--bg-2);
+        border-top: 4px solid var(--crimson);
+        border-bottom: 4px solid var(--crimson);
+        padding: 50px 24px;
+      }
+      .docket-inner {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+      }
+      @media (max-width: 760px) {
+        .docket-inner {
+          grid-template-columns: 1fr;
+        }
+      }
+      .docket-side {
+        text-align: center;
+      }
+      .docket-label {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.28em;
+        text-transform: uppercase;
+        color: var(--ink-mid);
+        margin-bottom: 14px;
+      }
+      .docket-name {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: clamp(34px, 5vw, 64px);
+        line-height: 0.95;
+        text-transform: uppercase;
+        letter-spacing: -0.01em;
+        color: var(--ink);
+      }
+      .docket-name.crimson {
+        color: var(--crimson);
+      }
+      .docket-name.gold {
+        color: var(--gold);
+      }
+      .docket-tag {
+        font-family: var(--body);
+        font-size: 14px;
+        font-style: italic;
+        color: var(--ink-mid);
+        margin-top: 10px;
+      }
+      .docket-vs {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: clamp(30px, 4vw, 56px);
+        color: var(--gold);
+        text-transform: uppercase;
+        line-height: 1;
+        padding: 0 18px;
+        border-left: 1px solid var(--rule);
+        border-right: 1px solid var(--rule);
+      }
+      @media (max-width: 760px) {
+        .docket-vs {
+          border: none;
+          padding: 8px 0;
+        }
+      }
+      .docket-meta {
+        max-width: 1100px;
+        margin: 24px auto 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 22px;
+        justify-content: center;
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--ink-mid);
+      }
+      .docket-meta span strong {
+        color: var(--ink);
+        font-weight: 700;
+      }
+
+      /* ─── FACT GRID ─────────────────────────── */
+      .fact-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 0;
+        border: 1px solid var(--rule);
+        background: var(--panel);
+        margin-bottom: 36px;
+      }
+      .fact {
+        padding: 22px 24px;
+        border-right: 1px solid var(--rule);
+        border-bottom: 1px solid var(--rule);
+      }
+      .fact-label {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--ink-mid);
+        margin-bottom: 8px;
+      }
+      .fact-value {
+        font-family: var(--body);
+        font-weight: 600;
+        font-size: 17px;
+        color: var(--ink);
+        line-height: 1.4;
+      }
+      .fact-value small {
+        display: block;
+        font-weight: 400;
+        font-size: 13px;
+        color: var(--ink-mid);
+        margin-top: 4px;
+        font-style: italic;
+      }
+
+      /* ─── STATUTE / CODE BLOCK ─────────────────────── */
+      .statute {
+        background: linear-gradient(180deg, var(--bg-3), var(--bg-2));
+        border: 1px solid var(--rule-bright);
+        border-left: 4px solid var(--gold);
+        padding: 32px 28px;
+        margin: 32px 0;
+        font-family: var(--mono);
+        font-size: 14px;
+        line-height: 1.85;
+        color: var(--ink-soft);
+        position: relative;
+        overflow-x: auto;
+      }
+      .statute::before {
+        content: 'DRMC § 38-130';
+        position: absolute;
+        top: -1px;
+        right: 18px;
+        background: var(--gold);
+        color: var(--bg);
+        font-family: var(--mono);
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        padding: 4px 10px;
+        text-transform: uppercase;
+      }
+      .statute-line {
+        display: flex;
+        gap: 18px;
+      }
+      .statute-num {
+        color: var(--ink-faint);
+        font-size: 12px;
+        flex-shrink: 0;
+        width: 30px;
+        text-align: right;
+        user-select: none;
+      }
+      .statute-text {
+        flex: 1;
+      }
+      .statute-text b {
+        color: var(--gold);
+        font-weight: 700;
+      }
+      .statute-text .strike {
+        text-decoration: line-through;
+        text-decoration-color: var(--crimson);
+        color: var(--ink-faint);
+      }
+      .statute-text .marker {
+        background: var(--crimson-soft);
+        color: var(--ink);
+        padding: 0 4px;
+      }
+
+      /* ─── BAN / EXEMPT CARDS ───────────────────────────── */
+      .two-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        margin: 32px 0;
+      }
+      @media (max-width: 760px) {
+        .two-col {
+          grid-template-columns: 1fr;
+        }
+      }
+      .col-card {
+        background: var(--panel);
+        border: 1px solid var(--rule-bright);
+        padding: 28px 26px;
+      }
+      .col-card.crimson {
+        border-color: var(--crimson-deep);
+        box-shadow: inset 4px 0 0 var(--crimson);
+      }
+      .col-card.gold {
+        border-color: var(--gold-deep);
+        box-shadow: inset 4px 0 0 var(--gold);
+      }
+      .col-head {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 18px;
+        padding-bottom: 14px;
+        border-bottom: 1px solid var(--rule);
+      }
+      .col-head-num {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 1;
+        color: var(--crimson);
+      }
+      .col-card.gold .col-head-num {
+        color: var(--gold);
+      }
+      .col-head-text {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 22px;
+        text-transform: uppercase;
+        letter-spacing: 0.01em;
+        color: var(--ink);
+      }
+      .col-list {
+        list-style: none;
+        padding: 0;
+      }
+      .col-list li {
+        font-family: var(--body);
+        font-size: 16px;
+        line-height: 1.55;
+        color: var(--ink-soft);
+        padding: 12px 0 12px 28px;
+        border-bottom: 1px solid var(--rule);
+        position: relative;
+      }
+      .col-list li:last-child {
+        border-bottom: none;
+      }
+      .col-list li::before {
+        content: '×';
+        position: absolute;
+        left: 0;
+        top: 10px;
+        font-family: var(--mono);
+        font-weight: 700;
+        color: var(--crimson);
+        font-size: 18px;
+      }
+      .col-card.gold .col-list li::before {
+        content: '✓';
+        color: var(--gold);
+      }
+      .col-list li strong {
+        color: var(--ink);
+        font-weight: 600;
+      }
+      .col-list li small {
+        display: block;
+        margin-top: 4px;
+        font-size: 13px;
+        font-style: italic;
+        color: var(--ink-faint);
+      }
+
+      /* ─── PULL QUOTE ─────────────────────────── */
+      .pullquote {
+        position: relative;
+        max-width: 1000px;
+        margin: 60px auto;
+        padding: 60px 40px 60px 80px;
+        background: var(--bg-2);
+        border-left: 6px solid var(--crimson);
+      }
+      .pullquote::before {
+        content: '“';
+        position: absolute;
+        top: -20px;
+        left: 22px;
+        font-family: var(--display);
+        font-size: 180px;
+        line-height: 1;
+        color: var(--crimson);
+        opacity: 0.45;
+      }
+      .pullquote-text {
+        font-family: var(--body);
+        font-size: clamp(22px, 2.2vw, 32px);
+        line-height: 1.4;
+        font-style: italic;
+        color: var(--ink);
+        font-weight: 400;
+        margin-bottom: 22px;
+      }
+      .pullquote-text strong {
+        color: var(--gold);
+        font-weight: 600;
+        font-style: normal;
+      }
+      .pullquote-attr {
+        font-family: var(--mono);
+        font-size: 12px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--ink-mid);
+        padding-top: 16px;
+        border-top: 1px solid var(--rule);
+      }
+      .pullquote-attr strong {
+        color: var(--ink);
+        font-weight: 700;
+      }
+
+      /* ─── CONSTITUTION CARD ─────────────────────────── */
+      .const-card {
+        background: linear-gradient(180deg, var(--bg-3), var(--bg-2));
+        border: 1px solid var(--gold-deep);
+        position: relative;
+        padding: 46px 50px;
+        margin: 36px 0;
+      }
+      .const-card::before {
+        content: '';
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        right: 8px;
+        bottom: 8px;
+        border: 1px solid var(--gold-soft);
+        pointer-events: none;
+      }
+      .const-eyebrow {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.32em;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-bottom: 18px;
+      }
+      .const-text {
+        font-family: var(--body);
+        font-size: clamp(18px, 1.6vw, 22px);
+        line-height: 1.65;
+        color: var(--ink);
+        font-style: italic;
+        font-weight: 400;
+      }
+      .const-cite {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        color: var(--ink-mid);
+        text-transform: uppercase;
+        margin-top: 22px;
+        padding-top: 16px;
+        border-top: 1px dashed var(--rule);
+      }
+
+      /* ─── CITIES MAP ─────────────────────────── */
+      .cities {
+        margin: 40px 0;
+        background: var(--panel);
+        border: 1px solid var(--rule-bright);
+        padding: 36px;
+      }
+      .cities-head {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 22px;
+        text-transform: uppercase;
+        margin-bottom: 6px;
+      }
+      .cities-sub {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        color: var(--ink-mid);
+        text-transform: uppercase;
+        margin-bottom: 28px;
+      }
+      .cities-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 18px;
+      }
+      .city {
+        padding: 18px 20px;
+        background: var(--bg-2);
+        border-left: 3px solid var(--rule-bright);
+        position: relative;
+      }
+      .city.holding {
+        border-left-color: var(--gold);
+      }
+      .city.fallen {
+        border-left-color: var(--crimson);
+      }
+      .city.partial {
+        border-left-color: #c9913e;
+      }
+      .city-name {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 22px;
+        color: var(--ink);
+        text-transform: uppercase;
+        letter-spacing: 0.01em;
+        margin-bottom: 4px;
+      }
+      .city-status {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--ink-mid);
+        margin-bottom: 8px;
+      }
+      .city.holding .city-status {
+        color: var(--gold);
+      }
+      .city.fallen .city-status {
+        color: var(--crimson);
+      }
+      .city.partial .city-status {
+        color: #c9913e;
+      }
+      .city-detail {
+        font-family: var(--body);
+        font-size: 14px;
+        line-height: 1.5;
+        color: var(--ink-soft);
+        font-style: italic;
+      }
+
+      /* ─── TIMELINE ─────────────────────────── */
+      .timeline {
+        position: relative;
+        padding: 20px 0 30px;
+        margin: 30px 0;
+      }
+      .timeline::before {
+        content: '';
+        position: absolute;
+        left: 110px;
+        top: 0;
+        bottom: 0;
+        width: 1px;
+        background: linear-gradient(
+          180deg,
+          transparent,
+          var(--rule-bright) 8%,
+          var(--rule-bright) 92%,
+          transparent
+        );
+      }
+      @media (max-width: 720px) {
+        .timeline::before {
+          left: 8px;
+        }
+      }
+      .tl-row {
+        display: grid;
+        grid-template-columns: 110px 24px 1fr;
+        align-items: start;
+        gap: 0;
+        padding: 14px 0;
+      }
+      @media (max-width: 720px) {
+        .tl-row {
+          grid-template-columns: 1fr;
+          gap: 4px;
+          padding: 16px 0 16px 28px;
+          position: relative;
+        }
+      }
+      .tl-date {
+        font-family: var(--mono);
+        font-size: 12px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--ink-mid);
+        text-align: right;
+        padding-right: 24px;
+        padding-top: 4px;
+      }
+      @media (max-width: 720px) {
+        .tl-date {
+          text-align: left;
+          padding: 0;
+          color: var(--gold);
+        }
+      }
+      .tl-marker {
+        width: 24px;
+        position: relative;
+        height: 100%;
+      }
+      .tl-marker::after {
+        content: '';
+        position: absolute;
+        top: 8px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 11px;
+        height: 11px;
+        background: var(--bg);
+        border: 2px solid var(--gold);
+        border-radius: 50%;
+      }
+      .tl-row.crimson .tl-marker::after {
+        border-color: var(--crimson);
+        background: var(--crimson);
+        box-shadow: 0 0 12px var(--crimson-glow);
+      }
+      .tl-row.major .tl-marker::after {
+        background: var(--gold);
+      }
+      @media (max-width: 720px) {
+        .tl-marker {
+          position: absolute;
+          left: 0;
+          top: 16px;
+          width: 16px;
+          height: 16px;
+        }
+        .tl-marker::after {
+          top: 0;
+          left: 0;
+          transform: none;
+          width: 10px;
+          height: 10px;
+        }
+      }
+      .tl-body {
+        padding-left: 22px;
+      }
+      @media (max-width: 720px) {
+        .tl-body {
+          padding-left: 0;
+        }
+      }
+      .tl-title {
+        font-family: var(--display);
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--ink);
+        text-transform: uppercase;
+        letter-spacing: 0.01em;
+        margin-bottom: 4px;
+      }
+      .tl-row.major .tl-title {
+        font-size: 21px;
+      }
+      .tl-row.crimson .tl-title {
+        color: var(--crimson);
+      }
+      .tl-detail {
+        font-family: var(--body);
+        font-size: 15px;
+        line-height: 1.55;
+        color: var(--ink-soft);
+        max-width: 720px;
+      }
+      .tl-detail em {
+        color: var(--gold);
+        font-style: italic;
+      }
+      .tl-detail strong {
+        color: var(--ink);
+        font-weight: 600;
+      }
+
+      /* ─── STAT TILES ─────────────────────────── */
+      .stat-row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 0;
+        margin: 36px 0;
+        background: var(--bg-3);
+        border: 1px solid var(--rule-bright);
+      }
+      .stat {
+        padding: 32px 26px;
+        border-right: 1px solid var(--rule);
+        position: relative;
+      }
+      .stat:last-child {
+        border-right: none;
+      }
+      .stat-num {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: clamp(48px, 5.5vw, 76px);
+        line-height: 0.92;
+        color: var(--gold);
+        margin-bottom: 8px;
+        letter-spacing: -0.02em;
+      }
+      .stat-num.crimson {
+        color: var(--crimson);
+      }
+      .stat-label {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--ink-mid);
+        margin-bottom: 8px;
+      }
+      .stat-detail {
+        font-family: var(--body);
+        font-size: 14px;
+        line-height: 1.5;
+        font-style: italic;
+        color: var(--ink-soft);
+      }
+
+      /* ─── PARTIES BLOCK ─────────────────────────── */
+      .parties {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        margin: 32px 0;
+        border: 1px solid var(--rule-bright);
+      }
+      @media (max-width: 760px) {
+        .parties {
+          grid-template-columns: 1fr;
+        }
+      }
+      .party {
+        padding: 32px 30px;
+        background: var(--panel);
+      }
+      .party.plaintiff {
+        background: linear-gradient(180deg, var(--bg-2), var(--panel));
+        border-right: 1px solid var(--rule-bright);
+      }
+      .party.defendant {
+        background: linear-gradient(180deg, var(--panel), var(--bg-2));
+      }
+      @media (max-width: 760px) {
+        .party.plaintiff {
+          border-right: none;
+          border-bottom: 1px solid var(--rule-bright);
+        }
+      }
+      .party-role {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.28em;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+      }
+      .party.plaintiff .party-role {
+        color: var(--crimson);
+      }
+      .party.defendant .party-role {
+        color: var(--gold);
+      }
+      .party-name {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: 30px;
+        color: var(--ink);
+        text-transform: uppercase;
+        line-height: 0.96;
+        margin-bottom: 18px;
+      }
+      .party-list {
+        list-style: none;
+        padding: 0;
+      }
+      .party-list li {
+        font-family: var(--body);
+        font-size: 15px;
+        line-height: 1.5;
+        padding: 10px 0;
+        border-bottom: 1px solid var(--rule);
+        color: var(--ink-soft);
+      }
+      .party-list li:last-child {
+        border-bottom: none;
+      }
+      .party-list li strong {
+        color: var(--ink);
+        font-weight: 600;
+        font-family: var(--display);
+        font-size: 16px;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 2px;
+      }
+      .party-list li em {
+        color: var(--ink-mid);
+        font-size: 13px;
+        font-style: italic;
+      }
+
+      /* ─── FOOTNOTES / SOURCES ──────────────────────── */
+      .sources {
+        background: var(--bg);
+        padding: 80px 24px 100px;
+      }
+      .sources-inner {
+        max-width: 1180px;
+        margin: 0 auto;
+      }
+      .sources-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 32px;
+        margin-top: 36px;
+      }
+      .source-group {
+        border-top: 2px solid var(--gold);
+        padding-top: 18px;
+      }
+      .source-group h4 {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+        margin-bottom: 14px;
+        color: var(--ink);
+      }
+      .source-group ul {
+        list-style: none;
+        padding: 0;
+      }
+      .source-group ul li {
+        font-family: var(--mono);
+        font-size: 12px;
+        line-height: 1.65;
+        margin-bottom: 8px;
+        color: var(--ink-mid);
+      }
+      .source-group ul li a {
+        color: var(--ink-soft);
+        text-decoration: none;
+        border-bottom: 1px dotted var(--rule-bright);
+      }
+      .source-group ul li a:hover {
+        color: var(--gold);
+        border-bottom-color: var(--gold);
+      }
+
+      /* ─── FOOTER ─────────────────────────── */
+      footer.bf {
+        background: var(--bg-2);
+        border-top: 1px solid var(--rule-bright);
+        padding: 40px 24px;
+        text-align: center;
+      }
+      .footer-mark {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: 20px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--ink);
+        margin-bottom: 8px;
+      }
+      .footer-meta {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--ink-faint);
+      }
+      .footer-meta a {
+        color: var(--ink-mid);
+        text-decoration: none;
+      }
+      .footer-meta a:hover {
+        color: var(--gold);
+      }
+
+      /* ─── REVEAL ON SCROLL ─────────────────────────── */
+      [data-reveal] {
+        opacity: 0;
+        transform: translateY(18px);
+        transition:
+          opacity 0.65s ease,
+          transform 0.65s ease;
+      }
+      [data-reveal].in {
+        opacity: 1;
+        transform: none;
+      }
+
+      @media (max-width: 600px) {
+        section.chapter {
+          padding: 60px 18px;
+        }
+        .hero {
+          padding: 50px 18px 0;
+        }
+        .alert-row {
+          padding: 8px 14px;
+          gap: 10px;
+          font-size: 10px;
+          letter-spacing: 0.12em;
+        }
+        .salvo {
+          padding: 60px 18px;
+        }
+        .salvo p {
+          font-size: 18px;
+        }
+        .pullquote {
+          padding: 50px 24px 40px 28px;
+        }
+        .pullquote::before {
+          font-size: 120px;
+          left: 8px;
+        }
+        .const-card {
+          padding: 32px 24px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- BREAKING ALERT                                        -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <div class="alert-strip" role="alert">
+      <div class="alert-row">
+        <span class="alert-pulse"></span>
+        <span class="alert-text">
+          BREAKING — <strong>UNITED STATES v. CITY AND COUNTY OF DENVER</strong> —
+          Filed in U.S. District Court, District of Colorado, this morning. DOJ Civil
+          Rights Division seeks injunction and consent decree striking DRMC § 38-130.
+          Mayor Johnston: <em>"Hell no."</em>
+        </span>
+        <span class="alert-stamp">Day 01 · 5 May 2026</span>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- TOPBAR                                                -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <nav class="topbar">
+      <a href="/" class="brand">
+        Bearing<span class="brand-mark">·</span>Freedom
+      </a>
+      <div class="nav-meta">
+        <a href="/extras">All extras</a>
+        <span class="dot"></span>
+        <span>File no. 26-01</span>
+      </div>
+    </nav>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- HERO                                                  -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section class="hero">
+      <!-- Front Range topographic silhouette -->
+      <div class="hero-mountains" aria-hidden="true">
+        <svg viewBox="0 0 1200 320" preserveAspectRatio="none">
+          <!-- Back range -->
+          <path
+            d="M0 240 L60 200 L130 220 L200 170 L280 210 L360 160 L440 200 L520 150 L610 200 L690 160 L770 210 L850 170 L930 215 L1010 175 L1100 220 L1200 180 L1200 320 L0 320 Z"
+            fill="#243345"
+            opacity="0.55"></path>
+          <!-- Mid range -->
+          <path
+            d="M0 280 L80 230 L160 260 L240 210 L320 250 L420 190 L510 240 L600 200 L700 250 L790 215 L880 260 L970 220 L1060 250 L1140 230 L1200 260 L1200 320 L0 320 Z"
+            fill="#3d4f63"
+            opacity="0.7"></path>
+          <!-- Front range -->
+          <path
+            d="M0 310 L70 280 L140 295 L220 260 L300 285 L390 240 L470 280 L560 250 L660 285 L750 265 L840 290 L930 270 L1020 290 L1100 275 L1200 290 L1200 320 L0 320 Z"
+            fill="#1a2735"></path>
+        </svg>
+      </div>
+
+      <div class="hero-inner">
+        <div class="hero-eyebrow">
+          Mile High dispatch · DRMC § 38-130 · Bearing Freedom
+        </div>
+
+        <h1 class="hero-headline">
+          <span class="word">Mile High</span>
+          <span class="word crimson">Stand-off</span>
+          <span class="word ghost">Day 01</span>
+        </h1>
+
+        <p class="hero-deck">
+          For thirty-seven years Denver has banned the AR-15 within its city
+          limits. For thirty-seven years it has been the only Colorado city to
+          pull off that trick — protected by Article XX of the state
+          constitution and a 1994 Colorado Supreme Court ruling that left the
+          ordinance standing. <em
+            >This morning the United States Department of Justice sued to end
+            it.</em
+          >
+        </p>
+
+        <div class="hero-counters">
+          <div class="hero-counter">
+            <div class="hero-counter-num gold">37</div>
+            <div class="hero-counter-label">Years in force</div>
+          </div>
+          <div class="hero-counter">
+            <div class="hero-counter-num">1989</div>
+            <div class="hero-counter-label">DRMC § 38-130 enacted</div>
+          </div>
+          <div class="hero-counter">
+            <div class="hero-counter-num">2,135K</div>
+            <div class="hero-counter-label">Metro residents</div>
+          </div>
+          <div class="hero-counter">
+            <div class="hero-counter-num crimson">5/5/26</div>
+            <div class="hero-counter-label">DOJ files in D. Colo.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- OPENING SALVO                                         -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <div class="salvo">
+      <div class="salvo-eyebrow">The take · Bearing Freedom</div>
+      <p>
+        They sued Denver. <strong>Good.</strong> The 16th Street Mall has spent a
+        generation pretending that the most popular rifle in America is so dangerous
+        that the city has to wave home rule at it like a crucifix. Federico Peña signed
+        Ordinance 669 in <strong>October 1989</strong>, six months after a
+        MAC-11 rampage in Littleton, and not a single shooting in the
+        thirty-seven years since has been prevented by the language his council
+        voted into the books. Denver's own police chief admits as much: of
+        roughly <strong>2,100 firearms</strong> recovered by the department last year,
+        fewer than forty were the so-called assault weapons § 38-130 was written to
+        keep off the streets.
+      </p>
+      <p>
+        The reason Denver gets to do this — when the rest of Colorado either
+        couldn't or wouldn't until 2021 — is <em>Article XX</em>, the
+        constitutional grant of home-rule authority that the Colorado Supreme
+        Court used to bless the ordinance in <em>Robertson v. Denver</em> back in
+        1994. That was 28 years before <em>NYSRPA v. Bruen</em>. Twenty-eight
+        years before <em>Rahimi</em>. Eighteen years before McDonald
+        incorporated the Second Amendment against the states at all. The
+        precedent is a fossil. The DOJ is handing it to the federal courts so
+        someone can finally check whether it still walks.
+      </p>
+      <p>
+        What follows is the case file. The statute itself, line by line. The
+        constitutional argument the city has hidden behind for three decades.
+        The 1994 decision, the 2021 preemption repeal that opened the floodgates
+        for Boulder, Boulder County, Louisville and Superior to copy the
+        playbook, and the federal complaint <strong>filed this morning</strong>
+        in the District of Colorado. Read the facts. Make your own call.
+      </p>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- DOCKET CAPTION                                        -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <div class="docket">
+      <div class="docket-inner">
+        <div class="docket-side">
+          <div class="docket-label">Plaintiff</div>
+          <div class="docket-name crimson">United States</div>
+          <div class="docket-tag">DOJ Civil Rights Division</div>
+        </div>
+        <div class="docket-vs">v.</div>
+        <div class="docket-side">
+          <div class="docket-label">Defendant</div>
+          <div class="docket-name gold">Denver</div>
+          <div class="docket-tag">City &amp; County · Denver Police Dept.</div>
+        </div>
+      </div>
+      <div class="docket-meta">
+        <span><strong>Court:</strong> U.S. District Court, D. Colorado</span>
+        <span><strong>Filed:</strong> 5 May 2026</span>
+        <span><strong>Statute hook:</strong> 34 U.S.C. § 12601</span>
+        <span><strong>Constitutional claim:</strong> 2A, applied via 14A</span>
+        <span><strong>Relief:</strong> Injunction · Consent decree</span>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- CHAPTER 01 — THE ORDINANCE                            -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section class="chapter">
+      <div class="chapter-inner" data-reveal>
+        <div class="chapter-header">
+          <span class="chapter-num">01</span>
+          <div style="flex:1; min-width: 280px;">
+            <div class="chapter-eyebrow">The ordinance</div>
+            <h2 class="chapter-title">
+              Denver Revised Municipal Code § 38-130
+            </h2>
+          </div>
+        </div>
+
+        <p class="chapter-lede">
+          Title II, Chapter 38, Article IV, Division 2 — <em
+            >Weapons and Missiles</em
+          >. Passed by Denver City Council on a 9–4 vote in October 1989, signed
+          by Mayor Federico Peña, and effective on
+          <em>14 November 1989</em>. The ordinance has been amended once
+          materially since: in <em>January 2018</em> to add bump stocks. It has never
+          been repealed.
+        </p>
+
+        <div class="fact-grid">
+          <div class="fact">
+            <div class="fact-label">Enacting law</div>
+            <div class="fact-value">
+              Council Ord. No. 669
+              <small>October 1989</small>
+            </div>
+          </div>
+          <div class="fact">
+            <div class="fact-label">Effective</div>
+            <div class="fact-value">
+              14 November 1989
+              <small>37 years in force</small>
+            </div>
+          </div>
+          <div class="fact">
+            <div class="fact-label">Council vote</div>
+            <div class="fact-value">
+              9 — 4
+              <small>Yea: includes Cathy Reynolds</small>
+            </div>
+          </div>
+          <div class="fact">
+            <div class="fact-label">Signed by</div>
+            <div class="fact-value">
+              Mayor Federico Peña
+              <small>41st Mayor of Denver, 1983–1991</small>
+            </div>
+          </div>
+          <div class="fact">
+            <div class="fact-label">Recommended by</div>
+            <div class="fact-value">
+              Chief Aristedes Zavaras
+              <small>Denver Police Department</small>
+            </div>
+          </div>
+          <div class="fact">
+            <div class="fact-label">Last material amendment</div>
+            <div class="fact-value">
+              22 January 2018
+              <small>Bump-stock prohibition added</small>
+            </div>
+          </div>
+          <div class="fact">
+            <div class="fact-label">Penalty range</div>
+            <div class="fact-value">
+              $100–$999 fine · up to 180 days
+              <small>Bump stock: 10-day mandatory minimum</small>
+            </div>
+          </div>
+          <div class="fact">
+            <div class="fact-label">Enforcement venue</div>
+            <div class="fact-value">
+              Denver Co. Municipal Court
+              <small>Not state-classified misdemeanor</small>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="sub">The legislative finding (the city's own words)</h3>
+
+        <div class="statute" aria-label="DRMC § 38-130 legislative finding">
+          <div class="statute-line">
+            <div class="statute-num">a)</div>
+            <div class="statute-text">
+              The City Council finds that <b
+                >"the use of assault weapons poses a threat to the health,
+                safety, and security of all citizens of the City and County of
+                Denver"</b
+              > and that such weapons <b
+                >"are capable both of a rapid rate of fire as well as of a
+                capacity to fire an inordinately large number of rounds without
+                reloading and are designed primarily for military or
+                antipersonnel use."</b
+              >
+            </div>
+          </div>
+        </div>
+
+        <p class="body">
+          Two pieces of legislative bait-and-switch are baked into that
+          paragraph. First, <strong>"rapid rate of fire"</strong> — a phrase that
+          does no work unless you intend it to mean <em>any</em> rifle that cycles
+          a round per trigger pull, which describes more than half of rifles sold
+          in America. Second, <strong
+            >"designed primarily for military or antipersonnel use"</strong
+          > — a finding the city makes for itself, by ordinance, without testimony
+          from a single firearms designer or military procurement officer in the legislative
+          record. The Stoner platform was drawn up for the civilian market in 1958.
+          Eugene Stoner did not work for the Pentagon. He worked for ArmaLite. Denver
+          wrote what suited Denver.
+        </p>
+
+        <h3 class="sub">What § 38-130 actually bans</h3>
+
+        <div class="two-col">
+          <div class="col-card crimson">
+            <div class="col-head">
+              <div class="col-head-num">×</div>
+              <div class="col-head-text">Prohibited</div>
+            </div>
+            <ul class="col-list">
+              <li>
+                <strong>Semiautomatic centerfire rifle</strong> with a detachable
+                magazine that holds <em>more than 15 rounds</em>.
+                <small>Catches every factory AR-15 and AK-pattern rifle.</small>
+              </li>
+              <li>
+                <strong>Semiautomatic pistol</strong> with a detachable magazine that
+                holds <em>more than 15 rounds</em>.
+                <small>
+                  Glock 17, Glock 19 with extended mag, full-size M&amp;P, CZ-75
+                  — implicated.
+                </small>
+              </li>
+              <li>
+                <strong>Semiautomatic shotgun</strong> with a folding stock
+                <em>and/or</em> a magazine over <em>6 rounds</em>.
+                <small>Saiga 12, KSG, Mossberg 590M, Vepr-12.</small>
+              </li>
+              <li>
+                <strong>Any firearm modified</strong> to operate as one of the above,
+                plus parts intended to convert a firearm into an "assault weapon."
+              </li>
+              <li>
+                <strong>Bump stocks</strong> — added 22 January 2018, before the federal
+                rule took effect.
+              </li>
+              <li>
+                <strong
+                  >Carry, store, keep, manufacture, sell, or possess</strong
+                >
+                — the verbs cover almost every conceivable touch of a covered firearm
+                inside city limits.
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-card gold">
+            <div class="col-head">
+              <div class="col-head-num">✓</div>
+              <div class="col-head-text">Exempted</div>
+            </div>
+            <ul class="col-list">
+              <li>
+                <strong>Law enforcement</strong> on duty — federal, state, or local.
+              </li>
+              <li>
+                <strong>Active military</strong> in the lawful course of service.
+              </li>
+              <li>
+                <strong>Licensed security guards</strong> within the scope of employment.
+              </li>
+              <li>
+                <strong>Movie and theatrical props</strong> — the Hollywood exception.
+              </li>
+              <li>
+                <strong>Nonresidents transporting</strong> firearms through the city
+                without "undue delay."
+                <small>
+                  No definition of "undue." Practical effect: drive faster.
+                </small>
+              </li>
+              <li>
+                <strong>Pre-1989 grandfather</strong> — owners who lawfully possessed
+                the firearm before 14 November 1989
+                <em>and</em> registered it with DPD under the permitting system. Permits
+                are confidential by ordinance.
+              </li>
+              <li>
+                <strong>Excluded categories:</strong> bolt-action, lever-action, slide-action,
+                single-shot or multiple-barrel firearms; pre-1954 semiautos; rimfire
+                tube-magazine firearms.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="body">
+          The grandfather clause is the part nobody talks about. It exists. It
+          is on the books. But the registration window closed essentially the
+          day the ordinance took effect, and the permit registry is confidential
+          under municipal code, which means even <em>asking</em>
+          how many grandfathered owners exist runs into a privacy wall the city itself
+          built. The practical effect is a population frozen on 14 November 1989 with
+          no path to add to it.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- CHAPTER 02 — ARTICLE XX                               -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section class="chapter alt">
+      <div class="chapter-inner" data-reveal>
+        <div class="chapter-header">
+          <span class="chapter-num">02</span>
+          <div style="flex:1; min-width: 280px;">
+            <div class="chapter-eyebrow">The shield</div>
+            <h2 class="chapter-title">
+              Article XX &amp; the Home-Rule Carve-Out
+            </h2>
+          </div>
+        </div>
+
+        <p class="chapter-lede">
+          Every conversation about Denver's gun laws collapses into one
+          question: <em
+            >how did this survive 18 years of statewide preemption?</em
+          >
+          The answer is one provision of the Colorado Constitution, ratified in 1902,
+          that nobody outside the state bar quotes correctly.
+        </p>
+
+        <div class="const-card">
+          <div class="const-eyebrow">
+            Colo. Const. Art. XX § 6 — adopted 1902
+          </div>
+          <p class="const-text">
+            "Such charter and the ordinances made pursuant thereto in such
+            matters shall <strong style="color: var(--gold)"
+              >supersede within the territorial limits</strong
+            > of said city or town any law of the state in conflict therewith. <em
+              >Such charter and the ordinances made pursuant thereto shall
+              extend to all its local and municipal matters.</em
+            >"
+          </p>
+          <div class="const-cite">
+            Verbatim from the Colorado Constitution · home-rule grant · Denver
+            designated home-rule city by the same article.
+          </div>
+        </div>
+
+        <p class="body">
+          The Colorado Supreme Court has carved firearms regulation into three
+          buckets. <strong>Local concern</strong> — home-rule city wins.
+          <strong>State concern</strong> — state wins. <strong
+            >Mixed concern</strong
+          > — both can legislate so long as they do not directly conflict. The court
+          ruled in <em>Robertson</em> that Denver's assault-weapon ordinance fell
+          into the <strong>mixed</strong>
+          category. The state had not preempted it in 1989, so it stood. When the
+          legislature finally tried to preempt in 2003 — codified at C.R.S. § 29-11.7-103
+          — Denver sued. Denver won. The 1989 ordinance continued in force.
+        </p>
+
+        <p class="body">
+          From <strong>2003 to 2021</strong>, no other Colorado city could enact
+          what Denver had. Boulder tried in 2018 and got struck down by the
+          Boulder County District Court in <em>March 2021</em> — ten days before the
+          King Soopers shooting, in which a man bought a Ruger AR-556 pistol six days
+          before murdering ten people in a grocery store. The
+          <em>same week</em> a state court invalidated Boulder's ordinance, someone
+          who could not have legally bought that pistol the prior week murdered ten
+          people with it. The legislature took the hint. SB21-256 dropped within sixty
+          days.
+        </p>
+
+        <h3 class="sub">The 2003 carve-out, in plain English</h3>
+
+        <p class="body">
+          <strong>What state law said:</strong> A local government "shall not enact
+          an ordinance, regulation, or other law that prohibits the sale, purchase,
+          or possession of a firearm that a person may lawfully sell, purchase, or
+          possess under state or federal law." That is a statewide preemption clause,
+          full stop. <strong>What the Denver carve-out said:</strong> Article XX is
+          in the <em>constitution</em>, and a statute can't override the
+          constitution. Denver's pre-existing ordinance was protected by the
+          home-rule grant, not by any dispensation from the legislature. The
+          Denver District Court agreed. The Colorado Supreme Court left that
+          result undisturbed. The ordinance kept running.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- CHAPTER 03 — ROBERTSON                                -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section class="chapter">
+      <div class="chapter-inner" data-reveal>
+        <div class="chapter-header">
+          <span class="chapter-num">03</span>
+          <div style="flex:1; min-width: 280px;">
+            <div class="chapter-eyebrow">The 1994 ruling</div>
+            <h2 class="chapter-title">
+              Robertson v. City and County of Denver
+            </h2>
+          </div>
+        </div>
+
+        <p class="chapter-lede">
+          Decided 2 May 1994. Cited as <em>874 P.2d 325 (Colo. 1994)</em>.
+          Opinion by Chief Justice Luis D. Rovira. The case Denver has waved at
+          every challenger for thirty-two years. Plaintiff David Kopel — yes,
+          <em>that</em> Kopel — did not lose all of it. He took out the worst part.
+          But the spine survived.
+        </p>
+
+        <div class="fact-grid">
+          <div class="fact">
+            <div class="fact-label">Citation</div>
+            <div class="fact-value">
+              874 P.2d 325 (Colo. 1994)
+              <small>Case 93SA91 · En banc</small>
+            </div>
+          </div>
+          <div class="fact">
+            <div class="fact-label">Decided</div>
+            <div class="fact-value">
+              2 May 1994
+              <small>Opinion: Chief Justice Rovira</small>
+            </div>
+          </div>
+          <div class="fact">
+            <div class="fact-label">Plaintiffs</div>
+            <div class="fact-value">
+              Robertson · Deatherage · Hecht
+              <small>and David Jewell d/b/a Scotties Guns &amp; Militaria</small
+              >
+            </div>
+          </div>
+          <div class="fact">
+            <div class="fact-label">Plaintiffs' counsel (incl.)</div>
+            <div class="fact-value">
+              David B. Kopel
+              <small>Independence Institute</small>
+            </div>
+          </div>
+          <div class="fact">
+            <div class="fact-label">Trial court below</div>
+            <div class="fact-value">
+              Denver District Court
+              <small>Held § 38-130 unconstitutional · reversed</small>
+            </div>
+          </div>
+          <div class="fact">
+            <div class="fact-label">Holding</div>
+            <div class="fact-value">
+              Ordinance largely upheld
+              <small>One subsection struck for vagueness</small>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="sub">What the court actually held</h3>
+
+        <p class="body">
+          <strong>Affirmed:</strong> § 38-130(b)(1)(c) — the "assault pistol" subsection
+          that defined banned pistols by their <em>design ancestry</em>
+          (i.e., pistols "designed from" certain ancestor military firearms) —
+          <strong>void for vagueness</strong>. The court reasoned that the
+          provision required a person "to learn not only what guns their pistol
+          was designed from, but also . . . the design history of the ancestor
+          guns." That is, the ordinance asked a normal person to be a firearms
+          historian to avoid criminal liability. It did not pass.
+        </p>
+
+        <p class="body">
+          <strong>Reversed:</strong> the trial court's holding that § 38-130 as a
+          whole was unconstitutional. The Colorado Supreme Court held the ordinance
+          did <em>not</em> violate Article II § 13 (the state right-to-bear-arms clause),
+          was <em>not</em> impermissibly overbroad, and was within the city's police
+          power. <strong>Result:</strong> the feature-based prongs — magazine capacity,
+          folding stock, semiauto shotgun — survived.
+        </p>
+
+        <p class="body">
+          The opinion was decided <strong
+            >fourteen years before
+            <em>Heller</em></strong
+          >, sixteen years before <em>McDonald</em>
+          incorporated the Second Amendment against the states, and
+          <strong>twenty-eight years before <em>Bruen</em></strong> demolished interest-balancing
+          in favor of text-and-history. <em>Robertson</em>
+          is doctrinally a fossil. It has not been overruled by a Colorado court because
+          no Colorado court has had to decide whether the federal Second Amendment,
+          applied through the Fourteenth, blows it apart. That is precisely the question
+          the DOJ has now teed up.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- CHAPTER 04 — SB21-256 + COPYCATS                      -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section class="chapter alt">
+      <div class="chapter-inner" data-reveal>
+        <div class="chapter-header">
+          <span class="chapter-num">04</span>
+          <div style="flex:1; min-width: 280px;">
+            <div class="chapter-eyebrow">The dam breaks</div>
+            <h2 class="chapter-title">SB21-256 and the Cities That Followed</h2>
+          </div>
+        </div>
+
+        <p class="chapter-lede">
+          <em>"Local Regulation of Firearms."</em> Senate Third Reading 19–15. House
+          Third Reading 39–24. Signed by Governor Jared Polis on
+          <em>19 June 2021</em>. Colorado became the first state in the country
+          to broadly repeal firearm preemption. Five home-rule cities and one
+          county tried to copy what Denver had been doing since 1989.
+        </p>
+
+        <div class="fact-grid">
+          <div class="fact">
+            <div class="fact-label">Bill</div>
+            <div class="fact-value">
+              SB21-256 — Local Regulation of Firearms
+              <small
+                >Sponsors: Sens. Fenberg, Moreno · Reps. Daugherty, Hooton</small
+              >
+            </div>
+          </div>
+          <div class="fact">
+            <div class="fact-label">Senate vote</div>
+            <div class="fact-value">
+              19 — 15
+              <small>Third reading · 18 May 2021</small>
+            </div>
+          </div>
+          <div class="fact">
+            <div class="fact-label">House vote</div>
+            <div class="fact-value">
+              39 — 24
+              <small>Third reading · 3 June 2021</small>
+            </div>
+          </div>
+          <div class="fact">
+            <div class="fact-label">Signed</div>
+            <div class="fact-value">
+              19 June 2021
+              <small>Gov. Jared Polis · effective same day</small>
+            </div>
+          </div>
+        </div>
+
+        <p class="body">
+          The bill replaced C.R.S. § 29-11.7-103 with language that allowed
+          local governments to enact firearm restrictions <em
+            >more restrictive than</em
+          > state law, but not less. It also empowered them to ban concealed carry
+          on government property and college campuses. Polis signed it ten weeks after
+          King Soopers. The political reaction was immediate.
+        </p>
+
+        <div class="cities">
+          <div class="cities-head">The new copycats</div>
+          <div class="cities-sub">
+            Status as of May 2026 — federal litigation status indicated
+          </div>
+          <div class="cities-grid">
+            <div class="city holding">
+              <div class="city-name">Denver</div>
+              <div class="city-status">In force · 1989</div>
+              <div class="city-detail">
+                The original. Survived Robertson, the 2003 preemption statute,
+                and Bruen. Now the named target of the DOJ's federal lawsuit.
+              </div>
+            </div>
+            <div class="city partial">
+              <div class="city-name">Boulder</div>
+              <div class="city-status">Partially enjoined</div>
+              <div class="city-detail">
+                Re-passed AW ban June 2022 after the 2018 version was struck.
+                Sale/transfer prohibitions enjoined; possession provisions
+                partially enforceable per Judge Wang's July 2025 order.
+              </div>
+            </div>
+            <div class="city partial">
+              <div class="city-name">Boulder County</div>
+              <div class="city-status">Enjoined since Aug 2022</div>
+              <div class="city-detail">
+                Ordinance 2022-5 stayed by Judge Sweeney citing Bruen, eight
+                weeks after enactment. Rapid-fire trigger activator portion
+                still enforced.
+              </div>
+            </div>
+            <div class="city partial">
+              <div class="city-name">Louisville</div>
+              <div class="city-status">In litigation</div>
+              <div class="city-detail">
+                Ord. 1820 (June 2022). Subject to the consolidated federal case
+                that survived partial dismissal in 2025.
+              </div>
+            </div>
+            <div class="city fallen">
+              <div class="city-name">Superior</div>
+              <div class="city-status">TRO June 2022</div>
+              <div class="city-detail">
+                Judge Moore issued a temporary restraining order eighteen days
+                after Town Ordinance O-9 took effect. Never enforced.
+              </div>
+            </div>
+            <div class="city fallen">
+              <div class="city-name">Lafayette · Edgewater</div>
+              <div class="city-status">Scaled back</div>
+              <div class="city-detail">
+                Both cities advanced gun-control packages in August 2022.
+                Edgewater dropped most of it; only the open-carry provision
+                survived.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="body">
+          Read the table closely. <strong
+            >Every single copycat is in court.</strong
+          >
+          The two that drew TROs collapsed within months. The three that are still
+          standing are doing so because federal judges are picking apart their ordinances
+          piece by piece — sale here, possession there. Only Denver, the original,
+          has been allowed to operate without a federal injunction. The DOJ is no
+          longer willing to grant that exception.
+        </p>
+
+        <h3 class="sub">The statewide attempts that didn't make it</h3>
+
+        <div class="two-col">
+          <div class="col-card">
+            <div class="col-head">
+              <div class="col-head-num" style="color: var(--ink-mid)">↯</div>
+              <div class="col-head-text">HB23-1230</div>
+            </div>
+            <ul class="col-list" style="--bullet:'·'">
+              <li style="border-left:none">
+                Statewide assault-weapon ban introduced 2023.
+                <strong>Died in committee.</strong>
+              </li>
+            </ul>
+          </div>
+          <div class="col-card">
+            <div class="col-head">
+              <div class="col-head-num" style="color: var(--ink-mid)">↯</div>
+              <div class="col-head-text">HB24-1292</div>
+            </div>
+            <ul class="col-list">
+              <li style="border-left:none">
+                Passed Colorado House <strong>35–27</strong>
+                <em>(first time any AW ban cleared a Colorado chamber)</em>.
+                Died in Senate. Civil penalty would have been $250K first
+                violation, $500K each thereafter.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="body">
+          Then came <strong>SB25-003</strong>. Signed by Gov. Polis on
+          <em>10 April 2025</em>. The legislature finally found a workaround:
+          ban manufacture, distribution, sale, transfer and purchase of covered
+          semiauto rifles, shotguns and gas-operated pistols statewide
+          <em>unless</em> the buyer obtained a Colorado Parks &amp; Wildlife "Firearms
+          Safety Course Eligibility Card." Sale prohibition takes effect <strong
+            >1 August 2026</strong
+          >. It's not a ban. It's a permit. That distinction will matter when
+          the federal courts read it next to the Denver ordinance.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- CHAPTER 05 — TIMELINE                                 -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section class="chapter">
+      <div class="chapter-inner" data-reveal>
+        <div class="chapter-header">
+          <span class="chapter-num">05</span>
+          <div style="flex:1; min-width: 280px;">
+            <div class="chapter-eyebrow">Chronology</div>
+            <h2 class="chapter-title">
+              A Hundred-and-Twenty-Four-Year Timeline
+            </h2>
+          </div>
+        </div>
+
+        <p class="chapter-lede">
+          From the constitutional grant of home-rule authority to a federal
+          complaint in the District of Colorado. Every load-bearing date from
+          <em>1902 to today</em>.
+        </p>
+
+        <div class="timeline" role="list">
+          <div class="tl-row major">
+            <div class="tl-date">1902</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">Article XX ratified</div>
+              <div class="tl-detail">
+                Colorado constitutional amendment establishes Denver as a
+                home-rule city. Grants charter and ordinances <strong
+                  >"the power to supersede"</strong
+                > conflicting state law within the territorial limits.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">Mar 1989</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">MAC-11 rampage in Littleton</div>
+              <div class="tl-detail">
+                The precipitating event for Denver's ordinance — a south-suburb
+                shooting that gave the council political cover to act.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row major">
+            <div class="tl-date">Oct 1989</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">
+                Denver Council passes Ordinance 669, 9–4
+              </div>
+              <div class="tl-detail">
+                Recommended by Chief Aristedes Zavaras. Mayor Federico Peña
+                signs. Effective <em>14 November 1989</em>.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">1990</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">Robertson lawsuit filed</div>
+              <div class="tl-detail">
+                Lawrence Robertson, Sharon Deatherage, Jeffrey Hecht, and David
+                Jewell d/b/a Scotties Guns and Militaria sue in Denver District
+                Court for declaratory judgment.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row major">
+            <div class="tl-date">2 May 1994</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">
+                Robertson v. Denver decided · 874 P.2d 325
+              </div>
+              <div class="tl-detail">
+                Colorado Supreme Court reverses trial court and largely
+                <strong>upholds</strong> § 38-130. Strikes only § 38-130(b)(1)(c)
+                — the "assault pistol" subsection — for vagueness.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">2002</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">
+                Trinen v. Denver — open and vehicle carry
+              </div>
+              <div class="tl-detail">
+                Colo. Court of Appeals upholds DRMC §§ 38-117 and 38-118 under
+                Denver's home-rule authority.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">18 Mar 2003</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">
+                Statewide preemption (C.R.S. § 29-11.7-103)
+              </div>
+              <div class="tl-detail">
+                Colorado preempts local firearm regulation. Denver immediately
+                sues. Denver wins on Article XX grounds. Denver's ordinance
+                continues in force as the <em>only</em> Colorado AW ban for eighteen
+                years.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">20 Mar 2013</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">HB13-1224 — statewide 15-round mag cap</div>
+              <div class="tl-detail">
+                Gov. Hickenlooper signs. Effective 1 July 2013. Sponsor: Sen.
+                Rhonda Fields. Upheld 7–0 by Colorado Supreme Court in 2020.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">22 Jan 2018</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">Bump stocks added to § 38-130</div>
+              <div class="tl-detail">
+                Sponsored by Councilman Rafael Espinoza. Councilman Kevin
+                Flynn's amendment to grandfather 16–20-round magazines kept in
+                the home failed 6–6.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">May 2018</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">Boulder enacts AW ban (post-Parkland)</div>
+              <div class="tl-detail">
+                The first city after Denver to try. Lasts three years before a
+                state court strikes it.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">12 Mar 2021</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">
+                Boulder County District Court strikes Boulder ban
+              </div>
+              <div class="tl-detail">
+                Judge Andrew Hartman holds the 2018 ordinance preempted by then-
+                existing state law.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row crimson">
+            <div class="tl-date">22 Mar 2021</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">King Soopers shooting · Boulder</div>
+              <div class="tl-detail">
+                Ten dead. Weapon: Ruger AR-556 pistol. Purchased six days
+                earlier. Ten days after Boulder's ban was invalidated.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row major">
+            <div class="tl-date">19 Jun 2021</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">SB21-256 signed — preemption repealed</div>
+              <div class="tl-detail">
+                Gov. Polis signs. Colorado becomes the first state to broadly
+                allow tougher local gun laws. The dam breaks.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">23 Jun 2022</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">NYSRPA v. Bruen decided</div>
+              <div class="tl-detail">
+                597 U.S. 1. Establishes text-and-history framework, ending
+                interest-balancing.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">Jun–Aug 2022</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">
+                Five Colorado jurisdictions copy Denver
+              </div>
+              <div class="tl-detail">
+                Boulder, Boulder County, Louisville, Superior, Lafayette,
+                Edgewater each pass gun-control ordinances. Most are enjoined
+                within months.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">25 Jun 2022</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">Superior TRO — Judge Raymond P. Moore</div>
+              <div class="tl-detail">
+                Federal court blocks enforcement of Town of Superior Ordinance
+                O-9 within 18 days of effective date.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">30 Aug 2022</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">
+                Boulder County TRO — Judge Charlotte Sweeney
+              </div>
+              <div class="tl-detail">
+                AW and large-capacity-magazine portions of Ordinance 2022-5
+                stayed citing Bruen.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">21 Jun 2024</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">United States v. Rahimi · 8–1</div>
+              <div class="tl-detail">
+                Roberts, C.J. Clarifies Bruen requires "historical analogue,"
+                not "historical twin." Cuts both ways.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">14 Apr 2024</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">HB24-1292 passes Colorado House 35–27</div>
+              <div class="tl-detail">
+                First time any statewide AW ban clears a chamber in Colorado.
+                Dies in Senate.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">10 Apr 2025</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">SB25-003 signed</div>
+              <div class="tl-detail">
+                Sale prohibition effective 1 August 2026. Permit-by-CPW carve-
+                out included. Class 2 misdemeanor first violation; class 6
+                felony for subsequent.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">17 Jul 2025</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">Wang ruling — partial dismissal</div>
+              <div class="tl-detail">
+                U.S. District Judge Nina Y. Wang lets parts of the Boulder /
+                Boulder County / Louisville / Superior cases proceed against
+                future-possession bans and large-capacity magazines.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">28 Apr 2026</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">DOJ demand letter</div>
+              <div class="tl-detail">
+                Acting AG Todd Blanche and AAG Harmeet Dhillon serve demand on
+                Mayor Mike Johnston, Gov. Polis, and AG Phil Weiser.
+                Five-business-day deadline to agree to consent decree.
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row crimson">
+            <div class="tl-date">4 May 2026</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">Johnston rejects: "Hell no"</div>
+              <div class="tl-detail">
+                Mayor, City Attorney Miko Brown, and Police Chief Ron Thomas
+                hold press conference on the steps of the City and County
+                Building. Brown calls demand <em
+                  >"baseless, irresponsible, and a clear overreach."</em
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row crimson">
+            <div class="tl-date">5 May 2026</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">
+                United States v. Denver filed · D. Colo.
+              </div>
+              <div class="tl-detail">
+                DOJ Civil Rights Division files complaint. Statutory hook:
+                <strong>34 U.S.C. § 12601</strong>. Asks for declaratory
+                judgment, injunction, and a consent decree permanently barring
+                enforcement of § 38-130. <em>Day 01.</em>
+              </div>
+            </div>
+          </div>
+
+          <div class="tl-row">
+            <div class="tl-date">1 Aug 2026</div>
+            <div class="tl-marker"></div>
+            <div class="tl-body">
+              <div class="tl-title">SB25-003 sale prohibition effective</div>
+              <div class="tl-detail">
+                Statewide. The first hard test of how a "permit-required"
+                framework reads next to a categorical ban.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- CHAPTER 06 — THE LAWSUIT                              -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section class="chapter alt">
+      <div class="chapter-inner" data-reveal>
+        <div class="chapter-header">
+          <span class="chapter-num">06</span>
+          <div style="flex:1; min-width: 280px;">
+            <div class="chapter-eyebrow">Day 01</div>
+            <h2 class="chapter-title">
+              United States v. City and County of Denver
+            </h2>
+          </div>
+        </div>
+
+        <p class="chapter-lede">
+          Filed this morning in the U.S. District Court for the District of
+          Colorado. Lead counsel: <em>Acting Chief Barry Arrington</em> of the DOJ
+          Civil Rights Division's Second Amendment Section. The first federal-court
+          challenge to § 38-130 since <em>Bruen</em>. The first time the United
+          States itself has been the named plaintiff against a home-rule city's
+          AW ban.
+        </p>
+
+        <div class="parties">
+          <div class="party plaintiff">
+            <div class="party-role">Plaintiff</div>
+            <div class="party-name">United States of America</div>
+            <ul class="party-list">
+              <li>
+                <strong>Acting Attorney General</strong>
+                <em>Todd Blanche</em>
+              </li>
+              <li>
+                <strong>Asst. AG, Civil Rights Division</strong>
+                <em>Harmeet Dhillon</em>
+              </li>
+              <li>
+                <strong>Acting Chief, 2A Section</strong>
+                <em>Barry Arrington</em>
+              </li>
+              <li>
+                <strong>Statutory hook</strong>
+                <em>34 U.S.C. § 12601 — pattern-or-practice</em>
+              </li>
+            </ul>
+          </div>
+          <div class="party defendant">
+            <div class="party-role">Defendant</div>
+            <div class="party-name">Denver</div>
+            <ul class="party-list">
+              <li>
+                <strong>City &amp; County of Denver</strong>
+                <em>Home-rule municipality, Article XX</em>
+              </li>
+              <li>
+                <strong>Denver Police Department</strong>
+                <em>Chief Ron Thomas</em>
+              </li>
+              <li>
+                <strong>Mayor</strong>
+                <em>Mike Johnston</em>
+              </li>
+              <li>
+                <strong>City Attorney</strong>
+                <em>Miko Brown</em>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="sub">The legal theory</h3>
+
+        <p class="body">
+          The complaint is built on a <em>"common use"</em> argument straight out
+          of <em>Heller</em> and refined by <em>Bruen</em>: AR-15-style rifles
+          are <strong
+            >"in common use for lawful purposes by law-abiding citizens,"</strong
+          > and a categorical ban therefore fails Second Amendment scrutiny. The DOJ
+          pleads an estimated <strong>16 million owners</strong> nationally. Denver
+          is alleged to have engaged in a "pattern or practice" of unconstitutional
+          conduct in enforcing § 38-130 since 1989.
+        </p>
+
+        <p class="body">
+          The use of <strong>34 U.S.C. § 12601</strong> as the statutory hook is unusual
+          and will be the first thing Denver attacks. The statute was enacted in the
+          wake of the Rodney King beating to give the Justice Department civil-rights
+          authority to sue police departments engaged in patterns of misconduct. Denver's
+          response is already drafted: this is not a misconduct statute, this is a
+          constitutional- interpretation dispute, and § 12601 doesn't reach it. <em
+            >That</em
+          >
+          fight will eat the first six months of the case.
+        </p>
+
+        <h3 class="sub">Relief sought</h3>
+
+        <ul
+          class="col-list"
+          style="background: var(--panel); border: 1px solid var(--rule-bright); padding: 22px 28px;"
+        >
+          <li>
+            <strong>Declaratory judgment</strong> that DRMC § 38-130 violates the
+            Second Amendment, applied through the Fourteenth.
+          </li>
+          <li>
+            <strong>Injunction</strong> permanently barring Denver from enforcing
+            the ordinance.
+          </li>
+          <li>
+            <strong>Consent decree</strong> requiring Denver to refrain from enacting
+            any future assault-weapon prohibition.
+            <small>
+              Asks for the same kind of binding agreement DOJ used to extract
+              from police departments in the Obama and first-term Trump
+              administrations — applied this time to a constitutional dispute.
+            </small>
+          </li>
+          <li>
+            <strong>Costs and attorney's fees</strong> under § 12601 and 42 U.S.C.
+            § 1988.
+          </li>
+        </ul>
+
+        <h3 class="sub">The state of Colorado has its own demand</h3>
+
+        <p class="body">
+          The DOJ's 28 April demand letter went to three addressees: Mayor
+          Johnston, Governor Polis, and Attorney General <strong
+            >Phil Weiser</strong
+          >. Weiser's response, delivered yesterday, refused to repeal
+          HB13-1224's 15-round magazine cap, citing the 2020 Colorado Supreme
+          Court ruling that upheld it 7–0. <em>That</em> demand is parked. The DOJ
+          has not, as of filing, sued the state. The next move is the state's.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- PULL QUOTE — JOHNSTON                                 -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <div class="pullquote" data-reveal>
+      <div class="pullquote-text">
+        "We're here today to let them know that our answer is
+        <strong>hell no</strong>. No, we will not roll back a common-sense
+        policy that has kept weapons of war off of these city streets for
+        thirty-seven years."
+      </div>
+      <div class="pullquote-attr">
+        <strong>Mayor Mike Johnston</strong> · Steps of the City and County Building
+        · 4 May 2026
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- CHAPTER 07 — STATS                                    -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section class="chapter">
+      <div class="chapter-inner" data-reveal>
+        <div class="chapter-header">
+          <span class="chapter-num">07</span>
+          <div style="flex:1; min-width: 280px;">
+            <div class="chapter-eyebrow">The numbers</div>
+            <h2 class="chapter-title">
+              37 Years. 18 Arrests. 0 Mass Shootings Prevented.
+            </h2>
+          </div>
+        </div>
+
+        <p class="chapter-lede">
+          The City Attorney's Office's own records, obtained by <em
+            >5280 Magazine</em
+          >. The Denver Police Department's own enforcement totals, recited by
+          Chief Ron Thomas at yesterday's press conference. Hold the ordinance
+          up against its own data and ask what it is doing.
+        </p>
+
+        <div class="stat-row">
+          <div class="stat">
+            <div class="stat-num gold">18</div>
+            <div class="stat-label">Total arrests · § 38-130</div>
+            <div class="stat-detail">
+              Denver City Attorney's Office records, January 2017 — present. 23
+              charges across those arrests.
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">2,100</div>
+            <div class="stat-label">Firearms recovered · DPD 2025</div>
+            <div class="stat-detail">
+              Police Chief Ron Thomas, 4 May 2026 press conference. Total
+              firearm seizures by Denver Police, calendar year 2025.
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat-num crimson">&lt;40</div>
+            <div class="stat-label">Of those · "assault style"</div>
+            <div class="stat-detail">
+              Fewer than two percent. The category § 38-130 was written to keep
+              off Denver's streets accounts for less than one in fifty of what
+              police actually take off them.
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">0</div>
+            <div class="stat-label">Mass shootings prevented</div>
+            <div class="stat-detail">
+              Per <em>5280</em>'s investigation: <strong
+                >"very little, if any, data exists"</strong
+              > on whether the ordinance has measurably reduced gun violence in Denver.
+            </div>
+          </div>
+        </div>
+
+        <p class="body">
+          The 18-arrest figure is the part that should embarrass everyone who
+          has spent thirty-seven years insisting that the AR-15 inside Denver
+          city limits is an existential threat. Eighteen arrests in
+          <em>nine years</em>. Two arrests per year. That isn't a city
+          tolerating a small nuisance. That is a city <em>not enforcing</em>
+          its own statute except when the firearm shows up incidental to some other
+          crime. The function of § 38-130, in its operating reality, is a stacking
+          charge. It is not a public-safety measure. It is a sentencing enhancement.
+        </p>
+
+        <p class="body">
+          The Chief's own number — fewer than 40 of 2,100 — is volunteered as
+          evidence the ordinance is <em>working</em>. Read it the other
+          direction. Thousands of firearms were used in Denver crimes last year.
+          The category that the ordinance exists to suppress comprised less than
+          two percent of the haul. The other ninety-eight percent was something
+          else. If Denver's gun problem is real, and it is, § 38-130 is not the
+          part of the city code addressing it.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- CHAPTER 08 — THE STAKES                               -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section class="chapter alt">
+      <div class="chapter-inner" data-reveal>
+        <div class="chapter-header">
+          <span class="chapter-num">08</span>
+          <div style="flex:1; min-width: 280px;">
+            <div class="chapter-eyebrow">What's in play</div>
+            <h2 class="chapter-title">Three Outcomes. Pick One.</h2>
+          </div>
+        </div>
+
+        <p class="chapter-lede">
+          The case will be decided in the District of Colorado, almost certainly
+          appealed to the <em>Tenth Circuit</em>, and quite plausibly heard by
+          the <em>U.S. Supreme Court</em> within twenty-four months. Three roads lead
+          out.
+        </p>
+
+        <div
+          class="two-col"
+          style="grid-template-columns: 1fr 1fr 1fr; gap: 18px;"
+        >
+          <div class="col-card gold">
+            <div class="col-head">
+              <div class="col-head-num gold" style="color: var(--gold)">A</div>
+              <div class="col-head-text">Denver wins on procedure</div>
+            </div>
+            <p class="body" style="font-size: 15px;">
+              The District Court rules that <strong>34 U.S.C. § 12601</strong>
+              does not authorize a "pattern or practice" suit over constitutional
+              interpretation. Case dismissed for failure to state a claim. DOJ appeals.
+              The Tenth Circuit decides whether § 12601 reaches a city ordinance at
+              all. <em>This is the most likely first-round outcome.</em>
+            </p>
+          </div>
+          <div class="col-card crimson">
+            <div class="col-head">
+              <div class="col-head-num" style="color: var(--crimson)">B</div>
+              <div class="col-head-text">DOJ wins on the merits</div>
+            </div>
+            <p class="body" style="font-size: 15px;">
+              Court reaches the merits and applies <em>Bruen</em>. AR-15s are
+              held to be in common use; § 38-130 lacks a historical analogue to
+              a categorical possession ban; ordinance enjoined. Denver appeals.
+              Tenth Circuit affirms. <em>Robertson</em> joins
+              <em>Friedman v. Highland Park</em> in the dustbin.
+            </p>
+          </div>
+          <div class="col-card">
+            <div class="col-head">
+              <div class="col-head-num">C</div>
+              <div class="col-head-text">Bianchi-style split</div>
+            </div>
+            <p class="body" style="font-size: 15px;">
+              Circuit follows the Fourth Circuit's <em>Bianchi v. Brown</em>
+              (2024) and concludes the Second Amendment does not protect AR-15 possession
+              at all. Ordinance survives. SCOTUS takes cert to resolve the circuit
+              split that already exists between the Fourth, Seventh, and Ninth Circuits
+              on the same question.
+              <em>That</em> case decides the issue nationally.
+            </p>
+          </div>
+        </div>
+
+        <p class="body">
+          The procedural question is what makes this case unusual. The DOJ has
+          chosen a statute the federal courts have <em>never</em> used in this context.
+          <em>Either</em> the courts accept the framing — and DOJ gets to use the
+          Civil Rights Division as a Second Amendment enforcement arm against any
+          state or city in the country — or they don't, and the DOJ has to refile
+          a more conventional § 1983 case through individual plaintiffs. The first
+          six months of the case will be about which it is. The substance of the ordinance
+          is the back half.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- CHAPTER 09 — THE TAKE                                 -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section class="chapter">
+      <div class="chapter-inner" data-reveal>
+        <div class="chapter-header">
+          <span class="chapter-num">09</span>
+          <div style="flex:1; min-width: 280px;">
+            <div class="chapter-eyebrow">Bearing Freedom · the take</div>
+            <h2 class="chapter-title">Why This Case Matters Outside Denver</h2>
+          </div>
+        </div>
+
+        <p class="body">
+          Denver's ordinance has always been the academic curiosity of American
+          gun law. The one home-rule carve-out. The one ban old enough to
+          predate <em>every</em> piece of modern Second Amendment jurisprudence. For
+          thirty-seven years it has run quietly because it could rely on three things:
+          a pre-Heller Colorado Supreme Court ruling, a state-constitutional shield,
+          and the political reality that no federal administration was going to sue
+          a city over a 1989 statute.
+        </p>
+
+        <p class="body">
+          Two of those three are gone. <strong>Robertson</strong> is now a fossil
+          from a doctrinal era that the Supreme Court has explicitly repudiated three
+          times — in <em>Heller</em>, in <em>McDonald</em>, and in <em>Bruen</em
+          >. The state-constitutional shield does not reach federal claims; it
+          stops state law cold but says nothing about the Fourteenth Amendment.
+          And the political reality
+          <strong>changed today</strong>. The federal government is now a
+          plaintiff. Denver gets to defend the merits of its ordinance for the
+          first time in a Bruen-aware court. That is a genuinely new situation.
+        </p>
+
+        <p class="body">
+          This case is not really about Denver. Denver is the test case. If §
+          12601 sticks as a vehicle, the next twenty defendants are Boulder,
+          Boulder County, Louisville, Cook County, Highland Park, every city and
+          state with an AW ban on the books. If § 12601 doesn't stick, the DOJ
+          refiles individual-plaintiff cases and the question gets decided the
+          slow way. Either way, the post-Bruen drift toward striking down
+          categorical AW bans accelerates. The fight that
+          <em>Bianchi</em> was supposed to start at the Supreme Court — and didn't,
+          because cert was denied — is being teed up again.
+        </p>
+
+        <p class="body">
+          Mayor Johnston is half right and half wrong. He is right that Denver
+          has the political authority to defend its own statute. He is wrong
+          about what the statute has actually done. <em>Eighteen arrests</em> in nine
+          years is not the load-bearing public-safety policy he is pretending it is.
+          Forty assault-style firearms out of twenty-one hundred is not what is hurting
+          the city. The thing § 38-130 accomplishes, in 2026, is that it lets the
+          city tell its base it has done something. The thing it doesn't accomplish
+          is preventing what it was written to prevent. <strong>That</strong> is the
+          case Denver is now going to defend in federal court.
+        </p>
+
+        <p class="body">
+          The ordinance has been operating on borrowed legitimacy since 23 June
+          2022. The bill has come due. Read it carefully, watch the docket, and
+          remember which side of <em>Bruen</em> you sit on. The next two years are
+          going to settle a great deal more than what AR-15s do or don't do inside
+          the territorial limits of the City and County of Denver.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- SOURCES                                               -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section class="sources">
+      <div class="sources-inner" data-reveal>
+        <div class="chapter-eyebrow" style="color: var(--gold)">
+          File appendix
+        </div>
+        <h2
+          class="chapter-title"
+          style="font-size: clamp(28px, 3.5vw, 42px); margin-top: 4px;"
+        >
+          Sources &amp; Citations
+        </h2>
+
+        <div class="sources-grid">
+          <div class="source-group">
+            <h4>Primary statute</h4>
+            <ul>
+              <li>
+                DRMC § 38-130 ·
+                <a
+                  href="https://library.municode.com/co/denver/codes/code_of_ordinances"
+                  >Municode (Denver)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://smallboreshooting.com/bardwell/denver_ordinance.txt"
+                  >Bardwell archive of full text</a
+                >
+              </li>
+              <li>
+                Denver Legistar 2018 amendment ·
+                <a
+                  href="https://denver.legistar.com/LegislationDetail.aspx?GUID=8DCF5945-4DD6-43DB-848E-86DE3BCE70E4&ID=3247956"
+                  >File 17-1400</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="source-group">
+            <h4>Court opinions</h4>
+            <ul>
+              <li>
+                Robertson v. Denver, 874 P.2d 325 ·
+                <a
+                  href="https://law.justia.com/cases/colorado/supreme-court/1994/93sa91-0.html"
+                  >Justia</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.courtlistener.com/opinion/1219074/robertson-v-city-and-county-of-denver/"
+                  >CourtListener</a
+                >
+              </li>
+              <li>
+                Trinen v. Denver, 00CA2126 ·
+                <a
+                  href="https://law.justia.com/cases/colorado/court-of-appeals/2002/00ca2126-0.html"
+                  >Justia</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="source-group">
+            <h4>State law</h4>
+            <ul>
+              <li>
+                C.R.S. § 29-11.7-103 ·
+                <a
+                  href="https://law.justia.com/codes/colorado/2016/title-29/miscellaneous/article-11.7/section-29-11.7-103/"
+                  >Justia</a
+                >
+              </li>
+              <li>
+                C.R.S. § 18-12-302 (LCMs) ·
+                <a
+                  href="https://law.justia.com/codes/colorado/title-18/article-12/part-3/section-18-12-302/"
+                  >Justia</a
+                >
+              </li>
+              <li>
+                <a href="https://leg.colorado.gov/bills/sb21-256"
+                  >SB21-256 bill page</a
+                >
+              </li>
+              <li>
+                <a href="https://leg.colorado.gov/bills/sb25-003"
+                  >SB25-003 bill page</a
+                >
+              </li>
+              <li>
+                <a href="http://leg.colorado.gov/bills/hb24-1292"
+                  >HB24-1292 bill page</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="source-group">
+            <h4>Boulder / Superior litigation</h4>
+            <ul>
+              <li>
+                <a
+                  href="https://everytownlaw.org/case/caldera-et-al-v-city-of-boulder-et-al/"
+                  >Everytown · Caldera v. Boulder</a
+                >
+              </li>
+              <li>
+                <a href="https://mslegal.org/cases/caldara-v-city-of-boulder/"
+                  >Mountain States · Caldara v. Boulder</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://bouldercounty.gov/departments/commissioners/gun-violence-prevention-ordinances/"
+                  >Boulder County Ordinance 2022-5 official</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.coloradopolitics.com/2025/07/17/federal-judge-partially-allows-challenge-to-proceed-against-gun-ordinances-in-boulder-county-d5a19953-122e-430b-a5b7-e4c2787c7423/"
+                  >Wang ruling 17 July 2025</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="source-group">
+            <h4>Reporting · 2026 lawsuit</h4>
+            <ul>
+              <li>
+                <a
+                  href="https://denverite.com/2026/05/05/denver-assault-weapons-ban-trump-doj-lawsuit/"
+                  >Denverite · DOJ files 5/5/26</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://denverite.com/2026/05/04/denver-assault-weapons-ban-trump-order/"
+                  >Denverite · Denver defies 5/4/26</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://kdvr.com/news/local/denver-tells-doj-it-wont-repeal-longstanding-assault-weapons-ban/"
+                  >KDVR · Denver tells DOJ no</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.denver7.com/news/politics/doj-demands-denver-repeal-assault-weapons-ban-city-says-it-isnt-budging"
+                  >Denver7 · DOJ demands repeal</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.9news.com/article/news/local/next/next-with-kyle-clark/denver-state-trump-doj-gun-laws/73-0e844124-32b2-4e75-8354-cc30ebda8d5f"
+                  >9News · Denver and state defy</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="source-group">
+            <h4>Background reporting</h4>
+            <ul>
+              <li>
+                <a
+                  href="https://5280.com/denver-has-had-an-assault-weapons-ban-since-1989-but-does-it-work/"
+                  >5280 · Has Denver's AW ban worked?</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.denver7.com/news/local-news/7-things-to-know-about-denvers-assault-weapon-ban"
+                  >Denver7 · 7 things to know</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.coloradopolitics.com/2018/02/20/you-now-can-get-busted-for-a-bump-stock-in-denver-2f8aca04-3f9f-538e-8ecc-7cb94375cb72/"
+                  >Colorado Politics · 2018 bump-stock vote</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://stateline.org/2021/11/01/colorado-allows-tougher-local-gun-laws-other-states-may-follow/"
+                  >Stateline · SB21-256 explainer</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://giffords.org/lawcenter/state-laws/preemption-of-local-laws-in-colorado/"
+                  >Giffords · CO preemption</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="source-group">
+            <h4>SCOTUS / circuit precedent</h4>
+            <ul>
+              <li>NYSRPA v. Bruen, 597 U.S. 1 (2022)</li>
+              <li>United States v. Rahimi, 602 U.S. ___ (2024)</li>
+              <li>
+                Bianchi v. Brown, 111 F.4th 438 (4th Cir. 2024 en banc) ·
+                <a
+                  href="https://harvardlawreview.org/print/vol-138/bianchi-v-brown-111-f-4th-438-4th-cir-2024-en-banc/"
+                  >Harvard L. Rev. note</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="source-group">
+            <h4>Constitutional / archival</h4>
+            <ul>
+              <li>Colo. Const. Art. XX § 6 (1902)</li>
+              <li>U.S. Const. amend. II · XIV § 1</li>
+              <li>34 U.S.C. § 12601 — pattern-or-practice</li>
+              <li>42 U.S.C. § 1988 — fees</li>
+              <li>
+                <a href="https://en.wikipedia.org/wiki/Gun_laws_in_Colorado"
+                  >Wikipedia · Gun laws in Colorado</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- FOOTER                                                -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <footer class="bf">
+      <div class="footer-mark">
+        Bearing<span style="color: var(--crimson)">·</span>Freedom
+      </div>
+      <div class="footer-meta">
+        Mile High dispatch · published 5 May 2026 · ·
+        <a href="/extras">return to extras</a> · <a href="/">home</a>
+      </div>
+    </footer>
+
+    <script is:inline>
+      // Reveal-on-scroll
+      const io = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('in');
+              io.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.08, rootMargin: '0px 0px -40px 0px' },
+      );
+      document
+        .querySelectorAll('[data-reveal]')
+        .forEach((el) => io.observe(el));
+    </script>
+  </body>
+</html>
