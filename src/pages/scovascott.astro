@@ -75,16 +75,19 @@
         --gold-deep: #8a6a18;
         --gold-glow: rgba(212, 168, 42, 0.18);
 
-        --strike: #c8333d;
-        --strike-deep: #7d1a22;
-        --strike-glow: rgba(200, 51, 61, 0.22);
+        /* Editorial framing: STRIKE = our side wins (gold). UPHOLD = the
+           gerrymander stands (red threat). TOSSUP = the pivot (copper). */
+        --strike: #d4a82a;
+        --strike-deep: #8a6a18;
+        --strike-glow: rgba(212, 168, 42, 0.30);
 
-        --uphold: #4a7da8;
-        --uphold-deep: #2c4a6b;
-        --uphold-glow: rgba(74, 125, 168, 0.22);
+        --uphold: #c8333d;
+        --uphold-deep: #7d1a22;
+        --uphold-glow: rgba(200, 51, 61, 0.22);
 
-        --tossup: #d4a82a;
-        --tossup-glow: rgba(212, 168, 42, 0.22);
+        --tossup: #c47d3a;
+        --tossup-deep: #7a4818;
+        --tossup-glow: rgba(196, 125, 58, 0.22);
 
         --parchment: #ede4cf;
         --parchment-deep: #c9bd9d;
@@ -284,12 +287,12 @@
         background:
           radial-gradient(
             ellipse at top right,
-            rgba(200, 51, 61, 0.1),
+            rgba(212, 168, 42, 0.14),
             transparent 50%
           ),
           radial-gradient(
             ellipse at bottom left,
-            rgba(74, 125, 168, 0.08),
+            rgba(200, 51, 61, 0.08),
             transparent 50%
           ),
           var(--void);
@@ -758,6 +761,17 @@
         color: var(--text-mid);
         border: 2px solid var(--border);
         position: relative;
+        overflow: hidden;
+      }
+      .bench-portrait img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 30%;
+        filter: grayscale(0.25) contrast(1.05);
+      }
+      .bench-seat.uphold .bench-portrait img {
+        filter: grayscale(0.7) contrast(1.05) brightness(0.85);
       }
       .bench-seat.strike .bench-portrait {
         border-color: var(--strike);
@@ -948,7 +962,7 @@
         border: 1px solid var(--strike);
         background: linear-gradient(
           135deg,
-          rgba(200, 51, 61, 0.04),
+          rgba(212, 168, 42, 0.06),
           transparent
         );
         position: relative;
@@ -1265,13 +1279,26 @@
         font-size: 32px;
         color: var(--text-mid);
         border: 3px solid var(--border);
+        overflow: hidden;
+      }
+      .justice-portrait img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 28%;
+        filter: grayscale(0.2) contrast(1.05);
+      }
+      .justice-card.uphold .justice-portrait img {
+        /* Visually mute the uphold votes — they ratify the gerrymander */
+        filter: grayscale(0.85) contrast(1.05) brightness(0.78);
       }
       .justice-card.strike .justice-portrait {
         border-color: var(--strike);
         color: var(--strike);
+        box-shadow: 0 0 24px rgba(212, 168, 42, 0.18);
         background: linear-gradient(
           135deg,
-          rgba(200, 51, 61, 0.08),
+          rgba(212, 168, 42, 0.12),
           var(--panel-2)
         );
       }
@@ -1280,7 +1307,7 @@
         color: var(--uphold);
         background: linear-gradient(
           135deg,
-          rgba(74, 125, 168, 0.1),
+          rgba(200, 51, 61, 0.10),
           var(--panel-2)
         );
       }
@@ -1430,15 +1457,15 @@
       }
       .justice-card.strike .verdict-stamp {
         border-color: var(--strike);
-        background: rgba(200, 51, 61, 0.06);
+        background: rgba(212, 168, 42, 0.10);
       }
       .justice-card.uphold .verdict-stamp {
         border-color: var(--uphold);
-        background: rgba(74, 125, 168, 0.06);
+        background: rgba(200, 51, 61, 0.08);
       }
       .justice-card.tossup .verdict-stamp {
         border-color: var(--tossup);
-        background: rgba(212, 168, 42, 0.06);
+        background: rgba(196, 125, 58, 0.08);
       }
       .verdict-label {
         font-family: var(--mono);
@@ -1613,7 +1640,7 @@
       .reapp-marker.maximum .reapp-marker-pin {
         background: var(--strike);
         box-shadow:
-          0 0 0 4px rgba(200, 51, 61, 0.18),
+          0 0 0 4px rgba(212, 168, 42, 0.22),
           0 0 16px var(--strike-glow);
       }
       .reapp-marker.high .reapp-marker-pin {
@@ -1801,15 +1828,16 @@
       .scenario.headline {
         background: linear-gradient(
           135deg,
-          rgba(200, 51, 61, 0.08),
+          rgba(212, 168, 42, 0.10),
           var(--surface)
         );
         border-color: var(--strike);
+        box-shadow: inset 0 0 0 1px rgba(212, 168, 42, 0.15);
       }
       .scenario.runner {
         background: linear-gradient(
           135deg,
-          rgba(74, 125, 168, 0.06),
+          rgba(200, 51, 61, 0.08),
           var(--surface)
         );
         border-color: var(--uphold);
@@ -2159,15 +2187,17 @@
         </h1>
 
         <p class="hero-subhead" data-reveal data-delay="3">
-          The line is <strong>strike</strong> — but it's a coin flip. The Vlaming
-          bloc has the textualist hook it needs. Whether McCullough or Chafin walks
-          the bloc back to the dock is the case.
+          The line is <strong style="color:var(--strike)">strike</strong> — and
+          that's the right call. The General Assembly tried to slide an amendment
+          past the Constitution's intervening-election sequence. The Vlaming bloc
+          has the textualist hook to nullify it. Whether McCullough or Chafin
+          flinches is the case.
         </p>
 
         <div class="vote-bar" data-reveal data-delay="4">
           <div class="vote-bar-label">
-            <span class="left">◀ STRIKE / NULLIFY THE AMENDMENT</span>
-            <span class="right">UPHOLD / RATIFY THE VOTE ▶</span>
+            <span class="left">◀ STRIKE · NULLIFY · OUR SIDE</span>
+            <span class="right">UPHOLD · RATIFY THE GERRYMANDER ▶</span>
           </div>
           <div class="vote-track">
             <div class="vote-track-strike"></div>
@@ -2232,43 +2262,57 @@
           <div class="bench-row">
             <div class="bench-seat strike h3">
               <div class="bench-num">04</div>
-              <div class="bench-portrait">R</div>
+              <div class="bench-portrait">
+                <img src="/images/justices/russell.jpg" alt="Justice Wesley G. Russell Jr." loading="lazy" />
+              </div>
               <div class="bench-name">Russell</div>
               <div class="bench-vote">Lean Strike</div>
             </div>
             <div class="bench-seat strike h2">
               <div class="bench-num">03</div>
-              <div class="bench-portrait">M</div>
+              <div class="bench-portrait">
+                <img src="/images/justices/mccullough.jpg" alt="Justice Stephen R. McCullough" loading="lazy" />
+              </div>
               <div class="bench-name">McCullough</div>
               <div class="bench-vote">Strike</div>
             </div>
             <div class="bench-seat strike h1">
               <div class="bench-num">02</div>
-              <div class="bench-portrait">K</div>
+              <div class="bench-portrait">
+                <img src="/images/justices/kelsey.jpg" alt="Justice D. Arthur Kelsey" loading="lazy" />
+              </div>
               <div class="bench-name">Kelsey</div>
               <div class="bench-vote">Strike · ⨯</div>
             </div>
             <div class="bench-seat uphold chief h1">
               <div class="bench-num">01</div>
-              <div class="bench-portrait">P</div>
+              <div class="bench-portrait">
+                <img src="/images/justices/powell.jpg" alt="Chief Justice Cleo E. Powell" loading="lazy" />
+              </div>
               <div class="bench-name">Powell, C.J.</div>
               <div class="bench-vote">Uphold</div>
             </div>
             <div class="bench-seat tossup h2">
               <div class="bench-num">05</div>
-              <div class="bench-portrait">C</div>
+              <div class="bench-portrait">
+                <img src="/images/justices/chafin.jpg" alt="Justice Teresa M. Chafin" loading="lazy" />
+              </div>
               <div class="bench-name">Chafin</div>
               <div class="bench-vote">Toss · L. Strike</div>
             </div>
             <div class="bench-seat uphold h2">
               <div class="bench-num">06</div>
-              <div class="bench-portrait">M</div>
+              <div class="bench-portrait">
+                <img src="/images/justices/mann.jpg" alt="Justice Thomas P. Mann" loading="lazy" />
+              </div>
               <div class="bench-name">Mann</div>
               <div class="bench-vote">Uphold</div>
             </div>
             <div class="bench-seat uphold h3">
               <div class="bench-num">07</div>
-              <div class="bench-portrait">F</div>
+              <div class="bench-portrait">
+                <img src="/images/justices/fulton.jpg" alt="Justice Junius P. Fulton III" loading="lazy" />
+              </div>
               <div class="bench-name">Fulton</div>
               <div class="bench-vote">Uphold</div>
             </div>
@@ -2481,7 +2525,9 @@
             <div class="justice-inner">
               <div class="justice-id">
                 <div class="justice-num">JUSTICE 01 · CHIEF</div>
-                <div class="justice-portrait">CP</div>
+                <div class="justice-portrait">
+                  <img src="/images/justices/powell.jpg" alt="Chief Justice Cleo E. Powell" loading="lazy" />
+                </div>
                 <div class="justice-name">Cleo E. Powell</div>
                 <div class="justice-suffix">
                   Chief Justice · Sworn 3 Mar 2026
@@ -2579,7 +2625,9 @@
             <div class="justice-inner">
               <div class="justice-id">
                 <div class="justice-num">JUSTICE 02</div>
-                <div class="justice-portrait">DK</div>
+                <div class="justice-portrait">
+                  <img src="/images/justices/kelsey.jpg" alt="Justice D. Arthur Kelsey" loading="lazy" />
+                </div>
                 <div class="justice-name">D. Arthur Kelsey</div>
                 <div class="justice-suffix">
                   Originalist · Adjunct Regent Law
@@ -2679,7 +2727,9 @@
             <div class="justice-inner">
               <div class="justice-id">
                 <div class="justice-num">JUSTICE 03</div>
-                <div class="justice-portrait">SM</div>
+                <div class="justice-portrait">
+                  <img src="/images/justices/mccullough.jpg" alt="Justice Stephen R. McCullough" loading="lazy" />
+                </div>
                 <div class="justice-name">Stephen R. McCullough</div>
                 <div class="justice-suffix">
                   Textualist · Former Va. Solicitor General
@@ -2777,7 +2827,9 @@
             <div class="justice-inner">
               <div class="justice-id">
                 <div class="justice-num">JUSTICE 04</div>
-                <div class="justice-portrait">WR</div>
+                <div class="justice-portrait">
+                  <img src="/images/justices/russell.jpg" alt="Justice Wesley G. Russell Jr." loading="lazy" />
+                </div>
                 <div class="justice-name">Wesley G. Russell Jr.</div>
                 <div class="justice-suffix">
                   Cuccinelli's Deputy AG · Civil Litigation
@@ -2826,7 +2878,7 @@
                   >
                   If his vote tracks his April 27 questioning literally, he votes
                   uphold. That would be the single most important defection on the
-                  court — and would save the referendum 4-3.
+                  court — and would lock in the gerrymandered map 4-3.
                 </div>
               </div>
 
@@ -2876,7 +2928,9 @@
             <div class="justice-inner">
               <div class="justice-id">
                 <div class="justice-num">JUSTICE 05 · PIVOT</div>
-                <div class="justice-portrait">TC</div>
+                <div class="justice-portrait">
+                  <img src="/images/justices/chafin.jpg" alt="Justice Teresa M. Chafin" loading="lazy" />
+                </div>
                 <div class="justice-name">Teresa M. Chafin</div>
                 <div class="justice-suffix">
                   Russell County · Tazewell roots
@@ -2974,7 +3028,9 @@
             <div class="justice-inner">
               <div class="justice-id">
                 <div class="justice-num">JUSTICE 06</div>
-                <div class="justice-portrait">TM</div>
+                <div class="justice-portrait">
+                  <img src="/images/justices/mann.jpg" alt="Justice Thomas P. Mann" loading="lazy" />
+                </div>
                 <div class="justice-name">Thomas P. Mann</div>
                 <div class="justice-suffix">
                   Fairfax · Senate Democrats' '22 pick
@@ -3069,7 +3125,9 @@
             <div class="justice-inner">
               <div class="justice-id">
                 <div class="justice-num">JUSTICE 07 · NEWEST</div>
-                <div class="justice-portrait">JF</div>
+                <div class="justice-portrait">
+                  <img src="/images/justices/fulton.jpg" alt="Justice Junius P. Fulton III" loading="lazy" />
+                </div>
                 <div class="justice-name">Junius P. Fulton III</div>
                 <div class="justice-suffix">Norfolk · Sworn 1 Jan 2026</div>
                 <div class="justice-bio">
@@ -3674,6 +3732,11 @@
             single biggest analytical risk is over-reading the Vlaming pattern.
             <br /><br />
             <strong>As of 7 May 2026, the court has not ruled.</strong>
+            <br /><br />
+            <em style="color:var(--text-faint);font-size:12px;"
+              >Justice portraits sourced from Wikimedia Commons (Supreme Court of
+              Virginia public-domain official portraits, 2025–26).</em
+            >
           </div>
           <div class="footer-links">
             <a href="/varedistricting">▸ /varedistricting</a>
