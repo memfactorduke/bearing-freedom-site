@@ -66,6 +66,9 @@ const justices = [
     appointer: 'Republican GA · 2019',
     termEnds: 'Aug 31, 2031',
     methodology: 'Conservative · Tazewell roots',
+    surprise: true,
+    surpriseNote:
+      'Forecast as the swing toss-up. Came down hard for the strike.',
     bio: 'Sister of the late Republican state Sen. Ben Chafin. Tazewell County roots — Judge Hurley sits in her old circuit. Joined Vlaming. Authored the October 2025 contempt dissent on deference-to-trial-court grounds. ~30 months from forced retirement at 73.',
     note: 'Reliable conservative vote with deep family ties to Republican politics in southwest Virginia. Signed Kelsey without fuss. The deference-to-Hurley instinct that drove her October 2025 dissent was on full display here.',
   },
@@ -129,7 +132,7 @@ const grounds = [
     source:
       'VA Dept. of Elections · April 21, 2026 special election · question presented to voters',
     blurb:
-      'This is the exact question 1.27 million Virginians voted on. Notice what isn\'t on the ballot: the actual map. Voters were asked to approve the POWER to redraw districts, not the 10-1 layout itself. The phrase "restore fairness" is what Judge Hurley called "flagrantly misleading" on February 19 — the amendment would have handed map-drawing to the General Assembly\'s majority party, a definitionally partisan body, while telling voters they were restoring fairness. The word "temporarily" was the legal fiction — the new map would have been locked in for the rest of the decade, well past the 2030 census.',
+      'This is the exact question roughly 3.1 million Virginians voted on. Notice what isn\'t on the ballot: the actual map. Voters were asked to approve the POWER to redraw districts, not the 10-1 layout itself. The phrase "restore fairness" is what Judge Hurley called "flagrantly misleading" on February 19 — the amendment would have handed map-drawing to the General Assembly\'s majority party, a definitionally partisan body, while telling voters they were restoring fairness. The word "temporarily" was the legal fiction — the new map would have been locked in for the rest of the decade, well past the 2030 census.',
     why: 'The most accessible argument for the case. You don\'t need a constitutional textualism PhD to read the question and see the trick. "Restore fairness" — to a 10-1 map. "Temporarily" — until 2031. Every honest reader sees it. Former AG Miyares put it bluntly: Spanberger lied to the voters.',
     status: 'Not reached',
     ruling:
@@ -221,7 +224,7 @@ const timeline = [
   {
     date: 'Jan 27, 2026',
     label:
-      'Tazewell County Judge Jack Hurley Jr. rules the enabling statute void ab initio.',
+      "Tazewell County Judge Jack Hurley Jr. rules the General Assembly's process for getting the amendment on the ballot unconstitutional.",
     tone: 'green',
   },
   {
@@ -343,7 +346,7 @@ const whatsNext = [
     h: 'The 2027 General Assembly elections — which framing wins?',
     likelihood: 'Open question',
     timeline: 'November 2, 2027',
-    body: "House Democrats will spin this ruling as judicial activism — Republicans on the bench overruling the will of 1.27 million voters. They'll fundraise on it. The honest counter-framing is the one to hammer relentlessly: Democrats just spent over $100 million in outside money plus $5.2 million in state taxpayer funds on a vote that never legally happened, because they tried to break the bipartisan commission Virginians enshrined by a 2-to-1 margin in 2020. That is not judicial activism. That is the constitution doing exactly what voters wrote it to do. The 2027 GA elections are also the next vehicle to flip the chamber and protect the commission long-term.",
+    body: "House Democrats will spin this ruling as judicial activism — Republicans on the bench overruling the will of 3.1 million voters. They'll fundraise on it. The honest counter-framing is the one to hammer relentlessly: Democrats just spent over $100 million in outside money plus $5.2 million in state taxpayer funds on a vote that never legally happened, because they tried to break the bipartisan commission Virginians enshrined by a 2-to-1 margin in 2020. That is not judicial activism. That is the constitution doing exactly what voters wrote it to do. The 2027 GA elections are also the next vehicle to flip the chamber and protect the commission long-term.",
     bottom:
       'The first party to settle the public narrative wins the next round. Republicans should not let "court took away your vote" become the consensus story.',
   },
@@ -1256,6 +1259,47 @@ const sources = [
         border: 1px solid;
         font-weight: 600;
         z-index: 2;
+      }
+      .justice-card.surprise {
+        border-color: var(--gold-deep);
+        box-shadow: 0 0 32px rgba(212, 168, 42, 0.18);
+      }
+      .justice-card.surprise::before {
+        background: var(--gold);
+        height: 4px;
+      }
+      .justice-card .surprise-badge {
+        position: absolute;
+        top: 18px;
+        left: 22px;
+        z-index: 2;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--gold);
+        background: var(--court-2);
+        border: 1px solid var(--gold-deep);
+        padding: 5px 10px 5px 8px;
+        font-weight: 700;
+      }
+      .justice-card .surprise-badge .star {
+        display: inline-block;
+        font-size: 13px;
+        line-height: 1;
+        color: var(--gold);
+      }
+      .justice-card .surprise-note {
+        font-family: var(--mono);
+        font-size: 10.5px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-top: -8px;
+        margin-bottom: 14px;
       }
       .justice-card.majority .vote-tag {
         color: var(--strike);
@@ -2667,11 +2711,11 @@ const sources = [
                           <div class="ballot-options">
                             <div class="ballot-opt">
                               <span class="ballot-box checked" />
-                              <span>Yes (50.7%)</span>
+                              <span>Yes (51.68%)</span>
                             </div>
                             <div class="ballot-opt">
                               <span class="ballot-box" />
-                              <span>No (49.3%)</span>
+                              <span>No (48.32%)</span>
                             </div>
                           </div>
                           <div class="ballot-result">
@@ -2762,11 +2806,19 @@ const sources = [
                     .filter((j) => j.bench === 'majority')
                     .map((j) => (
                       <div
-                        class={`justice-card ${j.bench}`}
+                        class={`justice-card ${j.bench} ${j.surprise ? 'surprise' : ''}`}
                         style={`--accent: ${j.color}`}
                       >
+                        {j.surprise && (
+                          <div class="surprise-badge">
+                            <span class="star">★</span>
+                            <span>Surprise</span>
+                          </div>
+                        )}
                         <div class="vote-tag">{j.vote}</div>
-                        <div class={`avatar ${j.id === 'russell' ? 'center' : ''}`}>
+                        <div
+                          class={`avatar ${j.id === 'russell' ? 'center' : ''}`}
+                        >
                           <img
                             src={`/images/justices/${j.id}.jpg`}
                             alt={`Justice ${j.name}`}
@@ -2778,6 +2830,9 @@ const sources = [
                         <div class="role">
                           {j.role} · <b>{j.bloc}</b>
                         </div>
+                        {j.surprise && (
+                          <div class="surprise-note">★ {j.surpriseNote}</div>
+                        )}
                         <div class="meta">
                           <div class="meta-row">
                             <div class="k">Appointed by</div>
@@ -2786,10 +2841,6 @@ const sources = [
                           <div class="meta-row">
                             <div class="k">Term ends</div>
                             <div class="v gold">{j.termEnds}</div>
-                          </div>
-                          <div class="meta-row">
-                            <div class="k">Methodology</div>
-                            <div class="v">{j.methodology}</div>
                           </div>
                         </div>
                         <p class="bio">{j.bio}</p>
@@ -2813,11 +2864,19 @@ const sources = [
                     .filter((j) => j.bench === 'dissent')
                     .map((j) => (
                       <div
-                        class={`justice-card ${j.bench}`}
+                        class={`justice-card ${j.bench} ${j.surprise ? 'surprise' : ''}`}
                         style={`--accent: ${j.color}`}
                       >
+                        {j.surprise && (
+                          <div class="surprise-badge">
+                            <span class="star">★</span>
+                            <span>Surprise</span>
+                          </div>
+                        )}
                         <div class="vote-tag">{j.vote}</div>
-                        <div class={`avatar ${j.id === 'russell' ? 'center' : ''}`}>
+                        <div
+                          class={`avatar ${j.id === 'russell' ? 'center' : ''}`}
+                        >
                           <img
                             src={`/images/justices/${j.id}.jpg`}
                             alt={`Justice ${j.name}`}
@@ -2829,6 +2888,9 @@ const sources = [
                         <div class="role">
                           {j.role} · <b>{j.bloc}</b>
                         </div>
+                        {j.surprise && (
+                          <div class="surprise-note">★ {j.surpriseNote}</div>
+                        )}
                         <div class="meta">
                           <div class="meta-row">
                             <div class="k">Appointed by</div>
@@ -2837,10 +2899,6 @@ const sources = [
                           <div class="meta-row">
                             <div class="k">Term ends</div>
                             <div class="v gold">{j.termEnds}</div>
-                          </div>
-                          <div class="meta-row">
-                            <div class="k">Methodology</div>
-                            <div class="v">{j.methodology}</div>
                           </div>
                         </div>
                         <p class="bio">{j.bio}</p>
