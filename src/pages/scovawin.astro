@@ -1,0 +1,2428 @@
+---
+// Standalone page — self-contained styles, no global.css.
+// Scott v. McDougle — Supreme Court of Virginia 4-3 ruling (May 8, 2026)
+// striking the April 21 mid-decade redistricting amendment.
+// This is the "verdict delivered" companion to /scovaforecast (drafted May 7).
+
+const justices = [
+  {
+    id: 'kelsey',
+    name: 'D. Arthur Kelsey',
+    role: 'Associate Justice',
+    vote: 'STRIKE',
+    bloc: 'Majority · Author',
+    color: '#9b2233',
+    bench: 'majority',
+    chair: 2,
+    note: 'Wrote the majority opinion. Ruled the General Assembly violated Article XII, Section 1. His reappointment vote sits with the same legislature whose handiwork he just threw out — and he ruled the right way anyway.',
+  },
+  {
+    id: 'mccullough',
+    name: 'Stephen R. McCullough',
+    role: 'Associate Justice',
+    vote: 'STRIKE',
+    bloc: 'Majority',
+    color: '#9b2233',
+    bench: 'majority',
+    chair: 1,
+    note: 'The keystone vote we flagged on May 7. The textualist scholar held the bloc, signed Kelsey, and made the four. His reappointment lands in March 2028 under what is likely still a Democratic GA.',
+  },
+  {
+    id: 'russell',
+    name: 'Wesley G. Russell Jr.',
+    role: 'Associate Justice',
+    vote: 'STRIKE',
+    bloc: 'Majority',
+    color: '#9b2233',
+    bench: 'majority',
+    chair: 3,
+    note: "Cuccinelli's former Deputy AG for Civil Litigation. Joined Vlaming in full and joined the October 2025 contempt dissent. No reappointment exposure. Predictable strike.",
+  },
+  {
+    id: 'chafin',
+    name: 'Teresa M. Chafin',
+    role: 'Associate Justice',
+    vote: 'STRIKE',
+    bloc: 'Majority',
+    color: '#9b2233',
+    bench: 'majority',
+    chair: 5,
+    note: 'We called her a toss-up on May 7. She was not a toss-up. Tazewell County roots, ~30 months from forced retirement, and an October 2025 dissent on deference-to-trial-court grounds — every incentive pointed strike, and she signed.',
+  },
+  {
+    id: 'powell',
+    name: 'Cleo E. Powell',
+    role: 'Chief Justice',
+    vote: 'UPHOLD',
+    bloc: 'Dissent',
+    color: '#3f4c66',
+    bench: 'dissent',
+    chair: 4,
+    note: 'Center-institutionalist as forecast. Signed the dissent on 1912-line deference grounds. CJ tenure caps at four years under mandatory retirement; declined to define her tenure with a 4-3 nullification.',
+  },
+  {
+    id: 'mann',
+    name: 'Thomas P. Mann',
+    role: 'Associate Justice',
+    vote: 'UPHOLD',
+    bloc: 'Dissent',
+    color: '#3f4c66',
+    bench: 'dissent',
+    chair: 6,
+    note: 'The cleanest Democratic-aligned vote on the court. Senate Democrats put him on the bench specifically for a vote like this one. He delivered.',
+  },
+  {
+    id: 'fulton',
+    name: 'Junius P. Fulton III',
+    role: 'Associate Justice',
+    vote: 'UPHOLD',
+    bloc: 'Dissent',
+    color: '#3f4c66',
+    bench: 'dissent',
+    chair: 7,
+    note: 'Newest justice. Sworn in January 1, 2026 — formally invested April 27, the same day as oral argument. His first major public act was to dissent in defense of the Democratic legislature that elevated him.',
+  },
+];
+
+const grounds = [
+  {
+    n: '01',
+    title: 'Special-session scope',
+    status: 'Carried in part',
+    blurb:
+      'The 2024 special session was convened for a budget dispute and never formally adjourned. Democrats reopened it more than a year later for a redistricting amendment nobody contemplated when the session was originally called. Constitutional limits on special sessions exist precisely to prevent that bait-and-switch.',
+    ruling:
+      'Sustained as part of the broader Article XII, Section 1 holding. The court treated the procedural failure as a single integrated violation rather than a stand-alone basis.',
+  },
+  {
+    n: '02',
+    title: 'Intervening-election timing',
+    status: 'Controlling',
+    blurb:
+      'The Virginia Constitution requires "an election" between the two General Assembly passages. Early voting for the November 4, 2025 election began September 19 — six weeks before the October 31 first passage. More than a million Virginians cast ballots in the supposed intervening election before the General Assembly took the first vote that election was supposed to provide a check on.',
+    ruling:
+      "The textualist hook with the most ideological gravity. Kelsey's majority called the way Democrats submitted the amendment 'unprecedented' — and the constitutional violation 'incurably taints the resulting referendum vote and nullifies its legal efficacy.'",
+  },
+  {
+    n: '03',
+    title: '90-day cooling-off period',
+    status: 'Controlling',
+    blurb:
+      'Article XII, Section 1 requires a proposed amendment to sit at least ninety days between final passage and the referendum. Final passage was January 19, 2026. Early voting opened March 6, 2026. Forty-six days. Barely half the constitutional minimum.',
+    ruling:
+      "The cleanest math in the case. Code § 30-19.9 also requires 90 days of public posting at every circuit clerk's office — a guardrail Democrats tried to repeal with SB 769 mid-litigation. The House let the bill die. The requirement remained on the books, unmet.",
+  },
+  {
+    n: '04',
+    title: 'Misleading ballot title',
+    status: 'Not reached',
+    blurb:
+      "The ballot question asked whether the Constitution should be amended to 'restore fairness' — language Judge Hurley found 'flagrantly misleading' on February 19. The RNC carried this argument as a parallel petition.",
+    ruling:
+      'The court did not need to reach this ground. The Article XII, Section 1 violations were dispositive. The misleading-language theory remains unresolved on the merits — but academically interesting only.',
+  },
+];
+
+const timeline = [
+  {
+    date: '2020',
+    label:
+      'Virginians approve the bipartisan redistricting commission by roughly a 2-to-1 margin. Article II, Section 6-A added to the Virginia Constitution.',
+    tone: 'context',
+  },
+  {
+    date: 'Sep 19, 2025',
+    label:
+      'Early voting begins for the November 4 House of Delegates regular election.',
+    tone: 'context',
+  },
+  {
+    date: 'Oct 24, 2025',
+    label:
+      'Majority Leader Herring introduces the resolution to use the still-open 2024 special session for a redistricting amendment.',
+    tone: 'red',
+  },
+  {
+    date: 'Oct 31, 2025',
+    label:
+      'GA first passage. Six weeks AFTER early voting started for the supposed intervening election.',
+    tone: 'flag',
+  },
+  {
+    date: 'Nov 4, 2025',
+    label:
+      'House of Delegates election day — the supposed "intervening" election that more than a third of voters had already participated in.',
+    tone: 'context',
+  },
+  {
+    date: 'Jan 19, 2026',
+    label: 'GA second passage of the amendment.',
+    tone: 'red',
+  },
+  {
+    date: 'Jan 27, 2026',
+    label:
+      'Tazewell County Judge Jack Hurley Jr. rules the enabling statute void ab initio.',
+    tone: 'green',
+  },
+  {
+    date: 'Feb 19, 2026',
+    label:
+      'Hurley issues separate order blocking the April 21 vote outright. Calls the ballot language "flagrantly misleading."',
+    tone: 'green',
+  },
+  {
+    date: 'Mar 6, 2026',
+    label:
+      'Early voting opens — 46 days after final GA passage. Half the constitutional minimum.',
+    tone: 'flag',
+  },
+  {
+    date: 'Apr 21, 2026',
+    label:
+      'Voters narrowly approve the amendment after roughly $100M in outside spending. Margin: razor-thin.',
+    tone: 'red',
+  },
+  {
+    date: 'Apr 22, 2026',
+    label:
+      'Hurley issues final order: April 21 votes "ineffective." Entire enabling statute void ab initio.',
+    tone: 'green',
+  },
+  {
+    date: 'Apr 27, 2026',
+    label:
+      'SCOVA hears oral argument. Justice Fulton formally invested the same day.',
+    tone: 'amber',
+  },
+  {
+    date: 'May 7, 2026',
+    label:
+      'Bearing Freedom forecast brief published. Strike 60 / Uphold 35 / Punt 5.',
+    tone: 'context',
+  },
+  {
+    date: 'May 8, 2026',
+    label:
+      'TODAY. SCOVA issues 4-3 opinion. Kelsey writes for the majority. Amendment struck. April 21 results void. Bipartisan-commission map governs 2026.',
+    tone: 'now',
+  },
+];
+
+const reasonsHuge = [
+  {
+    n: '01',
+    h: 'The 2020 commission survives.',
+    body: 'Virginians put redistricting in the hands of a 16-member bipartisan commission by a roughly 2-to-1 margin. That was the deal. Democrats tried to break it the moment it became politically inconvenient. The commission lives. The citizens-first map stays.',
+  },
+  {
+    n: '02',
+    h: 'Mid-decade gerrymandering is dead in Virginia.',
+    body: "If this had succeeded, every state legislature in the country would have learned the lesson: when you don't like your map, push a constitutional amendment through on a rocket docket and redraw the lines. The 90-day cooling-off period is not optional. The intervening election is not a formality. Constitutional process matters.",
+  },
+  {
+    n: '03',
+    h: 'Up to four U.S. House seats stay where they belong.',
+    body: "The Democrats' explicit goal was to flip Virginia's congressional delegation from 6-5 D to 10-1 D in a single cycle. Four House seats. In a chamber decided by single-digit majorities for the last decade. That alone makes this one of the highest-stakes redistricting rulings of the cycle.",
+  },
+  {
+    n: '04',
+    h: 'A conservative justice held the line.',
+    body: 'Justice Kelsey is up for reappointment by the same legislature whose handiwork he just threw out. His current term expires January 31, 2027. Cardinal News flagged the awkwardness weeks before the ruling. He ruled the right way anyway. That is judicial courage, and it deserves to be named.',
+  },
+  {
+    n: '05',
+    h: 'Voters were lied to — and the court refused to ratify the lie.',
+    body: 'The amendment\'s ballot language used "restore fairness" to describe a partisan gerrymander. Hurley flagged that as misleading in February. Miyares put it bluntly: Spanberger lied to the voters. The court did not need to reach the misleading-language ground because the procedural violations were dispositive — but the lie did not get rewarded.',
+  },
+];
+
+const quotables = [
+  '4–3. THE MAPS ARE DEAD.',
+  'FORTY-SIX DAYS. THE CONSTITUTION SAYS NINETY.',
+  '$100,000,000 ON A VOTE THAT NEVER LEGALLY HAPPENED.',
+  'THE COMMISSION LIVES. THE 2020 MAP STAYS.',
+  'KELSEY WROTE IT. SPANBERGER LOST IT.',
+  'MID-DECADE GERRYMANDERING — DEAD ON ARRIVAL IN VIRGINIA.',
+  '"INCURABLY TAINTS THE RESULTING REFERENDUM VOTE."',
+  'COURT-SHOPPING, DON SCOTT CALLED IT. THE SUPREME COURT JUST CALLED HIM WRONG.',
+];
+
+const reactionsRight = [
+  {
+    name: 'President Donald J. Trump',
+    role: 'Truth Social, Apr. 22 (post-referendum)',
+    quote:
+      'As everyone knows, I am an extraordinarily brilliant person, and even I had no idea what the hell they were talking about in the Referendum, and neither do they! Let\'s see if the Courts will fix this travesty of "Justice."',
+    note: 'They did.',
+  },
+  {
+    name: 'Glenn Youngkin',
+    role: 'Former Governor of Virginia',
+    quote: 'Unconstitutional. It would disenfranchise millions of Virginians.',
+    note: 'Said it before the ruling. The court agreed.',
+  },
+  {
+    name: 'Jason Miyares',
+    role: 'Former Attorney General · Co-chair, Virginians for Fair Maps',
+    quote:
+      'Spanberger is an unpopular governor with an unpopular agenda, and she lied to the voters.',
+    note: 'The lie did not get rewarded.',
+  },
+  {
+    name: 'Sen. Ryan McDougle',
+    role: 'R-Hanover · Named plaintiff',
+    quote:
+      'The Constitution of Virginia means what it says. The General Assembly does not get to rewrite it on a ninety-day rocket docket because the political winds are favorable.',
+    note: 'Lead public face of the legal challenge from day one.',
+  },
+];
+
+const reactionsLeft = [
+  {
+    name: 'Speaker Don Scott (D)',
+    role: 'Pre-ruling characterization of the litigation',
+    quote: 'Court-shopping, plain and simple.',
+    note: 'The Supreme Court of Virginia just called him wrong.',
+  },
+  {
+    name: 'Senate Majority Leader Scott Surovell (D)',
+    role: 'After the April 21 referendum',
+    quote: 'Fairness won. Accountability won.',
+    note: "That framing aged about as well as the Democrats' constitutional analysis.",
+  },
+  {
+    name: 'Gov. Abigail Spanberger (D)',
+    role: 'After the April 21 referendum',
+    quote: 'Virginia voters have spoken.',
+    note: "The Supreme Court of Virginia made clear that what voters said in an unconstitutional election doesn't count.",
+  },
+];
+
+const whatsNext = [
+  {
+    n: '01',
+    h: '2026 midterms run on the 2020 map.',
+    body: "Virginia's existing bipartisan-commission congressional map governs the November 2026 election. The current 6-5 Democratic delegation breakdown stays the baseline rather than a 10-1 lock.",
+  },
+  {
+    n: '02',
+    h: 'Federal appeal? Probably not viable.',
+    body: "SCOVA was interpreting the Virginia Constitution. The U.S. Supreme Court generally cannot reverse a state high court's interpretation of its own state constitution. Democrats' best legal argument was at SCOVA, and they just lost it.",
+  },
+  {
+    n: '03',
+    h: 'Re-do attempt? Theoretically possible.',
+    body: "Democrats could try again — but they'd have to pass it through the General Assembly twice with an intervening House election, then wait the full ninety days, then get it through a referendum. That timeline does not realistically yield a redrawn map before the 2030 census cycle.",
+  },
+  {
+    n: '04',
+    h: 'Watch the 2027 General Assembly elections.',
+    body: 'House Democrats will spin this loss into a fundraising rallying cry. The opposite framing is the honest one: Democrats just spent hundreds of millions of dollars on an unconstitutional power grab and lost.',
+  },
+];
+
+const sources = [
+  {
+    title:
+      'Supreme Court of Virginia voids redistricting election as unconstitutional',
+    pub: 'Cardinal News · May 8, 2026',
+    href: 'https://cardinalnews.org/2026/05/08/supreme-court-of-virginia-voids-redistricting-election-as-unconstitutional/',
+  },
+  {
+    title:
+      "Virginia Supreme Court strikes down Democrats' redistricting plan, dimming party's midterm hopes",
+    pub: 'WTOP / Associated Press · May 8, 2026',
+    href: 'https://wtop.com/national/2026/05/virginia-supreme-court-strikes-down-democrats-redistricting-plan-dimming-partys-midterm-hopes/',
+  },
+  {
+    title:
+      'Virginia Supreme Court strikes down redistricting referendum approved by voters in special election',
+    pub: 'WTVR · May 8, 2026',
+    href: 'https://www.wtvr.com/news/virginia-politics/supreme-court-virginia-redistricting-ruling-may-8-2026',
+  },
+  {
+    title: 'Virginia Supreme Court throws out redistricting referendum results',
+    pub: 'Axios Richmond · May 8, 2026',
+    href: 'https://www.axios.com/local/richmond/2026/05/08/virginia-supreme-court-redistricting-vote-decision',
+  },
+  {
+    title:
+      "Virginia Supreme Court rejects Democrats' redistricting plan, throws out election",
+    pub: 'Democracy Docket · May 8, 2026',
+    href: 'https://www.democracydocket.com/news-alerts/virginia-supreme-court-rejects-democrats-redistricting-plan-throws-out-election/',
+  },
+  {
+    title:
+      "Virginia court declares state's redistricting vote unconstitutional in legal win for Republicans",
+    pub: 'Fox News · May 8, 2026',
+    href: 'https://www.foxnews.com/politics/virginia-court-declares-states-redistricting-vote-unconstitutional-legal-win-republicans',
+  },
+  {
+    title:
+      'Redistricting case puts at least two Virginia Supreme Court justices in awkward spot',
+    pub: 'Cardinal News · April 27, 2026',
+    href: 'https://cardinalnews.org/2026/04/27/redistricting-case-puts-at-least-two-virginia-supreme-court-justices-in-awkward-spot-they-will-soon-be-up-for-reappointment/',
+  },
+  {
+    title:
+      'Code of Virginia § 30-19.9 — distribution of information on proposed constitutional amendments',
+    pub: 'Justia',
+    href: 'https://law.justia.com/codes/virginia/title-30/chapter-1/section-30-19-9/',
+  },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>We Won — Scott v. McDougle, 4-3 STRIKE | Bearing Freedom</title>
+    <meta
+      name="description"
+      content="May 8, 2026. The Supreme Court of Virginia voted 4-3 to throw out the Democrats' mid-decade redistricting amendment. Justice Kelsey wrote the majority. The April 21 referendum is null and void. The bipartisan-commission map governs 2026. Why we won, in plain English."
+    />
+    <meta property="og:title" content="We Won — Scott v. McDougle 4-3 STRIKE" />
+    <meta
+      property="og:description"
+      content="SCOVA voted 4-3 to void the Democrats' mid-decade redistricting amendment. The April 21 vote is null. The 2020 commission map stays. Here is exactly how we won."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bearingfreedom.com/scovawin" />
+    <meta
+      property="og:image"
+      content="https://bearingfreedom.com/og-default.jpg"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6WRV03TTZ"
+    ></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-Q6WRV03TTZ', {
+        send_page_view: true,
+        allow_google_signals: true,
+        allow_ad_personalization_signals: true,
+        cookie_flags: 'SameSite=None;Secure',
+      });
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;700;800;900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style is:global>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --void: #06080f;
+        --bg: #0b1020;
+        --court: #131a30;
+        --court-2: #1a2240;
+        --panel: #161e3a;
+        --border: #2a3252;
+        --border-dim: #1c2340;
+        --grid: rgba(212, 168, 42, 0.06);
+
+        --text: #f1ecdc;
+        --text-mid: #c4bfac;
+        --text-dim: #807c6c;
+        --text-faint: #4f4d44;
+
+        --gold: #d4a82a;
+        --gold-deep: #8a6a18;
+        --gold-glow: rgba(212, 168, 42, 0.18);
+
+        --strike: #b22a36;
+        --strike-deep: #7a1923;
+        --strike-glow: rgba(178, 42, 54, 0.22);
+
+        --uphold: #455a82;
+        --uphold-deep: #2c3a55;
+        --uphold-glow: rgba(69, 90, 130, 0.18);
+
+        --bone: #ece1c4;
+        --bone-deep: #c9bd9d;
+
+        --verdict: #6f8f4f;
+        --verdict-deep: #4a6334;
+        --verdict-glow: rgba(111, 143, 79, 0.16);
+
+        --display: 'Big Shoulders Display', Impact, sans-serif;
+        --serif: 'Newsreader', Georgia, serif;
+        --mono: 'JetBrains Mono', 'Courier New', monospace;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        background: var(--void);
+      }
+      body {
+        font-family: var(--serif);
+        background: var(--void);
+        color: var(--text);
+        line-height: 1.6;
+        font-feature-settings: 'ss01', 'cv11';
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+      }
+      ::selection {
+        background: var(--gold);
+        color: var(--void);
+      }
+
+      body::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        z-index: 0;
+        background-image:
+          linear-gradient(var(--grid) 1px, transparent 1px),
+          linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+        background-size: 64px 64px;
+        opacity: 0.6;
+      }
+      body::after {
+        content: '';
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        z-index: 1;
+        opacity: 0.035;
+        mix-blend-mode: overlay;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+        background-size: 320px 320px;
+      }
+
+      main {
+        position: relative;
+        z-index: 2;
+      }
+
+      /* CAPTION RIBBON */
+      .caption-ribbon {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background: rgba(6, 8, 15, 0.92);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        border-bottom: 1px solid var(--border-dim);
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--text-dim);
+        padding: 10px 24px;
+      }
+      .caption-ribbon .row {
+        max-width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px 22px;
+      }
+      .caption-ribbon .dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--strike);
+        box-shadow: 0 0 0 4px rgba(178, 42, 54, 0.18);
+        animation: pulse 2.4s ease-in-out infinite;
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          box-shadow: 0 0 0 4px rgba(178, 42, 54, 0.18);
+        }
+        50% {
+          box-shadow: 0 0 0 10px rgba(178, 42, 54, 0);
+        }
+      }
+      .caption-ribbon b {
+        color: var(--text);
+        font-weight: 700;
+      }
+      .caption-ribbon .gold {
+        color: var(--gold);
+      }
+      .caption-ribbon .strike {
+        color: var(--strike);
+      }
+
+      /* SHELLS */
+      .wrap {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 28px;
+      }
+      .wrap-narrow {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 0 28px;
+      }
+      .section {
+        padding: 96px 0;
+        position: relative;
+      }
+      .section-tight {
+        padding: 64px 0;
+        position: relative;
+      }
+      .section-tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-bottom: 18px;
+      }
+      .section-tag::before {
+        content: '';
+        width: 28px;
+        height: 1px;
+        background: var(--gold);
+      }
+      .section-h {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: clamp(40px, 6vw, 76px);
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        line-height: 0.94;
+        color: var(--text);
+        margin-bottom: 16px;
+      }
+      .section-sub {
+        font-family: var(--serif);
+        font-size: 18px;
+        line-height: 1.55;
+        color: var(--text-mid);
+        max-width: 760px;
+        margin-bottom: 48px;
+      }
+
+      /* HERO */
+      .hero {
+        position: relative;
+        padding: 80px 0 100px;
+        overflow: hidden;
+        border-bottom: 1px solid var(--border-dim);
+      }
+      .hero::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background:
+          radial-gradient(
+            ellipse 60% 50% at 75% 20%,
+            var(--strike-glow),
+            transparent 60%
+          ),
+          radial-gradient(
+            ellipse 60% 60% at 20% 80%,
+            var(--gold-glow),
+            transparent 60%
+          );
+        pointer-events: none;
+      }
+      .hero-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+        gap: 64px;
+        position: relative;
+        align-items: end;
+      }
+      @media (max-width: 960px) {
+        .hero-grid {
+          grid-template-columns: 1fr;
+          gap: 40px;
+        }
+      }
+
+      .docket-stamp {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--gold);
+        border: 1px solid var(--gold-deep);
+        padding: 8px 14px;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        background: rgba(212, 168, 42, 0.05);
+        margin-bottom: 28px;
+      }
+      .docket-stamp .docket-num {
+        color: var(--text);
+      }
+
+      .hero-pre {
+        font-family: var(--mono);
+        font-size: 12px;
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+        color: var(--text-dim);
+        margin-bottom: 14px;
+      }
+      .hero-h {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: clamp(56px, 9vw, 132px);
+        line-height: 0.86;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+      }
+      .hero-h .breakline {
+        display: block;
+      }
+      .hero-h .gold {
+        color: var(--gold);
+      }
+      .hero-h em {
+        font-style: italic;
+        font-weight: 400;
+        font-family: var(--serif);
+        color: var(--gold);
+        text-transform: none;
+        letter-spacing: -0.01em;
+        font-size: 0.85em;
+      }
+      .hero-deck {
+        font-family: var(--serif);
+        font-size: 22px;
+        line-height: 1.45;
+        color: var(--text-mid);
+        max-width: 600px;
+        font-weight: 400;
+      }
+      .hero-deck b {
+        color: var(--text);
+        font-weight: 600;
+      }
+
+      /* JUDGMENT SEAL */
+      .seal {
+        position: relative;
+        background: linear-gradient(180deg, var(--court-2), var(--court));
+        border: 1px solid var(--border);
+        padding: 32px 32px 28px;
+        font-family: var(--mono);
+      }
+      .seal::before {
+        content: '';
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        right: -1px;
+        height: 3px;
+        background: linear-gradient(
+          90deg,
+          var(--strike) 0%,
+          var(--strike) 57%,
+          var(--gold) 57%,
+          var(--gold) 100%
+        );
+      }
+      .seal-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 22px;
+        padding-bottom: 14px;
+        border-bottom: 1px solid var(--border-dim);
+      }
+      .seal-head .label {
+        font-size: 10px;
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+        color: var(--text-dim);
+      }
+      .seal-head .label b {
+        color: var(--strike);
+        font-weight: 700;
+      }
+      .seal-head .vintage {
+        font-size: 10px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--text-faint);
+      }
+      .seal-call {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 0.9;
+        letter-spacing: -0.01em;
+        color: var(--strike);
+        text-transform: uppercase;
+        margin-bottom: 4px;
+        text-shadow: 0 0 32px rgba(178, 42, 54, 0.25);
+      }
+      .seal-callsub {
+        font-family: var(--serif);
+        font-style: italic;
+        font-size: 16px;
+        color: var(--text-mid);
+        margin-bottom: 28px;
+      }
+
+      .vote-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 1px solid var(--border);
+      }
+      .vote-cell {
+        padding: 18px 16px;
+        position: relative;
+      }
+      .vote-cell:first-child {
+        border-right: 1px solid var(--border);
+        background: rgba(178, 42, 54, 0.04);
+      }
+      .vote-cell:last-child {
+        background: rgba(69, 90, 130, 0.04);
+      }
+      .vote-cell .vlabel {
+        font-size: 10px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--text-dim);
+        margin-bottom: 8px;
+      }
+      .vote-cell .vnum {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 1;
+        letter-spacing: -0.01em;
+        margin-bottom: 6px;
+      }
+      .vote-cell.strike .vnum {
+        color: var(--strike);
+      }
+      .vote-cell.uphold .vnum {
+        color: var(--uphold);
+      }
+      .vote-cell .vfoot {
+        font-size: 10px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--text-faint);
+      }
+
+      .seal-foot {
+        margin-top: 22px;
+        padding-top: 14px;
+        border-top: 1px solid var(--border-dim);
+        font-size: 10px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--text-faint);
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .seal-foot .signed {
+        color: var(--gold);
+      }
+
+      /* HERO STAT STRIP */
+      .stat-strip {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+        margin-top: 56px;
+        border-top: 1px solid var(--border-dim);
+        border-bottom: 1px solid var(--border-dim);
+      }
+      @media (max-width: 700px) {
+        .stat-strip {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      .stat-strip > div {
+        padding: 22px 24px;
+        border-right: 1px solid var(--border-dim);
+        font-family: var(--mono);
+      }
+      .stat-strip > div:last-child {
+        border-right: none;
+      }
+      @media (max-width: 700px) {
+        .stat-strip > div:nth-child(2) {
+          border-right: none;
+        }
+      }
+      .stat-strip .k {
+        font-size: 10px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--text-dim);
+        margin-bottom: 6px;
+      }
+      .stat-strip .v {
+        font-family: var(--display);
+        font-size: 32px;
+        font-weight: 700;
+        color: var(--text);
+        letter-spacing: -0.01em;
+        line-height: 1;
+      }
+      .stat-strip .v.gold {
+        color: var(--gold);
+      }
+      .stat-strip .v.strike {
+        color: var(--strike);
+      }
+
+      /* CASE GRID — 90 seconds */
+      .case-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+        border: 1px solid var(--border-dim);
+        background: var(--court);
+      }
+      @media (max-width: 880px) {
+        .case-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      .case-card {
+        padding: 28px 24px;
+        border-right: 1px solid var(--border-dim);
+        border-bottom: 1px solid var(--border-dim);
+      }
+      @media (min-width: 881px) {
+        .case-card:nth-child(4n) {
+          border-right: none;
+        }
+        .case-card:nth-last-child(-n + 4) {
+          border-bottom: none;
+        }
+      }
+      @media (max-width: 880px) {
+        .case-card:nth-child(2n) {
+          border-right: none;
+        }
+      }
+      .case-card .pre {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-bottom: 12px;
+      }
+      .case-card .big {
+        font-family: var(--display);
+        font-size: 44px;
+        font-weight: 800;
+        line-height: 1;
+        color: var(--text);
+        margin-bottom: 10px;
+      }
+      .case-card .big.strike {
+        color: var(--strike);
+      }
+      .case-card .body {
+        font-size: 14.5px;
+        line-height: 1.55;
+        color: var(--text-mid);
+      }
+
+      /* BENCH SECTION */
+      .bench-section {
+        background: radial-gradient(
+          ellipse 80% 100% at 50% 0%,
+          var(--court),
+          var(--bg) 70%
+        );
+        border-top: 1px solid var(--border-dim);
+        border-bottom: 1px solid var(--border-dim);
+      }
+      .bloc-row {
+        margin-top: 16px;
+        margin-bottom: 36px;
+      }
+      .bloc-head {
+        display: flex;
+        align-items: baseline;
+        gap: 16px;
+        margin-bottom: 14px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid var(--border-dim);
+      }
+      .bloc-head .ttl {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 22px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
+      .bloc-head .ttl.maj {
+        color: var(--strike);
+      }
+      .bloc-head .ttl.dis {
+        color: var(--uphold);
+      }
+      .bloc-head .ct {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.2em;
+        color: var(--text-dim);
+        text-transform: uppercase;
+      }
+      .bench-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 14px;
+      }
+      @media (max-width: 980px) {
+        .bench-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      .bench-grid.three {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      @media (max-width: 980px) {
+        .bench-grid.three {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      .justice-card {
+        background: var(--court);
+        border: 1px solid var(--border);
+        padding: 18px;
+        position: relative;
+        transition:
+          transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+          border-color 0.3s;
+      }
+      .justice-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: var(--accent, var(--text-faint));
+      }
+      .justice-card:hover {
+        transform: translateY(-3px);
+        border-color: var(--text-faint);
+      }
+      .justice-card .head {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 12px;
+      }
+      .justice-card .avatar {
+        position: relative;
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+      }
+      .justice-card .avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center top;
+        border-radius: 50%;
+        filter: grayscale(0.25) sepia(0.18) contrast(1.05);
+        background: var(--bg);
+      }
+      .justice-card .avatar::after {
+        content: '';
+        position: absolute;
+        inset: -2px;
+        border-radius: 50%;
+        border: 1.5px solid var(--accent, var(--text-faint));
+        pointer-events: none;
+      }
+      .justice-card .name {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 17px;
+        line-height: 1.05;
+        color: var(--text);
+        margin: 4px 0 2px;
+        text-transform: uppercase;
+        letter-spacing: -0.005em;
+      }
+      .justice-card .role {
+        font-family: var(--mono);
+        font-size: 9.5px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--text-dim);
+      }
+      .justice-card .role b {
+        color: var(--gold);
+        font-weight: 600;
+      }
+      .justice-card .vote-tag {
+        display: inline-block;
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        padding: 4px 10px;
+        margin: 6px 0 14px;
+        border: 1px solid;
+      }
+      .justice-card.majority .vote-tag {
+        color: var(--strike);
+        border-color: var(--strike-deep);
+        background: rgba(178, 42, 54, 0.08);
+      }
+      .justice-card.dissent .vote-tag {
+        color: var(--uphold);
+        border-color: var(--uphold-deep);
+        background: rgba(69, 90, 130, 0.08);
+      }
+      .justice-card .note {
+        font-size: 13.5px;
+        line-height: 1.55;
+        color: var(--text-mid);
+      }
+
+      /* TALLY (forecast vs reality) */
+      .tally {
+        margin-top: 44px;
+        border: 1px solid var(--border);
+        background: var(--court);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      @media (max-width: 700px) {
+        .tally {
+          grid-template-columns: 1fr;
+        }
+      }
+      .tally > div {
+        padding: 24px 26px;
+        font-family: var(--mono);
+        border-right: 1px solid var(--border-dim);
+      }
+      .tally > div:last-child {
+        border-right: none;
+      }
+      @media (max-width: 700px) {
+        .tally > div {
+          border-right: none;
+          border-bottom: 1px solid var(--border-dim);
+        }
+        .tally > div:last-child {
+          border-bottom: none;
+        }
+      }
+      .tally .lbl {
+        font-size: 10px;
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+        color: var(--text-dim);
+        margin-bottom: 12px;
+      }
+      .tally .row {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        font-size: 12px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--text-mid);
+        padding: 8px 0;
+        border-top: 1px dashed var(--border-dim);
+      }
+      .tally .row:first-of-type {
+        border-top: none;
+      }
+      .tally .row .pct {
+        font-family: var(--display);
+        font-size: 22px;
+        letter-spacing: -0.01em;
+        font-weight: 800;
+      }
+      .tally .row .pct.s {
+        color: var(--strike);
+      }
+      .tally .row .pct.u {
+        color: var(--uphold);
+      }
+      .tally .row .pct.p {
+        color: var(--text-faint);
+      }
+
+      /* GROUNDS */
+      .grounds-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+      @media (max-width: 880px) {
+        .grounds-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .ground {
+        background: var(--court);
+        border: 1px solid var(--border);
+        padding: 26px;
+        position: relative;
+      }
+      .ground::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: var(--strike);
+      }
+      .ground.controlling::before {
+        background: linear-gradient(90deg, var(--strike), var(--gold));
+      }
+      .ground.notreached::before {
+        background: var(--text-faint);
+      }
+      .ground-head {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 18px;
+        margin-bottom: 14px;
+      }
+      .ground-num {
+        font-family: var(--display);
+        font-size: 38px;
+        font-weight: 800;
+        color: var(--strike);
+        letter-spacing: -0.01em;
+        line-height: 1;
+      }
+      .ground.notreached .ground-num {
+        color: var(--text-faint);
+      }
+      .ground-status {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        padding: 4px 9px;
+        border: 1px solid var(--strike-deep);
+        color: var(--strike);
+        background: rgba(178, 42, 54, 0.08);
+      }
+      .ground.controlling .ground-status {
+        color: var(--gold);
+        border-color: var(--gold-deep);
+        background: rgba(212, 168, 42, 0.08);
+      }
+      .ground.notreached .ground-status {
+        color: var(--text-faint);
+        border-color: var(--text-faint);
+        background: transparent;
+      }
+      .ground-title {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 1.05;
+        text-transform: uppercase;
+        color: var(--text);
+        margin-bottom: 14px;
+      }
+      .ground-blurb {
+        font-family: var(--serif);
+        font-size: 16px;
+        line-height: 1.55;
+        color: var(--text-mid);
+        margin-bottom: 18px;
+      }
+      .ground-ruling {
+        font-family: var(--serif);
+        font-size: 14.5px;
+        line-height: 1.55;
+        color: var(--text);
+        background: rgba(212, 168, 42, 0.05);
+        border-left: 2px solid var(--gold);
+        padding: 14px 18px;
+      }
+      .ground-ruling b {
+        color: var(--gold);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 10px;
+        font-family: var(--mono);
+        font-weight: 600;
+        display: block;
+        margin-bottom: 4px;
+      }
+
+      /* PULL QUOTES */
+      .quotes-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 22px;
+      }
+      @media (max-width: 880px) {
+        .quotes-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .pullquote {
+        background: linear-gradient(180deg, var(--court-2), var(--court));
+        border: 1px solid var(--border);
+        padding: 32px 30px;
+        position: relative;
+        overflow: hidden;
+      }
+      .pullquote::before {
+        content: '"';
+        position: absolute;
+        top: -20px;
+        left: 18px;
+        font-family: var(--serif);
+        font-size: 160px;
+        line-height: 1;
+        color: var(--gold);
+        opacity: 0.18;
+      }
+      .pullquote .text {
+        font-family: var(--serif);
+        font-style: italic;
+        font-size: 21px;
+        line-height: 1.45;
+        color: var(--text);
+        position: relative;
+        z-index: 1;
+      }
+      .pullquote .attrib {
+        margin-top: 18px;
+        padding-top: 14px;
+        border-top: 1px solid var(--border-dim);
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--gold);
+      }
+      .pullquote .attrib span {
+        color: var(--text-dim);
+        display: block;
+        margin-top: 4px;
+        font-size: 10px;
+      }
+
+      /* TIMELINE */
+      .tl {
+        position: relative;
+        margin-top: 24px;
+        padding-left: 28px;
+        border-left: 1px solid var(--border);
+      }
+      .tl-item {
+        position: relative;
+        padding: 10px 0 22px 24px;
+      }
+      .tl-item::before {
+        content: '';
+        position: absolute;
+        left: -34px;
+        top: 14px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: var(--text-faint);
+        box-shadow: 0 0 0 4px var(--bg);
+      }
+      .tl-item.red::before {
+        background: var(--strike);
+      }
+      .tl-item.green::before {
+        background: var(--verdict);
+      }
+      .tl-item.amber::before {
+        background: var(--gold);
+      }
+      .tl-item.flag::before {
+        background: var(--gold);
+        animation: pulse 2.4s ease-in-out infinite;
+      }
+      .tl-item.now::before {
+        background: var(--strike);
+        animation: pulse 1.6s ease-in-out infinite;
+        width: 16px;
+        height: 16px;
+        left: -36px;
+      }
+      .tl-date {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-bottom: 6px;
+      }
+      .tl-item.now .tl-date {
+        color: var(--strike);
+        font-weight: 700;
+      }
+      .tl-label {
+        font-family: var(--serif);
+        font-size: 16px;
+        line-height: 1.55;
+        color: var(--text-mid);
+      }
+      .tl-item.now .tl-label {
+        color: var(--text);
+        font-weight: 600;
+      }
+
+      /* WHY HUGE */
+      .reasons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+        border: 1px solid var(--border);
+        background: var(--court);
+      }
+      @media (max-width: 880px) {
+        .reasons {
+          grid-template-columns: 1fr;
+        }
+      }
+      .reason {
+        padding: 32px 30px;
+        border-right: 1px solid var(--border-dim);
+        border-bottom: 1px solid var(--border-dim);
+        position: relative;
+      }
+      @media (min-width: 881px) {
+        .reason:nth-child(2n) {
+          border-right: none;
+        }
+        .reason:nth-last-child(-n + 2) {
+          border-bottom: none;
+        }
+        .reason:last-child {
+          grid-column: 1 / -1;
+          border-right: none;
+          background: linear-gradient(135deg, var(--court-2), var(--court));
+        }
+      }
+      .reason-num {
+        font-family: var(--display);
+        font-size: 14px;
+        font-weight: 800;
+        letter-spacing: 0.2em;
+        color: var(--gold);
+        margin-bottom: 12px;
+      }
+      .reason-h {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 1.05;
+        text-transform: uppercase;
+        color: var(--text);
+        margin-bottom: 14px;
+        letter-spacing: -0.005em;
+      }
+      .reason-body {
+        font-family: var(--serif);
+        font-size: 15.5px;
+        line-height: 1.6;
+        color: var(--text-mid);
+      }
+      .reason-body b {
+        color: var(--text);
+      }
+
+      /* REACTIONS */
+      .reaction-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+      @media (max-width: 880px) {
+        .reaction-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .reaction-col {
+        background: var(--court);
+        border: 1px solid var(--border);
+        padding: 24px;
+      }
+      .reaction-col-head {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        margin-bottom: 18px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid var(--border-dim);
+      }
+      .reaction-col-head .ttl {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 22px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
+      .reaction-col-head .ttl.right {
+        color: var(--gold);
+      }
+      .reaction-col-head .ttl.left {
+        color: var(--uphold);
+      }
+      .reaction-col-head .tag {
+        font-family: var(--mono);
+        font-size: 9.5px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--text-dim);
+      }
+      .reaction {
+        padding: 16px 0;
+        border-top: 1px dashed var(--border-dim);
+      }
+      .reaction:first-of-type {
+        border-top: none;
+        padding-top: 0;
+      }
+      .reaction .who {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 17px;
+        text-transform: uppercase;
+        color: var(--text);
+        letter-spacing: -0.005em;
+      }
+      .reaction .when {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--text-dim);
+        margin-bottom: 8px;
+      }
+      .reaction .q {
+        font-family: var(--serif);
+        font-style: italic;
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--text-mid);
+        padding: 8px 0 10px;
+      }
+      .reaction .q::before {
+        content: '"';
+        color: var(--gold);
+        font-style: normal;
+      }
+      .reaction .q::after {
+        content: '"';
+        color: var(--gold);
+        font-style: normal;
+      }
+      .reaction .nb {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-top: 4px;
+      }
+      .reaction-col.right-col .reaction .nb {
+        color: var(--strike);
+      }
+      .reaction-col.left-col .reaction .nb {
+        color: var(--text-faint);
+      }
+
+      /* WHAT'S NEXT */
+      .next-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+        border: 1px solid var(--border);
+      }
+      @media (max-width: 880px) {
+        .next-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .next {
+        padding: 28px 26px;
+        border-right: 1px solid var(--border-dim);
+        border-bottom: 1px solid var(--border-dim);
+      }
+      @media (min-width: 881px) {
+        .next:nth-child(2n) {
+          border-right: none;
+        }
+        .next:nth-last-child(-n + 2) {
+          border-bottom: none;
+        }
+      }
+      @media (max-width: 880px) {
+        .next:last-child {
+          border-bottom: none;
+        }
+      }
+      .next-num {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.22em;
+        color: var(--gold);
+        margin-bottom: 10px;
+      }
+      .next-h {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 1.1;
+        text-transform: uppercase;
+        color: var(--text);
+        margin-bottom: 12px;
+      }
+      .next-body {
+        font-size: 15px;
+        line-height: 1.55;
+        color: var(--text-mid);
+      }
+
+      /* QUOTABLES */
+      .quotables {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+        border: 1px solid var(--border);
+      }
+      @media (max-width: 700px) {
+        .quotables {
+          grid-template-columns: 1fr;
+        }
+      }
+      .quotable {
+        padding: 26px 24px;
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: clamp(20px, 2.4vw, 28px);
+        line-height: 1.1;
+        letter-spacing: -0.005em;
+        color: var(--text);
+        border-right: 1px solid var(--border-dim);
+        border-bottom: 1px solid var(--border-dim);
+        text-transform: uppercase;
+      }
+      @media (min-width: 701px) {
+        .quotable:nth-child(2n) {
+          border-right: none;
+        }
+        .quotable:nth-last-child(-n + 2) {
+          border-bottom: none;
+        }
+      }
+      .quotable:nth-child(odd) {
+        background: linear-gradient(135deg, var(--court-2), var(--court));
+      }
+
+      /* SOURCES */
+      .sources {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+      @media (max-width: 880px) {
+        .sources {
+          grid-template-columns: 1fr;
+        }
+      }
+      .src {
+        display: block;
+        padding: 16px 18px;
+        background: var(--court);
+        border: 1px solid var(--border);
+        text-decoration: none;
+        transition:
+          border-color 0.25s,
+          transform 0.25s;
+      }
+      .src:hover {
+        border-color: var(--gold-deep);
+        transform: translateY(-2px);
+      }
+      .src .src-pub {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-bottom: 6px;
+      }
+      .src .src-title {
+        font-family: var(--serif);
+        font-size: 15px;
+        line-height: 1.4;
+        color: var(--text);
+      }
+
+      /* BOTTOM LINE */
+      .bottomline {
+        background:
+          radial-gradient(
+            ellipse 60% 60% at 50% 50%,
+            var(--strike-glow),
+            transparent 70%
+          ),
+          var(--bg);
+        padding: 120px 0;
+        text-align: center;
+        border-top: 1px solid var(--border-dim);
+      }
+      .bottomline-tag {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-bottom: 22px;
+      }
+      .bottomline-h {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: clamp(56px, 9vw, 124px);
+        line-height: 0.88;
+        letter-spacing: -0.015em;
+        text-transform: uppercase;
+        color: var(--text);
+        margin-bottom: 26px;
+      }
+      .bottomline-h em {
+        font-style: italic;
+        font-weight: 400;
+        font-family: var(--serif);
+        color: var(--gold);
+        text-transform: none;
+        font-size: 0.85em;
+        letter-spacing: -0.01em;
+      }
+      .bottomline-deck {
+        font-family: var(--serif);
+        font-size: 22px;
+        line-height: 1.5;
+        color: var(--text-mid);
+        max-width: 760px;
+        margin: 0 auto 36px;
+      }
+      .bottomline-deck b {
+        color: var(--text);
+      }
+      .bottomline-back {
+        font-family: var(--mono);
+        font-size: 12px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--gold);
+        text-decoration: none;
+        border: 1px solid var(--gold-deep);
+        padding: 14px 24px;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        transition: background 0.25s;
+      }
+      .bottomline-back:hover {
+        background: rgba(212, 168, 42, 0.1);
+      }
+
+      /* END STRIP */
+      .end-strip {
+        padding: 24px 0 32px;
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--text-faint);
+        background: var(--void);
+        border-top: 1px solid var(--border-dim);
+      }
+      .end-strip .row {
+        display: flex;
+        justify-content: space-between;
+        gap: 14px;
+        flex-wrap: wrap;
+      }
+      .end-strip a {
+        color: var(--gold);
+        text-decoration: none;
+      }
+      .end-strip a:hover {
+        color: var(--bone);
+      }
+
+      /* REVEAL */
+      [data-reveal] {
+        opacity: 0;
+        transform: translateY(24px);
+        transition:
+          opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+          transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      [data-reveal].in {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <!-- CAPTION RIBBON -->
+      <div class="caption-ribbon">
+        <div class="row">
+          <span class="dot"></span>
+          <span><b>SCOTT v. McDOUGLE</b></span>
+          <span>Supreme Court of Virginia</span>
+          <span class="strike">Opinion delivered · 4-3 STRIKE</span>
+          <span class="gold">Filed 8 May 2026</span>
+          <span style="margin-left:auto">Bearing Freedom verdict brief</span>
+        </div>
+      </div>
+
+      <!-- HERO -->
+      <header class="hero">
+        <div class="wrap">
+          <div class="hero-grid">
+            <div>
+              <div class="docket-stamp">
+                <span>Verdict brief</span>
+                <span class="docket-num">№ BF-VA-2026-05</span>
+              </div>
+              <p class="hero-pre">
+                Mid-decade redistricting · Virginia · Decided
+              </p>
+              <h1 class="hero-h">
+                <span class="breakline">WE</span>
+                <span class="breakline gold">WON.</span>
+                <span class="breakline"><em>4 to 3.</em></span>
+              </h1>
+              <p class="hero-deck">
+                The Supreme Court of Virginia just threw out the Democrats'
+                <b>mid-decade redistricting amendment</b>. Justice D. Arthur
+                Kelsey wrote for a 4-3 majority. The April 21 referendum is <b
+                  >null and void</b
+                >. The bipartisan-commission map drawn under the 2020 amendment
+                governs the November 2026 midterms. The 10-1 power grab never
+                legally happened.
+              </p>
+            </div>
+
+            <div class="seal">
+              <div class="seal-head">
+                <div class="label">
+                  Judgment · <b>STRIKE</b>
+                </div>
+                <div class="vintage">26-05-08</div>
+              </div>
+              <div class="seal-call">STRUCK.</div>
+              <div class="seal-callsub">— and the result is null and void.</div>
+              <div class="vote-grid">
+                <div class="vote-cell strike">
+                  <div class="vlabel">Majority</div>
+                  <div class="vnum">4</div>
+                  <div class="vfoot">
+                    Kelsey · McCullough · Russell · Chafin
+                  </div>
+                </div>
+                <div class="vote-cell uphold">
+                  <div class="vlabel">Dissent</div>
+                  <div class="vnum">3</div>
+                  <div class="vfoot">Powell · Mann · Fulton</div>
+                </div>
+              </div>
+              <div class="seal-foot">
+                <span>Article XII, Section 1 — violated</span>
+                <span class="signed">— BF Editorial</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="stat-strip">
+            <div>
+              <div class="k">Final tally</div>
+              <div class="v strike">4&ndash;3</div>
+              <div class="k" style="margin-top:6px;color:var(--text-faint)">
+                Strike · Kelsey writing
+              </div>
+            </div>
+            <div>
+              <div class="k">Days from passage to ballot</div>
+              <div class="v gold">46</div>
+              <div class="k" style="margin-top:6px;color:var(--text-faint)">
+                Constitution requires 90
+              </div>
+            </div>
+            <div>
+              <div class="k">U.S. House seats saved</div>
+              <div class="v">~4</div>
+              <div class="k" style="margin-top:6px;color:var(--text-faint)">
+                10-1 map never takes effect
+              </div>
+            </div>
+            <div>
+              <div class="k">Public money on a void election</div>
+              <div class="v strike">$5.2M</div>
+              <div class="k" style="margin-top:6px;color:var(--text-faint)">
+                ~$100M outside spending on top
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- I — 90 SECONDS -->
+      <section class="section">
+        <div class="wrap">
+          <div data-reveal>
+            <div class="section-tag">I · The hammer fell</div>
+            <h2 class="section-h">90&nbsp;Seconds.</h2>
+            <p class="section-sub">
+              What happened, in the smallest possible number of words, for
+              anyone who is just landing on this story now.
+            </p>
+          </div>
+
+          <div class="case-grid" data-reveal>
+            <div class="case-card">
+              <div class="pre">The court</div>
+              <div class="big">SCOVA</div>
+              <p class="body">
+                Supreme Court of Virginia ruled <b>4-3</b> on May 8, 2026 that the
+                General Assembly violated the Virginia Constitution.
+              </p>
+            </div>
+            <div class="case-card">
+              <div class="pre">The author</div>
+              <div class="big">Kelsey</div>
+              <p class="body">
+                Justice D. Arthur Kelsey wrote the majority. The same justice
+                whose reappointment vote sits in eight months &mdash; with the
+                same legislature he just ruled against.
+              </p>
+            </div>
+            <div class="case-card">
+              <div class="pre">The constitutional violation</div>
+              <div class="big strike">Art. XII §1</div>
+              <p class="body">
+                The amendment was rushed onto the ballot in
+                <b>46&nbsp;days</b>. The Constitution requires
+                <b>at least 90</b>. The cooling-off period is not optional.
+              </p>
+            </div>
+            <div class="case-card">
+              <div class="pre">The remedy</div>
+              <div class="big strike">Null</div>
+              <p class="body">
+                The April 21 referendum is <b>null and void</b>. The amendment
+                never amended anything. The 2020 commission map governs 2026.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- II — HOW THEY VOTED -->
+      <section class="section bench-section">
+        <div class="wrap">
+          <div data-reveal>
+            <div class="section-tag">II · How they voted</div>
+            <h2 class="section-h">
+              Four held the line.<br /><em>Three didn't.</em>
+            </h2>
+            <p class="section-sub">
+              The full conservative wing held — Kelsey, McCullough, Russell, and
+              Chafin all signed the strike. The three liberal-aligned justices
+              dissented. This is exactly the bloc structure we forecast on May
+              7. The keystone McCullough vote held.
+            </p>
+          </div>
+
+          <div data-reveal>
+            <div class="bloc-row">
+              <div class="bloc-head">
+                <div class="ttl maj">Majority &mdash; Strike</div>
+                <div class="ct">4 votes · Kelsey writing</div>
+              </div>
+              <div class="bench-grid">
+                {
+                  justices
+                    .filter((j) => j.bench === 'majority')
+                    .map((j) => (
+                      <div
+                        class={`justice-card ${j.bench}`}
+                        style={`--accent: ${j.color}`}
+                      >
+                        <div class="head">
+                          <div class="avatar">
+                            <img
+                              src={`/images/justices/${j.id}.jpg`}
+                              alt={`Justice ${j.name}`}
+                              loading="lazy"
+                            />
+                          </div>
+                          <div>
+                            <div class="name">{j.name}</div>
+                            <div class="role">
+                              {j.role} · <b>{j.bloc}</b>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="vote-tag">{j.vote}</div>
+                        <p class="note">{j.note}</p>
+                      </div>
+                    ))
+                }
+              </div>
+            </div>
+
+            <div class="bloc-row">
+              <div class="bloc-head">
+                <div class="ttl dis">Dissent &mdash; Uphold</div>
+                <div class="ct">3 votes</div>
+              </div>
+              <div class="bench-grid three">
+                {
+                  justices
+                    .filter((j) => j.bench === 'dissent')
+                    .map((j) => (
+                      <div
+                        class={`justice-card ${j.bench}`}
+                        style={`--accent: ${j.color}`}
+                      >
+                        <div class="head">
+                          <div class="avatar">
+                            <img
+                              src={`/images/justices/${j.id}.jpg`}
+                              alt={`Justice ${j.name}`}
+                              loading="lazy"
+                            />
+                          </div>
+                          <div>
+                            <div class="name">{j.name}</div>
+                            <div class="role">
+                              {j.role} · <b>{j.bloc}</b>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="vote-tag">{j.vote}</div>
+                        <p class="note">{j.note}</p>
+                      </div>
+                    ))
+                }
+              </div>
+            </div>
+
+            <div class="tally" data-reveal>
+              <div>
+                <div class="lbl">May 7 forecast</div>
+                <div class="row">
+                  <span>Strike</span>
+                  <span class="pct s">60%</span>
+                </div>
+                <div class="row">
+                  <span>Uphold</span>
+                  <span class="pct u">35%</span>
+                </div>
+                <div class="row">
+                  <span>Punt</span>
+                  <span class="pct p">5%</span>
+                </div>
+              </div>
+              <div>
+                <div class="lbl">May 8 reality</div>
+                <div class="row">
+                  <span>Strike</span>
+                  <span class="pct s">4&ndash;3</span>
+                </div>
+                <div class="row">
+                  <span>Author</span>
+                  <span class="pct s">Kelsey</span>
+                </div>
+                <div class="row">
+                  <span>Scenario A — narrow strike</span>
+                  <span class="pct s">CALLED</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- III — WHY WE WON -->
+      <section class="section">
+        <div class="wrap">
+          <div data-reveal>
+            <div class="section-tag">III · Why we won</div>
+            <h2 class="section-h">
+              Four arguments.<br /><em>Two carried the day.</em>
+            </h2>
+            <p class="section-sub">
+              Republicans needed to win on any one of four grounds. The court
+              didn't have to pick. Two of the four were dispositive together —
+              and the others didn't need to be reached.
+            </p>
+          </div>
+
+          <div class="grounds-grid" data-reveal>
+            {
+              grounds.map((g) => {
+                const cls =
+                  g.status === 'Controlling'
+                    ? 'controlling'
+                    : g.status === 'Not reached'
+                      ? 'notreached'
+                      : '';
+                return (
+                  <div class={`ground ${cls}`}>
+                    <div class="ground-head">
+                      <div class="ground-num">{g.n}</div>
+                      <div class="ground-status">{g.status}</div>
+                    </div>
+                    <h3 class="ground-title">{g.title}</h3>
+                    <p class="ground-blurb">{g.blurb}</p>
+                    <div class="ground-ruling">
+                      <b>What the court said</b>
+                      {g.ruling}
+                    </div>
+                  </div>
+                );
+              })
+            }
+          </div>
+        </div>
+      </section>
+
+      <!-- IV — KELSEY'S WORDS -->
+      <section class="section">
+        <div class="wrap-narrow">
+          <div data-reveal>
+            <div class="section-tag">IV · Kelsey, in his own words</div>
+            <h2 class="section-h">
+              The lines that<br /><em>nuked the map.</em>
+            </h2>
+            <p class="section-sub">
+              The whole opinion is worth reading. These are the lines that will
+              be quoted in every share graphic, every video, every brief that
+              cites this case for the rest of the decade.
+            </p>
+          </div>
+
+          <div class="quotes-grid" data-reveal>
+            <div class="pullquote">
+              <p class="text">
+                This violation irreparably undermines the integrity of the
+                resulting referendum vote and renders it null and void.
+              </p>
+              <div class="attrib">
+                Kelsey, J. — Majority opinion
+                <span>The remedy in the court's exact words.</span>
+              </div>
+            </div>
+            <div class="pullquote">
+              <p class="text">
+                The constitutional violation incurably taints the resulting
+                referendum vote and nullifies its legal efficacy.
+              </p>
+              <div class="attrib">
+                Kelsey, J. — Majority opinion
+                <span>"Incurably." There is no fix that saves it.</span>
+              </div>
+            </div>
+            <div class="pullquote">
+              <p class="text">
+                The manner in which this amendment was submitted to the voters
+                is, in modern Virginia practice, unprecedented.
+              </p>
+              <div class="attrib">
+                Kelsey, J. — Majority opinion
+                <span>Forty-six days. The Constitution says ninety.</span>
+              </div>
+            </div>
+            <div class="pullquote">
+              <p class="text">
+                The Constitution does not bend to the urgencies of any
+                particular General Assembly, however well-intentioned its
+                majority believes itself to be.
+              </p>
+              <div class="attrib">
+                Kelsey, J. — Majority opinion
+                <span>The principle, in one sentence.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- V — TIMELINE -->
+      <section class="section">
+        <div class="wrap-narrow">
+          <div data-reveal>
+            <div class="section-tag">V · How we got here</div>
+            <h2 class="section-h">A&nbsp;manufactured<br />emergency.</h2>
+            <p class="section-sub">
+              The case is procedurally dense. Stripped down, it's the story of a
+              legislature that tried to outrun the Virginia Constitution and got
+              caught.
+            </p>
+          </div>
+
+          <div class="tl" data-reveal>
+            {
+              timeline.map((t) => (
+                <div class={`tl-item ${t.tone}`}>
+                  <div class="tl-date">{t.date}</div>
+                  <div class="tl-label">{t.label}</div>
+                </div>
+              ))
+            }
+          </div>
+        </div>
+      </section>
+
+      <!-- VI — WHY HUGE -->
+      <section class="section">
+        <div class="wrap">
+          <div data-reveal>
+            <div class="section-tag">VI · Why this is huge</div>
+            <h2 class="section-h">
+              Five&nbsp;reasons<br /><em>this matters.</em>
+            </h2>
+            <p class="section-sub">
+              Beyond the legal text. What today's ruling actually preserves —
+              and prevents — over the next decade.
+            </p>
+          </div>
+
+          <div class="reasons" data-reveal>
+            {
+              reasonsHuge.map((r) => (
+                <div class="reason">
+                  <div class="reason-num">№ {r.n}</div>
+                  <h3 class="reason-h">{r.h}</h3>
+                  <p class="reason-body">{r.body}</p>
+                </div>
+              ))
+            }
+          </div>
+        </div>
+      </section>
+
+      <!-- VII — REACTIONS -->
+      <section class="section">
+        <div class="wrap">
+          <div data-reveal>
+            <div class="section-tag">VII · Reactions</div>
+            <h2 class="section-h">
+              One side won.<br /><em>The other lied.</em>
+            </h2>
+            <p class="section-sub">
+              How the major actors are framing the ruling — and how their
+              framing has aged in the minutes and hours since the opinion
+              dropped.
+            </p>
+          </div>
+
+          <div class="reaction-grid" data-reveal>
+            <div class="reaction-col right-col">
+              <div class="reaction-col-head">
+                <div class="ttl right">Our side</div>
+                <div class="tag">Vindicated</div>
+              </div>
+              {
+                reactionsRight.map((r) => (
+                  <div class="reaction">
+                    <div class="who">{r.name}</div>
+                    <div class="when">{r.role}</div>
+                    <div class="q">{r.quote}</div>
+                    <div class="nb">— {r.note}</div>
+                  </div>
+                ))
+              }
+            </div>
+            <div class="reaction-col left-col">
+              <div class="reaction-col-head">
+                <div class="ttl left">The other side</div>
+                <div class="tag">Aged poorly</div>
+              </div>
+              {
+                reactionsLeft.map((r) => (
+                  <div class="reaction">
+                    <div class="who">{r.name}</div>
+                    <div class="when">{r.role}</div>
+                    <div class="q">{r.quote}</div>
+                    <div class="nb">{r.note}</div>
+                  </div>
+                ))
+              }
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIII — WHAT'S NEXT -->
+      <section class="section">
+        <div class="wrap">
+          <div data-reveal>
+            <div class="section-tag">VIII · What's next</div>
+            <h2 class="section-h">
+              Where the fight<br /><em>goes from here.</em>
+            </h2>
+            <p class="section-sub">
+              The merits ruling is the end of the line for SCOVA. It is not
+              quite the end of the line for the case.
+            </p>
+          </div>
+
+          <div class="next-grid" data-reveal>
+            {
+              whatsNext.map((n) => (
+                <div class="next">
+                  <div class="next-num">№ {n.n}</div>
+                  <h3 class="next-h">{n.h}</h3>
+                  <p class="next-body">{n.body}</p>
+                </div>
+              ))
+            }
+          </div>
+        </div>
+      </section>
+
+      <!-- IX — QUOTABLES -->
+      <section class="section">
+        <div class="wrap">
+          <div data-reveal>
+            <div class="section-tag">IX · Share graphics</div>
+            <h2 class="section-h">
+              Lines built<br /><em>for the share button.</em>
+            </h2>
+            <p class="section-sub">
+              Pull-quote-ready. Drop into a thumbnail, a tweet, a YouTube
+              chapter title, a podcast cold-open. Free for any pro-2A creator to
+              lift verbatim.
+            </p>
+          </div>
+
+          <div class="quotables" data-reveal>
+            {quotables.map((q) => <div class="quotable">{q}</div>)}
+          </div>
+        </div>
+      </section>
+
+      <!-- X — SOURCES -->
+      <section class="section section-tight">
+        <div class="wrap">
+          <div data-reveal>
+            <div class="section-tag">X · Source documents</div>
+            <h2 class="section-h" style="font-size: clamp(32px, 4.6vw, 56px);">
+              Read it yourself.
+            </h2>
+            <p class="section-sub">
+              Primary news coverage and the relevant statute. Verify any of the
+              above against the underlying record.
+            </p>
+          </div>
+
+          <div class="sources" data-reveal>
+            {
+              sources.map((s) => (
+                <a class="src" href={s.href} target="_blank" rel="noopener">
+                  <div class="src-pub">{s.pub}</div>
+                  <div class="src-title">{s.title}</div>
+                </a>
+              ))
+            }
+          </div>
+        </div>
+      </section>
+
+      <!-- BOTTOM LINE -->
+      <section class="bottomline">
+        <div class="wrap-narrow">
+          <div class="bottomline-tag">Bottom line</div>
+          <h2 class="bottomline-h">
+            The commission<br /><em>lives.</em>
+          </h2>
+          <p class="bottomline-deck">
+            The map you voted for in 2020 is still the map. The bipartisan
+            commission Virginians enshrined by a 2-to-1 margin survived its
+            first real test. <b
+              >Mid-decade gerrymandering is dead in Virginia.</b
+            > The 90-day cooling-off period is not optional. The intervening election
+            is not a formality. Constitutional process matters. <b>4&ndash;3.</b
+            >
+          </p>
+          <a href="/extras" class="bottomline-back">
+            <span>← Back to extras</span>
+          </a>
+        </div>
+      </section>
+
+      <div class="end-strip">
+        <div class="wrap row">
+          <span>Filed 8 May 2026 · BF Editorial</span>
+          <span
+            ><a href="/scovaforecast">Read the May 7 forecast</a> · <a
+              href="/scovascott">The case file</a
+            > · <a href="/varedistricting">The pre-vote brief</a> · <a
+              href="/extras">All extras</a
+            ></span
+          >
+        </div>
+      </div>
+    </main>
+
+    <script is:inline>
+      const io = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('in');
+              io.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.12, rootMargin: '0px 0px -60px 0px' },
+      );
+      document
+        .querySelectorAll('[data-reveal]')
+        .forEach((el) => io.observe(el));
+    </script>
+  </body>
+</html>
