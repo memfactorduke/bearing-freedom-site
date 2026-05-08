@@ -18,8 +18,6 @@ const justices = [
     appointer: 'Republican GA · 2015 (unanimous)',
     termEnds: 'Jan 31, 2027',
     methodology: 'Originalist · textualist',
-    forecast: 'Strike · very high confidence',
-    reapp: 'Eight months out, with the Dem GA he just ruled against',
     bio: "The court's most explicit originalist. Author of the Vlaming lead majority. Cardinal News flagged the awkwardness of his reappointment two weeks before the ruling — the same legislature whose handiwork he was reviewing gets to vote on whether he keeps his seat. He ruled the right way anyway.",
     note: 'Wrote the majority opinion. The constitutional violation "incurably taints the resulting referendum vote." That is his line. That is the line that ends the case.',
   },
@@ -36,10 +34,8 @@ const justices = [
     appointer: 'Republican GA · 2016',
     termEnds: 'Mar 2, 2028',
     methodology: 'Textualist scholar',
-    forecast: 'Strike (lean) · medium-high confidence',
-    reapp: 'March 2028 — likely still under Dem GA',
     bio: 'The keystone vote. Author of "A Vanishing Virginia Constitution?" — but split from the conservative wing on the October 2025 contempt case. If the bloc held, he authored. If he defected, the strike failed. The bloc held.',
-    note: 'Held. Signed the Kelsey majority. The textualist scholar did not blink despite real reappointment exposure under what will likely be a hostile General Assembly in 2028.',
+    note: 'Signed the Kelsey majority. The textualist scholar did not blink despite real reappointment exposure under what will likely be a hostile General Assembly in 2028.',
   },
   {
     id: 'russell',
@@ -54,8 +50,6 @@ const justices = [
     appointer: 'Divided GA · 2022 (Republican-side pick)',
     termEnds: 'Jun 30, 2034',
     methodology: 'Conservative · Vlaming joiner',
-    forecast: 'Strike (lean) · medium-high confidence',
-    reapp: 'Eight years out — no political need to wobble',
     bio: "Cuccinelli's former Deputy AG for Civil Litigation. Argued the Cuccinelli-vs-UVA-climate-emails case for the Commonwealth. Joined Vlaming in full and joined Chafin's October 2025 contempt dissent.",
     note: 'Predictable strike. Joined the majority. No public separate writing reported. Career arc as Republican-side state lawyer pointed strike from day one.',
   },
@@ -71,11 +65,9 @@ const justices = [
     chair: 5,
     appointer: 'Republican GA · 2019',
     termEnds: 'Aug 31, 2031',
-    methodology: 'Mild conservative',
-    forecast: 'Toss-up · low-medium confidence',
-    reapp: 'Mandatory retirement Oct 2028 — nothing to lose',
-    bio: 'Sister of late Republican state Sen. Ben Chafin. Tazewell County roots — Judge Hurley sits in her old circuit. Authored the October 2025 contempt dissent on deference-to-trial-court grounds. ~30 months from forced retirement at 73.',
-    note: 'We called her a toss-up. She was not a toss-up. Every incentive pointed strike — family network, rural southwest VA context, deference-to-Hurley instinct, no career to protect. She signed.',
+    methodology: 'Conservative · Tazewell roots',
+    bio: 'Sister of the late Republican state Sen. Ben Chafin. Tazewell County roots — Judge Hurley sits in her old circuit. Joined Vlaming. Authored the October 2025 contempt dissent on deference-to-trial-court grounds. ~30 months from forced retirement at 73.',
+    note: 'Reliable conservative vote with deep family ties to Republican politics in southwest Virginia. Signed Kelsey without fuss. The deference-to-Hurley instinct that drove her October 2025 dissent was on full display here.',
   },
   {
     id: 'powell',
@@ -90,10 +82,8 @@ const justices = [
     appointer: 'Republican GA · 2011 (Dem-registered consensus pick)',
     termEnds: 'Jul 31, 2035',
     methodology: 'Center-institutionalist',
-    forecast: 'Uphold · high confidence',
-    reapp: 'CJ tenure caps at four years under mandatory retirement',
     bio: 'First African-American woman Chief Justice in Virginia history. Concurred in the result of Vlaming but rejected the textualist methodology — proposed strict-scrutiny instead. Strong institutional reasons not to define her CJ tenure with a 4-3 nullification.',
-    note: "Dissented on 1912-line deference grounds. The institutionalist did exactly what we forecast: deferred to the legislature's political judgment rather than strike on procedural grounds.",
+    note: "Dissented on 1912-line deference grounds. The institutionalist deferred to the legislature's political judgment rather than strike on procedural grounds.",
   },
   {
     id: 'mann',
@@ -108,8 +98,6 @@ const justices = [
     appointer: "Divided GA · 2022 (Senate Democrats' pick)",
     termEnds: 'Jul 31, 2034',
     methodology: '"As times change" living-constitution',
-    forecast: 'Uphold · high confidence',
-    reapp: 'Late 2030s — no near-term exposure',
     bio: 'The cleanest Democratic-aligned vote on the court. Only true partial dissenter in Vlaming — criticized the majority\'s "super scrutiny." Senate Democrats put him on the bench specifically to be a vote like this one.',
     note: 'Dissented as expected. No appetite on his record for blowing up legislative work product. Delivered exactly the vote his appointers paid for.',
   },
@@ -126,8 +114,6 @@ const justices = [
     appointer: 'Democratic GA · 2025',
     termEnds: 'Dec 31, 2037',
     methodology: 'Norfolk circuit · drug-court rehabilitative',
-    forecast: 'Uphold · medium-high confidence',
-    reapp: '~2031 — no near-term exposure',
     bio: "Newest justice. Sworn in January 1, 2026; formally invested April 27 — the same day as oral argument. Elevated by the Democratic GA to replace Goodwyn. His first major public act was either to ratify or torch his patrons' signature legislative win.",
     note: 'He ratified. Dissented in defense of the Democratic legislature that elevated him. Four months on the bench, voted exactly the way the people who put him there wanted.',
   },
@@ -136,6 +122,21 @@ const justices = [
 const grounds = [
   {
     n: '01',
+    title: 'The ballot language itself',
+    cleanness: 'The smoking gun',
+    cleannessScore: 4,
+    isBallot: true,
+    source:
+      'VA Dept. of Elections · April 21, 2026 special election · question presented to voters',
+    blurb:
+      'This is the exact question 1.27 million Virginians voted on. Notice what isn\'t on the ballot: the actual map. Voters were asked to approve the POWER to redraw districts, not the 10-1 layout itself. The phrase "restore fairness" is what Judge Hurley called "flagrantly misleading" on February 19 — the amendment would have handed map-drawing to the General Assembly\'s majority party, a definitionally partisan body, while telling voters they were restoring fairness. The word "temporarily" was the legal fiction — the new map would have been locked in for the rest of the decade, well past the 2030 census.',
+    why: 'The most accessible argument for the case. You don\'t need a constitutional textualism PhD to read the question and see the trick. "Restore fairness" — to a 10-1 map. "Temporarily" — until 2031. Every honest reader sees it. Former AG Miyares put it bluntly: Spanberger lied to the voters.',
+    status: 'Not reached',
+    ruling:
+      'The court did not need to reach this ground. The Article XII, Section 1 procedural violations were dispositive — they nullified the vote regardless of what the question said. The misleading-language theory remains alive in the trial-court record but unresolved on the merits.',
+  },
+  {
+    n: '02',
     title: 'Special-session scope',
     cleanness: 'Cleanest',
     cleannessScore: 5,
@@ -150,7 +151,7 @@ const grounds = [
       'Sustained as part of the broader Article XII, Section 1 holding. The court treated the procedural failure as a single integrated violation rather than a stand-alone basis.',
   },
   {
-    n: '02',
+    n: '03',
     title: 'Intervening-election timing',
     cleanness: 'Broadest textualist hook',
     cleannessScore: 4,
@@ -165,7 +166,7 @@ const grounds = [
       'Kelsey called this submission "unprecedented." The constitutional violation "incurably taints the resulting referendum vote and nullifies its legal efficacy." This is the line that ended the case.',
   },
   {
-    n: '03',
+    n: '04',
     title: '90-day cooling-off period',
     cleanness: 'Cleanest math',
     cleannessScore: 5,
@@ -178,21 +179,6 @@ const grounds = [
     status: 'Controlling',
     ruling:
       'The 90-day floor is not optional. The cooling-off period is a guardrail baked into the constitution precisely to stop the kind of rushed partisan stunt the Democrats just attempted.',
-  },
-  {
-    n: '04',
-    title: 'Misleading ballot title',
-    cleanness: 'Aggressive read',
-    cleannessScore: 3,
-    source: 'Tazewell County Circuit ruling, Feb. 19, 2026',
-    quote:
-      "The ballot title's framing of the proposed amendment as one to 'restore fairness' to congressional districting is flagrantly misleading. It will not restore fairness. It will reassign the drawing of those districts from a bipartisan citizen-and-legislator commission to the General Assembly's majority party — a definitionally partisan body. The voters cannot give meaningful consent to a measure they have been actively misled about.",
-    blurb:
-      "The ballot question asked whether the Constitution should be amended to 'restore fairness.' Judge Hurley found that language 'flagrantly misleading' on February 19. The RNC carried this argument as a parallel petition. Former AG Jason Miyares put it bluntly: Spanberger 'lied to the voters.'",
-    why: "The least clean of the four. Requires the court to characterize the GA's drafting as legally deceptive — a step most state high courts are reluctant to take.",
-    status: 'Not reached',
-    ruling:
-      'The court did not need to reach this ground. The Article XII, Section 1 violations were dispositive. The misleading-language theory remains alive in the trial-court record but unresolved on the merits.',
   },
 ];
 
@@ -269,12 +255,6 @@ const timeline = [
     tone: 'amber',
   },
   {
-    date: 'May 7, 2026',
-    label:
-      'Bearing Freedom forecast brief published. Strike 60 / Uphold 35 / Punt 5.',
-    tone: 'context',
-  },
-  {
     date: 'May 8, 2026',
     label:
       'TODAY. SCOVA issues 4-3 opinion. Kelsey writes for the majority. Amendment struck. April 21 results void. Bipartisan-commission map governs 2026.',
@@ -321,57 +301,6 @@ const quotables = [
   'COURT-SHOPPING, DON SCOTT CALLED IT. THE SUPREME COURT JUST CALLED HIM WRONG.',
 ];
 
-const reactionsRight = [
-  {
-    name: 'President Donald J. Trump',
-    role: 'Truth Social, Apr. 22 (post-referendum)',
-    quote:
-      'As everyone knows, I am an extraordinarily brilliant person, and even I had no idea what the hell they were talking about in the Referendum, and neither do they! Let\'s see if the Courts will fix this travesty of "Justice."',
-    note: 'They did.',
-  },
-  {
-    name: 'Glenn Youngkin',
-    role: 'Former Governor of Virginia',
-    quote: 'Unconstitutional. It would disenfranchise millions of Virginians.',
-    note: 'Said it before the ruling. The court agreed.',
-  },
-  {
-    name: 'Jason Miyares',
-    role: 'Former Attorney General · Co-chair, Virginians for Fair Maps',
-    quote:
-      'Spanberger is an unpopular governor with an unpopular agenda, and she lied to the voters.',
-    note: 'The lie did not get rewarded.',
-  },
-  {
-    name: 'Sen. Ryan McDougle',
-    role: 'R-Hanover · Named plaintiff',
-    quote:
-      'The Constitution of Virginia means what it says. The General Assembly does not get to rewrite it on a ninety-day rocket docket because the political winds are favorable.',
-    note: 'Lead public face of the legal challenge from day one.',
-  },
-];
-
-const reactionsLeft = [
-  {
-    name: 'Speaker Don Scott (D)',
-    role: 'Pre-ruling characterization of the litigation',
-    quote: 'Court-shopping, plain and simple.',
-    note: 'The Supreme Court of Virginia just called him wrong.',
-  },
-  {
-    name: 'Senate Majority Leader Scott Surovell (D)',
-    role: 'After the April 21 referendum',
-    quote: 'Fairness won. Accountability won.',
-    note: "That framing aged about as well as the Democrats' constitutional analysis.",
-  },
-  {
-    name: 'Gov. Abigail Spanberger (D)',
-    role: 'After the April 21 referendum',
-    quote: 'Virginia voters have spoken.',
-    note: "The Supreme Court of Virginia made clear that what voters said in an unconstitutional election doesn't count.",
-  },
-];
-
 const whatsNext = [
   {
     n: '01',
@@ -398,7 +327,7 @@ const whatsNext = [
     timeline: 'November 3, 2026',
     body: "Virginia's existing bipartisan-commission congressional map governs the November 2026 election with certainty now. The 6-5 Democratic-leaning delegation breakdown stays the baseline rather than a 10-1 lock. Candidate filing closed May 25 under the existing map. Both parties are running their campaigns on districts they expected to be redrawn — that uncertainty is now resolved. Republicans pick up a structurally fair playing field in seats like VA-02 (Hampton Roads), VA-07 (Henrico), and VA-10 (Loudoun) that the 10-1 map was designed to lock down for Democrats.",
     bottom:
-      'The midterm playing field that existed on May 7 is the one that exists for the rest of the cycle.',
+      'The midterm playing field that existed before the special election is the one that exists for the rest of the cycle.',
   },
   {
     n: '04',
@@ -1433,7 +1362,7 @@ const sources = [
         background: rgba(69, 90, 130, 0.06);
       }
 
-      /* TALLY (forecast vs reality) */
+      /* TALLY — vote breakdown */
       .tally {
         margin-top: 44px;
         border: 1px solid var(--border);
@@ -1670,6 +1599,227 @@ const sources = [
         font-weight: 600;
         display: block;
         margin-bottom: 8px;
+      }
+
+      /* THE BALLOT — special render for the ballot-language ground */
+      .ground.ballot {
+        background:
+          repeating-linear-gradient(
+            45deg,
+            transparent 0,
+            transparent 18px,
+            rgba(178, 42, 54, 0.025) 18px,
+            rgba(178, 42, 54, 0.025) 36px
+          ),
+          var(--court);
+      }
+      .ground.ballot::before {
+        background: linear-gradient(
+          90deg,
+          var(--strike) 0%,
+          var(--strike) 50%,
+          var(--gold) 50%,
+          var(--gold) 100%
+        );
+        height: 4px;
+      }
+      .ballot-card {
+        background: var(--bone);
+        color: var(--void);
+        padding: 38px 44px 32px;
+        margin: 26px 0;
+        position: relative;
+        font-family: var(--serif);
+        box-shadow:
+          0 24px 48px rgba(0, 0, 0, 0.45),
+          0 0 0 1px rgba(0, 0, 0, 0.2);
+      }
+      @media (max-width: 700px) {
+        .ballot-card {
+          padding: 30px 26px 26px;
+        }
+      }
+      .ballot-card::before,
+      .ballot-card::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 8px;
+        background-image: repeating-linear-gradient(
+          90deg,
+          var(--bone-deep) 0,
+          var(--bone-deep) 10px,
+          transparent 10px,
+          transparent 20px
+        );
+      }
+      .ballot-card::before {
+        top: 0;
+      }
+      .ballot-card::after {
+        bottom: 0;
+      }
+      .ballot-card .ballot-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: wrap;
+        gap: 8px;
+        font-family: var(--mono);
+        font-size: 10.5px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--void);
+        padding: 14px 0 16px;
+        margin-bottom: 24px;
+        border-bottom: 2px solid var(--void);
+      }
+      .ballot-card .ballot-head .agency {
+        font-weight: 700;
+      }
+      .ballot-card .ballot-head .status {
+        color: var(--strike-deep);
+        font-weight: 700;
+      }
+      .ballot-card .ballot-q-pre {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--strike-deep);
+        margin-bottom: 14px;
+        font-weight: 700;
+      }
+      .ballot-card .ballot-q {
+        font-family: var(--serif);
+        font-size: clamp(20px, 2.3vw, 28px);
+        line-height: 1.45;
+        color: var(--void);
+        font-weight: 500;
+        margin-bottom: 26px;
+      }
+      .ballot-card .flag {
+        background: rgba(178, 42, 54, 0.18);
+        color: var(--strike-deep);
+        padding: 1px 8px;
+        font-weight: 700;
+        position: relative;
+      }
+      .ballot-card .flag::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -3px;
+        height: 2px;
+        background: var(--strike-deep);
+      }
+      .ballot-card .flag-gold {
+        background: rgba(212, 168, 42, 0.28);
+        color: var(--void);
+        padding: 1px 8px;
+        font-weight: 700;
+        position: relative;
+      }
+      .ballot-card .flag-gold::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -3px;
+        height: 2px;
+        background: var(--gold-deep);
+      }
+      .ballot-card .ballot-options {
+        display: flex;
+        gap: 36px;
+        padding: 18px 0;
+        border-top: 1px dashed var(--bone-deep);
+        font-family: var(--mono);
+        font-size: 13px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--void);
+      }
+      .ballot-card .ballot-opt {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .ballot-card .ballot-box {
+        width: 18px;
+        height: 18px;
+        border: 2px solid var(--void);
+        background: var(--bone);
+      }
+      .ballot-card .ballot-box.checked {
+        background: var(--void);
+        position: relative;
+      }
+      .ballot-card .ballot-box.checked::after {
+        content: '✕';
+        position: absolute;
+        inset: 0;
+        color: var(--bone);
+        text-align: center;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 900;
+      }
+      .ballot-card .ballot-result {
+        margin-top: 14px;
+        padding: 10px 14px;
+        background: rgba(178, 42, 54, 0.1);
+        border-left: 3px solid var(--strike-deep);
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--strike-deep);
+        font-weight: 700;
+      }
+      .ballot-flags {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+        margin-bottom: 22px;
+      }
+      @media (max-width: 600px) {
+        .ballot-flags {
+          grid-template-columns: 1fr;
+        }
+      }
+      .ballot-flag {
+        background: var(--court-2);
+        border: 1px solid var(--border);
+        padding: 16px 20px;
+      }
+      .ballot-flag.red {
+        border-left: 3px solid var(--strike);
+      }
+      .ballot-flag.gold {
+        border-left: 3px solid var(--gold);
+      }
+      .ballot-flag .flag-word {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 22px;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+        letter-spacing: -0.005em;
+      }
+      .ballot-flag.red .flag-word {
+        color: var(--strike);
+      }
+      .ballot-flag.gold .flag-word {
+        color: var(--gold);
+      }
+      .ballot-flag .flag-text {
+        font-family: var(--serif);
+        font-size: 14.5px;
+        line-height: 1.5;
+        color: var(--text-mid);
       }
 
       /* PULL QUOTES */
@@ -2436,12 +2586,13 @@ const sources = [
           <div class="grounds-grid" data-reveal>
             {
               grounds.map((g) => {
-                const cls =
-                  g.status === 'Controlling'
-                    ? 'controlling'
-                    : g.status === 'Not reached'
-                      ? 'notreached'
-                      : '';
+                const cls = [
+                  g.status === 'Controlling' ? 'controlling' : '',
+                  g.status === 'Not reached' ? 'notreached' : '',
+                  g.isBallot ? 'ballot' : '',
+                ]
+                  .filter(Boolean)
+                  .join(' ');
                 return (
                   <div class={`ground ${cls}`}>
                     <div class="ground-head">
@@ -2461,7 +2612,72 @@ const sources = [
                       <span>{g.cleanness}</span>
                     </div>
                     <div class="ground-source">{g.source}</div>
-                    <div class="ground-quote">{g.quote}</div>
+
+                    {g.isBallot ? (
+                      <>
+                        <div class="ballot-card">
+                          <div class="ballot-head">
+                            <span class="agency">
+                              VA Dept. of Elections · April 21, 2026
+                            </span>
+                            <span class="status">Status: VOIDED 5/8/26</span>
+                          </div>
+                          <div class="ballot-q-pre">Question 1</div>
+                          <p class="ballot-q">
+                            "Should the Constitution of Virginia be amended to
+                            allow the General Assembly to{' '}
+                            <span class="flag-gold">temporarily</span> adopt new
+                            congressional districts to{' '}
+                            <span class="flag">restore fairness</span> in the
+                            upcoming elections, while ensuring Virginia's
+                            standard redistricting process resumes for all
+                            future redistricting after the 2030 census?"
+                          </p>
+                          <div class="ballot-options">
+                            <div class="ballot-opt">
+                              <span class="ballot-box checked" />
+                              <span>Yes (50.7%)</span>
+                            </div>
+                            <div class="ballot-opt">
+                              <span class="ballot-box" />
+                              <span>No (49.3%)</span>
+                            </div>
+                          </div>
+                          <div class="ballot-result">
+                            April 21 result null and void per Va. Sup. Ct., May
+                            8, 2026
+                          </div>
+                        </div>
+
+                        <div class="ballot-flags">
+                          <div class="ballot-flag red">
+                            <div class="flag-word">"restore fairness"</div>
+                            <div class="flag-text">
+                              The phrase Hurley called "flagrantly misleading."
+                              The amendment hands map-drawing to the General
+                              Assembly's majority party — a definitionally
+                              partisan body — while telling voters they were
+                              restoring fairness. The word "fair" appears in the
+                              question. It does not appear anywhere in the map.
+                            </div>
+                          </div>
+                          <div class="ballot-flag gold">
+                            <div class="flag-word">"temporarily"</div>
+                            <div class="flag-text">
+                              The legal fiction. The new map would have been
+                              locked in for the rest of the decade, surviving
+                              the 2030 census-driven cycle until at least 2031.
+                              "Temporarily" doing very heavy lifting for a six-
+                              to seven-year reassignment of constitutional
+                              authority.
+                            </div>
+                          </div>
+                        </div>
+                      </>
+                    ) : (
+                      <div class="ground-quote">{g.quote}</div>
+                    )}
+
                     <p class="ground-blurb">{g.blurb}</p>
                     <div class="ground-why">
                       <b>Why it works</b>
@@ -2492,10 +2708,10 @@ const sources = [
             <h2 class="part-h">The justices.</h2>
             <p class="part-deck">
               Seven justices. Three appointing legislatures. One bloc had to
-              hold or the strike fails. <b>Republican-appointed justices</b> hold
-              a 4-3 working majority on the Supreme Court of Virginia — but only if
-              all four show up. Here is who they are, who put them there, what they
-              were predicted to do on May 7, and what they actually did on May 8.
+              hold or the strike fails. <b>Republican-appointed justices</b>
+              hold a 4-3 working majority on the Supreme Court of Virginia — but only
+              if all four show up. Here is who they are, who put them there, their
+              judicial methodology, and how they ruled on May 8.
             </p>
           </div>
         </div>
@@ -2536,10 +2752,6 @@ const sources = [
                           <div class="meta-row">
                             <div class="k">Methodology</div>
                             <div class="v">{j.methodology}</div>
-                          </div>
-                          <div class="meta-row">
-                            <div class="k">May 7 forecast</div>
-                            <div class="v lean">{j.forecast}</div>
                           </div>
                         </div>
                         <p class="bio">{j.bio}</p>
@@ -2585,10 +2797,6 @@ const sources = [
                             <div class="k">Methodology</div>
                             <div class="v">{j.methodology}</div>
                           </div>
-                          <div class="meta-row">
-                            <div class="k">May 7 forecast</div>
-                            <div class="v lean">{j.forecast}</div>
-                          </div>
                         </div>
                         <p class="bio">{j.bio}</p>
                         <p class="note">{j.note}</p>
@@ -2600,33 +2808,33 @@ const sources = [
 
             <div class="tally" data-reveal>
               <div>
-                <div class="lbl">May 7 Bearing Freedom forecast</div>
+                <div class="lbl">The math</div>
                 <div class="row">
                   <span>Strike</span>
-                  <span class="pct s">60%</span>
+                  <span class="pct s">4 votes</span>
                 </div>
                 <div class="row">
                   <span>Uphold</span>
-                  <span class="pct u">35%</span>
+                  <span class="pct u">3 votes</span>
                 </div>
                 <div class="row">
-                  <span>Punt</span>
-                  <span class="pct p">5%</span>
+                  <span>Author of the majority</span>
+                  <span class="pct s">Kelsey</span>
                 </div>
               </div>
               <div>
-                <div class="lbl">May 8 reality</div>
+                <div class="lbl">Bloc breakdown</div>
                 <div class="row">
-                  <span>Vote</span>
-                  <span class="pct s">4&ndash;3 strike</span>
+                  <span>Republican-appointed</span>
+                  <span class="pct s">5 of 7</span>
                 </div>
                 <div class="row">
-                  <span>Author</span>
-                  <span class="pct s">Kelsey</span>
+                  <span>Democratic-appointed</span>
+                  <span class="pct u">2 of 7</span>
                 </div>
                 <div class="row">
-                  <span>Scenario A — narrow strike</span>
-                  <span class="pct s">CALLED</span>
+                  <span>Conservative wing held the line</span>
+                  <span class="pct s">YES</span>
                 </div>
               </div>
             </div>
@@ -2742,59 +2950,6 @@ const sources = [
                 </div>
               ))
             }
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="wrap">
-          <div data-reveal>
-            <div class="section-tag">
-              Reactions · Vindicated vs. aged poorly
-            </div>
-            <h2 class="section-h">
-              One side won.<br /><em>The other lied.</em>
-            </h2>
-            <p class="section-sub">
-              How the major actors are framing the ruling — and how their
-              framing has aged in the minutes and hours since the opinion
-              dropped.
-            </p>
-          </div>
-
-          <div class="reaction-grid" data-reveal>
-            <div class="reaction-col right-col">
-              <div class="reaction-col-head">
-                <div class="ttl right">Our side</div>
-                <div class="tag">Vindicated</div>
-              </div>
-              {
-                reactionsRight.map((r) => (
-                  <div class="reaction">
-                    <div class="who">{r.name}</div>
-                    <div class="when">{r.role}</div>
-                    <div class="q">{r.quote}</div>
-                    <div class="nb">— {r.note}</div>
-                  </div>
-                ))
-              }
-            </div>
-            <div class="reaction-col left-col">
-              <div class="reaction-col-head">
-                <div class="ttl left">The other side</div>
-                <div class="tag">Aged poorly</div>
-              </div>
-              {
-                reactionsLeft.map((r) => (
-                  <div class="reaction">
-                    <div class="who">{r.name}</div>
-                    <div class="when">{r.role}</div>
-                    <div class="q">{r.quote}</div>
-                    <div class="nb">{r.note}</div>
-                  </div>
-                ))
-              }
-            </div>
           </div>
         </div>
       </section>
@@ -2952,32 +3107,29 @@ const sources = [
       <div class="end-strip">
         <div class="wrap row">
           <span>Filed 8 May 2026 · BF Editorial</span>
-          <span
-            ><a href="/scovaforecast">Read the May 7 forecast</a> · <a
-              href="/scovascott">The case file</a
-            > · <a href="/varedistricting">The pre-vote brief</a> · <a
-              href="/extras">All extras</a
-            ></span
-          >
+          <span>
+            <a href="/scovaforecast">View the pre-ruling forecast</a> ·{' '}
+            <a href="/scovascott">The case file</a> ·{' '}
+            <a href="/varedistricting">The pre-vote brief</a> ·{' '}
+            <a href="/extras">All extras</a>
+          </span>
         </div>
       </div>
     </main>
-
-    <script is:inline>
-      const io = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('in');
-              io.unobserve(entry.target);
-            }
-          });
-        },
-        { threshold: 0.12, rootMargin: '0px 0px -60px 0px' },
-      );
-      document
-        .querySelectorAll('[data-reveal]')
-        .forEach((el) => io.observe(el));
-    </script>
   </body>
+
+  <script is:inline>
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in');
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: '0px 0px -60px 0px' },
+    );
+    document.querySelectorAll('[data-reveal]').forEach((el) => io.observe(el));
+  </script>
 </html>
