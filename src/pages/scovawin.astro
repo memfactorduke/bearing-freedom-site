@@ -322,12 +322,12 @@ const whatsNext = [
   },
   {
     n: '03',
-    h: '2026 midterms run on the 2020 commission map.',
+    h: '2026 midterms run on the 2020 commission map — an 8-seat swing from what Democrats were trying to lock in.',
     likelihood: 'Certain',
     timeline: 'November 3, 2026',
-    body: "Virginia's existing bipartisan-commission congressional map governs the November 2026 election with certainty now. The 6-5 Democratic-leaning delegation breakdown stays the baseline rather than a 10-1 lock. Candidate filing closed May 25 under the existing map. Both parties are running their campaigns on districts they expected to be redrawn — that uncertainty is now resolved. Republicans pick up a structurally fair playing field in seats like VA-02 (Hampton Roads), VA-07 (Henrico), and VA-10 (Loudoun) that the 10-1 map was designed to lock down for Democrats.",
+    body: "Virginia's existing bipartisan-commission congressional map governs the November 2026 election with certainty now. The 6-5 Democratic-leaning delegation breakdown stays the baseline rather than a 10-1 lock. Do the math on what just got prevented: Democrats currently hold a 6-5 majority — up by one. The 10-1 map they tried to install would have put them up by nine. That's an 8-seat swing in House control terms — the difference between a fair-fight delegation and a rubber-stamp one. Candidate filing closed May 25 under the existing map. Both parties are running their campaigns on districts they expected to be redrawn — that uncertainty is now resolved. Republicans pick up a structurally fair playing field in seats like VA-02 (Hampton Roads), VA-07 (Henrico), and VA-10 (Loudoun) that the 10-1 map was designed to lock down for Democrats.",
     bottom:
-      'The midterm playing field that existed before the special election is the one that exists for the rest of the cycle.',
+      "An 8-seat swing in a House that's been decided by single-digit margins for the last decade. The midterm playing field that existed before the special election is the one that exists for the rest of the cycle.",
   },
   {
     n: '04',
@@ -1255,6 +1255,7 @@ const sources = [
         padding: 5px 12px;
         border: 1px solid;
         font-weight: 600;
+        z-index: 2;
       }
       .justice-card.majority .vote-tag {
         color: var(--strike);
@@ -1265,6 +1266,36 @@ const sources = [
         color: var(--uphold);
         border-color: var(--uphold-deep);
         background: rgba(69, 90, 130, 0.12);
+      }
+      .justice-card .avatar {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        margin: 0 0 22px;
+      }
+      .justice-card .avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center 22%;
+        border-radius: 50%;
+        background: var(--bg);
+        filter: grayscale(0.18) sepia(0.12) contrast(1.04) brightness(0.96);
+        display: block;
+      }
+      .justice-card .avatar.center img {
+        object-position: center 35%;
+      }
+      .justice-card .avatar::after {
+        content: '';
+        position: absolute;
+        inset: -4px;
+        border-radius: 50%;
+        border: 2px solid var(--accent, var(--text-faint));
+        pointer-events: none;
+        box-shadow:
+          0 0 0 1px rgba(0, 0, 0, 0.4),
+          inset 0 0 0 1px rgba(0, 0, 0, 0.4);
       }
       .justice-card .surname {
         font-family: var(--display);
@@ -2735,6 +2766,13 @@ const sources = [
                         style={`--accent: ${j.color}`}
                       >
                         <div class="vote-tag">{j.vote}</div>
+                        <div class={`avatar ${j.id === 'russell' ? 'center' : ''}`}>
+                          <img
+                            src={`/images/justices/${j.id}.jpg`}
+                            alt={`Justice ${j.name}`}
+                            loading="lazy"
+                          />
+                        </div>
                         <div class="surname">{j.surname}</div>
                         <div class="fullname">{j.name}</div>
                         <div class="role">
@@ -2779,6 +2817,13 @@ const sources = [
                         style={`--accent: ${j.color}`}
                       >
                         <div class="vote-tag">{j.vote}</div>
+                        <div class={`avatar ${j.id === 'russell' ? 'center' : ''}`}>
+                          <img
+                            src={`/images/justices/${j.id}.jpg`}
+                            alt={`Justice ${j.name}`}
+                            loading="lazy"
+                          />
+                        </div>
                         <div class="surname">{j.surname}</div>
                         <div class="fullname">{j.name}</div>
                         <div class="role">
