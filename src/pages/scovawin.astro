@@ -15,7 +15,13 @@ const justices = [
     color: '#9b2233',
     bench: 'majority',
     chair: 2,
-    note: 'Wrote the majority opinion. Ruled the General Assembly violated Article XII, Section 1. His reappointment vote sits with the same legislature whose handiwork he just threw out — and he ruled the right way anyway.',
+    appointer: 'Republican GA · 2015 (unanimous)',
+    termEnds: 'Jan 31, 2027',
+    methodology: 'Originalist · textualist',
+    forecast: 'Strike · very high confidence',
+    reapp: 'Eight months out, with the Dem GA he just ruled against',
+    bio: "The court's most explicit originalist. Author of the Vlaming lead majority. Cardinal News flagged the awkwardness of his reappointment two weeks before the ruling — the same legislature whose handiwork he was reviewing gets to vote on whether he keeps his seat. He ruled the right way anyway.",
+    note: 'Wrote the majority opinion. The constitutional violation "incurably taints the resulting referendum vote." That is his line. That is the line that ends the case.',
   },
   {
     id: 'mccullough',
@@ -27,7 +33,13 @@ const justices = [
     color: '#9b2233',
     bench: 'majority',
     chair: 1,
-    note: 'The keystone vote we flagged on May 7. The textualist scholar held the bloc, signed Kelsey, and made the four. His reappointment lands in March 2028 under what is likely still a Democratic GA.',
+    appointer: 'Republican GA · 2016',
+    termEnds: 'Mar 2, 2028',
+    methodology: 'Textualist scholar',
+    forecast: 'Strike (lean) · medium-high confidence',
+    reapp: 'March 2028 — likely still under Dem GA',
+    bio: 'The keystone vote. Author of "A Vanishing Virginia Constitution?" — but split from the conservative wing on the October 2025 contempt case. If the bloc held, he authored. If he defected, the strike failed. The bloc held.',
+    note: 'Held. Signed the Kelsey majority. The textualist scholar did not blink despite real reappointment exposure under what will likely be a hostile General Assembly in 2028.',
   },
   {
     id: 'russell',
@@ -39,7 +51,13 @@ const justices = [
     color: '#9b2233',
     bench: 'majority',
     chair: 3,
-    note: "Cuccinelli's former Deputy AG for Civil Litigation. Joined Vlaming in full and joined the October 2025 contempt dissent. No reappointment exposure. Predictable strike.",
+    appointer: 'Divided GA · 2022 (Republican-side pick)',
+    termEnds: 'Jun 30, 2034',
+    methodology: 'Conservative · Vlaming joiner',
+    forecast: 'Strike (lean) · medium-high confidence',
+    reapp: 'Eight years out — no political need to wobble',
+    bio: "Cuccinelli's former Deputy AG for Civil Litigation. Argued the Cuccinelli-vs-UVA-climate-emails case for the Commonwealth. Joined Vlaming in full and joined Chafin's October 2025 contempt dissent.",
+    note: 'Predictable strike. Joined the majority. No public separate writing reported. Career arc as Republican-side state lawyer pointed strike from day one.',
   },
   {
     id: 'chafin',
@@ -51,7 +69,13 @@ const justices = [
     color: '#9b2233',
     bench: 'majority',
     chair: 5,
-    note: 'We called her a toss-up on May 7. She was not a toss-up. Tazewell County roots, ~30 months from forced retirement, and an October 2025 dissent on deference-to-trial-court grounds — every incentive pointed strike, and she signed.',
+    appointer: 'Republican GA · 2019',
+    termEnds: 'Aug 31, 2031',
+    methodology: 'Mild conservative',
+    forecast: 'Toss-up · low-medium confidence',
+    reapp: 'Mandatory retirement Oct 2028 — nothing to lose',
+    bio: 'Sister of late Republican state Sen. Ben Chafin. Tazewell County roots — Judge Hurley sits in her old circuit. Authored the October 2025 contempt dissent on deference-to-trial-court grounds. ~30 months from forced retirement at 73.',
+    note: 'We called her a toss-up. She was not a toss-up. Every incentive pointed strike — family network, rural southwest VA context, deference-to-Hurley instinct, no career to protect. She signed.',
   },
   {
     id: 'powell',
@@ -63,7 +87,13 @@ const justices = [
     color: '#3f4c66',
     bench: 'dissent',
     chair: 4,
-    note: 'Center-institutionalist as forecast. Signed the dissent on 1912-line deference grounds. CJ tenure caps at four years under mandatory retirement; declined to define her tenure with a 4-3 nullification.',
+    appointer: 'Republican GA · 2011 (Dem-registered consensus pick)',
+    termEnds: 'Jul 31, 2035',
+    methodology: 'Center-institutionalist',
+    forecast: 'Uphold · high confidence',
+    reapp: 'CJ tenure caps at four years under mandatory retirement',
+    bio: 'First African-American woman Chief Justice in Virginia history. Concurred in the result of Vlaming but rejected the textualist methodology — proposed strict-scrutiny instead. Strong institutional reasons not to define her CJ tenure with a 4-3 nullification.',
+    note: "Dissented on 1912-line deference grounds. The institutionalist did exactly what we forecast: deferred to the legislature's political judgment rather than strike on procedural grounds.",
   },
   {
     id: 'mann',
@@ -75,7 +105,13 @@ const justices = [
     color: '#3f4c66',
     bench: 'dissent',
     chair: 6,
-    note: 'The cleanest Democratic-aligned vote on the court. Senate Democrats put him on the bench specifically for a vote like this one. He delivered.',
+    appointer: "Divided GA · 2022 (Senate Democrats' pick)",
+    termEnds: 'Jul 31, 2034',
+    methodology: '"As times change" living-constitution',
+    forecast: 'Uphold · high confidence',
+    reapp: 'Late 2030s — no near-term exposure',
+    bio: 'The cleanest Democratic-aligned vote on the court. Only true partial dissenter in Vlaming — criticized the majority\'s "super scrutiny." Senate Democrats put him on the bench specifically to be a vote like this one.',
+    note: 'Dissented as expected. No appetite on his record for blowing up legislative work product. Delivered exactly the vote his appointers paid for.',
   },
   {
     id: 'fulton',
@@ -87,7 +123,13 @@ const justices = [
     color: '#3f4c66',
     bench: 'dissent',
     chair: 7,
-    note: 'Newest justice. Sworn in January 1, 2026 — formally invested April 27, the same day as oral argument. His first major public act was to dissent in defense of the Democratic legislature that elevated him.',
+    appointer: 'Democratic GA · 2025',
+    termEnds: 'Dec 31, 2037',
+    methodology: 'Norfolk circuit · drug-court rehabilitative',
+    forecast: 'Uphold · medium-high confidence',
+    reapp: '~2031 — no near-term exposure',
+    bio: "Newest justice. Sworn in January 1, 2026; formally invested April 27 — the same day as oral argument. Elevated by the Democratic GA to replace Goodwyn. His first major public act was either to ratify or torch his patrons' signature legislative win.",
+    note: 'He ratified. Dissented in defense of the Democratic legislature that elevated him. Four months on the bench, voted exactly the way the people who put him there wanted.',
   },
 ];
 
@@ -95,38 +137,62 @@ const grounds = [
   {
     n: '01',
     title: 'Special-session scope',
-    status: 'Carried in part',
+    cleanness: 'Cleanest',
+    cleannessScore: 5,
+    source: 'Va. Const. Art. IV, §6 — General Assembly sessions',
+    quote:
+      'The General Assembly shall meet in regular session annually. The Governor may convene a special session of the General Assembly when, in his opinion, the interest of the Commonwealth may require, and shall convene a special session upon the application of two-thirds of the members elected to each house.',
     blurb:
-      'The 2024 special session was convened for a budget dispute and never formally adjourned. Democrats reopened it more than a year later for a redistricting amendment nobody contemplated when the session was originally called. Constitutional limits on special sessions exist precisely to prevent that bait-and-switch.',
+      'The 2024 special session was convened for a budget dispute and never formally adjourned. Democrats reopened it more than a year later for a redistricting amendment nobody contemplated when the session was originally called. Constitutional limits on special sessions exist precisely to prevent that kind of bait-and-switch.',
+    why: 'Doesn\'t require redefining "election." Doesn\'t depend on originalism. It just asks: did the GA comply with the constitutional rules governing special sessions? Hurley said no. SCOVA agreed.',
+    status: 'Carried in part',
     ruling:
       'Sustained as part of the broader Article XII, Section 1 holding. The court treated the procedural failure as a single integrated violation rather than a stand-alone basis.',
   },
   {
     n: '02',
     title: 'Intervening-election timing',
-    status: 'Controlling',
+    cleanness: 'Broadest textualist hook',
+    cleannessScore: 4,
+    source: 'Va. Const. Art. XII, §1 — Constitutional amendments',
+    quote:
+      'Any amendment to this Constitution may be proposed in the Senate or House of Delegates… and if it shall be agreed to by a majority of the members elected to each of the two houses, the proposed amendment, with the names of the members voting for and against, shall be entered on their journals, the journals shall be referred to the next regular session held after the next general election of members of the House of Delegates…',
     blurb:
-      'The Virginia Constitution requires "an election" between the two General Assembly passages. Early voting for the November 4, 2025 election began September 19 — six weeks before the October 31 first passage. More than a million Virginians cast ballots in the supposed intervening election before the General Assembly took the first vote that election was supposed to provide a check on.',
+      'The Constitution requires "an election" — a House of Delegates election — between the two General Assembly passages, so voters can elect lawmakers based in part on how they intend to vote on the amendment. Early voting for the November 4, 2025 election began September 19. The first GA passage was October 31. More than a million Virginians cast ballots in the supposed intervening election BEFORE the GA had even taken the first vote that election was supposed to provide a check on.',
+    why: 'The textualist hook with the most ideological gravity for the conservative wing. Forces a structural change: future amendments must be timed around the START of early voting.',
+    status: 'Controlling',
     ruling:
-      "The textualist hook with the most ideological gravity. Kelsey's majority called the way Democrats submitted the amendment 'unprecedented' — and the constitutional violation 'incurably taints the resulting referendum vote and nullifies its legal efficacy.'",
+      'Kelsey called this submission "unprecedented." The constitutional violation "incurably taints the resulting referendum vote and nullifies its legal efficacy." This is the line that ended the case.',
   },
   {
     n: '03',
     title: '90-day cooling-off period',
-    status: 'Controlling',
+    cleanness: 'Cleanest math',
+    cleannessScore: 5,
+    source: 'Va. Code § 30-19.9 — distribution to voters',
+    quote:
+      "The Division of Legislative Services shall, upon the passage of any proposed amendment to or revision of the Constitution… cause copies thereof to be distributed to the clerks of the several circuit courts… for posting at every clerk's office for at least ninety days before the election.",
     blurb:
-      'Article XII, Section 1 requires a proposed amendment to sit at least ninety days between final passage and the referendum. Final passage was January 19, 2026. Early voting opened March 6, 2026. Forty-six days. Barely half the constitutional minimum.',
+      "Article XII, Section 1 plus Code § 30-19.9 together require 90 days between final passage and the referendum, with public posting at every circuit clerk's office for the full period. Final passage was January 19, 2026. Early voting opened March 6, 2026. Forty-six days. Barely half the constitutional minimum.",
+    why: 'The cleanest possible math. Senate Democrats tried to repeal the 90-day posting rule mid-litigation with SB 769. The House let the bill die. The requirement remained on the books, unmet.',
+    status: 'Controlling',
     ruling:
-      "The cleanest math in the case. Code § 30-19.9 also requires 90 days of public posting at every circuit clerk's office — a guardrail Democrats tried to repeal with SB 769 mid-litigation. The House let the bill die. The requirement remained on the books, unmet.",
+      'The 90-day floor is not optional. The cooling-off period is a guardrail baked into the constitution precisely to stop the kind of rushed partisan stunt the Democrats just attempted.',
   },
   {
     n: '04',
     title: 'Misleading ballot title',
-    status: 'Not reached',
+    cleanness: 'Aggressive read',
+    cleannessScore: 3,
+    source: 'Tazewell County Circuit ruling, Feb. 19, 2026',
+    quote:
+      "The ballot title's framing of the proposed amendment as one to 'restore fairness' to congressional districting is flagrantly misleading. It will not restore fairness. It will reassign the drawing of those districts from a bipartisan citizen-and-legislator commission to the General Assembly's majority party — a definitionally partisan body. The voters cannot give meaningful consent to a measure they have been actively misled about.",
     blurb:
-      "The ballot question asked whether the Constitution should be amended to 'restore fairness' — language Judge Hurley found 'flagrantly misleading' on February 19. The RNC carried this argument as a parallel petition.",
+      "The ballot question asked whether the Constitution should be amended to 'restore fairness.' Judge Hurley found that language 'flagrantly misleading' on February 19. The RNC carried this argument as a parallel petition. Former AG Jason Miyares put it bluntly: Spanberger 'lied to the voters.'",
+    why: "The least clean of the four. Requires the court to characterize the GA's drafting as legally deceptive — a step most state high courts are reluctant to take.",
+    status: 'Not reached',
     ruling:
-      'The court did not need to reach this ground. The Article XII, Section 1 violations were dispositive. The misleading-language theory remains unresolved on the merits — but academically interesting only.',
+      'The court did not need to reach this ground. The Article XII, Section 1 violations were dispositive. The misleading-language theory remains alive in the trial-court record but unresolved on the merits.',
   },
 ];
 
@@ -309,23 +375,66 @@ const reactionsLeft = [
 const whatsNext = [
   {
     n: '01',
-    h: '2026 midterms run on the 2020 map.',
-    body: "Virginia's existing bipartisan-commission congressional map governs the November 2026 election. The current 6-5 Democratic delegation breakdown stays the baseline rather than a 10-1 lock.",
+    h: 'Federal appeal: probably dead in the water.',
+    likelihood: 'Very low',
+    timeline: 'If filed, ~6-12 months at SCOTUS',
+    body: "SCOVA was interpreting the Virginia Constitution. The U.S. Supreme Court generally cannot reverse a state high court's interpretation of its own state constitution under the doctrine of independent and adequate state grounds. Democrats' best legal argument was at SCOVA, and they just lost it. AG Jones could file a cert petition framed around federal Elections Clause theory — that the legislature's power to set election rules cannot be constrained by the state constitution — but that's a fringe argument that even Moore v. Harper rejected in significant part.",
+    bottom:
+      'Realistic odds: this ends here. Democrats are quietly briefing reporters that no federal appeal is being prepared.',
   },
   {
     n: '02',
-    h: 'Federal appeal? Probably not viable.',
-    body: "SCOVA was interpreting the Virginia Constitution. The U.S. Supreme Court generally cannot reverse a state high court's interpretation of its own state constitution. Democrats' best legal argument was at SCOVA, and they just lost it.",
+    h: 'Re-do attempt: theoretically possible, practically dead until 2030.',
+    likelihood: 'Low — timing collapses it',
+    timeline: 'Earliest implementation: 2031 cycle',
+    body: 'For a constitutional amendment to be re-passed legally, Democrats would need: (1) first passage in a current GA session, (2) an intervening House of Delegates general election, (3) second passage in the next session, (4) the full 90-day cooling-off period, (5) a statewide referendum. Even on the most aggressive timeline that runs to late 2027 at the earliest — for an amendment that would not take effect until the 2028 or 2030 redistricting cycle. By that point the 2030 census triggers the ordinary commission-driven redistricting anyway.',
+    bottom:
+      'There is no realistic path to a re-do that beats the 2030 census. The window has closed.',
   },
   {
     n: '03',
-    h: 'Re-do attempt? Theoretically possible.',
-    body: "Democrats could try again — but they'd have to pass it through the General Assembly twice with an intervening House election, then wait the full ninety days, then get it through a referendum. That timeline does not realistically yield a redrawn map before the 2030 census cycle.",
+    h: '2026 midterms run on the 2020 commission map.',
+    likelihood: 'Certain',
+    timeline: 'November 3, 2026',
+    body: "Virginia's existing bipartisan-commission congressional map governs the November 2026 election with certainty now. The 6-5 Democratic-leaning delegation breakdown stays the baseline rather than a 10-1 lock. Candidate filing closed May 25 under the existing map. Both parties are running their campaigns on districts they expected to be redrawn — that uncertainty is now resolved. Republicans pick up a structurally fair playing field in seats like VA-02 (Hampton Roads), VA-07 (Henrico), and VA-10 (Loudoun) that the 10-1 map was designed to lock down for Democrats.",
+    bottom:
+      'The midterm playing field that existed on May 7 is the one that exists for the rest of the cycle.',
   },
   {
     n: '04',
-    h: 'Watch the 2027 General Assembly elections.',
-    body: 'House Democrats will spin this loss into a fundraising rallying cry. The opposite framing is the honest one: Democrats just spent hundreds of millions of dollars on an unconstitutional power grab and lost.',
+    h: 'Federal Elections Clause backup litigation: still on the table.',
+    likelihood: 'Low — but watch the RNC',
+    timeline: 'If filed, before May 25 candidate close',
+    body: "The RNC's parallel Tazewell-2 petition presented additional federal-voting-rights timing theories that SCOVA didn't need to reach. If Democrats DO try a federal cert petition or any further procedural maneuver, the RNC has a separate federal track ready to go that argues Article I Section 4 of the U.S. Constitution gives state legislatures power to set election rules but does not give them power to violate their own state constitutions in doing so. That's the Moore v. Harper framework and it cuts against Democrats here.",
+    bottom:
+      'Mostly a defensive posture. If Democrats stay down, this never gets briefed.',
+  },
+  {
+    n: '05',
+    h: 'The 2027 General Assembly elections — which framing wins?',
+    likelihood: 'Open question',
+    timeline: 'November 2, 2027',
+    body: "House Democrats will spin this ruling as judicial activism — Republicans on the bench overruling the will of 1.27 million voters. They'll fundraise on it. The honest counter-framing is the one to hammer relentlessly: Democrats just spent over $100 million in outside money plus $5.2 million in state taxpayer funds on a vote that never legally happened, because they tried to break the bipartisan commission Virginians enshrined by a 2-to-1 margin in 2020. That is not judicial activism. That is the constitution doing exactly what voters wrote it to do. The 2027 GA elections are also the next vehicle to flip the chamber and protect the commission long-term.",
+    bottom:
+      'The first party to settle the public narrative wins the next round. Republicans should not let "court took away your vote" become the consensus story.',
+  },
+  {
+    n: '06',
+    h: 'Mid-decade gerrymandering nationally: dead by example.',
+    likelihood: 'High — precedent travels',
+    timeline: 'Already',
+    body: "If Virginia Democrats had pulled this off, every state legislature in the country would have learned the same lesson: when you don't like your map, push a constitutional amendment through on a rocket docket and redraw the lines. Today's ruling slams that door. State courts in other rapid-amendment jurisdictions (Colorado, Michigan, North Carolina) will cite Scott v. McDougle as persuasive authority that procedural shortcuts on constitutional amendments cannot stand. The 90-day cooling-off floor has been validated as a hard constitutional minimum, not a soft norm.",
+    bottom:
+      'The biggest national consequence of this case is the precedent it sets against rocket-docket amendment-as-gerrymander schemes everywhere else.',
+  },
+  {
+    n: '07',
+    h: 'Reappointment vote for Kelsey: January 2027.',
+    likelihood: 'High pressure',
+    timeline: 'Jan 31, 2027 term expiration',
+    body: "Justice Kelsey wrote the majority opinion that just torpedoed the Democratic legislature's signature legislative achievement. His reappointment comes up for vote on or before January 31, 2027 — under what is still likely to be a Democratic-majority General Assembly. The last partisan-driven denial of reappointment to a Virginia Supreme Court justice was 1883. Refusing to reappoint Kelsey for ruling against the legislature in a constitutional case would be an institutional break with 140 years of practice. Democrats would pay a real political price for it. They may still do it.",
+    bottom:
+      'This is a moment of testing for the institution. Watch whether Senate Democrats let his reappointment go through on a roll call or hold it up.',
   },
 ];
 
@@ -903,6 +1012,87 @@ const sources = [
         color: var(--strike);
       }
 
+      /* PART DIVIDERS — chapter breaks for video scroll */
+      .part {
+        padding: 110px 0 64px;
+        position: relative;
+        background: radial-gradient(
+          ellipse 80% 100% at 50% 50%,
+          rgba(212, 168, 42, 0.05),
+          transparent 60%
+        );
+        border-top: 1px solid var(--border-dim);
+        border-bottom: 1px solid var(--border-dim);
+      }
+      .part-inner {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 28px;
+        display: grid;
+        grid-template-columns: minmax(180px, 280px) 1fr;
+        gap: 56px;
+        align-items: end;
+      }
+      @media (max-width: 760px) {
+        .part {
+          padding: 70px 0 48px;
+        }
+        .part-inner {
+          grid-template-columns: 1fr;
+          gap: 18px;
+        }
+      }
+      .part-roman {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: clamp(120px, 18vw, 240px);
+        line-height: 0.85;
+        letter-spacing: -0.04em;
+        color: var(--strike);
+        text-shadow: 0 0 64px rgba(178, 42, 54, 0.25);
+      }
+      .part-roman .pre {
+        display: block;
+        font-family: var(--mono);
+        font-size: 12px;
+        letter-spacing: 0.32em;
+        text-transform: uppercase;
+        color: var(--gold);
+        text-shadow: none;
+        margin-bottom: 14px;
+        font-weight: 600;
+      }
+      .part-h {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: clamp(44px, 6vw, 84px);
+        line-height: 0.96;
+        letter-spacing: -0.018em;
+        color: var(--text);
+        text-transform: uppercase;
+        margin-bottom: 22px;
+      }
+      .part-h em {
+        font-family: var(--serif);
+        font-style: italic;
+        font-weight: 400;
+        color: var(--gold);
+        text-transform: none;
+        font-size: 0.78em;
+        letter-spacing: -0.01em;
+      }
+      .part-deck {
+        font-family: var(--serif);
+        font-size: clamp(19px, 1.6vw, 22px);
+        line-height: 1.55;
+        color: var(--text-mid);
+        max-width: 720px;
+      }
+      .part-deck b {
+        color: var(--text);
+        font-weight: 600;
+      }
+
       /* BOTTOM LINE UP FRONT — cold-open panel */
       .bluf {
         background:
@@ -1185,11 +1375,62 @@ const sources = [
         color: var(--gold);
         font-weight: 600;
       }
+      .justice-card .meta {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px 22px;
+        margin-bottom: 20px;
+      }
+      @media (max-width: 480px) {
+        .justice-card .meta {
+          grid-template-columns: 1fr;
+        }
+      }
+      .justice-card .meta-row .k {
+        font-family: var(--mono);
+        font-size: 9.5px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--text-faint);
+        margin-bottom: 4px;
+      }
+      .justice-card .meta-row .v {
+        font-family: var(--serif);
+        font-size: 14.5px;
+        line-height: 1.35;
+        color: var(--text);
+      }
+      .justice-card .meta-row .v.gold {
+        color: var(--gold);
+      }
+      .justice-card.majority .meta-row .v.lean {
+        color: var(--strike);
+      }
+      .justice-card.dissent .meta-row .v.lean {
+        color: var(--uphold);
+      }
+      .justice-card .bio {
+        font-family: var(--serif);
+        font-size: 16px;
+        line-height: 1.55;
+        color: var(--text-mid);
+        margin-bottom: 18px;
+      }
       .justice-card .note {
         font-family: var(--serif);
+        font-style: italic;
         font-size: 17px;
-        line-height: 1.6;
-        color: var(--text-mid);
+        line-height: 1.55;
+        color: var(--text);
+        padding: 16px 20px;
+        border-left: 3px solid var(--accent, var(--gold));
+        background: rgba(212, 168, 42, 0.04);
+      }
+      .justice-card.majority .note {
+        background: rgba(178, 42, 54, 0.06);
+      }
+      .justice-card.dissent .note {
+        background: rgba(69, 90, 130, 0.06);
       }
 
       /* TALLY (forecast vs reality) */
@@ -1339,21 +1580,86 @@ const sources = [
         margin-bottom: 18px;
         letter-spacing: -0.01em;
       }
+      .ground-source {
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-bottom: 8px;
+      }
+      .ground-quote {
+        font-family: var(--serif);
+        font-style: italic;
+        font-size: 18px;
+        line-height: 1.5;
+        color: var(--text);
+        background: rgba(212, 168, 42, 0.04);
+        border-left: 3px solid var(--gold-deep);
+        padding: 22px 28px;
+        margin-bottom: 24px;
+      }
       .ground-blurb {
         font-family: var(--serif);
         font-size: 19px;
         line-height: 1.55;
         color: var(--text-mid);
+        margin-bottom: 22px;
+      }
+      .ground-why {
+        font-family: var(--serif);
+        font-size: 16px;
+        line-height: 1.55;
+        color: var(--text-mid);
         margin-bottom: 24px;
+        padding-left: 18px;
+        border-left: 2px solid var(--border);
+      }
+      .ground-why b {
+        color: var(--gold);
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        font-weight: 600;
+        display: block;
+        margin-bottom: 6px;
+      }
+      .ground-cleanness {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 22px;
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--text-dim);
+      }
+      .ground-cleanness .meter {
+        display: inline-flex;
+        gap: 4px;
+      }
+      .ground-cleanness .pip {
+        width: 18px;
+        height: 6px;
+        background: var(--border);
+      }
+      .ground-cleanness .pip.on {
+        background: var(--gold);
       }
       .ground-ruling {
         font-family: var(--serif);
         font-size: 17px;
         line-height: 1.6;
         color: var(--text);
-        background: rgba(212, 168, 42, 0.05);
-        border-left: 3px solid var(--gold);
+        background: rgba(178, 42, 54, 0.08);
+        border-left: 3px solid var(--strike);
         padding: 20px 26px;
+      }
+      .ground.notreached .ground-ruling {
+        background: rgba(80, 78, 68, 0.08);
+        border-left-color: var(--text-faint);
       }
       .ground-ruling b {
         color: var(--gold);
@@ -1679,10 +1985,66 @@ const sources = [
       }
       .next-body {
         font-family: var(--serif);
-        font-size: 21px;
+        font-size: 19px;
         line-height: 1.6;
         color: var(--text-mid);
-        max-width: 880px;
+        max-width: 920px;
+        margin-bottom: 22px;
+      }
+      .next-meta {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px 32px;
+        margin-bottom: 24px;
+        padding: 18px 22px;
+        background: rgba(212, 168, 42, 0.04);
+        border-left: 3px solid var(--gold-deep);
+      }
+      @media (max-width: 600px) {
+        .next-meta {
+          grid-template-columns: 1fr;
+          gap: 12px;
+        }
+      }
+      .next-meta .k {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--text-dim);
+        margin-bottom: 4px;
+      }
+      .next-meta .v {
+        font-family: var(--serif);
+        font-size: 16px;
+        color: var(--text);
+        line-height: 1.35;
+      }
+      .next-meta .v.gold {
+        color: var(--gold);
+      }
+      .next-meta .v.strike {
+        color: var(--strike);
+      }
+      .next-bottom {
+        font-family: var(--serif);
+        font-style: italic;
+        font-size: 17px;
+        line-height: 1.55;
+        color: var(--text);
+        padding: 16px 22px;
+        border-left: 3px solid var(--strike);
+        background: rgba(178, 42, 54, 0.08);
+      }
+      .next-bottom::before {
+        content: 'Bottom line · ';
+        font-style: normal;
+        font-family: var(--mono);
+        font-size: 11px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--strike);
+        font-weight: 600;
       }
 
       /* QUOTABLES — billboard moments */
@@ -1978,13 +2340,30 @@ const sources = [
         </div>
       </header>
 
-      <!-- I — BOTTOM LINE UP FRONT -->
+      <!-- ============================================================ -->
+      <!-- PART I — THE BIG WIN                                           -->
+      <!-- ============================================================ -->
+      <section class="part" id="part-1" data-reveal>
+        <div class="part-inner">
+          <div class="part-roman">
+            <span class="pre">Part I of V</span>
+            I
+          </div>
+          <div>
+            <h2 class="part-h">The big win.</h2>
+            <p class="part-deck">
+              The bottom line up front, in your voice, in three minutes of
+              scroll. <b
+                >Spanberger tried to steal four U.S. House seats. The court said
+                no.</b
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section class="section">
         <div class="wrap">
-          <div data-reveal>
-            <div class="section-tag">I · Bottom line up front</div>
-          </div>
-
           <div class="bluf" data-reveal>
             <div class="bluf-stamp">
               <span class="bluf-stamp-l">Filed</span>
@@ -2031,128 +2410,29 @@ const sources = [
         </div>
       </section>
 
-      <!-- II — HOW THEY VOTED -->
-      <section class="section bench-section">
-        <div class="wrap">
-          <div data-reveal>
-            <div class="section-tag">II · How they voted</div>
-            <h2 class="section-h">
-              Four held the line.<br /><em>Three didn't.</em>
-            </h2>
-            <p class="section-sub">
-              The full conservative wing held — Kelsey, McCullough, Russell, and
-              Chafin all signed the strike. The three liberal-aligned justices
-              dissented. This is exactly the bloc structure we forecast on May
-              7. The keystone McCullough vote held.
-            </p>
+      <!-- ============================================================ -->
+      <!-- PART II — THE ARGUMENTS WE COULD USE                           -->
+      <!-- ============================================================ -->
+      <section class="part" id="part-2" data-reveal>
+        <div class="part-inner">
+          <div class="part-roman">
+            <span class="pre">Part II of V</span>
+            II
           </div>
-
-          <div data-reveal>
-            <div class="bloc-row">
-              <div class="bloc-head">
-                <div class="ttl maj">Majority &mdash; Strike</div>
-                <div class="ct">4 votes · Kelsey writing</div>
-              </div>
-              <div class="bench-grid">
-                {
-                  justices
-                    .filter((j) => j.bench === 'majority')
-                    .map((j) => (
-                      <div
-                        class={`justice-card ${j.bench}`}
-                        style={`--accent: ${j.color}`}
-                      >
-                        <div class="vote-tag">{j.vote}</div>
-                        <div class="surname">{j.surname}</div>
-                        <div class="fullname">{j.name}</div>
-                        <div class="role">
-                          {j.role} · <b>{j.bloc}</b>
-                        </div>
-                        <p class="note">{j.note}</p>
-                      </div>
-                    ))
-                }
-              </div>
-            </div>
-
-            <div class="bloc-row">
-              <div class="bloc-head">
-                <div class="ttl dis">Dissent &mdash; Uphold</div>
-                <div class="ct">3 votes</div>
-              </div>
-              <div class="bench-grid three">
-                {
-                  justices
-                    .filter((j) => j.bench === 'dissent')
-                    .map((j) => (
-                      <div
-                        class={`justice-card ${j.bench}`}
-                        style={`--accent: ${j.color}`}
-                      >
-                        <div class="vote-tag">{j.vote}</div>
-                        <div class="surname">{j.surname}</div>
-                        <div class="fullname">{j.name}</div>
-                        <div class="role">
-                          {j.role} · <b>{j.bloc}</b>
-                        </div>
-                        <p class="note">{j.note}</p>
-                      </div>
-                    ))
-                }
-              </div>
-            </div>
-
-            <div class="tally" data-reveal>
-              <div>
-                <div class="lbl">May 7 forecast</div>
-                <div class="row">
-                  <span>Strike</span>
-                  <span class="pct s">60%</span>
-                </div>
-                <div class="row">
-                  <span>Uphold</span>
-                  <span class="pct u">35%</span>
-                </div>
-                <div class="row">
-                  <span>Punt</span>
-                  <span class="pct p">5%</span>
-                </div>
-              </div>
-              <div>
-                <div class="lbl">May 8 reality</div>
-                <div class="row">
-                  <span>Strike</span>
-                  <span class="pct s">4&ndash;3</span>
-                </div>
-                <div class="row">
-                  <span>Author</span>
-                  <span class="pct s">Kelsey</span>
-                </div>
-                <div class="row">
-                  <span>Scenario A — narrow strike</span>
-                  <span class="pct s">CALLED</span>
-                </div>
-              </div>
-            </div>
+          <div>
+            <h2 class="part-h">The arguments<br /><em>we could use.</em></h2>
+            <p class="part-deck">
+              Republicans walked into the Supreme Court of Virginia with
+              <b>four independent procedural grounds</b> to throw out the amendment.
+              They needed to win on any one. The court didn't have to pick — but here
+              is the menu, with the constitutional text each one rests on.
+            </p>
           </div>
         </div>
       </section>
 
-      <!-- III — WHY WE WON -->
       <section class="section">
         <div class="wrap">
-          <div data-reveal>
-            <div class="section-tag">III · Why we won</div>
-            <h2 class="section-h">
-              Four arguments.<br /><em>Two carried the day.</em>
-            </h2>
-            <p class="section-sub">
-              Republicans needed to win on any one of four grounds. The court
-              didn't have to pick. Two of the four were dispositive together —
-              and the others didn't need to be reached.
-            </p>
-          </div>
-
           <div class="grounds-grid" data-reveal>
             {
               grounds.map((g) => {
@@ -2169,9 +2449,26 @@ const sources = [
                       <div class="ground-status">{g.status}</div>
                     </div>
                     <h3 class="ground-title">{g.title}</h3>
+                    <div class="ground-cleanness">
+                      <span>Cleanness</span>
+                      <span class="meter">
+                        {Array.from({ length: 5 }).map((_, i) => (
+                          <span
+                            class={`pip ${i < g.cleannessScore ? 'on' : ''}`}
+                          />
+                        ))}
+                      </span>
+                      <span>{g.cleanness}</span>
+                    </div>
+                    <div class="ground-source">{g.source}</div>
+                    <div class="ground-quote">{g.quote}</div>
                     <p class="ground-blurb">{g.blurb}</p>
+                    <div class="ground-why">
+                      <b>Why it works</b>
+                      {g.why}
+                    </div>
                     <div class="ground-ruling">
-                      <b>What the court said</b>
+                      <b>What the court did with it</b>
                       {g.ruling}
                     </div>
                   </div>
@@ -2182,11 +2479,190 @@ const sources = [
         </div>
       </section>
 
-      <!-- IV — KELSEY'S WORDS -->
+      <!-- ============================================================ -->
+      <!-- PART III — THE JUSTICES                                        -->
+      <!-- ============================================================ -->
+      <section class="part" id="part-3" data-reveal>
+        <div class="part-inner">
+          <div class="part-roman">
+            <span class="pre">Part III of V</span>
+            III
+          </div>
+          <div>
+            <h2 class="part-h">The justices.</h2>
+            <p class="part-deck">
+              Seven justices. Three appointing legislatures. One bloc had to
+              hold or the strike fails. <b>Republican-appointed justices</b> hold
+              a 4-3 working majority on the Supreme Court of Virginia — but only if
+              all four show up. Here is who they are, who put them there, what they
+              were predicted to do on May 7, and what they actually did on May 8.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section bench-section">
+        <div class="wrap">
+          <div data-reveal>
+            <div class="bloc-row">
+              <div class="bloc-head">
+                <div class="ttl maj">Majority &mdash; Strike (4)</div>
+                <div class="ct">Republican-appointed wing · Kelsey writing</div>
+              </div>
+              <div class="bench-grid">
+                {
+                  justices
+                    .filter((j) => j.bench === 'majority')
+                    .map((j) => (
+                      <div
+                        class={`justice-card ${j.bench}`}
+                        style={`--accent: ${j.color}`}
+                      >
+                        <div class="vote-tag">{j.vote}</div>
+                        <div class="surname">{j.surname}</div>
+                        <div class="fullname">{j.name}</div>
+                        <div class="role">
+                          {j.role} · <b>{j.bloc}</b>
+                        </div>
+                        <div class="meta">
+                          <div class="meta-row">
+                            <div class="k">Appointed by</div>
+                            <div class="v">{j.appointer}</div>
+                          </div>
+                          <div class="meta-row">
+                            <div class="k">Term ends</div>
+                            <div class="v gold">{j.termEnds}</div>
+                          </div>
+                          <div class="meta-row">
+                            <div class="k">Methodology</div>
+                            <div class="v">{j.methodology}</div>
+                          </div>
+                          <div class="meta-row">
+                            <div class="k">May 7 forecast</div>
+                            <div class="v lean">{j.forecast}</div>
+                          </div>
+                        </div>
+                        <p class="bio">{j.bio}</p>
+                        <p class="note">{j.note}</p>
+                      </div>
+                    ))
+                }
+              </div>
+            </div>
+
+            <div class="bloc-row">
+              <div class="bloc-head">
+                <div class="ttl dis">Dissent &mdash; Uphold (3)</div>
+                <div class="ct">
+                  Democratic-aligned wing · Powell, Mann, Fulton
+                </div>
+              </div>
+              <div class="bench-grid three">
+                {
+                  justices
+                    .filter((j) => j.bench === 'dissent')
+                    .map((j) => (
+                      <div
+                        class={`justice-card ${j.bench}`}
+                        style={`--accent: ${j.color}`}
+                      >
+                        <div class="vote-tag">{j.vote}</div>
+                        <div class="surname">{j.surname}</div>
+                        <div class="fullname">{j.name}</div>
+                        <div class="role">
+                          {j.role} · <b>{j.bloc}</b>
+                        </div>
+                        <div class="meta">
+                          <div class="meta-row">
+                            <div class="k">Appointed by</div>
+                            <div class="v">{j.appointer}</div>
+                          </div>
+                          <div class="meta-row">
+                            <div class="k">Term ends</div>
+                            <div class="v gold">{j.termEnds}</div>
+                          </div>
+                          <div class="meta-row">
+                            <div class="k">Methodology</div>
+                            <div class="v">{j.methodology}</div>
+                          </div>
+                          <div class="meta-row">
+                            <div class="k">May 7 forecast</div>
+                            <div class="v lean">{j.forecast}</div>
+                          </div>
+                        </div>
+                        <p class="bio">{j.bio}</p>
+                        <p class="note">{j.note}</p>
+                      </div>
+                    ))
+                }
+              </div>
+            </div>
+
+            <div class="tally" data-reveal>
+              <div>
+                <div class="lbl">May 7 Bearing Freedom forecast</div>
+                <div class="row">
+                  <span>Strike</span>
+                  <span class="pct s">60%</span>
+                </div>
+                <div class="row">
+                  <span>Uphold</span>
+                  <span class="pct u">35%</span>
+                </div>
+                <div class="row">
+                  <span>Punt</span>
+                  <span class="pct p">5%</span>
+                </div>
+              </div>
+              <div>
+                <div class="lbl">May 8 reality</div>
+                <div class="row">
+                  <span>Vote</span>
+                  <span class="pct s">4&ndash;3 strike</span>
+                </div>
+                <div class="row">
+                  <span>Author</span>
+                  <span class="pct s">Kelsey</span>
+                </div>
+                <div class="row">
+                  <span>Scenario A — narrow strike</span>
+                  <span class="pct s">CALLED</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================ -->
+      <!-- PART IV — WHAT ACTUALLY HAPPENED                               -->
+      <!-- ============================================================ -->
+      <section class="part" id="part-4" data-reveal>
+        <div class="part-inner">
+          <div class="part-roman">
+            <span class="pre">Part IV of V</span>
+            IV
+          </div>
+          <div>
+            <h2 class="part-h">
+              What actually<br /><em>happened.</em>
+            </h2>
+            <p class="part-deck">
+              On <b>May 8, 2026</b>, the Supreme Court of Virginia issued a 4-3
+              opinion striking the amendment. Justice D. Arthur Kelsey wrote for
+              the majority, joined by McCullough, Russell, and Chafin. Powell,
+              Mann, and Fulton dissented. The opinion is straight textualism,
+              anchored in Article XII, Section 1. Here are the words, the road
+              that got us here, and the reactions in the hours since the gavel.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section class="section">
         <div class="wrap-narrow">
           <div data-reveal>
-            <div class="section-tag">IV · Kelsey, in his own words</div>
+            <div class="section-tag">The opinion · Kelsey writing</div>
             <h2 class="section-h">
               The lines that<br /><em>nuked the map.</em>
             </h2>
@@ -2243,12 +2719,13 @@ const sources = [
         </div>
       </section>
 
-      <!-- V — TIMELINE -->
       <section class="section">
         <div class="wrap-narrow">
           <div data-reveal>
-            <div class="section-tag">V · How we got here</div>
-            <h2 class="section-h">A&nbsp;manufactured<br />emergency.</h2>
+            <div class="section-tag">The road · How we got here</div>
+            <h2 class="section-h">
+              A&nbsp;manufactured<br />emergency.
+            </h2>
             <p class="section-sub">
               The case is procedurally dense. Stripped down, it's the story of a
               legislature that tried to outrun the Virginia Constitution and got
@@ -2269,39 +2746,12 @@ const sources = [
         </div>
       </section>
 
-      <!-- VI — WHY HUGE -->
       <section class="section">
         <div class="wrap">
           <div data-reveal>
-            <div class="section-tag">VI · Why this is huge</div>
-            <h2 class="section-h">
-              Five&nbsp;reasons<br /><em>this matters.</em>
-            </h2>
-            <p class="section-sub">
-              Beyond the legal text. What today's ruling actually preserves —
-              and prevents — over the next decade.
-            </p>
-          </div>
-
-          <div class="reasons" data-reveal>
-            {
-              reasonsHuge.map((r) => (
-                <div class="reason">
-                  <div class="reason-num">№ {r.n}</div>
-                  <h3 class="reason-h">{r.h}</h3>
-                  <p class="reason-body">{r.body}</p>
-                </div>
-              ))
-            }
-          </div>
-        </div>
-      </section>
-
-      <!-- VII — REACTIONS -->
-      <section class="section">
-        <div class="wrap">
-          <div data-reveal>
-            <div class="section-tag">VII · Reactions</div>
+            <div class="section-tag">
+              Reactions · Vindicated vs. aged poorly
+            </div>
             <h2 class="section-h">
               One side won.<br /><em>The other lied.</em>
             </h2>
@@ -2349,27 +2799,26 @@ const sources = [
         </div>
       </section>
 
-      <!-- VIII — WHAT'S NEXT -->
       <section class="section">
         <div class="wrap">
           <div data-reveal>
-            <div class="section-tag">VIII · What's next</div>
+            <div class="section-tag">Stakes · Why this is huge</div>
             <h2 class="section-h">
-              Where the fight<br /><em>goes from here.</em>
+              Five&nbsp;reasons<br /><em>this matters.</em>
             </h2>
             <p class="section-sub">
-              The merits ruling is the end of the line for SCOVA. It is not
-              quite the end of the line for the case.
+              Beyond the legal text. What today's ruling actually preserves —
+              and prevents — over the next decade.
             </p>
           </div>
 
-          <div class="next-grid" data-reveal>
+          <div class="reasons" data-reveal>
             {
-              whatsNext.map((n) => (
-                <div class="next">
-                  <div class="next-num">№ {n.n}</div>
-                  <h3 class="next-h">{n.h}</h3>
-                  <p class="next-body">{n.body}</p>
+              reasonsHuge.map((r) => (
+                <div class="reason">
+                  <div class="reason-num">№ {r.n}</div>
+                  <h3 class="reason-h">{r.h}</h3>
+                  <p class="reason-body">{r.body}</p>
                 </div>
               ))
             }
@@ -2377,11 +2826,64 @@ const sources = [
         </div>
       </section>
 
-      <!-- IX — QUOTABLES -->
+      <!-- ============================================================ -->
+      <!-- PART V — WHAT COULD HAPPEN NEXT                                -->
+      <!-- ============================================================ -->
+      <section class="part" id="part-5" data-reveal>
+        <div class="part-inner">
+          <div class="part-roman">
+            <span class="pre">Part V of V</span>
+            V
+          </div>
+          <div>
+            <h2 class="part-h">
+              What could<br /><em>happen next.</em>
+            </h2>
+            <p class="part-deck">
+              The merits ruling is the end of the line for SCOVA. It is not
+              quite the end of the line for the case. <b
+                >Federal appeal? Re-do attempt? The 2026 midterms? The 2027
+                General Assembly elections? The reappointment vote on Justice
+                Kelsey?</b
+              > Here is the realistic future, scenario by scenario, with likelihoods
+              and timelines.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <div class="next-grid" data-reveal>
+            {
+              whatsNext.map((n) => (
+                <div class="next">
+                  <div class="next-num">№ {n.n}</div>
+                  <h3 class="next-h">{n.h}</h3>
+                  <div class="next-meta">
+                    <div>
+                      <div class="k">Likelihood</div>
+                      <div class="v gold">{n.likelihood}</div>
+                    </div>
+                    <div>
+                      <div class="k">Timeline</div>
+                      <div class="v">{n.timeline}</div>
+                    </div>
+                  </div>
+                  <p class="next-body">{n.body}</p>
+                  <div class="next-bottom">{n.bottom}</div>
+                </div>
+              ))
+            }
+          </div>
+        </div>
+      </section>
+
+      <!-- KICKER — QUOTABLES -->
       <section class="section">
         <div class="wrap">
           <div data-reveal>
-            <div class="section-tag">IX · Share graphics</div>
+            <div class="section-tag">Kicker · Share graphics</div>
             <h2 class="section-h">
               Lines built<br /><em>for the share button.</em>
             </h2>
@@ -2398,11 +2900,11 @@ const sources = [
         </div>
       </section>
 
-      <!-- X — SOURCES -->
+      <!-- KICKER — SOURCES -->
       <section class="section section-tight">
         <div class="wrap">
           <div data-reveal>
-            <div class="section-tag">X · Source documents</div>
+            <div class="section-tag">Kicker · Source documents</div>
             <h2 class="section-h" style="font-size: clamp(32px, 4.6vw, 56px);">
               Read it yourself.
             </h2>
