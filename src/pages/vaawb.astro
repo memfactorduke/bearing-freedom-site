@@ -1,0 +1,1856 @@
+---
+// Standalone page — self-contained styles and scripts, no global.css
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virginia Assault Weapons Ban (SB 749) | Bearing Freedom</title>
+    <meta
+      name="description"
+      content="Governor Spanberger signed SB 749 into law on May 14, 2026 after the General Assembly rejected her amendments to broaden the ban. Full breakdown of the six-category feature test, magazine caps, penalties, exemptions, and the three lawsuits filed within 24 hours."
+    />
+    <meta
+      property="og:title"
+      content="Virginia Assault Weapons Ban (SB 749) | Bearing Freedom"
+    />
+    <meta
+      property="og:description"
+      content="Spanberger signed it. Six categories. The amendment she pushed got killed. Three lawsuits in 24 hours. Effective July 1, 2026."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bearingfreedom.com/vaawb" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6WRV03TTZ"
+    ></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-Q6WRV03TTZ', {
+        send_page_view: true,
+        allow_google_signals: true,
+        allow_ad_personalization_signals: true,
+        cookie_flags: 'SameSite=None;Secure',
+        page_referrer: document.referrer,
+        screen_resolution: window.screen.width + 'x' + window.screen.height,
+      });
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <style is:global>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --paper: #f4f0e8;
+        --paper-dark: #e8e2d6;
+        --ink: #1a1a1a;
+        --ink-light: #3a3a3a;
+        --ink-muted: #6b6560;
+        --ink-faint: #9a9590;
+        --red: #b91c1c;
+        --red-bg: #fef2f2;
+        --red-border: #f5c6c6;
+        --green: #166534;
+        --green-bg: #f0fdf4;
+        --green-border: #bbf7d0;
+        --amber: #92400e;
+        --amber-bg: #fffbeb;
+        --amber-border: #fde68a;
+        --navy: #1e3a5f;
+        --navy-bg: #eef2f7;
+        --black: #111;
+        --white: #fff;
+        --rule: #1a1a1a;
+        --rule-light: #ccc5b8;
+        --display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+        --body: 'Lora', Georgia, serif;
+        --mono: 'DM Mono', 'Courier New', monospace;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        background: var(--paper);
+        color: var(--ink);
+        font-family: var(--body);
+        font-size: 18px;
+        line-height: 1.75;
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+      }
+
+      a {
+        color: var(--red);
+      }
+      a:hover {
+        color: var(--ink);
+      }
+
+      /* ═══ TOPBAR ═══ */
+      .topbar {
+        background: var(--black);
+        padding: 0 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 44px;
+      }
+      .topbar-brand {
+        font-family: var(--display);
+        font-size: 20px;
+        font-weight: 900;
+        color: var(--white);
+        text-decoration: none;
+        letter-spacing: 0.5px;
+      }
+      .topbar-links {
+        display: flex;
+        gap: 20px;
+      }
+      .topbar-links a {
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: #999;
+        text-decoration: none;
+      }
+      .topbar-links a:hover {
+        color: var(--white);
+      }
+
+      /* ═══ TICKER ═══ */
+      .ticker {
+        background: var(--red);
+        overflow: hidden;
+        white-space: nowrap;
+        padding: 8px 0;
+      }
+      .ticker-scroll {
+        display: inline-block;
+        animation: scroll 50s linear infinite;
+      }
+      .ticker-scroll span {
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 500;
+        color: var(--white);
+        letter-spacing: 0.04em;
+      }
+      .ticker-sep {
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        background: rgba(255, 255, 255, 0.4);
+        border-radius: 50%;
+        margin: 0 24px;
+        vertical-align: middle;
+      }
+      @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+
+      /* ═══ MASTHEAD ═══ */
+      .masthead {
+        text-align: center;
+        padding: 56px 24px 48px;
+        border-bottom: 6px double var(--rule);
+      }
+      .masthead-dateline {
+        font-family: var(--mono);
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: var(--ink-muted);
+        margin-bottom: 20px;
+      }
+      .masthead h1 {
+        font-family: var(--display);
+        font-size: clamp(48px, 9vw, 96px);
+        font-weight: 900;
+        line-height: 0.95;
+        letter-spacing: -1px;
+        color: var(--ink);
+        margin-bottom: 4px;
+      }
+      .masthead h1 .red {
+        color: var(--red);
+      }
+      .masthead-deck {
+        font-family: var(--display);
+        font-size: clamp(18px, 2.5vw, 24px);
+        font-weight: 400;
+        font-style: italic;
+        color: var(--ink-light);
+        max-width: 700px;
+        margin: 20px auto 0;
+        line-height: 1.4;
+      }
+      .masthead-tags {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 28px;
+      }
+      .tag {
+        font-family: var(--mono);
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        padding: 5px 14px;
+        border: 1.5px solid var(--rule-light);
+        color: var(--ink-muted);
+      }
+      .tag-red {
+        border-color: var(--red);
+        color: var(--red);
+        background: var(--red-bg);
+      }
+      .tag-amber {
+        border-color: var(--amber);
+        color: var(--amber);
+        background: var(--amber-bg);
+      }
+      .tag-navy {
+        border-color: var(--navy);
+        color: var(--navy);
+        background: var(--navy-bg);
+      }
+
+      /* ═══ STATS STRIP ═══ */
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        border-bottom: 3px solid var(--rule);
+      }
+      .stat-box {
+        padding: 24px 12px;
+        text-align: center;
+        border-right: 1px solid var(--rule-light);
+      }
+      .stat-box:last-child {
+        border-right: none;
+      }
+      .stat-val {
+        font-family: var(--display);
+        font-size: 30px;
+        font-weight: 900;
+        color: var(--ink);
+        line-height: 1;
+      }
+      .stat-val.red {
+        color: var(--red);
+      }
+      .stat-val.amber {
+        color: var(--amber);
+      }
+      .stat-val.navy {
+        color: var(--navy);
+      }
+      .stat-lbl {
+        font-family: var(--mono);
+        font-size: 9px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        color: var(--ink-muted);
+        margin-top: 8px;
+      }
+
+      /* ═══ CONTENT ═══ */
+      .content {
+        max-width: 780px;
+        margin: 0 auto;
+        padding: 0 24px;
+      }
+
+      .section {
+        padding: 64px 0;
+        border-bottom: 1px solid var(--rule-light);
+      }
+
+      .section-label {
+        font-family: var(--mono);
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: var(--ink-faint);
+        margin-bottom: 8px;
+      }
+
+      .section-title {
+        font-family: var(--display);
+        font-size: 40px;
+        font-weight: 900;
+        color: var(--ink);
+        line-height: 1.1;
+        margin-bottom: 28px;
+        letter-spacing: -0.5px;
+      }
+      .section-title .red {
+        color: var(--red);
+      }
+
+      .prose {
+        font-family: var(--body);
+        font-size: 19px;
+        line-height: 1.8;
+        color: var(--ink-light);
+      }
+      .prose strong {
+        color: var(--ink);
+        font-weight: 600;
+      }
+      .prose em {
+        font-style: italic;
+      }
+      .prose p {
+        margin-bottom: 20px;
+      }
+      .prose p:last-child {
+        margin-bottom: 0;
+      }
+
+      /* ═══ THE STRIKETHROUGH AMENDMENT BEAT ═══ */
+      .strike-card {
+        background: var(--white);
+        border: 2px solid var(--ink);
+        padding: 40px 32px;
+        margin: 32px 0;
+        text-align: center;
+        position: relative;
+      }
+      .strike-card-label {
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        color: var(--red);
+        margin-bottom: 20px;
+      }
+      .strike-card-quote {
+        font-family: var(--display);
+        font-size: clamp(22px, 3.6vw, 32px);
+        line-height: 1.4;
+        color: var(--ink);
+        font-weight: 700;
+      }
+      .strike-card-quote .struck {
+        text-decoration: line-through;
+        text-decoration-color: var(--red);
+        text-decoration-thickness: 4px;
+        color: var(--ink-faint);
+      }
+      .strike-card-quote .kept {
+        color: var(--red);
+        background: var(--red-bg);
+        padding: 0 6px;
+      }
+      .strike-card-note {
+        font-family: var(--body);
+        font-size: 15px;
+        font-style: italic;
+        color: var(--ink-muted);
+        margin-top: 20px;
+        max-width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      /* ═══ CALLOUTS ═══ */
+      .callout {
+        border: 2px solid var(--rule);
+        padding: 24px 28px;
+        margin: 28px 0;
+        background: var(--white);
+      }
+      .callout-danger {
+        border-color: var(--red);
+        border-left-width: 5px;
+        background: var(--red-bg);
+      }
+      .callout-warning {
+        border-color: var(--amber);
+        border-left-width: 5px;
+        background: var(--amber-bg);
+      }
+      .callout-safe {
+        border-color: var(--green);
+        border-left-width: 5px;
+        background: var(--green-bg);
+      }
+      .callout-navy {
+        border-color: var(--navy);
+        border-left-width: 5px;
+        background: var(--navy-bg);
+      }
+      .callout-label {
+        font-family: var(--mono);
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        color: var(--ink-muted);
+        margin-bottom: 8px;
+      }
+      .callout-danger .callout-label {
+        color: var(--red);
+      }
+      .callout-warning .callout-label {
+        color: var(--amber);
+      }
+      .callout-safe .callout-label {
+        color: var(--green);
+      }
+      .callout-navy .callout-label {
+        color: var(--navy);
+      }
+      .callout p {
+        font-family: var(--body);
+        font-size: 16px;
+        line-height: 1.7;
+        color: var(--ink-light);
+        margin: 0;
+      }
+      .callout p + p {
+        margin-top: 12px;
+      }
+      .callout p strong {
+        color: var(--ink);
+      }
+
+      /* ═══ CATEGORY CARDS (one per beat, vertical) ═══ */
+      .cat {
+        background: var(--white);
+        border: 2px solid var(--ink);
+        padding: 32px 28px;
+        margin-bottom: 20px;
+      }
+      .cat-num-row {
+        display: flex;
+        align-items: baseline;
+        gap: 14px;
+        margin-bottom: 16px;
+        flex-wrap: wrap;
+      }
+      .cat-num {
+        font-family: var(--display);
+        font-size: 56px;
+        font-weight: 900;
+        color: var(--red);
+        line-height: 1;
+        letter-spacing: -2px;
+      }
+      .cat-headline {
+        font-family: var(--display);
+        font-size: 26px;
+        font-weight: 700;
+        color: var(--ink);
+        line-height: 1.2;
+        flex: 1;
+        min-width: 240px;
+      }
+      .cat-body {
+        font-family: var(--body);
+        font-size: 17px;
+        line-height: 1.65;
+        color: var(--ink-light);
+      }
+      .cat-body strong {
+        color: var(--ink);
+        font-weight: 600;
+      }
+      .cat-features {
+        margin-top: 14px;
+        padding-top: 14px;
+        border-top: 1px solid var(--rule-light);
+      }
+      .cat-features-label {
+        font-family: var(--mono);
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--ink-faint);
+        margin-bottom: 8px;
+      }
+      .cat-features-list {
+        font-family: var(--body);
+        font-size: 16px;
+        color: var(--ink);
+        line-height: 1.6;
+      }
+
+      /* ═══ TABLES ═══ */
+      .tbl {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 24px 0;
+        font-family: var(--body);
+        font-size: 16px;
+        border: 2px solid var(--ink);
+      }
+      .tbl thead th {
+        font-family: var(--mono);
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        padding: 12px 16px;
+        text-align: left;
+        background: var(--ink);
+        color: var(--white);
+        border-bottom: 2px solid var(--ink);
+      }
+      .tbl tbody td {
+        padding: 14px 16px;
+        border-bottom: 1px solid var(--rule-light);
+        color: var(--ink-light);
+        vertical-align: top;
+      }
+      .tbl tbody tr:nth-child(even) {
+        background: rgba(0, 0, 0, 0.02);
+      }
+      .tbl tbody tr:hover {
+        background: rgba(0, 0, 0, 0.04);
+      }
+      .tbl td strong {
+        color: var(--ink);
+        font-weight: 600;
+      }
+
+      .badge {
+        font-family: var(--mono);
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        padding: 3px 10px;
+        display: inline-block;
+        white-space: nowrap;
+      }
+      .badge-ban {
+        background: var(--red);
+        color: var(--white);
+      }
+      .badge-ok {
+        background: var(--green);
+        color: var(--white);
+      }
+      .badge-tbd {
+        background: var(--amber);
+        color: var(--white);
+      }
+      .badge-navy {
+        background: var(--navy);
+        color: var(--white);
+      }
+
+      /* ═══ LIST ═══ */
+      .check-list {
+        margin: 20px 0;
+      }
+      .check-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+        padding: 14px 0;
+        border-bottom: 1px solid var(--rule-light);
+        font-size: 17px;
+        color: var(--ink-light);
+        line-height: 1.6;
+      }
+      .check-dot {
+        flex-shrink: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-top: 9px;
+      }
+      .check-item strong {
+        color: var(--ink);
+        font-weight: 600;
+      }
+
+      /* ═══ TIMELINE ═══ */
+      .timeline {
+        position: relative;
+        margin: 28px 0;
+        padding-left: 28px;
+        border-left: 3px solid var(--ink);
+      }
+      .tl-item {
+        position: relative;
+        padding: 18px 0 18px 24px;
+      }
+      .tl-item::before {
+        content: '';
+        position: absolute;
+        left: -20px;
+        top: 24px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: var(--paper);
+        border: 3px solid var(--ink-muted);
+      }
+      .tl-item.major::before {
+        background: var(--red);
+        border-color: var(--red);
+      }
+      .tl-date {
+        font-family: var(--mono);
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--ink-muted);
+        letter-spacing: 0.04em;
+      }
+      .tl-desc {
+        font-family: var(--body);
+        font-size: 17px;
+        color: var(--ink-light);
+        margin-top: 4px;
+        line-height: 1.5;
+      }
+      .tl-item.major .tl-desc {
+        color: var(--ink);
+        font-weight: 600;
+      }
+
+      /* ═══ PULLQUOTE ═══ */
+      .pullquote {
+        font-family: var(--display);
+        font-size: clamp(24px, 3.5vw, 32px);
+        font-weight: 700;
+        font-style: italic;
+        color: var(--ink);
+        text-align: center;
+        padding: 56px 32px;
+        margin: 0;
+        border-top: 3px solid var(--rule);
+        border-bottom: 3px solid var(--rule);
+        line-height: 1.35;
+      }
+      .pullquote .red {
+        color: var(--red);
+      }
+      .pullquote-attribution {
+        font-family: var(--mono);
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        color: var(--ink-muted);
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 20px;
+        display: block;
+      }
+
+      /* ═══ INVERTED BLOCK ═══ */
+      .inverted {
+        background: var(--ink);
+        color: var(--white);
+        padding: 48px 24px;
+        margin: 0 -24px;
+        text-align: center;
+      }
+      .inverted-wide {
+        margin: 0;
+        margin-left: calc(-50vw + 50%);
+        margin-right: calc(-50vw + 50%);
+        padding: 72px 24px;
+      }
+      .inverted h2 {
+        font-family: var(--display);
+        font-size: clamp(24px, 3vw, 30px);
+        font-weight: 700;
+        color: var(--white);
+        margin-bottom: 20px;
+        letter-spacing: 0.3px;
+        max-width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.3;
+      }
+      .inverted p {
+        font-family: var(--body);
+        font-size: 17px;
+        color: #bbb;
+        max-width: 600px;
+        margin: 0 auto 24px;
+        line-height: 1.7;
+      }
+      .sub-btn {
+        display: inline-block;
+        font-family: var(--mono);
+        font-size: 12px;
+        font-weight: 500;
+        padding: 14px 36px;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        background: var(--red);
+        color: var(--white);
+        text-decoration: none;
+        transition: background 0.2s;
+      }
+      .sub-btn:hover {
+        background: #991b1b;
+        color: var(--white);
+      }
+
+      /* ═══ BIG STAT (full-bleed beats) ═══ */
+      .big-stat {
+        text-align: center;
+        padding: 56px 24px;
+        background: var(--white);
+        border: 2px solid var(--ink);
+        margin: 32px 0;
+      }
+      .big-stat-num {
+        font-family: var(--display);
+        font-size: clamp(80px, 16vw, 160px);
+        font-weight: 900;
+        line-height: 1;
+        color: var(--red);
+        letter-spacing: -4px;
+      }
+      .big-stat-lbl {
+        font-family: var(--mono);
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: var(--ink);
+        margin-top: 16px;
+        font-weight: 500;
+      }
+      .big-stat-note {
+        font-family: var(--body);
+        font-size: 17px;
+        font-style: italic;
+        color: var(--ink-muted);
+        margin-top: 12px;
+      }
+
+      /* ═══ FOOTER ═══ */
+      .foot {
+        border-top: 3px solid var(--rule);
+        padding: 24px;
+        text-align: center;
+      }
+      .foot p {
+        font-family: var(--mono);
+        font-size: 10px;
+        color: var(--ink-muted);
+        letter-spacing: 0.06em;
+        margin: 0;
+      }
+
+      /* ═══ REVEAL ═══ */
+      [data-reveal] {
+        opacity: 0;
+        transform: translateY(20px);
+        transition:
+          opacity 0.6s ease,
+          transform 0.6s ease;
+      }
+      [data-reveal].vis {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* ═══ RESPONSIVE ═══ */
+      @media (max-width: 768px) {
+        .stats {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        .topbar-links {
+          display: none;
+        }
+        .masthead {
+          padding: 40px 20px 36px;
+        }
+        .section {
+          padding: 48px 0;
+        }
+        .section-title {
+          font-size: 32px;
+        }
+        .pullquote {
+          padding: 40px 20px;
+        }
+        .inverted {
+          margin: 0 -20px;
+        }
+        .cat {
+          padding: 24px 22px;
+        }
+        .cat-num {
+          font-size: 44px;
+        }
+        .cat-headline {
+          font-size: 22px;
+        }
+        .strike-card {
+          padding: 28px 20px;
+        }
+      }
+      @media (max-width: 480px) {
+        .stats {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .masthead h1 {
+          font-size: 42px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Topbar -->
+    <div class="topbar">
+      <a href="/" class="topbar-brand">Bearing Freedom</a>
+      <div class="topbar-links">
+        <a href="/">Articles</a>
+        <a href="/extras">Extras</a>
+        <a href="/legislation">VA Tracker</a>
+        <a
+          href="https://www.youtube.com/channel/UCmuwdcAbeBR16b8q6CBUsTw"
+          target="_blank"
+          rel="noopener">YouTube</a
+        >
+      </div>
+    </div>
+
+    <!-- Ticker -->
+    <div class="ticker">
+      <div class="ticker-scroll">
+        <span>SB 749 signed into law by Gov. Spanberger</span><span
+          class="ticker-sep"></span>
+        <span>Virginia becomes 11th state with an assault weapons ban</span
+        ><span class="ticker-sep"></span>
+        <span>Effective July 1, 2026</span><span class="ticker-sep"></span>
+        <span>Class 1 misdemeanor &mdash; up to 12 months + $2,500 fine</span
+        ><span class="ticker-sep"></span>
+        <span>3-year firearm prohibition upon conviction</span><span
+          class="ticker-sep"></span>
+        <span>Magazines over 15 rounds banned from sale</span><span
+          class="ticker-sep"></span>
+        <span
+          >General Assembly REJECTED Spanberger's amendments at April 22
+          reconvened session</span
+        ><span class="ticker-sep"></span>
+        <span>She signed the legislature's narrower version unchanged</span
+        ><span class="ticker-sep"></span>
+        <span>Joint federal suit: SAF, NRA, FPC + private citizens</span><span
+          class="ticker-sep"></span>
+        <span>NRA files separate Virginia state suit</span><span
+          class="ticker-sep"></span>
+        <span
+          >DOJ files federal suit May 15 &mdash; three actions in 24 hours</span
+        ><span class="ticker-sep"></span>
+        <span>Under-21 cannot possess grandfathered firearms</span><span
+          class="ticker-sep"></span>
+        <span>SB 749 signed into law by Gov. Spanberger</span><span
+          class="ticker-sep"></span>
+        <span>Virginia becomes 11th state with an assault weapons ban</span
+        ><span class="ticker-sep"></span>
+        <span>Effective July 1, 2026</span><span class="ticker-sep"></span>
+        <span>Class 1 misdemeanor &mdash; up to 12 months + $2,500 fine</span
+        ><span class="ticker-sep"></span>
+        <span>3-year firearm prohibition upon conviction</span><span
+          class="ticker-sep"></span>
+        <span>Magazines over 15 rounds banned from sale</span><span
+          class="ticker-sep"></span>
+        <span
+          >General Assembly REJECTED Spanberger's amendments at April 22
+          reconvened session</span
+        ><span class="ticker-sep"></span>
+        <span>She signed the legislature's narrower version unchanged</span
+        ><span class="ticker-sep"></span>
+        <span>Joint federal suit: SAF, NRA, FPC + private citizens</span><span
+          class="ticker-sep"></span>
+        <span>NRA files separate Virginia state suit</span><span
+          class="ticker-sep"></span>
+        <span
+          >DOJ files federal suit May 15 &mdash; three actions in 24 hours</span
+        ><span class="ticker-sep"></span>
+        <span>Under-21 cannot possess grandfathered firearms</span><span
+          class="ticker-sep"></span>
+      </div>
+    </div>
+
+    <!-- Masthead -->
+    <div class="masthead" data-reveal>
+      <div class="masthead-dateline">
+        Commonwealth of Virginia &bull; Senate Bill 749 &bull; Signed May 14,
+        2026
+      </div>
+      <h1>Virginia's<br /><span class="red">Assault Weapons Ban</span></h1>
+      <p class="masthead-deck">
+        Gov. Spanberger signed SB 749 into law on May 14, 2026. Six categories
+        of firearm. A features test. A magazine cap. A push to broaden it
+        further that the General Assembly rejected. And three lawsuits filed
+        before the next sundown.
+      </p>
+      <div class="masthead-tags">
+        <span class="tag tag-red">Signed Into Law</span>
+        <span class="tag tag-amber">Effective July 1, 2026</span>
+        <span class="tag">Senate 21&ndash;19</span>
+        <span class="tag">House 59&ndash;35</span>
+        <span class="tag tag-navy">11th State</span>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats" data-reveal>
+      <div class="stat-box">
+        <div class="stat-val red">SB 749</div><div class="stat-lbl">Bill</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val">21&ndash;19</div><div class="stat-lbl">
+          Senate
+        </div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val">59&ndash;35</div><div class="stat-lbl">House</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val red">12 mo</div><div class="stat-lbl">
+          Max Jail
+        </div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val red">$2,500</div><div class="stat-lbl">
+          Max Fine
+        </div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val amber">Jul 1</div><div class="stat-lbl">
+          Effective
+        </div>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <!-- What it does -->
+      <div class="section" data-reveal>
+        <div class="section-label">Section 01</div>
+        <h2 class="section-title">What Spanberger just signed</h2>
+        <div class="prose">
+          <p>
+            On Thursday, May 14, 2026, Gov. Abigail Spanberger signed Senate
+            Bill 749 into law. It is the most sweeping firearms restriction
+            Virginia has ever enacted. Starting <strong>July 1, 2026</strong>,
+            it will be a crime to <strong
+              >import, sell, manufacture, purchase, or transfer</strong
+            > any firearm Virginia now classifies as an &ldquo;assault firearm,&rdquo;
+            along with any magazine, belt, drum, or feed strip that holds more than
+            15 rounds.
+          </p>
+          <p>
+            Virginia is now the <strong>11th state</strong> to enact some form of
+            assault weapons ban. The General Assembly passed identical versions of
+            the bill in March (Senate 21&ndash;19, House 59&ndash;35). Spanberger
+            sent it back in April with more than a dozen amendments that would have
+            broadened the ban further &mdash; most notably striking the word &ldquo;fixed&rdquo;
+            from the rifle and pistol magazine-capacity clause. At the April 22 reconvened
+            session, the General Assembly
+            <strong>rejected her amendments</strong>, passing the bill &ldquo;by
+            for the day&rdquo; in both chambers, which returned it to her in its
+            original form. On May 14 she signed the legislature's version
+            unchanged.
+          </p>
+          <p>
+            A violation is a <strong>Class 1 misdemeanor</strong> — up to 12 months
+            in jail, up to a $2,500 fine, and a mandatory three-year prohibition on
+            purchasing, possessing, or transporting any firearm following conviction.
+          </p>
+        </div>
+
+        <div class="callout callout-danger">
+          <div class="callout-label">The Headline Numbers</div>
+          <p>
+            <strong>Effective date:</strong> July 1, 2026. <strong
+              >Penalty:</strong
+            > Class 1 misdemeanor, up to 12 months + $2,500 + 3-year firearm prohibition.
+            <strong>Magazine cap:</strong> 15 rounds. <strong>Age floor:</strong
+            > 21. <strong>Lawsuits filed within 24 hours:</strong> three &mdash; a
+            joint SAF/NRA/FPC federal suit, an NRA state suit, and a DOJ federal suit.
+          </p>
+        </div>
+      </div>
+
+      <!-- The six categories -->
+      <div class="section" data-reveal>
+        <div class="section-label">Section 02</div>
+        <h2 class="section-title">The six categories</h2>
+        <div class="prose">
+          <p>
+            Virginia uses a <strong>features-based test</strong>, not a list of
+            named models. A firearm becomes an &ldquo;assault firearm&rdquo;
+            when it matches a defined action plus a defined magazine type plus a
+            required number of physical features. There are six categories.
+          </p>
+        </div>
+
+        <div class="cat">
+          <div class="cat-num-row">
+            <div class="cat-num">1</div>
+            <div class="cat-headline">
+              Centerfire rifle or pistol with a <em>fixed</em> magazine capacity over
+              15 rounds
+            </div>
+          </div>
+          <div class="cat-body">
+            <strong>Semi-automatic centerfire rifles and pistols.</strong> No features
+            required &mdash; but the magazine must be <strong>fixed</strong> (built
+            into the firearm), not detachable. Spanberger's amendment to remove &ldquo;fixed&rdquo;
+            was rejected, so this clause as enacted catches almost nothing on the
+            modern market. The detachable-magazine firearms run through Categories
+            2 and 3.
+          </div>
+        </div>
+
+        <div class="cat">
+          <div class="cat-num-row">
+            <div class="cat-num">2</div>
+            <div class="cat-headline">
+              Centerfire rifle with a detachable magazine plus any one feature
+            </div>
+          </div>
+          <div class="cat-body">
+            <strong>Semi-automatic centerfire rifles</strong> that accept a detachable
+            magazine and have <strong>any one</strong> of the listed offensive features.
+          </div>
+          <div class="cat-features">
+            <div class="cat-features-label">Triggering features</div>
+            <div class="cat-features-list">
+              Folding/telescoping/collapsible stock &middot; pistol grip
+              protruding beneath the action &middot; second handgrip (forward
+              grip) &middot; threaded barrel &middot; grenade launcher
+            </div>
+          </div>
+        </div>
+
+        <div class="cat">
+          <div class="cat-num-row">
+            <div class="cat-num">3</div>
+            <div class="cat-headline">
+              Centerfire pistol with a detachable magazine plus two features
+            </div>
+          </div>
+          <div class="cat-body">
+            <strong>Semi-automatic centerfire pistols</strong> that accept a detachable
+            magazine and have <strong>two or more</strong> of the listed features.
+          </div>
+          <div class="cat-features">
+            <div class="cat-features-label">Triggering features</div>
+            <div class="cat-features-list">
+              Second handgrip &middot; magazine outside the grip &middot; barrel
+              shroud &middot; threaded barrel &middot; buffer tube/arm brace
+              &middot; &ldquo;any characteristic of like kind&rdquo;
+            </div>
+          </div>
+        </div>
+
+        <div class="cat">
+          <div class="cat-num-row">
+            <div class="cat-num">4</div>
+            <div class="cat-headline">
+              Semi-auto shotgun with any one of the listed features
+            </div>
+          </div>
+          <div class="cat-body">
+            <strong>Semi-automatic shotguns.</strong> One feature is enough.
+          </div>
+          <div class="cat-features">
+            <div class="cat-features-label">Triggering features</div>
+            <div class="cat-features-list">
+              Folding, telescoping, or collapsible stock &middot; thumbhole
+              stock &middot; pistol grip protruding beneath the action &middot;
+              ability to accept a detachable magazine &middot; fixed magazine
+              over 15 rounds
+            </div>
+          </div>
+        </div>
+
+        <div class="cat">
+          <div class="cat-num-row">
+            <div class="cat-num">5</div>
+            <div class="cat-headline">Revolving-cylinder shotguns</div>
+          </div>
+          <div class="cat-body">
+            The design alone qualifies. No features required, no capacity test.
+            Streetsweeper-style and similar.
+          </div>
+        </div>
+
+        <div class="cat">
+          <div class="cat-num-row">
+            <div class="cat-num">6</div>
+            <div class="cat-headline">
+              Anything modified after July 1 to fit the prior categories
+            </div>
+          </div>
+          <div class="cat-body">
+            Catch-all. Any firearm <strong>modified after enactment</strong> so that
+            it meets any of the preceding five categories becomes an assault firearm
+            by operation of law. Aftermarket parts will be policed by this clause.
+          </div>
+        </div>
+      </div>
+
+      <!-- Banned by name -->
+      <div class="section" data-reveal>
+        <div class="section-label">Section 03</div>
+        <h2 class="section-title">What this actually covers</h2>
+        <div class="prose">
+          <p>
+            The text doesn't name models — it describes features — but the
+            real-world catalog of affected firearms is broad. Industry observers
+            and NRA-ILA flag the following as plainly covered.
+          </p>
+        </div>
+        <table class="tbl">
+          <thead
+            ><tr><th>Firearm</th><th>Why it's covered</th><th>Status</th></tr
+            ></thead
+          >
+          <tbody>
+            <tr
+              ><td><strong>AR-15 platform rifles</strong></td><td
+                >Detachable mag + pistol grip + collapsible stock</td
+              ><td><span class="badge badge-ban">Banned</span></td></tr
+            >
+            <tr
+              ><td><strong>AK-pattern rifles</strong></td><td
+                >Detachable mag + pistol grip</td
+              ><td><span class="badge badge-ban">Banned</span></td></tr
+            >
+            <tr
+              ><td><strong>SIG MCX / MPX</strong></td><td
+                >Detachable mag + pistol grip + threaded barrel</td
+              ><td><span class="badge badge-ban">Banned</span></td></tr
+            >
+            <tr
+              ><td><strong>IWI Tavor, FN SCAR, CZ Bren 2</strong></td><td
+                >Detachable mag + pistol grip</td
+              ><td><span class="badge badge-ban">Banned</span></td></tr
+            >
+            <tr
+              ><td><strong>HK MR556, MR416</strong></td><td
+                >Detachable mag + pistol grip + threaded barrel</td
+              ><td><span class="badge badge-ban">Banned</span></td></tr
+            >
+            <tr
+              ><td><strong>Ruger Mini-14 Tactical</strong></td><td
+                >Threaded barrel + pistol-grip stock</td
+              ><td><span class="badge badge-ban">Banned</span></td></tr
+            >
+            <tr
+              ><td><strong>AR-pistols with braces</strong></td><td
+                >Detachable mag + buffer tube + second feature</td
+              ><td><span class="badge badge-ban">Banned</span></td></tr
+            >
+            <tr
+              ><td><strong>Saiga-12 / VEPR-12 shotguns</strong></td><td
+                >Detachable mag (single feature)</td
+              ><td><span class="badge badge-ban">Banned</span></td></tr
+            >
+            <tr
+              ><td><strong>Standard handguns (Glock, 1911, etc.)</strong></td
+              ><td
+                >Sold with mags 15 rounds and under for VA market &mdash;
+                handgun itself not covered absent a second feature</td
+              ><td><span class="badge badge-ok">Not in scope</span></td></tr
+            >
+          </tbody>
+        </table>
+
+        <div class="callout">
+          <div class="callout-label">
+            What Spanberger wanted that didn't pass
+          </div>
+          <p>
+            Spanberger's rejected amendments would have stripped the word
+            &ldquo;fixed&rdquo; from Category 1, which NRA-ILA argued would have
+            pulled the <strong>Glock 17</strong> with its factory 17-round magazine,
+            and any <strong>1911 with an extended Wilson magazine</strong>, into
+            the assault-firearm definition. Because the General Assembly
+            rejected that amendment, those guns are <strong>not</strong> in scope
+            of the signed law. They could come back into scope only if Virginia revisits
+            the language in a future session.
+          </p>
+        </div>
+      </div>
+
+      <!-- Pullquote 1 -->
+      <div class="pullquote" data-reveal>
+        &ldquo;The proposal bans the new purchase of <span class="red"
+          >commonly owned firearms</span
+        > and standard capacity magazines in the Commonwealth.&rdquo;
+        <span class="pullquote-attribution">NRA-ILA, May 14, 2026</span>
+      </div>
+
+      <!-- Big stat: 15 rounds -->
+      <div data-reveal>
+        <div class="big-stat">
+          <div class="big-stat-num">15</div>
+          <div class="big-stat-lbl">Round magazine cap</div>
+          <div class="big-stat-note">
+            Sale, transfer, or purchase of magazines, belts, drums, or feed
+            strips with capacity over 15 rounds is prohibited.
+          </div>
+        </div>
+      </div>
+
+      <!-- What is exempt -->
+      <div class="section" data-reveal>
+        <div class="section-label">Section 04</div>
+        <h2 class="section-title">What is exempt</h2>
+        <div class="check-list">
+          <div class="check-item">
+            <span class="check-dot" style="background:var(--green)"
+            ></span><strong>Bolt-action rifles</strong> &mdash; all configurations
+          </div>
+          <div class="check-item">
+            <span class="check-dot" style="background:var(--green)"
+            ></span><strong>Pump- and lever-action firearms</strong> &mdash; rifles
+            and shotguns
+          </div>
+          <div class="check-item">
+            <span class="check-dot" style="background:var(--green)"
+            ></span><strong>Revolvers</strong> &mdash; not semi-automatic, not covered
+          </div>
+          <div class="check-item">
+            <span class="check-dot" style="background:var(--green)"
+            ></span><strong>Single-shot firearms</strong>
+          </div>
+          <div class="check-item">
+            <span class="check-dot" style="background:var(--green)"
+            ></span><strong>Pre-1899 antiques and replicas</strong>
+          </div>
+          <div class="check-item">
+            <span class="check-dot" style="background:var(--green)"
+            ></span><strong>Permanently inoperable firearms</strong>
+          </div>
+          <div class="check-item">
+            <span class="check-dot" style="background:var(--green)"
+            ></span><strong>Conventional hunting shotguns</strong> without a triggering
+            feature &mdash; standard pump, lever, and many fixed-stock semi-autos
+            used for waterfowl and upland bird remain legal
+          </div>
+        </div>
+      </div>
+
+      <!-- The word she tried to delete -->
+      <div class="section" data-reveal>
+        <div class="section-label">Section 05</div>
+        <h2 class="section-title">
+          The one word she <span class="red">tried to delete</span>
+        </h2>
+        <div class="prose">
+          <p>
+            That is what the law covers. Here is what Spanberger wanted it to
+            cover.
+          </p>
+          <p>
+            Category 1 &mdash; semi-automatic centerfire rifles and pistols with
+            a <strong>fixed magazine capacity</strong> greater than 15 rounds &mdash;
+            is almost nothing on its own. &ldquo;Fixed&rdquo; means built into the
+            firearm, not detachable. Almost no modern rifle or pistol on the market
+            has a fixed magazine over 15 rounds. The clause as written catches very
+            little.
+          </p>
+          <p>
+            Spanberger's April 14 amendments would have <strong
+              >deleted the word &ldquo;fixed.&rdquo;</strong
+            > The clause would then have read that any semi-automatic centerfire rifle
+            or pistol with a magazine capacity over 15 rounds qualifies as an assault
+            firearm &mdash; including detachable magazines, including magazines not
+            even inserted. NRA-ILA argued that reading would have swept in essentially
+            every common centerfire semi-auto in Virginia, including Glock 17s with
+            factory magazines and 1911s with extended Wilson magazines.
+          </p>
+          <p>
+            The General Assembly killed it. At the April 22 reconvened session,
+            both chambers passed the bill <strong
+              >&ldquo;by for the day&rdquo;</strong
+            > on her amendments &mdash; a procedural move that rejects the governor's
+            changes and returns the bill in its original form. Cardinal News led with
+            &ldquo;General Assembly rejects more than a dozen of Spanberger's amendments.&rdquo;
+            The word &ldquo;fixed&rdquo; stayed in.
+          </p>
+        </div>
+
+        <div class="strike-card">
+          <div class="strike-card-label">
+            What Spanberger proposed &mdash; April 14
+          </div>
+          <div class="strike-card-quote">
+            &ldquo;A semi-automatic centerfire rifle or pistol with a <span
+              class="struck">fixed</span
+            > magazine capacity in excess of 15 rounds.&rdquo;
+          </div>
+          <div class="strike-card-note">
+            Strike one word, broaden the ban from &ldquo;essentially
+            nothing&rdquo; to &ldquo;essentially every common centerfire
+            semi-auto.&rdquo;
+          </div>
+        </div>
+
+        <div class="strike-card" style="border-color:var(--green);">
+          <div class="strike-card-label" style="color:var(--green);">
+            What the General Assembly enacted &mdash; April 22, signed May 14
+          </div>
+          <div class="strike-card-quote">
+            &ldquo;A semi-automatic centerfire rifle or pistol with a <span
+              class="kept">fixed</span
+            > magazine capacity in excess of 15 rounds.&rdquo;
+          </div>
+          <div class="strike-card-note">
+            The legislature rejected her amendments. &ldquo;Fixed&rdquo; stayed
+            in. The signed law is sweeping &mdash; it just isn't every common
+            semi-auto in Virginia.
+          </div>
+        </div>
+      </div>
+
+      <!-- Pullquote 2 -->
+      <div class="pullquote" data-reveal>
+        She pushed for the <span class="red">maximal version</span>. The
+        legislature wouldn't go along. What got signed is still sweeping &mdash;
+        it just isn't every common semi-auto in Virginia.
+      </div>
+
+      <!-- Grandfathering -->
+      <div class="section" data-reveal>
+        <div class="section-label">Section 06</div>
+        <h2 class="section-title">
+          What grandfathered owners can and can't do
+        </h2>
+        <div class="prose">
+          <p>
+            Firearms and magazines <strong
+              >lawfully owned before July 1, 2026</strong
+            > can be kept. There is no confiscation. There is also no path forward
+            in the used market.
+          </p>
+        </div>
+        <table class="tbl">
+          <thead><tr><th>Action</th><th>After July 1, 2026</th></tr></thead>
+          <tbody>
+            <tr
+              ><td>Keep your existing AR, AK, MCX, etc.</td><td
+                ><span class="badge badge-ok">Legal</span> &mdash; no confiscation</td
+              ></tr
+            >
+            <tr
+              ><td>Buy a new covered firearm from a Virginia dealer</td><td
+                ><span class="badge badge-ban">Prohibited</span></td
+              ></tr
+            >
+            <tr
+              ><td>Buy used from another Virginia resident</td><td
+                ><span class="badge badge-ban">Prohibited</span></td
+              ></tr
+            >
+            <tr
+              ><td>Import one into Virginia from out of state</td><td
+                ><span class="badge badge-ban">Prohibited</span></td
+              ></tr
+            >
+            <tr
+              ><td>Transfer to spouse, child, parent, grandparent, sibling</td
+              ><td><span class="badge badge-ok">Legal</span></td></tr
+            >
+            <tr
+              ><td>Inherit a covered firearm</td><td
+                ><span class="badge badge-ok">Legal</span></td
+              ></tr
+            >
+            <tr
+              ><td>Possess as an adult under 21</td><td
+                ><span class="badge badge-ban">Prohibited</span></td
+              ></tr
+            >
+            <tr
+              ><td>Buy a magazine over 15 rounds</td><td
+                ><span class="badge badge-ban">Prohibited</span></td
+              ></tr
+            >
+            <tr
+              ><td>Sell to a non-family Virginia resident</td><td
+                ><span class="badge badge-ban">Prohibited</span></td
+              ></tr
+            >
+            <tr
+              ><td>Sell out of state through an FFL</td><td
+                ><span class="badge badge-ok">Legal</span></td
+              ></tr
+            >
+          </tbody>
+        </table>
+
+        <div class="callout callout-danger">
+          <div class="callout-label">The 21-Year-Old Problem</div>
+          <p>
+            <strong>An adult under 21 cannot possess</strong> a grandfathered assault
+            firearm. A 19-year-old can legally own a rifle in Virginia generally,
+            but cannot legally possess one that fits SB 749's features test — even
+            one their family already owned. The age floor on possession is something
+            every state Virginia copied from stretched to do.
+          </p>
+        </div>
+
+        <div class="callout">
+          <div class="callout-label">Used market killed</div>
+          <p>
+            No legal in-state resale. No legal in-state private transfers
+            outside immediate family. The Virginia secondary market for any
+            firearm meeting the features test is effectively closed on July 1.
+          </p>
+        </div>
+      </div>
+
+      <!-- Penalties -->
+      <div class="section" data-reveal>
+        <div class="section-label">Section 07</div>
+        <h2 class="section-title">Penalties</h2>
+        <table class="tbl">
+          <thead
+            ><tr><th>Violation</th><th>Charge</th><th>Penalty</th></tr></thead
+          >
+          <tbody>
+            <tr
+              ><td
+                ><strong
+                  >Import, sell, manufacture, purchase, or transfer</strong
+                ></td
+              ><td>Class 1 misdemeanor</td><td
+                style="color:var(--red);font-weight:600;"
+                >Up to 12 months + $2,500 fine</td
+              ></tr
+            >
+            <tr
+              ><td><strong>Post-conviction firearm rights</strong></td><td
+                >Mandatory disqualification</td
+              ><td style="color:var(--red);font-weight:600;"
+                >3-year prohibition on purchase, possession, or transport</td
+              ></tr
+            >
+            <tr
+              ><td
+                ><strong>Under-21 possession of any covered firearm</strong></td
+              ><td>Possession offense</td><td
+                style="color:var(--red);font-weight:600;"
+                >Class 1 misdemeanor</td
+              ></tr
+            >
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Companion bill -->
+      <div class="section" data-reveal>
+        <div class="section-label">Section 08</div>
+        <h2 class="section-title">
+          The companion bill: <span class="red">HB 1524</span>
+        </h2>
+        <div class="prose">
+          <p>
+            SB 749 narrows what you may own. HB 1524 narrows where you may carry
+            the firearms SB 749 covers. The two bills move together. HB 1524 was
+            signed in April 2026 with an emergency clause &mdash; ahead of SB
+            749 &mdash; not lumped into the May 14 signing.
+          </p>
+          <p>
+            HB 1524 prohibits public carry &mdash; openly or concealed &mdash;
+            of any firearm that meets the SB 749 features test, on any public
+            street, road, alley, sidewalk, public right-of-way, or in any public
+            park. The concealed handgun permit exemption is <strong
+              >stripped only for the firearms covered by SB 749</strong
+            >. A standard non-covered handgun can still be carried by a CHP
+            holder on a sidewalk. A covered firearm cannot.
+          </p>
+        </div>
+
+        <div class="callout callout-danger">
+          <div class="callout-label">The pincer, precisely</div>
+          <p>
+            Together SB 749 and HB 1524 do two distinct things to one defined
+            category of firearm. SB 749 makes it a crime to sell, manufacture,
+            import, or transfer the covered firearms. HB 1524 makes it a crime
+            to publicly carry one, even with a permit. NRA-ILA argues the pair
+            &ldquo;practically eliminates&rdquo; the right to carry the affected
+            firearms. The pincer is real &mdash; it just doesn't reach every
+            handgun in Virginia.
+          </p>
+        </div>
+      </div>
+
+      <!-- Timeline -->
+      <div class="section" data-reveal>
+        <div class="section-label">Section 09</div>
+        <h2 class="section-title">How it got here</h2>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-date">January 2026</div>
+            <div class="tl-desc">
+              SB 749 introduced in the Virginia Senate by Sen. Saddam Salim
+            </div>
+          </div>
+          <div class="tl-item major">
+            <div class="tl-date">Feb 11, 2026</div>
+            <div class="tl-desc">Senate passes SB 749 &mdash; 21&ndash;19</div>
+          </div>
+          <div class="tl-item major">
+            <div class="tl-date">Mar 4, 2026</div>
+            <div class="tl-desc">
+              House passes the Helmer substitute &mdash; 59&ndash;35
+            </div>
+          </div>
+          <div class="tl-item major">
+            <div class="tl-date">Mar 9, 2026</div>
+            <div class="tl-desc">
+              Senate agrees to House substitute &mdash; 21&ndash;19
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-date">Apr 14, 2026</div>
+            <div class="tl-desc">
+              Spanberger returns SB 749 with more than a dozen amendments
+              &mdash; including striking &ldquo;fixed&rdquo; from the
+              rifle/pistol capacity clause and a broader features rewrite
+            </div>
+          </div>
+          <div class="tl-item major">
+            <div class="tl-date">Apr 22, 2026</div>
+            <div class="tl-desc">
+              General Assembly <strong>rejects</strong> Spanberger's amendments at
+              reconvened session &mdash; both chambers pass the bill &ldquo;by for
+              the day,&rdquo; returning it to the governor unchanged
+            </div>
+          </div>
+          <div class="tl-item major">
+            <div class="tl-date">May 14, 2026</div>
+            <div class="tl-desc">
+              Spanberger signs SB 749 into law &mdash; the legislature's
+              original version
+            </div>
+          </div>
+          <div class="tl-item major">
+            <div class="tl-date">May 14, 2026</div>
+            <div class="tl-desc">
+              Joint federal suit filed (SAF + NRA + FPC + private citizens) as
+              <em>McDonald v. Katz</em>. NRA also files Virginia state suit (<em
+                >Santolla v. Katz</em
+              >, Washington County Circuit Court).
+            </div>
+          </div>
+          <div class="tl-item major">
+            <div class="tl-date">May 15, 2026</div>
+            <div class="tl-desc">
+              U.S. Department of Justice files separate federal suit through its
+              Civil Rights Division 2A Section
+            </div>
+          </div>
+          <div class="tl-item major">
+            <div class="tl-date">July 1, 2026</div>
+            <div class="tl-desc">
+              Law takes effect &mdash; sale, manufacture, transfer prohibition
+              begins
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lawsuits -->
+      <div class="section" data-reveal>
+        <div class="section-label">Section 10</div>
+        <h2 class="section-title">Three lawsuits in 24 hours</h2>
+        <div class="prose">
+          <p>
+            Spanberger signed SB 749 on Thursday, May 14, 2026. Within 24 hours,
+            at least three separate legal actions had been filed against it.
+          </p>
+        </div>
+
+        <div class="callout callout-danger">
+          <div class="callout-label">Action 1 &mdash; Joint federal suit</div>
+          <p>
+            <strong><em>McDonald v. Katz</em></strong> &mdash; filed in federal court
+            on May 14 as a joint action by the Second Amendment Foundation, the National
+            Rifle Association, the Firearms Policy Coalition, and two private-citizen
+            co-plaintiffs. The complaint challenges both the assault-firearms ban
+            and the 15-round magazine cap as facially unconstitutional under the Second
+            and Fourteenth Amendments.
+          </p>
+        </div>
+
+        <div class="callout callout-danger">
+          <div class="callout-label">
+            Action 2 &mdash; NRA Virginia state suit
+          </div>
+          <p>
+            <strong><em>Santolla v. Katz</em></strong> &mdash; filed by the NRA in
+            Washington County Circuit Court on May 14, challenging SB 749 under <strong
+              >Article I, Section 13</strong
+            > of the Virginia Constitution. State court is a parallel track to the
+            federal litigation, and a state-court injunction would be enforceable
+            against Virginia officials regardless of the federal posture.
+          </p>
+        </div>
+
+        <div class="callout callout-danger">
+          <div class="callout-label">Action 3 &mdash; DOJ federal suit</div>
+          <p>
+            On <strong>May 15, 2026</strong>, the U.S. Department of Justice
+            filed its own federal suit against the Commonwealth through the
+            Civil Rights Division's Second Amendment Section, led by Harmeet
+            Dhillon. A DOJ-led 2A enforcement action against a state AWB is new
+            territory and the most politically loaded of the three filings.
+          </p>
+        </div>
+
+        <div class="callout callout-navy">
+          <div class="callout-label">Three tracks, one law</div>
+          <p>
+            <strong>Joint federal suit</strong> tests SB 749 under the Second Amendment
+            as interpreted by <em>Heller</em>, <em>Bruen</em>, and
+            <em>Rahimi</em>. <strong>State suit</strong> tests it under the Virginia
+            Constitution's Article I, Section 13. <strong>DOJ suit</strong> tests
+            it as a federal civil-rights enforcement matter. Any one of the three
+            could obtain a preliminary injunction before the July 1 effective date.
+          </p>
+        </div>
+      </div>
+
+      <!-- Bruen / Heller -->
+      <div class="section" data-reveal>
+        <div class="section-label">Section 11</div>
+        <h2 class="section-title">The Bruen and Heller problem</h2>
+        <div class="prose">
+          <p>
+            Under <em>NYSRPA v. Bruen</em> (2022), firearms regulations must be consistent
+            with America's historical tradition of firearm regulation. Under <em
+              >District of Columbia v. Heller</em
+            > (2008), arms &ldquo;in common use&rdquo; for lawful purposes are constitutionally
+            protected and cannot be categorically banned.
+          </p>
+          <p>
+            The AR-15 alone accounts for tens of millions of firearms in
+            civilian hands in the United States. The plaintiffs' core argument
+            is simple: <strong
+              >these are arms in common use for lawful purposes</strong
+            > by the only measure the Supreme Court has provided, and a state cannot
+            wholesale ban them by features.
+          </p>
+          <p>
+            But Virginia sits in the worst possible circuit for that argument.
+          </p>
+        </div>
+
+        <div class="callout callout-danger">
+          <div class="callout-label">
+            Bianchi v. Brown &mdash; the binding precedent
+          </div>
+          <p>
+            In <strong>August 2024</strong>, the Fourth Circuit sitting en banc
+            upheld Maryland's assault weapons ban <strong>10&ndash;5</strong> in
+            <em>Bianchi v. Brown</em>. The Fourth Circuit held that AR-15-style
+            rifles are not protected under <em>Heller</em>'s &ldquo;in common
+            use&rdquo; test and that features-based AWBs are consistent with
+            historical tradition under <em>Bruen</em>.
+          </p>
+          <p>
+            Virginia sits in the Fourth Circuit. <em>Bianchi</em> is binding precedent
+            on the federal court hearing <em>McDonald v. Katz</em>. That is the
+            legal headwind SB 749's challengers face from day one.
+          </p>
+        </div>
+
+        <div class="callout callout-warning">
+          <div class="callout-label">Snope v. Brown &mdash; cert denied</div>
+          <p>
+            The Supreme Court denied cert in <em>Snope v. Brown</em> on
+            <strong>June 2, 2025</strong>. Justices Alito, Gorsuch, and Thomas
+            would have granted &mdash; one short of the four needed. There is
+            <strong>no pending SCOTUS vehicle</strong> on the features-based AWB question
+            as of the SB 749 signing. The Fourth Circuit is the last word for Virginia
+            plaintiffs unless and until a new case is taken up.
+          </p>
+        </div>
+
+        <div class="callout callout-navy">
+          <div class="callout-label">The state-court door</div>
+          <p>
+            That is why <em>Santolla v. Katz</em> in Washington County Circuit matters.
+            The Virginia state-constitutional track is not bound by
+            <em>Bianchi</em>. The Virginia Supreme Court has never construed
+            Article I, Section 13 as a ceiling on the legislature's power to ban
+            firearms by category. If a federal injunction is unavailable under <em
+              >Bianchi</em
+            >, state court is the alternative path.
+          </p>
+        </div>
+      </div>
+
+      <!-- National context -->
+      <div class="section" data-reveal>
+        <div class="section-label">Section 12</div>
+        <h2 class="section-title">Virginia makes 11</h2>
+        <table class="tbl">
+          <thead
+            ><tr><th>State</th><th>Mechanism</th><th>Effective</th></tr></thead
+          >
+          <tbody>
+            <tr
+              ><td><strong>California</strong></td><td>Features + roster</td><td
+                >Long-standing</td
+              ></tr
+            >
+            <tr
+              ><td><strong>Connecticut</strong></td><td>Features + list</td><td
+                >Long-standing</td
+              ></tr
+            >
+            <tr
+              ><td><strong>Delaware</strong></td><td>Features + list</td><td
+                >2022</td
+              ></tr
+            >
+            <tr
+              ><td><strong>Hawaii</strong></td><td>Features</td><td
+                >Long-standing</td
+              ></tr
+            >
+            <tr
+              ><td><strong>Illinois</strong></td><td>Features + list</td><td
+                >2023</td
+              ></tr
+            >
+            <tr
+              ><td><strong>Maryland</strong></td><td>Features + list</td><td
+                >Long-standing</td
+              ></tr
+            >
+            <tr
+              ><td><strong>Massachusetts</strong></td><td>Features + list</td
+              ><td>Long-standing</td></tr
+            >
+            <tr
+              ><td><strong>New Jersey</strong></td><td>Features + list</td><td
+                >Long-standing</td
+              ></tr
+            >
+            <tr
+              ><td><strong>New York</strong></td><td>Features</td><td
+                >Long-standing</td
+              ></tr
+            >
+            <tr
+              ><td><strong>Washington</strong></td><td>Features</td><td>2023</td
+              ></tr
+            >
+            <tr
+              ><td><strong>Virginia</strong></td><td>Features (6 categories)</td
+              ><td style="color:var(--red);font-weight:700;">July 1, 2026</td
+              ></tr
+            >
+          </tbody>
+        </table>
+
+        <div class="prose">
+          <p>
+            Virginia is the first state to add itself to the AWB roster since
+            Washington in 2023. It is the first southern state with a
+            features-based AWB. And it sits inside the Fourth Circuit, which
+            already <strong>upheld</strong> Maryland's ban in
+            <em>Bianchi v. Brown</em> in August 2024 &mdash; en banc, 10&ndash;5.
+            Federal challengers in Virginia start the case from inside the circuit
+            that has already ruled against them.
+          </p>
+        </div>
+      </div>
+
+      <!-- Closing pullquote -->
+      <div class="pullquote" data-reveal>
+        Eleven states. Three lawsuits. <span class="red"
+          >One Fourth Circuit that already said no.</span
+        > And every gun owner under 21 in Virginia just lost the right to possess
+        a rifle their family already owns.
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="inverted inverted-wide" data-reveal>
+      <h2>
+        This is the ban every gun-rights case for the next decade is about to
+        run through.
+      </h2>
+      <p>
+        Bearing Freedom covers Virginia legislation, federal court rulings, and
+        the cases that are going to decide what the Second Amendment actually
+        protects. Watch on YouTube. Read here.
+      </p>
+      <a
+        href="https://www.youtube.com/@BearingFreedom?sub_confirmation=1"
+        target="_blank"
+        class="sub-btn">Subscribe &mdash; Bearing Freedom</a
+      >
+    </div>
+
+    <!-- Footer -->
+    <div class="foot">
+      <p>
+        Commentary and opinion. Not legal advice. &copy; 2026 Bearing Freedom
+      </p>
+    </div>
+
+    <script is:inline>
+      var obs = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) {
+              e.target.classList.add('vis');
+              obs.unobserve(e.target);
+            }
+          });
+        },
+        { threshold: 0.08, rootMargin: '0px 0px -30px 0px' },
+      );
+      document.querySelectorAll('[data-reveal]').forEach(function (el) {
+        obs.observe(el);
+      });
+    </script>
+  </body>
+</html>
